@@ -1318,7 +1318,7 @@ body {
 }
 
 .header-copy::after {
-  content: "VLA";
+  content: "VIDEO";
   position: absolute;
   right: 34px;
   top: 24px;

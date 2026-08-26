@@ -1,6 +1,1662 @@
 [
   {
     "date": "2026-08-25",
+    "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+    "link": "http://arxiv.org/abs/2608.24845",
+    "arxiv_id": "2608.24845",
+    "detail_path": "papers/2608.24845/",
+    "cover_path": "covers/2608.24845/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "MoTE: Mixture of Task Experts for Multi-Task Video Understanding",
+    "link": "http://arxiv.org/abs/2608.24763",
+    "arxiv_id": "2608.24763",
+    "detail_path": "papers/2608.24763/",
+    "cover_path": "covers/2608.24763/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "论文提出 MoTE（Mixture of Task Experts），一种将 LLM 解码器中的共享 FFN 转换为任务特定专家的架构，同时保持多模态视频-语言骨干网络共享 核心解决多任务程序性视频理解中密集解码器共享 FFN 导致任务行为相互纠缠、难以受控扩展的问题；现有稀疏 MoE 的 token 级路由又与任务级目标不对齐 作者将该架构实例化为 VideoLLM-MoTE，在五个 COIN 基准任务上验证其有效性，并进一步将相同原则迁移至文档理解领域（GLM-OCR-MoTE）",
+    "research_unit": "University of Kaiserslautern-Landau (RPTU)，德国凯泽斯劳滕",
+    "hook_text": "论文提出 MoTE（Mixture of Task Experts），一种将 LLM 解码器中的共享 FFN 转换为任务特定专家的架构，同时保持多模态视频-语言骨干网络共享",
+    "key_points": [
+      "论文提出 MoTE（Mixture of Task Experts），一种将 LLM 解码器中的共享 FFN 转换为任务特定专家的架构，同时保持多模态视频-语言骨干网络共享",
+      "核心解决多任务程序性视频理解中密集解码器共享 FFN 导致任务行为相互纠缠、难以受控扩展的问题；现有稀疏 MoE 的 token 级路由又与任务级目标不对齐",
+      "作者将该架构实例化为 VideoLLM-MoTE，在五个 COIN 基准任务上验证其有效性，并进一步将相同原则迁移至文档理解领域（GLM-OCR-MoTE）"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+    "link": "http://arxiv.org/abs/2608.24680",
+    "arxiv_id": "2608.24680",
+    "detail_path": "papers/2608.24680/",
+    "cover_path": "covers/2608.24680/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "论文提出 Game2World Engine (G2WEngine)，一个将互联网游戏实机视频转化为世界模型训练数据的全栈数据引擎，解决原始游戏画面中 HUD 等界面元素对世界模型训练造成干扰的问题 论文引入 GameUI-Taxonomy 统一游戏 UI 分类体系，构建 Game2World 数据集，并训练 GameCleaner 游戏 UI 去除模型，实现对真实游戏视频中界面元素的自动识别与移除 通过受控实验证明：去除 UI 后的游戏画面作为世界模型训练数据，可显著提升视频生成质量（整体 VideoReward 提升 6.83%）",
+    "research_unit": "论文中未明确列出作者所属机构（作者为 Wenxuan Shen、Dongna Jin、Dongping…",
+    "hook_text": "论文提出 Game2World Engine (G2WEngine)，一个将互联网游戏实机视频转化为世界模型训练数据的全栈数据引擎，解决原始游戏画面中 HUD 等界面元素对世界模型训练造成干扰的问题",
+    "key_points": [
+      "论文提出 Game2World Engine (G2WEngine)，一个将互联网游戏实机视频转化为世界模型训练数据的全栈数据引擎，解决原始游戏画面中 HUD 等界面元素对世界模型训练造成干扰的问题",
+      "论文引入 GameUI-Taxonomy 统一游戏 UI 分类体系，构建 Game2World 数据集，并训练 GameCleaner 游戏 UI 去除模型，实现对真实游戏视频中界面元素的自动识别与移除",
+      "通过受控实验证明：去除 UI 后的游戏画面作为世界模型训练数据，可显著提升视频生成质量（整体 VideoReward 提升 6.83%）"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "title": "IntentQA: Intent Question Answering in Videos by Cognitive Context Reasoning",
+    "link": "http://arxiv.org/abs/2608.23330",
+    "arxiv_id": "2608.23330",
+    "detail_path": "papers/2608.23330/",
+    "cover_path": "covers/2608.23330/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出新任务 IntentQA：视频意图问答，要求 AI 理解动作背后的心理目标与意图，而非仅识别视觉事实 构建大规模 IntentQA 数据集（4,303 视频、16,297 QA 对），并引入五类 Contrast Set 与新指标 \"Contrast Performance Decline\" 评估模型鲁棒性 提出 X-CaVIR（eXplainable Context-aware Video Intent Reasoning）框架，融合情境、对比、常识三类认知上下文，并通过 LLM 透明管线实现可解释推理",
+    "research_unit": "西安交通大学（National Key Laboratory of Human-Machine Hyb…",
+    "hook_text": "提出新任务 IntentQA：视频意图问答，要求 AI 理解动作背后的心理目标与意图，而非仅识别视觉事实",
+    "key_points": [
+      "提出新任务 IntentQA：视频意图问答，要求 AI 理解动作背后的心理目标与意图，而非仅识别视觉事实",
+      "构建大规模 IntentQA 数据集（4,303 视频、16,297 QA 对），并引入五类 Contrast Set 与新指标 \"Contrast Performance Decline\" 评估模型鲁棒性",
+      "提出 X-CaVIR（eXplainable Context-aware Video Intent Reasoning）框架，融合情境、对比、常识三类认知上下文，并通过 LLM 透明管线实现可解释推理"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "title": "Thinking Beyond Videos: Unifying Video Reasoning and Deep Research for Open-World Video Agents",
+    "link": "http://arxiv.org/abs/2608.23329",
+    "arxiv_id": "2608.23329",
+    "detail_path": "papers/2608.23329/",
+    "cover_path": "covers/2608.23329/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出 VideoRover，一个统一的 Video Deep Research 框架，面向开放世界视频智能体，将 \"Thinking-with-Videos\"（主动视频感知）与 \"Deep Research\"（多步骤信息检索）两大能力融合 核心问题：开放世界视频理解需要模型同时定位稀疏视觉证据并获取视频和参数记忆之外的外部知识，但现有方法将视频推理与深度检索割裂，缺乏基于共享研究状态的持续协调 方法核心：迭代协调\"视频裁剪、多模态搜索、网页浏览\"三类工具，视频定位结果引导外部检索，检索证据反过来触发视频复查与验证，形成双向反馈闭环",
+    "research_unit": "山东大学（Shandong University）：多名作者所属，包含 Wenqi Liu、Yunxi…",
+    "hook_text": "提出 VideoRover，一个统一的 Video Deep Research 框架，面向开放世界视频智能体，将 \"Thinking-with-Videos\"（主动视频感知）与 \"Deep Research\"（多步骤信息检索）两大能力融合",
+    "key_points": [
+      "提出 VideoRover，一个统一的 Video Deep Research 框架，面向开放世界视频智能体，将 \"Thinking-with-Videos\"（主动视频感知）与 \"Deep Research\"（多步骤信息检索）两大能力融合",
+      "核心问题：开放世界视频理解需要模型同时定位稀疏视觉证据并获取视频和参数记忆之外的外部知识，但现有方法将视频推理与深度检索割裂，缺乏基于共享研究状态的持续协调",
+      "方法核心：迭代协调\"视频裁剪、多模态搜索、网页浏览\"三类工具，视频定位结果引导外部检索，检索证据反过来触发视频复查与验证，形成双向反馈闭环"
+    ],
+    "reading_minutes": 10,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "title": "Loopy: Seamless Video Loop Generation via Anchored Looping Shift of Positional Embedding",
+    "link": "http://arxiv.org/abs/2608.23090",
+    "arxiv_id": "2608.23090",
+    "detail_path": "papers/2608.23090/",
+    "cover_path": "covers/2608.23090/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "论文提出 Loopy 框架，用于高质量无缝循环视频（seamless looping video）生成，解决现有视频生成模型无法实现循环边界平滑过渡的问题。 首次系统揭示 DiT（Diffusion Transformer） 中不同注意力层的 RoPE（Rotary Position Embedding） 对时间位置控制能力存在显著差异，其中控制效果最强的层可作为\"锚点\"（anchor）。 基于该发现提出 Anchored Position Embedding Shifting（锚定位置嵌入偏移） 策略，将 DiT 的时间感知从线性序列转变为环形结构，并支持 RGB 和 RGBA 两种模态的循环视频生成。",
+    "research_unit": "天津大学（Tianjin University）：第一作者 Haotian Dong、通讯作者 Di…",
+    "hook_text": "论文提出 Loopy 框架，用于高质量无缝循环视频（seamless looping video）生成，解决现有视频生成模型无法实现循环边界平滑过渡的问题。",
+    "key_points": [
+      "论文提出 Loopy 框架，用于高质量无缝循环视频（seamless looping video）生成，解决现有视频生成模型无法实现循环边界平滑过渡的问题。",
+      "首次系统揭示 DiT（Diffusion Transformer） 中不同注意力层的 RoPE（Rotary Position Embedding） 对时间位置控制能力存在显著差异，其中控制效果最强的层可作为\"锚点\"（anchor）。",
+      "基于该发现提出 Anchored Position Embedding Shifting（锚定位置嵌入偏移） 策略，将 DiT 的时间感知从线性序列转变为环形结构，并支持 RGB 和 RGBA 两种模态的循环视频生成。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "title": "Coarse Indexing, Fine Evidence: Decoupling Temporal Granularity in Long-Video RAG",
+    "link": "http://arxiv.org/abs/2608.23011",
+    "arxiv_id": "2608.23011",
+    "detail_path": "papers/2608.23011/",
+    "cover_path": "covers/2608.23011/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出Density-Aware Graph Construction (DAGC)，一种训练免费的图检索增强生成（RAG）方法，用于长视频理解。 核心观点是：索引粒度与证据粒度无需保持一致——粗粒度索引足以定位相关时间区域，而细粒度证据对下游推理仍然必要。 解决现有图视频RAG系统中固定时间粒度导致的计算冗余问题，减少图构建成本同时保持QA性能。",
+    "research_unit": "北京邮电大学",
+    "hook_text": "提出Density-Aware Graph Construction (DAGC)，一种训练免费的图检索增强生成（RAG）方法，用于长视频理解。",
+    "key_points": [
+      "提出Density-Aware Graph Construction (DAGC)，一种训练免费的图检索增强生成（RAG）方法，用于长视频理解。",
+      "核心观点是：索引粒度与证据粒度无需保持一致——粗粒度索引足以定位相关时间区域，而细粒度证据对下游推理仍然必要。",
+      "解决现有图视频RAG系统中固定时间粒度导致的计算冗余问题，减少图构建成本同时保持QA性能。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "title": "Direct, Parallel, or Sequential? A Comparative Study of Training-Free Multi-Subject Image-to-Video Generation",
+    "link": "http://arxiv.org/abs/2608.22819",
+    "arxiv_id": "2608.22819",
+    "detail_path": "papers/2608.22819/",
+    "cover_path": "covers/2608.22819/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "系统比较了三种训练无关（training-free）的多主体图像到视频（Multi-Subject I2V）生成范式：直接生成（Direct）、并行生成（Parallel） 与 顺序生成（Sequential）。 核心问题：在保持多个主体各自外观、赋予不同运动并维持空间与时间交互的同时，如何利用冻结的预训练视频扩散模型完成多主体视频合成。 研究目标：在统一实验协议下量化三种范式在外观保持、运动保真度、时间一致性和主体间连贯性上的权衡，并总结各自独特的失败模式。",
+    "research_unit": "孟菲斯大学（University of Memphis）— Yanliang Qi、Haomiao N…",
+    "hook_text": "系统比较了三种训练无关（training-free）的多主体图像到视频（Multi-Subject I2V）生成范式：直接生成（Direct）、并行生成（Parallel） 与 顺序生成（Sequential）。",
+    "key_points": [
+      "系统比较了三种训练无关（training-free）的多主体图像到视频（Multi-Subject I2V）生成范式：直接生成（Direct）、并行生成（Parallel） 与 顺序生成（Sequential）。",
+      "核心问题：在保持多个主体各自外观、赋予不同运动并维持空间与时间交互的同时，如何利用冻结的预训练视频扩散模型完成多主体视频合成。",
+      "研究目标：在统一实验协议下量化三种范式在外观保持、运动保真度、时间一致性和主体间连贯性上的权衡，并总结各自独特的失败模式。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-22",
+    "title": "GaussVid: Sparse-View Gaussian Splatting with 3D-Aware Video Diffusion Priors",
+    "link": "http://arxiv.org/abs/2608.21849",
+    "arxiv_id": "2608.21849",
+    "detail_path": "papers/2608.21849/",
+    "cover_path": "covers/2608.21849/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "针对稀疏视角下3D高斯泼溅（3DGS）重建易出现浮子、结构模糊、多视角不一致的问题，现有2D/视频扩散先验缺乏3D感知，导致跨视角几何不一致 提出GaussVid框架，将稀疏3DGS重建恢复定义为帧条件重建问题，利用3D感知的视频扩散先验校正伪影，同时保证多视角几何一致性 核心目标是实现高保真、多视角一致的稀疏视角新视角合成，且框架可无缝集成到现有稀疏3DGS方法中",
+    "research_unit": "香港大学计算与数据科学学院：Xinhui Liu、Can Wang、Dong Xu（Dong Xu为通…",
+    "hook_text": "针对稀疏视角下3D高斯泼溅（3DGS）重建易出现浮子、结构模糊、多视角不一致的问题，现有2D/视频扩散先验缺乏3D感知，导致跨视角几何不一致",
+    "key_points": [
+      "针对稀疏视角下3D高斯泼溅（3DGS）重建易出现浮子、结构模糊、多视角不一致的问题，现有2D/视频扩散先验缺乏3D感知，导致跨视角几何不一致",
+      "提出GaussVid框架，将稀疏3DGS重建恢复定义为帧条件重建问题，利用3D感知的视频扩散先验校正伪影，同时保证多视角几何一致性",
+      "核心目标是实现高保真、多视角一致的稀疏视角新视角合成，且框架可无缝集成到现有稀疏3DGS方法中"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-22",
+    "title": "FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling",
+    "link": "http://arxiv.org/abs/2608.21839",
+    "arxiv_id": "2608.21839",
+    "detail_path": "papers/2608.21839/",
+    "cover_path": "covers/2608.21839/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "本文提出FIRM-Video，一个基于check-before-score原则的统一清单驱动型文本到视频（T2V）奖励模型数据构建框架，旨在解决现有T2V奖励模型存在的评估不完整、评估理由不忠实、维度归因 entangled 以及训练监督质量不足的问题，为T2V生成模型的评估、对齐和推理时选择提供可靠的监督信号。 该框架围绕指令遵循（IF）、世界一致性（WC）、感知质量（PQ）三个核心评估维度构建专属验证流程，将显式的清单验证结果转化为自然语言分析，最终蒸馏为高效的端到端奖励模型。 研究同步构建了大规模训练数据集FIRM-Video-90K和专家标注评估基准FIRM-Video-Bench，验证所提出框架在人类对齐度和实际应用效果上的有效性。",
+    "research_unit": "Shanghai Jiao Tong University",
+    "hook_text": "本文提出FIRM-Video，一个基于check-before-score原则的统一清单驱动型文本到视频（T2V）奖励模型数据构建框架，旨在解决现有T2V奖励模型存在的评估不完整、评估理由不忠实、维度归因 entangled 以及训练监督质量不足的问题，为T2V生成模型的评估、对齐和推理时选择提供可靠的监督信号。",
+    "key_points": [
+      "本文提出FIRM-Video，一个基于check-before-score原则的统一清单驱动型文本到视频（T2V）奖励模型数据构建框架，旨在解决现有T2V奖励模型存在的评估不完整、评估理由不忠实、维度归因 entangled 以及训练监督质量不足的问题，为T2V生成模型的评估、对齐和推理时选择提供可靠的监督信号。",
+      "该框架围绕指令遵循（IF）、世界一致性（WC）、感知质量（PQ）三个核心评估维度构建专属验证流程，将显式的清单验证结果转化为自然语言分析，最终蒸馏为高效的端到端奖励模型。",
+      "研究同步构建了大规模训练数据集FIRM-Video-90K和专家标注评估基准FIRM-Video-Bench，验证所提出框架在人类对齐度和实际应用效果上的有效性。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+    "link": "http://arxiv.org/abs/2608.20910",
+    "arxiv_id": "2608.20910",
+    "detail_path": "papers/2608.20910/",
+    "cover_path": "covers/2608.20910/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出 无限视频编辑 (infinite video editing) 任务：给定前序视频片段和编辑指令，模型需生成后续视频片段并持续应用编辑，支持无限长度的编辑序列 区别于传统原地编辑 (in-place editing) 的固定时间窗口帧级重写，要求生成自然的时序延续并保持未编辑内容的一致性 核心挑战包括：忠实延续性（生成内容需自然衔接而非改写输入）和编辑累积下的生成稳定性（误差不随时间扩散）",
+    "research_unit": "Zhejiang University（浙江大学）",
+    "hook_text": "提出 无限视频编辑 (infinite video editing) 任务：给定前序视频片段和编辑指令，模型需生成后续视频片段并持续应用编辑，支持无限长度的编辑序列",
+    "key_points": [
+      "提出 无限视频编辑 (infinite video editing) 任务：给定前序视频片段和编辑指令，模型需生成后续视频片段并持续应用编辑，支持无限长度的编辑序列",
+      "区别于传统原地编辑 (in-place editing) 的固定时间窗口帧级重写，要求生成自然的时序延续并保持未编辑内容的一致性",
+      "核心挑战包括：忠实延续性（生成内容需自然衔接而非改写输入）和编辑累积下的生成稳定性（误差不随时间扩散）"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Enhancing Localized Reasoning for Long Video Understanding via Efficient Segment-to-Video Supervision",
+    "link": "http://arxiv.org/abs/2608.20814",
+    "arxiv_id": "2608.20814",
+    "detail_path": "papers/2608.20814/",
+    "cover_path": "covers/2608.20814/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "针对现有长视频理解（LVU）基于推理的方法存在两大核心问题：一是强化微调框架（RFT）带来高标注成本、复杂奖励设计等大训练开销，二是自反射迭代感知机制导致长输出、高推理延迟 提出Segment-to-Video Supervision（S2V）方法，通过先基于短视频片段生成VQA，再将片段级VQA迁移到全视频进行训练，高效提升多模态大语言模型（MLLM）的细粒度推理能力，同时抑制全视频的干扰噪声 研究目标是实现LVU准确率、训练效率、推理效率的三重提升，同时超越通用MLLM和现有LVU定制方法",
+    "research_unit": "南京大学 软件新技术国家重点实验室",
+    "hook_text": "针对现有长视频理解（LVU）基于推理的方法存在两大核心问题：一是强化微调框架（RFT）带来高标注成本、复杂奖励设计等大训练开销，二是自反射迭代感知机制导致长输出、高推理延迟",
+    "key_points": [
+      "针对现有长视频理解（LVU）基于推理的方法存在两大核心问题：一是强化微调框架（RFT）带来高标注成本、复杂奖励设计等大训练开销，二是自反射迭代感知机制导致长输出、高推理延迟",
+      "提出Segment-to-Video Supervision（S2V）方法，通过先基于短视频片段生成VQA，再将片段级VQA迁移到全视频进行训练，高效提升多模态大语言模型（MLLM）的细粒度推理能力，同时抑制全视频的干扰噪声",
+      "研究目标是实现LVU准确率、训练效率、推理效率的三重提升，同时超越通用MLLM和现有LVU定制方法"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Routing Before Looking: Query-Adaptive Evidence Acquisition for Long-form Video Understanding",
+    "link": "http://arxiv.org/abs/2608.20805",
+    "arxiv_id": "2608.20805",
+    "detail_path": "papers/2608.20805/",
+    "cover_path": "covers/2608.20805/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "针对长视频理解中查询需求与证据获取策略不匹配的核心问题，提出轻量级、模型无关的查询自适应证据获取框架Route2Look 框架采用Route-Look-Memorize循环，配备三种证据获取工具，通过动态选择工具适配不同查询类型的证据需求 研究目标是在不更新骨干模型的前提下，实现高准确率、高帧效率的长视频理解，覆盖全局理解、显式时间、隐式时间三类查询",
+    "research_unit": "中科院自动化所",
+    "hook_text": "针对长视频理解中查询需求与证据获取策略不匹配的核心问题，提出轻量级、模型无关的查询自适应证据获取框架Route2Look",
+    "key_points": [
+      "针对长视频理解中查询需求与证据获取策略不匹配的核心问题，提出轻量级、模型无关的查询自适应证据获取框架Route2Look",
+      "框架采用Route-Look-Memorize循环，配备三种证据获取工具，通过动态选择工具适配不同查询类型的证据需求",
+      "研究目标是在不更新骨干模型的前提下，实现高准确率、高帧效率的长视频理解，覆盖全局理解、显式时间、隐式时间三类查询"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "title": "MotionPhys: Detecting AI-Generated Videos via Physical Consistency of Optical-Flow Trajectories",
+    "link": "http://arxiv.org/abs/2608.20770",
+    "arxiv_id": "2608.20770",
+    "detail_path": "papers/2608.20770/",
+    "cover_path": "covers/2608.20770/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "现有AI生成视频检测方法主要依赖外观伪影或生成器特定的痕迹，易过拟合到特定数据分布，对新生成器的泛化能力差，且未考虑真实物理运动一致性约束 论文指出视觉上的连续性并不等同于真实的物理运动一致性，AI生成视频在短序列帧上视觉表现合理，但完整动作过程中会存在系统性的运动轨迹统计偏差 研究目标是提出轻量、可解释的检测框架，通过建模光流轨迹的物理一致性来识别AI生成视频，实现跨生成器的鲁棒检测",
+    "research_unit": "中国科学院自动化研究所多模态人工智能系统国家重点实验室，北京，中国",
+    "hook_text": "现有AI生成视频检测方法主要依赖外观伪影或生成器特定的痕迹，易过拟合到特定数据分布，对新生成器的泛化能力差，且未考虑真实物理运动一致性约束",
+    "key_points": [
+      "现有AI生成视频检测方法主要依赖外观伪影或生成器特定的痕迹，易过拟合到特定数据分布，对新生成器的泛化能力差，且未考虑真实物理运动一致性约束",
+      "论文指出视觉上的连续性并不等同于真实的物理运动一致性，AI生成视频在短序列帧上视觉表现合理，但完整动作过程中会存在系统性的运动轨迹统计偏差",
+      "研究目标是提出轻量、可解释的检测框架，通过建模光流轨迹的物理一致性来识别AI生成视频，实现跨生成器的鲁棒检测"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "title": "Identity-Preserving Text-to-Video Generation via Agentic Enhancement and Semantic Repair",
+    "link": "http://arxiv.org/abs/2608.20749",
+    "arxiv_id": "2608.20749",
+    "detail_path": "papers/2608.20749/",
+    "cover_path": "covers/2608.20749/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "针对闭源商业视频生成模型在身份保持视频生成任务中存在的身份漂移、复杂指令遵循不足、视觉细节缺失等问题，提出轻量级接口层增强框架AESR，无需修改模型参数即可提升生成效果 通过全局智能体提示增强模块优化输入提示，通过样本级视觉语义修复模块修正生成视频的局部错误，进一步提升生成质量 在ACM MM 2026身份保持视频生成挑战赛面部身份保持赛道（Track 1）中获得第一名，验证方案有效性",
+    "research_unit": "北京大学王选计算机技术研究所（Wangxuan Institute of Computer Techn…",
+    "hook_text": "针对闭源商业视频生成模型在身份保持视频生成任务中存在的身份漂移、复杂指令遵循不足、视觉细节缺失等问题，提出轻量级接口层增强框架AESR，无需修改模型参数即可提升生成效果",
+    "key_points": [
+      "针对闭源商业视频生成模型在身份保持视频生成任务中存在的身份漂移、复杂指令遵循不足、视觉细节缺失等问题，提出轻量级接口层增强框架AESR，无需修改模型参数即可提升生成效果",
+      "通过全局智能体提示增强模块优化输入提示，通过样本级视觉语义修复模块修正生成视频的局部错误，进一步提升生成质量",
+      "在ACM MM 2026身份保持视频生成挑战赛面部身份保持赛道（Track 1）中获得第一名，验证方案有效性"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+    "link": "http://arxiv.org/abs/2608.20335",
+    "arxiv_id": "2608.20335",
+    "detail_path": "papers/2608.20335/",
+    "cover_path": "covers/2608.20335/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出4DAnyone框架，从非标定单目视频中重建高保真4D人类，通过生成达到重建级别的多视角一致视频并将其提升为4D高斯泼溅（4DGS） 解决了现有的相机控制视频扩散模型在生成数十个目标视角视频时无法维持跨视角一致性的问题 克服了当目标视角超过单次DiT前向传播容量时产生的有界注意力上下文问题，防止跨组结构漂移和外观不一致",
+    "research_unit": "State Key Lab of CAD&CG, Zhejiang University",
+    "hook_text": "提出4DAnyone框架，从非标定单目视频中重建高保真4D人类，通过生成达到重建级别的多视角一致视频并将其提升为4D高斯泼溅（4DGS）",
+    "key_points": [
+      "提出4DAnyone框架，从非标定单目视频中重建高保真4D人类，通过生成达到重建级别的多视角一致视频并将其提升为4D高斯泼溅（4DGS）",
+      "解决了现有的相机控制视频扩散模型在生成数十个目标视角视频时无法维持跨视角一致性的问题",
+      "克服了当目标视角超过单次DiT前向传播容量时产生的有界注意力上下文问题，防止跨组结构漂移和外观不一致"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "title": "BeyondMasks: Evaluating Causal and Physical Consistency in Video Object Removal",
+    "link": "http://arxiv.org/abs/2608.20107",
+    "arxiv_id": "2608.20107",
+    "detail_path": "papers/2608.20107/",
+    "cover_path": "covers/2608.20107/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "论文提出BeyondMasks基准数据集，用于评估视频对象移除任务中的因果和物理一致性 解决现有评估方法仅关注掩码区域保真度，忽略对象移除后应消除的物理效应（阴影、反射、光照变化、半透明效应、动态痕迹等）的问题 提出基于视觉-语言模型的CORE评估框架，同时衡量对象消失和后效应一致性，更贴近人类判断",
+    "research_unit": "Bilkent University，计算机工程系，土耳其安卡拉",
+    "hook_text": "论文提出BeyondMasks基准数据集，用于评估视频对象移除任务中的因果和物理一致性",
+    "key_points": [
+      "论文提出BeyondMasks基准数据集，用于评估视频对象移除任务中的因果和物理一致性",
+      "解决现有评估方法仅关注掩码区域保真度，忽略对象移除后应消除的物理效应（阴影、反射、光照变化、半透明效应、动态痕迹等）的问题",
+      "提出基于视觉-语言模型的CORE评估框架，同时衡量对象消失和后效应一致性，更贴近人类判断"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "title": "PL-NBA: A Possession-level Universal Basketball Video Dataset Supporting Multiple Visual Understanding Tasks",
+    "link": "http://arxiv.org/abs/2608.19646",
+    "arxiv_id": "2608.19646",
+    "detail_path": "papers/2608.19646/",
+    "cover_path": "covers/2608.19646/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "构建了首个以进攻回合（possession）为基本单位的篮球视频数据集 PL-NBA，弥补现有数据集仅关注孤立动作、忽略事件时序连续性的不足 数据集包含完整的 NBA 进攻回合视频，支持事件识别、视频描述、时序动作定位以及动作预测等多种视觉理解任务 旨在为篮球战术分析、智能转播等复杂应用场景提供统一的高质量数据支撑",
+    "research_unit": "北京工业大学 (Beijing University of Technology) – 主要完成单位…",
+    "hook_text": "构建了首个以进攻回合（possession）为基本单位的篮球视频数据集 PL-NBA，弥补现有数据集仅关注孤立动作、忽略事件时序连续性的不足",
+    "key_points": [
+      "构建了首个以进攻回合（possession）为基本单位的篮球视频数据集 PL-NBA，弥补现有数据集仅关注孤立动作、忽略事件时序连续性的不足",
+      "数据集包含完整的 NBA 进攻回合视频，支持事件识别、视频描述、时序动作定位以及动作预测等多种视觉理解任务",
+      "旨在为篮球战术分析、智能转播等复杂应用场景提供统一的高质量数据支撑"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "title": "RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience",
+    "link": "http://arxiv.org/abs/2608.18948",
+    "arxiv_id": "2608.18948",
+    "detail_path": "papers/2608.18948/",
+    "cover_path": "covers/2608.18948/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "提出 RoboEdit 套件，将海量人类操作视频自动转换为物理合理的机器人交互视频及对应的3D手部状态，为机器人学习提供可扩展的视觉与运动监督。 解决人类视频与机器人视频之间的实体形态差异，使现成的人类视频可直接用于机器人训练。 构建大规模人-机器人配对数据集 RoboEdit-14M，并设计视频编辑模型 RoboEdit-Trans 实现跨实体编辑与3D状态解码。",
+    "research_unit": "University of California, Los Angeles (UCLA)",
+    "hook_text": "提出 RoboEdit 套件，将海量人类操作视频自动转换为物理合理的机器人交互视频及对应的3D手部状态，为机器人学习提供可扩展的视觉与运动监督。",
+    "key_points": [
+      "提出 RoboEdit 套件，将海量人类操作视频自动转换为物理合理的机器人交互视频及对应的3D手部状态，为机器人学习提供可扩展的视觉与运动监督。",
+      "解决人类视频与机器人视频之间的实体形态差异，使现成的人类视频可直接用于机器人训练。",
+      "构建大规模人-机器人配对数据集 RoboEdit-14M，并设计视频编辑模型 RoboEdit-Trans 实现跨实体编辑与3D状态解码。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "title": "CamWorldQA: Perceptual Quality Assessment of Camera-Controlled World Video Generation",
+    "link": "http://arxiv.org/abs/2608.18710",
+    "arxiv_id": "2608.18710",
+    "detail_path": "papers/2608.18710/",
+    "cover_path": "covers/2608.18710/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+    "link": "http://arxiv.org/abs/2608.18607",
+    "arxiv_id": "2608.18607",
+    "detail_path": "papers/2608.18607/",
+    "cover_path": "covers/2608.18607/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "title": "StateTrace: An Object-Centric Framework for Hidden-State Spatiotemporal Reasoning in Long Videos",
+    "link": "http://arxiv.org/abs/2608.18532",
+    "arxiv_id": "2608.18532",
+    "detail_path": "papers/2608.18532/",
+    "cover_path": "covers/2608.18532/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "title": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing",
+    "link": "http://arxiv.org/abs/2608.17566",
+    "arxiv_id": "2608.17566",
+    "detail_path": "papers/2608.17566/",
+    "cover_path": "covers/2608.17566/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "title": "MSEditor: Toward Consistent Multi-Shot Video Editing",
+    "link": "http://arxiv.org/abs/2608.17559",
+    "arxiv_id": "2608.17559",
+    "detail_path": "papers/2608.17559/",
+    "cover_path": "covers/2608.17559/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+    "link": "http://arxiv.org/abs/2608.17426",
+    "arxiv_id": "2608.17426",
+    "detail_path": "papers/2608.17426/",
+    "cover_path": "covers/2608.17426/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "title": "VicEdit: Learning to Edit Videos from Visual In-Context Examples",
+    "link": "http://arxiv.org/abs/2608.16745",
+    "arxiv_id": "2608.16745",
+    "detail_path": "papers/2608.16745/",
+    "cover_path": "covers/2608.16745/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "title": "SQuad: Sub-Quadratic Attention Distillation for Efficient Video Generation",
+    "link": "http://arxiv.org/abs/2608.16585",
+    "arxiv_id": "2608.16585",
+    "detail_path": "papers/2608.16585/",
+    "cover_path": "covers/2608.16585/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
+    "link": "http://arxiv.org/abs/2608.16320",
+    "arxiv_id": "2608.16320",
+    "detail_path": "papers/2608.16320/",
+    "cover_path": "covers/2608.16320/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "title": "Deep Thought Alignment: Trajectory-Level Latent Distillation for Video Reasoning",
+    "link": "http://arxiv.org/abs/2608.16316",
+    "arxiv_id": "2608.16316",
+    "detail_path": "papers/2608.16316/",
+    "cover_path": "covers/2608.16316/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "title": "KeyID: Decoupled Drafting and Keyframe Editing for Identity-Preserving Video Generation",
+    "link": "http://arxiv.org/abs/2608.16154",
+    "arxiv_id": "2608.16154",
+    "detail_path": "papers/2608.16154/",
+    "cover_path": "covers/2608.16154/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-16",
+    "title": "FlowDance: Music-Driven Dance Video Generation with Parallel Pose and RGB Streams",
+    "link": "http://arxiv.org/abs/2608.15818",
+    "arxiv_id": "2608.15818",
+    "detail_path": "papers/2608.15818/",
+    "cover_path": "covers/2608.15818/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-16",
+    "title": "EgoGazeLite: On-Device Egocentric Gaze Prediction for Token-Efficient Multimodal LLM Video Input",
+    "link": "http://arxiv.org/abs/2608.15614",
+    "arxiv_id": "2608.15614",
+    "detail_path": "papers/2608.15614/",
+    "cover_path": "covers/2608.15614/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-16",
+    "title": "EditStream: A Unified Autoregressive Framework for Interactive Video Generation and Editing",
+    "link": "http://arxiv.org/abs/2608.21424",
+    "arxiv_id": "2608.21424",
+    "detail_path": "papers/2608.21424/",
+    "cover_path": "covers/2608.21424/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "title": "Beyond Text Conditioning: A Systematic Study of MLLM-DiT Fusion for Video Generation",
+    "link": "http://arxiv.org/abs/2608.14043",
+    "arxiv_id": "2608.14043",
+    "detail_path": "papers/2608.14043/",
+    "cover_path": "covers/2608.14043/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "title": "TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval",
+    "link": "http://arxiv.org/abs/2608.13495",
+    "arxiv_id": "2608.13495",
+    "detail_path": "papers/2608.13495/",
+    "cover_path": "covers/2608.13495/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
+    "link": "http://arxiv.org/abs/2608.13210",
+    "arxiv_id": "2608.13210",
+    "detail_path": "papers/2608.13210/",
+    "cover_path": "covers/2608.13210/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+    "link": "http://arxiv.org/abs/2608.13049",
+    "arxiv_id": "2608.13049",
+    "detail_path": "papers/2608.13049/",
+    "cover_path": "covers/2608.13049/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "title": "StrAD: A Streaming Method and Benchmark for Audio Description Generation for Long-form Videos",
+    "link": "http://arxiv.org/abs/2608.12549",
+    "arxiv_id": "2608.12549",
+    "detail_path": "papers/2608.12549/",
+    "cover_path": "covers/2608.12549/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+    "link": "http://arxiv.org/abs/2608.12313",
+    "arxiv_id": "2608.12313",
+    "detail_path": "papers/2608.12313/",
+    "cover_path": "covers/2608.12313/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "title": "TD-VAD: Breaking Visual Dependence in Video Anomaly Detection with Text-Driven Learning",
+    "link": "http://arxiv.org/abs/2608.11820",
+    "arxiv_id": "2608.11820",
+    "detail_path": "papers/2608.11820/",
+    "cover_path": "covers/2608.11820/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "title": "VideoGAIA: A Benchmark for General AI Assistants on Agentic Video Understanding",
+    "link": "http://arxiv.org/abs/2608.14718",
+    "arxiv_id": "2608.14718",
+    "detail_path": "papers/2608.14718/",
+    "cover_path": "covers/2608.14718/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "title": "VidForensics-M1: Meta-Detection Reinforcement Learning with Verifiable Temporal Grounding for AI-Generated Video Forensics",
+    "link": "http://arxiv.org/abs/2608.11201",
+    "arxiv_id": "2608.11201",
+    "detail_path": "papers/2608.11201/",
+    "cover_path": "covers/2608.11201/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Watching Synthetic Videos: Aligning Cross-modal Representations with Visual Synthesis for Zero-shot Video Captioning",
+    "link": "http://arxiv.org/abs/2608.11013",
+    "arxiv_id": "2608.11013",
+    "detail_path": "papers/2608.11013/",
+    "cover_path": "covers/2608.11013/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "title": "StreamFlow: Dynamic Memory Flows for Streaming Video Understanding",
+    "link": "http://arxiv.org/abs/2608.10949",
+    "arxiv_id": "2608.10949",
+    "detail_path": "papers/2608.10949/",
+    "cover_path": "covers/2608.10949/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "title": "Stream Forcing: Constructing Unified Training Trajectory for Robust Streaming Video Generation",
+    "link": "http://arxiv.org/abs/2608.10439",
+    "arxiv_id": "2608.10439",
+    "detail_path": "papers/2608.10439/",
+    "cover_path": "covers/2608.10439/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
+    "link": "http://arxiv.org/abs/2608.07463",
+    "arxiv_id": "2608.07463",
+    "detail_path": "papers/2608.07463/",
+    "cover_path": "covers/2608.07463/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "title": "From Cheap Fakes to Pure Synthesis: Addressing the New Era of T2V Fake News Videos",
+    "link": "http://arxiv.org/abs/2608.06732",
+    "arxiv_id": "2608.06732",
+    "detail_path": "papers/2608.06732/",
+    "cover_path": "covers/2608.06732/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "title": "UniVVT: A Unified End-to-End Framework for High-Fidelity Video Virtual Try-on",
+    "link": "http://arxiv.org/abs/2608.05745",
+    "arxiv_id": "2608.05745",
+    "detail_path": "papers/2608.05745/",
+    "cover_path": "covers/2608.05745/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
+    "link": "http://arxiv.org/abs/2608.05703",
+    "arxiv_id": "2608.05703",
+    "detail_path": "papers/2608.05703/",
+    "cover_path": "covers/2608.05703/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "title": "Reading Between the Frames: Interpreting Implicit and Non-literal Meaning in Social Media Videos",
+    "link": "http://arxiv.org/abs/2608.04939",
+    "arxiv_id": "2608.04939",
+    "detail_path": "papers/2608.04939/",
+    "cover_path": "covers/2608.04939/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models",
+    "link": "http://arxiv.org/abs/2608.03112",
+    "arxiv_id": "2608.03112",
+    "detail_path": "papers/2608.03112/",
+    "cover_path": "covers/2608.03112/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "title": "RSVideo: Are Your Vision-Language Models Ready for Remote Sensing Videos?",
+    "link": "http://arxiv.org/abs/2608.02039",
+    "arxiv_id": "2608.02039",
+    "detail_path": "papers/2608.02039/",
+    "cover_path": "covers/2608.02039/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-02",
+    "title": "MiniWorld: Democratizing the Training of Video World Models from Scratch",
+    "link": "http://arxiv.org/abs/2608.01127",
+    "arxiv_id": "2608.01127",
+    "detail_path": "papers/2608.01127/",
+    "cover_path": "covers/2608.01127/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "title": "MoRoute: Dynamic Routing for In-Context Multimodal Video Generation",
+    "link": "http://arxiv.org/abs/2607.29545",
+    "arxiv_id": "2607.29545",
+    "detail_path": "papers/2607.29545/",
+    "cover_path": "covers/2607.29545/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-07-30",
+    "title": "ObjectStream: Latent Objects as Memory Anchors for Streaming Video Understanding",
+    "link": "http://arxiv.org/abs/2607.28312",
+    "arxiv_id": "2607.28312",
+    "detail_path": "papers/2607.28312/",
+    "cover_path": "covers/2607.28312/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "title": "FreqForcing: Autoregressive Long Video Generation via Spectral Self-Anchoring",
+    "link": "http://arxiv.org/abs/2607.27110",
+    "arxiv_id": "2607.27110",
+    "detail_path": "papers/2607.27110/",
+    "cover_path": "covers/2607.27110/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "title": "Mitigating Compounding Error via Video Representation Regularization",
+    "link": "http://arxiv.org/abs/2607.27036",
+    "arxiv_id": "2607.27036",
+    "detail_path": "papers/2607.27036/",
+    "cover_path": "covers/2607.27036/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "title": "Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation",
+    "link": "http://arxiv.org/abs/2607.26694",
+    "arxiv_id": "2607.26694",
+    "detail_path": "papers/2607.26694/",
+    "cover_path": "covers/2607.26694/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "title": "Explicit Layer Modeling for Video Object Insertion and Layer Decomposition",
+    "link": "http://arxiv.org/abs/2607.25802",
+    "arxiv_id": "2607.25802",
+    "detail_path": "papers/2607.25802/",
+    "cover_path": "covers/2607.25802/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-07-27",
+    "title": "EgoPlay: Event-Triggered Video Editing for Egocentric Streams",
+    "link": "http://arxiv.org/abs/2607.24560",
+    "arxiv_id": "2607.24560",
+    "detail_path": "papers/2607.24560/",
+    "cover_path": "covers/2607.24560/",
+    "paper_image_path": "",
+    "paper_image_full_path": "",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-25",
     "title": "Latent Action as Intention Enables Efficient Future Imagination for World Action Models",
     "link": "http://arxiv.org/abs/2608.24882",
     "arxiv_id": "2608.24882",
