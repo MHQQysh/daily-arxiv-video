@@ -31,7 +31,8 @@ def get_client() -> OpenAI:
         raise RuntimeError("缺少环境变量 MODELSCOPE_ACCESS_TOKEN")
 
     base_url = os.getenv("MODELSCOPE_BASE_URL", "https://api-inference.modelscope.cn/v1/")
-    return OpenAI(api_key=api_key, base_url=base_url)
+    timeout = float(os.getenv("MODELSCOPE_TIMEOUT", "120"))
+    return OpenAI(api_key=api_key, base_url=base_url, timeout=timeout, max_retries=0)
 
 
 def get_papers_md_path() -> str:
@@ -122,10 +123,10 @@ def generate_summary_for_link(client: OpenAI, link: str, model: str = None) -> s
     抓取 arXiv HTML 原文并让模型基于 HTML 生成简要总结。
     包含模型回退机制和重试机制。
     """
-    # 获取模型列表，跳过本次运行中已经判定为限流的模型。
+    # 只跳过明确限流、配额耗尽或不受支持的模型。
     model_list = get_available_model_list(model)
     if not model_list:
-        print(f"✗ 所有模型都已被判定为限流，跳过摘要生成: {link}")
+        print(f"✗ 所有模型都已被明确判定为不可用，跳过摘要生成: {link}")
         return ""
 
     # 将 /abs/ 链接转换为 /html/ 页面
@@ -144,9 +145,15 @@ def generate_summary_for_link(client: OpenAI, link: str, model: str = None) -> s
             break
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 404:
-                print(f"警告: HTML页面不存在，尝试使用PDF: {link}")
-                # 如果HTML不存在，尝试获取摘要（fallback）
-                return ""
+                print(f"警告: HTML全文不存在，改用 arXiv 摘要页: {link}")
+                try:
+                    abstract_resp = requests.get(link, timeout=timeout)
+                    abstract_resp.raise_for_status()
+                    html_content = abstract_resp.text
+                    break
+                except requests.exceptions.RequestException as fallback_error:
+                    print(f"摘要页请求失败: {link}: {repr(fallback_error)}")
+                    return ""
             elif attempt < max_retries - 1:
                 print(f"HTTP错误 {e.response.status_code}，重试 {attempt + 1}/{max_retries}: {link}")
                 time.sleep(2 ** attempt)
@@ -169,7 +176,8 @@ def generate_summary_for_link(client: OpenAI, link: str, model: str = None) -> s
     if len(html_content) > max_chars:
         html_content = html_content[:max_chars]
 
-    # 遍历模型列表，依次尝试。单个模型最多调用两次：第二次仍失败则认为已被限流，直接切换下一个模型。
+    # 普通空响应只影响当前论文；只有明确的限流、配额耗尽或模型不受支持错误，
+    # 才会在本次运行中全局跳过该模型。
     api_max_retries = max(1, min(int(os.getenv("API_MAX_RETRIES", "3")), 2))
 
     for model_idx, current_model in enumerate(model_list):
@@ -238,8 +246,7 @@ def generate_summary_for_link(client: OpenAI, link: str, model: str = None) -> s
                         time.sleep(2 ** attempt)
                         continue
                     else:
-                        mark_model_rate_limited(current_model)
-                        print(f"✗ 模型 {current_model} 第二次调用仍失败，切换下一个模型")
+                        print(f"✗ 模型 {current_model} 对当前论文连续返回空 choices，切换下一个模型")
                         break  # 尝试下一个模型
 
                 text = getattr(response.choices[0].message, "content", "")
@@ -249,8 +256,7 @@ def generate_summary_for_link(client: OpenAI, link: str, model: str = None) -> s
                         time.sleep(2 ** attempt)
                         continue
                     else:
-                        mark_model_rate_limited(current_model)
-                        print(f"✗ 模型 {current_model} 第二次调用仍失败，切换下一个模型")
+                        print(f"✗ 模型 {current_model} 对当前论文连续返回空 content，切换下一个模型")
                         break  # 尝试下一个模型
 
                 text = text.strip()
@@ -273,8 +279,7 @@ def generate_summary_for_link(client: OpenAI, link: str, model: str = None) -> s
                         time.sleep(2 ** attempt)
                         continue
                     else:
-                        mark_model_rate_limited(current_model)
-                        print(f"✗ 模型 {current_model} 第二次调用仍失败，切换下一个模型")
+                        print(f"✗ 模型 {current_model} 对当前论文连续返回空文本，切换下一个模型")
                         break  # 尝试下一个模型
 
                 # 成功生成摘要
@@ -287,17 +292,20 @@ def generate_summary_for_link(client: OpenAI, link: str, model: str = None) -> s
                 is_quota_error = any(keyword in error_msg for keyword in [
                     'quota', 'rate limit', 'insufficient', 'exceeded', 'balance'
                 ])
+                is_unsupported_error = any(keyword in error_msg for keyword in [
+                    'no provider supported', 'model not found', 'model does not exist',
+                    'invalid model'
+                ])
 
-                if is_quota_error:
+                if is_quota_error or is_unsupported_error:
                     mark_model_rate_limited(current_model)
-                    print(f"✗ 模型 {current_model} 配额已用完")
+                    print(f"✗ 模型 {current_model} 明确不可用，本次运行不再尝试: {repr(e)}")
                     break  # 直接尝试下一个模型，不重试
                 elif attempt < api_max_retries - 1:
                     print(f"API调用失败，重试 {attempt + 1}/{api_max_retries}: {repr(e)}")
                     time.sleep(2 ** attempt)
                 else:
-                    mark_model_rate_limited(current_model)
-                    print(f"✗ 模型 {current_model} 第二次调用仍失败，切换下一个模型: {repr(e)}")
+                    print(f"✗ 模型 {current_model} 对当前论文连续调用失败，切换下一个模型: {repr(e)}")
                     break  # 尝试下一个模型
 
     # 所有模型都失败

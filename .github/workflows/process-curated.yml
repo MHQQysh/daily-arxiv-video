@@ -31,7 +31,8 @@ jobs:
         run: python scripts/generate_summaries.py
         env:
           MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
-          MODELSCOPE_MODELS: moonshotai/Kimi-K3,deepseek-ai/DeepSeek-V4-Flash-0731,Tencent-Hunyuan/Hy3,stepfun-ai/Step-3.7-Flash,ZhipuAI/GLM-5.2,deepseek-ai/DeepSeek-V4-Pro
+          MODELSCOPE_MODELS: deepseek-ai/DeepSeek-V4-Flash-0731,Tencent-Hunyuan/Hy3,stepfun-ai/Step-3.7-Flash,ZhipuAI/GLM-5.2,deepseek-ai/DeepSeek-V4-Pro
+          HTML_MAX_CHARS: 90000
 
       - name: 抓取最新论文首图
         run: python scripts/fetch_paper_images.py --max-items 30
