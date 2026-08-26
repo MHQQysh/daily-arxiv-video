@@ -6,7 +6,9 @@ on:
   schedule:
     # 每日北京时间中午12点（UTC 4:00）运行爬取和生成任务
     - cron: '0 4 * * *'
+  workflow_dispatch:
 
+  
 permissions:
   contents: write
   pages: write
@@ -47,8 +49,8 @@ jobs:
           python scripts/arxiv_crawler.py
         env:
           MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
-          ARXIV_QUERY_KEYWORD: 'all:"VLA" OR all:"Vision-Language-Action" OR all:"World Action Model" OR all:"World-Action Model" OR all:"action world model"'
-          ARXIV_DAILY_RESULTS: 2
+          ARXIV_QUERY_KEYWORD: 'ti:video OR all:"video generation" OR all:"video understanding" OR all:"video-language" OR all:"video reasoning" OR all:"text-to-video" OR all:"image-to-video"'
+          ARXIV_DAILY_RESULTS: 5
           ARXIV_PAGE_SIZE: 10
           ARXIV_DELAY_SECONDS: 15
           ARXIV_RETRY_BASE_SECONDS: 60
