@@ -47,6 +47,16 @@ class WorkflowContractTests(unittest.TestCase):
                     content.index("python scripts/fetch_paper_images.py"),
                 )
 
+    def test_publish_only_workflow_never_crawls_or_rewrites_papers(self) -> None:
+        content = (ROOT / ".github" / "workflows" / "publish-site.yml").read_text(encoding="utf-8")
+        self.assertIn("actions/upload-pages-artifact@v4", content)
+        self.assertIn("actions/deploy-pages@v4", content)
+        self.assertIn("contents: read", content)
+        self.assertNotIn("arxiv_crawler.py", content)
+        self.assertNotIn("generate_summaries.py", content)
+        self.assertNotIn("fetch_paper_images.py", content)
+        self.assertNotIn("git push", content)
+
 
 if __name__ == "__main__":
     unittest.main()
