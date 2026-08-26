@@ -144,10 +144,6 @@ def first_src_from_srcset(srcset: str | None) -> str:
     return srcset.split(",")[0].strip().split(" ")[0].strip()
 
 
-def as_directory_base(url: str) -> str:
-    return url if url.endswith("/") else f"{url}/"
-
-
 def to_ar5iv_url(html_url: str) -> str:
     return re.sub(
         r"^https://arxiv\.org/html/",
@@ -161,7 +157,7 @@ def http_get(url: str, timeout: int = 30) -> tuple[bytes, str, str]:
     request = Request(
         url,
         headers={
-            "User-Agent": "daily-arxiv-vla/paper-image-fetcher (+https://arxiv.org)",
+            "User-Agent": "daily-arxiv-video/paper-image-fetcher (+https://arxiv.org)",
         },
     )
     with urlopen(request, timeout=timeout) as response:
@@ -232,7 +228,7 @@ def resolve_html_url(link: str) -> tuple[str | None, str]:
 
 def parse_candidates_from_html_url(html_url: str) -> tuple[List[ImageCandidate], str]:
     html_bytes, _, final_html_url = http_get(html_url, timeout=30)
-    parser = ArxivImageParser(base_url=as_directory_base(final_html_url))
+    parser = ArxivImageParser(base_url=final_html_url)
     parser.feed(html_bytes.decode("utf-8", errors="replace"))
     return unique_candidates(parser.candidates), final_html_url
 
@@ -293,7 +289,9 @@ class ArxivImageParser(HTMLParser):
 
 def score_candidate(candidate: ImageCandidate) -> int:
     score = 0
-    hint_text = " ".join([candidate.url, candidate.alt, candidate.classes]).lower()
+    hint_text = " ".join(
+        [urlparse(candidate.url).path, candidate.alt, candidate.classes]
+    ).lower()
 
     if candidate.source == "og:image":
         score += 80
