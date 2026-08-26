@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models - Video 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="针对视频语言模型（VLM）推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异 提出专门面向视频的两阶段自适应视觉token剪枝策略，在减少计算开销的同时保留视频语义信息，无需额外训练即可直接应用于预训练VLM 核心目标是通过分层处理时空冗余、自适应调整剪枝比例，实现高效且高性能的视频理解推理" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models</h1>
             <div class="detail-meta">2026-08-04 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2608.03112" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2608.03112" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2608.03112</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">针对视频语言模型（VLM）推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异 提出专门面向视频的两阶段自适应视觉token剪枝策略，在减少计算开销的同时保留视频语义信息，无需额外训练即可直接应用于预训练VLM 核心目标是通过分层处理时空冗余、自适应调整剪枝比例，实现高效且高性能的视频理解推理</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">论文作者所属机构为 Amazon.com Services LLC，第一作者Paribesh Regm…</span>
             </div>
           </div>
         </div>
@@ -88,16 +88,56 @@
     <span class="reading-badge">一眼看懂</span>
     <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2608.03112/">封面预览</a>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">针对视频语言模型（VLM）推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异</p>
+  <ul class="reading-intro-points"><li>针对视频语言模型（VLM）推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异</li><li>提出专门面向视频的两阶段自适应视觉token剪枝策略，在减少计算开销的同时保留视频语义信息，无需额外训练即可直接应用于预训练VLM</li><li>核心目标是通过分层处理时空冗余、自适应调整剪枝比例，实现高效且高性能的视频理解推理</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li>论文作者所属机构为 <strong>Amazon.com Services LLC</strong>，第一作者Paribesh Regmi的工作完成于亚马逊实习期间</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>针对<strong>视频语言模型（VLM）</strong>推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异</li><li>提出专门面向视频的两阶段自适应视觉token剪枝策略，在减少计算开销的同时保留视频语义信息，无需额外训练即可直接应用于预训练VLM</li><li>核心目标是通过分层处理时空冗余、自适应调整剪枝比例，实现高效且高性能的视频理解推理</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>设计<strong>两阶段剪枝流水线</strong>：第一阶段通过多样性选择丢弃时间冗余的帧，第二阶段在保留帧内进行token级剪枝，分层处理视频的时空冗余</li><li>提出基于token embedding相关性的<strong>自适应剪枝比例确定方法</strong>，摒弃人工设定的统一剪枝比例，根据单个视频的内容动态调整保留token数量</li><li>所提方法为完全<strong>post-hoc（事后）</strong>方案，无需对预训练VLM进行额外训练或微调，即可直接部署</li><li>在3个主流VLM、5个视频理解基准上验证有效性，高剪枝比例下仍可实现精度提升，同时将计算量降低95%</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>第一阶段采用多样性驱动的帧选择策略，从视频全部帧中筛选信息量最高的子集，去除时间上高度相似的冗余帧，帧保留比例为γ</li><li>第二阶段对保留帧的token embedding进行token级剪枝：首先构建token的相关性矩阵，通过低秩SVD计算前32个主导特征值，对特征值序列拟合指数衰减函数得到衰减率α，最终保留比例β与衰减率成反比（β=κ/α，κ为缩放系数），衰减率越高说明token冗余度越高，保留的token数量越少</li><li>关键技术为利用token embedding的线性相关性量化冗余度，通过特征值谱的衰减趋势自适应确定剪枝强度，无需人工设定阈值，且低秩近似降低了计算开销</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的视频理解数据集包括：<strong>VideoDC</strong>、<strong>VideoChatGPT</strong>、<strong>Next-QA</strong>、<strong>PerceptionTest</strong>、<strong>Video-MME</strong></li><li>适配的预训练VLM包括：<strong>LLaVA-Video</strong>、<strong>InternVL3</strong>、<strong>Qwen2.5VL</strong>，无需额外训练模型参数</li><li>推理阶段仅需少量额外计算用于特征值分解，采用低秩SVD近似将计算复杂度从三次方降低至近似二次方，可适配大token集场景</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境为上述5个视频语言基准，主要评估指标为任务准确率（Acc）、VideoDC与VideoChatGPT的评分（Score），以及推理耗时、计算量（TFLOPs）</li><li>关键实验结果：在10% token保留率下，视频字幕任务精度提升7%，计算TFLOPs降低95%；在30% token保留率下，所提方法在VideoDC上的准确率达83.56%，优于DivPrune（80.96%）、LLaVA-Scissor（79.15%）、PruMerge（65.33%）等基线方法，且在多个VLM和数据集上均保持一致的性能增益</li></ul></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

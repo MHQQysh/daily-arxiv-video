@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FreqForcing: Autoregressive Long Video Generation via Spectral Self-Anchoring - Video 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="本文提出 FreqForcing，一个无需训练（training-free） 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。 论文从频域角度刻画误差累积现象：自回归 rollout 过程中的误差表现为低频段能量的显著漂移（DC 分量与低频能量异常增长），而高频分量（局部运动、细节）变得不稳定。 研究发现 attention sink 能部分缓解频谱能量漂移，但无法完全消除，因此提出 光谱自锚定（Spectral Self-Anchoring, SSA） 机制，将预训练于 5 秒片段的 Self-Forcing 模型扩展至稳定生成 2 分钟视频（24× 外推）。" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">FreqForcing: Autoregressive Long Video Generation via Spectral Self-Anchoring</h1>
             <div class="detail-meta">2026-07-29 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2607.27110" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2607.27110" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2607.27110</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">本文提出 FreqForcing，一个无需训练（training-free） 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。 论文从频域角度刻画误差累积现象：自回归 rollout 过程中的误差表现为低频段能量的显著漂移（DC 分量与低频能量异常增长），而高频分量（局部运动、细节）变得不稳定。 研究发现 attention sink 能部分缓解频谱能量漂移，但无法完全消除，因此提出 光谱自锚定（Spectral Self-Anchoring, SSA） 机制，将预训练于 5 秒片段的 Self-Forcing 模型扩展至稳定生成 2 分钟视频（24× 外推）。</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">上海交通大学（Shanghai Jiao Tong University）</span>
             </div>
           </div>
         </div>
@@ -88,16 +88,64 @@
     <span class="reading-badge">一眼看懂</span>
     <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2607.27110/">封面预览</a>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">本文提出 FreqForcing，一个无需训练（training-free） 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。</p>
+  <ul class="reading-intro-points"><li>本文提出 FreqForcing，一个无需训练（training-free） 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。</li><li>论文从频域角度刻画误差累积现象：自回归 rollout 过程中的误差表现为低频段能量的显著漂移（DC 分量与低频能量异常增长），而高频分量（局部运动、细节）变得不稳定。</li><li>研究发现 attention sink 能部分缓解频谱能量漂移，但无法完全消除，因此提出 光谱自锚定（Spectral Self-Anchoring, SSA） 机制，将预训练于 5 秒片段的 Self-Forcing 模型扩展至稳定生成 2 分钟视频（24× 外推）。</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>上海交通大学（Shanghai Jiao Tong University）</strong></li><li><strong>腾讯 HY 团队（Tencent HY Team）</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>本文提出 <strong>FreqForcing</strong>，一个<strong>无需训练（training-free）</strong> 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。</li><li>论文从<strong>频域角度</strong>刻画误差累积现象：自回归 rollout 过程中的误差表现为<strong>低频段能量的显著漂移</strong>（DC 分量与低频能量异常增长），而高频分量（局部运动、细节）变得不稳定。</li><li>研究发现 attention sink 能部分缓解频谱能量漂移，但无法完全消除，因此提出 <strong>光谱自锚定（Spectral Self-Anchoring, SSA）</strong> 机制，将预训练于 5 秒片段的 Self-Forcing 模型扩展至稳定生成 2 分钟视频（<strong>24× 外推</strong>）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li><strong>频域分析</strong>：系统分析了自回归视频扩散推理中误差累积与频谱能量之间的关联，并定量检验了不同大小 attention sink 对频谱能量漂移的影响。</li><li><strong>提出 FreqForcing 框架</strong>：一种无需训练的框架，通过光谱自锚定（SSA）抑制频谱能量漂移。</li><li><strong>SSA 双分支注意力设计</strong>：局部注意力分支保留高频细节与近期动态，锚定注意力分支利用高质量锚定帧提供稳定的低频引导，二者在频域中融合。</li><li><strong>实验验证</strong>：在 VBench-Long 基准上，FreqForcing 超越现有 training-free 方法，并与 training-based 方法（如 LongLive、Rolling Forcing）性能相当。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>核心思想</strong>：在自回归推理时运行两个注意力分支——<strong>局部注意力分支</strong>（标准滑动窗口因果注意力 + attention sink，记作 A_loc）与<strong>锚定注意力分支</strong>（使用高质量锚定帧，记作 A_anc）。</li><li><strong>光谱锚定（Spectral Anchoring）</strong>：通过频域融合操作，将 A_loc 的<strong>高频分量</strong>与 A_anc 的<strong>低频分量</strong>结合，得到最终融合输出 A_fused，从而抑制低频漂移同时保留动态视觉内容。</li><li><strong>锚定缓存</strong>：在预训练范围内收集高质量帧并冻结锚定缓存，容量为 N_anc=6，当生成长度超过预训练范围时才启用锚定分支。</li><li><strong>时间 RoPE 对齐（Temporal RoPE Alignment）</strong>：调整 RoPE 以将 attention sink 与当前滑动窗口对齐，保持位置编码一致性。</li><li><strong>效率优势</strong>：作为训练无关方法，无需额外训练开销，仅增加少量推理时注意力计算。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>VBench-Long</strong>：主要评估基准，用于 60s 与 120s 视频生成的定量比较。</li><li><strong>MovieGen</strong>：用于生成实验视频的提示词（prompts）来源。</li><li><strong>基础模型</strong>：采用预训练的 <strong>Self-Forcing</strong> 模型（基于 DiT 架构），该模型预训练于 5 秒视频片段，采用四步去噪过程。</li><li>代码已开源：https://github.com/jiatongli2024/FreqForcing</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>评估基准</strong>：VBench-Long，报告 60s 与 120s 两种时长的生成结果。</li><li><strong>评估指标</strong>（7 项）：动态程度（Dynamic Degree ↑）、运动平滑度（Motion Smoothness ↑）、整体一致性（Overall Consistency ↑）、成像质量（Imaging Quality ↑）、美学质量（Aesthetic Quality ↑）、主体一致性（Subject Consistency ↑）、背景一致性（Background Consistency ↑）。</li><li><strong>关键结果（60s 生成）</strong>：</li></ul>
+<p> - FreqForcing 在<strong>动态程度</strong>上取得最佳（59.58），远超 Self-Forcing（33.29）、Infinity-RoPE（54.61）、Deep Forcing（46.17）。</p>
+<p> - <strong>整体一致性</strong>（20.94）与<strong>美学质量</strong>（60.91）均取得最优或次优，接近 training-based 方法 LongLive。</p>
+<ul><li><strong>关键结果（120s 生成）</strong>：</li></ul>
+<p> - FreqForcing 保持动态程度领先（58.97），整体一致性（20.98）为最佳，成像质量（68.89）为次优。</p>
+<p> - 与 training-based 方法相比，FreqForcing 在多数指标上具有竞争力，同时无需额外训练。</p>
+<ul><li><strong>消融研究</strong>：</li></ul>
+<p> - Attention sink 增大（如 S=12）可减缓频谱能量漂移但无法完全消除；SSA 进一步稳定频谱能量，生成视觉稳定的视频。</p>
+<p> - Deep Forcing 因参与式 KV 缓存压缩出现频谱能量抖动，表现为像素空间的闪烁伪影。</p></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

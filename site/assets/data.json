@@ -8,14 +8,16 @@
     "cover_path": "covers/2608.24845/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 LAION-BVD,一个超大规模开放视频数据集,包含从 CommonCrawl 收集的 13 亿个平台相关视频 URL,实际下载 8000 万个视频,总时长 1000 万小时 该数据集专为视频、音频和图像三种模态的多模态预训练设计,数据规模远超现有开源视频数据集 论文旨在解决多模态预训练领域缺乏大规模、多样化开放视频数据的问题,同时探索视频帧作为图像-文本训练数据替代来源的可行性",
+    "research_unit": "论文作者来自 LAION 项目组织及欧洲多家研究机构,包括 马克斯·普朗克智能系统研究所、图宾根大学 等",
+    "hook_text": "论文提出 LAION-BVD,一个超大规模开放视频数据集,包含从 CommonCrawl 收集的 13 亿个平台相关视频 URL,实际下载 8000 万个视频,总时长 1000 万小时",
     "key_points": [
-      "待生成"
+      "论文提出 LAION-BVD,一个超大规模开放视频数据集,包含从 CommonCrawl 收集的 13 亿个平台相关视频 URL,实际下载 8000 万个视频,总时长 1000 万小时",
+      "该数据集专为视频、音频和图像三种模态的多模态预训练设计,数据规模远超现有开源视频数据集",
+      "论文旨在解决多模态预训练领域缺乏大规模、多样化开放视频数据的问题,同时探索视频帧作为图像-文本训练数据替代来源的可行性"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -557,14 +559,16 @@
     "cover_path": "covers/2608.18710/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文首次提出 CamWorldQA 基准数据集，用于评估相机控制的世界视频生成的感知质量，填补了该领域缺乏专用质量评估基准的空白。 现有 VQA 方法主要面向自然视频或用户生成内容，无法刻画相机控制生成特有的失真特征（如视角一致性、运动连贯性、内容保持等），该论文针对这一问题展开研究。 同时提出 CWQA 无参考视频质量评估网络，通过空间、时间、光流三支互补特征联合预测感知质量分数，并在 CamWorldQA 上验证了其优越性。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "论文首次提出 CamWorldQA 基准数据集，用于评估相机控制的世界视频生成的感知质量，填补了该领域缺乏专用质量评估基准的空白。",
     "key_points": [
-      "待生成"
+      "论文首次提出 CamWorldQA 基准数据集，用于评估相机控制的世界视频生成的感知质量，填补了该领域缺乏专用质量评估基准的空白。",
+      "现有 VQA 方法主要面向自然视频或用户生成内容，无法刻画相机控制生成特有的失真特征（如视角一致性、运动连贯性、内容保持等），该论文针对这一问题展开研究。",
+      "同时提出 CWQA 无参考视频质量评估网络，通过空间、时间、光流三支互补特征联合预测感知质量分数，并在 CamWorldQA 上验证了其优越性。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -584,14 +588,16 @@
     "cover_path": "covers/2608.18607/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对现有联合视频-音频生成模型强化学习后训练中，奖励信号依赖多单一维度指标组合、无法捕捉跨模态语义时序一致性、与人类判断对齐度低的问题，提出基于人类偏好反馈的奖励建模方案 核心目标是构建符合人类偏好的全模态奖励模型，替代传统专家指标组合的奖励信号，用于后训练联合视频-音频生成模型，提升生成内容的跨模态一致性和人类感知质量 解决了当前领域的两大核心缺口：缺乏面向联合视频-音频生成的大规模人类偏好数据集、缺乏能评估文本-视频-音频整体质量的奖励模型",
+    "research_unit": "论文作者来自复旦大学、上海创新机构（Shanghai Innovation Institution）、…",
+    "hook_text": "针对现有联合视频-音频生成模型强化学习后训练中，奖励信号依赖多单一维度指标组合、无法捕捉跨模态语义时序一致性、与人类判断对齐度低的问题，提出基于人类偏好反馈的奖励建模方案",
     "key_points": [
-      "待生成"
+      "针对现有联合视频-音频生成模型强化学习后训练中，奖励信号依赖多单一维度指标组合、无法捕捉跨模态语义时序一致性、与人类判断对齐度低的问题，提出基于人类偏好反馈的奖励建模方案",
+      "核心目标是构建符合人类偏好的全模态奖励模型，替代传统专家指标组合的奖励信号，用于后训练联合视频-音频生成模型，提升生成内容的跨模态一致性和人类感知质量",
+      "解决了当前领域的两大核心缺口：缺乏面向联合视频-音频生成的大规模人类偏好数据集、缺乏能评估文本-视频-音频整体质量的奖励模型"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -611,14 +617,16 @@
     "cover_path": "covers/2608.18532/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "现有视觉语言模型（VLM）在长视频时空推理中，当目标物体因遮挡、收纳、覆盖等原因暂时不可见时，易将其状态判定为“未知”，无法推理其隐状态，这是当前长视频理解的核心缺陷； 本文提出StateTrace对象为中心框架，针对长视频中的隐状态时空推理任务设计，通过构建可复用的时空状态记忆，显式建模不可见目标的持久状态与消失原因，解决“不可见即未知”的问题； 研究同时构建诊断基准HSR-Bench，用于量化评估模型在复杂场景下的隐状态推理能力。",
+    "research_unit": "University of California, San Diego（美国加州圣地亚哥）",
+    "hook_text": "现有视觉语言模型（VLM）在长视频时空推理中，当目标物体因遮挡、收纳、覆盖等原因暂时不可见时，易将其状态判定为“未知”，无法推理其隐状态，这是当前长视频理解的核心缺陷；",
     "key_points": [
-      "待生成"
+      "现有视觉语言模型（VLM）在长视频时空推理中，当目标物体因遮挡、收纳、覆盖等原因暂时不可见时，易将其状态判定为“未知”，无法推理其隐状态，这是当前长视频理解的核心缺陷；",
+      "本文提出StateTrace对象为中心框架，针对长视频中的隐状态时空推理任务设计，通过构建可复用的时空状态记忆，显式建模不可见目标的持久状态与消失原因，解决“不可见即未知”的问题；",
+      "研究同时构建诊断基准HSR-Bench，用于量化评估模型在复杂场景下的隐状态推理能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -638,14 +646,16 @@
     "cover_path": "covers/2608.17566/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 CoinVE-200K，一个大规模、高质量的组合式指令引导视频编辑（Compositional Instruction-Guided Video Editing）数据集，每个样本包含 2 到 5 个原子编辑操作。 现有视频编辑数据集主要聚焦单一编辑操作，无法支撑多意图、多目标区域、复杂交互的组合编辑场景。论文旨在解决多指令联合理解、区域感知编辑、非目标内容保持和时间一致性等挑战。 同时提出 CoinVE-Edit（22B 组合式视频编辑模型）和 CoinVE-Bench（专用评估基准），形成“数据集-模型-基准”的完整研究体系。",
+    "research_unit": "Tencent（腾讯） Smart Creation Platform Department",
+    "hook_text": "论文提出 CoinVE-200K，一个大规模、高质量的组合式指令引导视频编辑（Compositional Instruction-Guided Video Editing）数据集，每个样本包含 2 到 5 个原子编辑操作。",
     "key_points": [
-      "待生成"
+      "论文提出 CoinVE-200K，一个大规模、高质量的组合式指令引导视频编辑（Compositional Instruction-Guided Video Editing）数据集，每个样本包含 2 到 5 个原子编辑操作。",
+      "现有视频编辑数据集主要聚焦单一编辑操作，无法支撑多意图、多目标区域、复杂交互的组合编辑场景。论文旨在解决多指令联合理解、区域感知编辑、非目标内容保持和时间一致性等挑战。",
+      "同时提出 CoinVE-Edit（22B 组合式视频编辑模型）和 CoinVE-Bench（专用评估基准），形成“数据集-模型-基准”的完整研究体系。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -665,14 +675,16 @@
     "cover_path": "covers/2608.17559/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 MSEditor，据作者称这是首个专为多镜头（multi-shot）视频编辑设计的框架，旨在对一段由多个不连续时间片段（shots）组成的视频序列进行一致、统一的编辑。 多镜头视频包含视角、相机尺度、主体姿态的剧烈变化，现有单镜头编辑方法直接迁移到多镜头场景会出现严重的身份漂移（identity drift）和累积误差传播（cumulative error propagation）。 论文通过重新利用多视角视频数据集提供跨镜头监督、设计 Supervisory Adapter 和 Cross-Shot Packing 策略，解决训练数据稀缺与跨镜头一致性两大瓶颈。",
+    "research_unit": "HKUST (Guangzhou)（香港科技大学（广州））",
+    "hook_text": "本文提出 MSEditor，据作者称这是首个专为多镜头（multi-shot）视频编辑设计的框架，旨在对一段由多个不连续时间片段（shots）组成的视频序列进行一致、统一的编辑。",
     "key_points": [
-      "待生成"
+      "本文提出 MSEditor，据作者称这是首个专为多镜头（multi-shot）视频编辑设计的框架，旨在对一段由多个不连续时间片段（shots）组成的视频序列进行一致、统一的编辑。",
+      "多镜头视频包含视角、相机尺度、主体姿态的剧烈变化，现有单镜头编辑方法直接迁移到多镜头场景会出现严重的身份漂移（identity drift）和累积误差传播（cumulative error propagation）。",
+      "论文通过重新利用多视角视频数据集提供跨镜头监督、设计 Supervisory Adapter 和 Cross-Shot Packing 策略，解决训练数据稀缺与跨镜头一致性两大瓶颈。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -692,14 +704,16 @@
     "cover_path": "covers/2608.17426/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 Semantic Task Completion Video Generation 这一面向结果的新视频生成任务，要求生成视频在实现指令所述结果的同时，保持与参考图像之间任务相关的高层语义关联（semantic grounding） 构建 SemComp-Data 评测数据集，涵盖艺术与精密、美容时尚、手工DIY、美食烹饪、园艺宠物、运动健身6个领域，每个实例包含参考图像、简版指令、详细指令和结果中心视频片段 设计 SemComp-Bench 评测协议，利用视觉语言模型（VLM）回答结构化二元问题，从结果达成（Outcome Achievement）和生成可靠性（Generation Reliability）两个维度进行可解释评估",
+    "research_unit": "University of Science and Technology of China（中国科学技…",
+    "hook_text": "提出 Semantic Task Completion Video Generation 这一面向结果的新视频生成任务，要求生成视频在实现指令所述结果的同时，保持与参考图像之间任务相关的高层语义关联（semantic grounding）",
     "key_points": [
-      "待生成"
+      "提出 Semantic Task Completion Video Generation 这一面向结果的新视频生成任务，要求生成视频在实现指令所述结果的同时，保持与参考图像之间任务相关的高层语义关联（semantic grounding）",
+      "构建 SemComp-Data 评测数据集，涵盖艺术与精密、美容时尚、手工DIY、美食烹饪、园艺宠物、运动健身6个领域，每个实例包含参考图像、简版指令、详细指令和结果中心视频片段",
+      "设计 SemComp-Bench 评测协议，利用视觉语言模型（VLM）回答结构化二元问题，从结果达成（Outcome Achievement）和生成可靠性（Generation Reliability）两个维度进行可解释评估"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -719,14 +733,16 @@
     "cover_path": "covers/2608.16745/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出视觉上下文视频编辑（Visual In-context Editing）新范式，将视频编辑从纯文本指令升级为多模态视觉指导，涵盖单张图片（Single Image）、图片对（Image Pair）和视频对（Video Pair）三种参考模态。 针对现有数据集缺乏多模态视觉参考的问题，论文构建了VicEdit-400K，这是首个大规模视觉上下文视频编辑数据集，包含400K高质量样本、三种参考模态和十种任务类型。 论文提出统一框架VicEdit，通过模态自适应语义蒸馏（MASD）和双上下文注入（DCI），将异构视觉参考与文本指令有效融合，实现更精准、可控的视频编辑。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "论文提出视觉上下文视频编辑（Visual In-context Editing）新范式，将视频编辑从纯文本指令升级为多模态视觉指导，涵盖单张图片（Single Image）、图片对（Image Pair）和视频对（Video Pair）三种参考模态。",
     "key_points": [
-      "待生成"
+      "论文提出视觉上下文视频编辑（Visual In-context Editing）新范式，将视频编辑从纯文本指令升级为多模态视觉指导，涵盖单张图片（Single Image）、图片对（Image Pair）和视频对（Video Pair）三种参考模态。",
+      "针对现有数据集缺乏多模态视觉参考的问题，论文构建了VicEdit-400K，这是首个大规模视觉上下文视频编辑数据集，包含400K高质量样本、三种参考模态和十种任务类型。",
+      "论文提出统一框架VicEdit，通过模态自适应语义蒸馏（MASD）和双上下文注入（DCI），将异构视觉参考与文本指令有效融合，实现更精准、可控的视频编辑。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -746,14 +762,16 @@
     "cover_path": "covers/2608.16585/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 SQuad（Sub-Quadratic Attention Distillation） 框架，用于高效视频生成，解决视频 Diffusion Transformer（DiT）中 softmax 自注意力计算量随 token 数二次增长的问题。 核心思路是将完整 softmax 自注意力分解为“局部 + 全局”两次注意力传递，在保持真实 softmax 的前提下将复杂度从 O(n²) 降至 O(n√n)。 通过将预训练的全 softmax 注意力 DiT 蒸馏为 SQuad-Attention 版本，避免从零训练昂贵的大模型，同时显著降低推理延迟和 FLOPs。",
+    "research_unit": "论文作者（Animesh Karnewar、Denis Korzhenkov、Amirhossein…",
+    "hook_text": "提出 SQuad（Sub-Quadratic Attention Distillation） 框架，用于高效视频生成，解决视频 Diffusion Transformer（DiT）中 softmax 自注意力计算量随 token 数二次增长的问题。",
     "key_points": [
-      "待生成"
+      "提出 SQuad（Sub-Quadratic Attention Distillation） 框架，用于高效视频生成，解决视频 Diffusion Transformer（DiT）中 softmax 自注意力计算量随 token 数二次增长的问题。",
+      "核心思路是将完整 softmax 自注意力分解为“局部 + 全局”两次注意力传递，在保持真实 softmax 的前提下将复杂度从 O(n²) 降至 O(n√n)。",
+      "通过将预训练的全 softmax 注意力 DiT 蒸馏为 SQuad-Attention 版本，避免从零训练昂贵的大模型，同时显著降低推理延迟和 FLOPs。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -773,14 +791,16 @@
     "cover_path": "covers/2608.16320/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究后训练（post-training）在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。 现有后训练方案存在场景错配：基于可验证奖励的强化学习（如GRPO）会鼓励生成冗长的“思考-回答”式轨迹，与流式场景的直答需求不匹配；而涉及指令模式训练的在线策略蒸馏（OPD）配置会训练崩溃，无法收敛。 本文提出StreamOPD核心配方与可选的ST-CueGate教师特权扩展，验证了仅通过后训练即可在不改变流式推理路径的前提下，大幅提升模型在多流式视频基准上的性能。",
+    "research_unit": "清华大学",
+    "hook_text": "针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究后训练（post-training）在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。",
     "key_points": [
-      "待生成"
+      "针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究后训练（post-training）在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。",
+      "现有后训练方案存在场景错配：基于可验证奖励的强化学习（如GRPO）会鼓励生成冗长的“思考-回答”式轨迹，与流式场景的直答需求不匹配；而涉及指令模式训练的在线策略蒸馏（OPD）配置会训练崩溃，无法收敛。",
+      "本文提出StreamOPD核心配方与可选的ST-CueGate教师特权扩展，验证了仅通过后训练即可在不改变流式推理路径的前提下，大幅提升模型在多流式视频基准上的性能。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -800,14 +820,16 @@
     "cover_path": "covers/2608.16316/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对大视频推理模型（LMMs）推理成本高的问题，研究如何将大模型的推理能力高效蒸馏到小模型中，解决现有蒸馏方法无法有效传递隐式推理知识的问题 现有On-Policy Distillation（OPD，同策略蒸馏）仅通过输出层token分布对齐进行知识传递，忽略了教师模型隐层编码的跨帧时空证据与推理上下文，无法满足视频推理的多步证据聚合需求 本文提出Latent-OPD（隐空间同策略蒸馏），通过轨迹级隐层蒸馏实现“深度思维对齐”，在不增加推理成本的前提下提升小模型的视频推理能力，尤其在低帧、长视频、复杂推理场景下优势显著",
+    "research_unit": "Tencent Youtu Lab",
+    "hook_text": "针对大视频推理模型（LMMs）推理成本高的问题，研究如何将大模型的推理能力高效蒸馏到小模型中，解决现有蒸馏方法无法有效传递隐式推理知识的问题",
     "key_points": [
-      "待生成"
+      "针对大视频推理模型（LMMs）推理成本高的问题，研究如何将大模型的推理能力高效蒸馏到小模型中，解决现有蒸馏方法无法有效传递隐式推理知识的问题",
+      "现有On-Policy Distillation（OPD，同策略蒸馏）仅通过输出层token分布对齐进行知识传递，忽略了教师模型隐层编码的跨帧时空证据与推理上下文，无法满足视频推理的多步证据聚合需求",
+      "本文提出Latent-OPD（隐空间同策略蒸馏），通过轨迹级隐层蒸馏实现“深度思维对齐”，在不增加推理成本的前提下提升小模型的视频推理能力，尤其在低帧、长视频、复杂推理场景下优势显著"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -827,14 +849,16 @@
     "cover_path": "covers/2608.16154/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 KeyID，一个免训练的身份保持视频生成（IPVG）框架，解决现有方法在复杂长序列动作中身份一致性保持困难的问题。 核心思想是将“视频动态合成”与“身份注入”解耦：先生成与身份无关的视频草稿，再通过稀疏关键帧编辑注入目标身份。 该方法支持多参考对象、多身份以及带时间戳的连续动作生成，无需额外训练，并在 ACM Multimedia 2026 IPVG 大挑战赛 Track 2（Sequential Action） 中获得亚军。",
+    "research_unit": "广东工业大学（Guangdong University of Technology），广州，中国",
+    "hook_text": "论文提出 KeyID，一个免训练的身份保持视频生成（IPVG）框架，解决现有方法在复杂长序列动作中身份一致性保持困难的问题。",
     "key_points": [
-      "待生成"
+      "论文提出 KeyID，一个免训练的身份保持视频生成（IPVG）框架，解决现有方法在复杂长序列动作中身份一致性保持困难的问题。",
+      "核心思想是将“视频动态合成”与“身份注入”解耦：先生成与身份无关的视频草稿，再通过稀疏关键帧编辑注入目标身份。",
+      "该方法支持多参考对象、多身份以及带时间戳的连续动作生成，无需额外训练，并在 ACM Multimedia 2026 IPVG 大挑战赛 Track 2（Sequential Action） 中获得亚军。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -854,14 +878,16 @@
     "cover_path": "covers/2608.15818/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对音乐驱动舞蹈视频生成任务，现有级联方法存在3D到2D姿态投影的误差累积问题，端到端方法难以同时兼顾动作规划与身份外观保持，本文提出FlowDance框架解决该痛点 FlowDance采用并行的姿态流与RGB流设计，在统一扩散模型中实现显式动作建模与参考身份感知的视觉合成，避免级联管线的误差传播 同时构建高分辨率野外舞蹈数据集FlowDanceSet，为音乐驱动舞蹈生成研究提供标准化数据支撑",
+    "research_unit": "北京邮电大学人工智能学院",
+    "hook_text": "针对音乐驱动舞蹈视频生成任务，现有级联方法存在3D到2D姿态投影的误差累积问题，端到端方法难以同时兼顾动作规划与身份外观保持，本文提出FlowDance框架解决该痛点",
     "key_points": [
-      "待生成"
+      "针对音乐驱动舞蹈视频生成任务，现有级联方法存在3D到2D姿态投影的误差累积问题，端到端方法难以同时兼顾动作规划与身份外观保持，本文提出FlowDance框架解决该痛点",
+      "FlowDance采用并行的姿态流与RGB流设计，在统一扩散模型中实现显式动作建模与参考身份感知的视觉合成，避免级联管线的误差传播",
+      "同时构建高分辨率野外舞蹈数据集FlowDanceSet，为音乐驱动舞蹈生成研究提供标准化数据支撑"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -881,14 +907,16 @@
     "cover_path": "covers/2608.15614/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文聚焦于多模态大语言模型（MLLM）处理第一视角（egocentric）视频时的 token 预算瓶颈，高分辨率视频输入会导致内存和计算成本快速增长 已有工作 GazeLLM 通过围绕佩戴者注视点裁剪视频帧，将视觉 token 降低约 10 倍，但该方法完全依赖专用眼动追踪硬件，无法在消费者智能眼镜上使用 本文提出 EgoGazeLite，一个轻量级、可在设备端运行的注视预测模型，用软件预测替代硬件眼动追踪，在不损失下游描述质量的前提下实现 token 高效的视频理解",
+    "research_unit": "Copenhagen Business School, Department of Digitaliz…",
+    "hook_text": "论文聚焦于多模态大语言模型（MLLM）处理第一视角（egocentric）视频时的 token 预算瓶颈，高分辨率视频输入会导致内存和计算成本快速增长",
     "key_points": [
-      "待生成"
+      "论文聚焦于多模态大语言模型（MLLM）处理第一视角（egocentric）视频时的 token 预算瓶颈，高分辨率视频输入会导致内存和计算成本快速增长",
+      "已有工作 GazeLLM 通过围绕佩戴者注视点裁剪视频帧，将视觉 token 降低约 10 倍，但该方法完全依赖专用眼动追踪硬件，无法在消费者智能眼镜上使用",
+      "本文提出 EgoGazeLite，一个轻量级、可在设备端运行的注视预测模型，用软件预测替代硬件眼动追踪，在不损失下游描述质量的前提下实现 token 高效的视频理解"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -908,14 +936,16 @@
     "cover_path": "covers/2608.21424/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "EditStream 是一个统一的交互式视频生成与编辑框架，基于 DiT（Diffusion Transformer） 单一骨干网络，融合了多种视频创建与编辑任务。 该框架支持 Text-to-Video（T2V）、Image-to-Video（I2V）、Video-to-Video（V2V）、Editing Propagation（EditProp）、Reference-guided Video-to-Video（refV2V） 以及 Camera Pose Change（ReShoot） 等任务，通过灵活的任务条件实现多功能统一控制。 为解决统一模型在交互式场景下的实用性问题，论文提出了一种两阶段蒸馏方法，结合 Velocity Moment Matching（VMM） 与自回归展开（unrolling），使模型转化为快速、少步、因果流式推理模型。",
+    "research_unit": "Adobe Research",
+    "hook_text": "EditStream 是一个统一的交互式视频生成与编辑框架，基于 DiT（Diffusion Transformer） 单一骨干网络，融合了多种视频创建与编辑任务。",
     "key_points": [
-      "待生成"
+      "EditStream 是一个统一的交互式视频生成与编辑框架，基于 DiT（Diffusion Transformer） 单一骨干网络，融合了多种视频创建与编辑任务。",
+      "该框架支持 Text-to-Video（T2V）、Image-to-Video（I2V）、Video-to-Video（V2V）、Editing Propagation（EditProp）、Reference-guided Video-to-Video（refV2V） 以及 Camera Pose Change（ReShoot） 等任务，通过灵活的任务条件实现多功能统一控制。",
+      "为解决统一模型在交互式场景下的实用性问题，论文提出了一种两阶段蒸馏方法，结合 Velocity Moment Matching（VMM） 与自回归展开（unrolling），使模型转化为快速、少步、因果流式推理模型。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -935,14 +965,16 @@
     "cover_path": "covers/2608.14043/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "系统研究多模态大语言模型（MLLM） 与扩散 Transformer（DiT） 的融合方式，目标是在视频生成中超越纯文本条件，实现高层语义规划与底层像素渲染的解耦。 回答三个关键问题：（1）MLLM 与 DiT 之间应传递何种中间表示；（2）MLLM 应如何生成该表示；（3）DiT 应如何在扩散渲染中利用该表示。 基于系统分析提出 BiVidGen 混合框架，在 VBench-Long 上显著提升语义对齐与时间一致性。",
+    "research_unit": "中国科学院（Chinese Academy of Sciences）",
+    "hook_text": "系统研究多模态大语言模型（MLLM） 与扩散 Transformer（DiT） 的融合方式，目标是在视频生成中超越纯文本条件，实现高层语义规划与底层像素渲染的解耦。",
     "key_points": [
-      "待生成"
+      "系统研究多模态大语言模型（MLLM） 与扩散 Transformer（DiT） 的融合方式，目标是在视频生成中超越纯文本条件，实现高层语义规划与底层像素渲染的解耦。",
+      "回答三个关键问题：（1）MLLM 与 DiT 之间应传递何种中间表示；（2）MLLM 应如何生成该表示；（3）DiT 应如何在扩散渲染中利用该表示。",
+      "基于系统分析提出 BiVidGen 混合框架，在 VBench-Long 上显著提升语义对齐与时间一致性。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -962,14 +994,16 @@
     "cover_path": "covers/2608.13495/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文聚焦自动驾驶场景的高效视频检索任务，核心目标是将通用多模态嵌入模型适配为细粒度运动敏感的驾驶视频检索器，解决数据筛选、安全分析等下游任务的海量驾驶日志检索需求 通用多模态嵌入模型通常依赖静态场景上下文做捷径学习，难以区分视觉相似但运动属性相反（如左转vs右转、加速vs减速）的驾驶片段；现有结构化驾驶检索方法需要专家定义的规则、辅助感知输出，扩展成本高 论文提出TraVEL框架，通过可获得的车辆自我运动轨迹作为训练阶段特权监督信号优化嵌入空间，同时保持检索阶段单向量高效搜索的特性，无需额外辅助输入",
+    "research_unit": "Uber AV Labs",
+    "hook_text": "本文聚焦自动驾驶场景的高效视频检索任务，核心目标是将通用多模态嵌入模型适配为细粒度运动敏感的驾驶视频检索器，解决数据筛选、安全分析等下游任务的海量驾驶日志检索需求",
     "key_points": [
-      "待生成"
+      "本文聚焦自动驾驶场景的高效视频检索任务，核心目标是将通用多模态嵌入模型适配为细粒度运动敏感的驾驶视频检索器，解决数据筛选、安全分析等下游任务的海量驾驶日志检索需求",
+      "通用多模态嵌入模型通常依赖静态场景上下文做捷径学习，难以区分视觉相似但运动属性相反（如左转vs右转、加速vs减速）的驾驶片段；现有结构化驾驶检索方法需要专家定义的规则、辅助感知输出，扩展成本高",
+      "论文提出TraVEL框架，通过可获得的车辆自我运动轨迹作为训练阶段特权监督信号优化嵌入空间，同时保持检索阶段单向量高效搜索的特性，无需额外辅助输入"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -989,14 +1023,16 @@
     "cover_path": "covers/2608.13210/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 NARU（NARrative and Cultural Understanding），一个面向日语“极长视频”的多模态基准，用于评测 MLLM 的叙事演化理解与文化细微理解。 数据集包含 1,481 个四选一问题，基于 155 个视频、总时长 146.8 小时，覆盖四个叙事维度（N.1-N.4）和五个文化维度（C.1-C.5）。 目标是解决现有长视频基准很少将“跨长时间叙事状态跟踪”与“文化隐性含义推理”联合评估的问题，特别针对高语境、非英语媒体场景。",
+    "research_unit": "The University of Tokyo（Yuheng Huang、Hua Qi、Edison…",
+    "hook_text": "提出 NARU（NARrative and Cultural Understanding），一个面向日语“极长视频”的多模态基准，用于评测 MLLM 的叙事演化理解与文化细微理解。",
     "key_points": [
-      "待生成"
+      "提出 NARU（NARrative and Cultural Understanding），一个面向日语“极长视频”的多模态基准，用于评测 MLLM 的叙事演化理解与文化细微理解。",
+      "数据集包含 1,481 个四选一问题，基于 155 个视频、总时长 146.8 小时，覆盖四个叙事维度（N.1-N.4）和五个文化维度（C.1-C.5）。",
+      "目标是解决现有长视频基准很少将“跨长时间叙事状态跟踪”与“文化隐性含义推理”联合评估的问题，特别针对高语境、非英语媒体场景。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -1016,14 +1052,16 @@
     "cover_path": "covers/2608.13049/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对当前视频世界模型在跨具身（人手到机器人）操纵迁移任务中缺乏专用评估基准的问题，提出H2R-Bench基准，用于评估模型能否将第一人称人类操纵视频转化为指定机器人具身的操纵视频，同时保留源演示的任务目标、功能交互等核心信息，为机器人学习提供可扩展的合成训练数据方案。 现有视频生成基准仅关注视觉保真度、时序一致性、文生视频对齐等通用指标，无法诊断跨具身迁移中的具身一致性错误、功能交互不匹配等专属问题，H2R-Bench填补了该研究空白。 通过系统评估11个SOTA视频生成模型，揭示当前模型存在视觉质量与有效迁移能力不匹配的普遍问题：即使视觉质量较高的模型，也常在具身一致性、功能交互、任务执行上出现失败。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "针对当前视频世界模型在跨具身（人手到机器人）操纵迁移任务中缺乏专用评估基准的问题，提出H2R-Bench基准，用于评估模型能否将第一人称人类操纵视频转化为指定机器人具身的操纵视频，同时保留源演示的任务目标、功能交互等核心信息，为机器人学习提供可扩展的合成训练数据方案。",
     "key_points": [
-      "待生成"
+      "针对当前视频世界模型在跨具身（人手到机器人）操纵迁移任务中缺乏专用评估基准的问题，提出H2R-Bench基准，用于评估模型能否将第一人称人类操纵视频转化为指定机器人具身的操纵视频，同时保留源演示的任务目标、功能交互等核心信息，为机器人学习提供可扩展的合成训练数据方案。",
+      "现有视频生成基准仅关注视觉保真度、时序一致性、文生视频对齐等通用指标，无法诊断跨具身迁移中的具身一致性错误、功能交互不匹配等专属问题，H2R-Bench填补了该研究空白。",
+      "通过系统评估11个SOTA视频生成模型，揭示当前模型存在视觉质量与有效迁移能力不匹配的普遍问题：即使视觉质量较高的模型，也常在具身一致性、功能交互、任务执行上出现失败。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 5,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -1043,14 +1081,16 @@
     "cover_path": "covers/2608.12549/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 StrAD 基准，用于长视频（full-length videos）的音频描述（AD）自动生成，涵盖电影、纪录片、短片、表演和电子游戏等多种类型。 将 AD 生成重新定义为流式密集视频描述（streaming dense video captioning），通过滑动窗口在无真实时间戳条件下在线生成 AD。 现有方法多依赖带真实时间戳的视频片段和额外元数据，该文首次提出完整的流式 AD 生成方案和对应的评测基准，使完整视频 AD 生成性能可被系统化评估。",
+    "research_unit": "Fraunhofer IAIS（德国弗劳恩霍夫智能分析与信息系统研究所）",
+    "hook_text": "本文提出 StrAD 基准，用于长视频（full-length videos）的音频描述（AD）自动生成，涵盖电影、纪录片、短片、表演和电子游戏等多种类型。",
     "key_points": [
-      "待生成"
+      "本文提出 StrAD 基准，用于长视频（full-length videos）的音频描述（AD）自动生成，涵盖电影、纪录片、短片、表演和电子游戏等多种类型。",
+      "将 AD 生成重新定义为流式密集视频描述（streaming dense video captioning），通过滑动窗口在无真实时间戳条件下在线生成 AD。",
+      "现有方法多依赖带真实时间戳的视频片段和额外元数据，该文首次提出完整的流式 AD 生成方案和对应的评测基准，使完整视频 AD 生成性能可被系统化评估。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -1070,14 +1110,16 @@
     "cover_path": "covers/2608.12313/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 AVA-Encoder（Agentic Video Auto-Encoder），一种由智能体自我演化驱动的自编码框架，用于解决视频创作智能体无法从高质量人类电影中学习电影制作知识的问题。 核心思想是将视频编码为 Film Knowledge Graph（Film KG） 结构化表示，再通过固定解码器重建回视频，以重建残差作为优化信号驱动编码策略和表示的联合改进。 论文解决了现有视频表示无法同时满足\"智能体可理解、可操作、忠实保真\"三大需求的问题，填补了代理原生视频表示学习的空白。",
+    "research_unit": "阿里巴巴 Qwen Business Unit（Chuyue Li、Jinpeng Yu、Haozhe…",
+    "hook_text": "本文提出 AVA-Encoder（Agentic Video Auto-Encoder），一种由智能体自我演化驱动的自编码框架，用于解决视频创作智能体无法从高质量人类电影中学习电影制作知识的问题。",
     "key_points": [
-      "待生成"
+      "本文提出 AVA-Encoder（Agentic Video Auto-Encoder），一种由智能体自我演化驱动的自编码框架，用于解决视频创作智能体无法从高质量人类电影中学习电影制作知识的问题。",
+      "核心思想是将视频编码为 Film Knowledge Graph（Film KG） 结构化表示，再通过固定解码器重建回视频，以重建残差作为优化信号驱动编码策略和表示的联合改进。",
+      "论文解决了现有视频表示无法同时满足\"智能体可理解、可操作、忠实保真\"三大需求的问题，填补了代理原生视频表示学习的空白。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -1097,14 +1139,16 @@
     "cover_path": "covers/2608.11820/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 TD-VAD（Text-Driven Video Anomaly Detection）方法，旨在打破视频异常检测（VAD）对视觉训练数据的依赖，解决异常数据稀缺和隐私限制问题。 核心思路是仅使用 LLM 生成的带时间戳的文本描述 来训练 VAD 模型，训练过程中完全不使用目标域视频数据，测试时直接应用于视频序列。 论文研究的关键问题：能否在不使用任何视觉训练数据的情况下，开发出有效的视频异常检测方法？ 通过利用预训练 CLIP 模型的跨模态对齐空间，将文本训练的模型迁移到视频域。",
+    "research_unit": "南京大学 智能科学与技术学院（School of Intelligence Science and T…",
+    "hook_text": "论文提出 TD-VAD（Text-Driven Video Anomaly Detection）方法，旨在打破视频异常检测（VAD）对视觉训练数据的依赖，解决异常数据稀缺和隐私限制问题。",
     "key_points": [
-      "待生成"
+      "论文提出 TD-VAD（Text-Driven Video Anomaly Detection）方法，旨在打破视频异常检测（VAD）对视觉训练数据的依赖，解决异常数据稀缺和隐私限制问题。",
+      "核心思路是仅使用 LLM 生成的带时间戳的文本描述 来训练 VAD 模型，训练过程中完全不使用目标域视频数据，测试时直接应用于视频序列。",
+      "论文研究的关键问题：能否在不使用任何视觉训练数据的情况下，开发出有效的视频异常检测方法？ 通过利用预训练 CLIP 模型的跨模态对齐空间，将文本训练的模型迁移到视频域。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1124,14 +1168,16 @@
     "cover_path": "covers/2608.14718/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 VideoGAIA，一个面向通用 AI 助手的智能体视频理解（Agentic Video Understanding）基准，旨在推动视频理解从传统单轮问答范式向多轮、工具增强的智能体交互范式转变。 当前主流视频理解基准（如 Video-MME、VideoMMMU、MLVU）已趋近饱和，前沿 MLLM 准确率接近 90%，不足以评估下一代多模态系统的智能水平；VideoGAIA 要求模型迭代感知视频、调用外部工具、收集补充信息并跨轮次整合多模态证据以完成真实世界任务。 基准包含 271 个经过人机协同构建的高质量任务，涵盖六个真实世界类别；所有评估的前沿模型（包括 GPT-5.5、Kimi-K3）准确率均低于 60%，表明智能体视频理解仍远未解决。",
+    "research_unit": "The Chinese University of Hong Kong（香港中文大学）：Fan Zha…",
+    "hook_text": "论文提出 VideoGAIA，一个面向通用 AI 助手的智能体视频理解（Agentic Video Understanding）基准，旨在推动视频理解从传统单轮问答范式向多轮、工具增强的智能体交互范式转变。",
     "key_points": [
-      "待生成"
+      "论文提出 VideoGAIA，一个面向通用 AI 助手的智能体视频理解（Agentic Video Understanding）基准，旨在推动视频理解从传统单轮问答范式向多轮、工具增强的智能体交互范式转变。",
+      "当前主流视频理解基准（如 Video-MME、VideoMMMU、MLVU）已趋近饱和，前沿 MLLM 准确率接近 90%，不足以评估下一代多模态系统的智能水平；VideoGAIA 要求模型迭代感知视频、调用外部工具、收集补充信息并跨轮次整合多模态证据以完成真实世界任务。",
+      "基准包含 271 个经过人机协同构建的高质量任务，涵盖六个真实世界类别；所有评估的前沿模型（包括 GPT-5.5、Kimi-K3）准确率均低于 60%，表明智能体视频理解仍远未解决。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -1151,14 +1197,16 @@
     "cover_path": "covers/2608.11201/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 VidForensics-M1，首次将 meta-detection（元检测） 概念引入 AI 生成视频取证，在强化学习框架中同时优化标签正确性与证据有效性。 针对现有 MLLM 检测器依赖监督微调或标签级强化学习、容易过拟合且泛化性差的问题，论文主张用可验证的时间定位证据替代模型生成的文本解释，作为更可靠的元检测反馈信号。 核心目标是通过“标签 + 证据”联合学习，使检测器真正识别伪造痕迹而非利用表面捷径，从而提升对未知视频生成器的泛化能力。",
+    "research_unit": "Tsinghua University（清华大学）、Peking University（北京大学）、R…",
+    "hook_text": "论文提出 VidForensics-M1，首次将 meta-detection（元检测） 概念引入 AI 生成视频取证，在强化学习框架中同时优化标签正确性与证据有效性。",
     "key_points": [
-      "待生成"
+      "论文提出 VidForensics-M1，首次将 meta-detection（元检测） 概念引入 AI 生成视频取证，在强化学习框架中同时优化标签正确性与证据有效性。",
+      "针对现有 MLLM 检测器依赖监督微调或标签级强化学习、容易过拟合且泛化性差的问题，论文主张用可验证的时间定位证据替代模型生成的文本解释，作为更可靠的元检测反馈信号。",
+      "核心目标是通过“标签 + 证据”联合学习，使检测器真正识别伪造痕迹而非利用表面捷径，从而提升对未知视频生成器的泛化能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -1178,14 +1226,16 @@
     "cover_path": "covers/2608.11013/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出一种名为 WSV（Watch Synthetic Videos）的新型零样本视频字幕生成框架，旨在解决传统零样本视频字幕生成中训练阶段仅使用文本、而推理阶段面对视频所带来的跨模态差距（modality gap）问题。 核心思路是利用预训练的文本到视频（T2V）生成模型，在纯文本训练范式下从文本语料库合成视频潜在表示，使模型在训练阶段即可接触真实的视觉分布，从而消除训练与推理之间的模态不匹配。 WSV 框架由视觉潜在合成与精炼、字幕生成器训练、推理三个阶段组成，在 MSVD、MSR-VTT 和 VATEX 三个公开数据集上取得了当时最先进的零样本视频字幕生成性能。",
+    "research_unit": "西北工业大学（Northwestern Polytechnical University）软件学院",
+    "hook_text": "本文提出一种名为 WSV（Watch Synthetic Videos）的新型零样本视频字幕生成框架，旨在解决传统零样本视频字幕生成中训练阶段仅使用文本、而推理阶段面对视频所带来的跨模态差距（modality gap）问题。",
     "key_points": [
-      "待生成"
+      "本文提出一种名为 WSV（Watch Synthetic Videos）的新型零样本视频字幕生成框架，旨在解决传统零样本视频字幕生成中训练阶段仅使用文本、而推理阶段面对视频所带来的跨模态差距（modality gap）问题。",
+      "核心思路是利用预训练的文本到视频（T2V）生成模型，在纯文本训练范式下从文本语料库合成视频潜在表示，使模型在训练阶段即可接触真实的视觉分布，从而消除训练与推理之间的模态不匹配。",
+      "WSV 框架由视觉潜在合成与精炼、字幕生成器训练、推理三个阶段组成，在 MSVD、MSR-VTT 和 VATEX 三个公开数据集上取得了当时最先进的零样本视频字幕生成性能。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1205,14 +1255,16 @@
     "cover_path": "covers/2608.10949/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "指出流式视频理解的现有范式局限：基于模型的方法需 intrusive 更新多模态大语言模型（MLLM）骨干，训练成本高且易发生灾难性遗忘；基于记忆的方法存在冗余视觉编码、记忆访问刚性两类问题，浪费计算资源且导致生成过程中视觉注意力漂移、幻觉风险上升。 提出StreamFlow高效视觉记忆框架，结合动态感知中期记忆、潜变量长期记忆与注意力引导的记忆注入机制，实现历史视觉信息的动态、按需访问，同时保持与冻结预训练MLLM的兼容性，无需修改骨干参数。 研究目标是实现高精度、高视觉 grounded 程度、低延迟低内存占用的流式视频理解，同时支撑离线长视频理解任务。",
+    "research_unit": "提供的HTML原文截断，未包含作者所属机构相关信息。",
+    "hook_text": "指出流式视频理解的现有范式局限：基于模型的方法需 intrusive 更新多模态大语言模型（MLLM）骨干，训练成本高且易发生灾难性遗忘；基于记忆的方法存在冗余视觉编码、记忆访问刚性两类问题，浪费计算资源且导致生成过程中视觉注意力漂移、幻觉风险上升。",
     "key_points": [
-      "待生成"
+      "指出流式视频理解的现有范式局限：基于模型的方法需 intrusive 更新多模态大语言模型（MLLM）骨干，训练成本高且易发生灾难性遗忘；基于记忆的方法存在冗余视觉编码、记忆访问刚性两类问题，浪费计算资源且导致生成过程中视觉注意力漂移、幻觉风险上升。",
+      "提出StreamFlow高效视觉记忆框架，结合动态感知中期记忆、潜变量长期记忆与注意力引导的记忆注入机制，实现历史视觉信息的动态、按需访问，同时保持与冻结预训练MLLM的兼容性，无需修改骨干参数。",
+      "研究目标是实现高精度、高视觉 grounded 程度、低延迟低内存占用的流式视频理解，同时支撑离线长视频理解任务。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -1232,14 +1284,16 @@
     "cover_path": "covers/2608.10439/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 Stream Forcing 统一训练框架，解决流式视频生成中训练与推理噪声调度不一致的核心问题。 将训练时的噪声水平采样重新形式化为一个帧索引随机过程，并构造从独立采样到推理一致采样的连续训练轨迹。 在 UCF-101、Taichi-HD 等基准上显著提升生成质量，并支持零样本长视频外推与自动驾驶世界建模。",
+    "research_unit": "华中科技大学（Huazhong University of Science & Technology）",
+    "hook_text": "提出 Stream Forcing 统一训练框架，解决流式视频生成中训练与推理噪声调度不一致的核心问题。",
     "key_points": [
-      "待生成"
+      "提出 Stream Forcing 统一训练框架，解决流式视频生成中训练与推理噪声调度不一致的核心问题。",
+      "将训练时的噪声水平采样重新形式化为一个帧索引随机过程，并构造从独立采样到推理一致采样的连续训练轨迹。",
+      "在 UCF-101、Taichi-HD 等基准上显著提升生成质量，并支持零样本长视频外推与自动驾驶世界建模。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -1259,14 +1313,16 @@
     "cover_path": "covers/2608.07463/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 MirrorWorld，一个面向视频镜像反射生成的反射感知视频修补框架，旨在解决视频扩散模型（VDMs）在生成镜面反射时内容与可见场景不一致的问题。 核心观察：镜像反射生成包含两个互补挑战——确定“反射什么”（what to reflect）和“如何排列反射内容”（how to arrange）。 论文将视频镜像反射生成形式化为统一的反射重建任务，并构建了基于四个现有视频镜像数据集的基准，用于系统评估。",
+    "research_unit": "City University of Hong Kong（香港城市大学）",
+    "hook_text": "论文提出 MirrorWorld，一个面向视频镜像反射生成的反射感知视频修补框架，旨在解决视频扩散模型（VDMs）在生成镜面反射时内容与可见场景不一致的问题。",
     "key_points": [
-      "待生成"
+      "论文提出 MirrorWorld，一个面向视频镜像反射生成的反射感知视频修补框架，旨在解决视频扩散模型（VDMs）在生成镜面反射时内容与可见场景不一致的问题。",
+      "核心观察：镜像反射生成包含两个互补挑战——确定“反射什么”（what to reflect）和“如何排列反射内容”（how to arrange）。",
+      "论文将视频镜像反射生成形式化为统一的反射重建任务，并构建了基于四个现有视频镜像数据集的基准，用于系统评估。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -1286,14 +1342,16 @@
     "cover_path": "covers/2608.06732/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文聚焦文本到视频（T2V）生成模型带来的假新闻视频新威胁——从\"廉价造假\"（cheap fakes）到\"纯合成\"（pure synthesis）的范式转变，T2V模型可从零合成高度逼真的非真实事件 提出新型 T2V-FNVD 三元分类任务（真实/廉价造假/纯合成造假），应对现有检测方法面临的模态对齐陷阱（modality alignment trap）、虚假视觉来源和不可验证长尾问题三大挑战 构建首个PS-FNVD纯合成假新闻视频数据集，并提出 R-T2V 推理引导检测框架，整合高层语义逻辑与低层物理生成痕迹进行检测",
+    "research_unit": "香港浸会大学（Hong Kong Baptist University）互动媒体系、AI与社会公益实验…",
+    "hook_text": "论文聚焦文本到视频（T2V）生成模型带来的假新闻视频新威胁——从\"廉价造假\"（cheap fakes）到\"纯合成\"（pure synthesis）的范式转变，T2V模型可从零合成高度逼真的非真实事件",
     "key_points": [
-      "待生成"
+      "论文聚焦文本到视频（T2V）生成模型带来的假新闻视频新威胁——从\"廉价造假\"（cheap fakes）到\"纯合成\"（pure synthesis）的范式转变，T2V模型可从零合成高度逼真的非真实事件",
+      "提出新型 T2V-FNVD 三元分类任务（真实/廉价造假/纯合成造假），应对现有检测方法面临的模态对齐陷阱（modality alignment trap）、虚假视觉来源和不可验证长尾问题三大挑战",
+      "构建首个PS-FNVD纯合成假新闻视频数据集，并提出 R-T2V 推理引导检测框架，整合高层语义逻辑与低层物理生成痕迹进行检测"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1313,14 +1371,16 @@
     "cover_path": "covers/2608.05745/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "UniVVT 是一个统一的端到端高保真视频虚拟试穿框架，将视频虚拟试穿（VVT）重构为语义条件视频生成，在推理时完全无需掩码、姿态估计和服装变形模块。 核心思想是：通过多模态大语言模型（MLLM） 作为场景-任务感知器（Scene-Task Perceiver），隐式编码“传输什么、在哪里传输、如何传输”，再用轻量级语义桥（Semantic Bridge）对齐到扩散视频生成器的条件空间。 针对现有掩码条件视频修补方法中多阶段流水线的问题：显式几何先验错误不可逆传播、部署复杂、分阶段优化无法补偿上游误差。",
+    "research_unit": "清华大学（Tsinghua University）",
+    "hook_text": "UniVVT 是一个统一的端到端高保真视频虚拟试穿框架，将视频虚拟试穿（VVT）重构为语义条件视频生成，在推理时完全无需掩码、姿态估计和服装变形模块。",
     "key_points": [
-      "待生成"
+      "UniVVT 是一个统一的端到端高保真视频虚拟试穿框架，将视频虚拟试穿（VVT）重构为语义条件视频生成，在推理时完全无需掩码、姿态估计和服装变形模块。",
+      "核心思想是：通过多模态大语言模型（MLLM） 作为场景-任务感知器（Scene-Task Perceiver），隐式编码“传输什么、在哪里传输、如何传输”，再用轻量级语义桥（Semantic Bridge）对齐到扩散视频生成器的条件空间。",
+      "针对现有掩码条件视频修补方法中多阶段流水线的问题：显式几何先验错误不可逆传播、部署复杂、分阶段优化无法补偿上游误差。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -1340,14 +1400,16 @@
     "cover_path": "covers/2608.05703/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文针对当前视频理解评估主要依赖短视频片段和多项选择格式的局限性，提出 StreamArena，一个面向小时级、交互式流式视频理解的基准测试，推动模型在连续、真实环境中的部署能力。 论文揭示现有系统在连续交互与长时程多模态理解之间存在矛盾：仅保留最近帧的方法无法覆盖远处事件，文本摘要方法丢失视觉证据，反复压缩视觉记忆的方法难以保留精细细节。 论文提出 StreamMind，一种两层架构，将延迟关键的交互与前端的主动监控分离，由后端异步构建持久多模态记忆，从而在全部四项能力上超越现有流式基线，并显著降低查询响应延迟。",
+    "research_unit": "The Hong Kong University of Science and Technology（…",
+    "hook_text": "论文针对当前视频理解评估主要依赖短视频片段和多项选择格式的局限性，提出 StreamArena，一个面向小时级、交互式流式视频理解的基准测试，推动模型在连续、真实环境中的部署能力。",
     "key_points": [
-      "待生成"
+      "论文针对当前视频理解评估主要依赖短视频片段和多项选择格式的局限性，提出 StreamArena，一个面向小时级、交互式流式视频理解的基准测试，推动模型在连续、真实环境中的部署能力。",
+      "论文揭示现有系统在连续交互与长时程多模态理解之间存在矛盾：仅保留最近帧的方法无法覆盖远处事件，文本摘要方法丢失视觉证据，反复压缩视觉记忆的方法难以保留精细细节。",
+      "论文提出 StreamMind，一种两层架构，将延迟关键的交互与前端的主动监控分离，由后端异步构建持久多模态记忆，从而在全部四项能力上超越现有流式基线，并显著降低查询响应延迟。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -1367,14 +1429,16 @@
     "cover_path": "covers/2608.04939/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 DrivelHub+ 基准，用于评估视频语言模型理解社交媒体短视频中隐含、非字面（drivelological）意义的能力。 核心问题：现有视频理解基准多聚焦于表面内容识别（动作、物体、字幕等），而社交媒体视频的意义常依赖多模态线索与文化语境交互产生的语用含义，模型需要从\"看到什么\"推进到\"意味着什么\"。 从两个互补视角评估模型：自然语言解释（解释视频的隐含语用意义）与表示级双向检索（视频-文本/文本-视频检索，测试视频与其隐含叙事的表征对齐）。",
+    "research_unit": "University of Manchester（曼彻斯特大学）",
+    "hook_text": "论文提出 DrivelHub+ 基准，用于评估视频语言模型理解社交媒体短视频中隐含、非字面（drivelological）意义的能力。",
     "key_points": [
-      "待生成"
+      "论文提出 DrivelHub+ 基准，用于评估视频语言模型理解社交媒体短视频中隐含、非字面（drivelological）意义的能力。",
+      "核心问题：现有视频理解基准多聚焦于表面内容识别（动作、物体、字幕等），而社交媒体视频的意义常依赖多模态线索与文化语境交互产生的语用含义，模型需要从\"看到什么\"推进到\"意味着什么\"。",
+      "从两个互补视角评估模型：自然语言解释（解释视频的隐含语用意义）与表示级双向检索（视频-文本/文本-视频检索，测试视频与其隐含叙事的表征对齐）。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -1394,14 +1458,16 @@
     "cover_path": "covers/2608.03112/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对视频语言模型（VLM）推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异 提出专门面向视频的两阶段自适应视觉token剪枝策略，在减少计算开销的同时保留视频语义信息，无需额外训练即可直接应用于预训练VLM 核心目标是通过分层处理时空冗余、自适应调整剪枝比例，实现高效且高性能的视频理解推理",
+    "research_unit": "论文作者所属机构为 Amazon.com Services LLC，第一作者Paribesh Regm…",
+    "hook_text": "针对视频语言模型（VLM）推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异",
     "key_points": [
-      "待生成"
+      "针对视频语言模型（VLM）推理时因视觉token过多导致的高计算延迟问题，现有单图token剪枝方法未利用视频的时间冗余，且普遍采用固定剪枝比例，无法适配不同视频的内容差异",
+      "提出专门面向视频的两阶段自适应视觉token剪枝策略，在减少计算开销的同时保留视频语义信息，无需额外训练即可直接应用于预训练VLM",
+      "核心目标是通过分层处理时空冗余、自适应调整剪枝比例，实现高效且高性能的视频理解推理"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -1421,14 +1487,16 @@
     "cover_path": "covers/2608.02039/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 RSVideo-10K，据作者所知是首个面向连续遥感视频理解的大规模视频问答数据集，包含 10,773 个实例、约 147 万帧、17.02 小时 的 UAV 与卫星平台连续视频。 数据集拆分为 RSVideo-Instruct（8,042 个训练/验证实例）与固定评测集 RSVideo-Bench（2,731 个测试实例），涵盖 L1 感知与 L2 推理两个能力维度、7 个能力组和 17 个任务。 通过评测发现现有视觉语言模型在遥感视频上显著弱于自然视频（平均准确率仅 29.0% vs 69.7%，差距 40.7%），并据此提出 RSVideo 训练框架，提升模型对小目标、短时状态和场景约束空间关系的证据聚焦能力。",
+    "research_unit": "武汉大学（Wuhan University）",
+    "hook_text": "论文提出 RSVideo-10K，据作者所知是首个面向连续遥感视频理解的大规模视频问答数据集，包含 10,773 个实例、约 147 万帧、17.02 小时 的 UAV 与卫星平台连续视频。",
     "key_points": [
-      "待生成"
+      "论文提出 RSVideo-10K，据作者所知是首个面向连续遥感视频理解的大规模视频问答数据集，包含 10,773 个实例、约 147 万帧、17.02 小时 的 UAV 与卫星平台连续视频。",
+      "数据集拆分为 RSVideo-Instruct（8,042 个训练/验证实例）与固定评测集 RSVideo-Bench（2,731 个测试实例），涵盖 L1 感知与 L2 推理两个能力维度、7 个能力组和 17 个任务。",
+      "通过评测发现现有视觉语言模型在遥感视频上显著弱于自然视频（平均准确率仅 29.0% vs 69.7%，差距 40.7%），并据此提出 RSVideo 训练框架，提升模型对小目标、短时状态和场景约束空间关系的证据聚焦能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -1448,14 +1516,16 @@
     "cover_path": "covers/2608.01127/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "现有视频世界模型训练依赖大规模算力，基于预训练双向视频扩散模型微调的方案存在训练与流式推理的结构性 mismatch，且社区缺乏轻量、可复现的从零训练基线，本论文旨在解决上述问题 提出MiniWorld轻量级流式视频世界模型训练框架，目标是在 modest 算力预算下实现从零训练的端到端流式世界建模，为未来研究提供开源可复现基础 该框架支持长时序动作/相机条件控制的流式视频生成，可应用于具身智能、交互仿真等场景",
+    "research_unit": "论文作者所属机构为北京大学",
+    "hook_text": "现有视频世界模型训练依赖大规模算力，基于预训练双向视频扩散模型微调的方案存在训练与流式推理的结构性 mismatch，且社区缺乏轻量、可复现的从零训练基线，本论文旨在解决上述问题",
     "key_points": [
-      "待生成"
+      "现有视频世界模型训练依赖大规模算力，基于预训练双向视频扩散模型微调的方案存在训练与流式推理的结构性 mismatch，且社区缺乏轻量、可复现的从零训练基线，本论文旨在解决上述问题",
+      "提出MiniWorld轻量级流式视频世界模型训练框架，目标是在 modest 算力预算下实现从零训练的端到端流式世界建模，为未来研究提供开源可复现基础",
+      "该框架支持长时序动作/相机条件控制的流式视频生成，可应用于具身智能、交互仿真等场景"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -1475,14 +1545,16 @@
     "cover_path": "covers/2607.29545/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出统一多模态视频生成框架MoRoute，解决现有方法无法复用分别预训练的VLM与视频DiT backbone、VLM层次化多模态表示利用不充分、多任务隔离学习导致生成质量受限的核心问题 将冻结的Qwen3.5-9B多模态VLM与预训练的Wan2.1-T2V-14B视频DiT作为异构混合专家，通过轻量动态层路由实现自适应层对应，无需修改架构即可复用两个预训练backbone 设计统一的in-context conditioning接口，将参考图像、源视频直接嵌入DiT输入序列，在保留细粒度视觉细节的同时支持文本、图像、视频条件的多样生成与编辑任务",
+    "research_unit": "中山大学（Sun Yat-sen University）",
+    "hook_text": "提出统一多模态视频生成框架MoRoute，解决现有方法无法复用分别预训练的VLM与视频DiT backbone、VLM层次化多模态表示利用不充分、多任务隔离学习导致生成质量受限的核心问题",
     "key_points": [
-      "待生成"
+      "提出统一多模态视频生成框架MoRoute，解决现有方法无法复用分别预训练的VLM与视频DiT backbone、VLM层次化多模态表示利用不充分、多任务隔离学习导致生成质量受限的核心问题",
+      "将冻结的Qwen3.5-9B多模态VLM与预训练的Wan2.1-T2V-14B视频DiT作为异构混合专家，通过轻量动态层路由实现自适应层对应，无需修改架构即可复用两个预训练backbone",
+      "设计统一的in-context conditioning接口，将参考图像、源视频直接嵌入DiT输入序列，在保留细粒度视觉细节的同时支持文本、图像、视频条件的多样生成与编辑任务"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1502,14 +1574,16 @@
     "cover_path": "covers/2607.28312/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 ObjectStream，一种免训练（training-free）且即插即用的视觉记忆框架，用于流式视频理解（streaming video understanding）。 核心思想是将潜在对象（latent objects）作为记忆锚点，直接从冻结的 Video-LLM 表示中诱导出空间连贯的对象候选，并在有界记忆预算下维护其跨帧演变历史，无需外部目标检测器或分割模型。 解决现有流式记忆方法只关注 token 重要性、时间冗余或片段级相关性，而缺乏对象级长期证据组织的问题，支持对象身份、交互和状态变化的推理。",
+    "research_unit": "Universiti Malaya",
+    "hook_text": "论文提出 ObjectStream，一种免训练（training-free）且即插即用的视觉记忆框架，用于流式视频理解（streaming video understanding）。",
     "key_points": [
-      "待生成"
+      "论文提出 ObjectStream，一种免训练（training-free）且即插即用的视觉记忆框架，用于流式视频理解（streaming video understanding）。",
+      "核心思想是将潜在对象（latent objects）作为记忆锚点，直接从冻结的 Video-LLM 表示中诱导出空间连贯的对象候选，并在有界记忆预算下维护其跨帧演变历史，无需外部目标检测器或分割模型。",
+      "解决现有流式记忆方法只关注 token 重要性、时间冗余或片段级相关性，而缺乏对象级长期证据组织的问题，支持对象身份、交互和状态变化的推理。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -1529,14 +1603,16 @@
     "cover_path": "covers/2607.27110/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 FreqForcing，一个无需训练（training-free） 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。 论文从频域角度刻画误差累积现象：自回归 rollout 过程中的误差表现为低频段能量的显著漂移（DC 分量与低频能量异常增长），而高频分量（局部运动、细节）变得不稳定。 研究发现 attention sink 能部分缓解频谱能量漂移，但无法完全消除，因此提出 光谱自锚定（Spectral Self-Anchoring, SSA） 机制，将预训练于 5 秒片段的 Self-Forcing 模型扩展至稳定生成 2 分钟视频（24× 外推）。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "本文提出 FreqForcing，一个无需训练（training-free） 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。",
     "key_points": [
-      "待生成"
+      "本文提出 FreqForcing，一个无需训练（training-free） 的框架，用于解决自回归视频扩散模型在长视频生成中出现的误差累积问题（表现为颜色漂移、运动停滞和视觉崩溃）。",
+      "论文从频域角度刻画误差累积现象：自回归 rollout 过程中的误差表现为低频段能量的显著漂移（DC 分量与低频能量异常增长），而高频分量（局部运动、细节）变得不稳定。",
+      "研究发现 attention sink 能部分缓解频谱能量漂移，但无法完全消除，因此提出 光谱自锚定（Spectral Self-Anchoring, SSA） 机制，将预训练于 5 秒片段的 Self-Forcing 模型扩展至稳定生成 2 分钟视频（24× 外推）。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -1556,14 +1632,16 @@
     "cover_path": "covers/2607.27036/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文研究了视频扩散世界模型在自回归长视频生成中出现的误差累积（compounding error）问题，即滑动窗口式自回归推理导致生成帧质量随时间急剧退化。 论文揭示了误差累积与模型内部表征退化（dimensional collapse）之间的耦合关系：当生成质量发生崩溃时，隐藏表征的有效秩（effective rank）同步骤降。 论文进一步发现，单纯扩大训练数据规模无法缓解误差累积，甚至会加剧表征退化，挑战了主流的数据缩放范式。 针对上述问题，论文提出视频表征正则化（Video Representation Regularization, VRR）方法，通过轻量训练约束稳定潜在表征，从而抑制迭代误差累积。",
+    "research_unit": "北京大学（Peking University）",
+    "hook_text": "本文研究了视频扩散世界模型在自回归长视频生成中出现的误差累积（compounding error）问题，即滑动窗口式自回归推理导致生成帧质量随时间急剧退化。",
     "key_points": [
-      "待生成"
+      "本文研究了视频扩散世界模型在自回归长视频生成中出现的误差累积（compounding error）问题，即滑动窗口式自回归推理导致生成帧质量随时间急剧退化。",
+      "论文揭示了误差累积与模型内部表征退化（dimensional collapse）之间的耦合关系：当生成质量发生崩溃时，隐藏表征的有效秩（effective rank）同步骤降。",
+      "论文进一步发现，单纯扩大训练数据规模无法缓解误差累积，甚至会加剧表征退化，挑战了主流的数据缩放范式。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -1583,14 +1661,16 @@
     "cover_path": "covers/2607.26694/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出Visko Orbis 1.0，首个实时交互长视频生成的Live Model，解决传统离线视频生成系统无法实时响应用户输入、支持长时长生成、生成过程中调整 prompt 的问题，满足直播、互动故事、虚拟角色等实时视频消费场景的需求 系统支持长文本到视频、图像到视频、视频 continuation 三种生成模式，兼容多语言 prompt，支持生成过程中实时切换 prompt ，原生生成832×480分辨率的视频，经超分辨率后输出4K 24 FPS的视频，支持小时级 rollout 无明显质量或颜色漂移 核心目标是将视频生成从离线 bounded 查询模式转变为持久运行的实时交互模式，生成过程中可实时响应用户的 prompt 更新，保证长时长生成的一致性和高质量",
+    "research_unit": "Team Visko（论文未公开具体所属研究机构）",
+    "hook_text": "提出Visko Orbis 1.0，首个实时交互长视频生成的Live Model，解决传统离线视频生成系统无法实时响应用户输入、支持长时长生成、生成过程中调整 prompt 的问题，满足直播、互动故事、虚拟角色等实时视频消费场景的需求",
     "key_points": [
-      "待生成"
+      "提出Visko Orbis 1.0，首个实时交互长视频生成的Live Model，解决传统离线视频生成系统无法实时响应用户输入、支持长时长生成、生成过程中调整 prompt 的问题，满足直播、互动故事、虚拟角色等实时视频消费场景的需求",
+      "系统支持长文本到视频、图像到视频、视频 continuation 三种生成模式，兼容多语言 prompt，支持生成过程中实时切换 prompt ，原生生成832×480分辨率的视频，经超分辨率后输出4K 24 FPS的视频，支持小时级 rollout 无明显质量或颜色漂移",
+      "核心目标是将视频生成从离线 bounded 查询模式转变为持久运行的实时交互模式，生成过程中可实时响应用户的 prompt 更新，保证长时长生成的一致性和高质量"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -1610,14 +1690,16 @@
     "cover_path": "covers/2607.25802/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文指出当前视频编辑系统缺乏显式的分层视频表示（前景、背景及其相互作用），导致视频对象插入和视频层分解任务依赖隐式推断或每场景优化，泛化能力受限。 提出 TriLayer 数据集，包含对齐的复合视频、背景视频和前景视频三元组，前景层显式包含物体外观及阴影、反射等视觉效应，首次为该类任务提供显式监督。 提出 DBL-Diffusion（双分支分层扩散）框架，联合建模 RGB 复合视频与 RGBA 前景层，并实例化为 DBL-Insert（分层对象插入）和 DBL-Decompose（视频层分解）两个任务。",
+    "research_unit": "POSTECH（韩国浦项科技大学）",
+    "hook_text": "论文指出当前视频编辑系统缺乏显式的分层视频表示（前景、背景及其相互作用），导致视频对象插入和视频层分解任务依赖隐式推断或每场景优化，泛化能力受限。",
     "key_points": [
-      "待生成"
+      "论文指出当前视频编辑系统缺乏显式的分层视频表示（前景、背景及其相互作用），导致视频对象插入和视频层分解任务依赖隐式推断或每场景优化，泛化能力受限。",
+      "提出 TriLayer 数据集，包含对齐的复合视频、背景视频和前景视频三元组，前景层显式包含物体外观及阴影、反射等视觉效应，首次为该类任务提供显式监督。",
+      "提出 DBL-Diffusion（双分支分层扩散）框架，联合建模 RGB 复合视频与 RGBA 前景层，并实例化为 DBL-Insert（分层对象插入）和 DBL-Decompose（视频层分解）两个任务。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -1637,14 +1719,16 @@
     "cover_path": "covers/2607.24560/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 EgoPlay，一个面向第一人称（egocentric）视频流的事件触发式视频到视频（V2V）编辑器，基于预训练的 EgoEdit 视频扩散 Transformer 进行微调获得。 核心任务：给定单目视频和“当 X 发生时，执行 Y”的自然语言规则，模型需自行推断事件 X 是否发生及发生时间，保留事件前帧，并仅对事件后的片段应用编辑 Y；同时支持否定提示和多事件提示。 现有视频编辑方法通常对整个片段施加单一编辑、依赖掩码/参考图，或需要人工指定时间区间，无法实现基于视觉事件的自主流式触发编辑；论文也指出尚无针对该任务的训练数据和评估协议。",
+    "research_unit": "Snap Inc.（美国）",
+    "hook_text": "论文提出 EgoPlay，一个面向第一人称（egocentric）视频流的事件触发式视频到视频（V2V）编辑器，基于预训练的 EgoEdit 视频扩散 Transformer 进行微调获得。",
     "key_points": [
-      "待生成"
+      "论文提出 EgoPlay，一个面向第一人称（egocentric）视频流的事件触发式视频到视频（V2V）编辑器，基于预训练的 EgoEdit 视频扩散 Transformer 进行微调获得。",
+      "核心任务：给定单目视频和“当 X 发生时，执行 Y”的自然语言规则，模型需自行推断事件 X 是否发生及发生时间，保留事件前帧，并仅对事件后的片段应用编辑 Y；同时支持否定提示和多事件提示。",
+      "现有视频编辑方法通常对整个片段施加单一编辑、依赖掩码/参考图，或需要人工指定时间区间，无法实现基于视觉事件的自主流式触发编辑；论文也指出尚无针对该任务的训练数据和评估协议。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -6565,14 +6649,16 @@
     "cover_path": "covers/2608.04510/",
     "paper_image_path": "",
     "paper_image_full_path": "",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 GUARD（Grounding Uncertainty and Ablation-Based Risk Detection），一种针对基于扩散的视觉-语言-动作（VLA）策略的测试时失败检测方法 核心问题：VLA 策略即使在预测与任务定义中的视觉和语言证据弱对齐（weakly grounded）时，仍可能生成看似合理的动作 GUARD 在不修改预训练策略的前提下，通过探测动作头对多模态证据的依赖程度来度量预测的\"接地\"质量",
+    "research_unit": "论文页面未提供作者所属研究机构信息",
+    "hook_text": "论文提出 GUARD（Grounding Uncertainty and Ablation-Based Risk Detection），一种针对基于扩散的视觉-语言-动作（VLA）策略的测试时失败检测方法",
     "key_points": [
-      "待生成"
+      "论文提出 GUARD（Grounding Uncertainty and Ablation-Based Risk Detection），一种针对基于扩散的视觉-语言-动作（VLA）策略的测试时失败检测方法",
+      "核心问题：VLA 策略即使在预测与任务定义中的视觉和语言证据弱对齐（weakly grounded）时，仍可能生成看似合理的动作",
+      "GUARD 在不修改预训练策略的前提下，通过探测动作头对多模态证据的依赖程度来度量预测的\"接地\"质量"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -13349,14 +13435,16 @@
     "cover_path": "covers/2606.27251/",
     "paper_image_path": "assets/paper-images/thumbs/2606.27251.webp",
     "paper_image_full_path": "assets/paper-images/2606.27251.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "核心解决持久性具身智能体在非结构化环境中统一协调赛博（API、IoT）与物理（操作、导航）领域异构工具，以及长程运行中自主恢复物理失败的问题，针对现有系统将问题分离处理的不足（VLM-based planners无统一动作空间、智能体框架上下文累积降时间一致性、VLA policies开环执行无法自检测失败）展开研究 提出持久性自主需要分层异步架构而非单体模型，明确分离规划、记忆、验证三个模块，研发OmniAct框架实现从分离技能到日常物理自主的具身智能体 研究目标是在真实世界场景中实现具备长程持久运行能力、端到端成功率高的日常物理自主具身智能体",
+    "research_unit": "提供的论文HTML原文未包含作者所属研究机构的公开信息",
+    "hook_text": "核心解决持久性具身智能体在非结构化环境中统一协调赛博（API、IoT）与物理（操作、导航）领域异构工具，以及长程运行中自主恢复物理失败的问题，针对现有系统将问题分离处理的不足（VLM-based planners无统一动作空间、智能体框架上下文累积降时间一致性、VLA policies开环执行无法自检测失败）展开研究",
     "key_points": [
-      "待生成"
+      "核心解决持久性具身智能体在非结构化环境中统一协调赛博（API、IoT）与物理（操作、导航）领域异构工具，以及长程运行中自主恢复物理失败的问题，针对现有系统将问题分离处理的不足（VLM-based planners无统一动作空间、智能体框架上下文累积降时间一致性、VLA policies开环执行无法自检测失败）展开研究",
+      "提出持久性自主需要分层异步架构而非单体模型，明确分离规划、记忆、验证三个模块，研发OmniAct框架实现从分离技能到日常物理自主的具身智能体",
+      "研究目标是在真实世界场景中实现具备长程持久运行能力、端到端成功率高的日常物理自主具身智能体"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -13579,14 +13667,16 @@
     "cover_path": "covers/2606.26025/",
     "paper_image_path": "assets/paper-images/thumbs/2606.26025.webp",
     "paper_image_full_path": "assets/paper-images/2606.26025.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 In-Context World Modeling（ICWM） 框架，旨在解决现代 Vision-Language-Action（VLA） 模型在新型场景（如相机视角改变、机器人形态变化）下泛化能力不足的问题。 传统 VLA 模型仅基于当前观测和语言指令进行条件控制，忽略了底层系统配置这一变量，隐含假设训练时固定的执行环境，导致每次适配新环境都需要数据密集的微调。 ICWM 将系统识别（system identification）视为上下文适应问题，使机器人策略能够从短历史的自生成、任务无关交互中自主推断关键系统变量，无需参数更新即可适应新配置。",
+    "research_unit": "论文页面未明确列出作者所属研究机构（HTML 元数据中仅含作者姓名）",
+    "hook_text": "本文提出 In-Context World Modeling（ICWM） 框架，旨在解决现代 Vision-Language-Action（VLA） 模型在新型场景（如相机视角改变、机器人形态变化）下泛化能力不足的问题。",
     "key_points": [
-      "待生成"
+      "本文提出 In-Context World Modeling（ICWM） 框架，旨在解决现代 Vision-Language-Action（VLA） 模型在新型场景（如相机视角改变、机器人形态变化）下泛化能力不足的问题。",
+      "传统 VLA 模型仅基于当前观测和语言指令进行条件控制，忽略了底层系统配置这一变量，隐含假设训练时固定的执行环境，导致每次适配新环境都需要数据密集的微调。",
+      "ICWM 将系统识别（system identification）视为上下文适应问题，使机器人策略能够从短历史的自生成、任务无关交互中自主推断关键系统变量，无需参数更新即可适应新配置。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -23495,14 +23585,16 @@
     "cover_path": "covers/2605.12090/",
     "paper_image_path": "assets/paper-images/thumbs/2605.12090.webp",
     "paper_image_full_path": "assets/paper-images/2605.12090.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "该论文是具身智能领域World Action Models（WAMs，世界动作模型）范式的首份系统性综述，核心解决现有Vision-Language-Action（VLA，视觉-语言-动作）模型仅学习反应式观察到动作映射、未显式建模物理世界在动作干预下的动态演化的问题 研究目标是为碎片化的WAMs研究构建统一的概念框架，系统梳理该领域的发展脉络、技术分类、数据支撑与评估范式 旨在厘清不同WAMs架构的权衡关系，识别该领域的开放挑战与未来研究方向",
+    "research_unit": "现有提供的论文HTML元数据中未包含作者所属研究机构相关信息",
+    "hook_text": "该论文是具身智能领域World Action Models（WAMs，世界动作模型）范式的首份系统性综述，核心解决现有Vision-Language-Action（VLA，视觉-语言-动作）模型仅学习反应式观察到动作映射、未显式建模物理世界在动作干预下的动态演化的问题",
     "key_points": [
-      "待生成"
+      "该论文是具身智能领域World Action Models（WAMs，世界动作模型）范式的首份系统性综述，核心解决现有Vision-Language-Action（VLA，视觉-语言-动作）模型仅学习反应式观察到动作映射、未显式建模物理世界在动作干预下的动态演化的问题",
+      "研究目标是为碎片化的WAMs研究构建统一的概念框架，系统梳理该领域的发展脉络、技术分类、数据支撑与评估范式",
+      "旨在厘清不同WAMs架构的权衡关系，识别该领域的开放挑战与未来研究方向"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",

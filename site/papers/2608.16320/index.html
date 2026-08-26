@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding - Video 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究后训练（post-training）在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。 现有后训练方案存在场景错配：基于可验证奖励的强化学习（如GRPO）会鼓励生成冗长的“思考-回答”式轨迹，与流式场景的直答需求不匹配；而涉及指令模式训练的在线策略蒸馏（OPD）配置会训练崩溃，无法收敛。 本文提出StreamOPD核心配方与可选的ST-CueGate教师特权扩展，验证了仅通过后训练即可在不改变流式推理路径的前提下，大幅提升模型在多流式视频基准上的性能。" />
     
     <script>
       (function() {
@@ -70,11 +70,11 @@
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding</h1>
             <div class="detail-meta">2026-08-17 · <a data-analytics-event="paper_source_click" href="http://arxiv.org/abs/2608.16320" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2608.16320" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2608.16320</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究后训练（post-training）在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。 现有后训练方案存在场景错配：基于可验证奖励的强化学习（如GRPO）会鼓励生成冗长的“思考-回答”式轨迹，与流式场景的直答需求不匹配；而涉及指令模式训练的在线策略蒸馏（OPD）配置会训练崩溃，无法收敛。 本文提出StreamOPD核心配方与可选的ST-CueGate教师特权扩展，验证了仅通过后训练即可在不改变流式推理路径的前提下，大幅提升模型在多流式视频基准上的性能。</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">9 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">清华大学</span>
             </div>
           </div>
         </div>
@@ -88,16 +88,60 @@
     <span class="reading-badge">一眼看懂</span>
     <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2608.16320/">封面预览</a>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究后训练（post-training）在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。</p>
+  <ul class="reading-intro-points"><li>针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究后训练（post-training）在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。</li><li>现有后训练方案存在场景错配：基于可验证奖励的强化学习（如GRPO）会鼓励生成冗长的“思考-回答”式轨迹，与流式场景的直答需求不匹配；而涉及指令模式训练的在线策略蒸馏（OPD）配置会训练崩溃，无法收敛。</li><li>本文提出StreamOPD核心配方与可选的ST-CueGate教师特权扩展，验证了仅通过后训练即可在不改变流式推理路径的前提下，大幅提升模型在多流式视频基准上的性能。</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li>清华大学</li><li>浙江大学</li><li>香港大学</li><li>LMMs-Lab</li><li>南洋理工大学</li><li>香港科技大学（广州）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>针对流式视频理解任务（模型需在视频 unfolding 过程中仅基于已观测到的因果前缀直接回答问题，无法访问后续内容），本文固定无内存的最近窗口推理协议，研究<strong>后训练（post-training）</strong>在不修改推理架构的前提下，能多大程度上缩小小模型与大模型的性能差距，而非依赖推理时的内存库、检索或压缩等复杂模块。</li><li>现有后训练方案存在场景错配：基于可验证奖励的强化学习（如GRPO）会鼓励生成冗长的“思考-回答”式轨迹，与流式场景的直答需求不匹配；而涉及指令模式训练的在线策略蒸馏（OPD）配置会训练崩溃，无法收敛。</li><li>本文提出<strong>StreamOPD</strong>核心配方与可选的<strong>ST-CueGate</strong>教师特权扩展，验证了仅通过后训练即可在不改变流式推理路径的前提下，大幅提升模型在多流式视频基准上的性能。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>文档化了流式视频后训练的两类关键错配：无教师GRPO虽能优化任务奖励，但会漂向冗长、与部署格式不匹配的生成轨迹；涉及指令模式训练的OPD配置会出现早期训练崩溃。</li><li>提出<strong>StreamOPD</strong>实用后训练配方，整合了25k条可验证流式视频训练数据 pipeline、 empirically 稳定的「思考模式训练+指令模式推理」OPD配置，以及固定的无内存评估协议，为开源流式视频研究提供可复现的参考。</li><li>提出可选的<strong>ST-CueGate（Spatio-Temporal CueGate）</strong>教师特权扩展：通过计算教师在有/无时空线索条件下的token级对数似然比，聚合为响应级的组相对权重，重加权OPD的蒸馏信号，筛选出真正受线索影响的响应进行知识蒸馏，无需修改部署路径。</li><li>在不改变推理协议的前提下，StreamOPD将Qwen3.5-4B学生在<strong>StreamingBench</strong>上的性能从77.9%提升至83.9%，仅比9B教师低0.3个百分点；<strong>OVO-Bench</strong>（排除幻觉检测HLD子任务）准确率提升9.1个百分点；ST-CueGate进一步将StreamingBench性能提升至84.6%，且是唯一在所有四个测试基准上均超过基模型的变体。</li><li>验证了同策略自蒸馏（OPSD）的有效性：用学生初始策略的冻结副本作为教师，可保留大部分性能增益，同时将OVO-Bench的幻觉检测（HLD）子任务准确率提升至57.0%，超过未训练学生和9B教师的对应性能，证明流式场景下的 abstention 损失并非配方固有缺陷。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>核心方法基于<strong>在线策略蒸馏（OPD）</strong>：固定流式推理协议为仅取最近4帧（1fps）的无内存滑动窗口，答案格式为可验证的多选、二分类、计数三类；训练时师生均采用思考模式生成响应，教师基于学生的on-policy轨迹提供token级对数概率监督，优势信号为教师与学生的token级对数概率差，通过截断重要性比实现策略优化，推理时将学生切换为指令模式实现直答输出。</li><li>关键创新点1：发现训练/推理模式解耦的稳定性规律：仅当师生均采用思考模式训练时OPD可收敛，带指令模式训练的配置均会崩溃，该 pairing 解决了强化学习鼓励冗长思考与流式直答需求的矛盾。</li><li>关键创新点2：提出ST-CueGate解决教师特权信息的利用问题：不同于被动给教师附加时空线索的基线，该方法先计算教师在有/无线索时对同一学生响应的token级对数似然比，发现该对比高度稀疏（56.5%的token得分接近0，20%的高正分token贡献82%的总正质量），因此将token级对比聚合为长度归一化的响应级得分，再基于组内统计量标准化为组相对权重，重加权OPD的优势信号，仅对线索敏感的响应进行强化蒸馏，无需修改部署路径。</li><li>方法支持同策略自蒸馏（OPSD）：无需额外大教师，用学生初始策略的冻结副本作为教师即可获得接近使用大教师的效果。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>训练数据集：25k条自动构造的可验证流式视频问答数据，答案格式覆盖多选、二分类、计数三类，支持规则化奖励计算。</li><li>评估数据集：<strong>StreamingBench</strong>、<strong>OVO-Bench</strong>、<strong>Video-MME</strong>、<strong>LongVideoBench</strong>四个流式/通用视频理解基准。</li><li>模型规模：学生模型为<strong>Qwen3.5-4B</strong>，教师模型为<strong>Qwen3.5-9B</strong>，自蒸馏场景下教师为学生初始策略的冻结副本。</li><li>训练资源：论文提供的截断内容中未明确说明具体GPU/TPU等训练硬件配置。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：固定无内存的最近窗口推理协议（仅使用最近4帧、1fps采样，无内存库、检索、压缩或在线推理模块），与训练时的推理路径完全一致，所有性能提升均来自后训练而非推理时 tricks。</li><li>主要评估指标：各基准的准确率（Accuracy），StreamingBench和OVO-Bench额外关注流式场景下的实时感知、回溯、前向查询能力。</li><li>关键实验结果：</li></ul>
+<p> - 核心StreamOPD配方下，Qwen3.5-4B学生在StreamingBench上的准确率从77.9%提升至83.9%，仅比9B教师低0.3个百分点；OVO-Bench（排除幻觉检测HLD子任务）准确率提升9.1个百分点，推理延迟和路径完全不变。</p>
+<p> - ST-CueGate扩展下，模型在StreamingBench上达到84.6%，OVO-Bench（排除HLD）71.9%，Video-MME 64.9%，LongVideoBench 61.4%，是唯一在所有四个基准上均超过基模型（未训练学生）的变体。</p>
+<p> - 同策略自蒸馏（OPSD）可保留大部分StreamOPD的增益，同时将OVO-Bench的幻觉检测（HLD）子任务准确率提升至57.0%，超过未训练学生和9B教师的对应性能，证明流式场景下的 abstention 损失并非配方固有缺陷。</p>
+<p> - 基线对比：无教师GRPO虽能获得较高的任务奖励，但会漂向冗长的思考轨迹，与部署时的直答格式不匹配；被动附加线索的ViCuR基线效果不稳定，无法持续超过标准OPD。</p></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>
