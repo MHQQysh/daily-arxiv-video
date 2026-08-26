@@ -48,7 +48,7 @@ jobs:
         env:
           MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
           ARXIV_QUERY_KEYWORD: 'all:"VLA" OR all:"Vision-Language-Action" OR all:"World Action Model" OR all:"World-Action Model" OR all:"action world model"'
-          ARXIV_DAILY_RESULTS: 80
+          ARXIV_DAILY_RESULTS: 2
           ARXIV_PAGE_SIZE: 10
           ARXIV_DELAY_SECONDS: 15
           ARXIV_RETRY_BASE_SECONDS: 60
