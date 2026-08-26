@@ -3846,5 +3846,408 @@
     "inside_figure": false,
     "width": 1224,
     "height": 1584
+  },
+  "2608.24093": {
+    "title": "Joint-Embedding Prediction of Masked Point Tubes for Self-Supervised Learning on 4D Point Cloud Videos",
+    "abs_url": "https://arxiv.org/abs/2608.24093",
+    "html_url": "https://arxiv.org/html/2608.24093v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.24093v1/attention_visualization.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 436,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "",
+        "classes": "ds-announcement-glyph",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2608.24093.webp",
+    "image_url": "https://arxiv.org/html/2608.24093v1/attention_visualization.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 436
+  },
+  "2608.24302": {
+    "title": "VideoHarness-RSI: Recursive Harness Self-Improvement for Long-Video Understanding with Frozen Vision-Language Models",
+    "abs_url": "https://arxiv.org/abs/2608.24302",
+    "html_url": "https://arxiv.org/html/2608.24302v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.24302v1/fig_overview_claude_code.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 241,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24302v1/fig_k40_evolution_pareto_updated.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 333,
+        "height": 192,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24302v1/fig_qualitative_context_reads.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 161,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.24302.webp",
+    "image_url": "https://arxiv.org/html/2608.24302v1/fig_overview_claude_code.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 429,
+    "height": 241
+  },
+  "2608.24293": {
+    "title": "Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation",
+    "abs_url": "https://arxiv.org/abs/2608.24293",
+    "html_url": "https://arxiv.org/html/2608.24293v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.24293v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 571,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24293v1/gen_w_mask_ucf.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 511,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24293v1/gen_w_mask_sky.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 511,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24293v1/gen_w_mask_kin.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 511,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24293v1/joint_gen.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 325,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.24293.webp",
+    "image_url": "https://arxiv.org/html/2608.24293v1/x1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 571
+  },
+  "2608.24574": {
+    "title": "PhysMLLMs: Spatial Priors for Unified Referring Segmentation and Grounded Reasoning of Images and Videos",
+    "abs_url": "https://arxiv.org/abs/2608.24574",
+    "html_url": "https://arxiv.org/html/2608.24574v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.24574v1/motivation1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 226,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24574v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 219,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24574v1/qa.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 209,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24574v1/QF.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 306,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24574v1/failure_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 307,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.24574.webp",
+    "image_url": "https://arxiv.org/html/2608.24574v1/motivation1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 226
+  },
+  "2608.24671": {
+    "title": "ReGround-Surg: Reliability-Guided Anchor Grounding for Referring Surgical Video Segmentation",
+    "abs_url": "https://arxiv.org/abs/2608.24671",
+    "html_url": "https://arxiv.org/html/2608.24671v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.24671v1/figures/motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 310,
+        "height": 274,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24671v1/figures/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 225,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24671v1/figures/gate.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 201,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24671v1/figures/scatter_grounding.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 286,
+        "height": 225,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24671v1/figures/qualitative_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 172,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2608.24671.webp",
+    "image_url": "https://arxiv.org/html/2608.24671v1/figures/motivation.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 310,
+    "height": 274
+  },
+  "2608.24674": {
+    "title": "TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation",
+    "abs_url": "https://arxiv.org/abs/2608.24674",
+    "html_url": "https://arxiv.org/html/2608.24674v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.24674v1/figures/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24674v1/dual_divergence_framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 191,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24674v1/curriculum.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 233,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24674v1/demo_display.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 413,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.24674v1/combined_ablation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 205,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.24674.webp",
+    "image_url": "https://arxiv.org/html/2608.24674v1/figures/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 196
+  },
+  "2608.24810": {
+    "title": "Strictly Causal Streaming Video Anomaly Detection with a Theoretically-Grounded State-Space Core",
+    "abs_url": "https://arxiv.org/abs/2608.24810",
+    "html_url": "https://arxiv.org/html/2608.24810v1",
+    "path": "assets/paper-images/2608.24810.webp",
+    "image_url": "https://arxiv.org/html/2608.24810v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 369,
+    "height": 160
   }
 }

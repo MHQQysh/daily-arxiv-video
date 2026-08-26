@@ -1,6 +1,195 @@
 [
   {
     "date": "2026-08-25",
+    "title": "Strictly Causal Streaming Video Anomaly Detection with a Theoretically-Grounded State-Space Core",
+    "link": "https://arxiv.org/abs/2608.24810",
+    "arxiv_id": "2608.24810",
+    "detail_path": "papers/2608.24810/",
+    "cover_path": "covers/2608.24810/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.24810.webp",
+    "paper_image_full_path": "assets/paper-images/2608.24810.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "TurboT2VA: Fast Large-Scale Text-to-Video-Audio Generation via Score-Regularized Consistency Distillation",
+    "link": "https://arxiv.org/abs/2608.24674",
+    "arxiv_id": "2608.24674",
+    "detail_path": "papers/2608.24674/",
+    "cover_path": "covers/2608.24674/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.24674.webp",
+    "paper_image_full_path": "assets/paper-images/2608.24674.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "ReGround-Surg: Reliability-Guided Anchor Grounding for Referring Surgical Video Segmentation",
+    "link": "https://arxiv.org/abs/2608.24671",
+    "arxiv_id": "2608.24671",
+    "detail_path": "papers/2608.24671/",
+    "cover_path": "covers/2608.24671/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.24671.webp",
+    "paper_image_full_path": "assets/paper-images/2608.24671.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "PhysMLLMs: Spatial Priors for Unified Referring Segmentation and Grounded Reasoning of Images and Videos",
+    "link": "https://arxiv.org/abs/2608.24574",
+    "arxiv_id": "2608.24574",
+    "detail_path": "papers/2608.24574/",
+    "cover_path": "covers/2608.24574/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.24574.webp",
+    "paper_image_full_path": "assets/paper-images/2608.24574.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "VideoHarness-RSI: Recursive Harness Self-Improvement for Long-Video Understanding with Frozen Vision-Language Models",
+    "link": "https://arxiv.org/abs/2608.24302",
+    "arxiv_id": "2608.24302",
+    "detail_path": "papers/2608.24302/",
+    "cover_path": "covers/2608.24302/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.24302.webp",
+    "paper_image_full_path": "assets/paper-images/2608.24302.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation",
+    "link": "https://arxiv.org/abs/2608.24293",
+    "arxiv_id": "2608.24293",
+    "detail_path": "papers/2608.24293/",
+    "cover_path": "covers/2608.24293/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.24293.webp",
+    "paper_image_full_path": "assets/paper-images/2608.24293.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "title": "Joint-Embedding Prediction of Masked Point Tubes for Self-Supervised Learning on 4D Point Cloud Videos",
+    "link": "https://arxiv.org/abs/2608.24093",
+    "arxiv_id": "2608.24093",
+    "detail_path": "papers/2608.24093/",
+    "cover_path": "covers/2608.24093/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.24093.webp",
+    "paper_image_full_path": "assets/paper-images/2608.24093.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-25",
     "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
     "link": "http://arxiv.org/abs/2608.24845",
     "arxiv_id": "2608.24845",
