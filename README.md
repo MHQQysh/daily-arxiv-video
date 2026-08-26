@@ -4,7 +4,7 @@
 
 ## 功能特性
 
-- 🤖 **自动爬取**: 每日自动从 ArXiv 爬取 Video 方向最新论文
+- 🤖 **自动爬取**: 每个最新 ArXiv 发布日尽量维护 10 篇高相关 Video 论文
 - 🧠 **AI摘要生成**: 使用ModelScope API自动为论文生成中文摘要
 - 📚 从 `papers.md` 自动解析论文信息
 - 🔍 实时搜索功能
@@ -39,9 +39,11 @@ cp .env.example .env
 - `MODELSCOPE_BASE_URL`: API 基础 URL（默认：https://api-inference.modelscope.cn/v1/）
 - `MODELSCOPE_MODEL`: 使用的模型（默认：deepseek-ai/DeepSeek-V3.2）
 - `ARXIV_QUERY_KEYWORD`: 搜索关键词，支持 arXiv 查询语法（默认检索 Video 生成、理解与推理相关方向）
-- `ARXIV_INIT_RESULTS`: 初始化抓取数量（默认：500）
-- `ARXIV_DAILY_RESULTS`: 每日抓取数量（默认：20）
-- `ARXIV_MAX_RETRIES`: arXiv 搜索重试次数（默认：3）
+- `ARXIV_DAILY_RESULTS`: 每个发布日期的目标论文数（默认：10，硬上限：20）
+- `ARXIV_PRIMARY_RESULTS`: `ti:video` 高精度候选数（默认：30）
+- `ARXIV_FALLBACK_RESULTS`: 不足目标时 `all:video` 扩展候选数（默认：70）
+- `ARXIV_REQUEST_TIMEOUT_SECONDS`: 单次 arXiv HTTP 请求硬超时（默认：10 秒）
+- `ARXIV_MAX_RETRIES`: 每轮 arXiv 查询最多尝试次数（默认：2）
 - `HTTP_MAX_RETRIES`: HTTP 请求重试次数（默认：3）
 - `HTTP_TIMEOUT`: HTTP 请求超时时间（秒，默认：30）
 - `HTML_MAX_CHARS`: HTML 内容最大字符数（默认：180000）
@@ -59,10 +61,10 @@ python scripts/arxiv_crawler.py
 python scripts/generate_summaries.py
 
 # 抓取论文首图（可选，GitHub Actions 会自动执行）
-python scripts/fetch_paper_images.py --max-items 30
+python scripts/fetch_paper_images.py --max-items 0
 
 # 为剩余缺图论文生成 Playwright 截图兜底队列
-python scripts/build_paper_image_fallback_queue.py --max-items 20
+python scripts/build_paper_image_fallback_queue.py --max-items 0
 
 # 安装 Playwright 并执行截图兜底
 npm install
@@ -71,6 +73,9 @@ npm run paper-image:fallbacks
 
 # 将截图结果注册进 manifest
 python scripts/register_paper_image_fallbacks.py
+
+# 仍缺图片时从 PDF 提取图片或渲染首页
+python scripts/fetch_pdf_fallback_images.py --max-items 0
 ```
 
 ### 构建网站
@@ -131,22 +136,25 @@ npx serve site
   run: python scripts/arxiv_crawler.py
   env:
     MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
-    ARXIV_QUERY_KEYWORD: "your_keyword"  # 可选：修改搜索关键词
-    ARXIV_DAILY_RESULTS: "30"            # 可选：修改每日抓取数量
+    ARXIV_QUERY_KEYWORD: "ti:video"      # 高精度查询
+    ARXIV_FALLBACK_QUERY: "all:video"    # 不足10篇时才使用
+    ARXIV_DAILY_RESULTS: "10"            # 每个发布日期目标数量
 ```
 
 默认配置：
 - 搜索关键词：`ti:video`（标题中明确包含 Video/Videos，降低宽泛摘要匹配带来的噪声）
-- 每日抓取：20篇（GitHub Actions 中可覆盖）
-- 模型：deepseek-ai/DeepSeek-V3.2
+- 条件扩展查询：`all:video`，只在高精度结果不足 10 篇时运行，并通过相关度评分过滤
+- 每个最新 ArXiv 发布日目标：10 篇；当天合格论文不足时不强行凑数
+- 搜索时间：最多两轮，单次请求硬超时 10 秒，爬虫步骤总上限 3 分钟
+- 摘要 API：通过 ModelScope 的 OpenAI 兼容接口调用；工作流按 `MODELSCOPE_MODELS` 配置的多个模型依次回退，本地未配置列表时默认使用 `deepseek-ai/DeepSeek-V3.2`
 - 其他配置见 `.env.example`
 
 ### 3. 自动部署
 
-每次推送到 `master` 或 `main` 分支时，GitHub Actions 会自动：
+每次推送到 `master` 或 `main` 分支时，GitHub Actions 会执行真实检索的 dry-run，并刷新现有站点，但不会因为代码提交自动增加论文。定时任务或手动勾选 `add_new_papers` 后才会真实写入论文数据：
 
-1. 检出代码
-2. 爬取新论文并生成摘要
+1. 检出代码并运行单元测试
+2. 定时任务按最新发布日期补足到最多 10 篇，或按手动填写的 `target_date` 回补
 3. 抓取最新论文的首图
 4. 对无法直接下载原图的论文执行 Playwright 截图兜底
 5. 运行构建脚本

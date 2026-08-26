@@ -12,6 +12,28 @@ WORKFLOWS = [
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_deploy_workflow_bounds_daily_ten_paper_search(self) -> None:
+        content = (ROOT / ".github" / "workflows" / "deploy.yml").read_text(encoding="utf-8")
+        for fragment in (
+            "add_new_papers:",
+            "target_date:",
+            "timeout-minutes: 3",
+            "ARXIV_DAILY_RESULTS: 10",
+            "ARXIV_PRIMARY_RESULTS: 30",
+            "ARXIV_FALLBACK_RESULTS: 70",
+            "ARXIV_PAGE_SIZE: 70",
+            "ARXIV_REQUEST_TIMEOUT_SECONDS: 10",
+            "ARXIV_RETRY_BASE_SECONDS: 5",
+            "ARXIV_MAX_RETRIES: 2",
+            "python -u scripts/arxiv_crawler.py --dry-run",
+            "python -m unittest discover -s tests -v",
+        ):
+            self.assertIn(fragment, content)
+        self.assertIn('github.event_name }}" = "schedule"', content)
+        self.assertNotIn("ARXIV_DAILY_RESULTS: 5", content)
+        self.assertNotIn("ARXIV_DELAY_SECONDS: 15", content)
+        self.assertNotIn("ARXIV_RETRY_BASE_SECONDS: 60", content)
+
     def test_playwright_fallback_resolves_module_path_cross_platform(self) -> None:
         content = (ROOT / "scripts" / "render_paper_image_fallbacks.mjs").read_text(encoding="utf-8")
         self.assertIn("fileURLToPath(import.meta.url)", content)

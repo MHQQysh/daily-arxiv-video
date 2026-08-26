@@ -1,14 +1,23 @@
 name: 部署到 GitHub Pages
 
 on:
+  workflow_dispatch:
+    inputs:
+      add_new_papers:
+        description: '是否真实新增论文（不勾选则只预览并刷新现有站点）'
+        required: false
+        type: boolean
+        default: false
+      target_date:
+        description: '可选：只补指定 arXiv 发布日期（YYYY-MM-DD）'
+        required: false
+        type: string
+        default: ''
   push:
     branches: [ master, main ]
   schedule:
     # 每日北京时间中午12点（UTC 4:00）运行爬取和生成任务
     - cron: '0 4 * * *'
-  workflow_dispatch:
-
-  
 permissions:
   contents: write
   pages: write
@@ -39,22 +48,34 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: 运行单元测试
+        run: python -m unittest discover -s tests -v
+
       - name: 安装 Playwright 依赖
         run: |
           npm install
           npx playwright install --with-deps chromium
           
       - name: 运行 arXiv 爬虫
+        timeout-minutes: 3
         run: |
-          python scripts/arxiv_crawler.py
+          if [ "${{ github.event_name }}" = "schedule" ] || { [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.add_new_papers }}" = "true" ]; }; then
+            python -u scripts/arxiv_crawler.py
+          else
+            python -u scripts/arxiv_crawler.py --dry-run
+          fi
         env:
-          MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
           ARXIV_QUERY_KEYWORD: 'ti:video'
-          ARXIV_DAILY_RESULTS: 5
-          ARXIV_PAGE_SIZE: 10
-          ARXIV_DELAY_SECONDS: 15
-          ARXIV_RETRY_BASE_SECONDS: 60
-          ARXIV_MAX_RETRIES: 4
+          ARXIV_FALLBACK_QUERY: 'all:video'
+          ARXIV_TARGET_DATE: ${{ inputs.target_date }}
+          ARXIV_DAILY_RESULTS: 10
+          ARXIV_PRIMARY_RESULTS: 30
+          ARXIV_FALLBACK_RESULTS: 70
+          ARXIV_PAGE_SIZE: 70
+          ARXIV_DELAY_SECONDS: 3
+          ARXIV_REQUEST_TIMEOUT_SECONDS: 10
+          ARXIV_RETRY_BASE_SECONDS: 5
+          ARXIV_MAX_RETRIES: 2
 
       - name: 生成论文摘要
         run: |
