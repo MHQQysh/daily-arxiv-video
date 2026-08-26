@@ -30,18 +30,14 @@ except ImportError:
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 INPUT_MD = PROJECT_ROOT / "papers.md"
-SITE_DIR = PROJECT_ROOT / "site"
+SITE_DIR = Path(os.getenv("SITE_OUTPUT_DIR", str(PROJECT_ROOT / "site"))).resolve()
 ASSETS_DIR = SITE_DIR / "assets"
 PAPERS_DIR = SITE_DIR / "papers"
 COVERS_DIR = SITE_DIR / "covers"
 IMAGE_DIR = ASSETS_DIR / "paper-images"
 PAPER_IMAGES_MANIFEST = ASSETS_DIR / "paper-images.json"
-DEFAULT_ARXIV_QUERY = (
-    'all:"VLA" OR all:"Vision-Language-Action" OR '
-    'all:"World Action Model" OR all:"World-Action Model" OR '
-    'all:"action world model"'
-)
-DEFAULT_ARXIV_KEYWORD_LABEL = "VLA / World Action Model"
+DEFAULT_ARXIV_QUERY = "ti:video"
+DEFAULT_ARXIV_KEYWORD_LABEL = "Video"
 
 COVER_THEMES = [
     {
@@ -140,6 +136,9 @@ def load_json(path: Path) -> object:
 
 
 def get_arxiv_keyword_label() -> str:
+    topic_label = os.getenv("SITE_TOPIC_LABEL", "").strip()
+    if topic_label:
+        return topic_label
     keyword = os.getenv("ARXIV_QUERY_KEYWORD") or DEFAULT_ARXIV_QUERY
     if keyword == DEFAULT_ARXIV_QUERY:
         return DEFAULT_ARXIV_KEYWORD_LABEL
@@ -808,7 +807,7 @@ def generate_index_html() -> str:
       <div class="container">
         <nav class="site-nav" aria-label="站点导航">
           <a class="site-brand" href="index.html" aria-label="返回首页">
-            <span class="site-brand-mark">VLA/WAM</span>
+            <span class="site-brand-mark">VIDEO</span>
             <span>Research Brief</span>
           </a>
           <div class="site-nav-actions">
@@ -821,7 +820,7 @@ def generate_index_html() -> str:
         </nav>
         <div class="header-content">
           <div class="header-copy">
-            <p class="eyebrow">VLA &amp; World Action Model Feed</p>
+            <p class="eyebrow">Video Research Feed</p>
             <h1 class="site-title">{escape(keyword)} <span class="site-title-nowrap">每日论文卡</span></h1>
             <p class="site-subtitle">聚合最新论文，提炼核心贡献、方法与实验结果，用更清晰的阅读路径持续跟进前沿研究。</p>
             <div class="hero-tags" aria-label="站点特点">
@@ -840,7 +839,7 @@ def generate_index_html() -> str:
               <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                 <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <input id="search" type="search" placeholder="比如：OpenVLA、World Action Model、实时推理..." aria-label="搜索论文卡片" />
+              <input id="search" type="search" placeholder="比如：视频生成、长视频理解、Video Agent..." aria-label="搜索论文卡片" />
             </div>
             <p class="search-hint">支持同时输入多个关键词，将在标题、机构、摘要和 arXiv ID 中检索。</p>
           </div>

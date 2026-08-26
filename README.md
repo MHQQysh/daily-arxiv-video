@@ -1,10 +1,10 @@
 # ArXiv Papers 网站
 
-这是一个展示ArXiv论文精选的静态网站，支持搜索和独立详情页查看功能。项目会自动爬取包含 VLA / Vision-Language-Action 以及 World Action Model 相关关键词的论文，并使用 AI 生成摘要。
+这是一个展示 ArXiv Video 方向论文精选的静态网站，支持搜索和独立详情页查看功能。项目聚合视频生成、视频理解与推理、Video-Language、视频编辑和视频分析相关论文，并使用 AI 生成摘要。
 
 ## 功能特性
 
-- 🤖 **自动爬取**: 每日自动从 ArXiv 爬取 VLA 与 World Action Model 相关最新论文
+- 🤖 **自动爬取**: 每日自动从 ArXiv 爬取 Video 方向最新论文
 - 🧠 **AI摘要生成**: 使用ModelScope API自动为论文生成中文摘要
 - 📚 从 `papers.md` 自动解析论文信息
 - 🔍 实时搜索功能
@@ -38,7 +38,7 @@ cp .env.example .env
 **可选配置：**
 - `MODELSCOPE_BASE_URL`: API 基础 URL（默认：https://api-inference.modelscope.cn/v1/）
 - `MODELSCOPE_MODEL`: 使用的模型（默认：deepseek-ai/DeepSeek-V3.2）
-- `ARXIV_QUERY_KEYWORD`: 搜索关键词，支持 arXiv 查询语法（默认同时检索 VLA 与 World Action Model 相关短语）
+- `ARXIV_QUERY_KEYWORD`: 搜索关键词，支持 arXiv 查询语法（默认检索 Video 生成、理解与推理相关方向）
 - `ARXIV_INIT_RESULTS`: 初始化抓取数量（默认：500）
 - `ARXIV_DAILY_RESULTS`: 每日抓取数量（默认：20）
 - `ARXIV_MAX_RETRIES`: arXiv 搜索重试次数（默认：3）
@@ -136,7 +136,7 @@ npx serve site
 ```
 
 默认配置：
-- 搜索关键词：`all:"VLA" OR all:"Vision-Language-Action" OR all:"World Action Model" OR all:"World-Action Model" OR all:"action world model"`
+- 搜索关键词：`ti:video`（标题中明确包含 Video/Videos，降低宽泛摘要匹配带来的噪声）
 - 每日抓取：20篇（GitHub Actions 中可覆盖）
 - 模型：deepseek-ai/DeepSeek-V3.2
 - 其他配置见 `.env.example`

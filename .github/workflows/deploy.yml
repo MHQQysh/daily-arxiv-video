@@ -49,7 +49,7 @@ jobs:
           python scripts/arxiv_crawler.py
         env:
           MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
-          ARXIV_QUERY_KEYWORD: 'ti:video OR all:"video generation" OR all:"video understanding" OR all:"video-language" OR all:"video reasoning" OR all:"text-to-video" OR all:"image-to-video"'
+          ARXIV_QUERY_KEYWORD: 'ti:video'
           ARXIV_DAILY_RESULTS: 5
           ARXIV_PAGE_SIZE: 10
           ARXIV_DELAY_SECONDS: 15
@@ -93,7 +93,8 @@ jobs:
         run: |
           python scripts/build_site.py
         env:
-          ARXIV_QUERY_KEYWORD: 'all:"VLA" OR all:"Vision-Language-Action" OR all:"World Action Model" OR all:"World-Action Model" OR all:"action world model"'
+          ARXIV_QUERY_KEYWORD: 'ti:video'
+          SITE_TOPIC_LABEL: Video
           GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID || secrets.GA_MEASUREMENT_ID }}
 
       - name: 提交更改
