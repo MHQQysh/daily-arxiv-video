@@ -12,6 +12,11 @@ WORKFLOWS = [
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_playwright_fallback_resolves_module_path_cross_platform(self) -> None:
+        content = (ROOT / "scripts" / "render_paper_image_fallbacks.mjs").read_text(encoding="utf-8")
+        self.assertIn("fileURLToPath(import.meta.url)", content)
+        self.assertNotIn("new URL(import.meta.url).pathname", content)
+
     def test_both_workflows_run_the_complete_image_pipeline_in_order(self) -> None:
         required_fragments = [
             "actions/setup-node@v4",

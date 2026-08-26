@@ -1,8 +1,9 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
 
-const projectRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const queuePath = path.join(projectRoot, "tmp", "paper-image-fallback-queue.json");
 const resultPath = path.join(projectRoot, "tmp", "paper-image-fallback-results.json");
 
