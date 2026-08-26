@@ -66,11 +66,11 @@ jobs:
 
       - name: 抓取论文首图
         run: |
-          python scripts/fetch_paper_images.py --max-items 30
+          python scripts/fetch_paper_images.py --max-items 0
 
       - name: 生成首图截图兜底队列
         run: |
-          python scripts/build_paper_image_fallback_queue.py --max-items 20
+          python scripts/build_paper_image_fallback_queue.py --max-items 0
 
       - name: Playwright 截图兜底
         run: |
@@ -79,6 +79,10 @@ jobs:
       - name: 注册截图兜底首图
         run: |
           python scripts/register_paper_image_fallbacks.py
+
+      - name: PDF 首图最终兜底
+        run: |
+          python scripts/fetch_pdf_fallback_images.py --max-items 0
           
       - name: 检查 Google Analytics 配置
         run: |

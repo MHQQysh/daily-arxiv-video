@@ -24,8 +24,18 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: 安装依赖
         run: pip install -r requirements.txt
+
+      - name: 安装 Playwright 依赖
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
 
       - name: 为已导入论文生成中文摘要
         run: python scripts/generate_summaries.py
@@ -35,7 +45,19 @@ jobs:
           HTML_MAX_CHARS: 90000
 
       - name: 抓取最新论文首图
-        run: python scripts/fetch_paper_images.py --max-items 30
+        run: python scripts/fetch_paper_images.py --max-items 0
+
+      - name: 生成首图截图兜底队列
+        run: python scripts/build_paper_image_fallback_queue.py --max-items 0
+
+      - name: Playwright 截图兜底
+        run: npm run paper-image:fallbacks
+
+      - name: 注册截图兜底首图
+        run: python scripts/register_paper_image_fallbacks.py
+
+      - name: PDF 首图最终兜底
+        run: python scripts/fetch_pdf_fallback_images.py --max-items 0
 
       - name: 构建 Video 网站
         run: python scripts/build_site.py
