@@ -16,8 +16,6 @@ on:
   schedule:
     # 每日北京时间中午12:17（UTC 4:17）运行，避开 GitHub Actions 整点高峰
     - cron: '17 4 * * *'
-    # 临时端到端验证：每 5 分钟尝试一次，确认 schedule 自动触发后删除
-    - cron: '*/5 * * * *'
 permissions:
   contents: write
   pages: write
@@ -78,11 +76,17 @@ jobs:
           ARXIV_MAX_RETRIES: 2
 
       - name: 生成论文摘要
+        timeout-minutes: 4
+        continue-on-error: true
         run: |
           python scripts/generate_summaries.py
         env:
           MODELSCOPE_ACCESS_TOKEN: ${{ secrets.MODELSCOPE_ACCESS_TOKEN }}
           MODELSCOPE_MODELS: deepseek-ai/DeepSeek-V4-Flash-0731,Tencent-Hunyuan/Hy3,stepfun-ai/Step-3.7-Flash,ZhipuAI/GLM-5.2,deepseek-ai/DeepSeek-V4-Pro
+          MODELSCOPE_TIMEOUT: 30
+          HTTP_TIMEOUT: 15
+          HTTP_MAX_RETRIES: 1
+          API_MAX_RETRIES: 1
           HTML_MAX_CHARS: 90000
 
       - name: 抓取论文首图

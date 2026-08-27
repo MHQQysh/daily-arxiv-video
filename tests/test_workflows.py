@@ -17,9 +17,20 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("workflow_dispatch:", content)
         self.assertIn("schedule:", content)
         self.assertIn("cron: '17 4 * * *'", content)
+        self.assertEqual(content.count("cron:"), 1)
         self.assertNotIn("\n  push:", content)
         self.assertIn('group: "daily-video-pages"', content)
         self.assertIn("cancel-in-progress: true", content)
+
+    def test_summary_api_cannot_block_paper_and_image_updates(self) -> None:
+        content = (ROOT / ".github" / "workflows" / "deploy.yml").read_text(encoding="utf-8")
+        summary_block = content[content.index("- name: 生成论文摘要") : content.index("- name: 抓取论文首图")]
+        self.assertIn("timeout-minutes: 4", summary_block)
+        self.assertIn("continue-on-error: true", summary_block)
+        self.assertIn("MODELSCOPE_TIMEOUT: 30", summary_block)
+        self.assertIn("HTTP_TIMEOUT: 15", summary_block)
+        self.assertIn("HTTP_MAX_RETRIES: 1", summary_block)
+        self.assertIn("API_MAX_RETRIES: 1", summary_block)
 
     def test_deploy_workflow_bounds_daily_ten_paper_search(self) -> None:
         content = (ROOT / ".github" / "workflows" / "deploy.yml").read_text(encoding="utf-8")
