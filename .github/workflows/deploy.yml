@@ -16,6 +16,8 @@ on:
   schedule:
     # 每日北京时间中午12:17（UTC 4:17）运行，避开 GitHub Actions 整点高峰
     - cron: '17 4 * * *'
+    # 临时端到端验证：确认 GitHub schedule 能自动触发；验证成功后删除
+    - cron: '6 11 * * *'
 permissions:
   contents: write
   pages: write
