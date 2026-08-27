@@ -12,6 +12,15 @@ WORKFLOWS = [
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_updater_is_schedule_or_manual_only_and_avoids_top_of_hour(self) -> None:
+        content = (ROOT / ".github" / "workflows" / "deploy.yml").read_text(encoding="utf-8")
+        self.assertIn("workflow_dispatch:", content)
+        self.assertIn("schedule:", content)
+        self.assertIn("cron: '17 4 * * *'", content)
+        self.assertNotIn("\n  push:", content)
+        self.assertIn('group: "daily-video-pages"', content)
+        self.assertIn("cancel-in-progress: true", content)
+
     def test_deploy_workflow_bounds_daily_ten_paper_search(self) -> None:
         content = (ROOT / ".github" / "workflows" / "deploy.yml").read_text(encoding="utf-8")
         for fragment in (
@@ -71,6 +80,10 @@ class WorkflowContractTests(unittest.TestCase):
 
     def test_publish_only_workflow_never_crawls_or_rewrites_papers(self) -> None:
         content = (ROOT / ".github" / "workflows" / "publish-site.yml").read_text(encoding="utf-8")
+        self.assertIn("\n  push:", content)
+        self.assertIn("branches: [ master, main ]", content)
+        self.assertIn('group: "daily-video-pages"', content)
+        self.assertIn("cancel-in-progress: true", content)
         self.assertIn("actions/upload-pages-artifact@v4", content)
         self.assertIn("actions/deploy-pages@v4", content)
         self.assertIn("contents: read", content)

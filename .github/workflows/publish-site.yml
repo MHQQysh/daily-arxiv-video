@@ -2,11 +2,17 @@ name: 仅发布现有 Video 网站
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ master, main ]
 
 permissions:
   contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: "daily-video-pages"
+  cancel-in-progress: true
 
 jobs:
   publish:
