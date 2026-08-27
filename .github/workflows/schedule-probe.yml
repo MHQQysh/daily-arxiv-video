@@ -13,4 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 记录 GitHub 自动触发时间
-        run: date -u '+schedule probe: %Y-%m-%dT%H:%M:%SZ'
+        run: |
+          date -u '+schedule probe: %Y-%m-%dT%H:%M:%SZ'
