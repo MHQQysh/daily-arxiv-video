@@ -31,6 +31,7 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("HTTP_TIMEOUT: 15", summary_block)
         self.assertIn("HTTP_MAX_RETRIES: 1", summary_block)
         self.assertIn("API_MAX_RETRIES: 1", summary_block)
+        self.assertIn("BATCH_WRITE_SIZE: 1", summary_block)
 
     def test_deploy_workflow_bounds_daily_ten_paper_search(self) -> None:
         content = (ROOT / ".github" / "workflows" / "deploy.yml").read_text(encoding="utf-8")

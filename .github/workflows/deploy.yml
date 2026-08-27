@@ -87,6 +87,7 @@ jobs:
           HTTP_TIMEOUT: 15
           HTTP_MAX_RETRIES: 1
           API_MAX_RETRIES: 1
+          BATCH_WRITE_SIZE: 1
           HTML_MAX_CHARS: 90000
 
       - name: 抓取论文首图
