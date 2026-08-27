@@ -805,7 +805,8 @@
     renderStatus('loading', '正在加载论文卡片', '页面正在读取静态数据并搭建阅读流，你可以稍后直接开始搜索。');
 
     try{
-      const response = await fetch('assets/data.json');
+      const dataURL = `assets/data.json?v=${Date.now()}`;
+      const response = await fetch(dataURL, { cache: 'no-store' });
       if(!response.ok){
         throw new Error(`HTTP ${response.status}`);
       }
