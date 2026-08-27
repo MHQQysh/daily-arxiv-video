@@ -1,5 +1,285 @@
 [
   {
+    "date": "2026-08-26",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "link": "https://arxiv.org/abs/2608.26103",
+    "arxiv_id": "2608.26103",
+    "detail_path": "papers/2608.26103/",
+    "cover_path": "covers/2608.26103/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.26103.webp",
+    "paper_image_full_path": "assets/paper-images/2608.26103.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing",
+    "link": "https://arxiv.org/abs/2608.26101",
+    "arxiv_id": "2608.26101",
+    "detail_path": "papers/2608.26101/",
+    "cover_path": "covers/2608.26101/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.26101.webp",
+    "paper_image_full_path": "assets/paper-images/2608.26101.webp",
+    "preview_text": "针对现有视频编辑数据集存在的两个关键缺陷：自动编辑模型生成的目标视频引入伪影和不可靠监督信号，以及仅支持文本指令而缺乏视觉参考 提出 RefVideo-6M 大规模参考引导编辑数据集，包含500万视频编辑样本和100万图像编辑样本 使用无伪影真实视频作为编辑目标，通过12个编辑专家生成经质量过滤的输入条件，并提供约600万个视觉参考以实现细粒度视觉对应",
+    "research_unit": "Institute of Artificial Intelligence, China Telecom…",
+    "hook_text": "针对现有视频编辑数据集存在的两个关键缺陷：自动编辑模型生成的目标视频引入伪影和不可靠监督信号，以及仅支持文本指令而缺乏视觉参考",
+    "key_points": [
+      "针对现有视频编辑数据集存在的两个关键缺陷：自动编辑模型生成的目标视频引入伪影和不可靠监督信号，以及仅支持文本指令而缺乏视觉参考",
+      "提出 RefVideo-6M 大规模参考引导编辑数据集，包含500万视频编辑样本和100万图像编辑样本",
+      "使用无伪影真实视频作为编辑目标，通过12个编辑专家生成经质量过滤的输入条件，并提供约600万个视觉参考以实现细粒度视觉对应"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "LongVU-TTT: Causal Test-Time Training for Visual Resampling in Long Video Understanding",
+    "link": "https://arxiv.org/abs/2608.25729",
+    "arxiv_id": "2608.25729",
+    "detail_path": "papers/2608.25729/",
+    "cover_path": "covers/2608.25729/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25729.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25729.webp",
+    "preview_text": "论文提出 LongVU-TTT，一种用于长视频理解的新型视觉重采样方法，在视觉编码器和 LLM 之间插入卷积测试时训练（TTT）重采样器，通过因果快速权重更新实现视觉特征的时间上下文建模。 核心要解决的问题是：长视频 MLLM 在有限的视觉 token 预算下，传统方法在压缩帧特征前未显式建模时间变化，导致关键视觉证据丢失；现有递归模型（如 SSM）采用扁平序列操作，缺乏 2D 局部邻域交互。 论文通过受控实验对比多种时序算子（Temporal Transformer、Gated DeltaNet、Mamba2、TTT-MLP），验证了 TTT-Conv 在投影器阶段的优势，并揭示了快速权重更适合作为时间聚合器而非长期情节记忆。",
+    "research_unit": "KAUST（阿卜杜拉国王科技大学）",
+    "hook_text": "论文提出 LongVU-TTT，一种用于长视频理解的新型视觉重采样方法，在视觉编码器和 LLM 之间插入卷积测试时训练（TTT）重采样器，通过因果快速权重更新实现视觉特征的时间上下文建模。",
+    "key_points": [
+      "论文提出 LongVU-TTT，一种用于长视频理解的新型视觉重采样方法，在视觉编码器和 LLM 之间插入卷积测试时训练（TTT）重采样器，通过因果快速权重更新实现视觉特征的时间上下文建模。",
+      "核心要解决的问题是：长视频 MLLM 在有限的视觉 token 预算下，传统方法在压缩帧特征前未显式建模时间变化，导致关键视觉证据丢失；现有递归模型（如 SSM）采用扁平序列操作，缺乏 2D 局部邻域交互。",
+      "论文通过受控实验对比多种时序算子（Temporal Transformer、Gated DeltaNet、Mamba2、TTT-MLP），验证了 TTT-Conv 在投影器阶段的优势，并揭示了快速权重更适合作为时间聚合器而非长期情节记忆。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing",
+    "link": "https://arxiv.org/abs/2608.25622",
+    "arxiv_id": "2608.25622",
+    "detail_path": "papers/2608.25622/",
+    "cover_path": "covers/2608.25622/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25622.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25622.webp",
+    "preview_text": "论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。 与依赖提示词封装前端模型的工作流系统（如 DIRECT、LVAS-Agent、GLANCE 等）不同，RefineCut 训练一个紧凑的开源权重（open-weight）8B 规划器，让编辑决策可以被学习、验证和迭代优化，而非仅仅被提示。 核心思路在于利用确定性验证器（deterministic verifier）：每个编辑补丁可由验证器实际应用并对照约束台账（constraint ledger）逐条核查，使编辑规划层具备可验证性，从而支持执行级监督和自改进。",
+    "research_unit": "香港中文大学（深圳） 人工智能学院/理工学院",
+    "hook_text": "论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。",
+    "key_points": [
+      "论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。",
+      "与依赖提示词封装前端模型的工作流系统（如 DIRECT、LVAS-Agent、GLANCE 等）不同，RefineCut 训练一个紧凑的开源权重（open-weight）8B 规划器，让编辑决策可以被学习、验证和迭代优化，而非仅仅被提示。",
+      "核心思路在于利用确定性验证器（deterministic verifier）：每个编辑补丁可由验证器实际应用并对照约束台账（constraint ledger）逐条核查，使编辑规划层具备可验证性，从而支持执行级监督和自改进。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research",
+    "link": "https://arxiv.org/abs/2608.25559",
+    "arxiv_id": "2608.25559",
+    "detail_path": "papers/2608.25559/",
+    "cover_path": "covers/2608.25559/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25559.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25559.webp",
+    "preview_text": "提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。 针对视频深度研究中问题类型和视频内容高度多样、工具调用策略难以统一的问题，提出自适应工具调用机制，使智能体能根据任务需求、自身视频理解能力和内部知识动态选择必要的工具，而非遵循固定流程。 针对视频定位与外部检索工具本身具有不确定性、冗余工具调用会增加延迟和出错风险的问题，提出自适应反思机制，仅在中间证据不可靠时才回溯修正，避免错误累积。",
+    "research_unit": "Accio Team, Alibaba Group（阿里巴巴集团 Accio 团队）",
+    "hook_text": "提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。",
+    "key_points": [
+      "提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。",
+      "针对视频深度研究中问题类型和视频内容高度多样、工具调用策略难以统一的问题，提出自适应工具调用机制，使智能体能根据任务需求、自身视频理解能力和内部知识动态选择必要的工具，而非遵循固定流程。",
+      "针对视频定位与外部检索工具本身具有不确定性、冗余工具调用会增加延迟和出错风险的问题，提出自适应反思机制，仅在中间证据不可靠时才回溯修正，避免错误累积。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
+    "link": "https://arxiv.org/abs/2608.25529",
+    "arxiv_id": "2608.25529",
+    "detail_path": "papers/2608.25529/",
+    "cover_path": "covers/2608.25529/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25529.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25529.webp",
+    "preview_text": "论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。 现有视频理解基准主要关注回答正确性，而忽视了模型是否忠实遵循用户指定的多样化约束（如语义、格式、条件结构）。 Video-IFBench 设计了一套包含单任务、多任务、选择、嵌套四种模板的指令分类体系，覆盖 32 种任务类型和 39 种约束，系统性评估模型在复杂视频指令上的表现。",
+    "research_unit": "TJU（天津大学）",
+    "hook_text": "论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。",
+    "key_points": [
+      "论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。",
+      "现有视频理解基准主要关注回答正确性，而忽视了模型是否忠实遵循用户指定的多样化约束（如语义、格式、条件结构）。",
+      "Video-IFBench 设计了一套包含单任务、多任务、选择、嵌套四种模板的指令分类体系，覆盖 32 种任务类型和 39 种约束，系统性评估模型在复杂视频指令上的表现。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control",
+    "link": "https://arxiv.org/abs/2608.25479",
+    "arxiv_id": "2608.25479",
+    "detail_path": "papers/2608.25479/",
+    "cover_path": "covers/2608.25479/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25479.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25479.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "VGA-BenchV2: An Expanded Unified Benchmark and Multi-Model Framework for Evaluating Video Aesthetics and Generation Quality",
+    "link": "https://arxiv.org/abs/2608.25452",
+    "arxiv_id": "2608.25452",
+    "detail_path": "papers/2608.25452/",
+    "cover_path": "covers/2608.25452/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25452.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25452.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Bootstrapping a 4D LiDAR Annotation Tool from Video Foundation Models",
+    "link": "https://arxiv.org/abs/2608.25418",
+    "arxiv_id": "2608.25418",
+    "detail_path": "papers/2608.25418/",
+    "cover_path": "covers/2608.25418/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25418.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25418.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "title": "Where to Look Matters: On-Policy Self-Distillation for Long-Video Understanding",
+    "link": "https://arxiv.org/abs/2608.25356",
+    "arxiv_id": "2608.25356",
+    "detail_path": "papers/2608.25356/",
+    "cover_path": "covers/2608.25356/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.25356.webp",
+    "paper_image_full_path": "assets/paper-images/2608.25356.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-08-25",
     "title": "Strictly Causal Streaming Video Anomaly Detection with a Theoretically-Grounded State-Space Core",
     "link": "https://arxiv.org/abs/2608.24810",

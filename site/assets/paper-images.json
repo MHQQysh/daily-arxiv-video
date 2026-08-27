@@ -4249,5 +4249,655 @@
     "inside_figure": true,
     "width": 369,
     "height": 160
+  },
+  "2608.25529": {
+    "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
+    "abs_url": "https://arxiv.org/abs/2608.25529",
+    "html_url": "https://arxiv.org/html/2608.25529v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25529v1/example1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 604,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25529v1/example2_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 604,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25529v1/example3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 602,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25529v1/example4_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 603,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25529v1/example5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 608,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2608.25529.webp",
+    "image_url": "https://arxiv.org/html/2608.25529v1/example1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 604
+  },
+  "2608.26103": {
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "abs_url": "https://arxiv.org/abs/2608.26103",
+    "html_url": "https://arxiv.org/html/2608.26103v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.26103v1/realworld_demo_v1.0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 625,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26103v1/data_combine_v1.1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 401,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26103v1/ablation_icl_v1.1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 438,
+        "height": 201,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26103v1/framework_v1.0.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 467,
+        "height": 183,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 55
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26103v1/robotwin_unseen_v1.1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 91,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2608.26103.webp",
+    "image_url": "https://arxiv.org/html/2608.26103v1/realworld_demo_v1.0.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 625
+  },
+  "2608.25559": {
+    "title": "AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research",
+    "abs_url": "https://arxiv.org/abs/2608.25559",
+    "html_url": "https://arxiv.org/html/2608.25559v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25559v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 458,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25559v1/data_collection.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 329,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25559v1/benchmark_cases.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 226,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25559v1/cases.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 259,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25559v1/benchmark_domains.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 167,
+        "height": 167,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2608.25559.webp",
+    "image_url": "https://arxiv.org/html/2608.25559v1/teaser.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 458
+  },
+  "2608.25452": {
+    "title": "VGA-BenchV2: An Expanded Unified Benchmark and Multi-Model Framework for Evaluating Video Aesthetics and Generation Quality",
+    "abs_url": "https://arxiv.org/abs/2608.25452",
+    "html_url": "https://arxiv.org/html/2608.25452v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25452v1/sample-A.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 473,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25452v1/head.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 248,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25452v1/compare.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 187,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25452v1/sample-B.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 380,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25452v1/model.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 284,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.25452.webp",
+    "image_url": "https://arxiv.org/html/2608.25452v1/sample-A.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 473
+  },
+  "2608.25729": {
+    "title": "LongVU-TTT: Causal Test-Time Training for Visual Resampling in Long Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2608.25729",
+    "html_url": "https://arxiv.org/html/2608.25729v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25729v1/grad_norm_scene_change.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 328,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25729v1/grad_norm_scene_change_lv.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 328,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.25729.webp",
+    "image_url": "https://arxiv.org/html/2608.25729v1/grad_norm_scene_change.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 328
+  },
+  "2608.25479": {
+    "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control",
+    "abs_url": "https://arxiv.org/abs/2608.25479",
+    "html_url": "https://arxiv.org/html/2608.25479v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25479v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 219,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25479v1/model.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 274,
+        "height": 234,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25479v1/figures/extracted_frames/stream_duck_spoon/frame_000513.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 162,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25479v1/figures/extracted_frames/stream_duck_spoon/frame_000627.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 162,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25479v1/figures/extracted_frames/stream_duck_spoon/frame_000684.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 162,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2608.25479.webp",
+    "image_url": "https://arxiv.org/html/2608.25479v1/overview.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 219
+  },
+  "2608.25622": {
+    "title": "Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing",
+    "abs_url": "https://arxiv.org/abs/2608.25622",
+    "html_url": "https://arxiv.org/html/2608.25622v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25622v1/teaser-honer.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 267,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25622v1/figs/bench-universe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 252,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25622v1/Framework-Evo-Universe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 234,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.25622.webp",
+    "image_url": "https://arxiv.org/html/2608.25622v1/teaser-honer.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 267
+  },
+  "2608.26101": {
+    "title": "RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing",
+    "abs_url": "https://arxiv.org/abs/2608.26101",
+    "html_url": "https://arxiv.org/html/2608.26101v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.26101v1/data_compare.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 438,
+        "height": 671,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26101v1/data/figures/user_study_non_ref.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 645,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26101v1/data/figures/user_study_ref.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 440,
+        "height": 535,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26101v1/visualization_of_dataset_2_page_001.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 438,
+        "height": 588,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.26101v1/visualization_of_dataset_2_page_002.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 438,
+        "height": 649,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2608.26101.webp",
+    "image_url": "https://arxiv.org/html/2608.26101v1/data_compare.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 438,
+    "height": 671
+  },
+  "2608.25356": {
+    "title": "Where to Look Matters: On-Policy Self-Distillation for Long-Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2608.25356",
+    "html_url": "https://arxiv.org/html/2608.25356v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25356v1/figure1_example.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 466,
+        "height": 223,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25356v1/figure2_overall.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 537,
+        "height": 246,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.25356.webp",
+    "image_url": "https://arxiv.org/html/2608.25356v1/figure1_example.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 466,
+    "height": 223
+  },
+  "2608.25418": {
+    "title": "Bootstrapping a 4D LiDAR Annotation Tool from Video Foundation Models",
+    "abs_url": "https://arxiv.org/abs/2608.25418",
+    "html_url": "https://arxiv.org/html/2608.25418v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.25418v1/figs/Main_framework_workshop_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 210,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25418v1/figs/Annotation_workshop_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 400,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.25418v1/figs/Figure1_v3.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 429,
+        "height": 151,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 35
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.25418.webp",
+    "image_url": "https://arxiv.org/html/2608.25418v1/figs/Main_framework_workshop_v1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 471,
+    "height": 210
   }
 }

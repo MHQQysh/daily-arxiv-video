@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。 现有视频理解基准主要关注回答正确性，而忽视了模型是否忠实遵循用户指定的多样化约束（如语义、格式、条件结构）。 Video-IFBench 设计了一套包含单任务、多任务、选择、嵌套四种模板的指令分类体系，覆盖 32 种任务类型和 39 种约束，系统性评估模型在复杂视频指令上的表现。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2608.25529">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2608.25529.webp" alt="Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios</h1>
+            <div class="detail-meta">2026-08-26 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2608.25529" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2608.25529" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2608.25529</span></div>
+            <p class="detail-summary">论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。 现有视频理解基准主要关注回答正确性，而忽视了模型是否忠实遵循用户指定的多样化约束（如语义、格式、条件结构）。 Video-IFBench 设计了一套包含单任务、多任务、选择、嵌套四种模板的指令分类体系，覆盖 32 种任务类型和 39 种约束，系统性评估模型在复杂视频指令上的表现。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">TJU（天津大学）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2608.25529/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。</p>
+  <ul class="reading-intro-points"><li>论文提出 Video-IFBench，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。</li><li>现有视频理解基准主要关注回答正确性，而忽视了模型是否忠实遵循用户指定的多样化约束（如语义、格式、条件结构）。</li><li>Video-IFBench 设计了一套包含单任务、多任务、选择、嵌套四种模板的指令分类体系，覆盖 32 种任务类型和 39 种约束，系统性评估模型在复杂视频指令上的表现。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>TJU</strong>（天津大学）</li><li><strong>Tencent Youtu Lab</strong></li><li><strong>SJTU</strong>（上海交通大学）</li><li><strong>Tencent Hunyuan</strong></li><li><strong>CUHK</strong>（香港中文大学）</li><li><strong>NTU</strong>（南洋理工大学）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>Video-IFBench</strong>，一个用于评估多模态大语言模型（MLLMs）在视频理解场景中指令跟随能力的基准。</li><li>现有视频理解基准主要关注回答正确性，而忽视了模型是否忠实遵循用户指定的多样化约束（如语义、格式、条件结构）。</li><li>Video-IFBench 设计了一套包含单任务、多任务、选择、嵌套四种模板的指令分类体系，覆盖 32 种任务类型和 39 种约束，系统性评估模型在复杂视频指令上的表现。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Video-IFBench</strong> 基准：包含 1.5K 高质量样本，基于 700+ 视频，涵盖多样指令结构、任务与约束。</li><li>设计了一套<strong>半自动数据构造流水线</strong>，结合 MLLM 信息提取、程序化处理与人工验证，显著降低注释成本。</li><li>提出<strong>混合评估协议</strong>：LLM-as-Judge 结合程序化验证，使用任务级门控指标 TCSR 和 TISR 衡量指令跟随能力。</li><li>大规模评估了 <strong>20+ 个前沿 MLLMs</strong>（如 Gemini-3-Pro、GPT-5.4、Qwen3.5 系列等），发现当前模型在视频指令跟随上仍存在明显不足。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>指令分类法包含四种模板：<strong>Single</strong>（单任务+约束）、<strong>Multi</strong>（多任务组合）、<strong>Selection</strong>（基于视频内容选择正确分支）、<strong>Nested</strong>（树状条件路径）。</li><li>数据构造流程：视频筛选（MUSIQ 去除模糊）、任务与约束池构建、MLLM 提取全局描述和时间戳事实、多阶段指令生成、检查表生成、人工验证。</li><li>对于长视频，按一分钟分段处理并维护共享实体记忆，保证跨片段信息一致性。</li><li>评估协议：对每个样本定义“激活指令”，先判断任务级覆盖，再逐项评估约束满足情况；指标包括 <strong>TCSR</strong>（平均约束满足率）和 <strong>TISR</strong>（全部约束同时满足的严格指标）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>数据集：<strong>Video-IFBench</strong>，包含 1.5K 样本，来自 700+ 视频，总时长约 49 小时，视频时长从 10 秒到 10 分钟不等。</li><li>视频来源：现有基准（<strong>WorldSense</strong>、<strong>Video-MME</strong>、<strong>MMBench-Video</strong>、<strong>FineVideo</strong>、<strong>LongVALE</strong>）及公开平台检索，覆盖 10 个领域。</li><li>任务池：6 大类别、32 种任务类型；约束池：39 种约束（22 种语义约束、17 种格式约束）。</li><li>评估模型：包括 <strong>Gemini-3-Pro/Flash</strong>、<strong>GPT-5.4</strong>、<strong>Doubao-Seed-2.0</strong>、<strong>Gemma 4</strong> 系列、<strong>InternVL 3.5</strong> 系列、<strong>Qwen-Omni</strong> 系列、<strong>Qwen3-VL</strong> 系列、<strong>Qwen3.5</strong> 系列等。</li><li>推理设置：Gemini 和 Doubao 使用 1 FPS 视频输入；GPT-5.4 采样 50 帧；开源模型按其推荐配置；全模态模型接收原始视频+音频，视觉模型接收视频帧+时间戳字幕。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：Video-IFBench 的主协议，主实验使用 <strong>Qwen3.5-397B-A17B-Instruct</strong> 作为 judge 模型；附录还用小 judge 模型验证结果一致性。</li><li>主要指标：<strong>TCSR</strong>（任务门控平均约束满足率）和 <strong>TISR</strong>（任务门控全约束满足率）。</li><li>最佳结果：<strong>Gemini-3-Pro</strong> 在总体上达到 TCSR 76.5%、TISR 54.5%，表明当前最强模型仍有很大提升空间。</li><li>主要发现：模型在处理<strong>多约束指令、语义约束、以及需要基于视频内容选择正确分支的条件结构</strong>时表现普遍较差。</li><li>商业模型（如 Gemini、GPT、Doubao）在简单单任务上领先，但在 Selection/Nested 条件指令上大幅下降；开源模型整体明显落后于商业模型。</li><li>结论：视频理解准确率并不等于指令跟随能力，指令跟随应作为视频 MLLM 的一等评估维度。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2608.25559/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2608.25479/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">4DStreamCtrl: Interactive Video Generation with Online 4D Control</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

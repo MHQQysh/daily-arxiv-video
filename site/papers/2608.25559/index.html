@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research - Video 每日论文卡</title>
+    <meta name="description" content="提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。 针对视频深度研究中问题类型和视频内容高度多样、工具调用策略难以统一的问题，提出自适应工具调用机制，使智能体能根据任务需求、自身视频理解能力和内部知识动态选择必要的工具，而非遵循固定流程。 针对视频定位与外部检索工具本身具有不确定性、冗余工具调用会增加延迟和出错风险的问题，提出自适应反思机制，仅在中间证据不可靠时才回溯修正，避免错误累积。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2608.25559">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2608.25559.webp" alt="AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research</h1>
+            <div class="detail-meta">2026-08-26 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2608.25559" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2608.25559" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2608.25559</span></div>
+            <p class="detail-summary">提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。 针对视频深度研究中问题类型和视频内容高度多样、工具调用策略难以统一的问题，提出自适应工具调用机制，使智能体能根据任务需求、自身视频理解能力和内部知识动态选择必要的工具，而非遵循固定流程。 针对视频定位与外部检索工具本身具有不确定性、冗余工具调用会增加延迟和出错风险的问题，提出自适应反思机制，仅在中间证据不可靠时才回溯修正，避免错误累积。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Accio Team, Alibaba Group（阿里巴巴集团 Accio 团队）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2608.25559/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。</p>
+  <ul class="reading-intro-points"><li>提出 AdaVDR（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。</li><li>针对视频深度研究中问题类型和视频内容高度多样、工具调用策略难以统一的问题，提出自适应工具调用机制，使智能体能根据任务需求、自身视频理解能力和内部知识动态选择必要的工具，而非遵循固定流程。</li><li>针对视频定位与外部检索工具本身具有不确定性、冗余工具调用会增加延迟和出错风险的问题，提出自适应反思机制，仅在中间证据不可靠时才回溯修正，避免错误累积。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Accio Team, Alibaba Group</strong>（阿里巴巴集团 Accio 团队）</li><li><strong>北京理工大学计算机科学与技术学院</strong>，智能信息技术北京重点实验室</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>AdaVDR</strong>（Adaptive Video Deep Research），一个面向视频深度研究的自适应智能体，核心任务是联合理解视频内容并从开放网络检索外部知识以回答复杂问题。</li><li>针对视频深度研究中问题类型和视频内容高度多样、工具调用策略难以统一的问题，提出自适应工具调用机制，使智能体能根据任务需求、自身视频理解能力和内部知识动态选择必要的工具，而非遵循固定流程。</li><li>针对视频定位与外部检索工具本身具有不确定性、冗余工具调用会增加延迟和出错风险的问题，提出自适应反思机制，仅在中间证据不可靠时才回溯修正，避免错误累积。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>AdaVDR 自适应视频深度研究智能体</strong>，具备自适应工具调用与自适应反思两大机制，实现任务特定和模型能力特定的工具使用，以及按需触发的选择性反思，提升推理准确性和效率。</li><li>设计<strong>视频深度研究数据构建流水线</strong>，包括 QA 生成和轨迹生成两个阶段，生成任务特定的工具使用轨迹，并通过模型条件工具必要性过滤，得到适配目标模型能力的训练轨迹。</li><li>构建并公开<strong>训练数据集</strong>和<strong>VDR-EE 基准</strong>，涵盖实体中心（entity-centric）和事件中心（event-centric）两类问题。</li><li>开发 <strong>SFT + RL 训练框架</strong>，使用冗余感知奖励（redundancy-aware reward）进一步增强自适应工具调用、推理准确性和效率。</li><li>在 <strong>VDR-EE</strong> 基准上达到评估开源模型中的最佳性能，并在 <strong>VideoDR</strong> 上相比基础模型取得显著提升。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>问题定义</strong>：将视频深度研究形式化为多轮推理和证据获取任务，工具集包含三类：视频定位（时间定位、时间戳定位、空间定位）、外部检索（图像搜索、网络搜索、页面访问）和终止（生成最终答案）。</li><li><strong>自适应工具调用</strong>：智能体根据问题类型（事件中心/实体中心）动态选择合适工具，例如事件类问题主要使用时间定位，实体类问题更多需要时间戳定位、空间定位和图像搜索；同时根据自身能力跳过不必要的工具调用。</li><li><strong>自适应反思</strong>：仅当新获取证据不可靠、不一致或不足时触发反思，智能体分析失败来源（定位问题或检索问题），回溯到相应步骤修正后继续推理，保证可靠中间结果不被重复扰动。</li><li><strong>数据构建流水线</strong>：包含视频选择与锚点发现、视频到网络证据获取、QA 生成与过滤三个阶段；轨迹生成环节包含轨迹生成与执行、轨迹检查与重试、模型条件工具必要性过滤三个步骤。</li><li><strong>模型条件工具必要性过滤</strong>：对于工具或工具链 S，利用模型自身能力从已有信息 x_S 推断目标结果 y_S，若可直接获得则判定该工具链冗余并移除，反之保留；分别对不同的基础模型执行，确保轨迹与目标模型能力对齐。</li><li><strong>训练方法</strong>：先进行冷启动有监督微调，再应用强化学习，奖励函数兼顾任务正确性与冗余惩罚，抑制不必要的定位、检索和反思操作。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>VDR-EE 基准</strong>：250 个经过人工验证的问题，涵盖 7 个语义领域（文化、娱乐、工业、新闻、场景理解、科学、体育），其中 153 个实体中心问题、97 个事件中心问题。</li><li>训练数据来源包括 <strong>YouTube</strong>（新闻、工业、文化、体育、科学领域），以及 <strong>EgoExo4D</strong>、<strong>EgoLife</strong>、<strong>CityWalker</strong>、<strong>ARKitScenes</strong>、<strong>ScanNet++</strong>、<strong>Sekai</strong>（场景理解领域）。</li><li>数据构建中使用 <strong>Gemini-3.5-Flash</strong> 进行视频分析与锚点发现，使用 <strong>Qwen3-VL-235B-A22B-Instruct</strong> 进行 QA 过滤，使用 <strong>Qwen3-VL-8B</strong> 作为模型条件工具必要性过滤的目标模型。</li><li>训练框架采用 SFT + RL（有监督微调 + 强化学习），具体 GPU/TPU 资源信息在论文截断部分未完整呈现。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准包括 <strong>VDR-EE</strong>（自建基准）和 <strong>VideoDR</strong>（已有基准）。</li><li>评估方式采用 LLM Judge（大语言模型裁判），具体评估指标包括最终答案的准确性和工具调用的效率。</li><li>在 <strong>VDR-EE</strong> 上，AdaVDR 在评估的开源模型中取得最佳性能。</li><li>在 <strong>VideoDR</strong> 上，AdaVDR 相比其对应基础模型有大幅提升（substantially improves）。</li><li>定量和定性分析均表明，AdaVDR 在保持或提升整体智能体性能的同时，<strong>降低了平均工具调用次数</strong>。</li><li>工具分析（Tool Analysis）显示，不同问题类型需要不同的工具编排策略，自适应机制有效避免了不必要的工具交互。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2608.25622/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2608.25529/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

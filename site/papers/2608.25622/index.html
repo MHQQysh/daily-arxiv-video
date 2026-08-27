@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing - Video 每日论文卡</title>
+    <meta name="description" content="论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。 与依赖提示词封装前端模型的工作流系统（如 DIRECT、LVAS-Agent、GLANCE 等）不同，RefineCut 训练一个紧凑的开源权重（open-weight）8B 规划器，让编辑决策可以被学习、验证和迭代优化，而非仅仅被提示。 核心思路在于利用确定性验证器（deterministic verifier）：每个编辑补丁可由验证器实际应用并对照约束台账（constraint ledger）逐条核查，使编辑规划层具备可验证性，从而支持执行级监督和自改进。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2608.25622">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2608.25622.webp" alt="Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing</h1>
+            <div class="detail-meta">2026-08-26 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2608.25622" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2608.25622" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2608.25622</span></div>
+            <p class="detail-summary">论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。 与依赖提示词封装前端模型的工作流系统（如 DIRECT、LVAS-Agent、GLANCE 等）不同，RefineCut 训练一个紧凑的开源权重（open-weight）8B 规划器，让编辑决策可以被学习、验证和迭代优化，而非仅仅被提示。 核心思路在于利用确定性验证器（deterministic verifier）：每个编辑补丁可由验证器实际应用并对照约束台账（constraint ledger）逐条核查，使编辑规划层具备可验证性，从而支持执行级监督和自改进。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">9 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">香港中文大学（深圳） 人工智能学院/理工学院</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2608.25622/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。</p>
+  <ul class="reading-intro-points"><li>论文研究可执行视频编辑规划（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。</li><li>与依赖提示词封装前端模型的工作流系统（如 DIRECT、LVAS-Agent、GLANCE 等）不同，RefineCut 训练一个紧凑的开源权重（open-weight）8B 规划器，让编辑决策可以被学习、验证和迭代优化，而非仅仅被提示。</li><li>核心思路在于利用确定性验证器（deterministic verifier）：每个编辑补丁可由验证器实际应用并对照约束台账（constraint ledger）逐条核查，使编辑规划层具备可验证性，从而支持执行级监督和自改进。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>香港中文大学（深圳）</strong> 人工智能学院/理工学院</li><li><strong>vivo AI Lab</strong></li><li><strong>中国科学院大学</strong></li><li><strong>东南大学</strong> 与 <strong>北京大学</strong></li><li><strong>深圳市未来网络智能研究院（FNii-Shenzhen）</strong>、<strong>广东省未来网络智能重点实验室</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文研究<strong>可执行视频编辑规划</strong>（executable video-editing planning）问题：给定编辑意图（brief）、素材片段池、音乐元数据和硬性约束，规划器必须输出一个可被下游工具链执行的结构化编辑计划（clip 选择、修剪、排序、转场、时长与音乐对齐等）。</li><li>与依赖提示词封装前端模型的工作流系统（如 DIRECT、LVAS-Agent、GLANCE 等）不同，<strong>RefineCut</strong> 训练一个紧凑的<strong>开源权重（open-weight）8B 规划器</strong>，让编辑决策可以被学习、验证和迭代优化，而非仅仅被提示。</li><li>核心思路在于利用<strong>确定性验证器（deterministic verifier）</strong>：每个编辑补丁可由验证器实际应用并对照<strong>约束台账（constraint ledger）</strong>逐条核查，使编辑规划层具备可验证性，从而支持执行级监督和自改进。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>形式化定义<strong>可执行视频编辑规划</strong>任务，并发布 <strong>RefineCut-Bench</strong> 基准：包含 <strong>3,578 个任务、7,971 个带字幕片段、499 个音乐曲目</strong>、显式约束台账和多教师轨迹。</li><li>提出<strong>验证器回放轨迹蒸馏</strong>（verifier-replayed trajectory distillation）：对多教师分支进行规范化后，用确定性验证器逐一回放，仅保留验证器最优分支作为 SFT 目标和混合粒度偏好对，避免直接模仿噪声教师轨迹。</li><li>提出 <strong>RefineCut-Evo</strong>：受 EvoLM 启发的<strong>验证器中心、评分标准结构化自改进</strong>阶段，学生用验证器和任务评分标准（ER1–ER7）给自己的修复候选打分，并在高置信偏好对上用 DPO 训练。</li><li>跨三个开源骨干（<strong>Qwen3-8B</strong>、<strong>Llama-3.1-8B</strong>、<strong>GLM-4-9B</strong>）验证：验证器回放一致优于原始模仿；最终 8B 规划器在相同闭环中<strong>匹配或超越其前沿教师模型</strong>。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>任务实例为五元组 x=(b, C, M, s₀, L)：自然语言 brief、带字幕和视觉元数据的片段池、可选音乐元数据（节拍与能量）、初始时间线状态、显式约束台账。</li><li>规划器通过 <strong>RefinePatch</strong>（RFC 6902 风格的 JSON Patch）在类型化时间线上执行编辑，补丁覆盖片段选择、修剪、排序、转场、音乐同步和占位符生成；验证器执行 Apply 和 Verify，推进状态并重算台账。</li><li>约束台账涵盖<strong>七个字段级约束族</strong>：duration、transition、music_sync、clip inclusion、clip exclusion、repeat limit、pacing；硬约束通过确定性通过/失败测试（<strong>HardPass</strong>），软约束提供分级得分评估。</li><li>蒸馏阶段使用三个前沿 API 教师（<strong>GPT-5.4、Qwen3-Max、DeepSeek-V4-Pro</strong>）生成轨迹，经规范化、验证器回放和分支仲裁后用于 SFT 与 DPO 训练。</li><li><strong>RefineCut-Evo</strong> 在推理时采用<strong>闭环部署</strong>（closed-loop deployment）：规划器与验证器一起运行，无需任何教师调用，学生可自行生成候选、用验证器+评分标准评分并以高间隔偏好对自训练。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>RefineCut-Bench</strong>：3,578 个任务、7,971 个带字幕片段（23,913 条字幕来源）、499 个音乐曲目，分词为训练/开发/测试集（含 canonical IDs 和 human-written brief 验证集）。</li><li>骨干模型：<strong>Qwen3-8B</strong>（主模型）、<strong>Llama-3.1-8B</strong>、<strong>GLM-4-9B</strong>（跨骨干迁移实验）。</li><li>训练方法：SFT、Traj-Pref DPO、Mixed-Pref DPO、RefineCut-Evo DPO，使用 LoRA 微调；教师轨迹来自 GPT-5.4、Qwen3-Max、DeepSeek-V4-Pro。</li><li>训练资源配置细节见论文附录（LoRA、计算预算与成本）；代码和 RefineCut-Bench 已公开发布。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估采用三层协议：<strong>执行门（Execution Gate）</strong>（schema 有效性、补丁可应用性、时间线合法性）、<strong>规划质量（Planning Quality）</strong>（约束满足、片段接地、时长、节奏、收敛性）、<strong>人工渲染偏好</strong>（指令贴合、内容相关、时序连贯、镜头连续性、节奏、音视频律动等）。</li><li>核心指标为 <strong>VES（Video-Editing Score）</strong> 综合分数；验证器完全决定前两层指标，确保每个分数都是台账的可核查结果。</li><li>验证器回放蒸馏将规划器 VES 从 <strong>0.620 提升至 0.858</strong>；<strong>RefineCut-Evo</strong> 进一步达到 <strong>0.924</strong>。</li><li>增益成功迁移至 <strong>Llama-3.1-8B</strong> 和 <strong>GLM-4-9B</strong>；在相同闭环设置下，8B 规划器<strong>匹配或超过</strong>其前沿教师（GPT-5.4、Qwen3-Max、DeepSeek-V4-Pro）。</li><li>额外分析包括：教师回放诊断（RQ2）、Evo 自改进归因（RQ4）、跨骨干迁移（RQ5a）、与前沿策略同环对比（RQ5b）、未训练骨干上的提示/反馈/搜索（RQ5c）、canonical-clean 与人工撰写 brief 的鲁棒性、失败构成分析、LLM-judge 一致性、语义输入干预以及最终渲染预览的盲测偏好。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2608.25729/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">LongVU-TTT: Causal Test-Time Training for Visual Resampling in Long Video Understanding</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2608.25559/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
