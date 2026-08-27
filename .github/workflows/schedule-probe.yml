@@ -1,0 +1,16 @@
+name: 临时 schedule 触发探针
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 记录 GitHub 自动触发时间
+        run: date -u '+schedule probe: %Y-%m-%dT%H:%M:%SZ'
