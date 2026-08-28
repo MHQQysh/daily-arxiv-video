@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LeVJEPA: Efficient &amp; Scalable Video Pretraining without the Heuristics - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。 核心目标是将视频自监督预训练大幅简化并提升效率，解决现有视频联合嵌入方法计算开销大、设计复杂、依赖启发式技巧的问题。 方法仅需一个编码器和一个投影头，训练目标仅由不变性损失（MSE）和 SIGReg 正则化组成，并证明该配方在精度和效率上均优于现有视频预训练方法。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2608.27395">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2608.27395.webp" alt="LeVJEPA: Efficient &amp; Scalable Video Pretraining without the Heuristics" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">LeVJEPA: Efficient &amp; Scalable Video Pretraining without the Heuristics</h1>
+            <div class="detail-meta">2026-08-27 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2608.27395" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2608.27395" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2608.27395</span></div>
+            <p class="detail-summary">论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。 核心目标是将视频自监督预训练大幅简化并提升效率，解决现有视频联合嵌入方法计算开销大、设计复杂、依赖启发式技巧的问题。 方法仅需一个编码器和一个投影头，训练目标仅由不变性损失（MSE）和 SIGReg 正则化组成，并证明该配方在精度和效率上均优于现有视频预训练方法。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">8 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">German Cancer Research Center (DKFZ)、German Cancer…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2608.27395/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。</p>
+  <ul class="reading-intro-points"><li>论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。</li><li>核心目标是将视频自监督预训练大幅简化并提升效率，解决现有视频联合嵌入方法计算开销大、设计复杂、依赖启发式技巧的问题。</li><li>方法仅需一个编码器和一个投影头，训练目标仅由不变性损失（MSE）和 SIGReg 正则化组成，并证明该配方在精度和效率上均优于现有视频预训练方法。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>German Cancer Research Center (DKFZ)</strong>、<strong>German Cancer Consortium</strong>、<strong>Goethe University Frankfurt</strong></li><li><strong>Mila</strong>、<strong>Université de Montréal</strong></li><li><strong>Brown University</strong></li><li><strong>Courant Institute, New York University</strong></li><li><strong>Advanced Machine Intelligence (AMI Labs)</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>LeVJEPA</strong>，首个在 <strong>LeJEPA</strong> 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。</li><li>核心目标是将视频自监督预训练大幅简化并提升效率，解决现有视频联合嵌入方法计算开销大、设计复杂、依赖启发式技巧的问题。</li><li>方法仅需一个编码器和一个投影头，训练目标仅由不变性损失（MSE）和 <strong>SIGReg</strong> 正则化组成，并证明该配方在精度和效率上均优于现有视频预训练方法。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li><strong>计算效率显著提升</strong>：在相同 epoch 和相同数据下，LeVJEPA 在 ViT-S/B/L 上以 <strong>5.6× 到 20.8× 更少的预训练计算量</strong>达到或超越 V-JEPA 2 的精度；在匹配总 FLOPs 时，ImageNet-1K 上比最强视频基线高出 <strong>7.6 个点</strong>。</li><li><strong>简化训练配方</strong>：可训练架构仅包含编码器和投影器，无预测网络、目标编码器或 stop-gradient；目标函数只有一个超参数（λ=0.02），并在所有实验中固定。</li><li><strong>随机 token dropping</strong>：均匀随机丢弃 95% token 作为增强手段，而非近似重建任务，同时提升下游精度（ImageNet 从 33.9% 提升到 47.6%）并大幅降低计算成本。</li><li><strong>块因果注意力（block-causal attention）</strong>：在不损失精度的前提下实现因果帧表示，使每个帧表示仅依赖过去观测，可流式扩展而无需重新编码，适合自回归世界模型。</li><li><strong>涌现的 token 级语义结构</strong>：仅监督 clip 级 [cls] token，却自然产生类似 V-JEPA 2.1 的、有语义组织的 patch 级表示，无需额外的 patch 级损失。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>采用单一共享编码器处理一个全局视图和 V 个局部视图（同一时间窗口，空间裁剪和光度增强），局部视图向全局视图对齐，损失为均方误差（MSE）。</li><li>使用 <strong>SIGReg</strong> 正则化：将嵌入批次投影到随机方向，通过正态性检验惩罚偏离标准高斯的分布，将嵌入约束为各向同性高斯，从而理论上排除坍塌。</li><li>视图内随机均匀丢弃 95% patch token，仅保留少量 token 输入编码器，大幅降低预训练 FLOPs。</li><li>编码器采用 V-JEPA 风格的视频 Transformer，支持块因果注意力（帧内双向、帧间因果），token 化按帧进行，无需时间维度的 patch 聚合。</li><li>投影器在小维度空间施加损失，预训练后丢弃投影器，下游任务直接使用编码器表示。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>预训练数据：<strong>Kinetics-710（K710）的 20% 子集</strong>，用于 epoch-matched 和 FLOP-matched 对比实验。</li><li>模型规模：<strong>ViT-S、ViT-B、ViT-L</strong>，以及实验用的 <strong>ViT-Tiny</strong>。</li><li>训练资源：ViT-Tiny 可在<strong>单张消费级 GPU</strong> 上预训练 12 小时（未标注行走视频）即获得非平凡 ImageNet 精度；大规模实验使用多 GPU 集群，具体未详述。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：<strong>ImageNet-1K</strong>（attentive probing）、<strong>Kinetics-400</strong>（线性探测）、<strong>Something-Something-v2</strong>（运动中心基准），并对比 DINOv2 图像预训练基线和 V-JEPA 2 视频基线。</li><li>主要指标：冻结特征 probing 精度（attentive probing / linear probing）。</li><li>关键结果：</li></ul>
+<p> - 在相同 epoch、相同数据下，LeVJEPA 在 ViT-S/B/L 上匹配或超越 V-JEPA 2，同时预训练计算量减少 5.6×–20.8×。</p>
+<p> - 在匹配总 FLOPs 时，ImageNet-1K 上比最强视频基线高 7.6 点，Kinetics-400 取得最高准确率，并在 Something-Something-v2 上保持竞争力。</p>
+<p> - 对比 compute-matched DINOv2（帧级图像预训练），LeVJEPA 在 appearance-centric 评估上接近 DINOv2，在 motion-centric 准确率上几乎翻倍。</p>
+<p> - 随机 token dropping 比例从 0% 到 95% 单调提升 ImageNet 精度（33.9% → 47.6%）。</p>
+<p> - 块因果注意力与完全双向注意力的冻结 probing 精度相当，无精度损失。</p></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2608.27406/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2608.27328/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

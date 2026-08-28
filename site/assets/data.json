@@ -1,5 +1,281 @@
 [
   {
+    "date": "2026-08-27",
+    "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+    "link": "https://arxiv.org/abs/2608.27406",
+    "arxiv_id": "2608.27406",
+    "detail_path": "papers/2608.27406/",
+    "cover_path": "covers/2608.27406/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.27406.webp",
+    "paper_image_full_path": "assets/paper-images/2608.27406.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+    "link": "https://arxiv.org/abs/2608.27395",
+    "arxiv_id": "2608.27395",
+    "detail_path": "papers/2608.27395/",
+    "cover_path": "covers/2608.27395/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.27395.webp",
+    "paper_image_full_path": "assets/paper-images/2608.27395.webp",
+    "preview_text": "论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。 核心目标是将视频自监督预训练大幅简化并提升效率，解决现有视频联合嵌入方法计算开销大、设计复杂、依赖启发式技巧的问题。 方法仅需一个编码器和一个投影头，训练目标仅由不变性损失（MSE）和 SIGReg 正则化组成，并证明该配方在精度和效率上均优于现有视频预训练方法。",
+    "research_unit": "German Cancer Research Center (DKFZ)、German Cancer…",
+    "hook_text": "论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。",
+    "key_points": [
+      "论文提出 LeVJEPA，首个在 LeJEPA 的无坍塌目标下训练的视频编码器，完全摒弃了目标编码器（target encoder）、预测器（predictor）和 stop-gradient 等防止表示坍塌的传统机制。",
+      "核心目标是将视频自监督预训练大幅简化并提升效率，解决现有视频联合嵌入方法计算开销大、设计复杂、依赖启发式技巧的问题。",
+      "方法仅需一个编码器和一个投影头，训练目标仅由不变性损失（MSE）和 SIGReg 正则化组成，并证明该配方在精度和效率上均优于现有视频预训练方法。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models",
+    "link": "https://arxiv.org/abs/2608.27328",
+    "arxiv_id": "2608.27328",
+    "detail_path": "papers/2608.27328/",
+    "cover_path": "covers/2608.27328/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.27328.webp",
+    "paper_image_full_path": "assets/paper-images/2608.27328.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+    "link": "https://arxiv.org/abs/2608.27123",
+    "arxiv_id": "2608.27123",
+    "detail_path": "papers/2608.27123/",
+    "cover_path": "covers/2608.27123/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.27123.webp",
+    "paper_image_full_path": "assets/paper-images/2608.27123.webp",
+    "preview_text": "论文提出了 EditaLive，一个用于实时流媒体角色视频编辑的统一框架。 旨在解决现有视频编辑方法直接应用于直播场景时存在的面部表情不一致、依赖离线多步推理以及长期生成中的外观漂移等三大挑战。 通过外观与运动解耦及流式因果建模，实现高质量、低延迟的实时角色外观编辑，并忠实保留源运动与面部表情。",
+    "research_unit": "University of Macau",
+    "hook_text": "论文提出了 EditaLive，一个用于实时流媒体角色视频编辑的统一框架。",
+    "key_points": [
+      "论文提出了 EditaLive，一个用于实时流媒体角色视频编辑的统一框架。",
+      "旨在解决现有视频编辑方法直接应用于直播场景时存在的面部表情不一致、依赖离线多步推理以及长期生成中的外观漂移等三大挑战。",
+      "通过外观与运动解耦及流式因果建模，实现高质量、低延迟的实时角色外观编辑，并忠实保留源运动与面部表情。"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Video-OPSD: Exploiting Privileged Visual Evidence for On-Policy Self-Distillation in Video Large Language Models",
+    "link": "https://arxiv.org/abs/2608.27065",
+    "arxiv_id": "2608.27065",
+    "detail_path": "papers/2608.27065/",
+    "cover_path": "covers/2608.27065/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.27065.webp",
+    "paper_image_full_path": "assets/paper-images/2608.27065.webp",
+    "preview_text": "针对现有On-Policy Self-Distillation（OPSD）范式在Video Large Language Models（Video-LLMs）上的适配缺陷：视频存在大量时间冗余，常规OPSD的教师与学生共享完整视频输入，教师无法聚焦回答问题的关键视觉证据，导致监督信号质量受限 提出Video-OPSD框架，系统挖掘视频中带标注的特权视觉证据（证据帧），同时改进自蒸馏的教师构建与知识迁移流程 目标是实现高效且高性能的Video-LLM后训练，在提升视频推理能力的同时大幅降低训练成本",
+    "research_unit": "南洋理工大学（Nanyang Technological University） 电子电气工程学院",
+    "hook_text": "针对现有On-Policy Self-Distillation（OPSD）范式在Video Large Language Models（Video-LLMs）上的适配缺陷：视频存在大量时间冗余，常规OPSD的教师与学生共享完整视频输入，教师无法聚焦回答问题的关键视觉证据，导致监督信号质量受限",
+    "key_points": [
+      "针对现有On-Policy Self-Distillation（OPSD）范式在Video Large Language Models（Video-LLMs）上的适配缺陷：视频存在大量时间冗余，常规OPSD的教师与学生共享完整视频输入，教师无法聚焦回答问题的关键视觉证据，导致监督信号质量受限",
+      "提出Video-OPSD框架，系统挖掘视频中带标注的特权视觉证据（证据帧），同时改进自蒸馏的教师构建与知识迁移流程",
+      "目标是实现高效且高性能的Video-LLM后训练，在提升视频推理能力的同时大幅降低训练成本"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "TempJail: Temporal Jailbreak Attacks against Image-to-Video Generation Models",
+    "link": "https://arxiv.org/abs/2608.26971",
+    "arxiv_id": "2608.26971",
+    "detail_path": "papers/2608.26971/",
+    "cover_path": "covers/2608.26971/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.26971.webp",
+    "paper_image_full_path": "assets/paper-images/2608.26971.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Tether the Subject, Release the Scene: Query-Aware Memory Routing for Long-Horizon Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2608.26902",
+    "arxiv_id": "2608.26902",
+    "detail_path": "papers/2608.26902/",
+    "cover_path": "covers/2608.26902/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.26902.webp",
+    "paper_image_full_path": "assets/paper-images/2608.26902.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
+    "link": "https://arxiv.org/abs/2608.26809",
+    "arxiv_id": "2608.26809",
+    "detail_path": "papers/2608.26809/",
+    "cover_path": "covers/2608.26809/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.26809.webp",
+    "paper_image_full_path": "assets/paper-images/2608.26809.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion",
+    "link": "https://arxiv.org/abs/2608.26794",
+    "arxiv_id": "2608.26794",
+    "detail_path": "papers/2608.26794/",
+    "cover_path": "covers/2608.26794/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.26794.webp",
+    "paper_image_full_path": "assets/paper-images/2608.26794.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Self-Reflective Multi-modal Reasoning for Short-Video Fake News Detection",
+    "link": "https://arxiv.org/abs/2608.26787",
+    "arxiv_id": "2608.26787",
+    "detail_path": "papers/2608.26787/",
+    "cover_path": "covers/2608.26787/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.26787.webp",
+    "paper_image_full_path": "assets/paper-images/2608.26787.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-08-26",
     "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
     "link": "https://arxiv.org/abs/2608.26103",
