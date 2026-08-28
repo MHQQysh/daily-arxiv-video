@@ -240,14 +240,16 @@
     "cover_path": "covers/2608.26794/",
     "paper_image_path": "assets/paper-images/thumbs/2608.26794.webp",
     "paper_image_full_path": "assets/paper-images/2608.26794.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 Ring Forcing，一个自回归视频扩散框架，旨在解决长视频生成中的长期记忆（Long-Term Memory） 缺陷。 长期记忆包含两个关键方面：对象恒存性（Object Permanence）——对象消失后重新出现时能精确恢复其外观；记忆容量（Memory Capacity）——处理超长上下文并利用遥远历史信息的能力。 现有模型在训练时存在\"线性叙事\"偏差，倾向于学习\"短视\"的转移概率，即使提供长历史也缺乏从遥远过去检索关键信息的动力，导致视频生成中对象身份漂移。",
+    "research_unit": "Stanford University（Bowen Xue, Lvmin Zhang, Maneesh…",
+    "hook_text": "论文提出 Ring Forcing，一个自回归视频扩散框架，旨在解决长视频生成中的长期记忆（Long-Term Memory） 缺陷。",
     "key_points": [
-      "待生成"
+      "论文提出 Ring Forcing，一个自回归视频扩散框架，旨在解决长视频生成中的长期记忆（Long-Term Memory） 缺陷。",
+      "长期记忆包含两个关键方面：对象恒存性（Object Permanence）——对象消失后重新出现时能精确恢复其外观；记忆容量（Memory Capacity）——处理超长上下文并利用遥远历史信息的能力。",
+      "现有模型在训练时存在\"线性叙事\"偏差，倾向于学习\"短视\"的转移概率，即使提供长历史也缺乏从遥远过去检索关键信息的动力，导致视频生成中对象身份漂移。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -267,14 +269,16 @@
     "cover_path": "covers/2608.26787/",
     "paper_image_path": "assets/paper-images/thumbs/2608.26787.webp",
     "paper_image_full_path": "assets/paper-images/2608.26787.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 SRM-FND，一个面向短视频假新闻检测的自反思多模态推理框架，旨在解决现有 LLM/VLM 推理流水线中缺乏高质量 Chain-of-Thought（CoT）监督、无法迭代改进推理质量、以及难以将单样本欺诈模式发现与跨样本验证相结合的问题。 框架通过对比式 deliberation 生成自反思且质量不断提升的 CoT，并通过双阶段主题自适应 VLM 微调和置信度驱动的跨样本审查，提升假新闻检测的准确性、可解释性和跨数据集泛化能力。 在 FakeSV 和 FakeTT 两个短视频假新闻数据集上验证了方法的有效性，同时显著提升了跨数据集迁移性能。",
+    "research_unit": "中国矿业大学（北京）",
+    "hook_text": "论文提出 SRM-FND，一个面向短视频假新闻检测的自反思多模态推理框架，旨在解决现有 LLM/VLM 推理流水线中缺乏高质量 Chain-of-Thought（CoT）监督、无法迭代改进推理质量、以及难以将单样本欺诈模式发现与跨样本验证相结合的问题。",
     "key_points": [
-      "待生成"
+      "论文提出 SRM-FND，一个面向短视频假新闻检测的自反思多模态推理框架，旨在解决现有 LLM/VLM 推理流水线中缺乏高质量 Chain-of-Thought（CoT）监督、无法迭代改进推理质量、以及难以将单样本欺诈模式发现与跨样本验证相结合的问题。",
+      "框架通过对比式 deliberation 生成自反思且质量不断提升的 CoT，并通过双阶段主题自适应 VLM 微调和置信度驱动的跨样本审查，提升假新闻检测的准确性、可解释性和跨数据集泛化能力。",
+      "在 FakeSV 和 FakeTT 两个短视频假新闻数据集上验证了方法的有效性，同时显著提升了跨数据集迁移性能。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -294,14 +298,16 @@
     "cover_path": "covers/2608.26103/",
     "paper_image_path": "assets/paper-images/thumbs/2608.26103.webp",
     "paper_image_full_path": "assets/paper-images/2608.26103.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 Zero-WAM，一个因果视频-动作模型（causal video-action model），将零样本跨任务机器人操作泛化问题建模为\"上下文世界动作建模\"（in-context world action modeling） 核心思路借鉴大语言模型的上下文学习（ICL）范式：以人类演示视频作为自然任务规格说明（task specification），模型无需参数更新即可执行训练中从未见过的操作任务 针对\"人类-机器人配对数据稀缺\"和\"模型在已见任务上走捷径、忽略视频提示\"两大挑战，分别提出自动化数据生成流水线与新的训练目标",
+    "research_unit": "论文项目主页托管于 robbyant-research.github.io/Zero-WAM/，研究团…",
+    "hook_text": "提出 Zero-WAM，一个因果视频-动作模型（causal video-action model），将零样本跨任务机器人操作泛化问题建模为\"上下文世界动作建模\"（in-context world action modeling）",
     "key_points": [
-      "待生成"
+      "提出 Zero-WAM，一个因果视频-动作模型（causal video-action model），将零样本跨任务机器人操作泛化问题建模为\"上下文世界动作建模\"（in-context world action modeling）",
+      "核心思路借鉴大语言模型的上下文学习（ICL）范式：以人类演示视频作为自然任务规格说明（task specification），模型无需参数更新即可执行训练中从未见过的操作任务",
+      "针对\"人类-机器人配对数据稀缺\"和\"模型在已见任务上走捷径、忽略视频提示\"两大挑战，分别提出自动化数据生成流水线与新的训练目标"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -466,14 +472,16 @@
     "cover_path": "covers/2608.25479/",
     "paper_image_path": "assets/paper-images/thumbs/2608.25479.webp",
     "paper_image_full_path": "assets/paper-images/2608.25479.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 4DStreamCtrl，一个支持在线 4D 控制的交互式视频生成框架，将相机运动、物体轨迹与深度统一为单一的 3D 点轨迹（3D point-track）表示，实现联合相机与物体控制、深度编辑和运动迁移。 针对现有方法的不足：相机参数方法只能控制视角、2D 轨迹方法忽略深度与遮挡、离线 3D 方法无法实时流式生成；本文首次实现 3D 一致性控制 + 实时流式生成 的统一方案。 通过将 50 步双向扩散教师模型蒸馏为 4 步因果流式学生模型，在单张高端 GPU 上以 20 FPS 生成 480p 视频，且内存开销与视频长度无关，支持数百帧的长时间连贯生成。",
+    "research_unit": "北京大学（Peking University）：第一作者 Shiqian Li，合作者 Chenguo…",
+    "hook_text": "提出 4DStreamCtrl，一个支持在线 4D 控制的交互式视频生成框架，将相机运动、物体轨迹与深度统一为单一的 3D 点轨迹（3D point-track）表示，实现联合相机与物体控制、深度编辑和运动迁移。",
     "key_points": [
-      "待生成"
+      "提出 4DStreamCtrl，一个支持在线 4D 控制的交互式视频生成框架，将相机运动、物体轨迹与深度统一为单一的 3D 点轨迹（3D point-track）表示，实现联合相机与物体控制、深度编辑和运动迁移。",
+      "针对现有方法的不足：相机参数方法只能控制视角、2D 轨迹方法忽略深度与遮挡、离线 3D 方法无法实时流式生成；本文首次实现 3D 一致性控制 + 实时流式生成 的统一方案。",
+      "通过将 50 步双向扩散教师模型蒸馏为 4 步因果流式学生模型，在单张高端 GPU 上以 20 FPS 生成 480p 视频，且内存开销与视频长度无关，支持数百帧的长时间连贯生成。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -493,14 +501,16 @@
     "cover_path": "covers/2608.25452/",
     "paper_image_path": "assets/paper-images/thumbs/2608.25452.webp",
     "paper_image_full_path": "assets/paper-images/2608.25452.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 VGA-BenchV2，一个扩展的、与人类对齐的统一基准测试和优化框架，用于联合评估视频生成质量与美学价值，旨在解决现有评估基准过于侧重技术保真度而忽略精细感知质量、艺术风格和人类偏好的问题。 该工作基于前作 VGA-Bench 构建，保留其细粒度评估分类体系（2 个主维度、52 个子维度），但大幅扩展了人工标注规模（新增 36,000 条任务级标注），并引入混合评估器架构与基于强化学习的评估到优化闭环流水线。 论文的核心目标是将 VGA-Bench 从单纯评估基准转化为具备大规模人类对齐训练基础设施、混合自动化评估能力以及可指导视频生成模型优化的完整框架，实现从基准构建→人工监督→自动评估→模型优化的闭环。",
+    "research_unit": "蚂蚁集团（Ant Group），北京，中国（主要研究机构，8 位作者）",
+    "hook_text": "本文提出 VGA-BenchV2，一个扩展的、与人类对齐的统一基准测试和优化框架，用于联合评估视频生成质量与美学价值，旨在解决现有评估基准过于侧重技术保真度而忽略精细感知质量、艺术风格和人类偏好的问题。",
     "key_points": [
-      "待生成"
+      "本文提出 VGA-BenchV2，一个扩展的、与人类对齐的统一基准测试和优化框架，用于联合评估视频生成质量与美学价值，旨在解决现有评估基准过于侧重技术保真度而忽略精细感知质量、艺术风格和人类偏好的问题。",
+      "该工作基于前作 VGA-Bench 构建，保留其细粒度评估分类体系（2 个主维度、52 个子维度），但大幅扩展了人工标注规模（新增 36,000 条任务级标注），并引入混合评估器架构与基于强化学习的评估到优化闭环流水线。",
+      "论文的核心目标是将 VGA-Bench 从单纯评估基准转化为具备大规模人类对齐训练基础设施、混合自动化评估能力以及可指导视频生成模型优化的完整框架，实现从基准构建→人工监督→自动评估→模型优化的闭环。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -520,14 +530,16 @@
     "cover_path": "covers/2608.25418/",
     "paper_image_path": "assets/paper-images/thumbs/2608.25418.webp",
     "paper_image_full_path": "assets/paper-images/2608.25418.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 LiDAR-SAM2，一个无需任何人工标注的 4D LiDAR 交互式分割框架，将 2D 视频基础模型 SAM2 转化为 4D LiDAR 领域的可扩展监督来源 解决 4D LiDAR 分割任务中数据标注成本高、难以扩展的问题，通过自动生成点云伪标签，降低标注负担 实现从单次点击生成整个序列中连贯的目标掩码轨迹，并证明基于自动标签训练的模型性能接近全监督水平",
+    "research_unit": "KAIST, Visual Intelligence Lab (Jihun Kim, Hyun-Kur…",
+    "hook_text": "提出 LiDAR-SAM2，一个无需任何人工标注的 4D LiDAR 交互式分割框架，将 2D 视频基础模型 SAM2 转化为 4D LiDAR 领域的可扩展监督来源",
     "key_points": [
-      "待生成"
+      "提出 LiDAR-SAM2，一个无需任何人工标注的 4D LiDAR 交互式分割框架，将 2D 视频基础模型 SAM2 转化为 4D LiDAR 领域的可扩展监督来源",
+      "解决 4D LiDAR 分割任务中数据标注成本高、难以扩展的问题，通过自动生成点云伪标签，降低标注负担",
+      "实现从单次点击生成整个序列中连贯的目标掩码轨迹，并证明基于自动标签训练的模型性能接近全监督水平"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -547,14 +559,16 @@
     "cover_path": "covers/2608.25356/",
     "paper_image_path": "assets/paper-images/thumbs/2608.25356.webp",
     "paper_image_full_path": "assets/paper-images/2608.25356.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文聚焦长视频理解任务中的关键问题：当视频变长时，全视频上下文中包含大量与问题无关的时间内容，会干扰模型定位回答问题所需的关键证据。 论文通过实证发现，将视觉输入聚焦于包含问题相关证据的短线索区间（clue interval），在不同规模模型上均一致优于使用完整视频输入，且所需帧数更少。 基于该发现，论文提出 Clue-OPSD，一种基于线索特权（clue-privileged）的在线策略自蒸馏（On-Policy Self-Distillation）框架，在不依赖地面真值答案标签的情况下提升长视频理解能力。",
+    "research_unit": "University of Maryland, College Park",
+    "hook_text": "论文聚焦长视频理解任务中的关键问题：当视频变长时，全视频上下文中包含大量与问题无关的时间内容，会干扰模型定位回答问题所需的关键证据。",
     "key_points": [
-      "待生成"
+      "论文聚焦长视频理解任务中的关键问题：当视频变长时，全视频上下文中包含大量与问题无关的时间内容，会干扰模型定位回答问题所需的关键证据。",
+      "论文通过实证发现，将视觉输入聚焦于包含问题相关证据的短线索区间（clue interval），在不同规模模型上均一致优于使用完整视频输入，且所需帧数更少。",
+      "基于该发现，论文提出 Clue-OPSD，一种基于线索特权（clue-privileged）的在线策略自蒸馏（On-Policy Self-Distillation）框架，在不依赖地面真值答案标签的情况下提升长视频理解能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
