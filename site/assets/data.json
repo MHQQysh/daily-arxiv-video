@@ -8,14 +8,16 @@
     "cover_path": "covers/2608.27406/",
     "paper_image_path": "assets/paper-images/thumbs/2608.27406.webp",
     "paper_image_full_path": "assets/paper-images/2608.27406.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 CLAP（Cross-Embodiment Video World Models），一个跨具身动作条件视频生成框架，能够在人类和多种机器人视频数据上进行训练，学习通用物理规律。 解决现有动作条件视频模型局限于单一机器人形态、无法利用互联网规模异质视频数据的问题，实现零样本物理模拟与真实世界任务部署。 通过统一的动作表征和课程式学习策略，CLAP 在多种机器人形态（如 DROID、Bridge、YAM、G1 人形机器人）上达到或超越单具身 SOTA 视频模型的预测精度。",
+    "research_unit": "Princeton University",
+    "hook_text": "提出 CLAP（Cross-Embodiment Video World Models），一个跨具身动作条件视频生成框架，能够在人类和多种机器人视频数据上进行训练，学习通用物理规律。",
     "key_points": [
-      "待生成"
+      "提出 CLAP（Cross-Embodiment Video World Models），一个跨具身动作条件视频生成框架，能够在人类和多种机器人视频数据上进行训练，学习通用物理规律。",
+      "解决现有动作条件视频模型局限于单一机器人形态、无法利用互联网规模异质视频数据的问题，实现零样本物理模拟与真实世界任务部署。",
+      "通过统一的动作表征和课程式学习策略，CLAP 在多种机器人形态（如 DROID、Bridge、YAM、G1 人形机器人）上达到或超越单具身 SOTA 视频模型的预测精度。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -64,14 +66,16 @@
     "cover_path": "covers/2608.27328/",
     "paper_image_path": "assets/paper-images/thumbs/2608.27328.webp",
     "paper_image_full_path": "assets/paper-images/2608.27328.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 R2M-Bench（Relative Revisit Memory Benchmark），用于评估交互式视频世界模型中的“重访记忆”能力，即模型在离开场景后再次回到原位置时，能否恢复一致的场景与状态。 核心问题：传统的绝对重访相似度（如首次访问帧与返回帧的相似度）会被渲染稳定性、重复内容、低运动量或失败的运动所污染，无法真正反映记忆能力。 为此，R2M-Bench 采用同一视频内的相对校准方式，通过将重访帧对与普通时间帧对进行对比，区分“重访特异的记忆”与“通用时间稳定性”。",
+    "research_unit": "DreamX Team, Alibaba Group",
+    "hook_text": "论文提出 R2M-Bench（Relative Revisit Memory Benchmark），用于评估交互式视频世界模型中的“重访记忆”能力，即模型在离开场景后再次回到原位置时，能否恢复一致的场景与状态。",
     "key_points": [
-      "待生成"
+      "论文提出 R2M-Bench（Relative Revisit Memory Benchmark），用于评估交互式视频世界模型中的“重访记忆”能力，即模型在离开场景后再次回到原位置时，能否恢复一致的场景与状态。",
+      "核心问题：传统的绝对重访相似度（如首次访问帧与返回帧的相似度）会被渲染稳定性、重复内容、低运动量或失败的运动所污染，无法真正反映记忆能力。",
+      "为此，R2M-Bench 采用同一视频内的相对校准方式，通过将重访帧对与普通时间帧对进行对比，区分“重访特异的记忆”与“通用时间稳定性”。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -149,14 +153,16 @@
     "cover_path": "covers/2608.26971/",
     "paper_image_path": "assets/paper-images/thumbs/2608.26971.webp",
     "paper_image_full_path": "assets/paper-images/2608.26971.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对图生视频（I2V）模型，提出了一种名为TempJail的新型时序越狱攻击框架 揭示了视频生成模型在时间维度上的漏洞：不安全语义可由连续帧的语义组合随时间推移而产生 解决了现有研究仅关注单帧违规而忽视视频时序维度的安全问题",
+    "research_unit": "华中科技大学网络空间安全学院、软件工程学院",
+    "hook_text": "针对图生视频（I2V）模型，提出了一种名为TempJail的新型时序越狱攻击框架",
     "key_points": [
-      "待生成"
+      "针对图生视频（I2V）模型，提出了一种名为TempJail的新型时序越狱攻击框架",
+      "揭示了视频生成模型在时间维度上的漏洞：不安全语义可由连续帧的语义组合随时间推移而产生",
+      "解决了现有研究仅关注单帧违规而忽视视频时序维度的安全问题"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 3,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -176,14 +182,16 @@
     "cover_path": "covers/2608.26902/",
     "paper_image_path": "assets/paper-images/thumbs/2608.26902.webp",
     "paper_image_full_path": "assets/paper-images/2608.26902.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文研究流式自回归视频扩散模型生成长视频时，历史记忆导致场景停滞的问题，提出了记忆锚定的场景欠推进 这一新概念 现有方法通过相似策略将主体和场景查询暴露于历史记忆，虽稳定了主体，却锁定了背景、视点和场景结构，阻碍了场景的持续演进 提出 TetherMem，一种无需训练、查询感知的时空记忆路由器，可直接应用于冻结的视频生成器，通过分离主体和场景查询并调节其对历史信息的访问，实现主体稳定与场景推进的平衡",
+    "research_unit": "华中科技大学",
+    "hook_text": "论文研究流式自回归视频扩散模型生成长视频时，历史记忆导致场景停滞的问题，提出了记忆锚定的场景欠推进 这一新概念",
     "key_points": [
-      "待生成"
+      "论文研究流式自回归视频扩散模型生成长视频时，历史记忆导致场景停滞的问题，提出了记忆锚定的场景欠推进 这一新概念",
+      "现有方法通过相似策略将主体和场景查询暴露于历史记忆，虽稳定了主体，却锁定了背景、视点和场景结构，阻碍了场景的持续演进",
+      "提出 TetherMem，一种无需训练、查询感知的时空记忆路由器，可直接应用于冻结的视频生成器，通过分离主体和场景查询并调节其对历史信息的访问，实现主体稳定与场景推进的平衡"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -203,14 +211,16 @@
     "cover_path": "covers/2608.26809/",
     "paper_image_path": "assets/paper-images/thumbs/2608.26809.webp",
     "paper_image_full_path": "assets/paper-images/2608.26809.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出了多指令多镜头长视频编辑任务（MMLVE），旨在解决长视频中复杂指令编辑的难题。 现有方法在处理长视频时采用简单的固定时长分块策略，导致实体割裂、严重的编辑幻觉以及时空连续性被破坏。 提出了 MMLVE-Agent 框架，结合大型语言模型（LLM）和视觉语言模型（VLM）实现镜头级视频解耦和精确指令解析。",
+    "research_unit": "作者来自 南开大学 计算机学院视觉与图像处理研究所 (VCIP, CS, Nankai Univers…",
+    "hook_text": "论文提出了多指令多镜头长视频编辑任务（MMLVE），旨在解决长视频中复杂指令编辑的难题。",
     "key_points": [
-      "待生成"
+      "论文提出了多指令多镜头长视频编辑任务（MMLVE），旨在解决长视频中复杂指令编辑的难题。",
+      "现有方法在处理长视频时采用简单的固定时长分块策略，导致实体割裂、严重的编辑幻觉以及时空连续性被破坏。",
+      "提出了 MMLVE-Agent 框架，结合大型语言模型（LLM）和视觉语言模型（VLM）实现镜头级视频解耦和精确指令解析。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
