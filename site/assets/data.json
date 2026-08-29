@@ -588,14 +588,16 @@
     "cover_path": "covers/2608.24810/",
     "paper_image_path": "assets/paper-images/thumbs/2608.24810.webp",
     "paper_image_full_path": "assets/paper-images/2608.24810.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出一种严格因果的流式视频异常检测（VAD）方法，其时间核心为带输入/状态依赖衰减门的对角线性状态空间循环，每个输入帧仅需 O(1) 时间和内存更新，无回看（lookahead）、无片段缓冲（clip buffering） 针对现有 SSM-based VAD（如 VADMamba、Wave-MambaAD）的三大缺陷：仍以片段/窗口方式处理输入、缺乏\"时间记忆-检测延迟\"的理论关系、仅在 GPU 上测吞吐而非目标边缘硬件 论文同时给出衰减谱与检测延迟的闭式理论分析，并在Apple M3 Pro上直接测量端到端延迟与吞吐",
+    "research_unit": "Indian Institute of Technology Jodhpur（印度理工学院焦特布尔分校…",
+    "hook_text": "提出一种严格因果的流式视频异常检测（VAD）方法，其时间核心为带输入/状态依赖衰减门的对角线性状态空间循环，每个输入帧仅需 O(1) 时间和内存更新，无回看（lookahead）、无片段缓冲（clip buffering）",
     "key_points": [
-      "待生成"
+      "提出一种严格因果的流式视频异常检测（VAD）方法，其时间核心为带输入/状态依赖衰减门的对角线性状态空间循环，每个输入帧仅需 O(1) 时间和内存更新，无回看（lookahead）、无片段缓冲（clip buffering）",
+      "针对现有 SSM-based VAD（如 VADMamba、Wave-MambaAD）的三大缺陷：仍以片段/窗口方式处理输入、缺乏\"时间记忆-检测延迟\"的理论关系、仅在 GPU 上测吞吐而非目标边缘硬件",
+      "论文同时给出衰减谱与检测延迟的闭式理论分析，并在Apple M3 Pro上直接测量端到端延迟与吞吐"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -615,14 +617,16 @@
     "cover_path": "covers/2608.24674/",
     "paper_image_path": "assets/paper-images/thumbs/2608.24674.webp",
     "paper_image_full_path": "assets/paper-images/2608.24674.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 TurboT2VA，一个用于加速 19B 参数联合文本-视频-音频（T2VA）生成模型的蒸馏与推理框架。 针对大规模 T2VA 蒸馏中的三大挑战：模态不平衡优化、连续时间一致性训练在大规模下的数值不稳定、以及质量与多样性的权衡。 在 LTX-2 上实现四步蒸馏，标准分辨率 512×768 下生成延迟从 50.52s 降至 2.51s（20.1× 加速）；高分辨率 1024×1792 下从 318.74s 降至 5.83s（54.67× 加速）。",
+    "research_unit": "浙江大学（Xiaoda Yang, Yibo Lai, Shengpeng Ji, Zhou Zhao）",
+    "hook_text": "提出 TurboT2VA，一个用于加速 19B 参数联合文本-视频-音频（T2VA）生成模型的蒸馏与推理框架。",
     "key_points": [
-      "待生成"
+      "提出 TurboT2VA，一个用于加速 19B 参数联合文本-视频-音频（T2VA）生成模型的蒸馏与推理框架。",
+      "针对大规模 T2VA 蒸馏中的三大挑战：模态不平衡优化、连续时间一致性训练在大规模下的数值不稳定、以及质量与多样性的权衡。",
+      "在 LTX-2 上实现四步蒸馏，标准分辨率 512×768 下生成延迟从 50.52s 降至 2.51s（20.1× 加速）；高分辨率 1024×1792 下从 318.74s 降至 5.83s（54.67× 加速）。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -642,14 +646,16 @@
     "cover_path": "covers/2608.24671/",
     "paper_image_path": "assets/paper-images/thumbs/2608.24671.webp",
     "paper_image_full_path": "assets/paper-images/2608.24671.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 ReGround-Surg，一个轻量级的可靠性引导锚定接地（reliability-guided anchor grounding）框架，用于提升基于 SAM2 的指代性手术视频分割（Referring Surgical Video Segmentation）性能 现有 SAM2 两阶段方法（如 ReSurgSAM2）先在第一阶段（Stage I）进行指代目标接地并选择锚定帧，再在第二阶段（Stage II）通过 SAM2 的跟踪记忆将掩码传播到其余帧；其性能高度依赖初始锚定掩码的质量，一旦锚定错误，错误将被传播到整个视频 手术视频中器械外观相似、存在遮挡和复杂组织-器械交互，导致初始接地极易出错；论文通过定性和定量证据证实\"强跟踪无法弥补错误初始接地\"这一关键瓶颈",
+    "research_unit": "University of Exeter (英国埃克塞特大学)",
+    "hook_text": "论文提出 ReGround-Surg，一个轻量级的可靠性引导锚定接地（reliability-guided anchor grounding）框架，用于提升基于 SAM2 的指代性手术视频分割（Referring Surgical Video Segmentation）性能",
     "key_points": [
-      "待生成"
+      "论文提出 ReGround-Surg，一个轻量级的可靠性引导锚定接地（reliability-guided anchor grounding）框架，用于提升基于 SAM2 的指代性手术视频分割（Referring Surgical Video Segmentation）性能",
+      "现有 SAM2 两阶段方法（如 ReSurgSAM2）先在第一阶段（Stage I）进行指代目标接地并选择锚定帧，再在第二阶段（Stage II）通过 SAM2 的跟踪记忆将掩码传播到其余帧；其性能高度依赖初始锚定掩码的质量，一旦锚定错误，错误将被传播到整个视频",
+      "手术视频中器械外观相似、存在遮挡和复杂组织-器械交互，导致初始接地极易出错；论文通过定性和定量证据证实\"强跟踪无法弥补错误初始接地\"这一关键瓶颈"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -669,14 +675,16 @@
     "cover_path": "covers/2608.24574/",
     "paper_image_path": "assets/paper-images/thumbs/2608.24574.webp",
     "paper_image_full_path": "assets/paper-images/2608.24574.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 PhysMLLMs，一种训练阶段的空间先验注入架构，旨在解决视频多模态大语言模型（Video MLLMs）在语言引导视频分割中出现的时空不一致问题（如抖动、漂移、身份切换）。 核心思路是将物理启发的空间连续性先验（对象永久性、空间连续性、时间相干性）通过表示蒸馏注入到视频 MLLM 中，使用冻结的 DINOv2 教师模型对齐学生全局视觉表示，从而提升跨帧稳定性。 该方法在推理时不增加任何额外开销，因为教师模型和缓存仅在训练阶段使用；同时希望在不损害图像级 grounding 和通用多模态能力的前提下提升视频分割质量。",
+    "research_unit": "兰州大学（School of Information Science and Engineering…",
+    "hook_text": "论文提出 PhysMLLMs，一种训练阶段的空间先验注入架构，旨在解决视频多模态大语言模型（Video MLLMs）在语言引导视频分割中出现的时空不一致问题（如抖动、漂移、身份切换）。",
     "key_points": [
-      "待生成"
+      "论文提出 PhysMLLMs，一种训练阶段的空间先验注入架构，旨在解决视频多模态大语言模型（Video MLLMs）在语言引导视频分割中出现的时空不一致问题（如抖动、漂移、身份切换）。",
+      "核心思路是将物理启发的空间连续性先验（对象永久性、空间连续性、时间相干性）通过表示蒸馏注入到视频 MLLM 中，使用冻结的 DINOv2 教师模型对齐学生全局视觉表示，从而提升跨帧稳定性。",
+      "该方法在推理时不增加任何额外开销，因为教师模型和缓存仅在训练阶段使用；同时希望在不损害图像级 grounding 和通用多模态能力的前提下提升视频分割质量。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -723,14 +731,16 @@
     "cover_path": "covers/2608.24293/",
     "paper_image_path": "assets/paper-images/thumbs/2608.24293.webp",
     "paper_image_full_path": "assets/paper-images/2608.24293.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 KATok（Keep-or-Drop? Adaptive Tokenizer），一种基于 Transformer 的视频 VAE，通过自适应 token 选择器实现内容自适应的可变长度视频压缩。 解决传统 VAE 固定压缩率无法适应视频时空内容复杂度的问题，在保持重构质量的同时有效减少冗余 token。 针对稀疏 tokenization 带来的内容-位置错位问题，提出联合预测与级联生成两种策略，保证生成视频的空间一致性。",
+    "research_unit": "Kakao Corp.（韩国）",
+    "hook_text": "提出 KATok（Keep-or-Drop? Adaptive Tokenizer），一种基于 Transformer 的视频 VAE，通过自适应 token 选择器实现内容自适应的可变长度视频压缩。",
     "key_points": [
-      "待生成"
+      "提出 KATok（Keep-or-Drop? Adaptive Tokenizer），一种基于 Transformer 的视频 VAE，通过自适应 token 选择器实现内容自适应的可变长度视频压缩。",
+      "解决传统 VAE 固定压缩率无法适应视频时空内容复杂度的问题，在保持重构质量的同时有效减少冗余 token。",
+      "针对稀疏 tokenization 带来的内容-位置错位问题，提出联合预测与级联生成两种策略，保证生成视频的空间一致性。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -750,14 +760,16 @@
     "cover_path": "covers/2608.24093/",
     "paper_image_path": "assets/paper-images/thumbs/2608.24093.webp",
     "paper_image_full_path": "assets/paper-images/2608.24093.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出一种JEPA 风格的自监督学习框架，用于 4D 点云视频（point cloud videos）的表示学习，通过掩码点管（masked point tubes）的潜在空间预测替代原始坐标重建。 核心目标：在不依赖昂贵标注的前提下，学习同时捕捉空间几何结构与时间动态的 4D 表示，避免重建式预训练过度关注低层几何细节。 引入 Sketched Isotropic Gaussian Regularization (SIGReg) 作为显式正则化，防止潜在表示坍塌，无需动量教师或 stop-gradient 等启发式技巧。",
+    "research_unit": "国立台湾大学（National Taiwan University）资讯工程学系",
+    "hook_text": "提出一种JEPA 风格的自监督学习框架，用于 4D 点云视频（point cloud videos）的表示学习，通过掩码点管（masked point tubes）的潜在空间预测替代原始坐标重建。",
     "key_points": [
-      "待生成"
+      "提出一种JEPA 风格的自监督学习框架，用于 4D 点云视频（point cloud videos）的表示学习，通过掩码点管（masked point tubes）的潜在空间预测替代原始坐标重建。",
+      "核心目标：在不依赖昂贵标注的前提下，学习同时捕捉空间几何结构与时间动态的 4D 表示，避免重建式预训练过度关注低层几何细节。",
+      "引入 Sketched Isotropic Gaussian Regularization (SIGReg) 作为显式正则化，防止潜在表示坍塌，无需动量教师或 stop-gradient 等启发式技巧。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
