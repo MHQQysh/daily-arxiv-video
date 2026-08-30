@@ -704,14 +704,16 @@
     "cover_path": "covers/2608.24302/",
     "paper_image_path": "assets/paper-images/thumbs/2608.24302.webp",
     "paper_image_full_path": "assets/paper-images/2608.24302.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 VideoHarness-RSI，一种在冻结视觉语言模型（VLM）周围递归搜索可执行上下文构造器的方法，用于长视频理解 核心目标是探索在固定模型和接口的前提下，仅通过优化上下文构造程序（harness）能获得多少性能提升 将长视频理解转化为一个受控的自动化 harness 设计问题，分离了模型能力、上下文构造能力和搜索能力",
+    "research_unit": "腾讯 (Tencent)",
+    "hook_text": "提出 VideoHarness-RSI，一种在冻结视觉语言模型（VLM）周围递归搜索可执行上下文构造器的方法，用于长视频理解",
     "key_points": [
-      "待生成"
+      "提出 VideoHarness-RSI，一种在冻结视觉语言模型（VLM）周围递归搜索可执行上下文构造器的方法，用于长视频理解",
+      "核心目标是探索在固定模型和接口的前提下，仅通过优化上下文构造程序（harness）能获得多少性能提升",
+      "将长视频理解转化为一个受控的自动化 harness 设计问题，分离了模型能力、上下文构造能力和搜索能力"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
