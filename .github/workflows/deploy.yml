@@ -16,11 +16,6 @@ on:
   schedule:
     # 每日北京时间中午12:17（UTC 4:17）运行，避开 GitHub Actions 整点高峰
     - cron: '17 4 * * *'
-    # 临时调度器验证：北京时间 2026-08-28 06:37/06:47/06:57/07:07
-    - cron: '37 22 * * *'
-    - cron: '47 22 * * *'
-    - cron: '57 22 * * *'
-    - cron: '7 23 * * *'
 permissions:
   contents: write
   pages: write

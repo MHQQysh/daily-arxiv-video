@@ -17,14 +17,7 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("workflow_dispatch:", content)
         self.assertIn("schedule:", content)
         self.assertIn("cron: '17 4 * * *'", content)
-        for probe_cron in (
-            "cron: '37 22 * * *'",
-            "cron: '47 22 * * *'",
-            "cron: '57 22 * * *'",
-            "cron: '7 23 * * *'",
-        ):
-            self.assertIn(probe_cron, content)
-        self.assertEqual(content.count("cron:"), 5)
+        self.assertEqual(content.count("cron:"), 1)
         self.assertNotIn("\n  push:", content)
         self.assertIn('group: "daily-video-pages"', content)
         self.assertIn("cancel-in-progress: true", content)
