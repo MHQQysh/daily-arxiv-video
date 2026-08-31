@@ -5549,5 +5549,655 @@
     "inside_figure": true,
     "width": 476,
     "height": 541
+  },
+  "2608.28460": {
+    "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
+    "abs_url": "https://arxiv.org/abs/2608.28460",
+    "html_url": "https://arxiv.org/html/2608.28460v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28460v1/layer_preference_crossstyle.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 566,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28460v1/LayerRecall_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 298,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28460v1/Figure_MQ/Figure_5_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 658,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28460v1/Figure_Supp/memobench_layer_policy_ablation_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 416,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28460v1/longlive1_profile25_figure2_style.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 339,
+        "height": 273,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.28460.webp",
+    "image_url": "https://arxiv.org/html/2608.28460v1/layer_preference_crossstyle.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 566
+  },
+  "2608.28192": {
+    "title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+    "abs_url": "https://arxiv.org/abs/2608.28192",
+    "html_url": "https://arxiv.org/html/2608.28192v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28192v1/intro_strategies.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28192v1/qualitative_mainfig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 274,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28192v1/failure_cases.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 205,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28192v1/ptd_plots.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 164,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28192v1/github-mark.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 19,
+        "height": 19,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": -5
+      }
+    ],
+    "path": "assets/paper-images/2608.28192.webp",
+    "image_url": "https://arxiv.org/html/2608.28192v1/intro_strategies.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 242
+  },
+  "2608.28549": {
+    "title": "Video Generative Models as Geometry Learner",
+    "abs_url": "https://arxiv.org/abs/2608.28549",
+    "html_url": "https://arxiv.org/html/2608.28549v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28549v1/fig_depth_rotate_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 433,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28549v1/fig2_final.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 197,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28549v1/fig_normal_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 397,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28549v1/fig1.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 476,
+        "height": 207,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 55
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.28549.webp",
+    "image_url": "https://arxiv.org/html/2608.28549v1/fig_depth_rotate_v1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 433
+  },
+  "2608.28491": {
+    "title": "AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction",
+    "abs_url": "https://arxiv.org/abs/2608.28491",
+    "html_url": "https://arxiv.org/html/2608.28491v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28491v1/figures/qual_success_rgb.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 266,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28491v1/figures/qual_challenging_rgb.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 266,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.28491.webp",
+    "image_url": "https://arxiv.org/html/2608.28491v1/figures/qual_success_rgb.png",
+    "source": "img",
+    "score": 85,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 266,
+    "height": 238
+  },
+  "2608.28570": {
+    "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
+    "abs_url": "https://arxiv.org/abs/2608.28570",
+    "html_url": "https://arxiv.org/html/2608.28570v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28570v1/figures/screw_and_poe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 216,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28570v1/figures/recursive_dynamics.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 210,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28570v1/figures/model_based_manipulation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 291,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28570v1/figures/experimental_setting.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 202,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28570v1/figures/state_estimation_results.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 279,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.28570.webp",
+    "image_url": "https://arxiv.org/html/2608.28570v1/figures/screw_and_poe.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 216
+  },
+  "2608.28174": {
+    "title": "Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting",
+    "abs_url": "https://arxiv.org/abs/2608.28174",
+    "html_url": "https://arxiv.org/html/2608.28174v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28174v1/teaser_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 203,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28174v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28174v1/vis.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 328,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28174v1/figures/iphone.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 243,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28174v1/abl_train.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 288,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.28174.webp",
+    "image_url": "https://arxiv.org/html/2608.28174v1/teaser_v2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 203
+  },
+  "2608.28404": {
+    "title": "How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models",
+    "abs_url": "https://arxiv.org/abs/2608.28404",
+    "html_url": "https://arxiv.org/html/2608.28404v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28404v1/fig/rank00_video_00276_grid.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 431,
+        "height": 221,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28404v1/flow_matching_video_dit_with_trajectory_conditioning.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 141,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.28404.webp",
+    "image_url": "https://arxiv.org/html/2608.28404v1/fig/rank00_video_00276_grid.jpg",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/jpeg",
+    "inside_figure": true,
+    "width": 431,
+    "height": 221
+  },
+  "2608.28406": {
+    "title": "Post-Training VLMs for Video Mistake Detection",
+    "abs_url": "https://arxiv.org/abs/2608.28406",
+    "html_url": "https://arxiv.org/html/2608.28406v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28406v1/ECCV_Benchmark.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 204,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28406v1/figures/reward_plots.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 310,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28406v1/ECCV_Teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 137,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28406v1/ECCV_Method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 166,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28406v1/ECCV_cc4d_unseen.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 140,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2608.28406.webp",
+    "image_url": "https://arxiv.org/html/2608.28406v1/ECCV_Benchmark.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 204
+  },
+  "2608.28138": {
+    "title": "Token-Budget Distillation: Transferring Full-Token Semantics to Compressed Video Vision-Language Models",
+    "abs_url": "https://arxiv.org/abs/2608.28138",
+    "html_url": "https://arxiv.org/html/2608.28138v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28138v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Block diagram of the TBD training framework. A video and a question are processed by two branches sharing one frozen backbone: a teacher branch that consumes the full visual token sequence, and a student branch in which FlashVID compresses the tokens before the language model while LoRA adapters are trained. The output logits of the two branches are compared to compute the task cross-entropy loss, the answer-region KL distillation loss, and the GT-anchored margin loss, and only the LoRA parameters receive gradient updates.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28138v1/logits.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 228,
+        "alt": "Two-panel comparison of output alignment with the teacher. The left panel is a scatter plot in which each point is one sample, plotting the baseline's KL divergence against the distilled student's KL divergence; most points lie below the diagonal, meaning the student is closer to the teacher. The right panel shows density curves of the two KL distributions, with the student's distribution concentrated at clearly smaller values.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28138v1/margin_hist_baseline_vs_ours.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 206,
+        "alt": "Two-panel decision boundary comparison. The left panel overlays histograms and density curves of the ground-truth-anchored logit margin for the compression-only baseline and the distilled student, where the student's distribution is shifted toward larger positive margins. The right panel lists summary statistics showing the student attains a higher mean margin and a lower fraction of negative margins than the baseline.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28138v1/attention_drift_map.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 206,
+        "alt": "Side-by-side spatial attention heatmaps over the same video frame for the full-token teacher and the TBD-adapted compressed student. Both heatmaps concentrate on the same task-relevant foreground region of the frame, showing that the student's visual attention stays consistent with the teacher despite aggressive token compression.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.28138.webp",
+    "image_url": "https://arxiv.org/html/2608.28138v1/pipeline.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 268
+  },
+  "2608.28008": {
+    "title": "Visual Token Coding for Video Multimodal Large Language Models",
+    "abs_url": "https://arxiv.org/abs/2608.28008",
+    "html_url": "https://arxiv.org/html/2608.28008v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.28008v1/motivation_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 531,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28008v1/overall_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 684,
+        "height": 303,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.28008v1/case_study_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 211,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.28008.webp",
+    "image_url": "https://arxiv.org/html/2608.28008v1/motivation_v3.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 531
   }
 }

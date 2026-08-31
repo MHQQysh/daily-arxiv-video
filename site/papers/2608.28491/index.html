@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction - Video 每日论文卡</title>
+    <meta name="description" content="提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计 将未来帧预测分解为对象中心的运动（粒子动力学）和密集外观（因果解码），解决像素模型中运动推理与外观保持的耦合问题 通过冻结的语义粒子编解码器、紧凑的时序 Transformer 和仅依赖上下文的外观分支，实现可控的预测，并系统评估了语言条件的作用" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2608.28491">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2608.28491.webp" alt="AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction</h1>
+            <div class="detail-meta">2026-08-28 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2608.28491" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2608.28491" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2608.28491</span></div>
+            <p class="detail-summary">提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计 将未来帧预测分解为对象中心的运动（粒子动力学）和密集外观（因果解码），解决像素模型中运动推理与外观保持的耦合问题 通过冻结的语义粒子编解码器、紧凑的时序 Transformer 和仅依赖上下文的外观分支，实现可控的预测，并系统评估了语言条件的作用</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Across Physical AI, Beijing, China</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2608.28491/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计</p>
+  <ul class="reading-intro-points"><li>提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计</li><li>将未来帧预测分解为对象中心的运动（粒子动力学）和密集外观（因果解码），解决像素模型中运动推理与外观保持的耦合问题</li><li>通过冻结的语义粒子编解码器、紧凑的时序 Transformer 和仅依赖上下文的外观分支，实现可控的预测，并系统评估了语言条件的作用</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Across Physical AI, Beijing, China</strong></li><li><strong>Institute of Automation, Chinese Academy of Sciences, Beijing, China</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>AcrossVAM1.0</strong>，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计</li><li>将未来帧预测分解为对象中心的运动（粒子动力学）和密集外观（因果解码），解决像素模型中运动推理与外观保持的耦合问题</li><li>通过冻结的语义粒子编解码器、紧凑的时序 Transformer 和仅依赖上下文的外观分支，实现可控的预测，并系统评估了语言条件的作用</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>引入语义锚定的粒子世界模型，将机器人视频动力学简化为紧凑轨迹问题，其动力学核心仅 <strong>0.28M</strong> 可训练参数，并暴露部件级运动用于诊断</li><li>提出因果运动–外观解码器，结合预测的粒子几何与仅来自最后上下文帧的外观，通过学习的置信掩码显式控制静态区域锐度与运动物体保真度之间的权衡</li><li>在 <strong>VRS</strong> 基准上进行了全面的评估：包括持久性、随机语言和随机对照、Oracle 粒子、多种子、每机器人分割分析，识别出可靠的运动收益以及有限的语言接地程度</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用冻结的 <strong>SAM3-DLP</strong> 编解码器将 4 帧上下文分解为语义粒子（整体机器人、手臂、夹爪）和背景潜在空间，粒子包含位置、尺度、深度、存在性和外观</li><li>利用 <strong>匈牙利匹配</strong> 完成粒子身份对齐，然后由 <strong>0.28M</strong> 参数的因果时空 Transformer 自回归预测粒子状态，并通过 <strong>FiLM</strong> 注入冻结的 <strong>OpenCLIP</strong> 文本嵌入实现语言调制</li><li>因果双流解码器：粒子渲染提供运动结构，仅从最后一帧上下文提取的密集外观分支提供纹理；残差细化器和学习传递掩码融合二者，生成未来帧，杜绝未来外观泄露</li><li>训练混合一步预测和自回归 rollout 损失，外观损失加入运动区域加权</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>构建 <strong>VRS（Video Robot Segmentation）</strong> 基准，源自多样 DROID 风格的真实机器人轨迹，包含 <strong>2746</strong> 个带标签片段（训练/验证/测试：2526/106/105），涵盖 Franka、WidowX、Mobile ALOHA 等平台</li><li>帧尺寸 <strong>128×128</strong>，输入 4 帧上下文，预测 5 帧未来</li><li>粒子动力学 Transformer 仅 <strong>0.28M</strong> 参数，完整可训练预测堆栈约 <strong>9.5M</strong> 参数（不含冻结的 SAM3-DLP 和 OpenCLIP 主干）</li><li>训练分阶段进行，未详细说明硬件资源</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>在 92 个测试片段（460 帧未来）上评估，指标包括 <strong>PSNR、SSIM、LPIPS</strong> 和运动区域 PSNR</li><li><strong>AcrossVAM1.0</strong> 提升全局 PSNR 至 <strong>20.573±0.009</strong>（vs. 持久性 19.97），SSIM 至 <strong>0.8004</strong>（vs. 0.796），运动 PSNR 从 11.89 提升至 12.87</li><li>LPIPS 为 <strong>0.1304</strong>，仍差于持久性（0.122），表明外观细节恢复仍是挑战</li><li>原始粒子生成提升运动 PSNR 至 13.23，但全局 SSIM 下降，显示传递掩码的必要性</li><li>正确语言与随机语言对轨迹误差的影响仅 2.8–3.1%，表明语言接地程度有限</li><li>Oracle 上界（像素级选择）达 PSNR 22.12，说明候选质量尚有提升空间</li><li>多种子实验显示传递掩码稳定性高，但上游模型共享，不确定性测量有限</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2608.28549/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Video Generative Models as Geometry Learner</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2608.28460/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

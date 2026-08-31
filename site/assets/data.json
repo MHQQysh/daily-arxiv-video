@@ -1,5 +1,281 @@
 [
   {
+    "date": "2026-08-28",
+    "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
+    "link": "https://arxiv.org/abs/2608.28570",
+    "arxiv_id": "2608.28570",
+    "detail_path": "papers/2608.28570/",
+    "cover_path": "covers/2608.28570/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28570.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28570.webp",
+    "preview_text": "提出 ChainSplat，一个物理启发的框架，旨在从多视角 RGB 视频中联合学习可变形线性物体（DLOs）的 3D 几何、外观、运动学和动力学 解决现有方法依赖多阶段流水线和深度输入、高维状态表示计算昂贵、难以泛化到新交互的问题 通过将 DLO 表示为开链结构，结合螺旋理论与高斯泼溅，实现紧凑且高效的动力学模型与高保真渲染",
+    "research_unit": "KTH Royal Institute of Technology (Department of Ro…",
+    "hook_text": "提出 ChainSplat，一个物理启发的框架，旨在从多视角 RGB 视频中联合学习可变形线性物体（DLOs）的 3D 几何、外观、运动学和动力学",
+    "key_points": [
+      "提出 ChainSplat，一个物理启发的框架，旨在从多视角 RGB 视频中联合学习可变形线性物体（DLOs）的 3D 几何、外观、运动学和动力学",
+      "解决现有方法依赖多阶段流水线和深度输入、高维状态表示计算昂贵、难以泛化到新交互的问题",
+      "通过将 DLO 表示为开链结构，结合螺旋理论与高斯泼溅，实现紧凑且高效的动力学模型与高保真渲染"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Video Generative Models as Geometry Learner",
+    "link": "https://arxiv.org/abs/2608.28549",
+    "arxiv_id": "2608.28549",
+    "detail_path": "papers/2608.28549/",
+    "cover_path": "covers/2608.28549/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28549.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28549.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction",
+    "link": "https://arxiv.org/abs/2608.28491",
+    "arxiv_id": "2608.28491",
+    "detail_path": "papers/2608.28491/",
+    "cover_path": "covers/2608.28491/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28491.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28491.webp",
+    "preview_text": "提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计 将未来帧预测分解为对象中心的运动（粒子动力学）和密集外观（因果解码），解决像素模型中运动推理与外观保持的耦合问题 通过冻结的语义粒子编解码器、紧凑的时序 Transformer 和仅依赖上下文的外观分支，实现可控的预测，并系统评估了语言条件的作用",
+    "research_unit": "Across Physical AI, Beijing, China",
+    "hook_text": "提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计",
+    "key_points": [
+      "提出 AcrossVAM1.0，一个轻量级的文本辅助视频动作模型，专为机器人视频预测设计",
+      "将未来帧预测分解为对象中心的运动（粒子动力学）和密集外观（因果解码），解决像素模型中运动推理与外观保持的耦合问题",
+      "通过冻结的语义粒子编解码器、紧凑的时序 Transformer 和仅依赖上下文的外观分支，实现可控的预测，并系统评估了语言条件的作用"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
+    "link": "https://arxiv.org/abs/2608.28460",
+    "arxiv_id": "2608.28460",
+    "detail_path": "papers/2608.28460/",
+    "cover_path": "covers/2608.28460/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28460.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28460.webp",
+    "preview_text": "论文旨在解决自回归视频扩散模型在长视频生成中，由于仅依赖有限的局部上下文缓存，导致历史信息丢失，进而无法在主体、物体或场景重现时保持长期一致性的问题 提出了 LayerRecall，一种基于当前状态条件且具有层选择性的记忆路由器，通过检索相关历史 K/V 状态并仅将其注入到特定记忆敏感层，以增强长程一致性 引入了 CHPM (Cross-Horizon Prediction Matching) 训练框架，利用长上下文参考模型的预测来监督有限记忆路由器的学习，减少对高质量长视频和显式记忆标签的依赖",
+    "research_unit": "浙江大学 (Zhejiang University)",
+    "hook_text": "论文旨在解决自回归视频扩散模型在长视频生成中，由于仅依赖有限的局部上下文缓存，导致历史信息丢失，进而无法在主体、物体或场景重现时保持长期一致性的问题",
+    "key_points": [
+      "论文旨在解决自回归视频扩散模型在长视频生成中，由于仅依赖有限的局部上下文缓存，导致历史信息丢失，进而无法在主体、物体或场景重现时保持长期一致性的问题",
+      "提出了 LayerRecall，一种基于当前状态条件且具有层选择性的记忆路由器，通过检索相关历史 K/V 状态并仅将其注入到特定记忆敏感层，以增强长程一致性",
+      "引入了 CHPM (Cross-Horizon Prediction Matching) 训练框架，利用长上下文参考模型的预测来监督有限记忆路由器的学习，减少对高质量长视频和显式记忆标签的依赖"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Post-Training VLMs for Video Mistake Detection",
+    "link": "https://arxiv.org/abs/2608.28406",
+    "arxiv_id": "2608.28406",
+    "detail_path": "papers/2608.28406/",
+    "cover_path": "covers/2608.28406/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28406.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28406.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models",
+    "link": "https://arxiv.org/abs/2608.28404",
+    "arxiv_id": "2608.28404",
+    "detail_path": "papers/2608.28404/",
+    "cover_path": "covers/2608.28404/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28404.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28404.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+    "link": "https://arxiv.org/abs/2608.28192",
+    "arxiv_id": "2608.28192",
+    "detail_path": "papers/2608.28192/",
+    "cover_path": "covers/2608.28192/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28192.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28192.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting",
+    "link": "https://arxiv.org/abs/2608.28174",
+    "arxiv_id": "2608.28174",
+    "detail_path": "papers/2608.28174/",
+    "cover_path": "covers/2608.28174/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28174.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28174.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Token-Budget Distillation: Transferring Full-Token Semantics to Compressed Video Vision-Language Models",
+    "link": "https://arxiv.org/abs/2608.28138",
+    "arxiv_id": "2608.28138",
+    "detail_path": "papers/2608.28138/",
+    "cover_path": "covers/2608.28138/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28138.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28138.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "title": "Visual Token Coding for Video Multimodal Large Language Models",
+    "link": "https://arxiv.org/abs/2608.28008",
+    "arxiv_id": "2608.28008",
+    "detail_path": "papers/2608.28008/",
+    "cover_path": "covers/2608.28008/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.28008.webp",
+    "paper_image_full_path": "assets/paper-images/2608.28008.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-08-27",
     "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
     "link": "https://arxiv.org/abs/2608.27406",
