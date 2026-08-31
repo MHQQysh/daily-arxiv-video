@@ -37,14 +37,16 @@
     "cover_path": "covers/2608.28549/",
     "paper_image_path": "assets/paper-images/thumbs/2608.28549.webp",
     "paper_image_full_path": "assets/paper-images/2608.28549.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 GeoNeXt，一种将预训练视频生成模型（如 Stable Video Diffusion）重新用于单目几何估计的统一框架，同时预测深度图和表面法向图。 核心创新是将几何估计任务重新定义为 \"下一帧预测\"（next-frames prediction），而非传统的图像条件生成，从而利用视频模型的时间一致性和丰富先验。 该方法旨在解决现有生成式几何估计方法的两大局限：任务特定模型无法共享参数、联合微调模型需要大量标注数据，最终实现数据高效的联合深度与法向估计。",
+    "research_unit": "University of Surrey（英国萨里大学）",
+    "hook_text": "论文提出 GeoNeXt，一种将预训练视频生成模型（如 Stable Video Diffusion）重新用于单目几何估计的统一框架，同时预测深度图和表面法向图。",
     "key_points": [
-      "待生成"
+      "论文提出 GeoNeXt，一种将预训练视频生成模型（如 Stable Video Diffusion）重新用于单目几何估计的统一框架，同时预测深度图和表面法向图。",
+      "核心创新是将几何估计任务重新定义为 \"下一帧预测\"（next-frames prediction），而非传统的图像条件生成，从而利用视频模型的时间一致性和丰富先验。",
+      "该方法旨在解决现有生成式几何估计方法的两大局限：任务特定模型无法共享参数、联合微调模型需要大量标注数据，最终实现数据高效的联合深度与法向估计。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -122,14 +124,16 @@
     "cover_path": "covers/2608.28406/",
     "paper_image_path": "assets/paper-images/thumbs/2608.28406.webp",
     "paper_image_full_path": "assets/paper-images/2608.28406.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "现有视频错误检测方法多为闭集设定，仅能检测训练集中出现过的动作类型的错误，泛化能力不足，无法适配未见过的程序步骤 零样本视觉语言模型（VLM）在细粒度错误检测任务上表现不佳，因为需要复杂的多步推理来识别文本指令和视频执行之间的细微差异 本文提出Mistake Detection Video Question Answering（MD-VQA）协议与基准，以及首个面向视频错误检测的VLM后训练技术，旨在实现通用的、可泛化到未见场景的错误检测",
+    "research_unit": "University of Bonn（德国波恩大学）",
+    "hook_text": "现有视频错误检测方法多为闭集设定，仅能检测训练集中出现过的动作类型的错误，泛化能力不足，无法适配未见过的程序步骤",
     "key_points": [
-      "待生成"
+      "现有视频错误检测方法多为闭集设定，仅能检测训练集中出现过的动作类型的错误，泛化能力不足，无法适配未见过的程序步骤",
+      "零样本视觉语言模型（VLM）在细粒度错误检测任务上表现不佳，因为需要复杂的多步推理来识别文本指令和视频执行之间的细微差异",
+      "本文提出Mistake Detection Video Question Answering（MD-VQA）协议与基准，以及首个面向视频错误检测的VLM后训练技术，旨在实现通用的、可泛化到未见场景的错误检测"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -149,14 +153,16 @@
     "cover_path": "covers/2608.28404/",
     "paper_image_path": "assets/paper-images/thumbs/2608.28404.webp",
     "paper_image_full_path": "assets/paper-images/2608.28404.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文针对自动驾驶视频生成场景，系统研究了从零训练的视频扩散模型在固定驾驶语料上的缩放定律（scaling law），回答计算预算应如何分配：加大模型还是延长训练。 论文使用约 5,500 小时（约 30.7 万段视频）的 NATIX 驾驶数据，训练了从 100 万到 90 亿参数 的 12 种不同规模的流匹配（flow matching）视频扩散模型，拟合验证损失随模型规模、训练暴露量（exposure）和计算量的幂律关系。 核心目标是在数据受限（无法随意扩展数据）条件下，确定最优训练策略，并据此训练一个 90 亿参数的旗舰模型，创造开源驾驶视频生成的新 SOTA。",
+    "research_unit": "Valeo.ai, Paris, France（主要研究机构）",
+    "hook_text": "论文针对自动驾驶视频生成场景，系统研究了从零训练的视频扩散模型在固定驾驶语料上的缩放定律（scaling law），回答计算预算应如何分配：加大模型还是延长训练。",
     "key_points": [
-      "待生成"
+      "论文针对自动驾驶视频生成场景，系统研究了从零训练的视频扩散模型在固定驾驶语料上的缩放定律（scaling law），回答计算预算应如何分配：加大模型还是延长训练。",
+      "论文使用约 5,500 小时（约 30.7 万段视频）的 NATIX 驾驶数据，训练了从 100 万到 90 亿参数 的 12 种不同规模的流匹配（flow matching）视频扩散模型，拟合验证损失随模型规模、训练暴露量（exposure）和计算量的幂律关系。",
+      "核心目标是在数据受限（无法随意扩展数据）条件下，确定最优训练策略，并据此训练一个 90 亿参数的旗舰模型，创造开源驾驶视频生成的新 SOTA。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -176,14 +182,16 @@
     "cover_path": "covers/2608.28192/",
     "paper_image_path": "assets/paper-images/thumbs/2608.28192.webp",
     "paper_image_full_path": "assets/paper-images/2608.28192.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文聚焦时空视频定位（STVG）任务，要求模型同时预测查询事件发生的时间区间和该区间内目标实体的空间轨迹（bounding box tube）。 现有多模态大语言模型（MLLM）通常将密集的定位轨迹进行自回归序列化生成，导致解码延迟随管（tube）长度线性增长，且早期定位误差会沿时间轨迹传播。 论文提出Parallel Tube Decoding（PTD），将生成过程分解为“时间块 + 时间条件的并行空间块”，将顺序解码深度降至固定的 1+1 轮，与管长无关，从而实现高效且更准确的生成式 STVG。",
+    "research_unit": "Mohamed bin Zayed University of Artificial Intellig…",
+    "hook_text": "论文聚焦时空视频定位（STVG）任务，要求模型同时预测查询事件发生的时间区间和该区间内目标实体的空间轨迹（bounding box tube）。",
     "key_points": [
-      "待生成"
+      "论文聚焦时空视频定位（STVG）任务，要求模型同时预测查询事件发生的时间区间和该区间内目标实体的空间轨迹（bounding box tube）。",
+      "现有多模态大语言模型（MLLM）通常将密集的定位轨迹进行自回归序列化生成，导致解码延迟随管（tube）长度线性增长，且早期定位误差会沿时间轨迹传播。",
+      "论文提出Parallel Tube Decoding（PTD），将生成过程分解为“时间块 + 时间条件的并行空间块”，将顺序解码深度降至固定的 1+1 轮，与管长无关，从而实现高效且更准确的生成式 STVG。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -203,14 +211,16 @@
     "cover_path": "covers/2608.28174/",
     "paper_image_path": "assets/paper-images/thumbs/2608.28174.webp",
     "paper_image_full_path": "assets/paper-images/2608.28174.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 Manifold4D，解决视频重拍（video re-shooting）任务：给定单目视频和用户指定相机轨迹，从新视角重渲染动态场景。 现有方法将点云渲染与源视频同时作为视觉条件输入网络，造成\"信任困境\"（两者在每一步去噪中竞争），导致轨迹控制或视觉质量下降、跨分布泛化差。 Manifold4D 将点云渲染直接注入 flow matching 的初始噪声，使生成从携带几何信息的噪声流形出发，而非标准高斯噪声，源视频则成为唯一视觉条件，从根本上消除信号竞争。",
+    "research_unit": "浙江大学（Zhejiang University）",
+    "hook_text": "论文提出 Manifold4D，解决视频重拍（video re-shooting）任务：给定单目视频和用户指定相机轨迹，从新视角重渲染动态场景。",
     "key_points": [
-      "待生成"
+      "论文提出 Manifold4D，解决视频重拍（video re-shooting）任务：给定单目视频和用户指定相机轨迹，从新视角重渲染动态场景。",
+      "现有方法将点云渲染与源视频同时作为视觉条件输入网络，造成\"信任困境\"（两者在每一步去噪中竞争），导致轨迹控制或视觉质量下降、跨分布泛化差。",
+      "Manifold4D 将点云渲染直接注入 flow matching 的初始噪声，使生成从携带几何信息的噪声流形出发，而非标准高斯噪声，源视频则成为唯一视觉条件，从根本上消除信号竞争。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -230,14 +240,16 @@
     "cover_path": "covers/2608.28138/",
     "paper_image_path": "assets/paper-images/thumbs/2608.28138.webp",
     "paper_image_full_path": "assets/paper-images/2608.28138.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 Token-Budget Distillation (TBD)，一个参数高效的微调框架，用于在固定 token 预算下适配视频视觉语言模型（Video VLM）。 核心问题是：视觉 token 压缩虽能大幅降低计算开销，但直接在压缩输入上微调会导致 语义漂移（semantic drift） 和明显性能下降。 解决思路是采用双路径教师-学生蒸馏设计，将全 token 教师模型的完整语义可靠地迁移到压缩学生模型中，同时保持推理高效。",
+    "research_unit": "中山大学（Sun Yat-sen University）（广州，中国）",
+    "hook_text": "论文提出 Token-Budget Distillation (TBD)，一个参数高效的微调框架，用于在固定 token 预算下适配视频视觉语言模型（Video VLM）。",
     "key_points": [
-      "待生成"
+      "论文提出 Token-Budget Distillation (TBD)，一个参数高效的微调框架，用于在固定 token 预算下适配视频视觉语言模型（Video VLM）。",
+      "核心问题是：视觉 token 压缩虽能大幅降低计算开销，但直接在压缩输入上微调会导致 语义漂移（semantic drift） 和明显性能下降。",
+      "解决思路是采用双路径教师-学生蒸馏设计，将全 token 教师模型的完整语义可靠地迁移到压缩学生模型中，同时保持推理高效。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 7,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -257,14 +269,16 @@
     "cover_path": "covers/2608.28008/",
     "paper_image_path": "assets/paper-images/thumbs/2608.28008.webp",
     "paper_image_full_path": "assets/paper-images/2608.28008.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出一种面向视频多模态大语言模型（Video MLLMs）的新型 token 压缩范式——视觉令牌编码（Visual Token Coding, VTC），借鉴 HEVC 等经典视频编码原理。 通过预测视频的 I/P 帧并计算帧间残差来估计 token 冗余，从而实现对视觉 token 的结构化压缩，降低视频 MLLM 的计算和内存开销。 针对现有 token 压缩方法仅依赖 token 重要性或相似度、缺乏参考-残差建模的问题，VTC 将视频编码的结构化压缩策略迁移到视觉特征空间，并实现即插即用、无需额外微调。",
+    "research_unit": "厦门大学（Xiamen University）",
+    "hook_text": "提出一种面向视频多模态大语言模型（Video MLLMs）的新型 token 压缩范式——视觉令牌编码（Visual Token Coding, VTC），借鉴 HEVC 等经典视频编码原理。",
     "key_points": [
-      "待生成"
+      "提出一种面向视频多模态大语言模型（Video MLLMs）的新型 token 压缩范式——视觉令牌编码（Visual Token Coding, VTC），借鉴 HEVC 等经典视频编码原理。",
+      "通过预测视频的 I/P 帧并计算帧间残差来估计 token 冗余，从而实现对视觉 token 的结构化压缩，降低视频 MLLM 的计算和内存开销。",
+      "针对现有 token 压缩方法仅依赖 token 重要性或相似度、缺乏参考-残差建模的问题，VTC 将视频编码的结构化压缩策略迁移到视觉特征空间，并实现即插即用、无需额外微调。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
