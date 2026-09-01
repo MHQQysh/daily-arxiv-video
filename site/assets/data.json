@@ -95,14 +95,16 @@
     "cover_path": "covers/2608.31025/",
     "paper_image_path": "assets/paper-images/thumbs/2608.31025.webp",
     "paper_image_full_path": "assets/paper-images/2608.31025.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 Analytic Dynamics，一个前馈式（feed-forward）动力学推断框架，从单目视频中高效恢复物体的本构材料模型（constitutive material models）与材料参数。 针对现有方法的两类局限：逐场景优化方法计算昂贵且难以扩展；直接视觉映射方法缺乏物理中间表征，易受外观和几何捷径影响，泛化性差。 核心思路是在视觉观测与内在动力学之间引入物理基底的动力学表征，通过两阶段特权蒸馏，引导视觉模型学习动力学相关模式。",
+    "research_unit": "上海交通大学人工智能学院（School of Artificial Intelligence, Sha…",
+    "hook_text": "提出 Analytic Dynamics，一个前馈式（feed-forward）动力学推断框架，从单目视频中高效恢复物体的本构材料模型（constitutive material models）与材料参数。",
     "key_points": [
-      "待生成"
+      "提出 Analytic Dynamics，一个前馈式（feed-forward）动力学推断框架，从单目视频中高效恢复物体的本构材料模型（constitutive material models）与材料参数。",
+      "针对现有方法的两类局限：逐场景优化方法计算昂贵且难以扩展；直接视觉映射方法缺乏物理中间表征，易受外观和几何捷径影响，泛化性差。",
+      "核心思路是在视觉观测与内在动力学之间引入物理基底的动力学表征，通过两阶段特权蒸馏，引导视觉模型学习动力学相关模式。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -151,14 +153,16 @@
     "cover_path": "covers/2608.30975/",
     "paper_image_path": "assets/paper-images/thumbs/2608.30975.webp",
     "paper_image_full_path": "assets/paper-images/2608.30975.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对心脏磁共振成像（CMR）现有深度学习方法多处理单张2D切片、丢失时序与空间上下文的问题，提出自监督视频基础模型MR-JEPA，旨在实现多序列CMR数据的统一表示学习，支撑临床心脏定量与诊断任务 MR-JEPA突破了此前CMR视频模型仅能处理电影序列（cine）的限制，支持cine、LGE、mapping等多类型CMR序列的预训练与下游迁移 模型无需标注即可完成预训练，可适配多类下游心脏临床任务，降低对标注数据的依赖 该论文已被STACOM 2026（MICCAI 2026同行评审研讨会）接收",
+    "research_unit": "提供的论文HTML原文中未明确标注作者所属研究机构",
+    "hook_text": "针对心脏磁共振成像（CMR）现有深度学习方法多处理单张2D切片、丢失时序与空间上下文的问题，提出自监督视频基础模型MR-JEPA，旨在实现多序列CMR数据的统一表示学习，支撑临床心脏定量与诊断任务",
     "key_points": [
-      "待生成"
+      "针对心脏磁共振成像（CMR）现有深度学习方法多处理单张2D切片、丢失时序与空间上下文的问题，提出自监督视频基础模型MR-JEPA，旨在实现多序列CMR数据的统一表示学习，支撑临床心脏定量与诊断任务",
+      "MR-JEPA突破了此前CMR视频模型仅能处理电影序列（cine）的限制，支持cine、LGE、mapping等多类型CMR序列的预训练与下游迁移",
+      "模型无需标注即可完成预训练，可适配多类下游心脏临床任务，降低对标注数据的依赖"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -178,14 +182,16 @@
     "cover_path": "covers/2608.30716/",
     "paper_image_path": "assets/paper-images/thumbs/2608.30716.webp",
     "paper_image_full_path": "assets/paper-images/2608.30716.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出了 SocialReasonBench，一个用于评估大型多模态模型（LMMs）社会推理能力的视频问答基准。 现有基准多依赖固定线性叙事，难以判断模型是真正理解社会动态还是仅利用了叙事模式。该基准利用交互式叙事游戏中分支故事线，构建可验证的反事实社会结果。 旨在评估模型在理解意图、情感、道德以及进行反事实和因果推理方面的能力。",
+    "research_unit": "AAII, University of Technology Sydney",
+    "hook_text": "提出了 SocialReasonBench，一个用于评估大型多模态模型（LMMs）社会推理能力的视频问答基准。",
     "key_points": [
-      "待生成"
+      "提出了 SocialReasonBench，一个用于评估大型多模态模型（LMMs）社会推理能力的视频问答基准。",
+      "现有基准多依赖固定线性叙事，难以判断模型是真正理解社会动态还是仅利用了叙事模式。该基准利用交互式叙事游戏中分支故事线，构建可验证的反事实社会结果。",
+      "旨在评估模型在理解意图、情感、道德以及进行反事实和因果推理方面的能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -205,14 +211,16 @@
     "cover_path": "covers/2608.30704/",
     "paper_image_path": "assets/paper-images/thumbs/2608.30704.webp",
     "paper_image_full_path": "assets/paper-images/2608.30704.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 TUE-Detector，一种基于工具使用专家型多模态大语言模型（MLLM）的 AI 生成视频检测框架，旨在区分 AI 生成视频与真实视频。 核心挑战在于准确识别细微但可测量的不自然伪影（subtle-yet-measurable unnatural artifacts），例如形状微变、纹理异常、运动不自然、光照与阴影不一致等。 论文从\"工具介导的证据发现\"视角出发，将通用 MLLM 训练为任务定制的工具使用专家，使其学会调用合适的工具收集具体证据，并基于证据进行推理以完成可靠检测。",
+    "research_unit": "University of Nottingham（诺丁汉大学）",
+    "hook_text": "论文提出 TUE-Detector，一种基于工具使用专家型多模态大语言模型（MLLM）的 AI 生成视频检测框架，旨在区分 AI 生成视频与真实视频。",
     "key_points": [
-      "待生成"
+      "论文提出 TUE-Detector，一种基于工具使用专家型多模态大语言模型（MLLM）的 AI 生成视频检测框架，旨在区分 AI 生成视频与真实视频。",
+      "核心挑战在于准确识别细微但可测量的不自然伪影（subtle-yet-measurable unnatural artifacts），例如形状微变、纹理异常、运动不自然、光照与阴影不一致等。",
+      "论文从\"工具介导的证据发现\"视角出发，将通用 MLLM 训练为任务定制的工具使用专家，使其学会调用合适的工具收集具体证据，并基于证据进行推理以完成可靠检测。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -232,14 +240,16 @@
     "cover_path": "covers/2608.30692/",
     "paper_image_path": "assets/paper-images/thumbs/2608.30692.webp",
     "paper_image_full_path": "assets/paper-images/2608.30692.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文研究了视频世界模型是否能真正追踪未观察到的隐藏世界状态，而不仅仅是生成视觉上合理的视频帧 提出了一个基于动作条件的视频“Shell Game”基准，作为对称群 S5 状态追踪任务的视觉类比，将视觉渲染与底层隐藏状态的组合解耦 探讨了当前主流模型在仅使用像素监督目标时无法携带和更新隐藏状态的问题，并提出了能够实现长度外推的架构机制",
+    "research_unit": "Seoul National University",
+    "hook_text": "论文研究了视频世界模型是否能真正追踪未观察到的隐藏世界状态，而不仅仅是生成视觉上合理的视频帧",
     "key_points": [
-      "待生成"
+      "论文研究了视频世界模型是否能真正追踪未观察到的隐藏世界状态，而不仅仅是生成视觉上合理的视频帧",
+      "提出了一个基于动作条件的视频“Shell Game”基准，作为对称群 S5 状态追踪任务的视觉类比，将视觉渲染与底层隐藏状态的组合解耦",
+      "探讨了当前主流模型在仅使用像素监督目标时无法携带和更新隐藏状态的问题，并提出了能够实现长度外推的架构机制"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
