@@ -1,5 +1,283 @@
 [
   {
+    "date": "2026-08-31",
+    "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
+    "link": "https://arxiv.org/abs/2608.31113",
+    "arxiv_id": "2608.31113",
+    "detail_path": "papers/2608.31113/",
+    "cover_path": "covers/2608.31113/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.31113.webp",
+    "paper_image_full_path": "assets/paper-images/2608.31113.webp",
+    "preview_text": "本文提出BLARM，一种前馈式的视频驱动3D网格动画方法，输入单目视频与静态物体网格，输出与视频运动一致的时间连贯动画网格 针对传统动画方法的两大局限：一是依赖预定义骨架/笼等显式绑定结构，无法适配特定视频中的序列化运动；二是直接回归高维顶点位移，缺乏可解释性与编辑性，BLARM采用紧凑的潜在运动表示，无需骨架、笼、蒙皮权重或绑定标注即可生成动画 研究目标是实现几何精度高、时间稳定、运动结构紧凑可解释的3D网格动画，兼容标准图形制作管线",
+    "research_unit": "论文作者所属机构包括Roblox、UMass Amherst、TU Crete",
+    "hook_text": "本文提出BLARM，一种前馈式的视频驱动3D网格动画方法，输入单目视频与静态物体网格，输出与视频运动一致的时间连贯动画网格",
+    "key_points": [
+      "本文提出BLARM，一种前馈式的视频驱动3D网格动画方法，输入单目视频与静态物体网格，输出与视频运动一致的时间连贯动画网格",
+      "针对传统动画方法的两大局限：一是依赖预定义骨架/笼等显式绑定结构，无法适配特定视频中的序列化运动；二是直接回归高维顶点位移，缺乏可解释性与编辑性，BLARM采用紧凑的潜在运动表示，无需骨架、笼、蒙皮权重或绑定标注即可生成动画",
+      "研究目标是实现几何精度高、时间稳定、运动结构紧凑可解释的3D网格动画，兼容标准图形制作管线"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+    "link": "https://arxiv.org/abs/2608.31106",
+    "arxiv_id": "2608.31106",
+    "detail_path": "papers/2608.31106/",
+    "cover_path": "covers/2608.31106/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.31106.webp",
+    "paper_image_full_path": "assets/paper-images/2608.31106.webp",
+    "preview_text": "针对当前视频生成模型普遍忽略音频、或采用分阶段独立生成音视频、无法联合建模视觉动态与声学事件的问题，提出DreamX-Creator 1.0原生联合音视频生成系统 系统以7B规模生成器为核心，支持文本提示+首帧图像作为输入，联合生成音视频内容，同时配套2K分辨率视频细化能力，旨在降低原生音视频生成的研究与应用门槛 公开释放7B生成器与2K细化器，是当前公开可获取的最小规模原生联合音视频生成模型，性能达到开源同类系统SOTA水平",
+    "research_unit": "DreamX Team, Alibaba Group（阿里巴巴集团DreamX团队）",
+    "hook_text": "针对当前视频生成模型普遍忽略音频、或采用分阶段独立生成音视频、无法联合建模视觉动态与声学事件的问题，提出DreamX-Creator 1.0原生联合音视频生成系统",
+    "key_points": [
+      "针对当前视频生成模型普遍忽略音频、或采用分阶段独立生成音视频、无法联合建模视觉动态与声学事件的问题，提出DreamX-Creator 1.0原生联合音视频生成系统",
+      "系统以7B规模生成器为核心，支持文本提示+首帧图像作为输入，联合生成音视频内容，同时配套2K分辨率视频细化能力，旨在降低原生音视频生成的研究与应用门槛",
+      "公开释放7B生成器与2K细化器，是当前公开可获取的最小规模原生联合音视频生成模型，性能达到开源同类系统SOTA水平"
+    ],
+    "reading_minutes": 5,
+    "section_count": 5,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Real-Time Video Anomaly Detection Using YOLO Pose Estimation and CLIP-Based Semantic Scoring",
+    "link": "https://arxiv.org/abs/2608.31074",
+    "arxiv_id": "2608.31074",
+    "detail_path": "papers/2608.31074/",
+    "cover_path": "covers/2608.31074/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.31074.webp",
+    "paper_image_full_path": "assets/paper-images/2608.31074.webp",
+    "preview_text": "提出轻量化两阶段实时视频异常检测框架，针对固定室内监控场景的人体异常行为（摔倒、躺卧、打斗、坐地）识别需求 解决传统多组件异常检测pipeline（含光流、独立姿态估计、密度评分模块）吞吐量低、无法满足实时监控需求的问题，缓解人工监控易出现的注意力疲劳问题 目标是在单张桌面级GPU上实现30FPS以上的实时处理，同时保持与现有方法相当的检测精度",
+    "research_unit": "泰国朱拉隆功大学（Chulalongkorn University）电气工程系",
+    "hook_text": "提出轻量化两阶段实时视频异常检测框架，针对固定室内监控场景的人体异常行为（摔倒、躺卧、打斗、坐地）识别需求",
+    "key_points": [
+      "提出轻量化两阶段实时视频异常检测框架，针对固定室内监控场景的人体异常行为（摔倒、躺卧、打斗、坐地）识别需求",
+      "解决传统多组件异常检测pipeline（含光流、独立姿态估计、密度评分模块）吞吐量低、无法满足实时监控需求的问题，缓解人工监控易出现的注意力疲劳问题",
+      "目标是在单张桌面级GPU上实现30FPS以上的实时处理，同时保持与现有方法相当的检测精度"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos",
+    "link": "https://arxiv.org/abs/2608.31025",
+    "arxiv_id": "2608.31025",
+    "detail_path": "papers/2608.31025/",
+    "cover_path": "covers/2608.31025/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.31025.webp",
+    "paper_image_full_path": "assets/paper-images/2608.31025.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "From Intent to Evidence: Policy-Steered Multi-Strategy Retrieval for Long-Video Agents",
+    "link": "https://arxiv.org/abs/2608.31005",
+    "arxiv_id": "2608.31005",
+    "detail_path": "papers/2608.31005/",
+    "cover_path": "covers/2608.31005/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.31005.webp",
+    "paper_image_full_path": "assets/paper-images/2608.31005.webp",
+    "preview_text": "针对长视频理解任务中，现有视频代理使用单一统一行为获取证据，忽略了证据是集中分布、需要广泛覆盖还是需要区分竞争假设的问题 提出无需训练的长视频代理框架 VESTA，通过意图路由器推断证据获取策略，并采用“获取-验证-巩固”循环来组织探索过程 引入时间证据账本，将观察结果整合为自适应、压缩的结构化视图，以指导后续证据获取并支持最终答案生成",
+    "research_unit": "北京化工大学 (Beijing University of Chemical Technology)",
+    "hook_text": "针对长视频理解任务中，现有视频代理使用单一统一行为获取证据，忽略了证据是集中分布、需要广泛覆盖还是需要区分竞争假设的问题",
+    "key_points": [
+      "针对长视频理解任务中，现有视频代理使用单一统一行为获取证据，忽略了证据是集中分布、需要广泛覆盖还是需要区分竞争假设的问题",
+      "提出无需训练的长视频代理框架 VESTA，通过意图路由器推断证据获取策略，并采用“获取-验证-巩固”循环来组织探索过程",
+      "引入时间证据账本，将观察结果整合为自适应、压缩的结构化视图，以指导后续证据获取并支持最终答案生成"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "MR-JEPA: A General Purpose Video Foundation Model for Cardiac MRI",
+    "link": "https://arxiv.org/abs/2608.30975",
+    "arxiv_id": "2608.30975",
+    "detail_path": "papers/2608.30975/",
+    "cover_path": "covers/2608.30975/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.30975.webp",
+    "paper_image_full_path": "assets/paper-images/2608.30975.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "SocialReasonBench: A Video-QA Benchmark for Social Reasoning with Counterfactual Narrative Videos",
+    "link": "https://arxiv.org/abs/2608.30716",
+    "arxiv_id": "2608.30716",
+    "detail_path": "papers/2608.30716/",
+    "cover_path": "covers/2608.30716/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.30716.webp",
+    "paper_image_full_path": "assets/paper-images/2608.30716.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "TUE-Detector: A Tool-Using Expert MLLM-Based Detector for AI-Generated Videos",
+    "link": "https://arxiv.org/abs/2608.30704",
+    "arxiv_id": "2608.30704",
+    "detail_path": "papers/2608.30704/",
+    "cover_path": "covers/2608.30704/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.30704.webp",
+    "paper_image_full_path": "assets/paper-images/2608.30704.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Can Video World Models Track Unobserved World States?",
+    "link": "https://arxiv.org/abs/2608.30692",
+    "arxiv_id": "2608.30692",
+    "detail_path": "papers/2608.30692/",
+    "cover_path": "covers/2608.30692/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.30692.webp",
+    "paper_image_full_path": "assets/paper-images/2608.30692.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Learning Compositional Spatio-Temporal Video Grounding with Synthetic Curriculum",
+    "link": "https://arxiv.org/abs/2608.30584",
+    "arxiv_id": "2608.30584",
+    "detail_path": "papers/2608.30584/",
+    "cover_path": "covers/2608.30584/",
+    "paper_image_path": "assets/paper-images/thumbs/2608.30584.webp",
+    "paper_image_full_path": "assets/paper-images/2608.30584.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-08-28",
     "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
     "link": "https://arxiv.org/abs/2608.28570",

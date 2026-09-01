@@ -6199,5 +6199,603 @@
     "inside_figure": true,
     "width": 698,
     "height": 531
+  },
+  "2608.30716": {
+    "title": "SocialReasonBench: A Video-QA Benchmark for Social Reasoning with Counterfactual Narrative Videos",
+    "abs_url": "https://arxiv.org/abs/2608.30716",
+    "html_url": "https://arxiv.org/html/2608.30716v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.30716v1/SRB_emnlp/submissions/arr/figures/25.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 494,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30716v1/26.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 225,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30716v1/27.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 214,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30716v1/SRB_emnlp/submissions/arr/figures/19.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 253,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30716v1/SRB_emnlp/submissions/arr/figures/20.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.30716.webp",
+    "image_url": "https://arxiv.org/html/2608.30716v1/SRB_emnlp/submissions/arr/figures/25.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 494
+  },
+  "2608.31025": {
+    "title": "Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos",
+    "abs_url": "https://arxiv.org/abs/2608.31025",
+    "html_url": "https://arxiv.org/html/2608.31025v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.31025v1/realworld.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 443,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31025v1/intro_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 210,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31025v1/pipeline_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 278,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31025v1/visulization.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 208,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31025v1/representation_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.31025.webp",
+    "image_url": "https://arxiv.org/html/2608.31025v1/realworld.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 443
+  },
+  "2608.31005": {
+    "title": "From Intent to Evidence: Policy-Steered Multi-Strategy Retrieval for Long-Video Agents",
+    "abs_url": "https://arxiv.org/abs/2608.31005",
+    "html_url": "https://arxiv.org/html/2608.31005v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.31005v1/Figures/case1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 1031,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31005v1/Figures/frames.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 252,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31005v1/Figures/videommev2_vesta_second_head_route_share.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 335,
+        "height": 271,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31005v1/Figures/videommev2_vesta_second_head_mean_budget.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 335,
+        "height": 273,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.31005.webp",
+    "image_url": "https://arxiv.org/html/2608.31005v1/Figures/case1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 1031
+  },
+  "2608.31113": {
+    "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
+    "abs_url": "https://arxiv.org/abs/2608.31113",
+    "html_url": "https://arxiv.org/html/2608.31113v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.31113v1/Consistent4D-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 448,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31113v1/Architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 339,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31113v1/Qualitative_Actionbench-main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31113v1/Qualitative_Motion80-3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31113v1/Qualitative_Actionbench-supplementary.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 278,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.31113.webp",
+    "image_url": "https://arxiv.org/html/2608.31113v1/Consistent4D-2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 448
+  },
+  "2608.31074": {
+    "title": "Real-Time Video Anomaly Detection Using YOLO Pose Estimation and CLIP-Based Semantic Scoring",
+    "abs_url": "https://arxiv.org/abs/2608.31074",
+    "html_url": "https://arxiv.org/html/2608.31074v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.31074v1/figures/gui_normal_transition.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 314,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31074v1/figures/gui_abnormal_lying.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 311,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31074v1/figures/detect_normal.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 362,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31074v1/figures/detect_abnormal.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 360,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.31074.webp",
+    "image_url": "https://arxiv.org/html/2608.31074v1/figures/gui_normal_transition.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 314
+  },
+  "2608.31106": {
+    "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+    "abs_url": "https://arxiv.org/abs/2608.31106",
+    "html_url": "https://arxiv.org/html/2608.31106v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.31106v1/pipeline_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 203,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31106v1/data_pipe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 237,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31106v1/RL.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 141,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2608.31106v1/teaser_v4.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 476,
+        "height": 263,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 55
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.31106.webp",
+    "image_url": "https://arxiv.org/html/2608.31106v1/pipeline_v2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 203
+  },
+  "2608.30704": {
+    "title": "TUE-Detector: A Tool-Using Expert MLLM-Based Detector for AI-Generated Videos",
+    "abs_url": "https://arxiv.org/abs/2608.30704",
+    "html_url": "https://arxiv.org/html/2608.30704v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.30704v1/figure1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 216,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30704v1/figure2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 183,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30704v1/figures/qualitative_comparison/case_campaign_wan22_person_multiframe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 658,
+        "height": 218,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30704v1/figures/qualitative_comparison/case_flashlight_sora_multiframe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 658,
+        "height": 211,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30704v1/figures/qualitative_comparison/case_water_skyreels_multiframe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 658,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.30704.webp",
+    "image_url": "https://arxiv.org/html/2608.30704v1/figure1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 216
+  },
+  "2608.30692": {
+    "title": "Can Video World Models Track Unobserved World States?",
+    "abs_url": "https://arxiv.org/abs/2608.30692",
+    "html_url": "https://arxiv.org/html/2608.30692v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.30692v1/shellgame_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 208,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30692v1/blockworld_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 450,
+        "height": 391,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30692v1/maze_orig_global.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 378,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30692v1/maze_orig_local.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 378,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30692v1/maze_nocoll_global.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 378,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2608.30692.webp",
+    "image_url": "https://arxiv.org/html/2608.30692v1/shellgame_qualitative.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 208
+  },
+  "2608.30584": {
+    "title": "Learning Compositional Spatio-Temporal Video Grounding with Synthetic Curriculum",
+    "abs_url": "https://arxiv.org/abs/2608.30584",
+    "html_url": "https://arxiv.org/html/2608.30584v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2608.30584v1/task_compare_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 217,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30584v1/pipeline_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 86,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2608.30584v1/query_wordcloud.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 117,
+        "height": 66,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2608.30584.webp",
+    "image_url": "https://arxiv.org/html/2608.30584v1/task_compare_cropped.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 217
+  },
+  "2608.30975": {
+    "title": "MR-JEPA: A General Purpose Video Foundation Model for Cardiac MRI",
+    "abs_url": "https://arxiv.org/abs/2608.30975",
+    "html_url": "",
+    "path": "assets/paper-images/2608.30975.webp",
+    "image_url": "https://arxiv.org/pdf/2608.30975",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 1212,
+    "height": 808
   }
 }
