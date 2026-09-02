@@ -95,14 +95,16 @@
     "cover_path": "covers/2609.01479/",
     "paper_image_path": "assets/paper-images/thumbs/2609.01479.webp",
     "paper_image_full_path": "assets/paper-images/2609.01479.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 CameraEditor 框架，旨在解决现有图像编辑模型无法精确控制相机参数（如旋转、视场角、畸变）的问题 将相机控制的图像编辑任务重新定义为时序序列预测问题，利用视频生成模型的先验知识来分解大视角变换，避免文本指令的歧义和结构崩溃 论文还构建了专门的训练数据集 5,760 个实例，并独立提出了一个模型无关的评估基准 CamEditor-Bench（包含 462 个测试用例）",
+    "research_unit": "西安交通大学 (Xi’an Jiaotong University)，中国",
+    "hook_text": "论文提出 CameraEditor 框架，旨在解决现有图像编辑模型无法精确控制相机参数（如旋转、视场角、畸变）的问题",
     "key_points": [
-      "待生成"
+      "论文提出 CameraEditor 框架，旨在解决现有图像编辑模型无法精确控制相机参数（如旋转、视场角、畸变）的问题",
+      "将相机控制的图像编辑任务重新定义为时序序列预测问题，利用视频生成模型的先验知识来分解大视角变换，避免文本指令的歧义和结构崩溃",
+      "论文还构建了专门的训练数据集 5,760 个实例，并独立提出了一个模型无关的评估基准 CamEditor-Bench（包含 462 个测试用例）"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -236,14 +238,16 @@
     "cover_path": "covers/2609.00656/",
     "paper_image_path": "assets/paper-images/thumbs/2609.00656.webp",
     "paper_image_full_path": "assets/paper-images/2609.00656.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出一种事件中心的物理合理视频生成（PPVG）框架，将物理现象表示为因果相连的事件链，而非传统方法中的单一整体描述 针对现有方法忽视中间物理状态和过渡动力学的问题，通过视觉-语义事件链条件化引导扩散模型生成符合物理规律的视频 该框架包含三个核心模块：物理驱动的事件链推理、过渡感知的路由关键帧条件化、物理注入的对比语义引导",
+    "research_unit": "四川大学 电子信息学院（Zixuan Wang, Yixin Hu, Yinjie Lei）",
+    "hook_text": "提出一种事件中心的物理合理视频生成（PPVG）框架，将物理现象表示为因果相连的事件链，而非传统方法中的单一整体描述",
     "key_points": [
-      "待生成"
+      "提出一种事件中心的物理合理视频生成（PPVG）框架，将物理现象表示为因果相连的事件链，而非传统方法中的单一整体描述",
+      "针对现有方法忽视中间物理状态和过渡动力学的问题，通过视觉-语义事件链条件化引导扩散模型生成符合物理规律的视频",
+      "该框架包含三个核心模块：物理驱动的事件链推理、过渡感知的路由关键帧条件化、物理注入的对比语义引导"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
