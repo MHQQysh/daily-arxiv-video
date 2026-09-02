@@ -6797,5 +6797,603 @@
     "inside_figure": true,
     "width": 1212,
     "height": 808
+  },
+  "2609.01276": {
+    "title": "Seeing the World and the Self from Egocentric Video",
+    "abs_url": "https://arxiv.org/abs/2609.01276",
+    "html_url": "https://arxiv.org/html/2609.01276v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.01276v1/fig_motion1_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 548,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01276v1/fig_appendix_data.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 398,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01276v1/fig_appendix_failure_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 663,
+        "height": 544,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01276v1/fig_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 593,
+        "height": 252,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01276v1/fig_training.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 220,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.01276.webp",
+    "image_url": "https://arxiv.org/html/2609.01276v1/fig_motion1_1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 548
+  },
+  "2609.01551": {
+    "title": "What, Where, and How: Probing Spatiotemporal Representations in Video Foundation Models",
+    "abs_url": "https://arxiv.org/abs/2609.01551",
+    "html_url": "https://arxiv.org/html/2609.01551v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.01551v1/figures/pca_across_layers/pca_across_layers_frames_left.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 183,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01551v1/figures/pca_visualizations.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 357,
+        "height": 360,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01551v1/figures/layerwise_plots/B2_per_property_indiv_cv_intphys2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 396,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01551v1/figures/layerwise_plots/B2_per_property_indiv_cv_camerabench.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 266,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01551v1/figures/layerwise_plots/B1_per_property_avg_cv.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 151,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.01551.webp",
+    "image_url": "https://arxiv.org/html/2609.01551v1/figures/pca_across_layers/pca_across_layers_frames_left.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 452,
+    "height": 183
+  },
+  "2609.00742": {
+    "title": "Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection",
+    "abs_url": "https://arxiv.org/abs/2609.00742",
+    "html_url": "https://arxiv.org/html/2609.00742v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.00742v1/the_rift.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 448,
+        "height": 403,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00742v1/RIFT.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 181,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00742v1/seedance2_deepdive.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 419,
+        "height": 356,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.00742.webp",
+    "image_url": "https://arxiv.org/html/2609.00742v1/the_rift.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 448,
+    "height": 403
+  },
+  "2609.01252": {
+    "title": "MeRoPE: Metric Rotary Position Embedding for Camera-Controlled Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.01252",
+    "html_url": "https://arxiv.org/html/2609.01252v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.01252v1/images/nuscenes_main_1.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 203,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01252v1/images/nuscenes_main_2.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 203,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01252v1/images/sota_comparison_1.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 352,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01252v1/images/sota_comparison_2.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 352,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01252v1/images/sota_comparison_3.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 352,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.01252.webp",
+    "image_url": "https://arxiv.org/html/2609.01252v1/images/nuscenes_main_1.jpg",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/jpeg",
+    "inside_figure": true,
+    "width": 548,
+    "height": 203
+  },
+  "2609.00996": {
+    "title": "Does This Moment Justify the Recommendation? Counterfactual Behavior-Grounded Evidence Retrieval for Personalized Video Recommendation",
+    "abs_url": "https://arxiv.org/abs/2609.00996",
+    "html_url": "https://arxiv.org/html/2609.00996v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.00996v1/figures/dataset_task_overview_hd.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 390,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00996v1/figures/dataset_pipeline_v3_hd.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 388,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00996v1/figures/cbger_algorithm_v6_hd1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 400,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.00996.webp",
+    "image_url": "https://arxiv.org/html/2609.00996v1/figures/dataset_task_overview_hd.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 390
+  },
+  "2609.01515": {
+    "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+    "abs_url": "https://arxiv.org/abs/2609.01515",
+    "html_url": "https://arxiv.org/html/2609.01515v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.01515v1/main-figure.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 267,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01515v1/cap_pa.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 414,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01515v1/cap_sp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 414,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01515v1/cap_as.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 414,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01515v1/interface.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 286,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.01515.webp",
+    "image_url": "https://arxiv.org/html/2609.01515v1/main-figure.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 452,
+    "height": 267
+  },
+  "2609.01479": {
+    "title": "CameraEditor: Camera-Controlled Image Editing via Video-Prior Sequential Modeling",
+    "abs_url": "https://arxiv.org/abs/2609.01479",
+    "html_url": "https://arxiv.org/html/2609.01479v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.01479v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 214,
+        "alt": "A schematic overview and qualitative examples of CameraEditor for camera-parameterized image editing.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01479v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 405,
+        "height": 195,
+        "alt": "Dataset construction pipeline from panoramic images through cropping, filtering, and temporal sequence generation.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01479v1/demo1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 199,
+        "alt": "Qualitative comparisons with PF-I and PF-T geometric error maps for each evaluated method.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01479v1/camera_params.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Examples showing how yaw, pitch, roll, vertical field of view, and radial distortion change a cropped panorama.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.01479v1/appendix_main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 223,
+        "alt": "Extended qualitative comparisons with perspective-field heatmaps for CameraEditor and competing editing methods.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.01479.webp",
+    "image_url": "https://arxiv.org/html/2609.01479v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 429,
+    "height": 214
+  },
+  "2609.00610": {
+    "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
+    "abs_url": "https://arxiv.org/abs/2609.00610",
+    "html_url": "https://arxiv.org/html/2609.00610v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.00610v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 248,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00610v1/quality.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 246,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.00610.webp",
+    "image_url": "https://arxiv.org/html/2609.00610v1/pipeline.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 617,
+    "height": 248
+  },
+  "2609.00656": {
+    "title": "Physically Plausible Video Generation via Visual-Semantic Chain-of-Events Conditioning",
+    "abs_url": "https://arxiv.org/abs/2609.00656",
+    "html_url": "https://arxiv.org/html/2609.00656v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.00656v1/case_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 334,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00656v1/ablation_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 254,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00656v1/ablation_3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 337,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00656v1/ablation_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 341,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.00656v1/abstract.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 168,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.00656.webp",
+    "image_url": "https://arxiv.org/html/2609.00656v1/case_1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 334
+  },
+  "2609.01535": {
+    "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
+    "abs_url": "https://arxiv.org/abs/2609.01535",
+    "html_url": "https://arxiv.org/html/2609.01535v1",
+    "path": "assets/paper-images/2609.01535.webp",
+    "image_url": "https://arxiv.org/html/2609.01535v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 551
   }
 }

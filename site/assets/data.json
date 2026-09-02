@@ -1,5 +1,287 @@
 [
   {
+    "date": "2026-09-01",
+    "title": "What, Where, and How: Probing Spatiotemporal Representations in Video Foundation Models",
+    "link": "https://arxiv.org/abs/2609.01551",
+    "arxiv_id": "2609.01551",
+    "detail_path": "papers/2609.01551/",
+    "cover_path": "covers/2609.01551/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.01551.webp",
+    "paper_image_full_path": "assets/paper-images/2609.01551.webp",
+    "preview_text": "论文系统性地探究视频基础模型（V-JEPA 2 和 VideoMAE-v2）的自监督时空表征，回答三个核心问题：模型编码了什么视觉概念（what）、这些概念在 transformer 哪些层出现（where）、以及它们在表征空间中如何几何组织（how）。 采用统一的线性探针框架，对三类时间属性（相机运动理解、直观物理理解、异常检测）进行逐层分析，并进一步研究相机运动表征的几何结构及特征空间操控。 聚焦于当前视频模型可解释性研究相对缺乏的问题，特别是与图像模型相比，视频模型中时间信号的表征方式和可导航性尚未被充分探索。",
+    "research_unit": "Lassonde School of Engineering, York University（加拿大…",
+    "hook_text": "论文系统性地探究视频基础模型（V-JEPA 2 和 VideoMAE-v2）的自监督时空表征，回答三个核心问题：模型编码了什么视觉概念（what）、这些概念在 transformer 哪些层出现（where）、以及它们在表征空间中如何几何组织（how）。",
+    "key_points": [
+      "论文系统性地探究视频基础模型（V-JEPA 2 和 VideoMAE-v2）的自监督时空表征，回答三个核心问题：模型编码了什么视觉概念（what）、这些概念在 transformer 哪些层出现（where）、以及它们在表征空间中如何几何组织（how）。",
+      "采用统一的线性探针框架，对三类时间属性（相机运动理解、直观物理理解、异常检测）进行逐层分析，并进一步研究相机运动表征的几何结构及特征空间操控。",
+      "聚焦于当前视频模型可解释性研究相对缺乏的问题，特别是与图像模型相比，视频模型中时间信号的表征方式和可导航性尚未被充分探索。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
+    "link": "https://arxiv.org/abs/2609.01535",
+    "arxiv_id": "2609.01535",
+    "detail_path": "papers/2609.01535/",
+    "cover_path": "covers/2609.01535/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.01535.webp",
+    "paper_image_full_path": "assets/paper-images/2609.01535.webp",
+    "preview_text": "探索大语言模型（LLM）是否能够自动设计视频编码工具，以长期使用的Planar帧内预测模式为案例研究对象 解决编码工具设计相比QP分配规则更复杂的核心挑战：存在 intricate 算法耦合、语法信令开销、编解码严格匹配等约束 目标是验证在现有编码器接口约束下，LLM生成的Planar预测器能否超越手工设计的基线，为LLM-based编码工具设计提供初步证据",
+    "research_unit": "香港城市大学计算机科学系",
+    "hook_text": "探索大语言模型（LLM）是否能够自动设计视频编码工具，以长期使用的Planar帧内预测模式为案例研究对象",
+    "key_points": [
+      "探索大语言模型（LLM）是否能够自动设计视频编码工具，以长期使用的Planar帧内预测模式为案例研究对象",
+      "解决编码工具设计相比QP分配规则更复杂的核心挑战：存在 intricate 算法耦合、语法信令开销、编解码严格匹配等约束",
+      "目标是验证在现有编码器接口约束下，LLM生成的Planar预测器能否超越手工设计的基线，为LLM-based编码工具设计提供初步证据"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+    "link": "https://arxiv.org/abs/2609.01515",
+    "arxiv_id": "2609.01515",
+    "detail_path": "papers/2609.01515/",
+    "cover_path": "covers/2609.01515/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.01515.webp",
+    "paper_image_full_path": "assets/paper-images/2609.01515.webp",
+    "preview_text": "提出TempCloze，一个视频闭包基准，用于评估Video-LLMs的视觉时间推理能力，通过让模型比较视频片段中的视觉证据而非文本描述来减少语言捷径 任务要求模型给定视频的开始和结束片段，从四个候选中识别真正的缺失中间部分，测试事件语义（Semantic）、时间对齐（Alignment）和时间进展（Progression）三个维度 对10个专有和21个开源Video-LLMs进行系统评估，发现时间对齐（Alignment）是模型性能的主要瓶颈，模型能识别合理语义内容和进展顺序但 struggled with temporal alignment",
+    "research_unit": "The University of Hong Kong",
+    "hook_text": "提出TempCloze，一个视频闭包基准，用于评估Video-LLMs的视觉时间推理能力，通过让模型比较视频片段中的视觉证据而非文本描述来减少语言捷径",
+    "key_points": [
+      "提出TempCloze，一个视频闭包基准，用于评估Video-LLMs的视觉时间推理能力，通过让模型比较视频片段中的视觉证据而非文本描述来减少语言捷径",
+      "任务要求模型给定视频的开始和结束片段，从四个候选中识别真正的缺失中间部分，测试事件语义（Semantic）、时间对齐（Alignment）和时间进展（Progression）三个维度",
+      "对10个专有和21个开源Video-LLMs进行系统评估，发现时间对齐（Alignment）是模型性能的主要瓶颈，模型能识别合理语义内容和进展顺序但 struggled with temporal alignment"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "CameraEditor: Camera-Controlled Image Editing via Video-Prior Sequential Modeling",
+    "link": "https://arxiv.org/abs/2609.01479",
+    "arxiv_id": "2609.01479",
+    "detail_path": "papers/2609.01479/",
+    "cover_path": "covers/2609.01479/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.01479.webp",
+    "paper_image_full_path": "assets/paper-images/2609.01479.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Seeing the World and the Self from Egocentric Video",
+    "link": "https://arxiv.org/abs/2609.01276",
+    "arxiv_id": "2609.01276",
+    "detail_path": "papers/2609.01276/",
+    "cover_path": "covers/2609.01276/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.01276.webp",
+    "paper_image_full_path": "assets/paper-images/2609.01276.webp",
+    "preview_text": "论文提出了 RESELF（REconstructing the Scene and the sELF）统一框架，旨在从单目第一人称视频中联合恢复周围的3D场景和佩戴者的全身运动。 解决了现有方法中“场景重建忽略佩戴者”和“运动估计缺乏场景几何”的不对称问题，将确定性的度量几何重建与生成式运动推断相结合。 通过场景几何指导运动重建，同时利用人体运动学先验反向优化相机轨迹，实现场景与自我的相互增强。",
+    "research_unit": "The Hong Kong Polytechnic University（香港理工大学）",
+    "hook_text": "论文提出了 RESELF（REconstructing the Scene and the sELF）统一框架，旨在从单目第一人称视频中联合恢复周围的3D场景和佩戴者的全身运动。",
+    "key_points": [
+      "论文提出了 RESELF（REconstructing the Scene and the sELF）统一框架，旨在从单目第一人称视频中联合恢复周围的3D场景和佩戴者的全身运动。",
+      "解决了现有方法中“场景重建忽略佩戴者”和“运动估计缺乏场景几何”的不对称问题，将确定性的度量几何重建与生成式运动推断相结合。",
+      "通过场景几何指导运动重建，同时利用人体运动学先验反向优化相机轨迹，实现场景与自我的相互增强。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "MeRoPE: Metric Rotary Position Embedding for Camera-Controlled Video Generation",
+    "link": "https://arxiv.org/abs/2609.01252",
+    "arxiv_id": "2609.01252",
+    "detail_path": "papers/2609.01252/",
+    "cover_path": "covers/2609.01252/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.01252.webp",
+    "paper_image_full_path": "assets/paper-images/2609.01252.webp",
+    "preview_text": "解决相机控制视频生成中同质射影几何感知位置编码的尺度依赖失效问题：现有编码的注意力对数几和特征范数会随物理平移基线增长而无界增长，大基线下平移项主导注意力，抑制视觉内容，降低轨迹控制精度 研究目标是提出MeRoPE（度量旋转位置嵌入），一种严格保范的相机相对姿态位置编码，在保留完整度量平移信息的同时稳定注意力计算，实现精确的相机运动控制",
+    "research_unit": "The Hong Kong University of Science and Technology…",
+    "hook_text": "解决相机控制视频生成中同质射影几何感知位置编码的尺度依赖失效问题：现有编码的注意力对数几和特征范数会随物理平移基线增长而无界增长，大基线下平移项主导注意力，抑制视觉内容，降低轨迹控制精度",
+    "key_points": [
+      "解决相机控制视频生成中同质射影几何感知位置编码的尺度依赖失效问题：现有编码的注意力对数几和特征范数会随物理平移基线增长而无界增长，大基线下平移项主导注意力，抑制视觉内容，降低轨迹控制精度",
+      "研究目标是提出MeRoPE（度量旋转位置嵌入），一种严格保范的相机相对姿态位置编码，在保留完整度量平移信息的同时稳定注意力计算，实现精确的相机运动控制",
+      "识别了现有编码的基线依赖缺陷，形式化了三难困境：完整度量相对姿态依赖性、严格单令牌分解、保范注意动作三个属性无法同时满足"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Does This Moment Justify the Recommendation? Counterfactual Behavior-Grounded Evidence Retrieval for Personalized Video Recommendation",
+    "link": "https://arxiv.org/abs/2609.00996",
+    "arxiv_id": "2609.00996",
+    "detail_path": "papers/2609.00996/",
+    "cover_path": "covers/2609.00996/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.00996.webp",
+    "paper_image_full_path": "assets/paper-images/2609.00996.webp",
+    "preview_text": "研究核心是解决个性化视频推荐中，时间定位到的 query 相关时刻不能证明其是向特定用户推荐该视频的有效证据的问题 提出 反事实行为锚定证据检索（CBGER） 任务，联合评估个性化证据的三个维度：证据位置（Where）、证据存在性（Whether）、证据替换时的预测一致性（Intervention Consistency） 目标是构建可控基准和紧凑框架，评估模型对个性化证据的推理可靠性，而非仅做时间定位",
+    "research_unit": "论文作者为 Xin Liu，未标注所属研究机构，联系邮箱为 lxinhit@gmail.com",
+    "hook_text": "研究核心是解决个性化视频推荐中，时间定位到的 query 相关时刻不能证明其是向特定用户推荐该视频的有效证据的问题",
+    "key_points": [
+      "研究核心是解决个性化视频推荐中，时间定位到的 query 相关时刻不能证明其是向特定用户推荐该视频的有效证据的问题",
+      "提出 反事实行为锚定证据检索（CBGER） 任务，联合评估个性化证据的三个维度：证据位置（Where）、证据存在性（Whether）、证据替换时的预测一致性（Intervention Consistency）",
+      "目标是构建可控基准和紧凑框架，评估模型对个性化证据的推理可靠性，而非仅做时间定位"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection",
+    "link": "https://arxiv.org/abs/2609.00742",
+    "arxiv_id": "2609.00742",
+    "detail_path": "papers/2609.00742/",
+    "cover_path": "covers/2609.00742/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.00742.webp",
+    "paper_image_full_path": "assets/paper-images/2609.00742.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Physically Plausible Video Generation via Visual-Semantic Chain-of-Events Conditioning",
+    "link": "https://arxiv.org/abs/2609.00656",
+    "arxiv_id": "2609.00656",
+    "detail_path": "papers/2609.00656/",
+    "cover_path": "covers/2609.00656/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.00656.webp",
+    "paper_image_full_path": "assets/paper-images/2609.00656.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction",
+    "link": "https://arxiv.org/abs/2609.00610",
+    "arxiv_id": "2609.00610",
+    "detail_path": "papers/2609.00610/",
+    "cover_path": "covers/2609.00610/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.00610.webp",
+    "paper_image_full_path": "assets/paper-images/2609.00610.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-08-31",
     "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
     "link": "https://arxiv.org/abs/2608.31113",
