@@ -501,14 +501,16 @@
     "cover_path": "covers/2609.00742/",
     "paper_image_path": "assets/paper-images/thumbs/2609.00742.webp",
     "paper_image_full_path": "assets/paper-images/2609.00742.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文针对 AI 生成视频检测问题，提出了一种新的取证信号——跨尺度耦合失配（Cross-Scale Coupling Mismatch） 在真实视频中，宏观时间动态与微观残差模式由统一的成像物理过程耦合，而 AI 生成器系统性地破坏了这种耦合关系 提出了 RIFT（Representation Inconsistency Forensics on Trajectories）框架来检测这种跨尺度失配现象",
+    "research_unit": "四川大学 网络空间安全学院（成都）",
+    "hook_text": "论文针对 AI 生成视频检测问题，提出了一种新的取证信号——跨尺度耦合失配（Cross-Scale Coupling Mismatch）",
     "key_points": [
-      "待生成"
+      "论文针对 AI 生成视频检测问题，提出了一种新的取证信号——跨尺度耦合失配（Cross-Scale Coupling Mismatch）",
+      "在真实视频中，宏观时间动态与微观残差模式由统一的成像物理过程耦合，而 AI 生成器系统性地破坏了这种耦合关系",
+      "提出了 RIFT（Representation Inconsistency Forensics on Trajectories）框架来检测这种跨尺度失配现象"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -557,14 +559,16 @@
     "cover_path": "covers/2609.00610/",
     "paper_image_path": "assets/paper-images/thumbs/2609.00610.webp",
     "paper_image_full_path": "assets/paper-images/2609.00610.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对当前 4D 生成范式采用“先视频生成、后 3D 重建”的离线解耦流程，导致交互延迟高、无法满足实时应用需求的问题。 提出 Streaming4D，一种将块状自回归视频生成与增量式 3D 重建紧密耦合的同步流水线架构。 通过生成视频块后立即触发对应块的重建，使生成与重建并行执行，世界表示随视频流在线演化，在降低反馈延迟的同时保持几何保真度。",
+    "research_unit": "香港中文大学（The Chinese University of Hong Kong）",
+    "hook_text": "针对当前 4D 生成范式采用“先视频生成、后 3D 重建”的离线解耦流程，导致交互延迟高、无法满足实时应用需求的问题。",
     "key_points": [
-      "待生成"
+      "针对当前 4D 生成范式采用“先视频生成、后 3D 重建”的离线解耦流程，导致交互延迟高、无法满足实时应用需求的问题。",
+      "提出 Streaming4D，一种将块状自回归视频生成与增量式 3D 重建紧密耦合的同步流水线架构。",
+      "通过生成视频块后立即触发对应块的重建，使生成与重建并行执行，世界表示随视频流在线演化，在降低反馈延迟的同时保持几何保真度。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -845,14 +849,16 @@
     "cover_path": "covers/2608.30584/",
     "paper_image_path": "assets/paper-images/thumbs/2608.30584.webp",
     "paper_image_full_path": "assets/paper-images/2608.30584.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 CompSTVG（Compositional Spatio-Temporal Video Grounding，组合式时空视频定位）新任务，要求模型在未裁剪视频中通过同时推理目标的属性及其与其他实体的关系，进行时空双维度定位。 现有 STVG 评测与训练数据大多聚焦简单查询，忽略了真实场景中常见的组合式查询（需依赖多个相互交织的属性与关系线索才能消歧），导致模型在复杂查询上性能严重下降。 论文构建了基于时空场景图（STSG）的合成数据引擎，将困难度可控的查询合成建模为约束规划（Constraint Programming）问题，并在此基础上建立基准 STVG-CompBench 与课程强化学习框架 CurrSTVG。",
+    "research_unit": "Monash University（莫纳什大学）",
+    "hook_text": "论文提出 CompSTVG（Compositional Spatio-Temporal Video Grounding，组合式时空视频定位）新任务，要求模型在未裁剪视频中通过同时推理目标的属性及其与其他实体的关系，进行时空双维度定位。",
     "key_points": [
-      "待生成"
+      "论文提出 CompSTVG（Compositional Spatio-Temporal Video Grounding，组合式时空视频定位）新任务，要求模型在未裁剪视频中通过同时推理目标的属性及其与其他实体的关系，进行时空双维度定位。",
+      "现有 STVG 评测与训练数据大多聚焦简单查询，忽略了真实场景中常见的组合式查询（需依赖多个相互交织的属性与关系线索才能消歧），导致模型在复杂查询上性能严重下降。",
+      "论文构建了基于时空场景图（STSG）的合成数据引擎，将困难度可控的查询合成建模为约束规划（Constraint Programming）问题，并在此基础上建立基准 STVG-CompBench 与课程强化学习框架 CurrSTVG。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
