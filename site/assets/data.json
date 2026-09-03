@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-09-02",
+    "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+    "link": "https://arxiv.org/abs/2609.02886",
+    "arxiv_id": "2609.02886",
+    "detail_path": "papers/2609.02886/",
+    "cover_path": "covers/2609.02886/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02886.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02886.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion",
+    "link": "https://arxiv.org/abs/2609.02854",
+    "arxiv_id": "2609.02854",
+    "detail_path": "papers/2609.02854/",
+    "cover_path": "covers/2609.02854/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02854.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02854.webp",
+    "preview_text": "提出 MuyBridge，一个从单目手机视频估计人体三维质心（CoM）的设备端系统 解决现有方法（如多视角、标记点、穿戴传感器）需要昂贵设备或实验室环境，难以在自然运动场景中测量质心的问题 通过结合紧凑的2D 姿态网络、单目深度网络和解析融合，在无 3D 监督的条件下实现运动员质心轨迹的实时估计",
+    "research_unit": "ETH Zurich",
+    "hook_text": "提出 MuyBridge，一个从单目手机视频估计人体三维质心（CoM）的设备端系统",
+    "key_points": [
+      "提出 MuyBridge，一个从单目手机视频估计人体三维质心（CoM）的设备端系统",
+      "解决现有方法（如多视角、标记点、穿戴传感器）需要昂贵设备或实验室环境，难以在自然运动场景中测量质心的问题",
+      "通过结合紧凑的2D 姿态网络、单目深度网络和解析融合，在无 3D 监督的条件下实现运动员质心轨迹的实时估计"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+    "link": "https://arxiv.org/abs/2609.02780",
+    "arxiv_id": "2609.02780",
+    "detail_path": "papers/2609.02780/",
+    "cover_path": "covers/2609.02780/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02780.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02780.webp",
+    "preview_text": "提出 ShallowStream 框架，解决流媒体视频理解中多模态大语言模型（MLLM）计算开销巨大的问题 核心思想：利用 MLLM 的浅层进行帧编码和检索索引构建，仅在查询时对选中的证据进行深度处理 目标：在保持与最强流媒体方法相当性能的同时，大幅降低每帧预填充和端到端延迟",
+    "research_unit": "哈尔滨工业大学（深圳）",
+    "hook_text": "提出 ShallowStream 框架，解决流媒体视频理解中多模态大语言模型（MLLM）计算开销巨大的问题",
+    "key_points": [
+      "提出 ShallowStream 框架，解决流媒体视频理解中多模态大语言模型（MLLM）计算开销巨大的问题",
+      "核心思想：利用 MLLM 的浅层进行帧编码和检索索引构建，仅在查询时对选中的证据进行深度处理",
+      "目标：在保持与最强流媒体方法相当性能的同时，大幅降低每帧预填充和端到端延迟"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "Video-Based Palm-Vein Authentication under Challenging Conditions",
+    "link": "https://arxiv.org/abs/2609.02776",
+    "arxiv_id": "2609.02776",
+    "detail_path": "papers/2609.02776/",
+    "cover_path": "covers/2609.02776/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02776.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02776.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "MARS: What Retrieval Signals Are Hidden in Multimodal Large Language Models for Text-Video Retrieval?",
+    "link": "https://arxiv.org/abs/2609.02565",
+    "arxiv_id": "2609.02565",
+    "detail_path": "papers/2609.02565/",
+    "cover_path": "covers/2609.02565/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02565.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02565.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation",
+    "link": "https://arxiv.org/abs/2609.02367",
+    "arxiv_id": "2609.02367",
+    "detail_path": "papers/2609.02367/",
+    "cover_path": "covers/2609.02367/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02367.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02367.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "VoRTeC: Taming Foundation Flow for One-step Real time Video Compression",
+    "link": "https://arxiv.org/abs/2609.02291",
+    "arxiv_id": "2609.02291",
+    "detail_path": "papers/2609.02291/",
+    "cover_path": "covers/2609.02291/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02291.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02291.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "PhoenixNest-Video: Evidence-Grounded Multimodal Agent Framework for Automated Video Interview Assessment",
+    "link": "https://arxiv.org/abs/2609.02231",
+    "arxiv_id": "2609.02231",
+    "detail_path": "papers/2609.02231/",
+    "cover_path": "covers/2609.02231/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02231.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02231.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "title": "TAME: Temporal-Aware Mixture-of-Experts for Text-Video Retrieval",
+    "link": "https://arxiv.org/abs/2609.02204",
+    "arxiv_id": "2609.02204",
+    "detail_path": "papers/2609.02204/",
+    "cover_path": "covers/2609.02204/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02204.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02204.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-01",
     "title": "What, Where, and How: Probing Spatiotemporal Representations in Video Foundation Models",
     "link": "https://arxiv.org/abs/2609.01551",

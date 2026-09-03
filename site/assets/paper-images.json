@@ -7395,5 +7395,590 @@
     "inside_figure": true,
     "width": 800,
     "height": 551
+  },
+  "2609.02565": {
+    "title": "MARS: What Retrieval Signals Are Hidden in Multimodal Large Language Models for Text-Video Retrieval?",
+    "abs_url": "https://arxiv.org/abs/2609.02565",
+    "html_url": "https://arxiv.org/html/2609.02565v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02565v1/mars_overview2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 239,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02565v1/single_vs_full_panels_1x4_ocean2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 433,
+        "height": 225,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02565v1/top1_agreement_panels_1x4_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 433,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02565v1/visualization.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 249,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02565v1/cka_panels_1x4_default.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 462,
+        "height": 244,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.02565.webp",
+    "image_url": "https://arxiv.org/html/2609.02565v1/mars_overview2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 239
+  },
+  "2609.02854": {
+    "title": "MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion",
+    "abs_url": "https://arxiv.org/abs/2609.02854",
+    "html_url": "https://arxiv.org/html/2609.02854v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02854v1/fig5a_trackfield_heatmap.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 298,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02854v1/SkatingWACV.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 661,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02854v1/Muybridge_qual_eval_all_modalties_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 301,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02854v1/Figs/fig6b_skating_jumpheight.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 640,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02854v1/WACV_MAIN.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 174,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.02854.webp",
+    "image_url": "https://arxiv.org/html/2609.02854v1/fig5a_trackfield_heatmap.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 298
+  },
+  "2609.02231": {
+    "title": "PhoenixNest-Video: Evidence-Grounded Multimodal Agent Framework for Automated Video Interview Assessment",
+    "abs_url": "https://arxiv.org/abs/2609.02231",
+    "html_url": "https://arxiv.org/html/2609.02231v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02231v1/fig3_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 219,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02231v1/subject_bias.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 257,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02231v1/fig1_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 238,
+        "height": 137,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.02231.webp",
+    "image_url": "https://arxiv.org/html/2609.02231v1/fig3_v3.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 219
+  },
+  "2609.02291": {
+    "title": "VoRTeC: Taming Foundation Flow for One-step Real time Video Compression",
+    "abs_url": "https://arxiv.org/abs/2609.02291",
+    "html_url": "https://arxiv.org/html/2609.02291v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02291v1/VoRTeC_firstpic.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 209,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02291v1/Vortec_group_ablation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 182,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02291v1/fig_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 163,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02291v1/fig_FPMF.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 164,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02291v1/VoRTeC_thirdpic.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 171,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.02291.webp",
+    "image_url": "https://arxiv.org/html/2609.02291v1/VoRTeC_firstpic.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 209
+  },
+  "2609.02367": {
+    "title": "The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.02367",
+    "html_url": "https://arxiv.org/html/2609.02367v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02367v1/fig_system_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 422,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02367v1/fig1_teaser_v8.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 280,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02367v1/fig_method_v10.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 276,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02367v1/fig_data_pipeline_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 303,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02367v1/fig7_operator_shots.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 422,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.02367.webp",
+    "image_url": "https://arxiv.org/html/2609.02367v1/fig_system_qualitative.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 422
+  },
+  "2609.02780": {
+    "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2609.02780",
+    "html_url": "https://arxiv.org/html/2609.02780v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02780v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 306,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02780v1/figures/retrieval_case_study.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 102,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.02780.webp",
+    "image_url": "https://arxiv.org/html/2609.02780v1/method.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 306
+  },
+  "2609.02886": {
+    "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+    "abs_url": "https://arxiv.org/abs/2609.02886",
+    "html_url": "https://arxiv.org/html/2609.02886v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02886v1/pipeline_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 251,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02886v1/ood_bi_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 358,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02886v1/in_domain_60s.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 180,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02886v1/imgs/ood_10s.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 267,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02886v1/ood_60s.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.02886.webp",
+    "image_url": "https://arxiv.org/html/2609.02886v1/pipeline_2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 251
+  },
+  "2609.02776": {
+    "title": "Video-Based Palm-Vein Authentication under Challenging Conditions",
+    "abs_url": "https://arxiv.org/abs/2609.02776",
+    "html_url": "https://arxiv.org/html/2609.02776v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02776v1/surface_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 610,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02776v1/dataset_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 519,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02776v1/region_ot.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 192,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.02776.webp",
+    "image_url": "https://arxiv.org/html/2609.02776v1/surface_fig.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 610
+  },
+  "2609.02204": {
+    "title": "TAME: Temporal-Aware Mixture-of-Experts for Text-Video Retrieval",
+    "abs_url": "https://arxiv.org/abs/2609.02204",
+    "html_url": "https://arxiv.org/html/2609.02204v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02204v1/images/Overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 480,
+        "height": 437,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02204v1/images/CTIA.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 357,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_align_left ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02204v1/images/FigB_metrics_vs_step_MoE_12.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 533,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02204v1/images/introduction.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 206,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02204v1/images/SparseUpcycling.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 249,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_align_left ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.02204.webp",
+    "image_url": "https://arxiv.org/html/2609.02204v1/images/Overview.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 480,
+    "height": 437
   }
 }
