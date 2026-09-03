@@ -7980,5 +7980,70 @@
     "inside_figure": true,
     "width": 480,
     "height": 437
+  },
+  "2609.02847": {
+    "title": "RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation",
+    "abs_url": "https://arxiv.org/abs/2609.02847",
+    "html_url": "https://arxiv.org/html/2609.02847v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.02847v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 228,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02847v1/exp1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 366,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.02847v1/exp2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.02847.webp",
+    "image_url": "https://arxiv.org/html/2609.02847v1/pipeline.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 228
   }
 }

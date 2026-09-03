@@ -1,6 +1,35 @@
 [
   {
     "date": "2026-09-02",
+    "title": "RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation",
+    "link": "https://arxiv.org/abs/2609.02847",
+    "arxiv_id": "2609.02847",
+    "detail_path": "papers/2609.02847/",
+    "cover_path": "covers/2609.02847/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.02847.webp",
+    "paper_image_full_path": "assets/paper-images/2609.02847.webp",
+    "preview_text": "论文提出 RoGe，一个用于稀疏视角新视角合成（NVS）的端到端统一重建与生成框架。 任务定义为“由稀疏视角锚定的场景内漫游”：给定少量带位姿的图像和一条用户指定相机轨迹，生成沿该轨迹的、时间上连贯且与输入场景一致的新视角视频。 现有混合方法通常通过渲染图像或显式 3D 表示（点图、3D 高斯）来桥接重建与生成，导致生成过程继承重建误差，且重建无法从生成中得到矫正信号；RoGe 直接移除这种显式桥接。",
+    "research_unit": "Xiaomi EV（小米汽车）：论文主要研究机构，作者 Xiaolei Lang、Zehao Huan…",
+    "hook_text": "论文提出 RoGe，一个用于稀疏视角新视角合成（NVS）的端到端统一重建与生成框架。",
+    "key_points": [
+      "论文提出 RoGe，一个用于稀疏视角新视角合成（NVS）的端到端统一重建与生成框架。",
+      "任务定义为“由稀疏视角锚定的场景内漫游”：给定少量带位姿的图像和一条用户指定相机轨迹，生成沿该轨迹的、时间上连贯且与输入场景一致的新视角视频。",
+      "现有混合方法通常通过渲染图像或显式 3D 表示（点图、3D 高斯）来桥接重建与生成，导致生成过程继承重建误差，且重建无法从生成中得到矫正信号；RoGe 直接移除这种显式桥接。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-02",
     "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
     "link": "https://arxiv.org/abs/2609.02886",
     "arxiv_id": "2609.02886",
@@ -8,14 +37,16 @@
     "cover_path": "covers/2609.02886/",
     "paper_image_path": "assets/paper-images/thumbs/2609.02886.webp",
     "paper_image_full_path": "assets/paper-images/2609.02886.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出了 SolarWM，一个完全开源的交互式视频世界模型基础框架，整合了数据准备、模型训练和长时程推理的全流程。 解决了从异构数据源和不同视频生成器骨干网络构建视频世界模型时，因数据格式、质量、时空尺度差异以及模型架构差异导致的训练不一致和难以复现的问题。 目标是为交互式世界模型研究提供一个可复现、可扩展且统一的开放基础，支持从数据构建到分钟级甚至小时级长时程视频生成的全流程。",
+    "research_unit": "CUHK-SZ (香港中文大学（深圳）)",
+    "hook_text": "提出了 SolarWM，一个完全开源的交互式视频世界模型基础框架，整合了数据准备、模型训练和长时程推理的全流程。",
     "key_points": [
-      "待生成"
+      "提出了 SolarWM，一个完全开源的交互式视频世界模型基础框架，整合了数据准备、模型训练和长时程推理的全流程。",
+      "解决了从异构数据源和不同视频生成器骨干网络构建视频世界模型时，因数据格式、质量、时空尺度差异以及模型架构差异导致的训练不一致和难以复现的问题。",
+      "目标是为交互式世界模型研究提供一个可复现、可扩展且统一的开放基础，支持从数据构建到分钟级甚至小时级长时程视频生成的全流程。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -93,14 +124,16 @@
     "cover_path": "covers/2609.02776/",
     "paper_image_path": "assets/paper-images/thumbs/2609.02776.webp",
     "paper_image_full_path": "assets/paper-images/2609.02776.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 CUP（Columbia University Palm-vein）数据集，据作者所知是首个公开的基于视频的掌静脉数据集，每个手掌在四种表面条件下录制（清洁基线、温暖、湿润、脏污），并配对受试者的生理与人口统计元数据。 论文通过该数据集揭示了现实场景中掌静脉识别的严重性能退化：二十一 种识别器在脏污条件下的平均等错误率（EER）从 4.11% 飙升至 17.35%（约翻两番），说明标准训练方法不足以应对日常表面干扰。 针对这一失败模式，论文提出了一种无需额外学习参数的测试时匹配器，结合帧间共识聚合与区域级最优传输匹配，显著恢复了识别鲁棒性，并展示了该匹配器对其他骨干网络和公共数据集的泛化能力。",
+    "research_unit": "Columbia University（哥伦比亚大学计算机科学系）：Xiaofeng Yan、Xia…",
+    "hook_text": "本文提出 CUP（Columbia University Palm-vein）数据集，据作者所知是首个公开的基于视频的掌静脉数据集，每个手掌在四种表面条件下录制（清洁基线、温暖、湿润、脏污），并配对受试者的生理与人口统计元数据。",
     "key_points": [
-      "待生成"
+      "本文提出 CUP（Columbia University Palm-vein）数据集，据作者所知是首个公开的基于视频的掌静脉数据集，每个手掌在四种表面条件下录制（清洁基线、温暖、湿润、脏污），并配对受试者的生理与人口统计元数据。",
+      "论文通过该数据集揭示了现实场景中掌静脉识别的严重性能退化：二十一 种识别器在脏污条件下的平均等错误率（EER）从 4.11% 飙升至 17.35%（约翻两番），说明标准训练方法不足以应对日常表面干扰。",
+      "针对这一失败模式，论文提出了一种无需额外学习参数的测试时匹配器，结合帧间共识聚合与区域级最优传输匹配，显著恢复了识别鲁棒性，并展示了该匹配器对其他骨干网络和公共数据集的泛化能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -120,14 +153,16 @@
     "cover_path": "covers/2609.02565/",
     "paper_image_path": "assets/paper-images/thumbs/2609.02565.webp",
     "paper_image_full_path": "assets/paper-images/2609.02565.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 MARS（Multi-layer Adaptive Representation Slots）框架，用于文本-视频检索。 针对 MLLM 嵌入中单 token、单层表示导致的信息瓶颈问题，构建多层级、多槽嵌入。 目标是在视频检索中保留细粒度语义（如对象、动作、时序），提升对相似候选的区分能力。",
+    "research_unit": "Sejong University（首尔，韩国）",
+    "hook_text": "提出 MARS（Multi-layer Adaptive Representation Slots）框架，用于文本-视频检索。",
     "key_points": [
-      "待生成"
+      "提出 MARS（Multi-layer Adaptive Representation Slots）框架，用于文本-视频检索。",
+      "针对 MLLM 嵌入中单 token、单层表示导致的信息瓶颈问题，构建多层级、多槽嵌入。",
+      "目标是在视频检索中保留细粒度语义（如对象、动作、时序），提升对相似候选的区分能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -147,14 +182,16 @@
     "cover_path": "covers/2609.02367/",
     "paper_image_path": "assets/paper-images/thumbs/2609.02367.webp",
     "paper_image_full_path": "assets/paper-images/2609.02367.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文指出脚本驱动的音视频联合生成存在一个被忽视的时间缺口：视频和音频可以彼此同步，却共同偏离脚本指定的时间线（如镜头切换和对话发生的时机错误）。 核心观点是将时间对齐从\"视频-音频\"扩展到\"视频-音频-结构化脚本\"三者之间，使每个镜头/对话提示的指定时间成为显式的控制信号。 为此提出 Temporal Context Routing (TCR) 方法，将脚本时间映射到视频和音频共享的时间轴上，并配合粗到细的数据构建流程，实现精确的脚本时间控制。",
+    "research_unit": "北京大学（PKU）",
+    "hook_text": "本文指出脚本驱动的音视频联合生成存在一个被忽视的时间缺口：视频和音频可以彼此同步，却共同偏离脚本指定的时间线（如镜头切换和对话发生的时机错误）。",
     "key_points": [
-      "待生成"
+      "本文指出脚本驱动的音视频联合生成存在一个被忽视的时间缺口：视频和音频可以彼此同步，却共同偏离脚本指定的时间线（如镜头切换和对话发生的时机错误）。",
+      "核心观点是将时间对齐从\"视频-音频\"扩展到\"视频-音频-结构化脚本\"三者之间，使每个镜头/对话提示的指定时间成为显式的控制信号。",
+      "为此提出 Temporal Context Routing (TCR) 方法，将脚本时间映射到视频和音频共享的时间轴上，并配合粗到细的数据构建流程，实现精确的脚本时间控制。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -174,14 +211,16 @@
     "cover_path": "covers/2609.02291/",
     "paper_image_path": "assets/paper-images/thumbs/2609.02291.webp",
     "paper_image_full_path": "assets/paper-images/2609.02291.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 VoRTeC，一个基于基础流模型（Wan2.1） 的视频压缩框架，旨在解决超低码率下传统神经视频压缩（NVC）带来的模糊伪影，以及扩散式生成压缩方法解码延迟过高、时间一致性差的问题。 通过将视频潜在表示编码为紧凑的量化就绪码，并沿流轨迹映射到对应的流匹配状态，实现在不访问基础流模型参数或梯度的情况下进行单步解码，同时保持高感知保真度。 设计了组间通信（CGG）算法和先验融合网络（FPMF），在保证时间一致性的同时降低码率，实现了 480p 下 32 FPS 的实时解码速度。",
+    "research_unit": "清华大学深圳国际研究生院（Yichong Xia, Haoqian Wang）",
+    "hook_text": "论文提出 VoRTeC，一个基于基础流模型（Wan2.1） 的视频压缩框架，旨在解决超低码率下传统神经视频压缩（NVC）带来的模糊伪影，以及扩散式生成压缩方法解码延迟过高、时间一致性差的问题。",
     "key_points": [
-      "待生成"
+      "论文提出 VoRTeC，一个基于基础流模型（Wan2.1） 的视频压缩框架，旨在解决超低码率下传统神经视频压缩（NVC）带来的模糊伪影，以及扩散式生成压缩方法解码延迟过高、时间一致性差的问题。",
+      "通过将视频潜在表示编码为紧凑的量化就绪码，并沿流轨迹映射到对应的流匹配状态，实现在不访问基础流模型参数或梯度的情况下进行单步解码，同时保持高感知保真度。",
+      "设计了组间通信（CGG）算法和先验融合网络（FPMF），在保证时间一致性的同时降低码率，实现了 480p 下 32 FPS 的实时解码速度。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -201,14 +240,16 @@
     "cover_path": "covers/2609.02231/",
     "paper_image_path": "assets/paper-images/thumbs/2609.02231.webp",
     "paper_image_full_path": "assets/paper-images/2609.02231.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 PhoenixNest-Video，一个基于证据的多模态智能体框架，用于自动化视频面试评估，解决现有 AI 评估缺乏可解释证据和评分标准锚定不足的问题。 该框架构建语义视频图作为结构化工作记忆，通过基于评分标准的跨模态检索与验证生成每个评分标准的分数，并将分数关联到候选人的具体材料上。 论文还提出基于评分标准的强化学习训练方法，使模型克服通用 MLLM 的系统性评分偏差，实现与人类专家更一致的评分分布。",
+    "research_unit": "香港科技大学（广州）（The Hong Kong University of Science and…",
+    "hook_text": "论文提出 PhoenixNest-Video，一个基于证据的多模态智能体框架，用于自动化视频面试评估，解决现有 AI 评估缺乏可解释证据和评分标准锚定不足的问题。",
     "key_points": [
-      "待生成"
+      "论文提出 PhoenixNest-Video，一个基于证据的多模态智能体框架，用于自动化视频面试评估，解决现有 AI 评估缺乏可解释证据和评分标准锚定不足的问题。",
+      "该框架构建语义视频图作为结构化工作记忆，通过基于评分标准的跨模态检索与验证生成每个评分标准的分数，并将分数关联到候选人的具体材料上。",
+      "论文还提出基于评分标准的强化学习训练方法，使模型克服通用 MLLM 的系统性评分偏差，实现与人类专家更一致的评分分布。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -228,14 +269,16 @@
     "cover_path": "covers/2609.02204/",
     "paper_image_path": "assets/paper-images/thumbs/2609.02204.webp",
     "paper_image_full_path": "assets/paper-images/2609.02204.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对CLIP-based文本-视频检索（TVR）缺乏时序建模、将所有帧聚合成单一表示会丢失时序结构和帧级异质性问题，提出TAME（Temporal-Aware Mixture-of-Experts for Text-Video Retrieval）框架 核心目标是联合建模帧级视觉结构和帧间时序关系，在保留CLIP预训练视觉-语言对齐的基础上提升TVR的检索精度和鲁棒性 在多个标准TVR基准上验证框架有效性，实现一致性的性能提升",
+    "research_unit": "Sejong University, Seoul, Republic of Korea：Uicheol…",
+    "hook_text": "针对CLIP-based文本-视频检索（TVR）缺乏时序建模、将所有帧聚合成单一表示会丢失时序结构和帧级异质性问题，提出TAME（Temporal-Aware Mixture-of-Experts for Text-Video Retrieval）框架",
     "key_points": [
-      "待生成"
+      "针对CLIP-based文本-视频检索（TVR）缺乏时序建模、将所有帧聚合成单一表示会丢失时序结构和帧级异质性问题，提出TAME（Temporal-Aware Mixture-of-Experts for Text-Video Retrieval）框架",
+      "核心目标是联合建模帧级视觉结构和帧间时序关系，在保留CLIP预训练视觉-语言对齐的基础上提升TVR的检索精度和鲁棒性",
+      "在多个标准TVR基准上验证框架有效性，实现一致性的性能提升"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
