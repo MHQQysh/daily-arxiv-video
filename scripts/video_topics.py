@@ -107,4 +107,7 @@ def relevance_score(title: str, abstract: str) -> int:
 def is_relevant_video_paper(title: str, abstract: str) -> bool:
     if re.search(r"\bvideos?\b", (title or "").lower()):
         return True
-    return relevance_score(title, abstract) >= 4
+    # The fallback query already requires ``video`` somewhere in the paper.
+    # Accept one strong video-topic phrase plus repeated video evidence so that
+    # clearly relevant papers whose titles omit "video" can fill the daily ten.
+    return relevance_score(title, abstract) >= 3

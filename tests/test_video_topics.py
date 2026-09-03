@@ -26,6 +26,14 @@ class VideoTopicTests(unittest.TestCase):
         self.assertTrue(is_relevant_video_paper("Efficient Temporal Models", abstract))
         self.assertGreaterEqual(relevance_score("Efficient Temporal Models", abstract), 4)
 
+    def test_repeated_video_evidence_with_one_strong_topic_can_fill_fallback(self) -> None:
+        abstract = (
+            "We repurpose pretrained video diffusion models. "
+            "The video model predicts future observations and actions."
+        )
+        self.assertEqual(relevance_score("Spatially Aware World Action Model", abstract), 3)
+        self.assertTrue(is_relevant_video_paper("Spatially Aware World Action Model", abstract))
+
     def test_single_incidental_video_mention_is_rejected(self) -> None:
         self.assertFalse(is_relevant_video_paper("Image Classification", "A demo video is available."))
 
