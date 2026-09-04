@@ -66,14 +66,16 @@
     "cover_path": "covers/2609.04190/",
     "paper_image_path": "assets/paper-images/thumbs/2609.04190.webp",
     "paper_image_full_path": "assets/paper-images/2609.04190.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 EditVid，一个无需训练（training-free）的统一视频编辑框架，可同时支持指令引导（instruction-guided）和参考/主体引导（subject-guided）的多种视频编辑任务 现有视频编辑方法通常依赖视频专用训练，或在训练-free方法中难以同时保证时间一致性、身份保持和编辑局部性；本文旨在解决现代多模态扩散 Transformer（MM-DiT）图像编辑器如何在不进行视频训练的情况下扩展到视频编辑的问题 核心思路将时间一致性分解为局部时间连贯性、长程身份保持、编辑局部性三个层面，分别通过稀疏因果记忆、基于对应关系的 token 注入和软潜变量混合实现",
+    "research_unit": "University of Illinois Urbana-Champaign（伊利诺伊大学厄巴纳-香…",
+    "hook_text": "论文提出 EditVid，一个无需训练（training-free）的统一视频编辑框架，可同时支持指令引导（instruction-guided）和参考/主体引导（subject-guided）的多种视频编辑任务",
     "key_points": [
-      "待生成"
+      "论文提出 EditVid，一个无需训练（training-free）的统一视频编辑框架，可同时支持指令引导（instruction-guided）和参考/主体引导（subject-guided）的多种视频编辑任务",
+      "现有视频编辑方法通常依赖视频专用训练，或在训练-free方法中难以同时保证时间一致性、身份保持和编辑局部性；本文旨在解决现代多模态扩散 Transformer（MM-DiT）图像编辑器如何在不进行视频训练的情况下扩展到视频编辑的问题",
+      "核心思路将时间一致性分解为局部时间连贯性、长程身份保持、编辑局部性三个层面，分别通过稀疏因果记忆、基于对应关系的 token 注入和软潜变量混合实现"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -120,14 +122,16 @@
     "cover_path": "covers/2609.04131/",
     "paper_image_path": "assets/paper-images/thumbs/2609.04131.webp",
     "paper_image_full_path": "assets/paper-images/2609.04131.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 LatentStream，一种渐进式潜在工作记忆框架，用于流式视频理解任务，解决多模态大语言模型（MLLMs）在处理连续视频输入时面临的严格因果性和有界记忆约束问题。 现有方法遵循 store-and-retrieve（存储-检索）范式，将历史证据作为外部可变长视觉上下文使用，但缺乏能持续引导推理的紧凑、可演化的潜在记忆表示。该论文旨在将这一范式转变为 retrieve-and-internalize（检索-内化），使历史证据被逐步内化为固定长度的潜在记忆。 核心研究问题：外部流式记忆中的历史证据如何被自适应地内化为紧凑、查询条件化且持续演化的潜在记忆，以用于流式视频推理。",
+    "research_unit": "南京理工大学（Nanjing University of Science and Technology）",
+    "hook_text": "论文提出 LatentStream，一种渐进式潜在工作记忆框架，用于流式视频理解任务，解决多模态大语言模型（MLLMs）在处理连续视频输入时面临的严格因果性和有界记忆约束问题。",
     "key_points": [
-      "待生成"
+      "论文提出 LatentStream，一种渐进式潜在工作记忆框架，用于流式视频理解任务，解决多模态大语言模型（MLLMs）在处理连续视频输入时面临的严格因果性和有界记忆约束问题。",
+      "现有方法遵循 store-and-retrieve（存储-检索）范式，将历史证据作为外部可变长视觉上下文使用，但缺乏能持续引导推理的紧凑、可演化的潜在记忆表示。该论文旨在将这一范式转变为 retrieve-and-internalize（检索-内化），使历史证据被逐步内化为固定长度的潜在记忆。",
+      "核心研究问题：外部流式记忆中的历史证据如何被自适应地内化为紧凑、查询条件化且持续演化的潜在记忆，以用于流式视频推理。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -147,14 +151,16 @@
     "cover_path": "covers/2609.04120/",
     "paper_image_path": "assets/paper-images/thumbs/2609.04120.webp",
     "paper_image_full_path": "assets/paper-images/2609.04120.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 BooM-VVT，一个面向视频虚拟试穿（Video Virtual Try-On, VVT）的免掩码（mask-free）框架，基于关键帧驱动的视频生成范式。 现有 VVT 方法依赖掩码定位试穿区域，在大幅度运动、严重遮挡下容易产生伪影；而将免掩码图像试穿扩展到视频时，视频级伪数据构建成本过高。 BooM-VVT 通过图像级伪数据学习免掩码区域定位、改进关键帧采样与时空对齐，并构建大规模多视角数据集，提升复杂场景下的服装一致性与时间连贯性。",
+    "research_unit": "南京理工大学（Nanjing University of Science and Technology）",
+    "hook_text": "论文提出 BooM-VVT，一个面向视频虚拟试穿（Video Virtual Try-On, VVT）的免掩码（mask-free）框架，基于关键帧驱动的视频生成范式。",
     "key_points": [
-      "待生成"
+      "论文提出 BooM-VVT，一个面向视频虚拟试穿（Video Virtual Try-On, VVT）的免掩码（mask-free）框架，基于关键帧驱动的视频生成范式。",
+      "现有 VVT 方法依赖掩码定位试穿区域，在大幅度运动、严重遮挡下容易产生伪影；而将免掩码图像试穿扩展到视频时，视频级伪数据构建成本过高。",
+      "BooM-VVT 通过图像级伪数据学习免掩码区域定位、改进关键帧采样与时空对齐，并构建大规模多视角数据集，提升复杂场景下的服装一致性与时间连贯性。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -174,14 +180,16 @@
     "cover_path": "covers/2609.04110/",
     "paper_image_path": "assets/paper-images/thumbs/2609.04110.webp",
     "paper_image_full_path": "assets/paper-images/2609.04110.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "现有 VideoLMs 主要依赖文本生成端进行监督，视频标记的表示空间未能显式编码事件顺序，导致模型可能依赖静态视觉线索或语言先验，而非真正理解时间动态 提出 VT-Contrast，一种直接作用于视频标记表示的时序反事实对比目标，强制模型在内部表示中区分时间顺序，而不改变架构或任务格式 通过在视频标记空间施加顺序约束，弥补响应端监督的不足，提升 VideoLMs 对事件进展的敏感性",
+    "research_unit": "南洋理工大学（Nanyang Technological University）",
+    "hook_text": "现有 VideoLMs 主要依赖文本生成端进行监督，视频标记的表示空间未能显式编码事件顺序，导致模型可能依赖静态视觉线索或语言先验，而非真正理解时间动态",
     "key_points": [
-      "待生成"
+      "现有 VideoLMs 主要依赖文本生成端进行监督，视频标记的表示空间未能显式编码事件顺序，导致模型可能依赖静态视觉线索或语言先验，而非真正理解时间动态",
+      "提出 VT-Contrast，一种直接作用于视频标记表示的时序反事实对比目标，强制模型在内部表示中区分时间顺序，而不改变架构或任务格式",
+      "通过在视频标记空间施加顺序约束，弥补响应端监督的不足，提升 VideoLMs 对事件进展的敏感性"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -201,14 +209,16 @@
     "cover_path": "covers/2609.04031/",
     "paper_image_path": "assets/paper-images/thumbs/2609.04031.webp",
     "paper_image_full_path": "assets/paper-images/2609.04031.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 DSAQuant，一个面向视频扩散模型（VDM）的去噪阶段对齐量化感知训练（QAT）框架，用于解决低比特量化下视频生成质量严重退化的问题。 现有 QAT 方法对视频去噪过程采用时间步无关的蒸馏和固定 CFG 调度，忽略了早期步骤负责全局结构/运动、中后期步骤负责细节/纹理/清晰度的阶段化功能，导致细节模糊、纹理损坏和高频伪影。 核心思想：在训练阶段按去噪阶段分配监督信号（早期用知识蒸馏、晚期用目标损失），在推理阶段在最后几步关闭 CFG，从而同时提升量化模型的细节重建能力和生成质量。",
+    "research_unit": "Robbyant（机器人智能与艺术智能研究机构）",
+    "hook_text": "论文提出 DSAQuant，一个面向视频扩散模型（VDM）的去噪阶段对齐量化感知训练（QAT）框架，用于解决低比特量化下视频生成质量严重退化的问题。",
     "key_points": [
-      "待生成"
+      "论文提出 DSAQuant，一个面向视频扩散模型（VDM）的去噪阶段对齐量化感知训练（QAT）框架，用于解决低比特量化下视频生成质量严重退化的问题。",
+      "现有 QAT 方法对视频去噪过程采用时间步无关的蒸馏和固定 CFG 调度，忽略了早期步骤负责全局结构/运动、中后期步骤负责细节/纹理/清晰度的阶段化功能，导致细节模糊、纹理损坏和高频伪影。",
+      "核心思想：在训练阶段按去噪阶段分配监督信号（早期用知识蒸馏、晚期用目标损失），在推理阶段在最后几步关闭 CFG，从而同时提升量化模型的细节重建能力和生成质量。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -228,14 +238,16 @@
     "cover_path": "covers/2609.03919/",
     "paper_image_path": "assets/paper-images/thumbs/2609.03919.webp",
     "paper_image_full_path": "assets/paper-images/2609.03919.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "OctWorld 是一个具有3D记忆的视频扩散框架，能够从单张图像生成可探索、世界一致、高保真的视觉场景 论文聚焦于长空间范围生成问题，特点是长相机路径和宽视角覆盖，当重新访问先前生成的区域时维持空间一致性成为主要挑战 提出可扩展且空间自适应的3D记忆模块OctMap，通过逐步融合生成的视觉观测及其深度图来构建全局3D表示",
+    "research_unit": "University of Science and Technology of China（中国科学技…",
+    "hook_text": "OctWorld 是一个具有3D记忆的视频扩散框架，能够从单张图像生成可探索、世界一致、高保真的视觉场景",
     "key_points": [
-      "待生成"
+      "OctWorld 是一个具有3D记忆的视频扩散框架，能够从单张图像生成可探索、世界一致、高保真的视觉场景",
+      "论文聚焦于长空间范围生成问题，特点是长相机路径和宽视角覆盖，当重新访问先前生成的区域时维持空间一致性成为主要挑战",
+      "提出可扩展且空间自适应的3D记忆模块OctMap，通过逐步融合生成的视觉观测及其深度图来构建全局3D表示"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
