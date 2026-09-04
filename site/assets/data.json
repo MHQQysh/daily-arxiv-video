@@ -1,5 +1,279 @@
 [
   {
+    "date": "2026-09-03",
+    "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+    "link": "https://arxiv.org/abs/2609.04203",
+    "arxiv_id": "2609.04203",
+    "detail_path": "papers/2609.04203/",
+    "cover_path": "covers/2609.04203/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04203.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04203.webp",
+    "preview_text": "论文提出了S³T (Self-Supervised Self-Distillation over Time)，这是第一个完全自包含的连续视频状态跟踪框架 该方法将时间采样密度作为特权信息，假设对同一视频片段的更密集视角能更准确地恢复运行状态 旨在解决视频大模型在无标签、无外部教师模型或奖励信号的情况下学习视觉状态跟踪的问题",
+    "research_unit": "Mohamed bin Zayed University of Artificial Intellig…",
+    "hook_text": "论文提出了S³T (Self-Supervised Self-Distillation over Time)，这是第一个完全自包含的连续视频状态跟踪框架",
+    "key_points": [
+      "论文提出了S³T (Self-Supervised Self-Distillation over Time)，这是第一个完全自包含的连续视频状态跟踪框架",
+      "该方法将时间采样密度作为特权信息，假设对同一视频片段的更密集视角能更准确地恢复运行状态",
+      "旨在解决视频大模型在无标签、无外部教师模型或奖励信号的情况下学习视觉状态跟踪的问题"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "Principia: Relational Physics Tests for Video Models",
+    "link": "https://arxiv.org/abs/2609.04200",
+    "arxiv_id": "2609.04200",
+    "detail_path": "papers/2609.04200/",
+    "cover_path": "covers/2609.04200/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04200.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04200.webp",
+    "preview_text": "提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准 解决现有物理评估依赖绝对测量（相机校准、帧率、物体尺度）的问题，引入与校准无关的关系一致性评分 覆盖 8 种物理现象（重力、恢复系数、摩擦、转动惯量、抛射体运动、动量、单摆、弹簧质量系统），评估视频生成器和视觉语言模型",
+    "research_unit": "Indian Institute of Science",
+    "hook_text": "提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准",
+    "key_points": [
+      "提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准",
+      "解决现有物理评估依赖绝对测量（相机校准、帧率、物体尺度）的问题，引入与校准无关的关系一致性评分",
+      "覆盖 8 种物理现象（重力、恢复系数、摩擦、转动惯量、抛射体运动、动量、单摆、弹簧质量系统），评估视频生成器和视觉语言模型"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
+    "link": "https://arxiv.org/abs/2609.04190",
+    "arxiv_id": "2609.04190",
+    "detail_path": "papers/2609.04190/",
+    "cover_path": "covers/2609.04190/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04190.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04190.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning",
+    "link": "https://arxiv.org/abs/2609.04183",
+    "arxiv_id": "2609.04183",
+    "detail_path": "papers/2609.04183/",
+    "cover_path": "covers/2609.04183/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04183.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04183.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+    "link": "https://arxiv.org/abs/2609.04131",
+    "arxiv_id": "2609.04131",
+    "detail_path": "papers/2609.04131/",
+    "cover_path": "covers/2609.04131/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04131.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04131.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "BooM-VVT: Boosting Mask-Free Video Virtual Try-On with Image-Level Pseudo Data",
+    "link": "https://arxiv.org/abs/2609.04120",
+    "arxiv_id": "2609.04120",
+    "detail_path": "papers/2609.04120/",
+    "cover_path": "covers/2609.04120/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04120.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04120.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs",
+    "link": "https://arxiv.org/abs/2609.04110",
+    "arxiv_id": "2609.04110",
+    "detail_path": "papers/2609.04110/",
+    "cover_path": "covers/2609.04110/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04110.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04110.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
+    "link": "https://arxiv.org/abs/2609.04031",
+    "arxiv_id": "2609.04031",
+    "detail_path": "papers/2609.04031/",
+    "cover_path": "covers/2609.04031/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.04031.webp",
+    "paper_image_full_path": "assets/paper-images/2609.04031.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
+    "link": "https://arxiv.org/abs/2609.03919",
+    "arxiv_id": "2609.03919",
+    "detail_path": "papers/2609.03919/",
+    "cover_path": "covers/2609.03919/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.03919.webp",
+    "paper_image_full_path": "assets/paper-images/2609.03919.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
+    "link": "https://arxiv.org/abs/2609.03820",
+    "arxiv_id": "2609.03820",
+    "detail_path": "papers/2609.03820/",
+    "cover_path": "covers/2609.03820/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.03820.webp",
+    "paper_image_full_path": "assets/paper-images/2609.03820.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-02",
     "title": "RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation",
     "link": "https://arxiv.org/abs/2609.02847",

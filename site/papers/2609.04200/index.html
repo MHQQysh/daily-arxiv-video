@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Principia: Relational Physics Tests for Video Models - Video 每日论文卡</title>
+    <meta name="description" content="提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准 解决现有物理评估依赖绝对测量（相机校准、帧率、物体尺度）的问题，引入与校准无关的关系一致性评分 覆盖 8 种物理现象（重力、恢复系数、摩擦、转动惯量、抛射体运动、动量、单摆、弹簧质量系统），评估视频生成器和视觉语言模型" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.04200">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.04200.webp" alt="Principia: Relational Physics Tests for Video Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Principia: Relational Physics Tests for Video Models</h1>
+            <div class="detail-meta">2026-09-03 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.04200" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.04200" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.04200</span></div>
+            <p class="detail-summary">提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准 解决现有物理评估依赖绝对测量（相机校准、帧率、物体尺度）的问题，引入与校准无关的关系一致性评分 覆盖 8 种物理现象（重力、恢复系数、摩擦、转动惯量、抛射体运动、动量、单摆、弹簧质量系统），评估视频生成器和视觉语言模型</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Indian Institute of Science</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.04200/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准</p>
+  <ul class="reading-intro-points"><li>提出 Principia，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准</li><li>解决现有物理评估依赖绝对测量（相机校准、帧率、物体尺度）的问题，引入与校准无关的关系一致性评分</li><li>覆盖 8 种物理现象（重力、恢复系数、摩擦、转动惯量、抛射体运动、动量、单摆、弹簧质量系统），评估视频生成器和视觉语言模型</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Indian Institute of Science</strong></li><li><strong>Johns Hopkins University</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Principia</strong>，一个通过成对物体间的关系一致性来评估视频模型牛顿物理推理能力的基准</li><li>解决现有物理评估依赖绝对测量（相机校准、帧率、物体尺度）的问题，引入与校准无关的关系一致性评分</li><li>覆盖 <strong>8 种物理现象</strong>（重力、恢复系数、摩擦、转动惯量、抛射体运动、动量、单摆、弹簧质量系统），评估视频生成器和视觉语言模型</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Principia</strong> 基准，包含 500+ 个真实世界场景，涵盖 8 种物理原理，具备校准物体、对齐几何和同步释放等严格实验控制</li><li>提出 <strong>关系一致性评分</strong>，纯基于图像空间评估物理约束，不依赖米制尺度、速度或相机内参</li><li>构建基于 <strong>Isaac Sim</strong> 的可扩展合成管道（Principia-Synth），生成受控和反事实物理场景，用于评估视觉语言模型和视频生成器</li><li>评估 <strong>6 个最先进的视频生成器</strong>和 <strong>4 个视觉语言模型</strong>，揭示视觉质量与物理一致性之间的解耦现象，以及模型规模增大未能提升物理一致性</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>采用 <strong>关系一致性</strong> 而非绝对物理量评估：当两个物体受相同物理定律支配时，其运动应满足可预测的关系（如等式、比率、时空排序）</li><li>通过成对物体实验记录运动，在 <strong>图像空间</strong> 中进行测量，无需摄像机校准或米制尺度，计算关系一致性评分以量化物理约束违反程度</li><li>使用 <strong>Isaac Sim</strong> 构建合成数据集，生成物理正确和反事实（违反物理关系）视频，支持视觉语言模型的规模化评估</li><li>关键技术包括：同步释放机制、匹配几何表面、控制材料和最小化外力，确保实验误差不会掩盖物理违规信号</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>Principia</strong> 数据集：500+ 个真实世界场景，8 种物理现象，包含平移、旋转、碰撞和振荡动力学类别</li><li><strong>Principia-Synth</strong> 合成数据集：基于 Isaac Sim 生成，包含物理正确和反事实视频</li><li>评估的 <strong>视频生成器</strong>：Wan2.1、HunyuanVideo、Kling 2.1、CogVideoX、LTX-Video、OpenSora</li><li>评估的 <strong>视觉语言模型</strong>：GPT-4o、Gemini 2.5 Flash、Qwen2.5-VL、LLaVA-OneVision</li><li>数据收集使用 <strong>SAM3</strong> 进行分割和跟踪，配合手工标注初始点</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Principia 一致性评分</strong>，量化生成视频中物理关系违反程度</li><li>所有视频生成器在 Principia 上的得分 <strong>不超过 0.42</strong>，而它们在 VBench 上的视觉质量得分约为 <strong>0.8</strong>，表明视觉质量与物理保真度脱钩</li><li>视觉语言模型在检测关系物理违规方面，最佳模型准确率仅 <strong>67%</strong>，多数模型表现接近随机水平</li><li>模型规模增大（如 Wan2.1 和 HunyuanVideo 的不同版本）<strong>未带来物理一致性提升</strong>，揭示当前架构的物理推理瓶颈</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.04203/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.04190/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

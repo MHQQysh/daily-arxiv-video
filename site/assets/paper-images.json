@@ -8045,5 +8045,603 @@
     "inside_figure": true,
     "width": 548,
     "height": 228
+  },
+  "2609.04131": {
+    "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2609.04131",
+    "html_url": "https://arxiv.org/html/2609.04131v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04131v1/motivation2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 310,
+        "height": 223,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04131v1/overview-new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 543,
+        "height": 272,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04131v1/figs/amnesia.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 33,
+        "height": 33,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": -5
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.04131.webp",
+    "image_url": "https://arxiv.org/html/2609.04131v1/motivation2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 310,
+    "height": 223
+  },
+  "2609.04183": {
+    "title": "Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning",
+    "abs_url": "https://arxiv.org/abs/2609.04183",
+    "html_url": "https://arxiv.org/html/2609.04183v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04183v1/teaser_0526_sh.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 439,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04183v1/main_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 233,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04183v1/Interevent_qual_sh_0526_final.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 191,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04183v1/anet_suppl.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 188,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04183v1/yc2_suppl.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 188,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.04183.webp",
+    "image_url": "https://arxiv.org/html/2609.04183v1/teaser_0526_sh.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 439
+  },
+  "2609.04110": {
+    "title": "The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs",
+    "abs_url": "https://arxiv.org/abs/2609.04110",
+    "html_url": "https://arxiv.org/html/2609.04110v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04110v1/intro.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 310,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04110v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 155,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04110v1/case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 136,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.04110.webp",
+    "image_url": "https://arxiv.org/html/2609.04110v1/intro.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 310
+  },
+  "2609.04190": {
+    "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
+    "abs_url": "https://arxiv.org/abs/2609.04190",
+    "html_url": "https://arxiv.org/html/2609.04190v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04190v1/editvid_arch.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 462,
+        "height": 234,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04190v1/assets/misc/figures/blue_elephant_frames/selection_12/source_01.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 58,
+        "height": 58,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04190v1/assets/misc/figures/blue_elephant_frames/selection_12/pyramidedit_01.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 58,
+        "height": 58,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04190v1/assets/misc/figures/blue_elephant_frames/selection_12/tokenflow_01.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 58,
+        "height": 58,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04190v1/assets/misc/figures/blue_elephant_frames/selection_12/vidtome_01.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 58,
+        "height": 58,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.04190.webp",
+    "image_url": "https://arxiv.org/html/2609.04190v1/editvid_arch.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 462,
+    "height": 234
+  },
+  "2609.04031": {
+    "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.04031",
+    "html_url": "https://arxiv.org/html/2609.04031v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04031v1/pics/main_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 222,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04031v1/wan13b_jellyfish-ocean_4bit_3frames.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 311,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04031v1/wan13b_elephant-walk_3bit_3frames.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 311,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04031v1/wan-22-5b_bicycle-wan22-5b_4bit_3frames.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04031v1/wan-22-5b_cat-wan22-5b_3bit_3frames.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.04031.webp",
+    "image_url": "https://arxiv.org/html/2609.04031v1/pics/main_fig.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 471,
+    "height": 222
+  },
+  "2609.04203": {
+    "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+    "abs_url": "https://arxiv.org/abs/2609.04203",
+    "html_url": "https://arxiv.org/html/2609.04203v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04203v1/architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 256,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04203v1/Teaser.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 685,
+        "height": 239,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 55
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04203v1/assets/teaser_quals/doc0920_shell_game_sixframe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 138,
+        "height": 69,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04203v1/assets/teaser_quals/doc0389_cup_stacking_sixframe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 138,
+        "height": 69,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04203v1/assets/teaser_quals/doc0477_funnel_ball_sixframe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 138,
+        "height": 69,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.04203.webp",
+    "image_url": "https://arxiv.org/html/2609.04203v1/architecture.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 256
+  },
+  "2609.04200": {
+    "title": "Principia: Relational Physics Tests for Video Models",
+    "abs_url": "https://arxiv.org/abs/2609.04200",
+    "html_url": "https://arxiv.org/html/2609.04200v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04200v1/supple-principia-wan5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 604,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04200v1/supple-principia-wan14.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 604,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04200v1/supple-principia-cosmos2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 604,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04200v1/supple-principia-cosmos14.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 604,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04200v1/supple-principia-veo.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 604,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2609.04200.webp",
+    "image_url": "https://arxiv.org/html/2609.04200v1/supple-principia-wan5.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 604
+  },
+  "2609.04120": {
+    "title": "BooM-VVT: Boosting Mask-Free Video Virtual Try-On with Image-Level Pseudo Data",
+    "abs_url": "https://arxiv.org/abs/2609.04120",
+    "html_url": "https://arxiv.org/html/2609.04120v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.04120v1/app_layer.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 405,
+        "height": 565,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04120v1/app_cross.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 405,
+        "height": 565,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04120v1/teaserfigure.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 262,
+        "alt": "The teaser contains two groups of virtual try-on examples. The left group shows source video frames, target garment references, and generated try-on frames in scenes involving large body motion, severe occlusion, and object interaction. The right group shows multi-view, cross-category, and layered try-on examples, with person inputs, garment references, and the corresponding generated results.",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04120v1/Network.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 336,
+        "alt": "The architecture diagram contains two main components. The keyframe try-on component selects garment-sensitive keyframes from the input video and processes the keyframes and garment references with a multi-frame try-on model. The video generation component encodes the input video, pose sequence, and generated keyframe try-on images into tokens. These tokens are processed by a DiT backbone with Frame-Shared 3D-RoPE and decoded to produce the final try-on video.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.04120v1/training_framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 279,
+        "alt": "The figure illustrates the four parts of the multi-stage training strategy. Panel (a) trains the video model to reconstruct an original video from a garment-agnostic video and sampled keyframes. Panel (b) uses an edited pseudo image and another image of the same person to learn mask-free garment localization. Panel (c) generates video-level pseudo data from keyframe try-on images and garment-agnostic videos using the Stage 1 model. Panel (d) fine-tunes the Stage 2 model using pseudo videos and keyframes as inputs and the original videos as supervision.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.04120.webp",
+    "image_url": "https://arxiv.org/html/2609.04120v1/app_layer.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 405,
+    "height": 565
+  },
+  "2609.03919": {
+    "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
+    "abs_url": "https://arxiv.org/abs/2609.03919",
+    "html_url": "https://arxiv.org/html/2609.03919v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.03919v1/ws_results_v1_crop.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 258,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.03919v1/re10k_crop.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 317,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.03919v1/fig/supple/more_res.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 279,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.03919v1/supple_net_arch_crop.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 314,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.03919v1/fig/supple/example_userstudy.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.03919.webp",
+    "image_url": "https://arxiv.org/html/2609.03919v1/ws_results_v1_crop.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 258
+  },
+  "2609.03820": {
+    "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
+    "abs_url": "https://arxiv.org/abs/2609.03820",
+    "html_url": "https://arxiv.org/html/2609.03820v1",
+    "path": "assets/paper-images/2609.03820.webp",
+    "image_url": "https://arxiv.org/html/2609.03820v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 491
   }
 }
