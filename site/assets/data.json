@@ -95,14 +95,16 @@
     "cover_path": "covers/2609.04183/",
     "paper_image_path": "assets/paper-images/thumbs/2609.04183.webp",
     "paper_image_full_path": "assets/paper-images/2609.04183.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对弱监督密集视频描述（WSDVC）任务，提出先看后合成框架，利用视觉语言模型（VLM）在合成过渡事件描述前，先通过视觉信息判断是否存在真实过渡 解决现有方法中LLM生成的过渡描述缺乏视觉基础、盲目为所有事件间隔添加描述的问题 通过自适应门控机制和语义变化点检测，实现选择性且视觉对齐的过渡事件监督",
+    "research_unit": "所有作者均来自 Hanyang University, South Korea",
+    "hook_text": "针对弱监督密集视频描述（WSDVC）任务，提出先看后合成框架，利用视觉语言模型（VLM）在合成过渡事件描述前，先通过视觉信息判断是否存在真实过渡",
     "key_points": [
-      "待生成"
+      "针对弱监督密集视频描述（WSDVC）任务，提出先看后合成框架，利用视觉语言模型（VLM）在合成过渡事件描述前，先通过视觉信息判断是否存在真实过渡",
+      "解决现有方法中LLM生成的过渡描述缺乏视觉基础、盲目为所有事件间隔添加描述的问题",
+      "通过自适应门控机制和语义变化点检测，实现选择性且视觉对齐的过渡事件监督"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
