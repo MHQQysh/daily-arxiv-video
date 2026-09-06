@@ -269,14 +269,16 @@
     "cover_path": "covers/2609.03820/",
     "paper_image_path": "assets/paper-images/thumbs/2609.03820.webp",
     "paper_image_full_path": "assets/paper-images/2609.03820.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文题为 《Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs》，针对长视频多模态大语言模型（MLLMs）的视觉令牌分配问题展开受控研究。 核心问题是：长视频模型只能从海量候选帧中保留极少量帧，哪些帧能进入这个\"窄带\"通常被视为预处理细节；作者试图证明帧选择规则实际上是整个流程中最紧的瓶颈。 论文设计了三项受控干预——Select（选择帧）、Compress（空间压缩）、Reinvest（再投资预算）——在固定评分器、提示边界、帧预算和回答模型的前提下，逐一隔离每个决策的影响，而非直接比较完整系统。",
+    "research_unit": "Prakhar Khatri，标注为 Independent Researcher（独立研究者）",
+    "hook_text": "论文题为 《Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs》，针对长视频多模态大语言模型（MLLMs）的视觉令牌分配问题展开受控研究。",
     "key_points": [
-      "待生成"
+      "论文题为 《Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs》，针对长视频多模态大语言模型（MLLMs）的视觉令牌分配问题展开受控研究。",
+      "核心问题是：长视频模型只能从海量候选帧中保留极少量帧，哪些帧能进入这个\"窄带\"通常被视为预处理细节；作者试图证明帧选择规则实际上是整个流程中最紧的瓶颈。",
+      "论文设计了三项受控干预——Select（选择帧）、Compress（空间压缩）、Reinvest（再投资预算）——在固定评分器、提示边界、帧预算和回答模型的前提下，逐一隔离每个决策的影响，而非直接比较完整系统。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
