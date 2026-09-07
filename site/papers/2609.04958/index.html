@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision - Video 每日论文卡</title>
+    <meta name="description" content="本文提出 MINT（Minting IN-the-Wild Trajectories），这是首个直接从第一人称（egocentric）RGB 视频中联合恢复世界坐标系下相机轨迹与双手运动轨迹的基础模型。 现有方法通常将相机运动、深度估计、手部重建和轨迹细化分解为独立阶段，导致计算开销大、误差跨阶段累积，且无法联合建模相机与手部运动之间的几何耦合。 MINT 从单一共享的时空视频表征出发，在一个前向传播中同时预测相机轨迹、相机坐标系下的双手状态及逐帧手部可见性，再通过显式坐标变换生成世界空间双手运动。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.04958">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.04958.webp" alt="MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">本文提出 MINT（Minting IN-the-Wild Trajectories），这是首个直接从第一人称（egocentric）RGB 视频中联合恢复世界坐标系下相机轨迹与双手运动轨迹的基础模型。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">MINT: A Unified Model for World-Space Camera and Hand Motion Estimation from Scalable Egocentric Pipeline Supervision</h1>
+            <div class="detail-meta">2026-09-04 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.04958" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.04958" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.04958</span></div>
+            <p class="detail-summary">本文提出 MINT（Minting IN-the-Wild Trajectories），这是首个直接从第一人称（egocentric）RGB 视频中联合恢复世界坐标系下相机轨迹与双手运动轨迹的基础模型。 现有方法通常将相机运动、深度估计、手部重建和轨迹细化分解为独立阶段，导致计算开销大、误差跨阶段累积，且无法联合建模相机与手部运动之间的几何耦合。 MINT 从单一共享的时空视频表征出发，在一个前向传播中同时预测相机轨迹、相机坐标系下的双手状态及逐帧手部可见性，再通过显式坐标变换生成世界空间双手运动。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">上海科技大学（ShanghaiTech University）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.04958/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">本文提出 MINT（Minting IN-the-Wild Trajectories），这是首个直接从第一人称（egocentric）RGB 视频中联合恢复世界坐标系下相机轨迹与双手运动轨迹的基础模型。</p>
+  <ul class="reading-intro-points"><li>本文提出 MINT（Minting IN-the-Wild Trajectories），这是首个直接从第一人称（egocentric）RGB 视频中联合恢复世界坐标系下相机轨迹与双手运动轨迹的基础模型。</li><li>现有方法通常将相机运动、深度估计、手部重建和轨迹细化分解为独立阶段，导致计算开销大、误差跨阶段累积，且无法联合建模相机与手部运动之间的几何耦合。</li><li>MINT 从单一共享的时空视频表征出发，在一个前向传播中同时预测相机轨迹、相机坐标系下的双手状态及逐帧手部可见性，再通过显式坐标变换生成世界空间双手运动。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>上海科技大学（ShanghaiTech University）</strong></li><li><strong>无际科技（Wuji Technology）</strong></li><li><strong>香港大学（The University of Hong Kong）</strong></li><li><strong>浙江大学（Zhejiang University）</strong></li><li><strong>清华大学（Tsinghua University）</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>本文提出 <strong>MINT</strong>（Minting IN-the-Wild Trajectories），这是首个直接从<strong>第一人称（egocentric）RGB 视频</strong>中联合恢复<strong>世界坐标系下相机轨迹与双手运动轨迹</strong>的基础模型。</li><li>现有方法通常将相机运动、深度估计、手部重建和轨迹细化分解为独立阶段，导致计算开销大、误差跨阶段累积，且无法联合建模相机与手部运动之间的几何耦合。</li><li>MINT 从单一共享的<strong>时空视频表征</strong>出发，在一个前向传播中同时预测相机轨迹、相机坐标系下的双手状态及逐帧手部可见性，再通过显式坐标变换生成世界空间双手运动。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li><strong>统一的第一人称重建框架</strong>：MINT 联合恢复相机位姿、视场角（FoV）、双手 MANO 参数和手部可见性，无需外部手部检测器、运动补全器或测试时优化。</li><li><strong>可扩展的数据生产管线 EgoPipeline</strong>：将大规模公开第一人称视频转换为结构化的世界空间运动监督，结合大规模自动重建数据与少量高精度传感数据。</li><li><strong>大规模结构化数据集</strong>：发布 <strong>1,021 小时</strong> 的带标注第一人称轨迹数据集，涵盖相机轨迹、双手 MANO 状态、世界空间运动、手部可见性及动作描述。</li><li><strong>跨域零样本泛化能力</strong>：在 <strong>HOT3D</strong> 和 <strong>ARCTIC</strong> 等未见过的数据集上实现零样本迁移，无需针对特定领域微调。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>骨干网络</strong>：采用 <strong>LingBot-Map 的 Geometric Context Transformer（GCT）</strong> 作为共享时空几何编码器，基于 <strong>DINOv2 ViT-L/14</strong> 初始化，通过帧内注意力与全局注意力交替实现双向时序上下文建模。</li><li><strong>预测头部</strong>：四个任务头分别回归相机外参、视场角、双手 MANO 参数（每手 109 维，共 218 维）和手部可见性分数；手部状态通过可微的相机到世界坐标变换与相机运动耦合。</li><li><strong>手部运动细化</strong>：采用查询式交叉注意力解码，并通过残差迭代（预测有界轴角增量，最大 30°）增强时序一致性，残差层零初始化保证训练初期为恒等映射。</li><li><strong>长序列推理</strong>：将任意长度视频切分为<strong>32 帧重叠滑动窗口</strong>，相邻窗口的相机轨迹在 SE(3) 空间中对齐拼接，共享帧的手部参数与可见性分数进行融合，计算量随视频长度近似线性增长。</li><li><strong>两阶段训练策略</strong>：第一阶段在多样化第一人称数据集上联合训练几何表征与任务头；第二阶段仅用高精度遥操作数据适配相机外参头，保持手部重建能力不变。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>训练数据</strong>：从 <strong>Ego4D</strong>、<strong>EPIC-KITCHENS</strong> 和 <strong>EgoDex</strong> 三个公开数据集收集 <strong>1,729 小时</strong> 第一人称视频，经 <strong>EgoPipeline</strong> 处理后得到 <strong>1,021 小时</strong> 有效标注数据。</li><li><strong>EgoPipeline 组件</strong>：依次使用 <strong>YOLO</strong> 手部检测、<strong>GeoCalib</strong> 相机内参估计、<strong>MoGe-2</strong> 单目深度、<strong>MegaSaM/DROID-SLAM</strong> 相机位姿、<strong>HaWoR</strong> 双手重建，最后进行统一后处理（异常值去除、缺失插值、UKF 时序滤波）。</li><li><strong>模型输入分辨率</strong>：每帧 <strong>378 × 518</strong>，每帧产生 <strong>999 个 1024 维 token</strong>，外加 1 个相机 token、4 个寄存器 token 和 1 个尺度 token。</li><li><strong>高精度微调数据</strong>：使用配备精确传感设备采集的小规模第一人称数据，提供高质量几何约束。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>评估基准</strong>：相机坐标系双手重建在 <strong>ARCTIC</strong> 和 <strong>HOT3D</strong> 上进行零样本评估；相机轨迹估计在公开基准上与其他方法对比。</li><li><strong>评估协议</strong>：采用覆盖率感知协议，方法未报告的手部按规范 MANO 占位符计误差；ViDiHand 因在大部分基准上训练过，仅作参考行而非可比行。</li><li><strong>主要指标</strong>：MPJPE-p（平均每关节位置误差）、PA-MPJPE-p（Procrustes 对齐后误差）、GO-p（全局朝向误差）、CT-p（全局平移误差）、Jitter（时序抖动）、FAcc/Recall/F1（检测准确率）。</li><li><strong>关键结果</strong>：MINT 在手部轨迹精度方面达到当前最优；在相机轨迹估计上优于现有方法；相比标注管线，端到端轨迹生成速度显著提升，并能零样本泛化到未见过的第一人称数据集。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.04911/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.04203/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

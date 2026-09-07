@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WorldSculpt: Generating Compositional Worlds from Grounded Videos - Video 每日论文卡</title>
+    <meta name="description" content="本文提出 WorldSculpt 框架，用于从带姿态的多视角视频/图像中生成组合式 3D 场景——场景由数百个独立对象网格（mesh）组成，每个对象可单独编辑、移动和仿真。 核心挑战在于：密集杂乱场景中对象相互严重遮挡，任何单一视角只能看到每个对象的部分几何，现有几何重建方法在遮挡区域留下不完整几何，而现有具生成先验的组合方法仅能处理较简单场景。 核心思路：保留强大的单对象 3D 生成先验（Pixal3D），仅扩展多视角条件路径，将对象级先验泛化到包含数百个密集遮挡对象的大规模场景，无需任何场景级训练。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.05416">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.05416.webp" alt="WorldSculpt: Generating Compositional Worlds from Grounded Videos" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">本文提出 WorldSculpt 框架，用于从带姿态的多视角视频/图像中生成组合式 3D 场景——场景由数百个独立对象网格（mesh）组成，每个对象可单独编辑、移动和仿真。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">WorldSculpt: Generating Compositional Worlds from Grounded Videos</h1>
+            <div class="detail-meta">2026-09-04 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.05416" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.05416" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.05416</span></div>
+            <p class="detail-summary">本文提出 WorldSculpt 框架，用于从带姿态的多视角视频/图像中生成组合式 3D 场景——场景由数百个独立对象网格（mesh）组成，每个对象可单独编辑、移动和仿真。 核心挑战在于：密集杂乱场景中对象相互严重遮挡，任何单一视角只能看到每个对象的部分几何，现有几何重建方法在遮挡区域留下不完整几何，而现有具生成先验的组合方法仅能处理较简单场景。 核心思路：保留强大的单对象 3D 生成先验（Pixal3D），仅扩展多视角条件路径，将对象级先验泛化到包含数百个密集遮挡对象的大规模场景，无需任何场景级训练。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Alaya Lab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.05416/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">本文提出 WorldSculpt 框架，用于从带姿态的多视角视频/图像中生成组合式 3D 场景——场景由数百个独立对象网格（mesh）组成，每个对象可单独编辑、移动和仿真。</p>
+  <ul class="reading-intro-points"><li>本文提出 WorldSculpt 框架，用于从带姿态的多视角视频/图像中生成组合式 3D 场景——场景由数百个独立对象网格（mesh）组成，每个对象可单独编辑、移动和仿真。</li><li>核心挑战在于：密集杂乱场景中对象相互严重遮挡，任何单一视角只能看到每个对象的部分几何，现有几何重建方法在遮挡区域留下不完整几何，而现有具生成先验的组合方法仅能处理较简单场景。</li><li>核心思路：保留强大的单对象 3D 生成先验（Pixal3D），仅扩展多视角条件路径，将对象级先验泛化到包含数百个密集遮挡对象的大规模场景，无需任何场景级训练。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Alaya Lab</strong></li><li><strong>The University of Tokyo</strong></li><li>通讯作者：Zhixiang Wang（项目负责人）、Kaipeng Zhang</li><li>项目主页：https://alaya-lab.github.io/WorldSculpt</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>本文提出 <strong>WorldSculpt</strong> 框架，用于从带姿态的多视角视频/图像中生成<strong>组合式 3D 场景</strong>——场景由数百个独立对象网格（mesh）组成，每个对象可单独编辑、移动和仿真。</li><li>核心挑战在于：密集杂乱场景中对象相互严重遮挡，任何单一视角只能看到每个对象的部分几何，现有几何重建方法在遮挡区域留下不完整几何，而现有具生成先验的组合方法仅能处理较简单场景。</li><li>核心思路：<strong>保留强大的单对象 3D 生成先验（Pixal3D），仅扩展多视角条件路径</strong>，将对象级先验泛化到包含数百个密集遮挡对象的大规模场景，无需任何场景级训练。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>WorldSculpt</strong> 框架：将多视角场景观测映射到锚点对齐的规范坐标系，以对齐观测条件化强对象级 3D 生成先验，并通过规范到世界的变换将生成网格置于共享世界坐标系中。</li><li>证明<strong>仅在规范空间的单对象上微调的生成先验</strong>，通过多视角条件注入和定向增强课程，可以泛化到包含数百个密集遮挡对象的大规模场景，无需场景级训练。</li><li>引入 <strong>UE-MeshyScene</strong> 基准：基于 Unreal Engine 渲染的照片级逼真密集杂乱场景，含数百个对象、逐对象标注和真实网格，用于评估复杂遮挡下的组合式 3D 生成。</li><li>在单对象、受控多对象及 UE-MeshyScene 等设置中一致优于先前方法，且场景越拥挤、遮挡越严重时性能增益越大。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>锚点对齐对象规范化（Anchor-aligned object canonicalization）</strong>：为每个对象构造锚点对齐的虚拟规范立方体，选择观测最完整的视角作为锚点决定规范方向，并依据 3D 定位框中心与尺度建立规范到世界的相似变换；通过动态扩大尺度避免裁剪，保持跨视角一致规范坐标系。</li><li><strong>多视角条件对象生成（Multi-view conditioned object generation）</strong>：以 <strong>Pixal3D</strong>（基于 <strong>TRELLIS.2</strong> structured-latent 骨干）为生成先验，使用其稀疏结构（64³ 粗糙占据）和形状（高分辨率稀疏结构潜在）两个几何阶段；将每视角图像用 <strong>DINOv3</strong> 编码，通过裁剪感知投影将特征提升到规范体素体积。</li><li><strong>置换不变视图聚合（Permutation-invariant view aggregation）</strong>：采用 <strong>IBR 风格聚合器</strong>融合多视角特征，支持可变数量输入，聚合后的 3D 条件通过<strong>零初始化投影层</strong>注入冻结先验，并配合 <strong>LoRA 低秩适配器</strong>利用多视角证据。</li><li><strong>训练策略</strong>：随机视角训练 + 条件视角增强课程，提升对杂乱场景中部分观测和退化观测的鲁棒性；推理时按对象独立生成网格再经规范到世界变换摆放，无跨对象融合或联合形状优化。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>UE-MeshyScene</strong>：新引入的 Unreal Engine 照片级基准，室内外大规模场景，每场景数百个资产，含真实网格、相机参数、3D 包围框和逐对象标注。</li><li><strong>Toys4k</strong>：受控单对象/多对象测试数据（合成）。</li><li><strong>Toys4k-Scene</strong>：合成多对象场景数据集。</li><li><strong>HouseCat6D</strong>：真实采集的多对象场景数据集。</li><li><strong>Objaverse/Objaverse-XL</strong>：生成先验的预训练基础（背景提及）。</li><li>模型基于 <strong>Pixal3D</strong>（TRELLIS.2 骨干，两阶段流匹配），特征提取使用 <strong>DINOv3</strong>；具体 GPU 训练资源配置未在摘要/引言中给出。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>评估设置</strong>：规范空间单对象生成（Toys4k 压力测试）、受控多对象场景生成（HouseCat6D、Toys4k-Scene）、UE-MeshyScene 大规模场景生成；并进行多视角融合消融实验。</li><li><strong>主要指标</strong>：几何精度相关指标（如 IoU、Chamfer 距离等，具体数字见正文），侧重评估遮挡区域几何恢复质量和组合式场景的正确性。</li><li><strong>关键结果</strong>：WorldSculpt 在所有评估设置中一致优于先前方法，场景越密集、遮挡越严重时优势越明显；多视角融合消融验证了置换不变聚合和条件注入设计的有效性；方法还可将 <strong>Marble</strong> 和 <strong>HY-World 2.0</strong> 等 3DGS 世界转换为组合式网格场景，展示广阔应用潜力。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-next" href="../../papers/2609.05270/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">AI for Computational Design Science: A Responsible Human-AI Framework and Case Study on Short-Form Video Safety Surveillance</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
