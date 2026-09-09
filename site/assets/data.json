@@ -1,5 +1,279 @@
 [
   {
+    "date": "2026-09-08",
+    "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+    "link": "https://arxiv.org/abs/2609.09123",
+    "arxiv_id": "2609.09123",
+    "detail_path": "papers/2609.09123/",
+    "cover_path": "covers/2609.09123/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.09123.webp",
+    "paper_image_full_path": "assets/paper-images/2609.09123.webp",
+    "preview_text": "核心目标是解决现有自回归（AR）视频扩散蒸馏方法（如结合Self Forcing与Distribution Matching Distillation, DMD）生成的视频存在的过饱和、过平滑、视觉质量与真实性不足的问题 论文要解决的关键问题包括：DMD的逆KL目标 inherent 的mode seeking行为导致的mode collapse，以及自 rollout 过程中中间预测误差累积，现有缓解方法要么需要真实视频数据 curation、要么需要额外的后训练阶段，增加训练复杂度 提出的解决方案为Mask Forcing方法，无需真实视频数据或额外后训练，即可高效提升AR视频扩散蒸馏的生成质量",
+    "research_unit": "作者所属研究机构包括：HKUST(GZ)、HKUST、LIGHTSPEED、UCSD、CUHK(SZ)…",
+    "hook_text": "核心目标是解决现有自回归（AR）视频扩散蒸馏方法（如结合Self Forcing与Distribution Matching Distillation, DMD）生成的视频存在的过饱和、过平滑、视觉质量与真实性不足的问题",
+    "key_points": [
+      "核心目标是解决现有自回归（AR）视频扩散蒸馏方法（如结合Self Forcing与Distribution Matching Distillation, DMD）生成的视频存在的过饱和、过平滑、视觉质量与真实性不足的问题",
+      "论文要解决的关键问题包括：DMD的逆KL目标 inherent 的mode seeking行为导致的mode collapse，以及自 rollout 过程中中间预测误差累积，现有缓解方法要么需要真实视频数据 curation、要么需要额外的后训练阶段，增加训练复杂度",
+      "提出的解决方案为Mask Forcing方法，无需真实视频数据或额外后训练，即可高效提升AR视频扩散蒸馏的生成质量"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Concentrate After Imagination: Text-Conditioned Evidence Grounding for Partially Relevant Video Retrieval",
+    "link": "https://arxiv.org/abs/2609.08999",
+    "arxiv_id": "2609.08999",
+    "detail_path": "papers/2609.08999/",
+    "cover_path": "covers/2609.08999/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08999.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08999.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "DSE-VTG: Dual-Side Enhancement for Training-Free Video Temporal Grounding",
+    "link": "https://arxiv.org/abs/2609.08850",
+    "arxiv_id": "2609.08850",
+    "detail_path": "papers/2609.08850/",
+    "cover_path": "covers/2609.08850/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08850.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08850.webp",
+    "preview_text": "论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。 现有的无训练方法面临两个信息瓶颈：逐帧视觉编码忽略了时间动态，以及固定的查询嵌入无法解决查询歧义。 提出了 DSE-VTG，一种双面增强框架，在视觉和文本双侧进行优化，无需任何任务特定训练即可提升定位精度和鲁棒性。",
+    "research_unit": "昆士兰大学，澳大利亚",
+    "hook_text": "论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。",
+    "key_points": [
+      "论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。",
+      "现有的无训练方法面临两个信息瓶颈：逐帧视觉编码忽略了时间动态，以及固定的查询嵌入无法解决查询歧义。",
+      "提出了 DSE-VTG，一种双面增强框架，在视觉和文本双侧进行优化，无需任何任务特定训练即可提升定位精度和鲁棒性。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Kairos: A Dataset for Fine-Grained Video-Language Modeling over Space, Time, and Dynamics",
+    "link": "https://arxiv.org/abs/2609.08755",
+    "arxiv_id": "2609.08755",
+    "detail_path": "papers/2609.08755/",
+    "cover_path": "covers/2609.08755/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08755.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08755.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "CausalChapter: Improving Long-Video Chaptering with Interventional Dependency Modeling",
+    "link": "https://arxiv.org/abs/2609.08686",
+    "arxiv_id": "2609.08686",
+    "detail_path": "papers/2609.08686/",
+    "cover_path": "covers/2609.08686/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08686.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08686.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video",
+    "link": "https://arxiv.org/abs/2609.08636",
+    "arxiv_id": "2609.08636",
+    "detail_path": "papers/2609.08636/",
+    "cover_path": "covers/2609.08636/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08636.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08636.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance",
+    "link": "https://arxiv.org/abs/2609.08505",
+    "arxiv_id": "2609.08505",
+    "detail_path": "papers/2609.08505/",
+    "cover_path": "covers/2609.08505/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08505.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08505.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "SignRefine: Adapting Foundational Video Models for Sign Language Generation",
+    "link": "https://arxiv.org/abs/2609.08496",
+    "arxiv_id": "2609.08496",
+    "detail_path": "papers/2609.08496/",
+    "cover_path": "covers/2609.08496/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08496.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08496.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation",
+    "link": "https://arxiv.org/abs/2609.08275",
+    "arxiv_id": "2609.08275",
+    "detail_path": "papers/2609.08275/",
+    "cover_path": "covers/2609.08275/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08275.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08275.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "title": "PhysFlow: Physics-Aware Optical Flow for Motion Controllable Video Generation",
+    "link": "https://arxiv.org/abs/2609.08215",
+    "arxiv_id": "2609.08215",
+    "detail_path": "papers/2609.08215/",
+    "cover_path": "covers/2609.08215/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.08215.webp",
+    "paper_image_full_path": "assets/paper-images/2609.08215.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-04",
     "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
     "link": "https://arxiv.org/abs/2609.05416",

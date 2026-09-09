@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DSE-VTG: Dual-Side Enhancement for Training-Free Video Temporal Grounding - Video 每日论文卡</title>
+    <meta name="description" content="论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。 现有的无训练方法面临两个信息瓶颈：逐帧视觉编码忽略了时间动态，以及固定的查询嵌入无法解决查询歧义。 提出了 DSE-VTG，一种双面增强框架，在视觉和文本双侧进行优化，无需任何任务特定训练即可提升定位精度和鲁棒性。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.08850">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.08850.webp" alt="DSE-VTG: Dual-Side Enhancement for Training-Free Video Temporal Grounding" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">DSE-VTG: Dual-Side Enhancement for Training-Free Video Temporal Grounding</h1>
+            <div class="detail-meta">2026-09-08 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.08850" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.08850" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.08850</span></div>
+            <p class="detail-summary">论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。 现有的无训练方法面临两个信息瓶颈：逐帧视觉编码忽略了时间动态，以及固定的查询嵌入无法解决查询歧义。 提出了 DSE-VTG，一种双面增强框架，在视觉和文本双侧进行优化，无需任何任务特定训练即可提升定位精度和鲁棒性。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">昆士兰大学，澳大利亚</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.08850/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。</p>
+  <ul class="reading-intro-points"><li>论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。</li><li>现有的无训练方法面临两个信息瓶颈：逐帧视觉编码忽略了时间动态，以及固定的查询嵌入无法解决查询歧义。</li><li>提出了 DSE-VTG，一种双面增强框架，在视觉和文本双侧进行优化，无需任何任务特定训练即可提升定位精度和鲁棒性。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>昆士兰大学</strong>，澳大利亚</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文旨在解决文本引导的视频时序定位任务中，无需任务特定训练即可根据文本查询在未剪辑视频中定位相关片段的问题。</li><li>现有的无训练方法面临两个信息瓶颈：逐帧视觉编码忽略了时间动态，以及固定的查询嵌入无法解决查询歧义。</li><li>提出了 <strong>DSE-VTG</strong>，一种双面增强框架，在视觉和文本双侧进行优化，无需任何任务特定训练即可提升定位精度和鲁棒性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>DSE-VTG</strong>，一种用于无训练视频时序定位的新型双面增强框架，解决了图像中心视觉偏差和静态查询歧义的关键瓶颈。</li><li>设计了两个功能组件：用于统一时间感知视觉建模的 <strong>多尺度相似性融合</strong> 模块，以及用于轻量级动态语义对齐的 <strong>查询级测试时适应</strong> 模块。</li><li>在三个标准基准和两个分布外（OOD）基准上进行了广泛实验，表明该框架在无训练设置中达到了最先进的性能，并在分布外场景中表现出优越的准确性和鲁棒性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>多粒度特征提取</strong>：采用具有视频处理能力的视觉语言模型骨干网络，提取细粒度的帧级特征和时间感知的片段级特征。</li><li><strong>查询级测试时适应</strong>：不依赖固定的查询嵌入或昂贵的外部大语言模型，而是动态优化一个轻量级的可学习偏移向量，在推理期间利用伪标签细化查询表示，使其适应特定的视频上下文。</li><li><strong>多尺度相似性融合</strong>：通过中心投影对齐机制，将片段级和帧级的相似度分数投影到统一的时间线上进行融合，结合局部动作边界和全局事件语义。</li><li><strong>结构化区间优化</strong>：使用自适应阈值抑制低置信度区域，将融合后的分数解码为最终的时间边界。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的标准数据集：<strong>Charades-STA</strong>、<strong>ActivityNet Captions</strong>、<strong>QVHighlights</strong></li><li>使用的分布外（OOD）数据集：<strong>Charades-CG</strong>、<strong>Charades-CD</strong></li><li>模型规模和训练资源：由于是无训练方法，文中未提及大规模训练资源，主要依赖预训练的视觉语言模型（如 <strong>BLIP-2</strong> 或其他 video-capable VLM）进行推理，优化过程仅针对单个轻量级偏移向量。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境和基准：在三个标准基准和两个分布外基准上与监督和无训练基线进行对比。</li><li>主要评估指标：mIoU, R@0.5, R@0.7, mAP, mAP@0.75 等。</li><li>关键实验结果：在 <strong>Charades-STA</strong> 上，达到 58.58 R@0.5 和 51.30 mIoU，超过最强无训练基线 10.00 R@0.5 和 5.61 mIoU。</li><li>在 <strong>QVHighlights</strong> 上，达到 38.64 mAP，超基线 5.49 mAP。</li><li>在分布外场景下表现优异，在 <strong>Charades-CG Novel-Word</strong> 上达到 59.71 R@0.5 和 50.86 mIoU，甚至超越了最强的监督基线（超 2.76 mIoU）。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.08999/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Concentrate After Imagination: Text-Conditioned Evidence Grounding for Partially Relevant Video Retrieval</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.08755/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Kairos: A Dataset for Fine-Grained Video-Language Modeling over Space, Time, and Dynamics</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
