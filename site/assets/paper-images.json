@@ -9891,5 +9891,590 @@
     "inside_figure": true,
     "width": 548,
     "height": 335
+  },
+  "2609.10317": {
+    "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
+    "abs_url": "https://arxiv.org/abs/2609.10317",
+    "html_url": "https://arxiv.org/html/2609.10317v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.10317v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 663,
+        "height": 398,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10317v1/qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 628,
+        "height": 280,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10317v1/Figures/ablation_exposure_cum.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 342,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10317v1/Figures/ablation_motion_velocity.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 342,
+        "height": 235,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.10317.webp",
+    "image_url": "https://arxiv.org/html/2609.10317v1/method.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 663,
+    "height": 398
+  },
+  "2609.09985": {
+    "title": "VLX-VR: An Agentic-Aware Video Reasoning Model",
+    "abs_url": "https://arxiv.org/abs/2609.09985",
+    "html_url": "https://arxiv.org/html/2609.09985v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.09985v1/figures/minerva_length_vlxvr.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 448,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09985v1/figures/case_temporal.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 368,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09985v1/figures/method_framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 178,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.09985.webp",
+    "image_url": "https://arxiv.org/html/2609.09985v1/figures/minerva_length_vlxvr.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 448
+  },
+  "2609.09736": {
+    "title": "IAE-VTG: Interaction-Aligned Action-Entity Video Temporal Grounding",
+    "abs_url": "https://arxiv.org/abs/2609.09736",
+    "html_url": "https://arxiv.org/html/2609.09736v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.09736v1/motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 233,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09736v1/1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 175,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09736v1/showcase9.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 161,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09736v1/showcase9-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 161,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09736v1/showcase9-3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 161,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.09736.webp",
+    "image_url": "https://arxiv.org/html/2609.09736v1/motivation.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 452,
+    "height": 233
+  },
+  "2609.09973": {
+    "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
+    "abs_url": "https://arxiv.org/abs/2609.09973",
+    "html_url": "https://arxiv.org/html/2609.09973v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.09973v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 252,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09973v1/images/tag.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09973v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 176,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.09973.webp",
+    "image_url": "https://arxiv.org/html/2609.09973v1/overview.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 252
+  },
+  "2609.10050": {
+    "title": "Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers",
+    "abs_url": "https://arxiv.org/abs/2609.10050",
+    "html_url": "https://arxiv.org/html/2609.10050v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.10050v1/figures/icra27_15.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 500,
+        "height": 300,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10050v1/manipulated_object_examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 221,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10050v1/figures/icra27_13.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 184,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10050v1/figures/hoi_reconstruction_overview.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 157,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10050v1/figures/hoi_blind_qualitative_combined.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 147,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.10050.webp",
+    "image_url": "https://arxiv.org/html/2609.10050v1/figures/icra27_15.jpg",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/jpeg",
+    "inside_figure": true,
+    "width": 500,
+    "height": 300
+  },
+  "2609.09895": {
+    "title": "Can We Trust Video Hallucination Detectors? VidHalLoc for Evaluating the Evaluators",
+    "abs_url": "https://arxiv.org/abs/2609.09895",
+    "html_url": "https://arxiv.org/html/2609.09895v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.09895v1/figure_1_exact_vector_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 419,
+        "height": 282,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.09895v1/methodology_pipeline_category.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 438,
+        "height": 194,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.09895.webp",
+    "image_url": "https://arxiv.org/html/2609.09895v1/figure_1_exact_vector_v2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 419,
+    "height": 282
+  },
+  "2609.10355": {
+    "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+    "abs_url": "https://arxiv.org/abs/2609.10355",
+    "html_url": "https://arxiv.org/html/2609.10355v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.10355v1/vid_llm_diagram.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 449,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10355v1/bios/killian.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 100,
+        "height": 120,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10355v1/bios/yannis.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 100,
+        "height": 125,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10355v1/bios/mounim.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 99,
+        "height": 125,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.10355.webp",
+    "image_url": "https://arxiv.org/html/2609.10355v1/vid_llm_diagram.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 449
+  },
+  "2609.10008": {
+    "title": "Beyond Similarity: Foundation Models as an Efficient Backbone for Training-Free Composed Video Retrieval",
+    "abs_url": "https://arxiv.org/abs/2609.10008",
+    "html_url": "https://arxiv.org/html/2609.10008v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.10008v1/first_page_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 692,
+        "height": 760,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10008v1/model_architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 526,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10008v1/figures/showcases/passenger_source.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 603,
+        "height": 318,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10008v1/figures/showcases/blue_source.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 329,
+        "height": 186,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10008v1/figures/showcases/passenger_target.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 309,
+        "height": 163,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.10008.webp",
+    "image_url": "https://arxiv.org/html/2609.10008v1/first_page_teaser.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 692,
+    "height": 760
+  },
+  "2609.10540": {
+    "title": "Programmable World Model",
+    "abs_url": "https://arxiv.org/abs/2609.10540",
+    "html_url": "https://arxiv.org/html/2609.10540v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.10540v1/figures/qualitative_death_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 448,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10540v1/figures/qualitative_showcase.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 540,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10540v1/framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 218,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10540v1/pwm-teaser2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 158,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10540v1/tradeoff_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 164,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.10540.webp",
+    "image_url": "https://arxiv.org/html/2609.10540v1/figures/qualitative_death_comparison.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 448
   }
 }

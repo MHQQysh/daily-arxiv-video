@@ -1,5 +1,258 @@
 [
   {
+    "date": "2026-09-09",
+    "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+    "link": "https://arxiv.org/abs/2609.10355",
+    "arxiv_id": "2609.10355",
+    "detail_path": "papers/2609.10355/",
+    "cover_path": "covers/2609.10355/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.10355.webp",
+    "paper_image_full_path": "assets/paper-images/2609.10355.webp",
+    "preview_text": "本文是一篇关于视频大语言模型（VideoLLMs）推理效率的全面综述，系统性地梳理了从2022年底至今的视觉及视听 VideoLLM 的效率优化机制 论文旨在回答“为什么视频理解仍然计算成本高昂”的问题，并深入分析了在实时、移动及资源受限场景下部署 VideoLLM 所面临的瓶颈 核心目标是为研究人员提供一个结构化的效率机制分类法，涵盖从输入采样到大型语言模型（LLM）解码的完整管线，并指出当前评估不统一和视听效率优化不足的空白",
+    "research_unit": "Télécom SudParis, Institut Polytechnique de Paris (…",
+    "hook_text": "本文是一篇关于视频大语言模型（VideoLLMs）推理效率的全面综述，系统性地梳理了从2022年底至今的视觉及视听 VideoLLM 的效率优化机制",
+    "key_points": [
+      "本文是一篇关于视频大语言模型（VideoLLMs）推理效率的全面综述，系统性地梳理了从2022年底至今的视觉及视听 VideoLLM 的效率优化机制",
+      "论文旨在回答“为什么视频理解仍然计算成本高昂”的问题，并深入分析了在实时、移动及资源受限场景下部署 VideoLLM 所面临的瓶颈",
+      "核心目标是为研究人员提供一个结构化的效率机制分类法，涵盖从输入采样到大型语言模型（LLM）解码的完整管线，并指出当前评估不统一和视听效率优化不足的空白"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Grounding Generated Video Plans in Simulation Towards Versatile Dexterous Controllers",
+    "link": "https://arxiv.org/abs/2609.10050",
+    "arxiv_id": "2609.10050",
+    "detail_path": "papers/2609.10050/",
+    "cover_path": "covers/2609.10050/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.10050.webp",
+    "paper_image_full_path": "assets/paper-images/2609.10050.webp",
+    "preview_text": "论文提出 GALATEA 系统，目标是“将生成的视频计划在仿真中落地”，从而实现多功能灵巧操作控制器。 核心思路：利用视频生成模型（如 Seedance 2.0）产生多样化的人手-物体交互（HOI）视频作为运动参考，再通过仿真中的 HOI 跟踪学习统一控制器，最终在真实世界闭环执行。 解决的问题：从真实视频/演示中提取参考运动成本高、噪声大，且难以扩展到大规模多样化灵巧操作；视频模型产生的运动计划缺乏物理可行性，需要仿真进行物理落地。",
+    "research_unit": "University of California, Berkeley（加州大学伯克利分校）",
+    "hook_text": "论文提出 GALATEA 系统，目标是“将生成的视频计划在仿真中落地”，从而实现多功能灵巧操作控制器。",
+    "key_points": [
+      "论文提出 GALATEA 系统，目标是“将生成的视频计划在仿真中落地”，从而实现多功能灵巧操作控制器。",
+      "核心思路：利用视频生成模型（如 Seedance 2.0）产生多样化的人手-物体交互（HOI）视频作为运动参考，再通过仿真中的 HOI 跟踪学习统一控制器，最终在真实世界闭环执行。",
+      "解决的问题：从真实视频/演示中提取参考运动成本高、噪声大，且难以扩展到大规模多样化灵巧操作；视频模型产生的运动计划缺乏物理可行性，需要仿真进行物理落地。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Beyond Similarity: Foundation Models as an Efficient Backbone for Training-Free Composed Video Retrieval",
+    "link": "https://arxiv.org/abs/2609.10008",
+    "arxiv_id": "2609.10008",
+    "detail_path": "papers/2609.10008/",
+    "cover_path": "covers/2609.10008/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.10008.webp",
+    "paper_image_full_path": "assets/paper-images/2609.10008.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "VLX-VR: An Agentic-Aware Video Reasoning Model",
+    "link": "https://arxiv.org/abs/2609.09985",
+    "arxiv_id": "2609.09985",
+    "detail_path": "papers/2609.09985/",
+    "cover_path": "covers/2609.09985/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.09985.webp",
+    "paper_image_full_path": "assets/paper-images/2609.09985.webp",
+    "preview_text": "论文提出了 VLX-VR，一个在由 Think-Memory-Observation 循环定义的视频推理框架内训练的代理感知视频推理模型。 旨在解决传统视频理解管道使用固定视频上下文和单次推理，导致在观察不完整、模糊或冲突时无法自适应获取证据的问题。 通过强化学习训练模型，使其学会将证据获取、记忆使用和终止决策作为其推理策略的组成部分。",
+    "research_unit": "Om AI Research",
+    "hook_text": "论文提出了 VLX-VR，一个在由 Think-Memory-Observation 循环定义的视频推理框架内训练的代理感知视频推理模型。",
+    "key_points": [
+      "论文提出了 VLX-VR，一个在由 Think-Memory-Observation 循环定义的视频推理框架内训练的代理感知视频推理模型。",
+      "旨在解决传统视频理解管道使用固定视频上下文和单次推理，导致在观察不完整、模糊或冲突时无法自适应获取证据的问题。",
+      "通过强化学习训练模型，使其学会将证据获取、记忆使用和终止决策作为其推理策略的组成部分。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
+    "link": "https://arxiv.org/abs/2609.09973",
+    "arxiv_id": "2609.09973",
+    "detail_path": "papers/2609.09973/",
+    "cover_path": "covers/2609.09973/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.09973.webp",
+    "paper_image_full_path": "assets/paper-images/2609.09973.webp",
+    "preview_text": "论文提出 CapQuiz，一种新型的无参考视频描述质量评估基准，通过人工验证的细粒度多项选择题来评估视频字幕质量 针对现有指标因视频描述\"一对多\"特性而惩罚有效字幕的问题，基于信息保真度原则重新定义字幕质量：字幕必须最大化覆盖显著视觉信息同时确保严格的事实性 构建包含 1,204 个视频、23,632 个QA对的基准数据集，覆盖 24 个视频领域和 10 种问题类型，用于细粒度诊断分析",
+    "research_unit": "Apple (苹果公司) 是唯一的研究机构，所有作者均隶属于 Apple",
+    "hook_text": "论文提出 CapQuiz，一种新型的无参考视频描述质量评估基准，通过人工验证的细粒度多项选择题来评估视频字幕质量",
+    "key_points": [
+      "论文提出 CapQuiz，一种新型的无参考视频描述质量评估基准，通过人工验证的细粒度多项选择题来评估视频字幕质量",
+      "针对现有指标因视频描述\"一对多\"特性而惩罚有效字幕的问题，基于信息保真度原则重新定义字幕质量：字幕必须最大化覆盖显著视觉信息同时确保严格的事实性",
+      "构建包含 1,204 个视频、23,632 个QA对的基准数据集，覆盖 24 个视频领域和 10 种问题类型，用于细粒度诊断分析"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Can We Trust Video Hallucination Detectors? VidHalLoc for Evaluating the Evaluators",
+    "link": "https://arxiv.org/abs/2609.09895",
+    "arxiv_id": "2609.09895",
+    "detail_path": "papers/2609.09895/",
+    "cover_path": "covers/2609.09895/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.09895.webp",
+    "paper_image_full_path": "assets/paper-images/2609.09895.webp",
+    "preview_text": "论文针对视频语言模型（LVLMs）和视频智能体产生的与时空证据冲突的视频幻觉问题，提出评估幻觉检测方法可靠性的新基准。 现有基准主要评估模型本身的幻觉表现，且各检测方法的分类体系和评估目标异构，难以横向比较检测器性能。 作者引入 VidHalLoc 基准，在统一诊断协议下评估视频幻觉检测器，并构建了高效的 VideoHALO 多智能体数据构建工作流。",
+    "research_unit": "麦考瑞大学 (Macquarie University)（根据作者信息推断；论文原文未明确列出机构）",
+    "hook_text": "论文针对视频语言模型（LVLMs）和视频智能体产生的与时空证据冲突的视频幻觉问题，提出评估幻觉检测方法可靠性的新基准。",
+    "key_points": [
+      "论文针对视频语言模型（LVLMs）和视频智能体产生的与时空证据冲突的视频幻觉问题，提出评估幻觉检测方法可靠性的新基准。",
+      "现有基准主要评估模型本身的幻觉表现，且各检测方法的分类体系和评估目标异构，难以横向比较检测器性能。",
+      "作者引入 VidHalLoc 基准，在统一诊断协议下评估视频幻觉检测器，并构建了高效的 VideoHALO 多智能体数据构建工作流。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "IAE-VTG: Interaction-Aligned Action-Entity Video Temporal Grounding",
+    "link": "https://arxiv.org/abs/2609.09736",
+    "arxiv_id": "2609.09736",
+    "detail_path": "papers/2609.09736/",
+    "cover_path": "covers/2609.09736/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.09736.webp",
+    "paper_image_full_path": "assets/paper-images/2609.09736.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
+    "link": "https://arxiv.org/abs/2609.10317",
+    "arxiv_id": "2609.10317",
+    "detail_path": "papers/2609.10317/",
+    "cover_path": "covers/2609.10317/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.10317.webp",
+    "paper_image_full_path": "assets/paper-images/2609.10317.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Programmable World Model",
+    "link": "https://arxiv.org/abs/2609.10540",
+    "arxiv_id": "2609.10540",
+    "detail_path": "papers/2609.10540/",
+    "cover_path": "covers/2609.10540/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.10540.webp",
+    "paper_image_full_path": "assets/paper-images/2609.10540.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-08",
     "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
     "link": "https://arxiv.org/abs/2609.09123",
