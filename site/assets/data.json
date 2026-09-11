@@ -1,5 +1,260 @@
 [
   {
+    "date": "2026-09-10",
+    "title": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",
+    "link": "https://arxiv.org/abs/2609.11899",
+    "arxiv_id": "2609.11899",
+    "detail_path": "papers/2609.11899/",
+    "cover_path": "covers/2609.11899/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11899.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11899.webp",
+    "preview_text": "针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架 基于视觉-文本 duality 观察：语言记忆在长程时间结构上更优，而像素级证据在属性感知上不可替代 通过边缘侧离线单次字幕生成与云端按需帧检索的分离，实现效率与精度的平衡",
+    "research_unit": "Queen Mary University of London（Weitong Cai）",
+    "hook_text": "针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架",
+    "key_points": [
+      "针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架",
+      "基于视觉-文本 duality 观察：语言记忆在长程时间结构上更优，而像素级证据在属性感知上不可替代",
+      "通过边缘侧离线单次字幕生成与云端按需帧检索的分离，实现效率与精度的平衡"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+    "link": "https://arxiv.org/abs/2609.11638",
+    "arxiv_id": "2609.11638",
+    "detail_path": "papers/2609.11638/",
+    "cover_path": "covers/2609.11638/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11638.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11638.webp",
+    "preview_text": "论文提出 Vidu S2，包含两个实时视频生成模型：Vidu S2-Avatar（实时交互式数字人模型）和 Vidu S2-Editing（实时视频编辑模型）。 目标解决现有视频生成模型“离线、一次性生成”无法即时响应交互的问题，并探索实时空间视频（spatial video）生成与编辑。 相比前代 Vidu S1，Vidu S2-Avatar 支持 720p 实时生成、动态参考图更新、更强指令跟随（如舞蹈）；Vidu S2-Editing 支持实时编辑视频流（风格迁移、虚拟试穿、角色替换、背景替换）。",
+    "research_unit": "清华大学（Tsinghua University）",
+    "hook_text": "论文提出 Vidu S2，包含两个实时视频生成模型：Vidu S2-Avatar（实时交互式数字人模型）和 Vidu S2-Editing（实时视频编辑模型）。",
+    "key_points": [
+      "论文提出 Vidu S2，包含两个实时视频生成模型：Vidu S2-Avatar（实时交互式数字人模型）和 Vidu S2-Editing（实时视频编辑模型）。",
+      "目标解决现有视频生成模型“离线、一次性生成”无法即时响应交互的问题，并探索实时空间视频（spatial video）生成与编辑。",
+      "相比前代 Vidu S1，Vidu S2-Avatar 支持 720p 实时生成、动态参考图更新、更强指令跟随（如舞蹈）；Vidu S2-Editing 支持实时编辑视频流（风格迁移、虚拟试穿、角色替换、背景替换）。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation",
+    "link": "https://arxiv.org/abs/2609.11507",
+    "arxiv_id": "2609.11507",
+    "detail_path": "papers/2609.11507/",
+    "cover_path": "covers/2609.11507/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11507.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11507.webp",
+    "preview_text": "论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。 通过对 Diffusion Transformers (DiTs) 内部机制的逐层分析，发现部分注意力块天然形成一种内在空间锚定图（Intrinsic Spatial Grounding Map, ISGM），能够精确定位参考主体，可作为生成过程中的内在引导信号。 基于此发现，提出双阶段内在注意力利用框架（Dual-phase Intrinsic Attention Leveraging, DIAL），在推理阶段实现无训练的保真度可控增强，在训练阶段通过强化学习锚定参考主体语义并缓解漂移。",
+    "research_unit": "Alibaba Group（阿里巴巴集团）：Niange Yu（通讯作者）、Biaolong Chen…",
+    "hook_text": "论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。",
+    "key_points": [
+      "论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。",
+      "通过对 Diffusion Transformers (DiTs) 内部机制的逐层分析，发现部分注意力块天然形成一种内在空间锚定图（Intrinsic Spatial Grounding Map, ISGM），能够精确定位参考主体，可作为生成过程中的内在引导信号。",
+      "基于此发现，提出双阶段内在注意力利用框架（Dual-phase Intrinsic Attention Leveraging, DIAL），在推理阶段实现无训练的保真度可控增强，在训练阶段通过强化学习锚定参考主体语义并缓解漂移。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation",
+    "link": "https://arxiv.org/abs/2609.11265",
+    "arxiv_id": "2609.11265",
+    "detail_path": "papers/2609.11265/",
+    "cover_path": "covers/2609.11265/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11265.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11265.webp",
+    "preview_text": "论文针对自回归视频生成中的多样性崩溃问题，指出经过分布匹配蒸馏（DMD） 的少步生成模型在不同随机噪声下会产生高度相似的视频。 核心问题是不确定性崩溃：DMD的模式寻求偏差使不同噪声映射到几乎相同的第一个视频块，然后确定性缓存将这种崩溃传播到后续块，抑制了整体视频的动态和多样性。 论文的目标是恢复少步自回归视频蒸馏中的样本多样性，同时保持生成质量。",
+    "research_unit": "南京大学",
+    "hook_text": "论文针对自回归视频生成中的多样性崩溃问题，指出经过分布匹配蒸馏（DMD） 的少步生成模型在不同随机噪声下会产生高度相似的视频。",
+    "key_points": [
+      "论文针对自回归视频生成中的多样性崩溃问题，指出经过分布匹配蒸馏（DMD） 的少步生成模型在不同随机噪声下会产生高度相似的视频。",
+      "核心问题是不确定性崩溃：DMD的模式寻求偏差使不同噪声映射到几乎相同的第一个视频块，然后确定性缓存将这种崩溃传播到后续块，抑制了整体视频的动态和多样性。",
+      "论文的目标是恢复少步自回归视频蒸馏中的样本多样性，同时保持生成质量。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models",
+    "link": "https://arxiv.org/abs/2609.11242",
+    "arxiv_id": "2609.11242",
+    "detail_path": "papers/2609.11242/",
+    "cover_path": "covers/2609.11242/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11242.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11242.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation",
+    "link": "https://arxiv.org/abs/2609.10943",
+    "arxiv_id": "2609.10943",
+    "detail_path": "papers/2609.10943/",
+    "cover_path": "covers/2609.10943/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.10943.webp",
+    "paper_image_full_path": "assets/paper-images/2609.10943.webp",
+    "preview_text": "提出 CamPilot，一个多智能体框架，通过整合电影摄影规划和显式摄像头工作控制来实现高质量的文本到电影生成 解决现有文本到视频模型在专业电影制作中存在的摄像头语言不够精细、多镜头连续性难以维持的问题 建立 CamEval 基准，专门用于评估摄像头工作质量和电影参与度，填补了该领域缺乏专业评估标准的空白",
+    "research_unit": "Worcester Polytechnic Institute (Worcester, MA, USA…",
+    "hook_text": "提出 CamPilot，一个多智能体框架，通过整合电影摄影规划和显式摄像头工作控制来实现高质量的文本到电影生成",
+    "key_points": [
+      "提出 CamPilot，一个多智能体框架，通过整合电影摄影规划和显式摄像头工作控制来实现高质量的文本到电影生成",
+      "解决现有文本到视频模型在专业电影制作中存在的摄像头语言不够精细、多镜头连续性难以维持的问题",
+      "建立 CamEval 基准，专门用于评估摄像头工作质量和电影参与度，填补了该领域缺乏专业评估标准的空白"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "World in World: Explore the World with World Models",
+    "link": "https://arxiv.org/abs/2609.11548",
+    "arxiv_id": "2609.11548",
+    "detail_path": "papers/2609.11548/",
+    "cover_path": "covers/2609.11548/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11548.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11548.webp",
+    "preview_text": "论文提出 World in World (WiW)，一个 无需训练（training-free） 的推理时接口，用于扩展冻结的因果视频世界模型的灵活控制能力。 核心思想是将异构视觉证据（源视频观测、目标视角投影、渲染几何、检索到的生成历史）统一转换为带相机、时间和空间有效性标注的“干净视觉状态”，通过模型原生自注意力读取，解决视频世界模型在探索源视频世界时面临的事件同步、空间对齐、新暴露区域补全和长时序重访一致性问题。 论文要解决的问题是：在保持预训练模型参数冻结的前提下，如何灵活地接受多种视觉控制和世界信息，实现相机可控重渲染、长时序重访、人体动作迁移等应用，而不依赖任务专用模块或额外训练。",
+    "research_unit": "西湖大学 AGI Lab（Westlake AGI Lab, Westlake University）",
+    "hook_text": "论文提出 World in World (WiW)，一个 无需训练（training-free） 的推理时接口，用于扩展冻结的因果视频世界模型的灵活控制能力。",
+    "key_points": [
+      "论文提出 World in World (WiW)，一个 无需训练（training-free） 的推理时接口，用于扩展冻结的因果视频世界模型的灵活控制能力。",
+      "核心思想是将异构视觉证据（源视频观测、目标视角投影、渲染几何、检索到的生成历史）统一转换为带相机、时间和空间有效性标注的“干净视觉状态”，通过模型原生自注意力读取，解决视频世界模型在探索源视频世界时面临的事件同步、空间对齐、新暴露区域补全和长时序重访一致性问题。",
+      "论文要解决的问题是：在保持预训练模型参数冻结的前提下，如何灵活地接受多种视觉控制和世界信息，实现相机可控重渲染、长时序重访、人体动作迁移等应用，而不依赖任务专用模块或额外训练。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+    "link": "https://arxiv.org/abs/2609.11900",
+    "arxiv_id": "2609.11900",
+    "detail_path": "papers/2609.11900/",
+    "cover_path": "covers/2609.11900/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11900.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11900.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "title": "OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models",
+    "link": "https://arxiv.org/abs/2609.11244",
+    "arxiv_id": "2609.11244",
+    "detail_path": "papers/2609.11244/",
+    "cover_path": "covers/2609.11244/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.11244.webp",
+    "paper_image_full_path": "assets/paper-images/2609.11244.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-09",
     "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
     "link": "https://arxiv.org/abs/2609.10355",

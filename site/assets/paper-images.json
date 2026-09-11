@@ -10476,5 +10476,590 @@
     "inside_figure": true,
     "width": 476,
     "height": 448
+  },
+  "2609.11638": {
+    "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.11638",
+    "html_url": "https://arxiv.org/html/2609.11638v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11638v1/a2a-interface.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 780,
+        "height": 303,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11638v1/reference-control-cases.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 780,
+        "height": 490,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11638v1/Vidu_S2_cp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 247,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11638v1/S2_Data_Pipeline_Polished_v11.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11638v1/style_watercolor_case_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 277,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.11638.webp",
+    "image_url": "https://arxiv.org/html/2609.11638v1/a2a-interface.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 780,
+    "height": 303
+  },
+  "2609.11548": {
+    "title": "World in World: Explore the World with World Models",
+    "abs_url": "https://arxiv.org/abs/2609.11548",
+    "html_url": "https://arxiv.org/html/2609.11548v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11548v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 373,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11548v1/comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 291,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11548v1/extension.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 614,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11548v1/ablation_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 191,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11548v1/ablation_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 198,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.11548.webp",
+    "image_url": "https://arxiv.org/html/2609.11548v1/pipeline.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 710,
+    "height": 373
+  },
+  "2609.11899": {
+    "title": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2609.11899",
+    "html_url": "https://arxiv.org/html/2609.11899v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11899v1/Visualization2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 437,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11899v1/Visualization1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 663,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11899v1/Framework_v31.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 357,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11899v1/Teaser_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 100,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.11899.webp",
+    "image_url": "https://arxiv.org/html/2609.11899v1/Visualization2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 437
+  },
+  "2609.11242": {
+    "title": "From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models",
+    "abs_url": "https://arxiv.org/abs/2609.11242",
+    "html_url": "https://arxiv.org/html/2609.11242v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11242v1/bench_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 401,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11242v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 198,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11242v1/case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 314,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11242v1/figs/Sudoku.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 238,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11242v1/figs/Maze.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 238,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.11242.webp",
+    "image_url": "https://arxiv.org/html/2609.11242v1/bench_2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 429,
+    "height": 401
+  },
+  "2609.11265": {
+    "title": "Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation",
+    "abs_url": "https://arxiv.org/abs/2609.11265",
+    "html_url": "https://arxiv.org/html/2609.11265v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11265v1/x3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 517,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11265v1/x6.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 528,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11265v1/x7.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 497,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11265v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 311,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11265v1/x2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.11265.webp",
+    "image_url": "https://arxiv.org/html/2609.11265v1/x3.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 517
+  },
+  "2609.11507": {
+    "title": "Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.11507",
+    "html_url": "https://arxiv.org/html/2609.11507v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11507v1/attn_over_steps.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 614,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11507v1/demo_for_strength.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 501,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11507v1/demo_for_rl.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 652,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11507v1/rl.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11507v1/qualitative_result.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 321,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.11507.webp",
+    "image_url": "https://arxiv.org/html/2609.11507v1/attn_over_steps.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 614
+  },
+  "2609.10943": {
+    "title": "CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation",
+    "abs_url": "https://arxiv.org/abs/2609.10943",
+    "html_url": "https://arxiv.org/html/2609.10943v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.10943v1/toy_example_final.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10943v1/framework_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 316,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.10943v1/framework_v10.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 164,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.10943.webp",
+    "image_url": "https://arxiv.org/html/2609.10943v1/toy_example_final.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 268
+  },
+  "2609.11900": {
+    "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+    "abs_url": "https://arxiv.org/abs/2609.11900",
+    "html_url": "https://arxiv.org/html/2609.11900v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11900v1/prompt_figure_page_18_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 614,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11900v1/prompt_figure_page_19_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 621,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11900v1/prompt_figure_page_20_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 621,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11900v1/prompt_figure_page_21_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 621,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11900v1/prompt_figure_page_13_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 616,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2609.11900.webp",
+    "image_url": "https://arxiv.org/html/2609.11900v1/prompt_figure_page_18_cropped.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 614
+  },
+  "2609.11244": {
+    "title": "OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models",
+    "abs_url": "https://arxiv.org/abs/2609.11244",
+    "html_url": "https://arxiv.org/html/2609.11244v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.11244v1/example.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 810,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11244v1/figure/framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 186,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.11244.webp",
+    "image_url": "https://arxiv.org/html/2609.11244v1/example.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 467,
+    "height": 810
   }
 }

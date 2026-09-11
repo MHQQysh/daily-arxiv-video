@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding - Video 每日论文卡</title>
+    <meta name="description" content="针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架 基于视觉-文本 duality 观察：语言记忆在长程时间结构上更优，而像素级证据在属性感知上不可替代 通过边缘侧离线单次字幕生成与云端按需帧检索的分离，实现效率与精度的平衡" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.11899">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.11899.webp" alt="Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding</h1>
+            <div class="detail-meta">2026-09-10 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.11899" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.11899" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.11899</span></div>
+            <p class="detail-summary">针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架 基于视觉-文本 duality 观察：语言记忆在长程时间结构上更优，而像素级证据在属性感知上不可替代 通过边缘侧离线单次字幕生成与云端按需帧检索的分离，实现效率与精度的平衡</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Queen Mary University of London（Weitong Cai）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.11899/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架</p>
+  <ul class="reading-intro-points"><li>针对边缘设备长视频理解中的计算与带宽预算限制，提出 Caption-once, Frames-on-Demand (CFD) 预算感知智能体框架</li><li>基于视觉-文本 duality 观察：语言记忆在长程时间结构上更优，而像素级证据在属性感知上不可替代</li><li>通过边缘侧离线单次字幕生成与云端按需帧检索的分离，实现效率与精度的平衡</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Queen Mary University of London</strong>（Weitong Cai）</li><li><strong>Independent Researcher</strong>（Hang Zhang）</li><li><strong>Durham University</strong>（Yukai Huang）</li><li><strong>Imperial College London</strong>（Yiqiao Xie, Jiankang Deng）</li><li><strong>Huawei</strong>（Shan Gao, Songcen Xu, Jifei Song, Zhensong Zhang）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>针对边缘设备长视频理解中的计算与带宽预算限制，提出 <strong>Caption-once, Frames-on-Demand (CFD)</strong> 预算感知智能体框架</li><li>基于视觉-文本 duality 观察：语言记忆在长程时间结构上更优，而像素级证据在属性感知上不可替代</li><li>通过边缘侧离线单次字幕生成与云端按需帧检索的分离，实现效率与精度的平衡</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Visual-Need Router</strong>：首个根据问题类型（感知型/时间结构型）条件化视觉访问的门控模块，将帧检索转化为显式可调成本</li><li>设计 <strong>CFD 三层记忆架构</strong>：事件记忆（全局故事骨架）+ 片段记忆（局部微日志）+ 视觉工作记忆（FIFO队列），支持离线索引与按需增强</li><li>实现 <strong>故事优先推理循环</strong>：通过定位Agent、片段注入和路由器决策的迭代过程，在文本空间优先推理，仅在必要时检索像素证据</li><li>实证验证：在 <strong>Video-MME</strong> 和 <strong>InfiniBench</strong> 上达到与先前Agent方法相当的精度，同时每问题帧数减少约一个数量级</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>边缘侧离线单次字幕：使用轻量级MLLM对视频进行事件级和片段级双轨字幕，缓存为叙事索引供所有查询复用</li><li>云端故事优先推理循环：回答Agent先尝试基于事件记忆作答，定位Agent探索未访问事件，片段记忆按需注入局部细节</li><li><strong>Visual-Need Router</strong> 门控机制：对感知型问题（外观、屏幕文字、属性消歧）触发关键帧检索，对时间结构型问题跳过视觉访问以节省预算</li><li>固定容量FIFO视觉工作记忆：将检索到的关键帧限制在极小容量（如一小时视频仅16帧），确保每查询视觉成本可控</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>评估数据集：<strong>Video-MME</strong>（无字幕标准设置）、<strong>InfiniBench</strong>（时序理解、角色动作跟踪、场景转换、全局外观四项技能）</li><li>模型配置：边缘侧 <strong>Qwen3-VL-8B-Instruct</strong> 作为字幕模型，云端 <strong>Qwen3-VL-32B-Instruct</strong> 作为推理模型</li><li>推理服务：通过 <strong>vLLM</strong> 框架部署模型</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：长视频多模态问答任务</li><li>主要指标：任务准确率与每查询帧数（效率）</li><li>关键结果：在保持与先前基于Agent的方法竞争性精度的同时，将每问题平均帧数降低约一个数量级，显著减少在线视觉处理开销</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-next" href="../../papers/2609.11638/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

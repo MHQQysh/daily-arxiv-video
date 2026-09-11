@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation - Video 每日论文卡</title>
+    <meta name="description" content="论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。 通过对 Diffusion Transformers (DiTs) 内部机制的逐层分析，发现部分注意力块天然形成一种内在空间锚定图（Intrinsic Spatial Grounding Map, ISGM），能够精确定位参考主体，可作为生成过程中的内在引导信号。 基于此发现，提出双阶段内在注意力利用框架（Dual-phase Intrinsic Attention Leveraging, DIAL），在推理阶段实现无训练的保真度可控增强，在训练阶段通过强化学习锚定参考主体语义并缓解漂移。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.11507">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.11507.webp" alt="Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation</h1>
+            <div class="detail-meta">2026-09-10 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.11507" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.11507" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.11507</span></div>
+            <p class="detail-summary">论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。 通过对 Diffusion Transformers (DiTs) 内部机制的逐层分析，发现部分注意力块天然形成一种内在空间锚定图（Intrinsic Spatial Grounding Map, ISGM），能够精确定位参考主体，可作为生成过程中的内在引导信号。 基于此发现，提出双阶段内在注意力利用框架（Dual-phase Intrinsic Attention Leveraging, DIAL），在推理阶段实现无训练的保真度可控增强，在训练阶段通过强化学习锚定参考主体语义并缓解漂移。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Alibaba Group（阿里巴巴集团）：Niange Yu（通讯作者）、Biaolong Chen…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.11507/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。</p>
+  <ul class="reading-intro-points"><li>论文聚焦多主体视频生成（Subject-to-Video, S2V）中的两大关键挑战：不可控的保真强度（inflexible fidelity strength）与语义漂移（semantic drift）。</li><li>通过对 Diffusion Transformers (DiTs) 内部机制的逐层分析，发现部分注意力块天然形成一种内在空间锚定图（Intrinsic Spatial Grounding Map, ISGM），能够精确定位参考主体，可作为生成过程中的内在引导信号。</li><li>基于此发现，提出双阶段内在注意力利用框架（Dual-phase Intrinsic Attention Leveraging, DIAL），在推理阶段实现无训练的保真度可控增强，在训练阶段通过强化学习锚定参考主体语义并缓解漂移。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Alibaba Group</strong>（阿里巴巴集团）：Niange Yu（通讯作者）、Biaolong Chen、Miao Lu、Aixi Zhang、Hao Jiang、Pipei Huang</li><li><strong>Peking University</strong>（北京大学）：Ye Tian、Yunhai Tong</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文聚焦<strong>多主体视频生成（Subject-to-Video, S2V）</strong>中的两大关键挑战：<strong>不可控的保真强度（inflexible fidelity strength）</strong>与<strong>语义漂移（semantic drift）</strong>。</li><li>通过对 <strong>Diffusion Transformers (DiTs)</strong> 内部机制的逐层分析，发现部分注意力块天然形成一种<strong>内在空间锚定图（Intrinsic Spatial Grounding Map, ISGM）</strong>，能够精确定位参考主体，可作为生成过程中的内在引导信号。</li><li>基于此发现，提出<strong>双阶段内在注意力利用框架（Dual-phase Intrinsic Attention Leveraging, DIAL）</strong>，在推理阶段实现无训练的保真度可控增强，在训练阶段通过强化学习锚定参考主体语义并缓解漂移。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>发现 DiT 架构中存在一组<strong>高质量注意力块</strong>，其注意力模式构成可精确定位参考主体的 <strong>ISGM</strong>，呈现"峰值现象（peaking phenomenon）"。</li><li>提出<strong>训练免费的推理时引导机制</strong>（Phase I），通过向注意力注入可控偏置，实现对多主体保真强度的<strong>精细化、区域自适应、用户可控</strong>调节。</li><li>提出<strong>零成本偏好对构建策略</strong>（Phase II），基于 ISGM 与真实主体掩码的空间对齐度自动评分生成偏好对，并利用 <strong>Direct Preference Optimization (DPO)</strong> 强化学习微调模型。</li><li>统一框架 <strong>DIAL</strong> 在 <strong>OpenS2V-Eval</strong> 基准上达到<strong>当前最优（state-of-the-art）</strong>性能，显著提升身份一致性并支持可调的保真强度。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>ISGM 识别</strong>：对每个自注意力模块，计算视频 token 到各参考主体 token 的注意力分数矩阵 S，评估各层的空间接地精度，发现特定层呈现最强最集中的"峰值"注意信号，该信号即 ISGM。</li><li><strong>Phase I（低噪声推理引导）</strong>：在去噪后期（约最后 80% 时间步），ISGM 空间可靠且稳定，将其归一化或二值化为空间引导图，作为注意力偏置矩阵注入所有自注意力模块；每个主体拥有独立的引导强度系数 γₖ，支持逐主体独立调节，无训练开销。</li><li><strong>Phase II（高噪声锚定偏好优化）</strong>：在去噪早期，注意力噪声较大，不适合直接监督。利用不同随机种子生成去噪轨迹，以视频主体掩码与 ISGM 的空间对齐度作为评分，自动构建偏好对，采用<strong>多步 DPO</strong> 微调策略模型，锚定高噪声阶段的注意力分布。</li><li>技术基础：基于 <strong>rectified flow matching</strong> 框架和 DiT 主干，参考图像通过潜空间 token 拼接注入，文本条件经交叉注意力引入。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>训练与评估基准：<strong>OpenS2V-Eval</strong> benchmark</li><li>基线模型：<strong>Kaleido</strong>、<strong>Phantom</strong>、<strong>VACE</strong>、<strong>HunyuanCustom</strong>、<strong>MAGREF</strong>、<strong>PolyVivid</strong> 等</li><li>训练阶段：基于公开 S2V 数据集构建训练集，无人工标注偏好对</li><li>训练资源：具体 GPU/TPU 配置未在原文中详细列出</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估指标：身份一致性（identity consistency）、空间接地精度、语义漂移程度（如主体消失率、属性错误、多参考纠缠）</li><li>定量结果：DIAL 在 <strong>OpenS2V-Eval</strong> 基准上显著优于所有基线，取得<strong>当前最优性能</strong></li><li>定性结果：对比可视化显示 DIAL 有效减少主体消失、属性漂移和多参考纠缠（身份混淆）等问题</li><li>消融研究：</li></ul>
+<p> - <strong>ISGM 有效性</strong>：验证 ISGM 在保真强度控制中的关键作用，支持独立调节每个主体的保真强度</p>
+<p> - <strong>多步 DPO 迭代</strong>：增加迭代次数进一步提升稳定性与一致性</p>
+<p> - <strong>Phase II 注意力动态增强</strong>：证明高噪声阶段 RL 训练能有效锚定注意力分布，缓解语义漂移</p>
+<ul><li>额外分析（附录）：验证 ISGM 主要在后 20% 低噪声时间步上可靠；γ 提供连续可调的保真度强度控制</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.11638/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.11265/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Uncertainty DMD: Restoring Diversity in Few-Step Autoregressive Video Distillation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
