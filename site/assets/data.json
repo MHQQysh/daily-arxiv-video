@@ -124,14 +124,16 @@
     "cover_path": "covers/2609.11242/",
     "paper_image_path": "assets/paper-images/thumbs/2609.11242.webp",
     "paper_image_full_path": "assets/paper-images/2609.11242.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出了VWG-Bench（Video World Generalist Benchmark），一个覆盖9个推理维度和38个细粒度任务的全面基准测试，用于评估视频生成模型的\"think-with-video\"推理能力 设计了三层VLM-as-Judge评估协议，独立评估视频级流畅度、任务级规则遵循和样本级目标实现，揭示现有模型在逻辑推理和规则约束任务上的严重不足 提出Vid-PRE（Video Prompt Reasoner and Enhancer），一个模型无关的提示重写模块，通过强化学习训练，将推理负担从视频生成器转移到专用VLM上",
+    "research_unit": "新加坡国立大学 计算机学院（Meng Luo）",
+    "hook_text": "论文提出了VWG-Bench（Video World Generalist Benchmark），一个覆盖9个推理维度和38个细粒度任务的全面基准测试，用于评估视频生成模型的\"think-with-video\"推理能力",
     "key_points": [
-      "待生成"
+      "论文提出了VWG-Bench（Video World Generalist Benchmark），一个覆盖9个推理维度和38个细粒度任务的全面基准测试，用于评估视频生成模型的\"think-with-video\"推理能力",
+      "设计了三层VLM-as-Judge评估协议，独立评估视频级流畅度、任务级规则遵循和样本级目标实现，揭示现有模型在逻辑推理和规则约束任务上的严重不足",
+      "提出Vid-PRE（Video Prompt Reasoner and Enhancer），一个模型无关的提示重写模块，通过强化学习训练，将推理负担从视频生成器转移到专用VLM上"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -209,14 +211,16 @@
     "cover_path": "covers/2609.11900/",
     "paper_image_path": "assets/paper-images/thumbs/2609.11900.webp",
     "paper_image_full_path": "assets/paper-images/2609.11900.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文系统性地评估了视觉-语言模型（VLMs）和大型语言模型（LLMs）等基础模型在拓扑空间中进行推理和规划的能力，这是一个连接认知科学与物理结构推理的基础问题 提出了一个名为 MindTopo 的综合多模态基准测试，旨在检验模型是否真正理解“拓扑不变性”，而非仅仅依赖于表象线索 揭示当前最先进的基础模型在拓扑推理方面普遍表现不佳，即使是GPT-5也仅有44.7%的准确率，远未达到人类水平",
+    "research_unit": "作者机构包括 美国西北大学（Northwestern University）",
+    "hook_text": "论文系统性地评估了视觉-语言模型（VLMs）和大型语言模型（LLMs）等基础模型在拓扑空间中进行推理和规划的能力，这是一个连接认知科学与物理结构推理的基础问题",
     "key_points": [
-      "待生成"
+      "论文系统性地评估了视觉-语言模型（VLMs）和大型语言模型（LLMs）等基础模型在拓扑空间中进行推理和规划的能力，这是一个连接认知科学与物理结构推理的基础问题",
+      "提出了一个名为 MindTopo 的综合多模态基准测试，旨在检验模型是否真正理解“拓扑不变性”，而非仅仅依赖于表象线索",
+      "揭示当前最先进的基础模型在拓扑推理方面普遍表现不佳，即使是GPT-5也仅有44.7%的准确率，远未达到人类水平"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -236,14 +240,16 @@
     "cover_path": "covers/2609.11244/",
     "paper_image_path": "assets/paper-images/thumbs/2609.11244.webp",
     "paper_image_full_path": "assets/paper-images/2609.11244.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 OmniHallu，一个统一的幻觉检测框架，覆盖图像、视频、音频三种模态上的理解（comprehension）与生成（generation）两类任务，解决现有幻觉检测研究局限于单一模态或单一任务类型、泛化性不足的问题。 同时贡献 OmniHallu-Bench 基准数据集，包含 10,000 个带 claim 级人工标注的样本，覆盖六个跨模态任务：图像到文本（I2T）、视频到文本（V2T）、音频到文本（A2T）、文本到图像（T2I）、文本到视频（T2V）、文本到音频（T2A）。 论文采用\"分解-验证-聚合\"（decompose–verify–aggregate）的多智能体范式，并进一步提出基于偏好优化的可训练验证器，在降低专家调用成本的同时保持检测性能。",
+    "research_unit": "The University of Manchester（曼彻斯特大学）",
+    "hook_text": "论文提出 OmniHallu，一个统一的幻觉检测框架，覆盖图像、视频、音频三种模态上的理解（comprehension）与生成（generation）两类任务，解决现有幻觉检测研究局限于单一模态或单一任务类型、泛化性不足的问题。",
     "key_points": [
-      "待生成"
+      "论文提出 OmniHallu，一个统一的幻觉检测框架，覆盖图像、视频、音频三种模态上的理解（comprehension）与生成（generation）两类任务，解决现有幻觉检测研究局限于单一模态或单一任务类型、泛化性不足的问题。",
+      "同时贡献 OmniHallu-Bench 基准数据集，包含 10,000 个带 claim 级人工标注的样本，覆盖六个跨模态任务：图像到文本（I2T）、视频到文本（V2T）、音频到文本（A2T）、文本到图像（T2I）、文本到视频（T2V）、文本到音频（T2A）。",
+      "论文采用\"分解-验证-聚合\"（decompose–verify–aggregate）的多智能体范式，并进一步提出基于偏好优化的可训练验证器，在降低专家调用成本的同时保持检测性能。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 10,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
