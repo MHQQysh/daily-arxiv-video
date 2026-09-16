@@ -1,5 +1,285 @@
 [
   {
+    "date": "2026-09-15",
+    "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+    "link": "https://arxiv.org/abs/2609.17521",
+    "arxiv_id": "2609.17521",
+    "detail_path": "papers/2609.17521/",
+    "cover_path": "covers/2609.17521/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.17521.webp",
+    "paper_image_full_path": "assets/paper-images/2609.17521.webp",
+    "preview_text": "提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制 解决现有可控视频生成方法无法同时满足稀疏控制、物理基础、交互式和场景级别控制四大核心需求的问题 用户可以在生成过程中动态指定稀疏的速度增量子信号，模型自动推理出物理一致的多对象运动",
+    "research_unit": "University of Pennsylvania (宾夕法尼亚大学)",
+    "hook_text": "提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制",
+    "key_points": [
+      "提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制",
+      "解决现有可控视频生成方法无法同时满足稀疏控制、物理基础、交互式和场景级别控制四大核心需求的问题",
+      "用户可以在生成过程中动态指定稀疏的速度增量子信号，模型自动推理出物理一致的多对象运动"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-Visual Evidence in Long Videos?",
+    "link": "https://arxiv.org/abs/2609.17248",
+    "arxiv_id": "2609.17248",
+    "detail_path": "papers/2609.17248/",
+    "cover_path": "covers/2609.17248/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.17248.webp",
+    "paper_image_full_path": "assets/paper-images/2609.17248.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "DecoGS: Adaptive Static-Dynamic Decoupling of 3D Gaussians for Free-Viewpoint Video Streaming",
+    "link": "https://arxiv.org/abs/2609.17230",
+    "arxiv_id": "2609.17230",
+    "detail_path": "papers/2609.17230/",
+    "cover_path": "covers/2609.17230/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.17230.webp",
+    "paper_image_full_path": "assets/paper-images/2609.17230.webp",
+    "preview_text": "论文提出 DecoGS，一种面向流式视频的高效在线 3D 高斯训练方法，用于自由视点视频（Free-Viewpoint Video, FVV）重建。 针对现有流式方法对每一帧、每一个高斯都进行无差别更新，导致静态区域出现闪烁、漂移和计算冗余的问题，DecoGS 提出自适应的静态-动态解耦机制，仅对发生运动或光度变化的时空区域进行优化。 目标是在保证重建质量和时间一致性的同时，实现实时渲染与低开销的在线训练，无需大规模预训练。",
+    "research_unit": "University of Bonn（波恩大学）、Almetra",
+    "hook_text": "论文提出 DecoGS，一种面向流式视频的高效在线 3D 高斯训练方法，用于自由视点视频（Free-Viewpoint Video, FVV）重建。",
+    "key_points": [
+      "论文提出 DecoGS，一种面向流式视频的高效在线 3D 高斯训练方法，用于自由视点视频（Free-Viewpoint Video, FVV）重建。",
+      "针对现有流式方法对每一帧、每一个高斯都进行无差别更新，导致静态区域出现闪烁、漂移和计算冗余的问题，DecoGS 提出自适应的静态-动态解耦机制，仅对发生运动或光度变化的时空区域进行优化。",
+      "目标是在保证重建质量和时间一致性的同时，实现实时渲染与低开销的在线训练，无需大规模预训练。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Probe-VAD: Ordinal Likelihood Probing for Training-Free Video Anomaly Detection",
+    "link": "https://arxiv.org/abs/2609.17211",
+    "arxiv_id": "2609.17211",
+    "detail_path": "papers/2609.17211/",
+    "cover_path": "covers/2609.17211/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.17211.webp",
+    "paper_image_full_path": "assets/paper-images/2609.17211.webp",
+    "preview_text": "提出 Probe-VAD，一种训练自由（training-free） 的视频异常检测（VAD）框架，旨在将冻结视觉语言模型（VLM）的视觉理解转化为连续、对排序敏感的异常分数。 论文指出现有训练自由VAD方法存在两个关键瓶颈：字幕压缩造成表示瓶颈（caption-mediated pipelines）和直接数字生成造成解码瓶颈（autoregressive numerical generation），导致异常严重性区分度不足。 Probe-VAD 通过直接以视觉片段为条件、提取解码前的 YES/NO 似然偏好，并用有序严重度阈值组织这些偏好，从而绕过上述瓶颈，实现精细的异常排序。",
+    "research_unit": "南京大学（School of Intelligence Science and Technology…",
+    "hook_text": "提出 Probe-VAD，一种训练自由（training-free） 的视频异常检测（VAD）框架，旨在将冻结视觉语言模型（VLM）的视觉理解转化为连续、对排序敏感的异常分数。",
+    "key_points": [
+      "提出 Probe-VAD，一种训练自由（training-free） 的视频异常检测（VAD）框架，旨在将冻结视觉语言模型（VLM）的视觉理解转化为连续、对排序敏感的异常分数。",
+      "论文指出现有训练自由VAD方法存在两个关键瓶颈：字幕压缩造成表示瓶颈（caption-mediated pipelines）和直接数字生成造成解码瓶颈（autoregressive numerical generation），导致异常严重性区分度不足。",
+      "Probe-VAD 通过直接以视觉片段为条件、提取解码前的 YES/NO 似然偏好，并用有序严重度阈值组织这些偏好，从而绕过上述瓶颈，实现精细的异常排序。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Not Another Text Benchmark: Putting the \"Visual\" Back in Visual Question Answering for Large Video Models",
+    "link": "https://arxiv.org/abs/2609.17112",
+    "arxiv_id": "2609.17112",
+    "detail_path": "papers/2609.17112/",
+    "cover_path": "covers/2609.17112/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.17112.webp",
+    "paper_image_full_path": "assets/paper-images/2609.17112.webp",
+    "preview_text": "针对现有大视频模型视觉问答评估 exclusively 使用文本选项，无法直接评估视觉理解能力、易被语言捷径误导的问题，提出首个以视觉为评估模态的视频理解基准 基准包含三个视觉-centric 核心任务：时序帧检索、视频未来预测、因果记忆 distortion，覆盖视频理解的时序、因果、记忆三个关键维度 研究目标是揭示前沿大视频模型的视觉推理短板，验证现有模型是否存在语言捷径依赖，为后续模型改进提供方向",
+    "research_unit": "Carnegie Mellon University",
+    "hook_text": "针对现有大视频模型视觉问答评估 exclusively 使用文本选项，无法直接评估视觉理解能力、易被语言捷径误导的问题，提出首个以视觉为评估模态的视频理解基准",
+    "key_points": [
+      "针对现有大视频模型视觉问答评估 exclusively 使用文本选项，无法直接评估视觉理解能力、易被语言捷径误导的问题，提出首个以视觉为评估模态的视频理解基准",
+      "基准包含三个视觉-centric 核心任务：时序帧检索、视频未来预测、因果记忆 distortion，覆盖视频理解的时序、因果、记忆三个关键维度",
+      "研究目标是揭示前沿大视频模型的视觉推理短板，验证现有模型是否存在语言捷径依赖，为后续模型改进提供方向"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "GeoLAM: Learning Geometry-Grounded Latent Actions from Unlabeled Human Videos",
+    "link": "https://arxiv.org/abs/2609.17099",
+    "arxiv_id": "2609.17099",
+    "detail_path": "papers/2609.17099/",
+    "cover_path": "covers/2609.17099/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.17099.webp",
+    "paper_image_full_path": "assets/paper-images/2609.17099.webp",
+    "preview_text": "论文提出 GeoLAM 框架，用于从无动作标注的人类视频中学习“几何接地”（geometry-grounded）的潜在动作表示（latent action），并用于机器人操作控制 核心问题：纯视觉重建容易将操作相关运动与外观变化、相机运动相纠缠，导致潜在动作表征语义模糊；且显式手部姿态/轨迹重建受遮挡影响大、计算成本高 解决方案：结合冻结几何基础模型特征层级的未来帧重建，与训练专用的4D 几何教师（teacher）运动监督，在不依赖显式手部标注的前提下保留几何运动信息",
+    "research_unit": "清华大学（Tsinghua University）",
+    "hook_text": "论文提出 GeoLAM 框架，用于从无动作标注的人类视频中学习“几何接地”（geometry-grounded）的潜在动作表示（latent action），并用于机器人操作控制",
+    "key_points": [
+      "论文提出 GeoLAM 框架，用于从无动作标注的人类视频中学习“几何接地”（geometry-grounded）的潜在动作表示（latent action），并用于机器人操作控制",
+      "核心问题：纯视觉重建容易将操作相关运动与外观变化、相机运动相纠缠，导致潜在动作表征语义模糊；且显式手部姿态/轨迹重建受遮挡影响大、计算成本高",
+      "解决方案：结合冻结几何基础模型特征层级的未来帧重建，与训练专用的4D 几何教师（teacher）运动监督，在不依赖显式手部标注的前提下保留几何运动信息"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "High-Fidelity Video Quality Assessment with VQA-Specific Saliency",
+    "link": "https://arxiv.org/abs/2609.16946",
+    "arxiv_id": "2609.16946",
+    "detail_path": "papers/2609.16946/",
+    "cover_path": "covers/2609.16946/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.16946.webp",
+    "paper_image_full_path": "assets/paper-images/2609.16946.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "VOR-Bench: A Human Perception-Driven Benchmark for Video Object Removal",
+    "link": "https://arxiv.org/abs/2609.16878",
+    "arxiv_id": "2609.16878",
+    "detail_path": "papers/2609.16878/",
+    "cover_path": "covers/2609.16878/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.16878.webp",
+    "paper_image_full_path": "assets/paper-images/2609.16878.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "tcnerv:dual-domain temporal context modeling for implicit neural video compression",
+    "link": "https://arxiv.org/abs/2609.16870",
+    "arxiv_id": "2609.16870",
+    "detail_path": "papers/2609.16870/",
+    "cover_path": "covers/2609.16870/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.16870.webp",
+    "paper_image_full_path": "assets/paper-images/2609.16870.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "title": "Seeing What Matters: Visual Cue Guided Video Planning for Generalizable Robot Navigation",
+    "link": "https://arxiv.org/abs/2609.16737",
+    "arxiv_id": "2609.16737",
+    "detail_path": "papers/2609.16737/",
+    "cover_path": "covers/2609.16737/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.16737.webp",
+    "paper_image_full_path": "assets/paper-images/2609.16737.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-10",
     "title": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",
     "link": "https://arxiv.org/abs/2609.11899",

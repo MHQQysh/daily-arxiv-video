@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control - Video 每日论文卡</title>
+    <meta name="description" content="提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制 解决现有可控视频生成方法无法同时满足稀疏控制、物理基础、交互式和场景级别控制四大核心需求的问题 用户可以在生成过程中动态指定稀疏的速度增量子信号，模型自动推理出物理一致的多对象运动" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.17521">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.17521.webp" alt="PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control</h1>
+            <div class="detail-meta">2026-09-15 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.17521" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.17521" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.17521</span></div>
+            <p class="detail-summary">提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制 解决现有可控视频生成方法无法同时满足稀疏控制、物理基础、交互式和场景级别控制四大核心需求的问题 用户可以在生成过程中动态指定稀疏的速度增量子信号，模型自动推理出物理一致的多对象运动</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">University of Pennsylvania (宾夕法尼亚大学)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.17521/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制</p>
+  <ul class="reading-intro-points"><li>提出 PhysStream，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制</li><li>解决现有可控视频生成方法无法同时满足稀疏控制、物理基础、交互式和场景级别控制四大核心需求的问题</li><li>用户可以在生成过程中动态指定稀疏的速度增量子信号，模型自动推理出物理一致的多对象运动</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>University of Pennsylvania</strong> (宾夕法尼亚大学)</li><li><strong>Snap Inc.</strong></li><li><strong>KAUST</strong> (阿卜杜拉国王科技大学)</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>PhysStream</strong>，一个自回归图像到视频合成模型，专注于实现物理基础的、交互式的多对象运动控制</li><li>解决现有可控视频生成方法无法同时满足<strong>稀疏控制</strong>、<strong>物理基础</strong>、<strong>交互式</strong>和<strong>场景级别</strong>控制四大核心需求的问题</li><li>用户可以在生成过程中动态指定稀疏的速度增量子信号，模型自动推理出物理一致的多对象运动</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出首个能够在多对象桌面刚体场景中实现<strong>直接、端到端、场景级物理基础交互式控制</strong>的视频生成方法，无需外部物理模拟器</li><li>引入<strong>结构化场景记忆</strong>作为新的条件机制，包括从已生成帧在线更新的<strong>位置图</strong>和<strong>对象跟踪图</strong>，有效提升几何一致性和物理合理性</li><li>设计<strong>两阶段训练策略</strong>：先通过双向模型学习运动控制信号，再训练因果自回归模型学习场景记忆和因果注意力</li><li>筛选并公开了一个包含<strong>100k合成室内场景视频</strong>的数据集，涵盖复杂多对象刚体运动、碰撞和多帧速度扰动</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于预训练视频扩散模型 <strong>Wan2.2-TI2V-5B</strong> 进行微调</li><li><strong>两阶段训练</strong>：阶段1使用双向注意力学习速度增量控制信号；阶段2转换为自回归架构并引入结构化场景记忆</li><li><strong>结构化场景记忆</strong>包括通过单目深度估计获得的位置图，以及通过实例分割和在线跟踪生成的对象跟踪图</li><li>所有条件通过<strong>移位通道连接</strong>注入，结合因果注意力确保每一帧只看到来自历史帧的条件，避免信息泄露</li><li>推理时支持交互式流式生成：用户可在任意时刻指定对象速度，模型基于结构化记忆继续生成后续帧</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>自建<strong>100k合成室内场景视频</strong>数据集，基于刚体物理模拟生成</li><li>包含1169个多样化的3D对象，93个高清室内HDR环境贴图</li><li>每段视频包含97帧，模拟复杂的多对象碰撞和速度扰动</li><li>模型参数量约<strong>50亿</strong>，基于Wan2.2-TI2V-5B预训练权重</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>合成数据评估</strong>：在运动分布距离(FVMD)上降低33%，轨迹误差(ADE)降低12%，优于最强基线</li><li><strong>真实场景评估</strong>：在MVControl基准上，人类评估者在超过85%的比较中更偏好PhysStream的结果</li><li><strong>长视频生成</strong>：通过滚动记忆机制可生成超出训练时间长度的物理一致视频</li><li><strong>消融实验</strong>验证了结构化场景记忆和两阶段训练策略各自的贡献</li><li>推理时可通过KV缓存实现高效流式生成，速度主要受外部跟踪模型限制</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-next" href="../../papers/2609.17248/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-Visual Evidence in Long Videos?</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
