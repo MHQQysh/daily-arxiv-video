@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Track, Articulate, Act: Generating Articulation from Casual Human Videos - Video 每日论文卡</title>
+    <meta name="description" content="提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示 核心洞察是稠密 3D 点轨迹是 embodiment-agnostic 的关节线索：固定连杆上的点近似静止，运动连杆上的点遵循一致的旋转（revolute）或平移（prismatic）运动 方法以模块化方式复用预训练视觉模型（分割、单图 3D 重建、单目几何、稠密跟踪、手部重建），通过显式几何推理与优化连接各模型输出，无需训练关节专用模型" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.19119">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.19119.webp" alt="Track, Articulate, Act: Generating Articulation from Casual Human Videos" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Track, Articulate, Act: Generating Articulation from Casual Human Videos</h1>
+            <div class="detail-meta">2026-09-16 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.19119" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.19119" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.19119</span></div>
+            <p class="detail-summary">提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示 核心洞察是稠密 3D 点轨迹是 embodiment-agnostic 的关节线索：固定连杆上的点近似静止，运动连杆上的点遵循一致的旋转（revolute）或平移（prismatic）运动 方法以模块化方式复用预训练视觉模型（分割、单图 3D 重建、单目几何、稠密跟踪、手部重建），通过显式几何推理与优化连接各模型输出，无需训练关节专用模型</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">论文作者为 Jiaming Zhang 和 Homanga Bharadhwaj；HTML 原文未明确…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.19119/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示</p>
+  <ul class="reading-intro-points"><li>提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示</li><li>核心洞察是稠密 3D 点轨迹是 embodiment-agnostic 的关节线索：固定连杆上的点近似静止，运动连杆上的点遵循一致的旋转（revolute）或平移（prismatic）运动</li><li>方法以模块化方式复用预训练视觉模型（分割、单图 3D 重建、单目几何、稠密跟踪、手部重建），通过显式几何推理与优化连接各模型输出，无需训练关节专用模型</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li>论文作者为 <strong>Jiaming Zhang</strong> 和 <strong>Homanga Bharadhwaj</strong>；HTML 原文未明确标注所属机构（项目主页为 track-articulate-act.github.io）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出一个 <strong>real-to-sim 框架</strong>，将随意拍摄的单目 RGB 人类操作视频，重建为<strong>仿真就绪的关节物体模型</strong>（static link、moving link、joint 及状态轨迹）以及对齐的<strong>手-物交互</strong>，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示</li><li>核心洞察是<strong>稠密 3D 点轨迹是 embodiment-agnostic 的关节线索</strong>：固定连杆上的点近似静止，运动连杆上的点遵循一致的旋转（revolute）或平移（prismatic）运动</li><li>方法以<strong>模块化方式</strong>复用预训练视觉模型（分割、单图 3D 重建、单目几何、稠密跟踪、手部重建），通过显式几何推理与优化连接各模型输出，无需训练关节专用模型</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出<strong>模块化 real-to-sim 框架</strong>，将随意单目人类视频转换为仿真就绪的关节物体与对齐的手-物交互，直接复用可替换的通用预训练模型</li><li>提出<strong>运动驱动（motion-grounded）的关节推断优化</strong>：通过静态连杆注册多帧重建网格，对 mesh 锚定的 3D 点轨迹拟合 revolute/prismatic 关节假设，并用 track 与 silhouette 重投影目标联合精修关节参数与状态轨迹</li><li>支持<strong>物理仿真中的交互回放</strong>：构建显式 link 与碰撞几何，将恢复的 3D 手部轨迹与关节资产对齐，并在 <strong>MuJoCo</strong> 中重定向为仿真手的开环运动，由接触驱动被动关节</li><li>设计了 PCA 基的天真关节估计作为 revolute/prismatic 二义性（无限远旋转等同平移）的 tie-breaker</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>流程分为五个阶段：<strong>4.1 物体掩码与多帧重建</strong>（SAM 3 跟踪掩码、Depth Anything 3 估计深度与相机、SAM 3D Objects 重建网格、SegviGen 分割 link）、<strong>4.2 度量 3D 点轨迹</strong>（TrackCraft3R 稠密跟踪 + 网格锚定深度校正）、<strong>4.3 从点轨迹拟合关节假设</strong>（RANSAC 多假设、鲁棒损失、prismatic/revolute 候选）、<strong>4.4 重投影精修</strong>（用 IoU 与网格回投选择并精化关节）、<strong>4.5 手部对齐与重定向</strong>（HaWoR 手部重建、解剖尺度归一化、深度/尺度对齐、MuJoCo 位置执行器控制接触点）</li><li>创新点在于<strong>用显式几何推理连接通用预训练模型</strong>：同一单目几何用于网格注册与轨迹锚定，保证尺度/坐标系一致；关节选择由 track 残差与 silhouette 一致性共同决定</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>真实视频：<strong>8 个 casual RGB 视频</strong>，覆盖笔记本电脑、铰接容器、烘干机、订书机、显示器、打孔器、办公椅等，每个视频仅含一个主导关节交互</li><li>仿真视频：从 <strong>PARIS 数据集</strong>选取 10 个带已知 revolute/prismatic 关节的物体，每个关节用 7 种不同运动范围与初始姿态组合驱动</li><li>模型：<strong>SAM 3</strong>、<strong>SAM 3D Objects</strong>、<strong>Depth Anything 3 (DA3)</strong>、<strong>TrackCraft3R</strong>、<strong>SegviGen</strong>、<strong>HaWoR</strong>；物理仿真使用 <strong>MuJoCo</strong></li><li>训练资源：框架为模块化组合，无需训练关节专用模型；原文未给出具体 GPU/参数量信息</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估设置：仿真视频中使用 ground-truth 深度、点轨迹与分割掩码，隔离评估关节优化模块；对比 <strong>VideoArtGS</strong>、<strong>Articulat3D</strong>、<strong>Articulate-Anything</strong>，并在有/无 orbit 视角两种条件下测试</li><li>主要指标：<strong>关节类型准确率（Type acc.）</strong>、<strong>轴/方向角误差（°）</strong>、<strong>轴位置误差（mm）</strong></li><li>关键结果（无 orbit 视角，仿真视频）：<strong>Ours 取得 0.97 类型准确率、1.96±0.45° 轴误差、3.93±1.01 mm 位置误差</strong>，显著优于基线；VideoArtGS 在无 orbit 下完全失败（n/a），Articulat3D 退化为 0.85 准确率、6.15±9.03°、7.82±8.16 mm；Articulate-Anything 仅为 0.66 准确率、30.66±25.92°、79.30±125.58 mm</li><li>真实视频上，框架能恢复合理的 link 网格与关节（revolute 和 prismatic 均适用），基线在违反 orbit 假设的真实视频上常无法得到可用关节物体；有 orbit 视角时基线为上限，本文关节参数略逊但绝对误差仍小（相对数十厘米尺度的网格）</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.19137/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.18836/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

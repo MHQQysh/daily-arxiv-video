@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models - Video 每日论文卡</title>
+    <meta name="description" content="针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。 现有方法（加速度计、肌电图、标记点动作捕捉等）多为侵入性或需要昂贵专用设备；基于 RGB 的已有方法灵敏度不足且依赖俯视视角，难以捕捉抗重力（垂直）方向的细微震颤。 本文利用侧视双视角 RGB 视频、分割预处理、动物姿态估计和自定义震颤评分模块，解决了自由活动小鼠中区分自主运动与非自主震颤的难题。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.18753">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.18753.webp" alt="Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models</h1>
+            <div class="detail-meta">2026-09-16 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.18753" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.18753" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.18753</span></div>
+            <p class="detail-summary">针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。 现有方法（加速度计、肌电图、标记点动作捕捉等）多为侵入性或需要昂贵专用设备；基于 RGB 的已有方法灵敏度不足且依赖俯视视角，难以捕捉抗重力（垂直）方向的细微震颤。 本文利用侧视双视角 RGB 视频、分割预处理、动物姿态估计和自定义震颤评分模块，解决了自由活动小鼠中区分自主运动与非自主震颤的难题。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Keio University（庆应义塾大学），日本横滨</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.18753/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。</p>
+  <ul class="reading-intro-points"><li>针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。</li><li>现有方法（加速度计、肌电图、标记点动作捕捉等）多为侵入性或需要昂贵专用设备；基于 RGB 的已有方法灵敏度不足且依赖俯视视角，难以捕捉抗重力（垂直）方向的细微震颤。</li><li>本文利用侧视双视角 RGB 视频、分割预处理、动物姿态估计和自定义震颤评分模块，解决了自由活动小鼠中区分自主运动与非自主震颤的难题。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Keio University</strong>（庆应义塾大学），日本横滨</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种<strong>仅使用常规 RGB 摄像机</strong>即可实现小鼠震颤严重程度客观量化的非侵入式框架。</li><li>现有方法（加速度计、肌电图、标记点动作捕捉等）多为侵入性或需要昂贵专用设备；基于 RGB 的已有方法灵敏度不足且依赖俯视视角，难以捕捉抗重力（垂直）方向的细微震颤。</li><li>本文利用<strong>侧视双视角 RGB 视频</strong>、分割预处理、动物姿态估计和自定义震颤评分模块，解决了自由活动小鼠中区分自主运动与非自主震颤的难题。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出一种<strong>新型非侵入式框架</strong>，仅使用侧视 RGB 视频即可高精度量化小鼠震颤严重程度。</li><li>构建了<strong>原创数据集</strong>：包含与加速度计数据同步的 RGB 视频，支持对视频震颤评估进行严格的定量验证。</li><li>提出<strong>Move Detection Module（移动检测模块）</strong>：通过累积位移阈值过滤自主运动片段，防止将主动运动误判为震颤。</li><li>提出<strong>Tremor Score Estimation Module（震颤评分模块）</strong>：基于峰值显著性（prominence）分析垂直方向位移，灵敏量化微小振荡。</li><li>采用<strong>多视角选择策略</strong>与 <strong>SAM 2 分割预处理</strong>，有效应对自遮挡和复杂背景干扰。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用两个水平视角摄像机（正面/背面）同步采集自由活动小鼠视频，分辨率 1280×720 @ 30fps。</li><li>通过<strong>SAM 2</strong> 进行分割预处理提取小鼠区域，再使用 <strong>DeepLabCut（ResNet-50 骨干）</strong> 提取头部关键点轨迹。</li><li>将轨迹划分为 3 秒非重叠片段，按平均跟踪置信度选择较优视角。</li><li>Move Detection Module 计算片段内帧间累积欧氏距离，超过阈值（400 像素，约 80 mm）的片段视为自主运动并剔除。</li><li>Tremor Score Estimation Module 对保留的静止片段，计算 Y 坐标序列中局部峰值的显著性（prominence），统计显著性超过阈值（τ=1.0 像素，约 0.2 mm）的峰值数量作为全局震颤评分。</li><li>标定方法：使用已知方格尺寸的棋盘格进行像素-毫米标定，测量平面处标度因子为 0.2 mm/pixel。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>原创数据集：<strong>56 个 RGB 视频序列</strong>（28 只野生型小鼠的前/后双视角配对视频）。</li><li>药物分组：根据 <strong>harmaline 剂量</strong>分为 4 组——0 mg/kg（生理盐水，n=6）、5 mg/kg（n=8）、10 mg/kg（n=7）、20 mg/kg（n=7）。</li><li>小鼠置于自制悬挂平台上，分析给药后 2.5 分钟起的 5 分钟活跃震颤期。</li><li>地面真值：无线三轴加速度计（<strong>MVP-RF8-S-V170，MicroStone Co., Ltd.</strong>）附于平台，以峰值功率谱密度（PSD）作为参考。</li><li>训练资源：DeepLabCut 使用 ResNet-50 骨干，在 480 帧（24 个视频各手工标注 20 帧）上训练。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：以加速度计信号的<strong>峰值 PSD</strong> 作为震颤强度参考，计算视频震颤评分与 PSD 之间的相关系数。</li><li>对比基线：</li></ul>
+<p> - <strong>Ni et al. [16]</strong>（基于运动速度的 RGB 方法）：相关系数 <strong>r=-0.27</strong>，因累积位移易被运动噪声主导且缺乏细微震颤灵敏度。</p>
+<p> - <strong>人工主观评分</strong>（基于 Zhang et al. 临床评分标准）：相关系数 <strong>r=0.82</strong>，但耗时且离散粗粒度。</p>
+<p> - <strong>本文方法</strong>：相关系数 <strong>r=0.86</strong>，优于人工评分且完全自动化。</p>
+<ul><li>消融实验：</li></ul>
+<p> - 去除分割预处理：r 降至 <strong>0.75</strong></p>
+<p> - 去除 Move Detection Module：r 降至 <strong>0.78</strong></p>
+<p> - 去除多视角选择策略：r 降至 <strong>0.82</strong></p>
+<ul><li>超参数敏感性分析：在多种移动阈值和显著性阈值设置下，相关系数稳定保持在 <strong>0.80 以上</strong>。</li><li>药理学验证：单因素方差分析显示 harmaline 剂量对震颤严重程度有显著主效应（p<0.05），10 和 20 mg/kg 组显著更高；本文视频评分成功复现剂量依赖性趋势，验证了在药物疗效评估中的实用性。</li><li>抗重力（垂直）震颤分析：侧视配置可清晰观察到小鼠震颤时的节律性头部垂直振荡，这是传统俯视视角无法捕获的。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.18836/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.18667/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Video-Based Markerless Motion Capture for Clinical and Rehabilitation Biomechanics: A PRISMA-ScR Scoping Review of Validated Architectures, Clinical Readiness, and Emerging Methods</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

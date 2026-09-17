@@ -1,5 +1,287 @@
 [
   {
+    "date": "2026-09-16",
+    "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+    "link": "https://arxiv.org/abs/2609.19137",
+    "arxiv_id": "2609.19137",
+    "detail_path": "papers/2609.19137/",
+    "cover_path": "covers/2609.19137/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.19137.webp",
+    "paper_image_full_path": "assets/paper-images/2609.19137.webp",
+    "preview_text": "针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架 研究目标是从结构化自然语言任务提示出发，自动生成带时变力曲线的操作轨迹，实现真实机器人零样本接触丰富任务执行，同时搭建自动化力感知数据生成引擎用于策略训练 核心解决无需物理力传感器演示、无需仿真环境，即可获得接触丰富任务所需力信息的痛点",
+    "research_unit": "所有作者均隶属于美国GRASP Lab, University of Pennsylvania",
+    "hook_text": "针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架",
+    "key_points": [
+      "针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架",
+      "研究目标是从结构化自然语言任务提示出发，自动生成带时变力曲线的操作轨迹，实现真实机器人零样本接触丰富任务执行，同时搭建自动化力感知数据生成引擎用于策略训练",
+      "核心解决无需物理力传感器演示、无需仿真环境，即可获得接触丰富任务所需力信息的痛点"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Track, Articulate, Act: Generating Articulation from Casual Human Videos",
+    "link": "https://arxiv.org/abs/2609.19119",
+    "arxiv_id": "2609.19119",
+    "detail_path": "papers/2609.19119/",
+    "cover_path": "covers/2609.19119/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.19119.webp",
+    "paper_image_full_path": "assets/paper-images/2609.19119.webp",
+    "preview_text": "提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示 核心洞察是稠密 3D 点轨迹是 embodiment-agnostic 的关节线索：固定连杆上的点近似静止，运动连杆上的点遵循一致的旋转（revolute）或平移（prismatic）运动 方法以模块化方式复用预训练视觉模型（分割、单图 3D 重建、单目几何、稠密跟踪、手部重建），通过显式几何推理与优化连接各模型输出，无需训练关节专用模型",
+    "research_unit": "论文作者为 Jiaming Zhang 和 Homanga Bharadhwaj；HTML 原文未明确…",
+    "hook_text": "提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示",
+    "key_points": [
+      "提出一个 real-to-sim 框架，将随意拍摄的单目 RGB 人类操作视频，重建为仿真就绪的关节物体模型（static link、moving link、joint 及状态轨迹）以及对齐的手-物交互，无需 RGB-D、多视角输入、先验扫描、人工指定关节或机器人演示",
+      "核心洞察是稠密 3D 点轨迹是 embodiment-agnostic 的关节线索：固定连杆上的点近似静止，运动连杆上的点遵循一致的旋转（revolute）或平移（prismatic）运动",
+      "方法以模块化方式复用预训练视觉模型（分割、单图 3D 重建、单目几何、稠密跟踪、手部重建），通过显式几何推理与优化连接各模型输出，无需训练关节专用模型"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
+    "link": "https://arxiv.org/abs/2609.18836",
+    "arxiv_id": "2609.18836",
+    "detail_path": "papers/2609.18836/",
+    "cover_path": "covers/2609.18836/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18836.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18836.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models",
+    "link": "https://arxiv.org/abs/2609.18753",
+    "arxiv_id": "2609.18753",
+    "detail_path": "papers/2609.18753/",
+    "cover_path": "covers/2609.18753/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18753.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18753.webp",
+    "preview_text": "针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。 现有方法（加速度计、肌电图、标记点动作捕捉等）多为侵入性或需要昂贵专用设备；基于 RGB 的已有方法灵敏度不足且依赖俯视视角，难以捕捉抗重力（垂直）方向的细微震颤。 本文利用侧视双视角 RGB 视频、分割预处理、动物姿态估计和自定义震颤评分模块，解决了自由活动小鼠中区分自主运动与非自主震颤的难题。",
+    "research_unit": "Keio University（庆应义塾大学），日本横滨",
+    "hook_text": "针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。",
+    "key_points": [
+      "针对帕金森病等神经疾病中病理性震颤的定量评估需求，提出一种仅使用常规 RGB 摄像机即可实现小鼠震颤严重程度客观量化的非侵入式框架。",
+      "现有方法（加速度计、肌电图、标记点动作捕捉等）多为侵入性或需要昂贵专用设备；基于 RGB 的已有方法灵敏度不足且依赖俯视视角，难以捕捉抗重力（垂直）方向的细微震颤。",
+      "本文利用侧视双视角 RGB 视频、分割预处理、动物姿态估计和自定义震颤评分模块，解决了自由活动小鼠中区分自主运动与非自主震颤的难题。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Video-Based Markerless Motion Capture for Clinical and Rehabilitation Biomechanics: A PRISMA-ScR Scoping Review of Validated Architectures, Clinical Readiness, and Emerging Methods",
+    "link": "https://arxiv.org/abs/2609.18667",
+    "arxiv_id": "2609.18667",
+    "detail_path": "papers/2609.18667/",
+    "cover_path": "covers/2609.18667/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18667.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18667.webp",
+    "preview_text": "本文是一篇 PRISMA-ScR 范围综述（Scoping Review），系统评估基于视频的无标记动作捕捉技术在临床与康复生物力学中的应用现状，重点考察已验证架构的临床可接受性。 论文采用双层级（dual-tier）设计：主语料库涵盖已发表、经过验证的生物力学研究；补充语料库涵盖新兴计算机视觉研究（用于定性对照分析）。 核心问题在于：无标记运动捕捉管线是否已能在临床层面替代传统标记点光电系统（optoelectronic systems），尤其在 老年人群、病理人群、非矢状面运动和动力学 等康复需求最迫切的场景中。",
+    "research_unit": "Université Côte d'Azur（法国蔚蓝海岸大学），涉及 LAMHESS 实验室",
+    "hook_text": "本文是一篇 PRISMA-ScR 范围综述（Scoping Review），系统评估基于视频的无标记动作捕捉技术在临床与康复生物力学中的应用现状，重点考察已验证架构的临床可接受性。",
+    "key_points": [
+      "本文是一篇 PRISMA-ScR 范围综述（Scoping Review），系统评估基于视频的无标记动作捕捉技术在临床与康复生物力学中的应用现状，重点考察已验证架构的临床可接受性。",
+      "论文采用双层级（dual-tier）设计：主语料库涵盖已发表、经过验证的生物力学研究；补充语料库涵盖新兴计算机视觉研究（用于定性对照分析）。",
+      "核心问题在于：无标记运动捕捉管线是否已能在临床层面替代传统标记点光电系统（optoelectronic systems），尤其在 老年人群、病理人群、非矢状面运动和动力学 等康复需求最迫切的场景中。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "STUNet-Fusion: Spatiotemporal Needle-Tip Localization in Ultrasound Video via Multi-Channel Motion Fusion",
+    "link": "https://arxiv.org/abs/2609.18546",
+    "arxiv_id": "2609.18546",
+    "detail_path": "papers/2609.18546/",
+    "cover_path": "covers/2609.18546/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18546.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18546.webp",
+    "preview_text": "提出 STUNet-Fusion，一种用于超声视频中针尖定位的时空融合框架 针对针尖在超声图像中可能出现的弱显示、不连续或部分不可见等问题，结合静态外观与运动信息提升定位鲁棒性 通过三通道输入表示（灰度外观、网格运动特征、帧间差分）融合时空信息",
+    "research_unit": "National Taiwan University of Science and Technolog…",
+    "hook_text": "提出 STUNet-Fusion，一种用于超声视频中针尖定位的时空融合框架",
+    "key_points": [
+      "提出 STUNet-Fusion，一种用于超声视频中针尖定位的时空融合框架",
+      "针对针尖在超声图像中可能出现的弱显示、不连续或部分不可见等问题，结合静态外观与运动信息提升定位鲁棒性",
+      "通过三通道输入表示（灰度外观、网格运动特征、帧间差分）融合时空信息"
+    ],
+    "reading_minutes": 3,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection",
+    "link": "https://arxiv.org/abs/2609.18540",
+    "arxiv_id": "2609.18540",
+    "detail_path": "papers/2609.18540/",
+    "cover_path": "covers/2609.18540/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18540.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18540.webp",
+    "preview_text": "论文提出 SVMemAgent（Streaming Video Memory Agent），解决严格在线流式视频场景下的关键帧选择问题：视频帧逐帧到达、总时长未知、选择时无法访问用户查询和未来帧。 核心思路是维护一个紧凑且有代表性的 SVMem（Streaming Video Memory），由代理在每个时间步决定丢弃当前帧或用其替换某一记忆槽，从而在查询到达前持续更新记忆。 该工作将流式帧选择建模为强化学习问题，通过 GRPO 与任务驱动奖励训练代理，使其在推理时无需查询信息也能保留对下游 VideoQA 通用有用的帧。",
+    "research_unit": "Korea University（高丽大学，首尔，韩国）",
+    "hook_text": "论文提出 SVMemAgent（Streaming Video Memory Agent），解决严格在线流式视频场景下的关键帧选择问题：视频帧逐帧到达、总时长未知、选择时无法访问用户查询和未来帧。",
+    "key_points": [
+      "论文提出 SVMemAgent（Streaming Video Memory Agent），解决严格在线流式视频场景下的关键帧选择问题：视频帧逐帧到达、总时长未知、选择时无法访问用户查询和未来帧。",
+      "核心思路是维护一个紧凑且有代表性的 SVMem（Streaming Video Memory），由代理在每个时间步决定丢弃当前帧或用其替换某一记忆槽，从而在查询到达前持续更新记忆。",
+      "该工作将流式帧选择建模为强化学习问题，通过 GRPO 与任务驱动奖励训练代理，使其在推理时无需查询信息也能保留对下游 VideoQA 通用有用的帧。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "Divide and Conquer: Mixture-of-Bottleneck Experts in Informative Ordinal Space for Video-based Multimodal Sentiment Analysis",
+    "link": "https://arxiv.org/abs/2609.18470",
+    "arxiv_id": "2609.18470",
+    "detail_path": "papers/2609.18470/",
+    "cover_path": "covers/2609.18470/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18470.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18470.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "MSR: Multiple Subject Reference for Video Generation",
+    "link": "https://arxiv.org/abs/2609.18393",
+    "arxiv_id": "2609.18393",
+    "detail_path": "papers/2609.18393/",
+    "cover_path": "covers/2609.18393/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18393.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18393.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "title": "vidax: A Unified JAX Framework for Video Generative Models on Accelerator Meshes",
+    "link": "https://arxiv.org/abs/2609.18077",
+    "arxiv_id": "2609.18077",
+    "detail_path": "papers/2609.18077/",
+    "cover_path": "covers/2609.18077/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.18077.webp",
+    "paper_image_full_path": "assets/paper-images/2609.18077.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-15",
     "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
     "link": "https://arxiv.org/abs/2609.17521",

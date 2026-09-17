@@ -11711,5 +11711,551 @@
     "inside_figure": true,
     "width": 631,
     "height": 372
+  },
+  "2609.18546": {
+    "title": "STUNet-Fusion: Spatiotemporal Needle-Tip Localization in Ultrasound Video via Multi-Channel Motion Fusion",
+    "abs_url": "https://arxiv.org/abs/2609.18546",
+    "html_url": "https://arxiv.org/html/2609.18546v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.18546v1/STUNet_Fusion_Architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18546v1/input.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 304,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18546v1/input3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 304,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18546v1/input2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 304,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18546v1/output_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 82,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.18546.webp",
+    "image_url": "https://arxiv.org/html/2609.18546v1/STUNet_Fusion_Architecture.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 467,
+    "height": 263
+  },
+  "2609.18836": {
+    "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
+    "abs_url": "https://arxiv.org/abs/2609.18836",
+    "html_url": "https://arxiv.org/html/2609.18836v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.18836v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 644,
+        "height": 367,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18836v1/qual_e2e.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 449,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18836v1/case_adv.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 352,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18836v1/real_panel.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 785,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18836v1/hero_figure.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 658,
+        "height": 279,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.18836.webp",
+    "image_url": "https://arxiv.org/html/2609.18836v1/overview.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 644,
+    "height": 367
+  },
+  "2609.18470": {
+    "title": "Divide and Conquer: Mixture-of-Bottleneck Experts in Informative Ordinal Space for Video-based Multimodal Sentiment Analysis",
+    "abs_url": "https://arxiv.org/abs/2609.18470",
+    "html_url": "https://arxiv.org/html/2609.18470v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.18470v1/Figure_Framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 707,
+        "height": 396,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18470v1/exp/shared_specific_test.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 960,
+        "height": 480,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18470v1/exp/fusion_weight_test.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 1080,
+        "height": 540,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18470v1/Figure_Intro.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 393,
+        "height": 180,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18470v1/exp/PIBE_train_Lp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 135,
+        "height": 84,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.18470.webp",
+    "image_url": "https://arxiv.org/html/2609.18470v1/Figure_Framework.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 707,
+    "height": 396
+  },
+  "2609.19137": {
+    "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+    "abs_url": "https://arxiv.org/abs/2609.19137",
+    "html_url": "https://arxiv.org/html/2609.19137v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.19137v1/concept_v5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 522,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19137v1/figs/experiment/task_frames.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19137v1/figs/task_setups/task_setup_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 404,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19137v1/pipeline_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 178,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.19137.webp",
+    "image_url": "https://arxiv.org/html/2609.19137v1/concept_v5.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 452,
+    "height": 522
+  },
+  "2609.19119": {
+    "title": "Track, Articulate, Act: Generating Articulation from Casual Human Videos",
+    "abs_url": "https://arxiv.org/abs/2609.19119",
+    "html_url": "https://arxiv.org/html/2609.19119v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.19119v1/appendix.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 497,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19119v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 387,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19119v1/figures/method.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 239,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19119v1/figures/qual_results_real.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 370,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19119v1/qual_results_sim.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 210,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.19119.webp",
+    "image_url": "https://arxiv.org/html/2609.19119v1/appendix.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 497
+  },
+  "2609.18753": {
+    "title": "Toward Markerless Video-based Tremor Analysis: Objective Quantification of Pathological Tremor in Mouse Preclinical Models",
+    "abs_url": "https://arxiv.org/abs/2609.18753",
+    "html_url": "https://arxiv.org/html/2609.18753v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.18753v1/fig/workflow.drawio.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 216,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18753v1/zu_0227_cropped-4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18753v1/zu_0227_cropped-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18753v1/zu_0227_cropped-3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18753v1/fig/qa_final2.drawio.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 72,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.18753.webp",
+    "image_url": "https://arxiv.org/html/2609.18753v1/fig/workflow.drawio.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 216
+  },
+  "2609.18540": {
+    "title": "SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection",
+    "abs_url": "https://arxiv.org/abs/2609.18540",
+    "html_url": "https://arxiv.org/html/2609.18540v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.18540v1/intro-1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 240,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.18540v1/intro-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 209,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/Figures/main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 178,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/Figures/three.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 149,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.18540.webp",
+    "image_url": "https://arxiv.org/html/2609.18540v1/intro-1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 240
+  },
+  "2609.18393": {
+    "title": "MSR: Multiple Subject Reference for Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.18393",
+    "html_url": "",
+    "path": "assets/paper-images/2609.18393.webp",
+    "image_url": "https://arxiv.org/pdf/2609.18393",
+    "source": "pdf:first-page",
+    "score": 55,
+    "content_type": "image/png",
+    "inside_figure": false,
+    "width": 1224,
+    "height": 1584
+  },
+  "2609.18077": {
+    "title": "vidax: A Unified JAX Framework for Video Generative Models on Accelerator Meshes",
+    "abs_url": "https://arxiv.org/abs/2609.18077",
+    "html_url": "https://arxiv.org/html/2609.18077v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.18077v1/qualitative_samples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 267,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "",
+        "classes": "ds-announcement-glyph",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2609.18077.webp",
+    "image_url": "https://arxiv.org/html/2609.18077v1/qualitative_samples.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 267
+  },
+  "2609.18667": {
+    "title": "Video-Based Markerless Motion Capture for Clinical and Rehabilitation Biomechanics: A PRISMA-ScR Scoping Review of Validated Architectures, Clinical Readiness, and Emerging Methods",
+    "abs_url": "https://arxiv.org/abs/2609.18667",
+    "html_url": "",
+    "path": "assets/paper-images/2609.18667.webp",
+    "image_url": "https://arxiv.org/pdf/2609.18667",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 1715,
+    "height": 2053
   }
 }

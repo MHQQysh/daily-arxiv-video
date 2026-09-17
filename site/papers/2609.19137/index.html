@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation - Video 每日论文卡</title>
+    <meta name="description" content="针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架 研究目标是从结构化自然语言任务提示出发，自动生成带时变力曲线的操作轨迹，实现真实机器人零样本接触丰富任务执行，同时搭建自动化力感知数据生成引擎用于策略训练 核心解决无需物理力传感器演示、无需仿真环境，即可获得接触丰富任务所需力信息的痛点" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.19137">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.19137.webp" alt="Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation</h1>
+            <div class="detail-meta">2026-09-16 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.19137" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.19137" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.19137</span></div>
+            <p class="detail-summary">针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架 研究目标是从结构化自然语言任务提示出发，自动生成带时变力曲线的操作轨迹，实现真实机器人零样本接触丰富任务执行，同时搭建自动化力感知数据生成引擎用于策略训练 核心解决无需物理力传感器演示、无需仿真环境，即可获得接触丰富任务所需力信息的痛点</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">所有作者均隶属于美国GRASP Lab, University of Pennsylvania</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.19137/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架</p>
+  <ul class="reading-intro-points"><li>针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架</li><li>研究目标是从结构化自然语言任务提示出发，自动生成带时变力曲线的操作轨迹，实现真实机器人零样本接触丰富任务执行，同时搭建自动化力感知数据生成引擎用于策略训练</li><li>核心解决无需物理力传感器演示、无需仿真环境，即可获得接触丰富任务所需力信息的痛点</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li>所有作者均隶属于美国<strong>GRASP Lab, University of Pennsylvania</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>针对现有基于生成视频的机器人操作 pipeline 仅能提取运动学轨迹、缺乏接触力信息，导致接触丰富任务执行失败的问题，本文提出联合利用生成视频与音频的力感知操作框架</li><li>研究目标是从结构化自然语言任务提示出发，自动生成带时变力曲线的操作轨迹，实现真实机器人零样本接触丰富任务执行，同时搭建自动化力感知数据生成引擎用于策略训练</li><li>核心解决无需物理力传感器演示、无需仿真环境，即可获得接触丰富任务所需力信息的痛点</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出联合利用生成视频与音频构建力感知操作轨迹的 pipeline，在4类真实机器人接触丰富任务上实现零样本成功执行，验证了生成音频对力曲线的建模能力</li><li>证明该 pipeline 可作为自动化力感知数据生成引擎，基于生成的演示训练得到的<strong>Diffusion Policy</strong>可闭环完成任务，且能泛化到不同物体放置与外观</li><li>开源<strong>Dreaming Contact</strong> 数据生成 pipeline 与<strong>Dreaming Contact Dataset</strong>，包含4类接触丰富任务的力感知操作数据</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>输入为初始RGB图像、对应深度图、相机与机器人基坐标系的标定位姿、结构化自然语言任务提示，采用<strong>Seedance 2.0</strong>生成带同步音频的机器人视角视频，固定首帧为输入初始图像</li><li>视觉分支：通过<strong>MolmoPoint</strong>定位物体与夹爪的初始2D点，用<strong>SAM 2</strong>传播掩码，结合<strong>TAPIP3D</strong>恢复深度与3D点迹，经深度校准后估计夹爪的SE(3)运动轨迹，转换为机器人基坐标系下的增量轨迹，还可通过夹爪指尖距离变化估计抓取动作</li><li>音频分支：采用<strong>SAM-Audio</strong>提取接触相关音频信号，滤除低能量噪声后计算每帧响度，按心理声学规则转换为相对响度比，经min-max归一化映射到有界的时变期望力曲线，同时通过夹爪与物体点云的最近邻对估算接触力方向</li><li>执行阶段在<strong>Franka Panda</strong>机器人上采用1kHz固定刚度阻抗控制器，通过积分归一化力误差更新虚拟目标位移来跟踪期望力曲线，执行过程中无需实时采集音频</li><li>核心创新点为利用生成音频的响度作为相对力变化的代理信号，无需物理演示或仿真即可获得时变力曲线，解决了接触丰富操作的力信息获取难题</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用的预训练模型包括：视频音频生成模型<strong>Seedance 2.0</strong>、2D点定位模型<strong>MolmoPoint</strong>、分割模型<strong>SAM 2</strong>、3D重建与点迹跟踪模型<strong>TAPIP3D</strong>、音频接触分离模型<strong>SAM-Audio</strong></li><li>硬件平台为<strong>Franka Panda</strong>协作机器人</li><li>开源数据集为<strong>Dreaming Contact Dataset</strong>，覆盖<strong>白板擦拭</strong>、<strong>胡萝卜削皮</strong>、<strong>巧克力盒堆叠</strong>、<strong>台灯按钮按压</strong>4类接触丰富任务的力感知操作数据</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境为真实<strong>Franka Panda</strong>机器人实验平台，对比基准为仅运动学的操作基线方法</li><li>主要评估指标包括任务成功率、接触过程峰值力、冲量、生成音频的力排序一致性</li><li>关键实验结果：1. 在4类零样本接触丰富任务上，本文 pipeline 均能成功执行，仅运动学基线频繁失败；2. 在擦拭、削皮任务中，音频塑形的力曲线在成功率上匹配或超过恒力执行方案，同时降低峰值力与冲量；3. 受控锤击实验验证生成音频可保留任务提示中指定的力排序；4. 基于 pipeline 生成数据训练的<strong>Diffusion Policy</strong>可闭环完成任务，且能泛化到不同物体放置与外观</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-next" href="../../papers/2609.19119/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Track, Articulate, Act: Generating Articulation from Casual Human Videos</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
