@@ -12257,5 +12257,603 @@
     "inside_figure": true,
     "width": 1715,
     "height": 2053
+  },
+  "2609.20582": {
+    "title": "V2-STRep: VLM-Grounded Structured Task Representations for Reusable Robot Skills Acquired from Generated Videos",
+    "abs_url": "https://arxiv.org/abs/2609.20582",
+    "html_url": "https://arxiv.org/html/2609.20582v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20582v1/Figure_1_b_compressed.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 454,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20582v1/Figure_3_compressed.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 448,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20582v1/Figure_2_compressed.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 192,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20582v1/Figure_5_compressed.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 223,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20582v1/Figure_4_b_compressed.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 136,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.20582.webp",
+    "image_url": "https://arxiv.org/html/2609.20582v1/Figure_1_b_compressed.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 454
+  },
+  "2609.20818": {
+    "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+    "abs_url": "https://arxiv.org/abs/2609.20818",
+    "html_url": "https://arxiv.org/html/2609.20818v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20818v1/crop_showcase_grid.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 831,
+        "height": 387,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20818v1/showcase_grid_baked.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 672,
+        "height": 432,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20818v1/figures/fig_mask_refinement.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 308,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20818v1/figures/fig_scene_gallery.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 310,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20818v1/fig_interpall_suppl.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 320,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_figure_panel ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2609.20818.webp",
+    "image_url": "https://arxiv.org/html/2609.20818v1/crop_showcase_grid.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 831,
+    "height": 387
+  },
+  "2609.20744": {
+    "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.20744",
+    "html_url": "https://arxiv.org/html/2609.20744v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20744v1/gallery.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 588,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20744v1/teaser.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 476,
+        "height": 288,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 55
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20744v1/assets/vdn-mark-transparent.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 93,
+        "height": 40,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_align_right ltx_img_landscape",
+        "score": -5
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20744v1/assets/cover-icon-github.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 17,
+        "height": 17,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": -65
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20744v1/assets/cover-icon-huggingface.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 17,
+        "height": 17,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": -65
+      }
+    ],
+    "path": "assets/paper-images/2609.20744.webp",
+    "image_url": "https://arxiv.org/html/2609.20744v1/gallery.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 588
+  },
+  "2609.20414": {
+    "title": "TouchSight: Bare-Handed Tactile Prediction from Egocentric Video via Generative Visual Augmentation",
+    "abs_url": "https://arxiv.org/abs/2609.20414",
+    "html_url": "https://arxiv.org/html/2609.20414v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20414v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 365,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20414v1/2.5-dataset_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20414v1/2.5-check.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 500,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20414v1/model.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20414v1/4-forms_of_force.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 250,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.20414.webp",
+    "image_url": "https://arxiv.org/html/2609.20414v1/overview.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 365
+  },
+  "2609.20051": {
+    "title": "DART: Distillation-Aware Reparameterization for Training-Free LoRA Reuse in Few-Step Video Diffusion Models",
+    "abs_url": "https://arxiv.org/abs/2609.20051",
+    "html_url": "https://arxiv.org/html/2609.20051v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20051v1/figures/case2_lora04_ablation_montage_late.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 422,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20051v1/figures/dart_method_results3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 258,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20051v1/figures/case2_four_row_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 395,
+        "height": 189,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20051v1/figures/case1_ablation_montage_late.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 395,
+        "height": 304,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20051v1/figures/figure1_subplots/mechanism_a_static_geometry_ab.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 318,
+        "height": 191,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.20051.webp",
+    "image_url": "https://arxiv.org/html/2609.20051v1/figures/case2_lora04_ablation_montage_late.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 422
+  },
+  "2609.20638": {
+    "title": "PROVIA: Procedure State Tracking for Online Mistake Detection in Egocentric Videos",
+    "abs_url": "https://arxiv.org/abs/2609.20638",
+    "html_url": "https://arxiv.org/html/2609.20638v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20638v1/figures/PROVIA.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 236,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20638v1/qualitative_captaincook4d_18_27.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 338,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.20638.webp",
+    "image_url": "https://arxiv.org/html/2609.20638v1/figures/PROVIA.jpg",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/jpeg",
+    "inside_figure": true,
+    "width": 429,
+    "height": 236
+  },
+  "2609.20508": {
+    "title": "Grounded Product Understanding in Livestream Videos",
+    "abs_url": "https://arxiv.org/abs/2609.20508",
+    "html_url": "https://arxiv.org/html/2609.20508v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20508v1/fig_task_definition_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 274,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20508v1/fig_dataset_construction_v5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 505,
+        "height": 252,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20508v1/fig_product_evidence_association_pair_unipro_v5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 436,
+        "height": 199,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20508v1/gpub_dataset_statistics_v18.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 150,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.20508v1/fig_method_overview_unipro_v4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 366,
+        "height": 177,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.20508.webp",
+    "image_url": "https://arxiv.org/html/2609.20508v1/fig_task_definition_v3.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 274
+  },
+  "2609.20001": {
+    "title": "E-AVI: Evidence-Grounded Multimodal Assessment for Automated Video Interviews",
+    "abs_url": "https://arxiv.org/abs/2609.20001",
+    "html_url": "https://arxiv.org/html/2609.20001v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.20001v1/fig1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 287,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "",
+        "classes": "ds-announcement-glyph",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2609.20001.webp",
+    "image_url": "https://arxiv.org/html/2609.20001v1/fig1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 287
+  },
+  "2609.19824": {
+    "title": "TADreamer: Zero-Shot Language-Guided 3D Navigation for Terrestrial-Aerial Bimodal Robots via Video Imagination",
+    "abs_url": "https://arxiv.org/abs/2609.19824",
+    "html_url": "https://arxiv.org/html/2609.19824v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.19824v1/matching.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 529,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19824v1/experiment1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 1246,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19824v1/prompt.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 519,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19824v1/firstpicture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.19824v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 255,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.19824.webp",
+    "image_url": "https://arxiv.org/html/2609.19824v1/matching.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 457,
+    "height": 529
+  },
+  "2609.20815": {
+    "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
+    "abs_url": "https://arxiv.org/abs/2609.20815",
+    "html_url": "",
+    "path": "assets/paper-images/2609.20815.webp",
+    "image_url": "https://arxiv.org/pdf/2609.20815",
+    "source": "pdf:first-page",
+    "score": 55,
+    "content_type": "image/png",
+    "inside_figure": false,
+    "width": 1224,
+    "height": 1584
   }
 }

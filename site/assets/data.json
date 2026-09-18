@@ -1,5 +1,279 @@
 [
   {
+    "date": "2026-09-17",
+    "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+    "link": "https://arxiv.org/abs/2609.20818",
+    "arxiv_id": "2609.20818",
+    "detail_path": "papers/2609.20818/",
+    "cover_path": "covers/2609.20818/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20818.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20818.webp",
+    "preview_text": "提出了 SplashSplat，一种从同步多视角真实视频中重建飞溅液体的方法，填补了现有数据和方法均无法处理此类复杂动力学现象的空白 针对液体外观弱纹理、拓扑快速变化、边界条件不可观测等难题，设计了仅在观测能约束的位置施加物理结构的重建框架 同时构建了首个同步多视角飞溅液体视频数据集 SplashSplat Benchmark，包含20个场景，7台4K 60fps相机，并提供逐帧液体掩码与容器网格",
+    "research_unit": "EPFL (Peiyu Liu, Daniel Barath)",
+    "hook_text": "提出了 SplashSplat，一种从同步多视角真实视频中重建飞溅液体的方法，填补了现有数据和方法均无法处理此类复杂动力学现象的空白",
+    "key_points": [
+      "提出了 SplashSplat，一种从同步多视角真实视频中重建飞溅液体的方法，填补了现有数据和方法均无法处理此类复杂动力学现象的空白",
+      "针对液体外观弱纹理、拓扑快速变化、边界条件不可观测等难题，设计了仅在观测能约束的位置施加物理结构的重建框架",
+      "同时构建了首个同步多视角飞溅液体视频数据集 SplashSplat Benchmark，包含20个场景，7台4K 60fps相机，并提供逐帧液体掩码与容器网格"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
+    "link": "https://arxiv.org/abs/2609.20815",
+    "arxiv_id": "2609.20815",
+    "detail_path": "papers/2609.20815/",
+    "cover_path": "covers/2609.20815/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20815.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20815.webp",
+    "preview_text": "针对遗传性息肉病综合征的早期识别、精准分类及家族针对性监测需求，提出多模态公开数据集ERCPMP-Gx 解决现有公开内窥镜数据集仅围绕散发性息肉构建、缺乏患者层面息肉表型与组织病理、胚系基因检测结果关联的问题 数据集整合内窥镜图像/视频、组织病理学标注、胚系基因组学发现，构建可直接用于AI训练的患者级标注框架",
+    "research_unit": "作者所属研究机构未在提供的页面内容中明确标注",
+    "hook_text": "针对遗传性息肉病综合征的早期识别、精准分类及家族针对性监测需求，提出多模态公开数据集ERCPMP-Gx",
+    "key_points": [
+      "针对遗传性息肉病综合征的早期识别、精准分类及家族针对性监测需求，提出多模态公开数据集ERCPMP-Gx",
+      "解决现有公开内窥镜数据集仅围绕散发性息肉构建、缺乏患者层面息肉表型与组织病理、胚系基因检测结果关联的问题",
+      "数据集整合内窥镜图像/视频、组织病理学标注、胚系基因组学发现，构建可直接用于AI训练的患者级标注框架"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+    "link": "https://arxiv.org/abs/2609.20744",
+    "arxiv_id": "2609.20744",
+    "detail_path": "papers/2609.20744/",
+    "cover_path": "covers/2609.20744/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20744.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20744.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "PROVIA: Procedure State Tracking for Online Mistake Detection in Egocentric Videos",
+    "link": "https://arxiv.org/abs/2609.20638",
+    "arxiv_id": "2609.20638",
+    "detail_path": "papers/2609.20638/",
+    "cover_path": "covers/2609.20638/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20638.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20638.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "V2-STRep: VLM-Grounded Structured Task Representations for Reusable Robot Skills Acquired from Generated Videos",
+    "link": "https://arxiv.org/abs/2609.20582",
+    "arxiv_id": "2609.20582",
+    "detail_path": "papers/2609.20582/",
+    "cover_path": "covers/2609.20582/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20582.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20582.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "Grounded Product Understanding in Livestream Videos",
+    "link": "https://arxiv.org/abs/2609.20508",
+    "arxiv_id": "2609.20508",
+    "detail_path": "papers/2609.20508/",
+    "cover_path": "covers/2609.20508/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20508.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20508.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "TouchSight: Bare-Handed Tactile Prediction from Egocentric Video via Generative Visual Augmentation",
+    "link": "https://arxiv.org/abs/2609.20414",
+    "arxiv_id": "2609.20414",
+    "detail_path": "papers/2609.20414/",
+    "cover_path": "covers/2609.20414/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20414.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20414.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "DART: Distillation-Aware Reparameterization for Training-Free LoRA Reuse in Few-Step Video Diffusion Models",
+    "link": "https://arxiv.org/abs/2609.20051",
+    "arxiv_id": "2609.20051",
+    "detail_path": "papers/2609.20051/",
+    "cover_path": "covers/2609.20051/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20051.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20051.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "E-AVI: Evidence-Grounded Multimodal Assessment for Automated Video Interviews",
+    "link": "https://arxiv.org/abs/2609.20001",
+    "arxiv_id": "2609.20001",
+    "detail_path": "papers/2609.20001/",
+    "cover_path": "covers/2609.20001/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.20001.webp",
+    "paper_image_full_path": "assets/paper-images/2609.20001.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "title": "TADreamer: Zero-Shot Language-Guided 3D Navigation for Terrestrial-Aerial Bimodal Robots via Video Imagination",
+    "link": "https://arxiv.org/abs/2609.19824",
+    "arxiv_id": "2609.19824",
+    "detail_path": "papers/2609.19824/",
+    "cover_path": "covers/2609.19824/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.19824.webp",
+    "paper_image_full_path": "assets/paper-images/2609.19824.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-16",
     "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
     "link": "https://arxiv.org/abs/2609.19137",
