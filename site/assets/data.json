@@ -66,14 +66,16 @@
     "cover_path": "covers/2609.20744/",
     "paper_image_path": "assets/paper-images/thumbs/2609.20744.webp",
     "paper_image_full_path": "assets/paper-images/2609.20744.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对视频扩散模型中Softmax注意力计算开销随序列长度二次方增长、占去噪过程85%以上运行时间的瓶颈问题开展研究 解决直接替换为线性注意力会丢失细粒度空间-时间交互、导致生成质量大幅下降的核心矛盾 提出适配视频生成场景的混合注意力架构，目标是兼顾长视频生成质量与推理效率，实现低步数下的高质量视频生成",
+    "research_unit": "University of California, Berkeley",
+    "hook_text": "针对视频扩散模型中Softmax注意力计算开销随序列长度二次方增长、占去噪过程85%以上运行时间的瓶颈问题开展研究",
     "key_points": [
-      "待生成"
+      "针对视频扩散模型中Softmax注意力计算开销随序列长度二次方增长、占去噪过程85%以上运行时间的瓶颈问题开展研究",
+      "解决直接替换为线性注意力会丢失细粒度空间-时间交互、导致生成质量大幅下降的核心矛盾",
+      "提出适配视频生成场景的混合注意力架构，目标是兼顾长视频生成质量与推理效率，实现低步数下的高质量视频生成"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -93,14 +95,16 @@
     "cover_path": "covers/2609.20638/",
     "paper_image_path": "assets/paper-images/thumbs/2609.20638.webp",
     "paper_image_full_path": "assets/paper-images/2609.20638.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文研究第一人称（egocentric）视频中的在线错误检测问题：助手需在下一步开始前仅凭过去帧发现操作错误，并在操作者恢复后继续工作。 论文指出当前在线方法采用\"首次错误协议\"（first-mistake protocol）存在严重缺陷——仅凭固定时间规则（不读取任何帧）即可在基准上取得完美 F1，导致评测失真。 PROVIA 将错误检测建模为对流程状态（procedure state）的在线贝叶斯推断，在完整试验（含错误与修复）上、在验证集误报预算约束下、对照\"仅使用时间信息\"的基线进行评估。",
+    "research_unit": "卡尔斯鲁厄理工学院（Karlsruhe Institute of Technology, KIT）：作…",
+    "hook_text": "论文研究第一人称（egocentric）视频中的在线错误检测问题：助手需在下一步开始前仅凭过去帧发现操作错误，并在操作者恢复后继续工作。",
     "key_points": [
-      "待生成"
+      "论文研究第一人称（egocentric）视频中的在线错误检测问题：助手需在下一步开始前仅凭过去帧发现操作错误，并在操作者恢复后继续工作。",
+      "论文指出当前在线方法采用\"首次错误协议\"（first-mistake protocol）存在严重缺陷——仅凭固定时间规则（不读取任何帧）即可在基准上取得完美 F1，导致评测失真。",
+      "PROVIA 将错误检测建模为对流程状态（procedure state）的在线贝叶斯推断，在完整试验（含错误与修复）上、在验证集误报预算约束下、对照\"仅使用时间信息\"的基线进行评估。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -120,14 +124,16 @@
     "cover_path": "covers/2609.20582/",
     "paper_image_path": "assets/paper-images/thumbs/2609.20582.webp",
     "paper_image_full_path": "assets/paper-images/2609.20582.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 V2-STRep，一个零样本框架，将通过生成视频提取的运动转换为可复用的机器人技能，利用视觉语言模型（VLM） grounding 的结构化任务表示 解决从生成视频中恢复的运动仅捕捉单一场景特定实现，导致任务结构、几何关系和约束隐式化的问题 支持技能在新场景中的迁移和适应新的兼容指令，且无需生成额外视频或机器人演示",
+    "research_unit": "Yexin Hu 和 Dongheui Lee 隶属于奥地利 Technische Universit…",
+    "hook_text": "提出 V2-STRep，一个零样本框架，将通过生成视频提取的运动转换为可复用的机器人技能，利用视觉语言模型（VLM） grounding 的结构化任务表示",
     "key_points": [
-      "待生成"
+      "提出 V2-STRep，一个零样本框架，将通过生成视频提取的运动转换为可复用的机器人技能，利用视觉语言模型（VLM） grounding 的结构化任务表示",
+      "解决从生成视频中恢复的运动仅捕捉单一场景特定实现，导致任务结构、几何关系和约束隐式化的问题",
+      "支持技能在新场景中的迁移和适应新的兼容指令，且无需生成额外视频或机器人演示"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -147,14 +153,16 @@
     "cover_path": "covers/2609.20508/",
     "paper_image_path": "assets/paper-images/thumbs/2609.20508.webp",
     "paper_image_full_path": "assets/paper-images/2609.20508.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出直播视频中的锚定商品理解（Grounded Product Understanding, GPrU）任务，要求模型从同一段直播视频中联合识别目标商品并定位其支撑性时间片段。 现有基准通常将商品检索和时间定位分开评估，忽视了商品身份与时间证据之间的对应关系；论文构建GPUB基准以填补这一空白。 GPUB 包含 3,000 个直播实例、8,975 个高质量商品证据时刻和 31,831 个细粒度时尚商品目录，并定义 GPrU 主任务及两个互补子任务。",
+    "research_unit": "快手科技（Kuaishou Technology）",
+    "hook_text": "论文提出直播视频中的锚定商品理解（Grounded Product Understanding, GPrU）任务，要求模型从同一段直播视频中联合识别目标商品并定位其支撑性时间片段。",
     "key_points": [
-      "待生成"
+      "论文提出直播视频中的锚定商品理解（Grounded Product Understanding, GPrU）任务，要求模型从同一段直播视频中联合识别目标商品并定位其支撑性时间片段。",
+      "现有基准通常将商品检索和时间定位分开评估，忽视了商品身份与时间证据之间的对应关系；论文构建GPUB基准以填补这一空白。",
+      "GPUB 包含 3,000 个直播实例、8,975 个高质量商品证据时刻和 31,831 个细粒度时尚商品目录，并定义 GPrU 主任务及两个互补子任务。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -174,14 +182,16 @@
     "cover_path": "covers/2609.20414/",
     "paper_image_path": "assets/paper-images/thumbs/2609.20414.webp",
     "paper_image_full_path": "assets/paper-images/2609.20414.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 TouchSight，一个单目第一人称视觉框架，用于密集的全手掌接触力预测，无需在采集时使用触觉传感器 解决触觉感知中数据收集依赖昂贵且脆弱的触觉手套的问题，以及戴手套训练数据与真实世界裸手场景之间的外观差异问题 利用500小时的 HumanTouch 压力手套记录，并通过生成式视频模型将戴手套的记录重新渲染为裸手观察，同时保留原始的触觉标签",
+    "research_unit": "THU (清华大学)",
+    "hook_text": "提出 TouchSight，一个单目第一人称视觉框架，用于密集的全手掌接触力预测，无需在采集时使用触觉传感器",
     "key_points": [
-      "待生成"
+      "提出 TouchSight，一个单目第一人称视觉框架，用于密集的全手掌接触力预测，无需在采集时使用触觉传感器",
+      "解决触觉感知中数据收集依赖昂贵且脆弱的触觉手套的问题，以及戴手套训练数据与真实世界裸手场景之间的外观差异问题",
+      "利用500小时的 HumanTouch 压力手套记录，并通过生成式视频模型将戴手套的记录重新渲染为裸手观察，同时保留原始的触觉标签"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -201,14 +211,16 @@
     "cover_path": "covers/2609.20051/",
     "paper_image_path": "assets/paper-images/thumbs/2609.20051.webp",
     "paper_image_full_path": "assets/paper-images/2609.20051.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文研究少步视频扩散模型中复用为长轨迹训练好的 LoRA 适配器的问题：蒸馏缩短去噪轨迹后，现有适配器可能丧失功能效果或损害目标生成质量。 现有方法（如 CASA）从权重空间静态兼容性角度处理该问题，但本文发现相似的静态几何度量可以对应完全不同的适配器行为，因此需要在目标调度下额外测量适配器的增量响应。 提出 DART（Distillation-Aware Reparameterization），一种无需训练的重新参数化方法，结合低秩坐标传输与目标调度响应校准，在无需源训练视频和反向传播的情况下实现 LoRA 复用。",
+    "research_unit": "University of Electronic Science and Technology of…",
+    "hook_text": "论文研究少步视频扩散模型中复用为长轨迹训练好的 LoRA 适配器的问题：蒸馏缩短去噪轨迹后，现有适配器可能丧失功能效果或损害目标生成质量。",
     "key_points": [
-      "待生成"
+      "论文研究少步视频扩散模型中复用为长轨迹训练好的 LoRA 适配器的问题：蒸馏缩短去噪轨迹后，现有适配器可能丧失功能效果或损害目标生成质量。",
+      "现有方法（如 CASA）从权重空间静态兼容性角度处理该问题，但本文发现相似的静态几何度量可以对应完全不同的适配器行为，因此需要在目标调度下额外测量适配器的增量响应。",
+      "提出 DART（Distillation-Aware Reparameterization），一种无需训练的重新参数化方法，结合低秩坐标传输与目标调度响应校准，在无需源训练视频和反向传播的情况下实现 LoRA 复用。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -228,14 +240,16 @@
     "cover_path": "covers/2609.20001/",
     "paper_image_path": "assets/paper-images/thumbs/2609.20001.webp",
     "paper_image_full_path": "assets/paper-images/2609.20001.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 E-AVI 框架，用于自动化视频面试的多模态评估，通过提取带时间戳的结构化多模态证据（文本、声学、视觉信号）来支撑评分 解决现有 AVI 系统仅关注数值评分输出、缺乏可检查证据支持和透明度的问题 共享证据池不仅用于评分，还支持自然语言反馈和后续问答（QA），实现可检查、可交互的评估",
+    "research_unit": "The Hong Kong Polytechnic University（香港理工大学）— Haosh…",
+    "hook_text": "论文提出 E-AVI 框架，用于自动化视频面试的多模态评估，通过提取带时间戳的结构化多模态证据（文本、声学、视觉信号）来支撑评分",
     "key_points": [
-      "待生成"
+      "论文提出 E-AVI 框架，用于自动化视频面试的多模态评估，通过提取带时间戳的结构化多模态证据（文本、声学、视觉信号）来支撑评分",
+      "解决现有 AVI 系统仅关注数值评分输出、缺乏可检查证据支持和透明度的问题",
+      "共享证据池不仅用于评分，还支持自然语言反馈和后续问答（QA），实现可检查、可交互的评估"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -255,14 +269,16 @@
     "cover_path": "covers/2609.19824/",
     "paper_image_path": "assets/paper-images/thumbs/2609.19824.webp",
     "paper_image_full_path": "assets/paper-images/2609.19824.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 TADreamer，一个面向陆空双模态机器人（TABR）的零样本语言引导 3D 导航框架，通过“视频想象”将自然语言指令转化为可执行的多模态导航轨迹。 核心问题：生成式视频模型能产生语义合理的运动序列，但恢复出的几何轨迹存在尺度模糊和轴相关几何畸变，难以直接用于真实机器人执行。 解决思路：利用 VLM + 生成式视频模型 进行语义导航规划，并通过实测点云对视频重建路径进行两阶段尺度校准，实现无需任务训练或微调的零样本导航。",
+    "research_unit": "浙江大学 工业控制技术国家重点实验室（State Key Laboratory of Industri…",
+    "hook_text": "提出 TADreamer，一个面向陆空双模态机器人（TABR）的零样本语言引导 3D 导航框架，通过“视频想象”将自然语言指令转化为可执行的多模态导航轨迹。",
     "key_points": [
-      "待生成"
+      "提出 TADreamer，一个面向陆空双模态机器人（TABR）的零样本语言引导 3D 导航框架，通过“视频想象”将自然语言指令转化为可执行的多模态导航轨迹。",
+      "核心问题：生成式视频模型能产生语义合理的运动序列，但恢复出的几何轨迹存在尺度模糊和轴相关几何畸变，难以直接用于真实机器人执行。",
+      "解决思路：利用 VLM + 生成式视频模型 进行语义导航规划，并通过实测点云对视频重建路径进行两阶段尺度校准，实现无需任务训练或微调的零样本导航。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
