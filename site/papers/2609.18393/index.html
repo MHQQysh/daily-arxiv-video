@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MSR: Multiple Subject Reference for Video Generation - Video 每日论文卡</title>
-    <meta name="description" content="待生成" />
+    <meta name="description" content="提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案 解决视频生成中多张参考图像的外观保持和角色关联问题，避免属性混淆 实现独立参考输入的角色、服装、场景等元素的精确组合与视频生成" />
     
     <script>
       (function() {
@@ -62,17 +62,17 @@
         <div class="detail-hero-grid">
           <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
   <img class="paper-figure-image" src="../../assets/paper-images/2609.18393.webp" alt="MSR: Multiple Subject Reference for Video Generation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
-  <figcaption class="paper-figure-caption">待生成</figcaption>
+  <figcaption class="paper-figure-caption">提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案</figcaption>
 </figure></div>
           <div class="detail-hero-copy">
             <p class="eyebrow">论文详情</p>
             <h1 class="detail-page-title">MSR: Multiple Subject Reference for Video Generation</h1>
             <div class="detail-meta">2026-09-16 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.18393" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.18393" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.18393</span></div>
-            <p class="detail-summary">待生成</p>
+            <p class="detail-summary">提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案 解决视频生成中多张参考图像的外观保持和角色关联问题，避免属性混淆 实现独立参考输入的角色、服装、场景等元素的精确组合与视频生成</p>
             <div class="detail-micro-meta">
-              <span class="meta-pill">1 分钟读完</span>
-              <span class="meta-pill">1 张阅读卡</span>
-              
+              <span class="meta-pill">4 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Licon Studio</span>
             </div>
           </div>
         </div>
@@ -86,16 +86,59 @@
     <span class="reading-badge">一眼看懂</span>
     <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.18393/">封面预览</a>
   </div>
-  <p class="reading-intro-hook">待生成</p>
-  <ul class="reading-intro-points"><li>待生成</li></ul>
+  <p class="reading-intro-hook">提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案</p>
+  <ul class="reading-intro-points"><li>提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案</li><li>解决视频生成中多张参考图像的外观保持和角色关联问题，避免属性混淆</li><li>实现独立参考输入的角色、服装、场景等元素的精确组合与视频生成</li></ul>
 </section>
 <section class="reading-card reading-card-section">
   <div class="reading-card-topline">
     <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Licon Studio</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
     <span class="reading-step-note">论文概述</span>
   </div>
   <h2>论文概述</h2>
-  <div class="reading-card-content"><p>待生成</p></div>
+  <div class="reading-card-content"><ul><li>提出 <strong>MSR (Multiple Subject Reference)</strong>，一种用于 LTX 视频生成模型的多主体参考调节方案</li><li>解决视频生成中多张参考图像的外观保持和角色关联问题，避免属性混淆</li><li>实现独立参考输入的角色、服装、场景等元素的精确组合与视频生成</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出槽感知调节方案：为每个参考图像独立编码，通过数值槽嵌入和槽相关的时间偏移区分不同参考源</li><li>实现基于 LoRA 的参数高效微调，无需额外的面部识别或多模态语言模型分支</li><li>公开发布模型权重和推理工作流，提供可复现的视觉多主体调节系统</li><li>通过定性实验验证多参考组合能力，并分析开发和观察中的失败模式</li><li>提供补充音频参考扩展，在冻结视觉参数的同时添加语音调节</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>独立参考编码</strong>：将每张参考图像重复为静态片段，通过 <strong>VAE 编码器</strong> 独立编码为潜变量令牌组</li><li><strong>数值槽嵌入</strong>：使用紧凑的 <strong>傅里叶特征 MLP</strong> 将整数槽标识符映射到潜变量空间，添加到对应参考令牌组，实现源标记</li><li><strong>槽相关时间偏移</strong>：为每个参考组分配不同负时间偏移，通过修改旋转位置编码的时序坐标区分参考上下文</li><li><strong>纯净上下文和目标仅训练</strong>：参考令牌保持无噪声，作为前缀与带噪声的目标令牌拼接，损失函数仅计算在目标部分</li><li>基于 <strong>LTX</strong> 模型家族，使用 <strong>LoRA</strong> 适配视觉自注意力、文本交叉注意力和前馈网络层</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用带有英文描述的示例图像训练，具体数据集未详细公开</li><li>参考令牌维度：<strong>128</strong></li><li>参考帧数：<strong>25 帧（25 fps）</strong></li><li>模型参数：槽嵌入 <strong>MLP</strong> 约 <strong>41,600</strong> 可训练参数；整体骨干冻结，LoRA 适配器和 MLP 可训练</li><li>训练资源、GPU/TPU 细节未在论文中明确说明</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估方式：以定性分析为主，比较<strong>早期连续参考基线（MSR V1/V2）</strong>与<strong>当前视觉 MSR</strong> 的差异</li><li>主要评估指标：无定量指标，通过多参考人物/场景组合、服装保持、视角变化的视觉案例展示结果</li><li>关键实验结果：</li></ul>
+<p> - 能组合不同角色和场景参考，保持各自身份和属性</p>
+<p> - 相比基线减少参考混乱，但对相似服装、复杂衣物和大幅度视角变化仍存在挑战</p>
+<p> - 补充音频参考扩展实验：在冻结视觉参数的情况下，添加语音调节功能</p></div>
 </section></article>
         <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
           <p class="detail-toc-title">阅读目录</p>

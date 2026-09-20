@@ -356,14 +356,16 @@
     "cover_path": "covers/2609.18836/",
     "paper_image_path": "assets/paper-images/thumbs/2609.18836.webp",
     "paper_image_full_path": "assets/paper-images/2609.18836.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 AVR（Anomaly-aware Video Restoration），一个训练无关（training-free）的异常感知视频修复框架，将异常检测与视频修复连接起来，仅使用冻结的预训练模型。 核心思想是“复制可见的内容，生成不可见的内容”：从视频片段中利用时间中值背景先验复制异常曾经遮挡但已在其他帧暴露的像素，仅在没有任何帧提供证据的区域调用生成模型。 解决现有“先检测后生成”管道中检测器输出无法直接用于生成器、生成器不保留背景一致性、以及逐场景微调不可用等三大问题。",
+    "research_unit": "纽约大学（New York University）Tandon 工程学院计算机科学与工程系（Depar…",
+    "hook_text": "论文提出 AVR（Anomaly-aware Video Restoration），一个训练无关（training-free）的异常感知视频修复框架，将异常检测与视频修复连接起来，仅使用冻结的预训练模型。",
     "key_points": [
-      "待生成"
+      "论文提出 AVR（Anomaly-aware Video Restoration），一个训练无关（training-free）的异常感知视频修复框架，将异常检测与视频修复连接起来，仅使用冻结的预训练模型。",
+      "核心思想是“复制可见的内容，生成不可见的内容”：从视频片段中利用时间中值背景先验复制异常曾经遮挡但已在其他帧暴露的像素，仅在没有任何帧提供证据的区域调用生成模型。",
+      "解决现有“先检测后生成”管道中检测器输出无法直接用于生成器、生成器不保留背景一致性、以及逐场景微调不可用等三大问题。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -499,14 +501,16 @@
     "cover_path": "covers/2609.18470/",
     "paper_image_path": "assets/paper-images/thumbs/2609.18470.webp",
     "paper_image_full_path": "assets/paper-images/2609.18470.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对视频多模态情感分析（MSA）中模态融合任务感知不足、忽视情感序数结构的问题，提出一种“分而治之”的 Mixture-of-Bottleneck (MoB) 框架。 将 MSA 重构为序数回归问题，并解耦为极性识别和强度预测两个子任务，分别在序数情感空间中建模。 结合信息瓶颈（IB）与混合专家（MoE），让不同模态通过极性/强度专用专家学习紧凑且任务相关的表征，并通过动态路由融合提升可解释性和性能。",
+    "research_unit": "深圳大学（College of Computer Science and Software Engin…",
+    "hook_text": "针对视频多模态情感分析（MSA）中模态融合任务感知不足、忽视情感序数结构的问题，提出一种“分而治之”的 Mixture-of-Bottleneck (MoB) 框架。",
     "key_points": [
-      "待生成"
+      "针对视频多模态情感分析（MSA）中模态融合任务感知不足、忽视情感序数结构的问题，提出一种“分而治之”的 Mixture-of-Bottleneck (MoB) 框架。",
+      "将 MSA 重构为序数回归问题，并解耦为极性识别和强度预测两个子任务，分别在序数情感空间中建模。",
+      "结合信息瓶颈（IB）与混合专家（MoE），让不同模态通过极性/强度专用专家学习紧凑且任务相关的表征，并通过动态路由融合提升可解释性和性能。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -526,14 +530,16 @@
     "cover_path": "covers/2609.18393/",
     "paper_image_path": "assets/paper-images/thumbs/2609.18393.webp",
     "paper_image_full_path": "assets/paper-images/2609.18393.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案 解决视频生成中多张参考图像的外观保持和角色关联问题，避免属性混淆 实现独立参考输入的角色、服装、场景等元素的精确组合与视频生成",
+    "research_unit": "Licon Studio",
+    "hook_text": "提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案",
     "key_points": [
-      "待生成"
+      "提出 MSR (Multiple Subject Reference)，一种用于 LTX 视频生成模型的多主体参考调节方案",
+      "解决视频生成中多张参考图像的外观保持和角色关联问题，避免属性混淆",
+      "实现独立参考输入的角色、服装、场景等元素的精确组合与视频生成"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -553,14 +559,16 @@
     "cover_path": "covers/2609.18077/",
     "paper_image_path": "assets/paper-images/thumbs/2609.18077.webp",
     "paper_image_full_path": "assets/paper-images/2609.18077.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出了 vidax，一个开源的 JAX/Flax 视频生成模型推理引擎和权重转换框架，旨在将现有的 PyTorch/CUDA 视频生成模型生态桥接到 JAX 和 Cloud TPU 硬件上。 主要解决的问题是：当前主流的开源视频生成模型（如 Wan, Cosmos, HunyuanVideo 等）几乎只提供 PyTorch 参考实现，而 JAX 生态系统缺少一个能处理长序列时空注意力、并能高效利用大型 TPU 内存池的统一推理框架。",
+    "research_unit": "Massachusetts Institute of Technology",
+    "hook_text": "提出了 vidax，一个开源的 JAX/Flax 视频生成模型推理引擎和权重转换框架，旨在将现有的 PyTorch/CUDA 视频生成模型生态桥接到 JAX 和 Cloud TPU 硬件上。",
     "key_points": [
-      "待生成"
+      "提出了 vidax，一个开源的 JAX/Flax 视频生成模型推理引擎和权重转换框架，旨在将现有的 PyTorch/CUDA 视频生成模型生态桥接到 JAX 和 Cloud TPU 硬件上。",
+      "主要解决的问题是：当前主流的开源视频生成模型（如 Wan, Cosmos, HunyuanVideo 等）几乎只提供 PyTorch 参考实现，而 JAX 生态系统缺少一个能处理长序列时空注意力、并能高效利用大型 TPU 内存池的统一推理框架。",
+      "统一的架构覆盖：提供了一个模块化的 Flax 库，支持多种视频生成架构，包括 Diffusion Transformer (DiT)、全模态混合专家模型 (Omnimodal MoT)、3D VAE 和文本编码器，并配有零拷贝的权重转换器。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -609,14 +617,16 @@
     "cover_path": "covers/2609.17248/",
     "paper_image_path": "assets/paper-images/thumbs/2609.17248.webp",
     "paper_image_full_path": "assets/paper-images/2609.17248.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 Video-HolmesV2，一个专为 Deep Audio-Visual Coupling（深度音视频耦合）设计的长视频推理基准，旨在检验多模态大语言模型（MLLMs）能否利用时空音视频证据进行真正的跨模态推理。 现有基准过度依赖视觉启发式线索而边缘化音频信息，将模型降级为\"无声观察者\"（silent observers），且标准密集采样导致\"证据-上下文权衡\"（evidence–context trade-off）：增加帧数以捕获证据必然引发注意力分散与 token 爆炸。 论文引入 Evidence-Based Evaluation（基于证据的评估）范式，要求模型以精确的时空音视频证据来证实答案，有效抑制猜测与幻觉证据的干扰。",
+    "research_unit": "University of Chinese Academy of Sciences（中国科学院大学，中…",
+    "hook_text": "论文提出 Video-HolmesV2，一个专为 Deep Audio-Visual Coupling（深度音视频耦合）设计的长视频推理基准，旨在检验多模态大语言模型（MLLMs）能否利用时空音视频证据进行真正的跨模态推理。",
     "key_points": [
-      "待生成"
+      "论文提出 Video-HolmesV2，一个专为 Deep Audio-Visual Coupling（深度音视频耦合）设计的长视频推理基准，旨在检验多模态大语言模型（MLLMs）能否利用时空音视频证据进行真正的跨模态推理。",
+      "现有基准过度依赖视觉启发式线索而边缘化音频信息，将模型降级为\"无声观察者\"（silent observers），且标准密集采样导致\"证据-上下文权衡\"（evidence–context trade-off）：增加帧数以捕获证据必然引发注意力分散与 token 爆炸。",
+      "论文引入 Evidence-Based Evaluation（基于证据的评估）范式，要求模型以精确的时空音视频证据来证实答案，有效抑制猜测与幻觉证据的干扰。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
