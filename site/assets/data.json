@@ -1,5 +1,277 @@
 [
   {
+    "date": "2026-09-18",
+    "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
+    "link": "https://arxiv.org/abs/2609.22069",
+    "arxiv_id": "2609.22069",
+    "detail_path": "papers/2609.22069/",
+    "cover_path": "covers/2609.22069/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.22069.webp",
+    "paper_image_full_path": "assets/paper-images/2609.22069.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "VideoReloc: Long-Term Indoor Video Relocalization against a Kilobyte-Scale Semantic Scene Graph",
+    "link": "https://arxiv.org/abs/2609.21804",
+    "arxiv_id": "2609.21804",
+    "detail_path": "papers/2609.21804/",
+    "cover_path": "covers/2609.21804/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21804.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21804.webp",
+    "preview_text": "提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。 传统视觉重定位依赖建图时的外观，场景变化后可靠性下降；逐帧基于物体类别与几何定位则证据稀疏、歧义大。VideoReloc 将视频片段作为时空扩展查询，用自适应 clip 累积证据后再进行注册与验证。 在 RIO10 和 ReplicaCAD 数据集上验证，在 1 m/10° 阈值下实现全帧定位成功率显著超越现有场景坐标回归方法，同时地图存储量降低两到三个数量级。",
+    "research_unit": "Technical University of Munich (TUM)，德国慕尼黑",
+    "hook_text": "提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。",
+    "key_points": [
+      "提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。",
+      "传统视觉重定位依赖建图时的外观，场景变化后可靠性下降；逐帧基于物体类别与几何定位则证据稀疏、歧义大。VideoReloc 将视频片段作为时空扩展查询，用自适应 clip 累积证据后再进行注册与验证。",
+      "在 RIO10 和 ReplicaCAD 数据集上验证，在 1 m/10° 阈值下实现全帧定位成功率显著超越现有场景坐标回归方法，同时地图存储量降低两到三个数量级。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "XCalib Depth-Guided Geometric Optimization for Dense Thermal-Visible Video Registration",
+    "link": "https://arxiv.org/abs/2609.21770",
+    "arxiv_id": "2609.21770",
+    "detail_path": "papers/2609.21770/",
+    "cover_path": "covers/2609.21770/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21770.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21770.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "Learned Parametric Emotion Editing: Real-Time Affective Filtering for On-Device Social Media Video",
+    "link": "https://arxiv.org/abs/2609.21624",
+    "arxiv_id": "2609.21624",
+    "detail_path": "papers/2609.21624/",
+    "cover_path": "covers/2609.21624/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21624.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21624.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "HAT: Hypothesis-Anchored Tracking for Video Monocular Spacecraft Pose Estimation",
+    "link": "https://arxiv.org/abs/2609.21597",
+    "arxiv_id": "2609.21597",
+    "detail_path": "papers/2609.21597/",
+    "cover_path": "covers/2609.21597/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21597.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21597.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration",
+    "link": "https://arxiv.org/abs/2609.21521",
+    "arxiv_id": "2609.21521",
+    "detail_path": "papers/2609.21521/",
+    "cover_path": "covers/2609.21521/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21521.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21521.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "OpenSAL360: Open-Source Crowdsourcing Platform for Omnidirectional Video Saliency Collection",
+    "link": "https://arxiv.org/abs/2609.21480",
+    "arxiv_id": "2609.21480",
+    "detail_path": "papers/2609.21480/",
+    "cover_path": "covers/2609.21480/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21480.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21480.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "CompAdapt: Adaptable Composite Motion Modeling for Physics-Consistent Text-to-Video Generation",
+    "link": "https://arxiv.org/abs/2609.21455",
+    "arxiv_id": "2609.21455",
+    "detail_path": "papers/2609.21455/",
+    "cover_path": "covers/2609.21455/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21455.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21455.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "AgentVidBench: A Multi-Hop Video Question Answering Benchmark for Evaluating MLLM Agents",
+    "link": "https://arxiv.org/abs/2609.21386",
+    "arxiv_id": "2609.21386",
+    "detail_path": "papers/2609.21386/",
+    "cover_path": "covers/2609.21386/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21386.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21386.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "title": "RobotEQ-Video: A Video-Centric Benchmark for Social Proactive Intelligence with World-State Taxonomy",
+    "link": "https://arxiv.org/abs/2609.21371",
+    "arxiv_id": "2609.21371",
+    "detail_path": "papers/2609.21371/",
+    "cover_path": "covers/2609.21371/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.21371.webp",
+    "paper_image_full_path": "assets/paper-images/2609.21371.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-17",
     "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
     "link": "https://arxiv.org/abs/2609.20818",

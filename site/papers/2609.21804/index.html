@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VideoReloc: Long-Term Indoor Video Relocalization against a Kilobyte-Scale Semantic Scene Graph - Video 每日论文卡</title>
+    <meta name="description" content="提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。 传统视觉重定位依赖建图时的外观，场景变化后可靠性下降；逐帧基于物体类别与几何定位则证据稀疏、歧义大。VideoReloc 将视频片段作为时空扩展查询，用自适应 clip 累积证据后再进行注册与验证。 在 RIO10 和 ReplicaCAD 数据集上验证，在 1 m/10° 阈值下实现全帧定位成功率显著超越现有场景坐标回归方法，同时地图存储量降低两到三个数量级。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.21804">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.21804.webp" alt="VideoReloc: Long-Term Indoor Video Relocalization against a Kilobyte-Scale Semantic Scene Graph" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">VideoReloc: Long-Term Indoor Video Relocalization against a Kilobyte-Scale Semantic Scene Graph</h1>
+            <div class="detail-meta">2026-09-18 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.21804" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.21804" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.21804</span></div>
+            <p class="detail-summary">提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。 传统视觉重定位依赖建图时的外观，场景变化后可靠性下降；逐帧基于物体类别与几何定位则证据稀疏、歧义大。VideoReloc 将视频片段作为时空扩展查询，用自适应 clip 累积证据后再进行注册与验证。 在 RIO10 和 ReplicaCAD 数据集上验证，在 1 m/10° 阈值下实现全帧定位成功率显著超越现有场景坐标回归方法，同时地图存储量降低两到三个数量级。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Technical University of Munich (TUM)，德国慕尼黑</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.21804/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。</p>
+  <ul class="reading-intro-points"><li>提出 VideoReloc，一种面向长期室内视频重定位的框架，仅利用约 100 kB 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。</li><li>传统视觉重定位依赖建图时的外观，场景变化后可靠性下降；逐帧基于物体类别与几何定位则证据稀疏、歧义大。VideoReloc 将视频片段作为时空扩展查询，用自适应 clip 累积证据后再进行注册与验证。</li><li>在 RIO10 和 ReplicaCAD 数据集上验证，在 1 m/10° 阈值下实现全帧定位成功率显著超越现有场景坐标回归方法，同时地图存储量降低两到三个数量级。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Technical University of Munich (TUM)</strong>，德国慕尼黑</li><li><strong>Huawei Hilbert Research Center (Dresden)</strong>，德国德累斯顿</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>VideoReloc</strong>，一种面向长期室内视频重定位的框架，仅利用约 <strong>100 kB</strong> 的语义场景图（class-labelled 3D boxes）即可在光照变化、家具移动等场景变化后估计整段视频的相机轨迹。</li><li>传统视觉重定位依赖建图时的外观，场景变化后可靠性下降；逐帧基于物体类别与几何定位则证据稀疏、歧义大。VideoReloc 将视频片段作为时空扩展查询，用自适应 clip 累积证据后再进行注册与验证。</li><li>在 <strong>RIO10</strong> 和 <strong>ReplicaCAD</strong> 数据集上验证，在 1 m/10° 阈值下实现全帧定位成功率显著超越现有场景坐标回归方法，同时地图存储量降低两到三个数量级。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>video-clip relocalization paradigm</strong>（视频片段重定位范式）：利用自适应 clip 构建空间扩展查询，并通过 run 级决策整合跨片段证据，解决重复布局导致的歧义。</li><li>提出 <strong>hypothesis-first registration</strong>（假设优先注册）：从物体三元组匹配生成候选位姿，利用 clip 内全部同类别物体中心一致性排序，并通过盒表面一致性验证，排除几何不一致的错误匹配。</li><li>提出 <strong>orientation-aware refinement</strong>（方向感知精细化）：利用有向盒面几何、重力方向与 Manhattan 墙方向，联合优化旋转和平移，解决物体中心无法提供朝向信息的问题。</li><li>将稀疏地图重定位重构为“对空间扩展视频查询的验证”，而非逐帧外观匹配，显著降低存储需求（约 100 kB/房间）并提升长期鲁棒性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>全局地图</strong>：存储重力对齐的有向 3D 盒，包含物体、墙、地板、天花板的类别名；加载时派生中心距离边和三角形索引，不存储任何视觉描述子。</li><li><strong>Per-clip 图构建</strong>：基于 Open3D RGB-D 里程计生成帧间位姿，SAM 3 分割与深度一致性反投影得到观测中心与表面样本；自适应 clip 根据证据量与相机运动量决定闭合时机。</li><li><strong>候选生成</strong>：索引路线通过类兼容三元组匹配生成位姿，随机路线补充；另有 frame-pose anchors 从独立帧拟合出时间锚点，用于生成替代候选或否决冲突假设；方向回退利用重力和墙方向约束旋转。</li><li><strong>验证与后端正向</strong>：盒表面一致性分数 κ(S) 评估候选位姿将表面点放入同类别盒内的比例；后端执行方向感知精细化、run 级决策和 clip-刚性位姿图优化，最终输出每帧位姿 Ti = Sc·Vi。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>RIO10</strong>：10 个 re-scan，34,415 帧，房间地图大小 45–164 kB。</li><li><strong>ReplicaCAD</strong>：18 条 tours，72,000 帧，模拟光照与家具变化。</li><li>对比方法地图规模：<strong>HLoc</strong> 1–2 GB，<strong>ACE-G</strong> 12.6 MB，<strong>R-SCoRe</strong> 42 MB；VideoReloc 仅约 100 kB/房间。</li><li>训练资源：论文未明确提及 GPU/TPU 等训练资源（方法主要为几何与优化，不涉及大规模网络训练）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>评估设置</strong>：在 RIO10 和 ReplicaCAD 上测试长期重定位（re-scan），采用因果评估（causal evaluation）与 clip closure 两种方式，指标为 1 m/10° 与 0.25 m/5° 下的定位成功率及位置/旋转误差。</li><li><strong>VideoReloc 结果（1 m/10°）</strong>：</li></ul>
+<p> - RIO10：因果 73.5%，clip closure 90.6%</p>
+<p> - ReplicaCAD：因果 61.1%，clip closure 74.8%</p>
+<ul><li><strong>对比方法（RIO10, 1 m/10°）</strong>：</li></ul>
+<p> - HLoc：49.8%</p>
+<p> - ACE-G：45.5%</p>
+<p> - R-SCoRe：47.6%（ReplicaCAD 上 ACE-G 为 49.8%）</p>
+<ul><li>在 0.25 m/5° 严格阈值下，VideoReloc 在 RIO10 因果评估中仍保持较高成功率，显著优于现有逐帧方法（具体数据见原文 Table I）。</li><li>消融研究验证了时间聚合（clip 长度）、方向感知细化与跨 clip 一致性决策对最终定位精度的贡献。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.22069/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.21770/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">XCalib Depth-Guided Geometric Optimization for Dense Thermal-Visible Video Registration</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
