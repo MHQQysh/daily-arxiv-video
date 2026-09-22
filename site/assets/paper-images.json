@@ -13505,5 +13505,655 @@
     "inside_figure": true,
     "width": 548,
     "height": 279
+  },
+  "2609.24312": {
+    "title": "AnalogDepth: Multi-view Geometry from FPV drones under Analog Video Transmission",
+    "abs_url": "https://arxiv.org/abs/2609.24312",
+    "html_url": "https://arxiv.org/html/2609.24312v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24312v1/images/pipeline_.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 299,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24312v1/images/loss_curve_andre_estimated.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24312v1/images/rmse_vs_views.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24312v1/images/noise_analysis/noise_model_psd_2d.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 155,
+        "height": 155,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24312v1/images/noise_analysis/frame_frame_00445_realsense_west.mp4_noise_psd.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 155,
+        "height": 155,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2609.24312.webp",
+    "image_url": "https://arxiv.org/html/2609.24312v1/images/pipeline_.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 299
+  },
+  "2609.24492": {
+    "title": "Identity-Consistent Analysis of Long-Shot Windsurfing Video: A Domain-Specific Offline Tracking System",
+    "abs_url": "https://arxiv.org/abs/2609.24492",
+    "html_url": "https://arxiv.org/html/2609.24492v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24492v1/figures/pose-anchor-geometry.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 438,
+        "height": 471,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24492v1/figures/tracking-sail-color-similarity.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 294,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24492v1/figures/tracking-offline-global-association.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 390,
+        "height": 245,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24492v1/figures/problem-camera-pan-scale-candidates.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 92,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.24492.webp",
+    "image_url": "https://arxiv.org/html/2609.24492v1/figures/pose-anchor-geometry.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 438,
+    "height": 471
+  },
+  "2609.24619": {
+    "title": "Video-based Surgical Skill Assessment Using Dynamics-and-Uncertainty-Aware Tree-based Gaussian Process Classifier",
+    "abs_url": "https://arxiv.org/abs/2609.24619",
+    "html_url": "https://arxiv.org/html/2609.24619v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24619v1/gp-tree-cifar10.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 393,
+        "height": 320,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24619v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 179,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24619v1/gp-tree-JIGSAWS.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 157,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24619v1/outputknot_Tying.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 236,
+        "height": 138,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24619v1/outputNeedle_Passing.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 236,
+        "height": 138,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2609.24619.webp",
+    "image_url": "https://arxiv.org/html/2609.24619v1/gp-tree-cifar10.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 393,
+    "height": 320
+  },
+  "2609.24367": {
+    "title": "TReViS: Temporal Repetition Structure Aware Video Synthesis for Self-supervised Repetitive Action Counting",
+    "abs_url": "https://arxiv.org/abs/2609.24367",
+    "html_url": "https://arxiv.org/html/2609.24367v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24367v1/offf.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 952,
+        "height": 577,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24367v1/chart02.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 466,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24367v1/tssm.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 666,
+        "height": 785,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24367v1/figures/com.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 952,
+        "height": 477,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24367v1/figures/visl.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 508,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2609.24367.webp",
+    "image_url": "https://arxiv.org/html/2609.24367v1/offf.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 952,
+    "height": 577
+  },
+  "2609.24487": {
+    "title": "AgentSTAR: Agentic Shape Tracking and Reconstruction from Monocular Videos",
+    "abs_url": "https://arxiv.org/abs/2609.24487",
+    "html_url": "https://arxiv.org/html/2609.24487v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24487v1/teaser_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 446,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24487v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 322,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24487v1/examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24487v1/VLM_guide_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 131,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.24487.webp",
+    "image_url": "https://arxiv.org/html/2609.24487v1/teaser_v2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 446
+  },
+  "2609.24788": {
+    "title": "Streaming Video Editing with Easy Adaptation",
+    "abs_url": "https://arxiv.org/abs/2609.24788",
+    "html_url": "https://arxiv.org/html/2609.24788v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24788v1/stream.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 415,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24788v1/more.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 647,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24788v1/teaser_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 321,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24788v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 218,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24788v1/style.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 282,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.24788.webp",
+    "image_url": "https://arxiv.org/html/2609.24788v1/stream.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 415
+  },
+  "2609.24083": {
+    "title": "From Content Generation to Learning Support: Pedagogy-Guided Generative Video Tutors for STEM Learning",
+    "abs_url": "https://arxiv.org/abs/2609.24083",
+    "html_url": "https://arxiv.org/html/2609.24083v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24083v1/main1639.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 443,
+        "height": 279,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24083v1/fig/q1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 266,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24083v1/fig/q2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 266,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24083v1/fig/che1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 229,
+        "height": 137,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24083v1/fig/che2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 229,
+        "height": 137,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2609.24083.webp",
+    "image_url": "https://arxiv.org/html/2609.24083v1/main1639.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 443,
+    "height": 279
+  },
+  "2609.24984": {
+    "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+    "abs_url": "https://arxiv.org/abs/2609.24984",
+    "html_url": "https://arxiv.org/html/2609.24984v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24984v1/test.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 340,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_figure_panel ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24984v1/as_tight_spacing_clean.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 344,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_figure_panel ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24984v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 276,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24984v1/teaser.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 685,
+        "height": 434,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.24984.webp",
+    "image_url": "https://arxiv.org/html/2609.24984v1/test.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 340
+  },
+  "2609.24997": {
+    "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+    "abs_url": "https://arxiv.org/abs/2609.24997",
+    "html_url": "https://arxiv.org/html/2609.24997v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24997v1/pk_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 396,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24997v1/vks_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 395,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24997v1/vkm_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 363,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24997v1/ps_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 362,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24997v1/cs_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 364,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.24997.webp",
+    "image_url": "https://arxiv.org/html/2609.24997v1/pk_case.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 396
+  },
+  "2609.24208": {
+    "title": "CoaG: Cylinders on a Grid: Coarse 3D Layout Control for Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.24208",
+    "html_url": "https://arxiv.org/html/2609.24208v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.24208v1/figures/F10_editor.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 583,
+        "height": 365,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24208v1/figures/F7_holdout.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 654,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24208v1/figures/F8_camera.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 385,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24208v1/figures/F9_failures.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 694,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.24208v1/figures/F11_ood.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 588,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2609.24208.webp",
+    "image_url": "https://arxiv.org/html/2609.24208v1/figures/F10_editor.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 583,
+    "height": 365
   }
 }

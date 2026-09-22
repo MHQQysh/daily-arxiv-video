@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Streaming Video Editing with Easy Adaptation - Video 每日论文卡</title>
+    <meta name="description" content="提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。 核心目标是解决双向视频扩散模型无法直接用于实时流式编辑的问题，避免从头训练或蒸馏流式骨干模型的高昂成本。 通过识别两大原则（骨干特征解耦、条件帧独立性）并设计新的训练策略，实现编辑能力从双向模型到流式模型的零样本迁移。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.24788">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.24788.webp" alt="Streaming Video Editing with Easy Adaptation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Streaming Video Editing with Easy Adaptation</h1>
+            <div class="detail-meta">2026-09-21 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.24788" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.24788" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.24788</span></div>
+            <p class="detail-summary">提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。 核心目标是解决双向视频扩散模型无法直接用于实时流式编辑的问题，避免从头训练或蒸馏流式骨干模型的高昂成本。 通过识别两大原则（骨干特征解耦、条件帧独立性）并设计新的训练策略，实现编辑能力从双向模型到流式模型的零样本迁移。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">上海交通大学（Shanghai Jiao Tong University）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.24788/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。</p>
+  <ul class="reading-intro-points"><li>提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。</li><li>核心目标是解决双向视频扩散模型无法直接用于实时流式编辑的问题，避免从头训练或蒸馏流式骨干模型的高昂成本。</li><li>通过识别两大原则（骨干特征解耦、条件帧独立性）并设计新的训练策略，实现编辑能力从双向模型到流式模型的零样本迁移。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>上海交通大学</strong>（Shanghai Jiao Tong University）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>SVEET</strong> 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。</li><li>核心目标是解决双向视频扩散模型无法直接用于实时流式编辑的问题，避免从头训练或蒸馏流式骨干模型的高昂成本。</li><li>通过识别两大原则（骨干特征解耦、条件帧独立性）并设计新的训练策略，实现编辑能力从双向模型到流式模型的零样本迁移。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>首次研究<strong>无需重新训练或蒸馏流式骨干</strong>的双向到流式视频编辑迁移问题。</li><li>提出两条流式兼容迁移原则：<strong>骨干特征解耦（backbone feature disentanglement）</strong> 和<strong>条件帧独立性（conditional frame independence）</strong>。</li><li>设计 <strong>SVEET</strong> 架构，采用时间独立的 2D 注意力控制分支，实现因果兼容的条件注入且无需额外 KV 缓存。</li><li>引入<strong>正交解耦训练（Orthogonal Decoupled Training, ODT）</strong>，通过 SVD 提取双向到因果模型的特征差异子空间，并将控制更新约束在其正交补空间，从而缓解特征空间失配。</li><li>在多个视频编辑任务上实现实时推理（单张 H100 GPU 上达 <strong>15 FPS</strong>），且编辑质量优于现有基线和受控对照方法。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>VACE</strong>（Wan-VACE）条件视频扩散架构，控制分支使用<strong>时间独立的 2D 空间自注意力</strong>，使每帧编码互不依赖，保持流式因果推理兼容。</li><li>提出 <strong>ODT</strong> 方案：利用小型校准集，通过岭回归学习双向特征到因果特征的线性映射，对残差变换做 SVD，保留主要差异方向（保留 <strong>80%</strong> 累计谱能量）并构建正交投影矩阵，约束控制分支的 LoRA 更新仅发生在正交补空间。</li><li>训练时保持双向骨干（<strong>Wan2.1-1.3B-VACE</strong>）完全冻结，仅优化控制分支和 LoRA 适配器，实现轻量且解耦的适应。</li><li>理论分析（Theorem 1 & 2）表明，正交解耦能降低功能间的干扰、提升输出可加性，从而改善零样本迁移的稳定性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>风格迁移训练数据采样自 <strong>Ditto</strong> 数据集；视频修复和深度到视频生成数据采样自 <strong>VPData</strong> 数据集。</li><li>深度条件使用 <strong>Video-Depth-Anything</strong> 提取。</li><li>模型规模：基于 <strong>Wan2.1-1.3B-VACE</strong> 双向骨干，控制分支使用 <strong>LoRA</strong>（rank=<strong>128</strong>）。</li><li>训练资源：单个 <strong>NVIDIA A100 (80GB)</strong> GPU，batch size 1，每任务训练 <strong>10 epochs</strong>，视频分辨率 <strong>480×832</strong>，81 帧片段。</li><li>优化器：<strong>AdamW</strong>，学习率 <strong>1×10⁻⁴</strong>，权重衰减 <strong>10⁻²</strong>。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估任务：<strong>视频风格迁移、视频修复、深度到视频生成</strong>三个代表性编辑任务。</li><li>评估指标：VLM 评分、Text Alignment、<strong>VBench</strong> 系列指标。</li><li>对比基线：<strong>SDEdit+CF</strong>、<strong>StreamDiffusionV2</strong>、<strong>Daydream+CF</strong>、<strong>LiveEdit</strong> 以及两个受控基线 <strong>Full-Attn</strong> 和 <strong>Channel-Concat Control</strong>。</li><li>关键结果：SVEET 在三个任务上均取得领先的量化表现，同时保持实时性能（<strong>15 FPS</strong> on H100）。</li><li>实验验证了时间独立注意力设计的有效性；全时空注意力迁移后编辑能力受损，而 2D 注意力变体转移更可靠，证实了两条设计原则。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.24984/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.24619/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Video-based Surgical Skill Assessment Using Dynamics-and-Uncertainty-Aware Tree-based Gaussian Process Classifier</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

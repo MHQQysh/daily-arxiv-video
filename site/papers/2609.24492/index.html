@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Identity-Consistent Analysis of Long-Shot Windsurfing Video: A Domain-Specific Offline Tracking System - Video 每日论文卡</title>
+    <meta name="description" content="论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。 核心挑战在于：目标像素小、摄像机大范围摇摄（pan）、帆板长时间重叠、背景快速变化，且身份合并（identity merge）错误的代价远高于漏检/碎片化——一次错误合并可能污染整段输出视频。 系统采用&quot;保守局部跟踪 + 全局离线关联&quot;两阶段设计，并结合双关键点姿态驱动的虚拟摄像机稳定方案，最终在 21 个手工标注开发视频上达到优于通用在线跟踪器（OC-SORT、BoT-SORT）的身份一致性表现。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.24492">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.24492.webp" alt="Identity-Consistent Analysis of Long-Shot Windsurfing Video: A Domain-Specific Offline Tracking System" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Identity-Consistent Analysis of Long-Shot Windsurfing Video: A Domain-Specific Offline Tracking System</h1>
+            <div class="detail-meta">2026-09-21 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.24492" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.24492" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.24492</span></div>
+            <p class="detail-summary">论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。 核心挑战在于：目标像素小、摄像机大范围摇摄（pan）、帆板长时间重叠、背景快速变化，且身份合并（identity merge）错误的代价远高于漏检/碎片化——一次错误合并可能污染整段输出视频。 系统采用&quot;保守局部跟踪 + 全局离线关联&quot;两阶段设计，并结合双关键点姿态驱动的虚拟摄像机稳定方案，最终在 21 个手工标注开发视频上达到优于通用在线跟踪器（OC-SORT、BoT-SORT）的身份一致性表现。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">8 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Bertil Braun（独立研究者/未列出正式机构，联系邮箱：contact@bertil-brau…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.24492/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。</p>
+  <ul class="reading-intro-points"><li>论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。</li><li>核心挑战在于：目标像素小、摄像机大范围摇摄（pan）、帆板长时间重叠、背景快速变化，且身份合并（identity merge）错误的代价远高于漏检/碎片化——一次错误合并可能污染整段输出视频。</li><li>系统采用&quot;保守局部跟踪 + 全局离线关联&quot;两阶段设计，并结合双关键点姿态驱动的虚拟摄像机稳定方案，最终在 21 个手工标注开发视频上达到优于通用在线跟踪器（OC-SORT、BoT-SORT）的身份一致性表现。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Bertil Braun</strong>（独立研究者/未列出正式机构，联系邮箱：contact@bertil-braun.de）</li><li>arXiv:2609.24492v1 [cs.CV]</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文针对<strong>长镜头帆板（windsurfing）视频分析</strong>问题，提出一套<strong>领域专用的离线多目标跟踪系统</strong>，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。</li><li>核心挑战在于：目标像素小、摄像机大范围摇摄（pan）、帆板长时间重叠、背景快速变化，且<strong>身份合并（identity merge）错误的代价远高于漏检/碎片化</strong>——一次错误合并可能污染整段输出视频。</li><li>系统采用"<strong>保守局部跟踪 + 全局离线关联</strong>"两阶段设计，并结合<strong>双关键点姿态驱动的虚拟摄像机稳定</strong>方案，最终在 21 个手工标注开发视频上达到优于通用在线跟踪器（OC-SORT、BoT-SORT）的身份一致性表现。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出以<strong>非对称代价</strong>（身份合并 vs 碎片化）为核心的领域问题形式化，明确"身份是首要不变量"，并利用<strong>完整离线视频</strong>进行全局处理。</li><li>构建<strong>领域专属关联管线</strong>：前景掩蔽的帆面颜色描述子（foreground-masked sail appearance）+ 摄像机补偿的四维运动模型 + 保守局部 tracklet + 几何否决规则 + 全局路径优化（整数规划）。</li><li>设计<strong>双关键点姿态引导稳定化</strong>：基于帆板 rig 几何（boom–mast 节点与桅顶）而非通用人体姿态，提供骑手相对锚点与尺度信号，减少框中心漂移与缩放抖动。</li><li>提供<strong>固定观测集评估协议</strong>：在 21 个手工重建视频、41,004 个保留观测上，与 OC-SORT、BoT-SORT 对比，并进行分段消融（staged ablation）和链路级错误审计。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>检测器</strong>：自定义训练的<strong>单类 YOLO11m-pose</strong> 模型，输入 640 像素分辨率，训练 700 轮，输出冲浪者边界框和两个领域关键点（boom–mast 节点、桅顶）。</li><li><strong>外观描述子</strong>：基于 Lab 色彩空间联合直方图、圆形色调直方图和低权重亮度直方图，经饱和度加权、前景掩蔽（去除与边界相连的背景分量）后构造，采用整片段原型（whole-fragment prototype）而非端点指数平均。</li><li><strong>运动模型</strong>：<strong>Kalman 滤波</strong> + 全局摄像机运动补偿（帧间掩蔽冲浪者的背景特征估计），候选边使用四维测量 (cx, cy, w, h) 的 Mahalanobis 距离与负对数卡方生存分数作为运动代价。</li><li><strong>全局关联</strong>：构建有界候选图（时间间隔 ≤3 秒），应用绝对可行性否决（运动代价上限 8、面积/长宽比变化 ≤3 倍），通过<strong>整数规划（ILP）</strong>联合优化片段的起始、结束、丢弃与链接。</li><li><strong>稳定化</strong>：RTS 平滑生成稠密轨迹后，利用 boom–mast 锚点与桅顶点距离作为尺度信号，五帧稳健加权平均抑制跳变，输出每帧的虚拟摄像机锚点与裁剪尺度。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>开发数据集</strong>：21 段手工重建的风帆冲浪视频，含 41,079 个保存的非插值检测，其中 41,004 个属于保留冲浪者身份、75 个标记为拒绝样本。</li><li><strong>姿态训练数据</strong>：1,123 张手工标注训练图像 + 56 张验证图像（图像级划分，不保证跨序列泛化）。</li><li><strong>模型规模</strong>：YOLO11m-pose（单类检测 + 两个姿态关键点）。</li><li><strong>训练资源</strong>：论文未明确报告 GPU/TPU 数量；检测器在 640 像素输入下训练 700 轮。</li><li><strong>开源资源</strong>：源代码、技术文档和输出演示公开可查（参考文献 [12]）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>评估协议</strong>：固定观测集（所有方法使用相同边界框），采用<strong>成对精度（Pair P）、成对召回（Pair R）、成对 F1</strong>、宏平均 F1、覆盖率、污染轨迹数/污染观测数、碎片化超标数（fragmentation excess）等指标。</li><li><strong>主要结果</strong>（固定观测协议）：</li></ul>
+<p> - <strong>生产系统</strong>：Pair Precision <strong>0.957</strong>，Pair Recall <strong>0.918</strong>，Pair F1 <strong>0.937</strong>；碎片化超标从 845 降至 <strong>42</strong>。</p>
+<p> - <strong>OC-SORT</strong>：Pair Precision 0.985，Pair Recall 0.662，Pair F1 <strong>0.792</strong>，碎片化超标 845，污染轨迹 9/165（5.5%），污染观测 6,184。</p>
+<p> - <strong>BoT-SORT（无 ReID）</strong>：Pair F1 <strong>0.828</strong>（覆盖率 0.996）。</p>
+<ul><li><strong>关键发现</strong>：598/601 个预处理片段相对保留金标准身份是纯净的，主要错误来自<strong>将两个纯净片段错误链接</strong>；生产系统 95 条输出轨迹中有 9 条混合了骑手身份，影响 21 个视频中的 7 个。</li><li><strong>局限性</strong>：数据集同时用于系统设计与参数调优，属于<strong>样本内工程诊断与失效分析</strong>，而非严格留出集上的端到端跟踪器对比；金标准框经过 RTS 平滑，存在信息泄漏。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.24619/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Video-based Surgical Skill Assessment Using Dynamics-and-Uncertainty-Aware Tree-based Gaussian Process Classifier</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.24487/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">AgentSTAR: Agentic Shape Tracking and Reconstruction from Monocular Videos</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

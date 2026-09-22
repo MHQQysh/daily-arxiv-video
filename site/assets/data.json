@@ -1,5 +1,289 @@
 [
   {
+    "date": "2026-09-21",
+    "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+    "link": "https://arxiv.org/abs/2609.24997",
+    "arxiv_id": "2609.24997",
+    "detail_path": "papers/2609.24997/",
+    "cover_path": "covers/2609.24997/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24997.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24997.webp",
+    "preview_text": "提出 VideoGen-Agent，一个通过多任务智能体强化学习训练的多模态智能体，用于协调外部工具完成视频生成任务。 解决现有视频生成模型在程序性知识、身份保持、物理模拟、场景组合和多镜头时序等六类能力上的不足。 智能体在“推理-行动-观察”循环中自主选择增强（Augmentation）、生成（Generation） 和验证（Verification） 三类工具，并根据中间观测结果逐步优化生成流程。",
+    "research_unit": "普林斯顿大学（Princeton University）",
+    "hook_text": "提出 VideoGen-Agent，一个通过多任务智能体强化学习训练的多模态智能体，用于协调外部工具完成视频生成任务。",
+    "key_points": [
+      "提出 VideoGen-Agent，一个通过多任务智能体强化学习训练的多模态智能体，用于协调外部工具完成视频生成任务。",
+      "解决现有视频生成模型在程序性知识、身份保持、物理模拟、场景组合和多镜头时序等六类能力上的不足。",
+      "智能体在“推理-行动-观察”循环中自主选择增强（Augmentation）、生成（Generation） 和验证（Verification） 三类工具，并根据中间观测结果逐步优化生成流程。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+    "link": "https://arxiv.org/abs/2609.24984",
+    "arxiv_id": "2609.24984",
+    "detail_path": "papers/2609.24984/",
+    "cover_path": "covers/2609.24984/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24984.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24984.webp",
+    "preview_text": "提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索 核心思想：让请求的目标视角决定如何将多视角历史证据压缩进视频生成器有限的 token 预算中，从而在不依赖显式深度对应的情况下保持场景外观与结构一致性 解决现有视频世界模型在长期生成中无法忠实回忆先前观察内容、且相机控制精度不足的问题",
+    "research_unit": "北京大学（Peking University）：作者 Shenghai Yuan、Chaoran Fe…",
+    "hook_text": "提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索",
+    "key_points": [
+      "提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索",
+      "核心思想：让请求的目标视角决定如何将多视角历史证据压缩进视频生成器有限的 token 预算中，从而在不依赖显式深度对应的情况下保持场景外观与结构一致性",
+      "解决现有视频世界模型在长期生成中无法忠实回忆先前观察内容、且相机控制精度不足的问题"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Streaming Video Editing with Easy Adaptation",
+    "link": "https://arxiv.org/abs/2609.24788",
+    "arxiv_id": "2609.24788",
+    "detail_path": "papers/2609.24788/",
+    "cover_path": "covers/2609.24788/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24788.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24788.webp",
+    "preview_text": "提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。 核心目标是解决双向视频扩散模型无法直接用于实时流式编辑的问题，避免从头训练或蒸馏流式骨干模型的高昂成本。 通过识别两大原则（骨干特征解耦、条件帧独立性）并设计新的训练策略，实现编辑能力从双向模型到流式模型的零样本迁移。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。",
+    "key_points": [
+      "提出 SVEET 框架，仅需在预训练的双向视频扩散模型上训练，即可实现高质量的自回归流式视频编辑。",
+      "核心目标是解决双向视频扩散模型无法直接用于实时流式编辑的问题，避免从头训练或蒸馏流式骨干模型的高昂成本。",
+      "通过识别两大原则（骨干特征解耦、条件帧独立性）并设计新的训练策略，实现编辑能力从双向模型到流式模型的零样本迁移。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Video-based Surgical Skill Assessment Using Dynamics-and-Uncertainty-Aware Tree-based Gaussian Process Classifier",
+    "link": "https://arxiv.org/abs/2609.24619",
+    "arxiv_id": "2609.24619",
+    "detail_path": "papers/2609.24619/",
+    "cover_path": "covers/2609.24619/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24619.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24619.webp",
+    "preview_text": "该论文提出了一种用于视频手术技能评估的流水线框架 RF-DUAGP-Tree，将 Representation Flow（表示流）卷积神经网络 与 动力学和不确定性感知的树状高斯过程分类器（DUAGP-Tree） 相结合。 论文的核心目标是解决现有深度学习手术技能评估方法对大规模训练数据和高计算资源依赖性强的问题，在有限数据、计算受限的条件下实现高效且准确的手术技能自动评估。 该框架在 JIGSAWS 和 Cataract-LMM（Capsulorhexis） 两个基准数据集上进行了验证，重点解决了跨受试者泛化（subject-independent LOUO 协议）的挑战。",
+    "research_unit": "K.N. Toosi University of Technology（伊朗德黑兰），Applied…",
+    "hook_text": "该论文提出了一种用于视频手术技能评估的流水线框架 RF-DUAGP-Tree，将 Representation Flow（表示流）卷积神经网络 与 动力学和不确定性感知的树状高斯过程分类器（DUAGP-Tree） 相结合。",
+    "key_points": [
+      "该论文提出了一种用于视频手术技能评估的流水线框架 RF-DUAGP-Tree，将 Representation Flow（表示流）卷积神经网络 与 动力学和不确定性感知的树状高斯过程分类器（DUAGP-Tree） 相结合。",
+      "论文的核心目标是解决现有深度学习手术技能评估方法对大规模训练数据和高计算资源依赖性强的问题，在有限数据、计算受限的条件下实现高效且准确的手术技能自动评估。",
+      "该框架在 JIGSAWS 和 Cataract-LMM（Capsulorhexis） 两个基准数据集上进行了验证，重点解决了跨受试者泛化（subject-independent LOUO 协议）的挑战。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "Identity-Consistent Analysis of Long-Shot Windsurfing Video: A Domain-Specific Offline Tracking System",
+    "link": "https://arxiv.org/abs/2609.24492",
+    "arxiv_id": "2609.24492",
+    "detail_path": "papers/2609.24492/",
+    "cover_path": "covers/2609.24492/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24492.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24492.webp",
+    "preview_text": "论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。 核心挑战在于：目标像素小、摄像机大范围摇摄（pan）、帆板长时间重叠、背景快速变化，且身份合并（identity merge）错误的代价远高于漏检/碎片化——一次错误合并可能污染整段输出视频。 系统采用\"保守局部跟踪 + 全局离线关联\"两阶段设计，并结合双关键点姿态驱动的虚拟摄像机稳定方案，最终在 21 个手工标注开发视频上达到优于通用在线跟踪器（OC-SORT、BoT-SORT）的身份一致性表现。",
+    "research_unit": "Bertil Braun（独立研究者/未列出正式机构，联系邮箱：contact@bertil-brau…",
+    "hook_text": "论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。",
+    "key_points": [
+      "论文针对长镜头帆板（windsurfing）视频分析问题，提出一套领域专用的离线多目标跟踪系统，目标是为每位冲浪者生成独立、稳定的骑手相对视角（rider-relative）视频片段。",
+      "核心挑战在于：目标像素小、摄像机大范围摇摄（pan）、帆板长时间重叠、背景快速变化，且身份合并（identity merge）错误的代价远高于漏检/碎片化——一次错误合并可能污染整段输出视频。",
+      "系统采用\"保守局部跟踪 + 全局离线关联\"两阶段设计，并结合双关键点姿态驱动的虚拟摄像机稳定方案，最终在 21 个手工标注开发视频上达到优于通用在线跟踪器（OC-SORT、BoT-SORT）的身份一致性表现。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "AgentSTAR: Agentic Shape Tracking and Reconstruction from Monocular Videos",
+    "link": "https://arxiv.org/abs/2609.24487",
+    "arxiv_id": "2609.24487",
+    "detail_path": "papers/2609.24487/",
+    "cover_path": "covers/2609.24487/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24487.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24487.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "TReViS: Temporal Repetition Structure Aware Video Synthesis for Self-supervised Repetitive Action Counting",
+    "link": "https://arxiv.org/abs/2609.24367",
+    "arxiv_id": "2609.24367",
+    "detail_path": "papers/2609.24367/",
+    "cover_path": "covers/2609.24367/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24367.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24367.webp",
+    "preview_text": "提出 TReViS，一种自监督视频合成框架，用于在完全不使用重复动作标签的情况下训练重复动作计数（RAC）模型。 核心思路：从无标注视频中估计时间重复结构（周期长度、重复次数），基于该结构合成具有真实重复模式的训练视频，并生成伪标签对现有 RAC 架构进行训练。 解决的问题：全监督 RAC 需要密集时间标注且成本高昂，现有自监督方法要么依赖测试时自适应（计算开销大），要么使用域不匹配的合成数据（伪标签与真实分布差距大）。",
+    "research_unit": "Istituto Italiano di Tecnologia (AIGO Unit), Genoa…",
+    "hook_text": "提出 TReViS，一种自监督视频合成框架，用于在完全不使用重复动作标签的情况下训练重复动作计数（RAC）模型。",
+    "key_points": [
+      "提出 TReViS，一种自监督视频合成框架，用于在完全不使用重复动作标签的情况下训练重复动作计数（RAC）模型。",
+      "核心思路：从无标注视频中估计时间重复结构（周期长度、重复次数），基于该结构合成具有真实重复模式的训练视频，并生成伪标签对现有 RAC 架构进行训练。",
+      "解决的问题：全监督 RAC 需要密集时间标注且成本高昂，现有自监督方法要么依赖测试时自适应（计算开销大），要么使用域不匹配的合成数据（伪标签与真实分布差距大）。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "AnalogDepth: Multi-view Geometry from FPV drones under Analog Video Transmission",
+    "link": "https://arxiv.org/abs/2609.24312",
+    "arxiv_id": "2609.24312",
+    "detail_path": "papers/2609.24312/",
+    "cover_path": "covers/2609.24312/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24312.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24312.webp",
+    "preview_text": "论文聚焦 FPV 无人机模拟视频传输（Analog VTX） 下的多视图几何估计问题，指出模拟传输产生的空间结构化噪声会严重降低 SOTA 几何基础模型 Depth Anything 3 (DA3) 的精度。 提出 AnalogDepth，一种参数高效的训练流水线，通过 学生-教师知识蒸馏 + LoRA 适配 DA3 到模拟 FPV 图像，无需访问原始预训练代码或数据。 构建真实模拟噪声库，并对比真实噪声注入、PSD 匹配高斯合成噪声和 AWGN 三种训练噪声策略，验证了模拟噪声空间结构对域适配的关键作用。",
+    "research_unit": "NOVA School of Science and Technology, NOVA Univers…",
+    "hook_text": "论文聚焦 FPV 无人机模拟视频传输（Analog VTX） 下的多视图几何估计问题，指出模拟传输产生的空间结构化噪声会严重降低 SOTA 几何基础模型 Depth Anything 3 (DA3) 的精度。",
+    "key_points": [
+      "论文聚焦 FPV 无人机模拟视频传输（Analog VTX） 下的多视图几何估计问题，指出模拟传输产生的空间结构化噪声会严重降低 SOTA 几何基础模型 Depth Anything 3 (DA3) 的精度。",
+      "提出 AnalogDepth，一种参数高效的训练流水线，通过 学生-教师知识蒸馏 + LoRA 适配 DA3 到模拟 FPV 图像，无需访问原始预训练代码或数据。",
+      "构建真实模拟噪声库，并对比真实噪声注入、PSD 匹配高斯合成噪声和 AWGN 三种训练噪声策略，验证了模拟噪声空间结构对域适配的关键作用。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "CoaG: Cylinders on a Grid: Coarse 3D Layout Control for Video Generation",
+    "link": "https://arxiv.org/abs/2609.24208",
+    "arxiv_id": "2609.24208",
+    "detail_path": "papers/2609.24208/",
+    "cover_path": "covers/2609.24208/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24208.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24208.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "title": "From Content Generation to Learning Support: Pedagogy-Guided Generative Video Tutors for STEM Learning",
+    "link": "https://arxiv.org/abs/2609.24083",
+    "arxiv_id": "2609.24083",
+    "detail_path": "papers/2609.24083/",
+    "cover_path": "covers/2609.24083/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.24083.webp",
+    "paper_image_full_path": "assets/paper-images/2609.24083.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-18",
     "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
     "link": "https://arxiv.org/abs/2609.22069",

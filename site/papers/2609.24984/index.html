@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory - Video 每日论文卡</title>
+    <meta name="description" content="提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索 核心思想：让请求的目标视角决定如何将多视角历史证据压缩进视频生成器有限的 token 预算中，从而在不依赖显式深度对应的情况下保持场景外观与结构一致性 解决现有视频世界模型在长期生成中无法忠实回忆先前观察内容、且相机控制精度不足的问题" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.24984">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.24984.webp" alt="WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory</h1>
+            <div class="detail-meta">2026-09-21 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.24984" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.24984" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.24984</span></div>
+            <p class="detail-summary">提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索 核心思想：让请求的目标视角决定如何将多视角历史证据压缩进视频生成器有限的 token 预算中，从而在不依赖显式深度对应的情况下保持场景外观与结构一致性 解决现有视频世界模型在长期生成中无法忠实回忆先前观察内容、且相机控制精度不足的问题</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">北京大学（Peking University）：作者 Shenghai Yuan、Chaoran Fe…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.24984/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索</p>
+  <ul class="reading-intro-points"><li>提出 WorldCrafter，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索</li><li>核心思想：让请求的目标视角决定如何将多视角历史证据压缩进视频生成器有限的 token 预算中，从而在不依赖显式深度对应的情况下保持场景外观与结构一致性</li><li>解决现有视频世界模型在长期生成中无法忠实回忆先前观察内容、且相机控制精度不足的问题</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>北京大学（Peking University）</strong>：作者 Shenghai Yuan、Chaoran Feng、Haiyang Zhou 所属</li><li><strong>ARC Lab, Tencent IEG（腾讯互动娱乐事业群 ARC 实验室）</strong>：作者 Yukun Huang、Yiran Wang、Wang Zhao、Yingmin Luo、Ying Shan 所属</li><li>部分作者（Wangbo Yu、Kunhao Liu、Wenbo Hu）未明确标注所属机构</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>WorldCrafter</strong>，一个带隐式 3D 感知记忆的视频世界模型，用于实现长视界、跨视角一致的交互式场景探索</li><li>核心思想：让请求的目标视角决定如何将多视角历史证据压缩进视频生成器有限的 token 预算中，从而在不依赖显式深度对应的情况下保持场景外观与结构一致性</li><li>解决现有视频世界模型在长期生成中无法忠实回忆先前观察内容、且相机控制精度不足的问题</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>引入隐式 3D 感知记忆机制：记忆编码器将历史潜在帧编码为紧凑的 3D 感知表示，并在固定 token 预算内完成高效记忆写入与读取</li><li>将记忆机制集成到相机可控的自回归视频生成中，实现领先的重访一致性（相对最强基线提升 <strong>47.6%</strong>）和相机控制精度</li><li>通过少步蒸馏构建实时交互系统，在分钟级探索中保持流式推理能力与视觉质量</li><li>采用姿态引导的读出模块，实验证明其优于无姿态读出，能更有效分配记忆预算给目标相关信息</li><li>提出最大覆盖历史帧检索策略，相比传统的成对 FoV 相似度检索，覆盖更广、鲁棒性更强</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>条件流匹配（Conditional Flow Matching）</strong> 训练潜空间视频扩散模型，使用视频 VAE 将视频映射为潜变量，再通过 Diffusion Transformer（DiT）去噪</li><li>记忆编码器初始化自 <strong>LagerNVS</strong> 的编码器（丢弃浅层图像处理层，新增 patch embedding 层），将历史潜帧及其相机姿态编码为紧凑表示</li><li>记忆读出（Readout）模块：对比姿态无关与姿态引导两种读出方式，后者使用从目标轨迹采样的查询姿态，初始化为 LagerNVS 解码器浅层并加投影层</li><li>相机条件使用 <strong>PRoPE</strong> 风格编码，采用 UCPE 的并行相机注意力分支，仅作用于噪声部分</li><li>推理时选择互补历史帧（最大联合视场覆盖），并将记忆 token 与近期上下文拼接进 DiT 的 token 序列</li><li>结合自回归分块生成与少步蒸馏，实现实时流式推理</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>原文未在已提供部分明确列出训练数据集名称（如 RealEstate10K、DL3DV 等）</li><li>模型基于视频 DiT（类似 Wan 2.1）架构，记忆编码器从 LagerNVS 初始化</li><li>训练资源（GPU/TPU 数量、型号、训练时长等）未在已提供内容中给出</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估任务包括：长视界重访一致性、相机控制精度、视觉质量</li><li>使用指标：<strong>MEt3R</strong>（越低越好）、<strong>LPIPS</strong>（越低越好）、<strong>PSNR</strong>（越高越好）、<strong>SSIM</strong>（越高越好）</li><li>长视界重访一致性测试基于 725 个生成的视频，匹配首次访问与重访帧计算指标</li><li>与基线对比（部分数据）：</li></ul>
+<p> - <strong>DreamX-World</strong>：MEt3R 0.548，LPIPS 0.627，PSNR 12.898，SSIM 0.243</p>
+<p> - <strong>Alaya-EVOKE</strong>：MEt3R 0.414，LPIPS 0.565，PSNR 12.332，SSIM 0.290</p>
+<p> - <strong>HY-WorldPlay</strong>：MEt3R 0.394，LPIPS 0.515，PSNR 12.983，SSIM 0.252</p>
+<p> - <strong>Lyra 2.0</strong>（次优）：MEt3R 0.334，LPIPS 0.487，PSNR 14.050，SSIM 0.390</p>
+<ul><li>定性实验展示模型在静态和动态场景中均能保持重访一致性，并支持从单张图像或文本提示开始探索</li><li>消融研究用于验证姿态引导读出、记忆编码器初始化、历史帧检索策略等的有效性（详细消融结果未在已提供部分完整展示）</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.24997/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">VideoGen-Agent: Reinforcing Video Generation Agents</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.24788/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Streaming Video Editing with Easy Adaptation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
