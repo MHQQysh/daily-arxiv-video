@@ -1,5 +1,287 @@
 [
   {
+    "date": "2026-09-22",
+    "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation",
+    "link": "https://arxiv.org/abs/2609.26425",
+    "arxiv_id": "2609.26425",
+    "detail_path": "papers/2609.26425/",
+    "cover_path": "covers/2609.26425/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.26425.webp",
+    "paper_image_full_path": "assets/paper-images/2609.26425.webp",
+    "preview_text": "现有2-bit KV cache量化方法在视频生成和世界模型中导致严重的时间闪烁和视觉退化，尽管在VBench等基准上表现接近无损 研究发现Key量化虽然 reconstruction error 小于Value量化，但会导致更大的输出退化，因为它会改变注意力 logits（QK^T）并扰动时空token选择 提出QuantWM，一个训练无关的严格因果2-bit KV cache量化框架，通过显式保护注意力logits和时空token选择来缓解视觉退化问题",
+    "research_unit": "哈尔滨工业大学（深圳）（Harbin Institute of Technology (Shenzhe…",
+    "hook_text": "现有2-bit KV cache量化方法在视频生成和世界模型中导致严重的时间闪烁和视觉退化，尽管在VBench等基准上表现接近无损",
+    "key_points": [
+      "现有2-bit KV cache量化方法在视频生成和世界模型中导致严重的时间闪烁和视觉退化，尽管在VBench等基准上表现接近无损",
+      "研究发现Key量化虽然 reconstruction error 小于Value量化，但会导致更大的输出退化，因为它会改变注意力 logits（QK^T）并扰动时空token选择",
+      "提出QuantWM，一个训练无关的严格因果2-bit KV cache量化框架，通过显式保护注意力logits和时空token选择来缓解视觉退化问题"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "VideoX-Qwen: Data-Centric Instruction-Based Video Editing",
+    "link": "https://arxiv.org/abs/2609.26015",
+    "arxiv_id": "2609.26015",
+    "detail_path": "papers/2609.26015/",
+    "cover_path": "covers/2609.26015/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.26015.webp",
+    "paper_image_full_path": "assets/paper-images/2609.26015.webp",
+    "preview_text": "针对通用指令式视频编辑的两大核心瓶颈：大规模高质量配对编辑监督数据不足、预训练视频生成模型难以适配编辑任务，提出集数据构造与模型训练于一体的VideoX-Qwen框架 数据侧构建可扩展的多任务视频编辑数据管线，模型侧设计统一架构适配多类编辑指令，实现仅需源视频和自然语言指令即可完成定向视频编辑 覆盖增、删、替换、属性编辑四类常见视频编辑操作，为通用可控视频编辑系统提供可扩展的技术基础",
+    "research_unit": "南京大学智能科学与技术学院（School of Intelligence Science and Te…",
+    "hook_text": "针对通用指令式视频编辑的两大核心瓶颈：大规模高质量配对编辑监督数据不足、预训练视频生成模型难以适配编辑任务，提出集数据构造与模型训练于一体的VideoX-Qwen框架",
+    "key_points": [
+      "针对通用指令式视频编辑的两大核心瓶颈：大规模高质量配对编辑监督数据不足、预训练视频生成模型难以适配编辑任务，提出集数据构造与模型训练于一体的VideoX-Qwen框架",
+      "数据侧构建可扩展的多任务视频编辑数据管线，模型侧设计统一架构适配多类编辑指令，实现仅需源视频和自然语言指令即可完成定向视频编辑",
+      "覆盖增、删、替换、属性编辑四类常见视频编辑操作，为通用可控视频编辑系统提供可扩展的技术基础"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Identity-Centric Video Summarization via Hierarchical Fusion of Biometric, Appearance, and 3D Body Features",
+    "link": "https://arxiv.org/abs/2609.25837",
+    "arxiv_id": "2609.25837",
+    "detail_path": "papers/2609.25837/",
+    "cover_path": "covers/2609.25837/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.25837.webp",
+    "paper_image_full_path": "assets/paper-images/2609.25837.webp",
+    "preview_text": "提出一种基于多目标跟踪（MOT）和行人重识别（ReID）的以身份为中心的视频摘要生成算法 通过整合面部嵌入、3D身体形状特征和视觉外观特征到统一跟踪框架，实现分层身份分配与跟踪 利用双向锚定（bidirectional anchoring）机制在严重遮挡或低视觉质量条件下鲁棒恢复人物轨迹 基于稳定轨迹为每个身份生成紧凑摘要集，采用多因素加权方案选择关键帧并优化摘要质量",
+    "research_unit": "作者所属研究机构信息未在提供的HTML内容中明确显示（仅列出作者姓名：Milad Mirjalili、…",
+    "hook_text": "提出一种基于多目标跟踪（MOT）和行人重识别（ReID）的以身份为中心的视频摘要生成算法",
+    "key_points": [
+      "提出一种基于多目标跟踪（MOT）和行人重识别（ReID）的以身份为中心的视频摘要生成算法",
+      "通过整合面部嵌入、3D身体形状特征和视觉外观特征到统一跟踪框架，实现分层身份分配与跟踪",
+      "利用双向锚定（bidirectional anchoring）机制在严重遮挡或低视觉质量条件下鲁棒恢复人物轨迹"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "CogenPVG: Cognitive-Enhanced Reflective Multi-Agent Framework for Persuasive Video Generation",
+    "link": "https://arxiv.org/abs/2609.25821",
+    "arxiv_id": "2609.25821",
+    "detail_path": "papers/2609.25821/",
+    "cover_path": "covers/2609.25821/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.25821.webp",
+    "paper_image_full_path": "assets/paper-images/2609.25821.webp",
+    "preview_text": "提出了 CogenPVG，一个面向说服性视频生成（PVG）任务的认知增强反思多智能体框架 将复杂的视频生成过程解耦为四个阶段：论点推理、故事板规划、素材创作和后期编辑，模拟人类视频制作者工作流 每个阶段配备生成器和评论者智能体对，遵循基于 ELM说服理论 的反思完善机制以确保高说服力 解决现有视频生成方法仅关注叙事性而忽略认知影响力（如说服力）的问题",
+    "research_unit": "北京航空航天大学 (Beihang University)",
+    "hook_text": "提出了 CogenPVG，一个面向说服性视频生成（PVG）任务的认知增强反思多智能体框架",
+    "key_points": [
+      "提出了 CogenPVG，一个面向说服性视频生成（PVG）任务的认知增强反思多智能体框架",
+      "将复杂的视频生成过程解耦为四个阶段：论点推理、故事板规划、素材创作和后期编辑，模拟人类视频制作者工作流",
+      "每个阶段配备生成器和评论者智能体对，遵循基于 ELM说服理论 的反思完善机制以确保高说服力"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "TRACE: Trajectory Representation and Consistency Estimation for AI-Generated Video Detection",
+    "link": "https://arxiv.org/abs/2609.25775",
+    "arxiv_id": "2609.25775",
+    "detail_path": "papers/2609.25775/",
+    "cover_path": "covers/2609.25775/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.25775.webp",
+    "paper_image_full_path": "assets/paper-images/2609.25775.webp",
+    "preview_text": "论文旨在解决 AI 生成视频检测问题，尤其是现有方法对未见生成模型泛化能力差的问题。 提出了一种名为 TRACE 的生成过程感知框架，利用预训练的 Flow Matching 视频模型提取视频的速度响应作为取证线索。 核心观察是真实视频和 AI 生成视频在预训练生成模型的不同流时间点上表现出显著的速度响应差异。",
+    "research_unit": "浙江大学 (Zhejiang University)",
+    "hook_text": "论文旨在解决 AI 生成视频检测问题，尤其是现有方法对未见生成模型泛化能力差的问题。",
+    "key_points": [
+      "论文旨在解决 AI 生成视频检测问题，尤其是现有方法对未见生成模型泛化能力差的问题。",
+      "提出了一种名为 TRACE 的生成过程感知框架，利用预训练的 Flow Matching 视频模型提取视频的速度响应作为取证线索。",
+      "核心观察是真实视频和 AI 生成视频在预训练生成模型的不同流时间点上表现出显著的速度响应差异。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models",
+    "link": "https://arxiv.org/abs/2609.25773",
+    "arxiv_id": "2609.25773",
+    "detail_path": "papers/2609.25773/",
+    "cover_path": "covers/2609.25773/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.25773.webp",
+    "paper_image_full_path": "assets/paper-images/2609.25773.webp",
+    "preview_text": "论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试 每个问题将 3-6 个关于视频中特定时刻的是/否问题链式连接，每个子问题根据答案产生两个整数之一，最终答案为所有整数之和，可通过精确匹配验证 解决两个核心问题：现有视频RLVR训练数据缺乏多跳视觉证据链导致推理弱点无法暴露；GRPO训练中零方差组（全对或全错）无法产生梯度信号",
+    "research_unit": "S-Lab, Nanyang Technological University (NTU)",
+    "hook_text": "论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试",
+    "key_points": [
+      "论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试",
+      "每个问题将 3-6 个关于视频中特定时刻的是/否问题链式连接，每个子问题根据答案产生两个整数之一，最终答案为所有整数之和，可通过精确匹配验证",
+      "解决两个核心问题：现有视频RLVR训练数据缺乏多跳视觉证据链导致推理弱点无法暴露；GRPO训练中零方差组（全对或全错）无法产生梯度信号"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Gaze responses to false-positive computer-aided detection prompts during colonoscopy: a paired-video and real-time eye-tracking study",
+    "link": "https://arxiv.org/abs/2609.25581",
+    "arxiv_id": "2609.25581",
+    "detail_path": "papers/2609.25581/",
+    "cover_path": "covers/2609.25581/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.25581.webp",
+    "paper_image_full_path": "assets/paper-images/2609.25581.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Code Plans, Diffusion Renders: Open-Ended Generative World Modeling",
+    "link": "https://arxiv.org/abs/2609.26458",
+    "arxiv_id": "2609.26458",
+    "detail_path": "papers/2609.26458/",
+    "cover_path": "covers/2609.26458/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.26458.webp",
+    "paper_image_full_path": "assets/paper-images/2609.26458.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Qwen3.8-Omni: Towards Native Omni-Modal Agents",
+    "link": "https://arxiv.org/abs/2609.25611",
+    "arxiv_id": "2609.25611",
+    "detail_path": "papers/2609.25611/",
+    "cover_path": "covers/2609.25611/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.25611.webp",
+    "paper_image_full_path": "assets/paper-images/2609.25611.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "title": "TV-AudioRemover: Joint Text-Visual Guided Sound Removal with Multi-Task Hard-Mixture Curriculum",
+    "link": "https://arxiv.org/abs/2609.25864",
+    "arxiv_id": "2609.25864",
+    "detail_path": "papers/2609.25864/",
+    "cover_path": "covers/2609.25864/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.25864.webp",
+    "paper_image_full_path": "assets/paper-images/2609.25864.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-21",
     "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
     "link": "https://arxiv.org/abs/2609.24997",

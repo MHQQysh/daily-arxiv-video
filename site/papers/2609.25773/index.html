@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试 每个问题将 3-6 个关于视频中特定时刻的是/否问题链式连接，每个子问题根据答案产生两个整数之一，最终答案为所有整数之和，可通过精确匹配验证 解决两个核心问题：现有视频RLVR训练数据缺乏多跳视觉证据链导致推理弱点无法暴露；GRPO训练中零方差组（全对或全错）无法产生梯度信号" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.25773">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.25773.webp" alt="Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models</h1>
+            <div class="detail-meta">2026-09-22 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.25773" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.25773" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.25773</span></div>
+            <p class="detail-summary">论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试 每个问题将 3-6 个关于视频中特定时刻的是/否问题链式连接，每个子问题根据答案产生两个整数之一，最终答案为所有整数之和，可通过精确匹配验证 解决两个核心问题：现有视频RLVR训练数据缺乏多跳视觉证据链导致推理弱点无法暴露；GRPO训练中零方差组（全对或全错）无法产生梯度信号</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">S-Lab, Nanyang Technological University (NTU)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.25773/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试</p>
+  <ul class="reading-intro-points"><li>论文提出 Video-HopChain 框架，构建包含 22,550 个多跳视频问答问题的数据集，覆盖 13,378 个视频，并附带 1,000 个问题的留出基准测试</li><li>每个问题将 3-6 个关于视频中特定时刻的是/否问题链式连接，每个子问题根据答案产生两个整数之一，最终答案为所有整数之和，可通过精确匹配验证</li><li>解决两个核心问题：现有视频RLVR训练数据缺乏多跳视觉证据链导致推理弱点无法暴露；GRPO训练中零方差组（全对或全错）无法产生梯度信号</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>S-Lab, Nanyang Technological University (NTU)</strong></li><li><strong>Johns Hopkins University</strong></li><li><strong>NTU</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>Video-HopChain</strong> 框架，构建包含 <strong>22,550</strong> 个多跳视频问答问题的数据集，覆盖 <strong>13,378</strong> 个视频，并附带 <strong>1,000</strong> 个问题的留出基准测试</li><li>每个问题将 <strong>3-6</strong> 个关于视频中特定时刻的是/否问题链式连接，每个子问题根据答案产生两个整数之一，最终答案为所有整数之和，可通过精确匹配验证</li><li>解决两个核心问题：现有视频RLVR训练数据缺乏多跳视觉证据链导致推理弱点无法暴露；GRPO训练中零方差组（全对或全错）无法产生梯度信号</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Video-HopChain 框架</strong>，自动生成多跳视频问题用于训练视频推理模型</li><li>发布 <strong>Video-HopChain 数据集和基准</strong>，包含 22,550 个训练问题和 1,000 个留出问题</li><li>提出 <strong>Confidence-Gated Exploration (CGE)</strong> 方法，通过置信度门控机制恢复零方差组的学习信号</li><li>在八个通用视频理解与推理基准上均取得提升，平均准确率从 55.4 提升至 59.3</li><li>开源数据集、模型检查点、数据生成代码和训练代码</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>多跳问题设计</strong>：每个问题链式连接 3-6 个是/否子问题，涵盖四类视觉证据：顺序（跨两个时刻）、空间、动作、属性；子问题间以扁平（30%）或选择器（70%）方式链接</li><li><strong>生成流程</strong>：使用 <strong>PySceneDetect</strong> 切分镜头 → <strong>MiniMax-M3</strong> 生成镜头字幕 → <strong>Qwen3.8-27B</strong> 作为问题生成器写出候选问题 → 同一模型作为裁判验证每个跳步 → 难度过滤移除基础模型已掌握的问题</li><li><strong>CGE 方法</strong>：将 8 次 rollout 分两波采样；前 4 次正常采样，若结果全对或全错（零方差组），则后 4 次在推理区间内对置信度超过 <strong>τ=0.95</strong> 的 top-1 token 施加掩码并重新归一化分布，促使模型探索低频 token</li><li><strong>损失掩码</strong>：将掩码位置从损失函数中移除，但所有 8 次 rollout 均参与优势计算，不增加额外 rollout 开销</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>训练数据：<strong>Video-HopChain</strong>，22,550 个问题，13,378 个视频</li><li>留出基准：1,000 个问题，1,000 个视频</li><li>视频来源：<strong>FineVideo</strong>、<strong>LongVILA</strong>（OneThinker 训练数据）、<strong>Vript</strong>（长分割）</li><li>基础模型：<strong>Qwen3-VL-8B-Instruct</strong></li><li>问题生成与验证模型：<strong>Qwen3.8-27B</strong></li><li>字幕生成模型：<strong>MiniMax-M3</strong></li><li>镜头检测工具：<strong>PySceneDetect</strong></li><li>训练算法：<strong>GRPO</strong>（G=8, ε_low=0.2, ε_high=0.3, 无 KL 惩罚）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：八个通用视频理解与推理基准</li><li>基线模型 <strong>Qwen3-VL-8B</strong> 在标准视频数据集上训练后平均准确率为 <strong>55.4</strong></li><li>在 <strong>Video-HopChain</strong> 上进行第二阶段 GRPO 训练后，平均准确率提升至 <strong>57.9</strong>，且每个基准均有提升</li><li>在 Video-HopChain 基础上加入 <strong>CGE</strong> 方法后，平均准确率进一步提升至 <strong>59.3</strong></li><li>消融实验验证了 CGE 同时干预全对和全错零方差组的必要性，以及 τ=0.95 阈值的最优性</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.25775/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">TRACE: Trajectory Representation and Consistency Estimation for AI-Generated Video Detection</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.25581/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Gaze responses to false-positive computer-aided detection prompts during colonoscopy: a paired-video and real-time eye-tracking study</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
