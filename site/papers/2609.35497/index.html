@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sprout: Building Dynamic Memory While Reasoning for Agentic Video Understanding - Video 每日论文卡</title>
+    <meta name="description" content="提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的&quot;先构建离线记忆、再静态推理&quot;。 现有方法（如 Qwen-MM-Plugins、MERIT 等）在回答任何问题前对整个视频构建静态记忆；当问题很少时，构建成本浪费；当问题很多时，记忆从不更新，无法累积跨问题的知识。 Sprout 通过 watch（观看）、remember（记忆）、revisit（回看） 三种动作，让记忆随时间生长为&quot;时间树&quot;，只在问题需要的地方添加细节，并去除已记录片段的视频输入以降低上下文占用。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.35497">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.35497.webp" alt="Sprout: Building Dynamic Memory While Reasoning for Agentic Video Understanding" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的&quot;先构建离线记忆、再静态推理&quot;。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Sprout: Building Dynamic Memory While Reasoning for Agentic Video Understanding</h1>
+            <div class="detail-meta">2026-09-28 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.35497" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.35497" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.35497</span></div>
+            <p class="detail-summary">提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的&quot;先构建离线记忆、再静态推理&quot;。 现有方法（如 Qwen-MM-Plugins、MERIT 等）在回答任何问题前对整个视频构建静态记忆；当问题很少时，构建成本浪费；当问题很多时，记忆从不更新，无法累积跨问题的知识。 Sprout 通过 watch（观看）、remember（记忆）、revisit（回看） 三种动作，让记忆随时间生长为&quot;时间树&quot;，只在问题需要的地方添加细节，并去除已记录片段的视频输入以降低上下文占用。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">9 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">HKUST（香港科技大学）：Wei Chen、Long Chen</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.35497/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的&quot;先构建离线记忆、再静态推理&quot;。</p>
+  <ul class="reading-intro-points"><li>提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的&quot;先构建离线记忆、再静态推理&quot;。</li><li>现有方法（如 Qwen-MM-Plugins、MERIT 等）在回答任何问题前对整个视频构建静态记忆；当问题很少时，构建成本浪费；当问题很多时，记忆从不更新，无法累积跨问题的知识。</li><li>Sprout 通过 watch（观看）、remember（记忆）、revisit（回看） 三种动作，让记忆随时间生长为&quot;时间树&quot;，只在问题需要的地方添加细节，并去除已记录片段的视频输入以降低上下文占用。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>HKUST</strong>（香港科技大学）：Wei Chen、Long Chen</li><li><strong>Kling AI</strong>：Xuanyu Zheng、Yancheng Long、Haoyang Xu、Kaiyu Jiang、Bin Wen、Tingting Gao、Han Li</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Sprout</strong>，一个面向智能体（agentic）长视频理解的框架，核心思想是<strong>在推理过程中动态构建记忆</strong>（build memory while reasoning），而非传统的"先构建离线记忆、再静态推理"。</li><li>现有方法（如 Qwen-MM-Plugins、MERIT 等）在回答任何问题前对整个视频构建静态记忆；当问题很少时，构建成本浪费；当问题很多时，记忆从不更新，无法累积跨问题的知识。</li><li>Sprout 通过 <strong>watch（观看）、remember（记忆）、revisit（回看）</strong> 三种动作，让记忆随时间生长为"时间树"，只在问题需要的地方添加细节，并去除已记录片段的视频输入以降低上下文占用。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>指出现有 build-then-reasoning 管线的两个缺陷：离线构建对少问题视频浪费资源，静态记忆无法积累先前推理得到的洞察。</li><li>提出 <strong>Sprout</strong>：以时间树为记忆结构，在回答问题的过程中通过低帧率观看、逐段写入粗粒度节点、以及高帧率回看补充细粒度子节点的方式动态构建记忆。</li><li>验证"将视频帧转为文本后从上下文移除"的做法可大幅压缩上下文，且不损失准确率，某些设置下还有轻微提升。</li><li>在三个基准、三种大模型上，Sprout 取得与代表性离线记忆方法相当或更好的准确率，且无需任何前置构建阶段，每问题上下文成本更低。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>记忆由三部分组成：<strong>时间树</strong>（按时间组织的节点，存有事件摘要、观察到的事实、关键实体）、<strong>观看记录</strong>（记录视频已观看到的位置）、<strong>问题历史</strong>（之前的问题与答案）。</li><li><strong>Watch</strong>：通过工具 <code>read_next</code> 按片段（chunk）以低帧率 <code>f_c</code> 观看未看过的视频，附带说话人标注的语音转录（如可用），每次只加载下一块。</li><li><strong>Remember</strong>：观看后调用 <code>write_chunk_memory</code> 将片段写成 4–8 个粗粒度节点（每个含 5–10 条客观事实），随后该片段的视频帧即从上下文历史中移除，只保留文本。</li><li><strong>Revisit</strong>：通过 <code>search_memory</code> 检索相关节点（支持文本匹配和时间窗口），用 <code>view_node</code> / <code>view_time</code> 以更高帧率 <code>f_r</code> 回看相关区间，再通过 <code>refine_node</code> / <code>add_observation</code> 写回细粒度子节点。</li><li>问题结束后，答案写入问题历史；记忆和观看记录跨问题保留，使后续问题可以复用、细化已有节点或继续扩展未看视频。</li><li>关键创新点：<strong>在线动态记忆</strong>（只在问题驱动下生长）、<strong>由粗到细的时间树</strong>、<strong>帧即用即释</strong>（release frames）的上下文管理机制。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>评估数据集：<strong>LVBench</strong>（103 个时长级视频，1549 题）、<strong>Video-MME Long</strong>（300 个 30–60 分钟视频，900 题）、<strong>Video-Holmes</strong>（270 个短悬疑视频，1837 题）、<strong>EgoLifeQA</strong>（单参与者 Jake 的 44.3 小时 7 天录制，500 题）。</li><li>模型：<strong>GPT-5</strong>、<strong>Qwen3.8-Max</strong>、<strong>Gemini 3.8 Flash</strong>；对比方法 Qwen-MM-Plugins 使用 <strong>Qwen3.7-Plus</strong> 预先构建记忆。</li><li>配置：LVBench / Video-MME Long 上 <code>read_next</code> 用 10 分钟块、0.1 fps；GPT-5 因端点图像限制用 5 分钟块；Video-Holmes 用 30 秒块、1 fps；回看帧率可选 {1,2,4,8} fps，每视图最多 768 / 48 / 2048 帧（分别对应 Qwen3.8-Max / GPT-5 / Gemini）；每个问题最多 32 轮工具调用。</li><li>代码已开源：https://github.com/HKUST-LongGroup/Sprout</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>主结果（Table 1）：Sprout 在 LVBench / Video-MME Long / Video-Holmes 上的准确率——<strong>GPT-5</strong>：73.4 / 80.4 / 56.7；<strong>Qwen3.8-Max</strong>：86.9 / 86.0 / 71.6；<strong>Gemini 3.8 Flash</strong>：88.2 / 91.2 / 76.8。</li><li>对比 Qwen-MM-Plugins（Gemini 3.8 Flash 下 85.5 / 89.4 / 69.2），Sprout 在三个基准上均更优；相较 Direct 推理也有明显提升。</li><li>EgoLifeQA（Table 2）：Sprout 与 Qwen3.8-Max 结合的整体准确率为 <strong>80.6%</strong>，高于 Qwen-MM-Plugins 的 75.8%；与 Gemini 3.8 Flash 结合时为 <strong>80.6%+</strong>（原文此处未完整给出整体值，但从数值看优于直接推理）。</li><li><strong>Token 成本</strong>：以 Gemini 3.8 Flash 为例，Sprout 在 LVBench 和 Video-MME Long 上每问题分别仅用 <strong>71.7K</strong> 和 <strong>99.3K</strong> tokens，比直接推理减少 <strong>74%</strong> 和 <strong>55%</strong>。</li><li>通过"释放帧"操作，上下文长度从 <code>L_t^retain = B_t + sum(v_j)</code> 降为 <code>L_t^release = B_t + v_t</code>，即只保留最近一次观看的视觉帧。</li><li>实验还表明：无需离线构建阶段、跨问题累积有效，且问题历史对后续回答有正向作用。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.35507/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">ReVA: A Scene-Centric Dataset Beyond Repetition for Remote Sensing Video Question Answering</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.35491/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">From Scores to Samples: Elastic Forcing for Autoregressive Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

@@ -1,5 +1,295 @@
 [
   {
+    "date": "2026-09-28",
+    "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+    "link": "https://arxiv.org/abs/2609.35768",
+    "arxiv_id": "2609.35768",
+    "detail_path": "papers/2609.35768/",
+    "cover_path": "covers/2609.35768/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35768.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35768.webp",
+    "preview_text": "论文针对视频扩散模型推理成本高的问题，研究分布匹配蒸馏（DMD）在多步教师到少步学生蒸馏过程中出现的训练不稳定、样本过饱和与伪影退化现象。 作者将 DMD 的不稳定性归因于 critic 误差（critic error）在连续学生更新中的累积，并据此提出 PDMD（Projected Distribution Matching Distillation）——一种只需对 DMD 做一行代码修改的投影过滤方法。 核心目标是在不增加额外损失、网络、数据或训练阶段的前提下，利用 DMD 自身已计算的量来估计并抑制 critic 误差，从而稳定训练并提升少步视频生成质量。",
+    "research_unit": "ByteDance Inc.（字节跳动）",
+    "hook_text": "论文针对视频扩散模型推理成本高的问题，研究分布匹配蒸馏（DMD）在多步教师到少步学生蒸馏过程中出现的训练不稳定、样本过饱和与伪影退化现象。",
+    "key_points": [
+      "论文针对视频扩散模型推理成本高的问题，研究分布匹配蒸馏（DMD）在多步教师到少步学生蒸馏过程中出现的训练不稳定、样本过饱和与伪影退化现象。",
+      "作者将 DMD 的不稳定性归因于 critic 误差（critic error）在连续学生更新中的累积，并据此提出 PDMD（Projected Distribution Matching Distillation）——一种只需对 DMD 做一行代码修改的投影过滤方法。",
+      "核心目标是在不增加额外损失、网络、数据或训练阶段的前提下，利用 DMD 自身已计算的量来估计并抑制 critic 误差，从而稳定训练并提升少步视频生成质量。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video",
+    "link": "https://arxiv.org/abs/2609.35743",
+    "arxiv_id": "2609.35743",
+    "detail_path": "papers/2609.35743/",
+    "cover_path": "covers/2609.35743/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35743.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35743.webp",
+    "preview_text": "提出 InfiniHand，一个端到端流式前馈框架，用于从无标定的第一视角（egocentric）视频中联合估计 MANO 参数、相机轨迹和手部位置。 现有方法依赖级联的独立手部姿态估计器与 SLAM 系统（如 HaWoR），存在误差累积、流程复杂和计算开销大等问题；InfiniHand 通过统一架构显式耦合相机运动与局部手部几何来解决这些问题。 该框架基于约 5,000 小时的多样化第一视角视频预训练语料库，采用两阶段渐进式训练策略，显著提升了世界空间手部运动重建的精度与效率。",
+    "research_unit": "上海人工智能实验室（Shanghai Artificial Intelligence Laborato…",
+    "hook_text": "提出 InfiniHand，一个端到端流式前馈框架，用于从无标定的第一视角（egocentric）视频中联合估计 MANO 参数、相机轨迹和手部位置。",
+    "key_points": [
+      "提出 InfiniHand，一个端到端流式前馈框架，用于从无标定的第一视角（egocentric）视频中联合估计 MANO 参数、相机轨迹和手部位置。",
+      "现有方法依赖级联的独立手部姿态估计器与 SLAM 系统（如 HaWoR），存在误差累积、流程复杂和计算开销大等问题；InfiniHand 通过统一架构显式耦合相机运动与局部手部几何来解决这些问题。",
+      "该框架基于约 5,000 小时的多样化第一视角视频预训练语料库，采用两阶段渐进式训练策略，显著提升了世界空间手部运动重建的精度与效率。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Lagrangian--Hamiltonian Flows for Video Prediction and Image Generation: A Symplectic Perspective",
+    "link": "https://arxiv.org/abs/2609.35710",
+    "arxiv_id": "2609.35710",
+    "detail_path": "papers/2609.35710/",
+    "cover_path": "covers/2609.35710/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35710.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35710.webp",
+    "preview_text": "论文提出 LHFM（Lagrangian–Hamiltonian Flow Matching），一个基于辛几何（Symplectic Geometry）的几何框架，用于学习图像动力学，将经典力学、辛几何与几何量子化的思想引入图像生成与视频预测任务。 核心思路是将每张图像表示为精确拉格朗日图（Exact Lagrangian Graph），通过图像相关的哈密顿流（Hamiltonian flow） 建模图像演化，并推导出图像速度的“输运–源（transport–source）”参数化。 主要应用为确定性视频预测（LHFM-V），同时验证了同一构造与流匹配（Flow Matching） 图像生成（LHFM-I）的兼容性。",
+    "research_unit": "Department of Mathematics and Statistics, Boston Un…",
+    "hook_text": "论文提出 LHFM（Lagrangian–Hamiltonian Flow Matching），一个基于辛几何（Symplectic Geometry）的几何框架，用于学习图像动力学，将经典力学、辛几何与几何量子化的思想引入图像生成与视频预测任务。",
+    "key_points": [
+      "论文提出 LHFM（Lagrangian–Hamiltonian Flow Matching），一个基于辛几何（Symplectic Geometry）的几何框架，用于学习图像动力学，将经典力学、辛几何与几何量子化的思想引入图像生成与视频预测任务。",
+      "核心思路是将每张图像表示为精确拉格朗日图（Exact Lagrangian Graph），通过图像相关的哈密顿流（Hamiltonian flow） 建模图像演化，并推导出图像速度的“输运–源（transport–source）”参数化。",
+      "主要应用为确定性视频预测（LHFM-V），同时验证了同一构造与流匹配（Flow Matching） 图像生成（LHFM-I）的兼容性。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "DynaTokens: Teaching Dynamics to Camera-Controlled Video Models at Test Time",
+    "link": "https://arxiv.org/abs/2609.35704",
+    "arxiv_id": "2609.35704",
+    "detail_path": "papers/2609.35704/",
+    "cover_path": "covers/2609.35704/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35704.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35704.webp",
+    "preview_text": "论文提出 DynaTokens，一种测试时训练方法，为相机控制视频模型（camera-controlled video models）注入场景动态能力。 现有相机控制视频模型能很好地处理静态场景下的相机运动，但在动态场景中表现不佳：物体静止、运动错误或生成质量下降。 核心思路利用“相机运动是全局的，而物体动态是空间局部的”这一不对称性，通过可学习的场景专属 token 在保持基础模型冻结的情况下，教会模型局部动态，同时不破坏相机控制。",
+    "research_unit": "California Institute of Technology（加州理工学院）",
+    "hook_text": "论文提出 DynaTokens，一种测试时训练方法，为相机控制视频模型（camera-controlled video models）注入场景动态能力。",
+    "key_points": [
+      "论文提出 DynaTokens，一种测试时训练方法，为相机控制视频模型（camera-controlled video models）注入场景动态能力。",
+      "现有相机控制视频模型能很好地处理静态场景下的相机运动，但在动态场景中表现不佳：物体静止、运动错误或生成质量下降。",
+      "核心思路利用“相机运动是全局的，而物体动态是空间局部的”这一不对称性，通过可学习的场景专属 token 在保持基础模型冻结的情况下，教会模型局部动态，同时不破坏相机控制。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Learning to Reason with Persistent Object States for Video Instance Segmentation",
+    "link": "https://arxiv.org/abs/2609.35539",
+    "arxiv_id": "2609.35539",
+    "detail_path": "papers/2609.35539/",
+    "cover_path": "covers/2609.35539/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35539.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35539.webp",
+    "preview_text": "论文提出 POSReasoner，一个可训练、即插即用的框架，用于解决视频实例分割（VIS）和视频对象分割（VOS）中的长期身份保持问题。 核心问题：在长时间遮挡、对象重现、相似实例交互等场景下，不可靠的观察更新会覆盖有效历史，导致持续的身份漂移（identity drift）。 POSReasoner 显式决定观察何时应改变对象的持久状态，将关联、生命周期推断和记忆写入建模为单一的循环状态转换，而非一系列独立决策。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "论文提出 POSReasoner，一个可训练、即插即用的框架，用于解决视频实例分割（VIS）和视频对象分割（VOS）中的长期身份保持问题。",
+    "key_points": [
+      "论文提出 POSReasoner，一个可训练、即插即用的框架，用于解决视频实例分割（VIS）和视频对象分割（VOS）中的长期身份保持问题。",
+      "核心问题：在长时间遮挡、对象重现、相似实例交互等场景下，不可靠的观察更新会覆盖有效历史，导致持续的身份漂移（identity drift）。",
+      "POSReasoner 显式决定观察何时应改变对象的持久状态，将关联、生命周期推断和记忆写入建模为单一的循环状态转换，而非一系列独立决策。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "ReVA: A Scene-Centric Dataset Beyond Repetition for Remote Sensing Video Question Answering",
+    "link": "https://arxiv.org/abs/2609.35507",
+    "arxiv_id": "2609.35507",
+    "detail_path": "papers/2609.35507/",
+    "cover_path": "covers/2609.35507/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35507.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35507.webp",
+    "preview_text": "论文提出 ReVA，一个面向遥感视频问答（VideoQA）的场景中心数据集，用于评估多模态大语言模型（MLLMs）在无人机航拍视频上的时空理解与推理能力。 现有遥感视觉问答基准存在两大局限：模板驱动问题导致问答重复性高，以及静态图像无法捕捉视频时序特性，论文旨在填补遥感视频推理系统化评估的空白。 论文同时提出 ReMoSense，一个运动感知的遥感视频理解框架，显式建模相机自我运动与物体时空动态，以提升跨帧对齐和长程时序推理能力。",
+    "research_unit": "Lehigh University（主要研究机构，多位作者）",
+    "hook_text": "论文提出 ReVA，一个面向遥感视频问答（VideoQA）的场景中心数据集，用于评估多模态大语言模型（MLLMs）在无人机航拍视频上的时空理解与推理能力。",
+    "key_points": [
+      "论文提出 ReVA，一个面向遥感视频问答（VideoQA）的场景中心数据集，用于评估多模态大语言模型（MLLMs）在无人机航拍视频上的时空理解与推理能力。",
+      "现有遥感视觉问答基准存在两大局限：模板驱动问题导致问答重复性高，以及静态图像无法捕捉视频时序特性，论文旨在填补遥感视频推理系统化评估的空白。",
+      "论文同时提出 ReMoSense，一个运动感知的遥感视频理解框架，显式建模相机自我运动与物体时空动态，以提升跨帧对齐和长程时序推理能力。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Sprout: Building Dynamic Memory While Reasoning for Agentic Video Understanding",
+    "link": "https://arxiv.org/abs/2609.35497",
+    "arxiv_id": "2609.35497",
+    "detail_path": "papers/2609.35497/",
+    "cover_path": "covers/2609.35497/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35497.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35497.webp",
+    "preview_text": "提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的\"先构建离线记忆、再静态推理\"。 现有方法（如 Qwen-MM-Plugins、MERIT 等）在回答任何问题前对整个视频构建静态记忆；当问题很少时，构建成本浪费；当问题很多时，记忆从不更新，无法累积跨问题的知识。 Sprout 通过 watch（观看）、remember（记忆）、revisit（回看） 三种动作，让记忆随时间生长为\"时间树\"，只在问题需要的地方添加细节，并去除已记录片段的视频输入以降低上下文占用。",
+    "research_unit": "HKUST（香港科技大学）：Wei Chen、Long Chen",
+    "hook_text": "提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的\"先构建离线记忆、再静态推理\"。",
+    "key_points": [
+      "提出 Sprout，一个面向智能体（agentic）长视频理解的框架，核心思想是在推理过程中动态构建记忆（build memory while reasoning），而非传统的\"先构建离线记忆、再静态推理\"。",
+      "现有方法（如 Qwen-MM-Plugins、MERIT 等）在回答任何问题前对整个视频构建静态记忆；当问题很少时，构建成本浪费；当问题很多时，记忆从不更新，无法累积跨问题的知识。",
+      "Sprout 通过 watch（观看）、remember（记忆）、revisit（回看） 三种动作，让记忆随时间生长为\"时间树\"，只在问题需要的地方添加细节，并去除已记录片段的视频输入以降低上下文占用。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "From Scores to Samples: Elastic Forcing for Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2609.35491",
+    "arxiv_id": "2609.35491",
+    "detail_path": "papers/2609.35491/",
+    "cover_path": "covers/2609.35491/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35491.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35491.webp",
+    "preview_text": "论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。 传统方法（如 Self-Forcing）依赖 DMD（分布匹配蒸馏），需要双向扩散教师模型和在线假分数模型，训练开销大且受教师能力限制。本文直接用参考视频定义训练目标，消除两类分数模型。 核心目标是在冻结的自监督视频表示空间中，通过 MMD（最大均值差异） 匹配生成 rollouts 与参考视频分布，在有限的视频训练内存与计算约束下实现可靠的样本级监督。",
+    "research_unit": "清华大学人工智能学院",
+    "hook_text": "论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。",
+    "key_points": [
+      "论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。",
+      "传统方法（如 Self-Forcing）依赖 DMD（分布匹配蒸馏），需要双向扩散教师模型和在线假分数模型，训练开销大且受教师能力限制。本文直接用参考视频定义训练目标，消除两类分数模型。",
+      "核心目标是在冻结的自监督视频表示空间中，通过 MMD（最大均值差异） 匹配生成 rollouts 与参考视频分布，在有限的视频训练内存与计算约束下实现可靠的样本级监督。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "When Should the Count Change? Learning State Maintenance for Causal Video Counting",
+    "link": "https://arxiv.org/abs/2609.35416",
+    "arxiv_id": "2609.35416",
+    "detail_path": "papers/2609.35416/",
+    "cover_path": "covers/2609.35416/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35416.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35416.webp",
+    "preview_text": "论文研究因果视频计数中的核心问题：模型应何时更新计数状态？即区分“新观察到的同一物体”与“新物体出现”或“事件完成”，从而决定是否改变当前计数。 提出 StaMina（State Maintenance） 模型，通过状态条件更新学习维护计数状态，将循环视觉上下文与显式状态记录（可见候选、持久身份、已完成事件）结合，实现连续视频中的在线计数。 构建了大规模轨迹级训练资源与评估基准，验证了模型在计数适应、在线视频迁移、计数条件动作决策上的能力。",
+    "research_unit": "北京航空航天大学（Beihang University）：第一作者彭强（Pengyiang Liu）、…",
+    "hook_text": "论文研究因果视频计数中的核心问题：模型应何时更新计数状态？即区分“新观察到的同一物体”与“新物体出现”或“事件完成”，从而决定是否改变当前计数。",
+    "key_points": [
+      "论文研究因果视频计数中的核心问题：模型应何时更新计数状态？即区分“新观察到的同一物体”与“新物体出现”或“事件完成”，从而决定是否改变当前计数。",
+      "提出 StaMina（State Maintenance） 模型，通过状态条件更新学习维护计数状态，将循环视觉上下文与显式状态记录（可见候选、持久身份、已完成事件）结合，实现连续视频中的在线计数。",
+      "构建了大规模轨迹级训练资源与评估基准，验证了模型在计数适应、在线视频迁移、计数条件动作决策上的能力。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Rethinking Visual Token Compression for Video Large Language Models: A Simple Yet Strong Baseline",
+    "link": "https://arxiv.org/abs/2609.35394",
+    "arxiv_id": "2609.35394",
+    "detail_path": "papers/2609.35394/",
+    "cover_path": "covers/2609.35394/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.35394.webp",
+    "paper_image_full_path": "assets/paper-images/2609.35394.webp",
+    "preview_text": "针对视频大语言模型（Video LLMs）处理长视频时因视觉token数量过多导致推理效率受限的问题，反思当前日益复杂的token选择、剪枝、合并策略的必要性 提出无训练的简单基线SimpleCluster，通过视觉特征空间的跨帧聚类实现token压缩，无需额外训练或架构修改 进一步分析不同压缩方法的特征空间保持能力，揭示高压缩比下性能差异的本质原因，为视频token压缩提供新的研究视角",
+    "research_unit": "中南大学计算机科学与工程学院",
+    "hook_text": "针对视频大语言模型（Video LLMs）处理长视频时因视觉token数量过多导致推理效率受限的问题，反思当前日益复杂的token选择、剪枝、合并策略的必要性",
+    "key_points": [
+      "针对视频大语言模型（Video LLMs）处理长视频时因视觉token数量过多导致推理效率受限的问题，反思当前日益复杂的token选择、剪枝、合并策略的必要性",
+      "提出无训练的简单基线SimpleCluster，通过视觉特征空间的跨帧聚类实现token压缩，无需额外训练或架构修改",
+      "进一步分析不同压缩方法的特征空间保持能力，揭示高压缩比下性能差异的本质原因，为视频token压缩提供新的研究视角"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-22",
     "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation",
     "link": "https://arxiv.org/abs/2609.26425",
@@ -182,14 +472,16 @@
     "cover_path": "covers/2609.25581/",
     "paper_image_path": "assets/paper-images/thumbs/2609.25581.webp",
     "paper_image_full_path": "assets/paper-images/2609.25581.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本研究利用事件锁定眼动追踪（event-locked eye tracking）技术，量化结肠镜检查中计算机辅助检测（CADe）系统假阳性提示对内镜医师视觉注意力的吸引与占用效应。 研究结合回顾性配对视频实验（5名内镜医师观看60段配对视频）与前瞻性实时临床记录（9名高级内镜医师执行42例实时CADe辅助结肠镜检查），从事件层面揭示假阳性提示如何捕获、占用并释放内镜医师的注视。 论文旨在填补现有研究仅关注假阳性提示频率而忽视单个提示的注意力影响这一空白，为CADe系统的人机交互评估提供过程层面的新视角。",
+    "research_unit": "复旦大学数字医学研究中心、基础医学院（Digital Medical Research Center…",
+    "hook_text": "本研究利用事件锁定眼动追踪（event-locked eye tracking）技术，量化结肠镜检查中计算机辅助检测（CADe）系统假阳性提示对内镜医师视觉注意力的吸引与占用效应。",
     "key_points": [
-      "待生成"
+      "本研究利用事件锁定眼动追踪（event-locked eye tracking）技术，量化结肠镜检查中计算机辅助检测（CADe）系统假阳性提示对内镜医师视觉注意力的吸引与占用效应。",
+      "研究结合回顾性配对视频实验（5名内镜医师观看60段配对视频）与前瞻性实时临床记录（9名高级内镜医师执行42例实时CADe辅助结肠镜检查），从事件层面揭示假阳性提示如何捕获、占用并释放内镜医师的注视。",
+      "论文旨在填补现有研究仅关注假阳性提示频率而忽视单个提示的注意力影响这一空白，为CADe系统的人机交互评估提供过程层面的新视角。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",

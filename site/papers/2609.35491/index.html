@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>From Scores to Samples: Elastic Forcing for Autoregressive Video Generation - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。 传统方法（如 Self-Forcing）依赖 DMD（分布匹配蒸馏），需要双向扩散教师模型和在线假分数模型，训练开销大且受教师能力限制。本文直接用参考视频定义训练目标，消除两类分数模型。 核心目标是在冻结的自监督视频表示空间中，通过 MMD（最大均值差异） 匹配生成 rollouts 与参考视频分布，在有限的视频训练内存与计算约束下实现可靠的样本级监督。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.35491">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.35491.webp" alt="From Scores to Samples: Elastic Forcing for Autoregressive Video Generation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">From Scores to Samples: Elastic Forcing for Autoregressive Video Generation</h1>
+            <div class="detail-meta">2026-09-28 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.35491" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.35491" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.35491</span></div>
+            <p class="detail-summary">论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。 传统方法（如 Self-Forcing）依赖 DMD（分布匹配蒸馏），需要双向扩散教师模型和在线假分数模型，训练开销大且受教师能力限制。本文直接用参考视频定义训练目标，消除两类分数模型。 核心目标是在冻结的自监督视频表示空间中，通过 MMD（最大均值差异） 匹配生成 rollouts 与参考视频分布，在有限的视频训练内存与计算约束下实现可靠的样本级监督。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">清华大学人工智能学院</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.35491/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。</p>
+  <ul class="reading-intro-points"><li>论文提出 Elastic Forcing，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。</li><li>传统方法（如 Self-Forcing）依赖 DMD（分布匹配蒸馏），需要双向扩散教师模型和在线假分数模型，训练开销大且受教师能力限制。本文直接用参考视频定义训练目标，消除两类分数模型。</li><li>核心目标是在冻结的自监督视频表示空间中，通过 MMD（最大均值差异） 匹配生成 rollouts 与参考视频分布，在有限的视频训练内存与计算约束下实现可靠的样本级监督。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>清华大学</strong>人工智能学院</li><li><strong>西安交通大学</strong>IAIR</li><li><strong>复旦大学</strong>相辉学院</li><li><strong>北京大学</strong></li><li><strong>北京智源人工智能研究院（BAAI）</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>Elastic Forcing</strong>，一种无需辅助分数模型的样本级后训练框架，用于少步自回归视频生成。</li><li>传统方法（如 <strong>Self-Forcing</strong>）依赖 <strong>DMD（分布匹配蒸馏）</strong>，需要双向扩散教师模型和在线假分数模型，训练开销大且受教师能力限制。本文直接用参考视频定义训练目标，消除两类分数模型。</li><li>核心目标是在冻结的自监督视频表示空间中，通过 <strong>MMD（最大均值差异）</strong> 匹配生成 rollouts 与参考视频分布，在有限的视频训练内存与计算约束下实现可靠的样本级监督。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>Elastic Forcing</strong> 框架，将自回归 rollout 分布直接与参考视频通过 MMD 匹配，无需扩散教师或在线假分数模型。</li><li>设计 <strong>混合估计器（Hybrid Estimator）</strong>：结合 Nyström 低秩参考摘要与 Monte Carlo 采样，权衡参考估计的近似偏差与采样方差。</li><li>提出 <strong>估计-微分解耦（Estimation–Differentiation Decoupling）</strong>：在表示空间评估大规模 rollout 群体，仅对随机子集反向传播，条件无偏地估计全批量梯度。</li><li>在 <strong>1.3B</strong> 模型上取得 VBench Total score <strong>84.64</strong>（Self-Forcing 为 83.80），且保持 <strong>17 FPS</strong> 推理速度。</li><li>去除辅助分数模型后，可在 <strong>8× H200 GPUs</strong> 上实现 <strong>14B</strong> 模型后训练，超越工业级自回归视频生成模型在匹配评估下的表现。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>目标函数为多个冻结表示空间（<strong>V-JEPA 2</strong>、<strong>VideoMAE</strong>、<strong>DINOv3</strong>）中 MMD 的加权和，每个空间使用固定带宽高斯核。</li><li>参考侧：通过 k-means 选取 R 个 landmarks，构建 Nyström 近似核均值，并与当前 batch 的 Monte Carlo 估计线性组合成混合估计器。</li><li>生成侧：用大量 rollout 表示评估 MMD 交互（attraction 与 repulsion），但只对随机子集做生成器反向传播，以缓解视频 DiT 的激活内存瓶颈。</li><li>使用内存高效的重放（replay）与梯度子采样，使训练目标在视频规模上可行。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>实验采用 <strong>VBench</strong> 基准进行评估，并用于模型比较。</li><li>模型规模：<strong>1.3B</strong>（与 Self-Forcing 匹配初始化比较）与 <strong>14B</strong> 两种生成器。</li><li>训练资源：14B 模型后训练只需 <strong>8× H200 GPUs</strong>，训练约 <strong>23 小时</strong>。</li><li>代码与项目页面已开源（Gitee / 项目主页）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：<strong>VBench</strong>，并包括与 Self-Forcing、工业级自回归视频生成模型的对比。</li><li>主要指标：<strong>VBench Total score</strong>、推理 FPS、VLM 与人工评判相关性（附录 G）。</li><li>关键结果：1.3B 模型 VBench Total <strong>83.80 → 84.64</strong>；14B 模型在相同评估协议下优于工业级方法，并保留 17 FPS 推理效率。</li><li>额外实验表明：Elastic Forcing 可从参考视频中习得<strong>新视觉风格、语义概念、空间先验</strong>，超越固定教师能力边界，并支持外观/角色/全景适配及真实视频参考学习。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.35497/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Sprout: Building Dynamic Memory While Reasoning for Agentic Video Understanding</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.35416/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">When Should the Count Change? Learning State Maintenance for Causal Video Counting</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
