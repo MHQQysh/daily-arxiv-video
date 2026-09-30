@@ -1,5 +1,295 @@
 [
   {
+    "date": "2026-09-29",
+    "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+    "link": "https://arxiv.org/abs/2609.38172",
+    "arxiv_id": "2609.38172",
+    "detail_path": "papers/2609.38172/",
+    "cover_path": "covers/2609.38172/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38172.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38172.webp",
+    "preview_text": "论文提出 PRISM，一个 real-to-sim-to-real 框架，利用视频到视频（V2V）生成技术，将少量真实视频扩展为大量多样化的\"反事实\"人-物交互视频（即源视频中未发生但可能发生的交互），用于训练人形机器人移动操作（loco-manipulation）技能。 核心问题是：收集多样化、高质量的人-物交互视频（清晰展示全身和未被遮挡的物体交互）是视觉模仿学习扩展的主要瓶颈；论文通过生成式视频模型作为数据增强手段解决此瓶颈。 论文展示了完整流水线：仅用机载深度观测，人形机器人零样本（zero-shot）地在真实世界中对箱子、桶、收纳箱和球等未见过的物体实例执行捡起、搬运和放下的操作，且无需真实世界微调。",
+    "research_unit": "Amazon FAR（第一单位）",
+    "hook_text": "论文提出 PRISM，一个 real-to-sim-to-real 框架，利用视频到视频（V2V）生成技术，将少量真实视频扩展为大量多样化的\"反事实\"人-物交互视频（即源视频中未发生但可能发生的交互），用于训练人形机器人移动操作（loco-manipulation）技能。",
+    "key_points": [
+      "论文提出 PRISM，一个 real-to-sim-to-real 框架，利用视频到视频（V2V）生成技术，将少量真实视频扩展为大量多样化的\"反事实\"人-物交互视频（即源视频中未发生但可能发生的交互），用于训练人形机器人移动操作（loco-manipulation）技能。",
+      "核心问题是：收集多样化、高质量的人-物交互视频（清晰展示全身和未被遮挡的物体交互）是视觉模仿学习扩展的主要瓶颈；论文通过生成式视频模型作为数据增强手段解决此瓶颈。",
+      "论文展示了完整流水线：仅用机载深度观测，人形机器人零样本（zero-shot）地在真实世界中对箱子、桶、收纳箱和球等未见过的物体实例执行捡起、搬运和放下的操作，且无需真实世界微调。"
+    ],
+    "reading_minutes": 10,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
+    "link": "https://arxiv.org/abs/2609.38155",
+    "arxiv_id": "2609.38155",
+    "detail_path": "papers/2609.38155/",
+    "cover_path": "covers/2609.38155/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38155.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38155.webp",
+    "preview_text": "论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。 现有记忆框架依赖时序描述和文本派生实体，无法解析物理身份一致性：不同物体可能共享描述，同一物体的观测可能因状态、位置或活动变化而被割裂。论文旨在解决“检索到相关事件 ≠ 恢复问题所关心的特定实体传记”的问题。 在四个基准（涵盖天级和周级录制、多项选择和开放问答）上，GEB 均超过此前最优记忆框架；在 EgoLifeQA 上达到 72.0% 准确率，较此前最佳公开结果提升 4.4 个百分点。",
+    "research_unit": "University of Illinois Urbana-Champaign（伊利诺伊大学厄巴纳-香…",
+    "hook_text": "论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。",
+    "key_points": [
+      "论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。",
+      "现有记忆框架依赖时序描述和文本派生实体，无法解析物理身份一致性：不同物体可能共享描述，同一物体的观测可能因状态、位置或活动变化而被割裂。论文旨在解决“检索到相关事件 ≠ 恢复问题所关心的特定实体传记”的问题。",
+      "在四个基准（涵盖天级和周级录制、多项选择和开放问答）上，GEB 均超过此前最优记忆框架；在 EgoLifeQA 上达到 72.0% 准确率，较此前最佳公开结果提升 4.4 个百分点。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+    "link": "https://arxiv.org/abs/2609.38154",
+    "arxiv_id": "2609.38154",
+    "detail_path": "papers/2609.38154/",
+    "cover_path": "covers/2609.38154/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38154.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38154.webp",
+    "preview_text": "论文提出 LongLive-Plug，一个 once-for-all 蒸馏框架，在基础模型上蒸馏可复用的能力为 LoRA（functional LoRAs），并以 training-free 方式即插即用地部署到兼容的下游视频生成模型。 框架涵盖三种核心能力：CFG 蒸馏（将双分支 classifier-free guidance 合并为单次模型评估）、few-step 蒸馏（实现四步采样）、以及长上下文蒸馏（用于自回归推理中的长时间视频错误纠正）。 解决了当前\"每个专用模型都要重复蒸馏\"的高昂成本问题，将蒸馏从 per-target 模式转变为 per-backbone 的一次性投入。",
+    "research_unit": "论文 HTML 中未明确列出作者所属机构",
+    "hook_text": "论文提出 LongLive-Plug，一个 once-for-all 蒸馏框架，在基础模型上蒸馏可复用的能力为 LoRA（functional LoRAs），并以 training-free 方式即插即用地部署到兼容的下游视频生成模型。",
+    "key_points": [
+      "论文提出 LongLive-Plug，一个 once-for-all 蒸馏框架，在基础模型上蒸馏可复用的能力为 LoRA（functional LoRAs），并以 training-free 方式即插即用地部署到兼容的下游视频生成模型。",
+      "框架涵盖三种核心能力：CFG 蒸馏（将双分支 classifier-free guidance 合并为单次模型评估）、few-step 蒸馏（实现四步采样）、以及长上下文蒸馏（用于自回归推理中的长时间视频错误纠正）。",
+      "解决了当前\"每个专用模型都要重复蒸馏\"的高昂成本问题，将蒸馏从 per-target 模式转变为 per-backbone 的一次性投入。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "FracGen: Learning How Objects Stretch and Tear with Physics-Informed Video Generation",
+    "link": "https://arxiv.org/abs/2609.38152",
+    "arxiv_id": "2609.38152",
+    "detail_path": "papers/2609.38152/",
+    "cover_path": "covers/2609.38152/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38152.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38152.webp",
+    "preview_text": "论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。 为训练 FracGen，论文构建了 FracSim 仿真框架，在物质点法（MPM）中引入连续损伤模型，同时输出成对的断裂视频和逐像素对齐的物理场（FracPhys Maps）。 论文关注 \"stretch-to-tear\" 断裂过程，解决现有视频生成模型无法显式建模损伤累积和材料断裂行为的问题。",
+    "research_unit": "论文作者为 Jiahan Zhang、Trong-Tung Nguyen、Anand Bhattad",
+    "hook_text": "论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。",
+    "key_points": [
+      "论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。",
+      "为训练 FracGen，论文构建了 FracSim 仿真框架，在物质点法（MPM）中引入连续损伤模型，同时输出成对的断裂视频和逐像素对齐的物理场（FracPhys Maps）。",
+      "论文关注 \"stretch-to-tear\" 断裂过程，解决现有视频生成模型无法显式建模损伤累积和材料断裂行为的问题。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+    "link": "https://arxiv.org/abs/2609.38146",
+    "arxiv_id": "2609.38146",
+    "detail_path": "papers/2609.38146/",
+    "cover_path": "covers/2609.38146/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38146.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38146.webp",
+    "preview_text": "提出 LIFT（Layout-In-Future Video Generation），一个统一的图像到视频生成框架，将相机运动控制与末帧布局控制（last-frame layout）相结合，使用户能指定大视角变化下未来视图中应出现的内容及其空间位置。 针对现有相机控制只能指定视点轨迹、文本提示只能提供粗略语义、而无法精确决定未来帧内容与布局的问题，尤其在大视角变化暴露初始画面外区域时更为突出。 引入在线策略自蒸馏（OPSD），将密集布局教师模型的控制能力迁移到仅依赖末帧布局的学生模型，并构建了包含大视角变化与时空布局标注的 LIFT-Vista 数据集。",
+    "research_unit": "UC San Diego（Shengxiang Ji、Haiyang Xu、Bingnan Li、Yu…",
+    "hook_text": "提出 LIFT（Layout-In-Future Video Generation），一个统一的图像到视频生成框架，将相机运动控制与末帧布局控制（last-frame layout）相结合，使用户能指定大视角变化下未来视图中应出现的内容及其空间位置。",
+    "key_points": [
+      "提出 LIFT（Layout-In-Future Video Generation），一个统一的图像到视频生成框架，将相机运动控制与末帧布局控制（last-frame layout）相结合，使用户能指定大视角变化下未来视图中应出现的内容及其空间位置。",
+      "针对现有相机控制只能指定视点轨迹、文本提示只能提供粗略语义、而无法精确决定未来帧内容与布局的问题，尤其在大视角变化暴露初始画面外区域时更为突出。",
+      "引入在线策略自蒸馏（OPSD），将密集布局教师模型的控制能力迁移到仅依赖末帧布局的学生模型，并构建了包含大视角变化与时空布局标注的 LIFT-Vista 数据集。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+    "link": "https://arxiv.org/abs/2609.38140",
+    "arxiv_id": "2609.38140",
+    "detail_path": "papers/2609.38140/",
+    "cover_path": "covers/2609.38140/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38140.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38140.webp",
+    "preview_text": "论文提出 SplitMoE，一种面向视频扩散模型扩展的分角色稀疏架构，旨在解决传统 MoE 在视频生成中陷入的\"均匀性陷阱\"（Uniformity Trap）。 传统 token-wise MoE 在异构专家池中独立路由 token，并用均匀化正则约束专家使用率，这与视频数据时空冗余、语义长尾分布的特性不匹配，导致局部路径碎裂（spatiotemporal fragmentation）和结构失真。 SplitMoE 将专家池显式划分为语义专家和通用专家，结合原型引导路由与推-拉正则化，使 token 按语义属性自然聚类，从而在相同激活参数预算下提升视频生成质量。",
+    "research_unit": "中国科学院大学（University of Chinese Academy of Sciences）",
+    "hook_text": "论文提出 SplitMoE，一种面向视频扩散模型扩展的分角色稀疏架构，旨在解决传统 MoE 在视频生成中陷入的\"均匀性陷阱\"（Uniformity Trap）。",
+    "key_points": [
+      "论文提出 SplitMoE，一种面向视频扩散模型扩展的分角色稀疏架构，旨在解决传统 MoE 在视频生成中陷入的\"均匀性陷阱\"（Uniformity Trap）。",
+      "传统 token-wise MoE 在异构专家池中独立路由 token，并用均匀化正则约束专家使用率，这与视频数据时空冗余、语义长尾分布的特性不匹配，导致局部路径碎裂（spatiotemporal fragmentation）和结构失真。",
+      "SplitMoE 将专家池显式划分为语义专家和通用专家，结合原型引导路由与推-拉正则化，使 token 按语义属性自然聚类，从而在相同激活参数预算下提升视频生成质量。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
+    "link": "https://arxiv.org/abs/2609.38119",
+    "arxiv_id": "2609.38119",
+    "detail_path": "papers/2609.38119/",
+    "cover_path": "covers/2609.38119/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38119.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38119.webp",
+    "preview_text": "VideoLoop 提出一种双循环（dual-loop）工作记忆架构，用于解决长视频理解智能体中的 语义抖动（semantic thrashing） 问题：当追加式工作记忆不断增长时，注意力对关键证据的聚焦崩溃，智能体丢失已找到的信息。 论文从结构上论证了追加式记忆只能添加新目标证据，却无法清除已累积噪声或限制有序上下文增长，必须引入重写算子才能打破这一局限。 方法将推理与记忆管理解耦：外循环负责视频探索与推理，内循环在每步后从无界文件系统中检索证据并重写有界工作记忆，从而在固定上下文预算下保持稳定检索。",
+    "research_unit": "University of Rochester（作者 Jinfa Huang, Jianming Xu…",
+    "hook_text": "VideoLoop 提出一种双循环（dual-loop）工作记忆架构，用于解决长视频理解智能体中的 语义抖动（semantic thrashing） 问题：当追加式工作记忆不断增长时，注意力对关键证据的聚焦崩溃，智能体丢失已找到的信息。",
+    "key_points": [
+      "VideoLoop 提出一种双循环（dual-loop）工作记忆架构，用于解决长视频理解智能体中的 语义抖动（semantic thrashing） 问题：当追加式工作记忆不断增长时，注意力对关键证据的聚焦崩溃，智能体丢失已找到的信息。",
+      "论文从结构上论证了追加式记忆只能添加新目标证据，却无法清除已累积噪声或限制有序上下文增长，必须引入重写算子才能打破这一局限。",
+      "方法将推理与记忆管理解耦：外循环负责视频探索与推理，内循环在每步后从无界文件系统中检索证据并重写有界工作记忆，从而在固定上下文预算下保持稳定检索。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History",
+    "link": "https://arxiv.org/abs/2609.38114",
+    "arxiv_id": "2609.38114",
+    "detail_path": "papers/2609.38114/",
+    "cover_path": "covers/2609.38114/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38114.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38114.webp",
+    "preview_text": "论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。 现有方法（如 Self-Forcing、HiAR）在自我回滚训练中截断历史 K/V 的梯度，导致未来损失无法优化历史编码方式；而可微历史方法（如 SGF）需要额外的无梯度回滚和逐块重缓存，训练效率低。 论文的核心洞察是：将历史噪声水平与当前去噪块的噪声水平对齐，使噪声历史在同一前向传播中保持可微，无需重构即可高效训练，同时兼顾视觉质量与运动动态。",
+    "research_unit": "Monash University",
+    "hook_text": "论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。",
+    "key_points": [
+      "论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。",
+      "现有方法（如 Self-Forcing、HiAR）在自我回滚训练中截断历史 K/V 的梯度，导致未来损失无法优化历史编码方式；而可微历史方法（如 SGF）需要额外的无梯度回滚和逐块重缓存，训练效率低。",
+      "论文的核心洞察是：将历史噪声水平与当前去噪块的噪声水平对齐，使噪声历史在同一前向传播中保持可微，无需重构即可高效训练，同时兼顾视觉质量与运动动态。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+    "link": "https://arxiv.org/abs/2609.38057",
+    "arxiv_id": "2609.38057",
+    "detail_path": "papers/2609.38057/",
+    "cover_path": "covers/2609.38057/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.38057.webp",
+    "paper_image_full_path": "assets/paper-images/2609.38057.webp",
+    "preview_text": "论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。 核心思想是：利用 WAM 自身的视频先验生成大量候选轨迹，并通过视频-动作验证筛选出可靠前缀进行迭代自训练，从而突破仅靠视频预测无法保证任务完成、动作与视频不一致导致执行失败的限制。 论文解决的核心问题是：如何从 WAM 自己生成的不可靠输出中识别并学习高质量训练数据，实现机器人策略在新任务上的自主进化。",
+    "research_unit": "HITSZ（哈尔滨工业大学深圳）",
+    "hook_text": "论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。",
+    "key_points": [
+      "论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。",
+      "核心思想是：利用 WAM 自身的视频先验生成大量候选轨迹，并通过视频-动作验证筛选出可靠前缀进行迭代自训练，从而突破仅靠视频预测无法保证任务完成、动作与视频不一致导致执行失败的限制。",
+      "论文解决的核心问题是：如何从 WAM 自己生成的不可靠输出中识别并学习高质量训练数据，实现机器人策略在新任务上的自主进化。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
+    "link": "https://arxiv.org/abs/2609.37969",
+    "arxiv_id": "2609.37969",
+    "detail_path": "papers/2609.37969/",
+    "cover_path": "covers/2609.37969/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.37969.webp",
+    "paper_image_full_path": "assets/paper-images/2609.37969.webp",
+    "preview_text": "提出 SoL-Refiner，一个单步（one-step）视频精修器，用一次去噪步骤将低分辨率视频生成结果提升为高质量 2K/4K 视频，同时修复合成伪影、增强局部细节。 解决的核心问题：高分辨率视频生成成本随时空 token 数量急剧增长；传统的两阶段生成中，多步精修器会引入“第二次采样瓶颈”，且多数精修器只针对特定基础生成器，跨生成器迁移能力未被充分评估。 目标是在保持内容与运动一致性的前提下，以“光速级”延迟完成视频超分与精修，并兼容多种基础生成器。",
+    "research_unit": "NVIDIA（所有作者均来自 NVIDIA，论文标注 *同等贡献）",
+    "hook_text": "提出 SoL-Refiner，一个单步（one-step）视频精修器，用一次去噪步骤将低分辨率视频生成结果提升为高质量 2K/4K 视频，同时修复合成伪影、增强局部细节。",
+    "key_points": [
+      "提出 SoL-Refiner，一个单步（one-step）视频精修器，用一次去噪步骤将低分辨率视频生成结果提升为高质量 2K/4K 视频，同时修复合成伪影、增强局部细节。",
+      "解决的核心问题：高分辨率视频生成成本随时空 token 数量急剧增长；传统的两阶段生成中，多步精修器会引入“第二次采样瓶颈”，且多数精修器只针对特定基础生成器，跨生成器迁移能力未被充分评估。",
+      "目标是在保持内容与运动一致性的前提下，以“光速级”延迟完成视频超分与精修，并兼容多种基础生成器。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-28",
     "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
     "link": "https://arxiv.org/abs/2609.35768",
@@ -501,14 +791,16 @@
     "cover_path": "covers/2609.26458/",
     "paper_image_path": "assets/paper-images/thumbs/2609.26458.webp",
     "paper_image_full_path": "assets/paper-images/2609.26458.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 CoDeR（Code-Diffusion Renderer），一种全新的世界建模范式，将世界显式表示为可执行代码，并通过视频生成模型完成视觉呈现。 与传统视频世界模型隐式编码世界动态不同，CoDeR 通过协调五个互补角色（God of Concepts、Creator、Executors、Artists、Travelers），将高层概念转化为结构化世界规则、可执行动力学和感知观察。 该系统旨在解决现有世界模型在长期记忆、开放交互、自主演化和多智能体场景方面的不足，实现超出当前视觉观察范围的持续世界演进。",
+    "research_unit": "USTC（中国科学技术大学）",
+    "hook_text": "论文提出 CoDeR（Code-Diffusion Renderer），一种全新的世界建模范式，将世界显式表示为可执行代码，并通过视频生成模型完成视觉呈现。",
     "key_points": [
-      "待生成"
+      "论文提出 CoDeR（Code-Diffusion Renderer），一种全新的世界建模范式，将世界显式表示为可执行代码，并通过视频生成模型完成视觉呈现。",
+      "与传统视频世界模型隐式编码世界动态不同，CoDeR 通过协调五个互补角色（God of Concepts、Creator、Executors、Artists、Travelers），将高层概念转化为结构化世界规则、可执行动力学和感知观察。",
+      "该系统旨在解决现有世界模型在长期记忆、开放交互、自主演化和多智能体场景方面的不足，实现超出当前视觉观察范围的持续世界演进。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -528,14 +820,16 @@
     "cover_path": "covers/2609.25611/",
     "paper_image_path": "assets/paper-images/thumbs/2609.25611.webp",
     "paper_image_full_path": "assets/paper-images/2609.25611.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文介绍了 Qwen3.8-Omni-Flash，这是一个原生的全模态（omni-modal）agentic 模型，旨在支持真实世界的多模态生产力工作流，如视频编辑、音视频翻译、音乐视频生成和视频笔记创建等。 与之前的 omni 模型主要强调感知和交互不同，该模型显著提升了多模态理解与推理能力，以及长时程 agentic 任务的表现。 论文针对现有 agent harness 缺乏原生音视频支持的问题，发布了 Qwen-MM-Plugins 和 Qwen-Live-Harness 两个开源框架，推动原生多模态 agent 在生产环境中的部署。",
+    "research_unit": "Qwen Team（通义千问团队）",
+    "hook_text": "论文介绍了 Qwen3.8-Omni-Flash，这是一个原生的全模态（omni-modal）agentic 模型，旨在支持真实世界的多模态生产力工作流，如视频编辑、音视频翻译、音乐视频生成和视频笔记创建等。",
     "key_points": [
-      "待生成"
+      "论文介绍了 Qwen3.8-Omni-Flash，这是一个原生的全模态（omni-modal）agentic 模型，旨在支持真实世界的多模态生产力工作流，如视频编辑、音视频翻译、音乐视频生成和视频笔记创建等。",
+      "与之前的 omni 模型主要强调感知和交互不同，该模型显著提升了多模态理解与推理能力，以及长时程 agentic 任务的表现。",
+      "论文针对现有 agent harness 缺乏原生音视频支持的问题，发布了 Qwen-MM-Plugins 和 Qwen-Live-Harness 两个开源框架，推动原生多模态 agent 在生产环境中的部署。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -555,14 +849,16 @@
     "cover_path": "covers/2609.25864/",
     "paper_image_path": "assets/paper-images/thumbs/2609.25864.webp",
     "paper_image_full_path": "assets/paper-images/2609.25864.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 TV-AudioRemover，一个联合文本-视觉引导的目标声音移除框架，用于在视觉对象从视频中移除后，同步消除其在音轨中残留的声学痕迹，解决音视频不一致问题。 核心任务：给定经过视觉修复（视频修复模型输出）后的编辑视频、原始混合音频和自然语言指令，生成仅保留与视觉内容一致音频的目标音频，抑制被移除对象对应的声音。 论文指出现有视频修复仅处理像素、音频编辑模型多依赖单一模态文本控制，多模态引导（视觉+文本）能提供更强的语义锚定与时序同步线索，但此前缺乏专门用于移除场景的研究；现有音频-视觉编辑模型也不适合删除导向任务。",
+    "research_unit": "MiLM Plus, Xiaomi Inc.（小米公司 MiLM Plus 实验室，论文全部作者均隶属…",
+    "hook_text": "论文提出 TV-AudioRemover，一个联合文本-视觉引导的目标声音移除框架，用于在视觉对象从视频中移除后，同步消除其在音轨中残留的声学痕迹，解决音视频不一致问题。",
     "key_points": [
-      "待生成"
+      "论文提出 TV-AudioRemover，一个联合文本-视觉引导的目标声音移除框架，用于在视觉对象从视频中移除后，同步消除其在音轨中残留的声学痕迹，解决音视频不一致问题。",
+      "核心任务：给定经过视觉修复（视频修复模型输出）后的编辑视频、原始混合音频和自然语言指令，生成仅保留与视觉内容一致音频的目标音频，抑制被移除对象对应的声音。",
+      "论文指出现有视频修复仅处理像素、音频编辑模型多依赖单一模态文本控制，多模态引导（视觉+文本）能提供更强的语义锚定与时序同步线索，但此前缺乏专门用于移除场景的研究；现有音频-视觉编辑模型也不适合删除导向任务。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 8,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",

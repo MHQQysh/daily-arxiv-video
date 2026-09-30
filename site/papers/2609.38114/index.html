@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History - Video 每日论文卡</title>
+    <meta name="description" content="论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。 现有方法（如 Self-Forcing、HiAR）在自我回滚训练中截断历史 K/V 的梯度，导致未来损失无法优化历史编码方式；而可微历史方法（如 SGF）需要额外的无梯度回滚和逐块重缓存，训练效率低。 论文的核心洞察是：将历史噪声水平与当前去噪块的噪声水平对齐，使噪声历史在同一前向传播中保持可微，无需重构即可高效训练，同时兼顾视觉质量与运动动态。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.38114">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.38114.webp" alt="Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History</h1>
+            <div class="detail-meta">2026-09-29 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.38114" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.38114" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.38114</span></div>
+            <p class="detail-summary">论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。 现有方法（如 Self-Forcing、HiAR）在自我回滚训练中截断历史 K/V 的梯度，导致未来损失无法优化历史编码方式；而可微历史方法（如 SGF）需要额外的无梯度回滚和逐块重缓存，训练效率低。 论文的核心洞察是：将历史噪声水平与当前去噪块的噪声水平对齐，使噪声历史在同一前向传播中保持可微，无需重构即可高效训练，同时兼顾视觉质量与运动动态。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Monash University</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.38114/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。</p>
+  <ul class="reading-intro-points"><li>论文针对自回归视频扩散模型（AR video diffusion）在长视频流式生成中存在的误差累积问题，提出了一种新的训练方案 Self-Aligned Forcing (SAF)。</li><li>现有方法（如 Self-Forcing、HiAR）在自我回滚训练中截断历史 K/V 的梯度，导致未来损失无法优化历史编码方式；而可微历史方法（如 SGF）需要额外的无梯度回滚和逐块重缓存，训练效率低。</li><li>论文的核心洞察是：将历史噪声水平与当前去噪块的噪声水平对齐，使噪声历史在同一前向传播中保持可微，无需重构即可高效训练，同时兼顾视觉质量与运动动态。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Monash University</strong></li><li><strong>Vivix AI</strong></li><li><strong>Lancaster University</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文针对<strong>自回归视频扩散模型</strong>（AR video diffusion）在长视频流式生成中存在的<strong>误差累积</strong>问题，提出了一种新的训练方案 <strong>Self-Aligned Forcing (SAF)</strong>。</li><li>现有方法（如 Self-Forcing、HiAR）在自我回滚训练中<strong>截断历史 K/V 的梯度</strong>，导致未来损失无法优化历史编码方式；而可微历史方法（如 SGF）需要额外的无梯度回滚和逐块重缓存，训练效率低。</li><li>论文的核心洞察是：<strong>将历史噪声水平与当前去噪块的噪声水平对齐</strong>，使噪声历史在同一前向传播中保持可微，无需重构即可高效训练，同时兼顾视觉质量与运动动态。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>通过实验揭示了两个关键观察：<strong>(1)</strong> 噪声历史不仅降低误差累积，还能增加运动动态，但会损失成像质量；<strong>(2)</strong> 截断历史梯度会使因果训练与双向训练的梯度余弦相似度从 0.972 降至 0.643，其中 key 投影的相似度低至约 0.2，模型几乎学不到如何编码历史。</li><li>提出 <strong>SAF</strong> 训练方案：将历史噪声水平与当前块对齐，使所有块在同一去噪阶段通过<strong>块因果掩码</strong>在单次前向传播中并行去噪，历史 K/V 自然可微，为未来损失提供直通历史编码器的梯度路径。</li><li>引入 <strong>block-parallel self-rollout</strong>：回滚在块间并行、仅在阶段间串行，避免单独的 no-gradient rollout 和逐块 timestep-zero 重缓存，训练速度比 SGF 快 <strong>1.8×</strong> 且内存更低。</li><li>引入 <strong>clean sink</strong>（注意力锚点）在单个前向传播内重缓存，以低成本稳定表观质量；推理阶段维护每阶段一个 K/V bank，支持多 GPU 流水线，4 GPU 下达到 <strong>49.1 FPS</strong> 的最高单 GPU 吞吐。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>阶段对齐可微历史（Stage-Aligned Differentiable History）</strong>：历史 K/V 由前置块在同一去噪阶段产生，在块因果掩码下于同一前向传播中消费，无需重构即可同时获得噪声且可微的历史，梯度分解为 read（读取）和 write（写入）两项，提供未来到历史的监督。</li><li><strong>块并行自我回滚（Block-Parallel Self-Rollout）</strong>：随机采样一个出口阶段 d 以标准 <strong>DMD（分布匹配蒸馏）</strong> 目标计算损失，阶段 s<d 无梯度运行，仅阶段 d 保持计算图，避免存储全部 S 个链式阶段。</li><li><strong>Clean Sink 持久锚点</strong>：采用注意力 sink 机制（前几帧），在同一前向传播内重缓存其 K/V，维持全局表观一致性，无需额外前向。</li><li><strong>流式推理（Streaming Inference）</strong>：复用去噪过程中计算的 K/V 作为历史，支持单 GPU 单 bank 或多 GPU 每阶段一个 bank 的流水线推理，消除逐块重缓存。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>VidGen1M</strong> 数据集（基于论文实验设置，标题页未完整展示，但方法基于 LongLive 模型框架和 DMD 蒸馏）。</li><li>基座模型为 <strong>LongLive</strong>（自回归视频扩散模型）及其 DMD 蒸馏版本。</li><li>训练采用 <strong>DMD（Distribution Matching Distillation）</strong> 框架，包含生成器与两个 score model。</li><li>推理阶段支持 4 GPU 多 bank 流水线（49.1 FPS）和单 GPU 单 bank 模式。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：<strong>VBench</strong>（视觉质量、动态程度等指标），对比方法包括 <strong>Self-Forcing、HiAR、SGF、CausVid、LongLive</strong> 等。</li><li>在 <strong>chunkwise 设置</strong>下 SAF 表现最佳，在 <strong>framewise 设置</strong>下与最佳方法相当，同时在两种设置下均取得最高训练与推理效率。</li><li>训练效率：framewise 训练比 SGF 快 <strong>1.8×</strong>，且内存占用更低。</li><li>推理吞吐：4 GPU chunkwise 流水线推理达到 <strong>49.1 FPS</strong>，为现有方法中最高单 GPU 吞吐。</li><li>消融实验表明：阶段对齐（历史噪声与当前块一致）在历史可微被学习后，在所有推理策略下取得最高视觉质量；clean sink 和 K/V bank 设计均有效提升性能。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.38119/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.38057/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">EVO-WAM: Evolving World Action Models through Video-Action Verification</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

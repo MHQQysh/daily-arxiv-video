@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FracGen: Learning How Objects Stretch and Tear with Physics-Informed Video Generation - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。 为训练 FracGen，论文构建了 FracSim 仿真框架，在物质点法（MPM）中引入连续损伤模型，同时输出成对的断裂视频和逐像素对齐的物理场（FracPhys Maps）。 论文关注 &quot;stretch-to-tear&quot; 断裂过程，解决现有视频生成模型无法显式建模损伤累积和材料断裂行为的问题。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.38152">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.38152.webp" alt="FracGen: Learning How Objects Stretch and Tear with Physics-Informed Video Generation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">FracGen: Learning How Objects Stretch and Tear with Physics-Informed Video Generation</h1>
+            <div class="detail-meta">2026-09-29 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.38152" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.38152" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.38152</span></div>
+            <p class="detail-summary">论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。 为训练 FracGen，论文构建了 FracSim 仿真框架，在物质点法（MPM）中引入连续损伤模型，同时输出成对的断裂视频和逐像素对齐的物理场（FracPhys Maps）。 论文关注 &quot;stretch-to-tear&quot; 断裂过程，解决现有视频生成模型无法显式建模损伤累积和材料断裂行为的问题。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">论文作者为 Jiahan Zhang、Trong-Tung Nguyen、Anand Bhattad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.38152/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。</p>
+  <ul class="reading-intro-points"><li>论文提出 FracGen，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。</li><li>为训练 FracGen，论文构建了 FracSim 仿真框架，在物质点法（MPM）中引入连续损伤模型，同时输出成对的断裂视频和逐像素对齐的物理场（FracPhys Maps）。</li><li>论文关注 &quot;stretch-to-tear&quot; 断裂过程，解决现有视频生成模型无法显式建模损伤累积和材料断裂行为的问题。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li>论文作者为 <strong>Jiahan Zhang</strong>、<strong>Trong-Tung Nguyen</strong>、<strong>Anand Bhattad</strong></li><li>主要研究机构为 <strong>Johns Hopkins University</strong></li><li>项目网站：https://fracgen.github.io</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>FracGen</strong>，一个 fracture-aware 视频生成模型，能够从单张完好物体图像出发，根据物理信号条件生成物体拉伸、变形直至撕裂的逼真视频。</li><li>为训练 FracGen，论文构建了 <strong>FracSim</strong> 仿真框架，在物质点法（MPM）中引入连续损伤模型，同时输出成对的断裂视频和逐像素对齐的物理场（FracPhys Maps）。</li><li>论文关注 "stretch-to-tear" 断裂过程，解决现有视频生成模型无法显式建模损伤累积和材料断裂行为的问题。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>FracSim</strong> 仿真框架：将连续损伤力学集成到 MPM 中，生成断裂视频与 FracPhys Maps，无需额外仿真成本即可提供密集、像素对齐的物理监督。</li><li>提出 <strong>FracGen</strong> 生成模型：联合预测 RGB 断裂视频与物理场（应变、应力、损伤、速度），迫使模型学习机械状态而非表面外观。</li><li>引入物理信息损失：基于本构模型和应力退化机制，设计潜在空间一致性正则项，耦合预测的应变、应力与损伤表示。</li><li>提供可控性：用户可控制物体撕裂位置、裂纹扩展速度以及失效前的变形程度。</li><li>构建断裂视频生成基准，并引入新的评估指标，在多个材料和受力条件下系统评估物理合理性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>3D Gaussian Splatting + Material Point Method (Gaussian-MPM)</strong> 模拟框架，每个高斯粒子同时承载外观与物理状态（位置、速度、变形梯度）。</li><li>使用 <strong>Green-Lagrange 应变</strong> 描述大变形下的局部变形，通过极分解区分旋转与拉伸，提取等效应变。</li><li>引入标量损伤变量 d∈[0,1]，基于最大主拉伸 λmax 计算损伤，并通过应力退化 τ̃=(1-d)τ 反馈到 MPM 动量更新，实现断裂。</li><li>渲染 FracPhys Maps：将粒子的物理量（速度、应变、应力、损伤）替换颜色项，通过 3DGS 体渲染得到与 RGB 帧时空对齐的物理图。</li><li>FracGen 采用 <strong>flow-matching 潜在视频生成模型</strong>，将 RGB 视频和四种物理图经冻结 VAE 编码后，沿高度维度拼接为联合潜在表示，通过 LoRA 微调 Transformer，并加入物理一致损失。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>数据集：由 <strong>FracSim</strong> 仿真生成，涵盖多种材料（如脆性、延性）和不同拉伸载荷及断裂参数。</li><li>模型：基于 <strong>Wan et al. (2025)</strong> 的潜在视频生成模型（Transformer）改造，采用 LoRA 适配。</li><li>训练资源：论文未明确给出 GPU/TPU 具体型号与数量，训练基于 flow-matching 目标，使用合成仿真数据。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：自定义 benchmark，包含多种材料、施力条件与断裂行为。</li><li>主要指标：</li></ul>
+<p> - <strong>Stretching Axis Coherence (SAC)</strong>：拉伸方向一致性</p>
+<p> - <strong>Damage Progression Alignment (DPA)</strong>：损伤演化对齐度</p>
+<p> - <strong>Constitutive Consistency (R²_cons)</strong>：本构一致性</p>
+<ul><li>关键结果：</li></ul>
+<p> - FracGen 在物理保真度和视觉质量上均优于现有视频生成基线。</p>
+<p> - 通过可调节的损伤阈值（λonset、λcrit）实现断裂时机的精细控制。</p>
+<p> - 联合预测物理场和物理一致损失能显著提升断裂视频的物理合理性，消融实验验证了各模块的有效性。</p></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.38154/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">LongLive-Plug: Once-for-All Distillation for Video Generation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.38146/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

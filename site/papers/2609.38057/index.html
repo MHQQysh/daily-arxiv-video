@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EVO-WAM: Evolving World Action Models through Video-Action Verification - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。 核心思想是：利用 WAM 自身的视频先验生成大量候选轨迹，并通过视频-动作验证筛选出可靠前缀进行迭代自训练，从而突破仅靠视频预测无法保证任务完成、动作与视频不一致导致执行失败的限制。 论文解决的核心问题是：如何从 WAM 自己生成的不可靠输出中识别并学习高质量训练数据，实现机器人策略在新任务上的自主进化。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.38057">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.38057.webp" alt="EVO-WAM: Evolving World Action Models through Video-Action Verification" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">EVO-WAM: Evolving World Action Models through Video-Action Verification</h1>
+            <div class="detail-meta">2026-09-29 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.38057" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.38057" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.38057</span></div>
+            <p class="detail-summary">论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。 核心思想是：利用 WAM 自身的视频先验生成大量候选轨迹，并通过视频-动作验证筛选出可靠前缀进行迭代自训练，从而突破仅靠视频预测无法保证任务完成、动作与视频不一致导致执行失败的限制。 论文解决的核心问题是：如何从 WAM 自己生成的不可靠输出中识别并学习高质量训练数据，实现机器人策略在新任务上的自主进化。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">HITSZ（哈尔滨工业大学深圳）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.38057/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。</p>
+  <ul class="reading-intro-points"><li>论文提出 EVO-WAM 框架，旨在让世界动作模型（World Action Models, WAMs）在无需额外专家示范或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。</li><li>核心思想是：利用 WAM 自身的视频先验生成大量候选轨迹，并通过视频-动作验证筛选出可靠前缀进行迭代自训练，从而突破仅靠视频预测无法保证任务完成、动作与视频不一致导致执行失败的限制。</li><li>论文解决的核心问题是：如何从 WAM 自己生成的不可靠输出中识别并学习高质量训练数据，实现机器人策略在新任务上的自主进化。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>HITSZ</strong>（哈尔滨工业大学深圳）</li><li><strong>SLAI</strong>（深圳人工智能实验室）</li><li><strong>THU</strong>（清华大学）</li><li><strong>JD</strong>（京东）</li><li><strong>HKUST</strong>（香港科技大学）</li><li><strong>PKU</strong>（北京大学）</li><li><strong>SJTU</strong>（上海交通大学）</li><li><strong>HKUSTGZ</strong>（香港科技大学广州）</li><li><strong>HKU</strong>（香港大学）</li><li><strong>UBC</strong>（英属哥伦比亚大学）</li><li><strong>CUHK</strong>（香港中文大学）</li><li><strong>CUHKSZ</strong>（香港中文大学深圳）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>EVO-WAM</strong> 框架，旨在让世界动作模型（World Action Models, WAMs）在<strong>无需额外专家示范</strong>或外部环境执行反馈的情况下，通过自我生成的视频-动作轨迹提升在未见任务上的表现。</li><li>核心思想是：利用 WAM 自身的视频先验生成大量候选轨迹，并通过<strong>视频-动作验证</strong>筛选出可靠前缀进行迭代自训练，从而突破仅靠视频预测无法保证任务完成、动作与视频不一致导致执行失败的限制。</li><li>论文解决的核心问题是：如何从 WAM 自己生成的不可靠输出中识别并学习高质量训练数据，实现机器人策略在<strong>新任务上的自主进化</strong>。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>EVO-WAM 框架</strong>：使 WAM 能够生成<strong>完整的自回归视频-动作-状态轨迹</strong>，并通过验证和迭代自训练在未见任务上持续改进，整个过程无需外部环境执行或额外示范。</li><li>设计<strong>两阶段视频-动作验证机制</strong>：第一阶段用视觉语言模型（VLM）识别<strong>任务完成前缀</strong>；第二阶段用逆动力学模型（IDM）验证生成视频与动作的<strong>一致性</strong>，确保训练数据既视觉成功又可执行。</li><li>提出<strong>状态预测与锚定多帧上下文</strong>技术：通过预测 chunk 末端机器人状态并保留初始帧作为锚点，使 WAM 能自主续写轨迹，绕开外部观测反馈需求。</li><li>验证了<strong>跨骨干、跨任务、跨验证器的通用性</strong>：在 Cosmos3 和 DreamZero 两个 WAM 骨干上均有显著提升，且对 VLM 选择（大模型 Qwen3.8-Flash-Next 和小模型 Qwen3.5-27B）具有鲁棒性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>采用<strong>状态预测</strong>式 WAM 训练：每个 chunk 同时输出视频潜变量、动作块和末端状态，使后续 chunk 能依靠预测状态继续生成。</li><li>使用<strong>锚定多帧上下文</strong>：初始帧作为持续参考，配合最近生成帧提供运动历史，增强轨迹延续的稳定性。</li><li>自回归生成候选轨迹：从给定初始场景和任务指令出发，迭代生成多个 chunk，形成视频-动作-状态序列。</li><li><strong>两阶段验证</strong>：VLM 通过“描述-判断”机制检查子目标完成情况、夹爪释放、物体一致性和机器人结构一致性；IDM 基于视频窗口重建动作并与 WAM 动作比较，计算均方误差以判定一致性。</li><li><strong>迭代自训练</strong>：将验证通过的前缀与原始训练数据混合，通过 SFT 更新 WAM，并用新模型生成下一轮候选，形成“生成-验证-改进”循环。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>RoboTwin 2.0</strong> 模拟环境，在<strong>7 个未见任务</strong>上评估（如堆叠、放置等）。</li><li>真实世界实验：<strong>3 个未见的长时程复合任务</strong>（堆叠碗、放置鸭子、装载空气炸锅）。</li><li>骨干模型：<strong>Cosmos3</strong>（NVIDIA）和 <strong>DreamZero</strong> 两种 WAM 架构。</li><li>验证器：<strong>Qwen3.8-Flash-Next</strong>（大规模 VLM）和 <strong>Qwen3.5-27B</strong>（小型高效 VLM）。</li><li>逆动力学模型：基于预训练视频模型改装，在真实和仿真视频-动作对上训练。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>仿真实验</strong>：在 RoboTwin 2.0 的 7 个未见任务上，EVO-WAM 将 <strong>Cosmos3</strong> 平均成功率从 <strong>26.9% 提升至 68.0%</strong>（约 2.5 倍），将 <strong>DreamZero</strong> 从 <strong>28.5% 提升至 46.4%</strong>（约 1.6 倍）。</li><li><strong>真实世界实验</strong>：在 3 个长时程复合任务上，<strong>Cosmos3</strong> 平均成功率从 <strong>20.0% 提升至 76.7%</strong>，绝对提升 <strong>56.7 个百分点</strong>。</li><li><strong>多轮改进</strong>：随着自训练轮次增加，性能持续提升，验证了迭代进化有效性。</li><li><strong>消融研究</strong>：同时验证任务完成与视频-动作一致性可获得最大增益；单独省略任一验证环节性能显著下降。</li><li><strong>VLM 鲁棒性</strong>：不同规模的 VLM 均能支撑有效的验证筛选，验证器选择不敏感。</li><li><strong>已见任务保持</strong>：自训练后模型在已见任务上的性能基本保持，未出现严重灾难性遗忘。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.38114/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.37969/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

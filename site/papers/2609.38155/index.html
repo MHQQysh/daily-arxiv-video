@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。 现有记忆框架依赖时序描述和文本派生实体，无法解析物理身份一致性：不同物体可能共享描述，同一物体的观测可能因状态、位置或活动变化而被割裂。论文旨在解决“检索到相关事件 ≠ 恢复问题所关心的特定实体传记”的问题。 在四个基准（涵盖天级和周级录制、多项选择和开放问答）上，GEB 均超过此前最优记忆框架；在 EgoLifeQA 上达到 72.0% 准确率，较此前最佳公开结果提升 4.4 个百分点。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.38155">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.38155.webp" alt="Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies</h1>
+            <div class="detail-meta">2026-09-29 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.38155" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.38155" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.38155</span></div>
+            <p class="detail-summary">论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。 现有记忆框架依赖时序描述和文本派生实体，无法解析物理身份一致性：不同物体可能共享描述，同一物体的观测可能因状态、位置或活动变化而被割裂。论文旨在解决“检索到相关事件 ≠ 恢复问题所关心的特定实体传记”的问题。 在四个基准（涵盖天级和周级录制、多项选择和开放问答）上，GEB 均超过此前最优记忆框架；在 EgoLifeQA 上达到 72.0% 准确率，较此前最佳公开结果提升 4.4 个百分点。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">University of Illinois Urbana-Champaign（伊利诺伊大学厄巴纳-香…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.38155/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。</p>
+  <ul class="reading-intro-points"><li>论文提出 Grounded Entity Biographies (GEB)，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。</li><li>现有记忆框架依赖时序描述和文本派生实体，无法解析物理身份一致性：不同物体可能共享描述，同一物体的观测可能因状态、位置或活动变化而被割裂。论文旨在解决“检索到相关事件 ≠ 恢复问题所关心的特定实体传记”的问题。</li><li>在四个基准（涵盖天级和周级录制、多项选择和开放问答）上，GEB 均超过此前最优记忆框架；在 EgoLifeQA 上达到 72.0% 准确率，较此前最佳公开结果提升 4.4 个百分点。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>University of Illinois Urbana-Champaign</strong>（伊利诺伊大学厄巴纳-香槟分校）</li><li><strong>Amazon.com, Inc.</strong>（亚马逊公司）</li><li>作者 Hui Ren 在 Amazon 实习期间完成部分工作</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>Grounded Entity Biographies (GEB)</strong>，一种面向长视频记忆的框架，将同一物理实体的视觉观测跨片段关联为可检索的“传记”，同时保留每个时刻的上下文和视觉证据。</li><li>现有记忆框架依赖时序描述和文本派生实体，无法解析物理身份一致性：不同物体可能共享描述，同一物体的观测可能因状态、位置或活动变化而被割裂。论文旨在解决“检索到相关事件 ≠ 恢复问题所关心的特定实体传记”的问题。</li><li>在四个基准（涵盖天级和周级录制、多项选择和开放问答）上，GEB 均超过此前最优记忆框架；在 <strong>EgoLifeQA</strong> 上达到 72.0% 准确率，较此前最佳公开结果提升 4.4 个百分点。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出<strong>接地实体传记（Grounded Entity Biographies）</strong>：一种将视觉接地观测关联为持久实体传记的记忆表示与构建方法，保留事件上下文与支撑证据。</li><li>设计<strong>基于身份的检索与阅读机制</strong>：通过共享物理实体连接不同片段，提供传记摘录支持推理，并引导控制器继续搜索未检查的观测。</li><li>实证验证与消融分析：在匹配的推理组件条件下取得一致提升，提供证据访问诊断，并系统消融接地、关联和传记阅读的各自作用。</li><li>在 <strong>EgoLifeQA</strong> 上证据窗口到达回答上下文的比例从 37.6% 提升至 58.9%，显著改善了相关时刻的可访问性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>将视频划分为短片段，通过开放词表检测器和片段内跟踪器生成<strong>观测</strong>（observation），每个观测包含可视时间跨度、跟踪图像区域、状态描述及交互描述、源片段引用。</li><li>同一实体传记表示为按时间排序的观测集合，实体节点（persistent entity node）连接观测节点，观测节点再连接<strong>情节节点</strong>（episode nodes，多尺度场景描述）和<strong>源片段节点</strong>（source-clip nodes），构成图记忆 \(\mathcal{G}=(\mathcal{N},\mathcal{R})\)。</li><li>关联策略使用多模态嵌入相似度，满足两个阈值条件：新观测与所有参考观测的相似度不低于一致性阈值 \(\theta_{\mathrm{cons}}\)，且至少一个参考不低于强匹配阈值 \(\theta_{\mathrm{match}}\)；同时利用共享帧中的边界框 IoU 进行视觉分离检验（separation test），拒绝同帧中呈现两个不同实例的匹配。</li><li>检索采用<strong>语义+词法索引</strong>与<strong>Personalized PageRank</strong> 传播，从初始匹配沿实体成员边扩展到同实例其他观测，再经上下文边到达相关情节；传记摘录包含未选中观测的时间和计数摘要，指导控制器开展多轮搜索。</li><li>人员身份遵循相同的观测与关联流程，额外通过无歧义的人物-日期外观档案进行命名与合并，特征共享时选择弃权。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>EgoLifeQA</strong>：约 52 小时周级第一视角视频，500 个多项选择题。</li><li><strong>Ego-R1-Bench</strong>：同一周录制，50 个多项选择题（含人工与模型生成问题）。</li><li><strong>MM-Lifelong</strong>：同一周（Test@Week）和 23.6 小时游戏直播（Test@Day），开放式问答。</li><li><strong>MultiHop-EgoQA</strong>：360 段三分钟 Ego4D 片段上的 1,080 个多跳问题，配有证据区间标注。</li><li>控制器与回答模型均为 <strong>Qwen3.5-35B</strong>；多跳评估使用 <strong>gpt-oss-120b</strong> 作为裁判。</li><li>记忆构建使用视频而不使用音频；未在原文中明确标注 GPU/TPU 型号与数量，具体实现细节见附录 A。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>EgoLifeQA</strong>：GEB 准确率 <strong>72.0%</strong>，优于 MAGIC-Video 报告的 67.6%，在相同检索控制器、回答模型与检索预算下取得提升。</li><li><strong>Ego-R1-Bench</strong>：GEB 为最高总体得分，结果对三个随机种子取平均。</li><li><strong>MM-Lifelong</strong>：在 Test@Week 和 Test@Day 上均超过对比记忆框架，采用 GPT-5 判定准确率。</li><li><strong>MultiHop-EgoQA</strong>：评估答案质量与时间接地，使用发布的评分代码和独立 gpt-oss-120b 裁判，GEB 达到最高总体得分。</li><li>证据覆盖诊断：EgoLifeQA 中证据窗口到达回答上下文的比例由 37.6% 升至 58.9%，表明检索能更好地触及相关时刻。</li><li>消融实验显示：移除同实例边、情节上下文边或传记文本都会降低准确率；仅增加描述而不做物理实例关联只能恢复部分增益。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.38172/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.38154/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">LongLive-Plug: Once-for-All Distillation for Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

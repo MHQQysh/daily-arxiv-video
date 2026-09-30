@@ -15351,5 +15351,655 @@
     "inside_figure": true,
     "width": 439,
     "height": 869
+  },
+  "2609.38119": {
+    "title": "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
+    "abs_url": "https://arxiv.org/abs/2609.38119",
+    "html_url": "https://arxiv.org/html/2609.38119v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38119v1/Fig1_VideoLoop_Motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 201,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38119v1/aff_ur.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 56,
+        "height": 53,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": -5
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38119v1/aff_ms.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 53,
+        "height": 53,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": -5
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.38119.webp",
+    "image_url": "https://arxiv.org/html/2609.38119v1/Fig1_VideoLoop_Motivation.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 201
+  },
+  "2609.38140": {
+    "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+    "abs_url": "https://arxiv.org/abs/2609.38140",
+    "html_url": "https://arxiv.org/html/2609.38140v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38140v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 278,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38140v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 187,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38140v1/main_compare.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 337,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38140v1/routing_pathologies.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 126,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38140v1/intro.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 79,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.38140.webp",
+    "image_url": "https://arxiv.org/html/2609.38140v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 278
+  },
+  "2609.38154": {
+    "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.38154",
+    "html_url": "https://arxiv.org/html/2609.38154v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38154v1/appendix-transfer-h3-tasks.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 458,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38154v1/appendix-transfer-h3-camera.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 458,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38154v1/appendix-cfg-h3-villages.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 404,
+        "height": 508,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38154v1/appendix-cfg-composition-scope.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 447,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38154v1/appendix-cfg-composition-continuation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 447,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2609.38154.webp",
+    "image_url": "https://arxiv.org/html/2609.38154v1/appendix-transfer-h3-tasks.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 458
+  },
+  "2609.38146": {
+    "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+    "abs_url": "https://arxiv.org/abs/2609.38146",
+    "html_url": "https://arxiv.org/html/2609.38146v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38146v1/supp-ablation_sft_vs_opsd.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 489,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38146v1/supp-ablation_dual_mode.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 387,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38146v1/data_curation_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 229,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38146v1/model_arch.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 252,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38146v1/dual_mode_opsd_training.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 219,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.38146.webp",
+    "image_url": "https://arxiv.org/html/2609.38146v1/supp-ablation_sft_vs_opsd.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 489
+  },
+  "2609.38155": {
+    "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
+    "abs_url": "https://arxiv.org/abs/2609.38155",
+    "html_url": "https://arxiv.org/html/2609.38155v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38155v1/figure_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 197,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38155v1/figure_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38155v1/figure_4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 102,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 60
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.38155.webp",
+    "image_url": "https://arxiv.org/html/2609.38155v1/figure_1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 197
+  },
+  "2609.38152": {
+    "title": "FracGen: Learning How Objects Stretch and Tear with Physics-Informed Video Generation",
+    "abs_url": "https://arxiv.org/abs/2609.38152",
+    "html_url": "https://arxiv.org/html/2609.38152v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38152v1/fracsim.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 648,
+        "height": 359,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38152v1/fracgen.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 648,
+        "height": 314,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38152v1/main_qual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 648,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38152v1/main_qual_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 648,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38152v1/more_qual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 648,
+        "height": 378,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2609.38152.webp",
+    "image_url": "https://arxiv.org/html/2609.38152v1/fracsim.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 648,
+    "height": 359
+  },
+  "2609.38172": {
+    "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+    "abs_url": "https://arxiv.org/abs/2609.38172",
+    "html_url": "https://arxiv.org/html/2609.38172v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38172v1/_1_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 443,
+        "height": 519,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38172v1/_3_results.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 474,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38172v1/_2_method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 231,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38172v1/placeholder/IMG_2521.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 229,
+        "height": 172,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38172v1/placeholder/IMG_2523.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 229,
+        "height": 172,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2609.38172.webp",
+    "image_url": "https://arxiv.org/html/2609.38172v1/_1_teaser.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 443,
+    "height": 519
+  },
+  "2609.38114": {
+    "title": "Self-Aligned Forcing: Streaming Video Diffusion with Differentiable Noisy History",
+    "abs_url": "https://arxiv.org/abs/2609.38114",
+    "html_url": "https://arxiv.org/html/2609.38114v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38114v1/fig7_frame3_interactive_0059_leftlabels.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 472,
+        "height": 450,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38114v1/fig5_frame3_interactive_0074_leftlabels.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 294,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38114v1/fig6_frame3_movie100_0308_leftlabels.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 265,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38114v1/fig8_frame3_movie100_0483_leftlabels.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 472,
+        "height": 367,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38114v1/fig9_frame3_movie100_0818_leftlabels.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 472,
+        "height": 377,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.38114.webp",
+    "image_url": "https://arxiv.org/html/2609.38114v1/fig7_frame3_interactive_0059_leftlabels.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 472,
+    "height": 450
+  },
+  "2609.38057": {
+    "title": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+    "abs_url": "https://arxiv.org/abs/2609.38057",
+    "html_url": "https://arxiv.org/html/2609.38057v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.38057v1/rsi_framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 275,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38057v1/rsi_verification.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 348,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38057v1/robotwin_task_performance.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 180,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38057v1/real_robot_case_ducks.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 260,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.38057v1/real_robot_scene_settings.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 324,
+        "height": 341,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.38057.webp",
+    "image_url": "https://arxiv.org/html/2609.38057v1/rsi_framework.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 275
+  },
+  "2609.37969": {
+    "title": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
+    "abs_url": "https://arxiv.org/abs/2609.37969",
+    "html_url": "https://arxiv.org/html/2609.37969v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.37969v1/rl_qualitative_case_10.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 157,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.37969v1/rl_qualitative_case_09.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 157,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.37969v1/rl_qualitative_case_04.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 157,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.37969v1/teaser_quality.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 234,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.37969v1/teaser_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 229,
+        "height": 93,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.37969.webp",
+    "image_url": "https://arxiv.org/html/2609.37969v1/rl_qualitative_case_10.png",
+    "source": "img",
+    "score": 85,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 157
   }
 }
