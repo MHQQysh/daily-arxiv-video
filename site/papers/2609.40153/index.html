@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。 核心问题：关节空间动作向量缺乏显式图像空间结构，且在不同具身间维度与语义不一致，难以直接利用视频生成模型（VGM）的时空先验；末端执行器可视化又无法表达完整关节配置。 关键思路：将目标关节配置渲染为动作视图（action views），使异构关节空间共享统一的视觉建模接口，同时保留具身特定的关节几何信息。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.40153">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.40153.webp" alt="Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling</h1>
+            <div class="detail-meta">2026-09-30 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.40153" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.40153" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.40153</span></div>
+            <p class="detail-summary">论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。 核心问题：关节空间动作向量缺乏显式图像空间结构，且在不同具身间维度与语义不一致，难以直接利用视频生成模型（VGM）的时空先验；末端执行器可视化又无法表达完整关节配置。 关键思路：将目标关节配置渲染为动作视图（action views），使异构关节空间共享统一的视觉建模接口，同时保留具身特定的关节几何信息。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Beijing Humanoid Robot Innovation Center（北京人形机器人创新中…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.40153/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。</p>
+  <ul class="reading-intro-points"><li>论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。</li><li>核心问题：关节空间动作向量缺乏显式图像空间结构，且在不同具身间维度与语义不一致，难以直接利用视频生成模型（VGM）的时空先验；末端执行器可视化又无法表达完整关节配置。</li><li>关键思路：将目标关节配置渲染为动作视图（action views），使异构关节空间共享统一的视觉建模接口，同时保留具身特定的关节几何信息。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Beijing Humanoid Robot Innovation Center（北京人形机器人创新中心）</strong></li><li><strong>Beijing Institute of Technology（北京理工大学）</strong></li><li><strong>Harbin Institute of Technology, Shenzhen（哈尔滨工业大学深圳）</strong></li><li><strong>The University of Hong Kong（香港大学）</strong></li><li><strong>China University of Mining & Technology, Beijing（中国矿业大学北京）</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>Dream4ACT</strong>，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。</li><li>核心问题：关节空间动作向量缺乏显式图像空间结构，且在不同具身间维度与语义不一致，难以直接利用视频生成模型（VGM）的时空先验；末端执行器可视化又无法表达完整关节配置。</li><li>关键思路：将目标关节配置渲染为<strong>动作视图（action views）</strong>，使异构关节空间共享统一的视觉建模接口，同时保留具身特定的关节几何信息。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>action views</strong>：通过 URDF 前向运动学从四个固定虚拟相机渲染目标关节配置，形成固定形状的多视图视觉动作表示，支持跨具身共享 tokenization 与视频建模。</li><li>提出<strong>训练无关、URDF 约束的多视图动作恢复机制</strong>，无需学习式具身专属动作解码器，即可将预测的动作视图映射为可执行的关节目标。</li><li>通过<strong>掩码流匹配（masked flow matching）</strong>，在单一联合训练模型中统一支持<strong>前向动力学、逆动力学、联合生成</strong>三种模式。</li><li>在<strong>RoboTwin 2.0</strong> 与 <strong>TriWorldBench</strong> 等基准以及<strong>多种真实机器人平台</strong>上验证了方法的有效性和泛化能力。</li><li>通过消融实验对比 action-view 渲染与相机对齐骨架条件，验证了生成视觉质量的优越性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>URDF 前向运动学</strong>将关节配置 \(S_t=(q_t,g_t)\) 渲染为四路 action views，虚拟相机参数跨具身共享，避免物理相机外参标定。</li><li>采用 <strong>Qwen3.5-VL 9B</strong> 作为冻结视觉语言模型，通过可训练的语义适配器提取指令接地特征；使用可学习 query 压缩视觉特征并与语言 token 联合自注意力。</li><li>共享 <strong>Wan2.2 视频 VAE</strong> 分别编码 RGB 观测与 action views，并添加模态嵌入（modality embedding）和视角嵌入（view embedding），通过 RoPE 空间偏移避免多序列位置冲突。</li><li>使用<strong>扩散 Transformer（DiT）</strong> 对多序列潜变量进行联合建模，每个 block 执行跨序列联合自注意力与语义条件交叉注意力。</li><li>扩展条件流匹配，支持按模态独立噪声级别与掩码调度，实现多模式预测；动作恢复采用 URDF 约束的 <strong>Gauss–Newton</strong> 多视图匹配优化。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>模拟基准：<strong>RoboTwin 2.0</strong>、<strong>TriWorldBench</strong></li><li>视频自编码器：<strong>Wan2.2 VAE</strong></li><li>指令语义编码：<strong>Qwen3.5-VL 9B</strong>（冻结）</li><li>生成骨干：扩散 Transformer（DiT）</li><li>训练资源：原文未在截断部分明确给出 GPU/TPU 数量与型号</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>模拟评估：<strong>RoboTwin 2.0</strong> 上平均成功率达到 <strong>88.98%</strong>；<strong>TriWorldBench</strong> 上使用单独训练 checkpoint 取得 <strong>65.66</strong> 分。</li><li>闭环操控评估覆盖<strong>五个模拟具身</strong>和<strong>四个真实机器人平台</strong>。</li><li>支持<strong>正向动力学</strong>（条件动作预测未来观测）、<strong>逆动力学</strong>（由未来观测恢复动作）以及<strong>联合生成</strong>（同时生成观测与动作）。</li><li>消融实验表明，action-view 视觉条件相比相机对齐骨架条件具有更优的生成视觉质量与任务执行表现。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.40195/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.40129/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">VR-JEPA: Learning Contrastive-State Latent Guidance for Generation-based Video Reasoning</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

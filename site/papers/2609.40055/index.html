@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding - Video 每日论文卡</title>
+    <meta name="description" content="论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。 论文指出现有 OPD 管线存在隐式的“监督价值持久性假设”：即课程选择基于固定教师和初始学生状态，假定被选样本在整个优化过程中始终保持正向监督价值，但这一假设并不成立。 论文提出 Student–Curriculum Coupling (SCC) 框架，将监督可信度（教师目标是否可靠）与监督必要性（当前学生是否仍存在任务缺陷）耦合起来，实现由学生能力动态驱动的自适应监督分配，从而解决监督价值随时间非平稳变化的问题。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2609.40055">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2609.40055.webp" alt="Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding</h1>
+            <div class="detail-meta">2026-09-30 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2609.40055" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2609.40055" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2609.40055</span></div>
+            <p class="detail-summary">论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。 论文指出现有 OPD 管线存在隐式的“监督价值持久性假设”：即课程选择基于固定教师和初始学生状态，假定被选样本在整个优化过程中始终保持正向监督价值，但这一假设并不成立。 论文提出 Student–Curriculum Coupling (SCC) 框架，将监督可信度（教师目标是否可靠）与监督必要性（当前学生是否仍存在任务缺陷）耦合起来，实现由学生能力动态驱动的自适应监督分配，从而解决监督价值随时间非平稳变化的问题。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">State University of New York at Stony Brook（纽约州立大学石…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2609.40055/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。</p>
+  <ul class="reading-intro-points"><li>论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。</li><li>论文指出现有 OPD 管线存在隐式的“监督价值持久性假设”：即课程选择基于固定教师和初始学生状态，假定被选样本在整个优化过程中始终保持正向监督价值，但这一假设并不成立。</li><li>论文提出 Student–Curriculum Coupling (SCC) 框架，将监督可信度（教师目标是否可靠）与监督必要性（当前学生是否仍存在任务缺陷）耦合起来，实现由学生能力动态驱动的自适应监督分配，从而解决监督价值随时间非平稳变化的问题。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>State University of New York at Stony Brook</strong>（纽约州立大学石溪分校）</li><li>作者：Jiacheng Qiu、Yunsoo Kim、Ruichen Xu、Jian Luo、Petar M. Djurić、Sima Mofakham</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的<strong>在线策略蒸馏（On-Policy Distillation, OPD）</strong>后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。</li><li>论文指出现有 OPD 管线存在<strong>隐式的“监督价值持久性假设”</strong>：即课程选择基于固定教师和初始学生状态，假定被选样本在整个优化过程中始终保持正向监督价值，但这一假设并不成立。</li><li>论文提出 <strong>Student–Curriculum Coupling (SCC)</strong> 框架，将监督可信度（教师目标是否可靠）与监督必要性（当前学生是否仍存在任务缺陷）耦合起来，实现由学生能力动态驱动的自适应监督分配，从而解决监督价值随时间非平稳变化的问题。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>识别并形式化 TVG OPD 中的持久价值假设，提出监督<strong>可信度</strong>与监督<strong>必要性</strong>的耦合视角，指出二者共同决定监督价值。</li><li>提出 <strong>SCC</strong> 闭环框架，包含一个紧凑的 <strong>Anchor–Frontier (AF) 候选监督空间</strong>，结合初始学生已擅长的“锚定”样本与具有学习空间的“前沿”样本。</li><li>设计<strong>学生依赖的监督实现机制</strong>：根据学生当前的任务能力，动态激活、暂停或重新激活监督，实现闭环 OPD 优化。</li><li>在三个 TVG 基准上，相比 <strong>Video-OPD</strong> 在原始 <strong>TVDF</strong> 课程上，平均召回率相对提升 <strong>5.1%</strong>，同时训练样本减少 <strong>60.0%</strong>，训练时间缩短 <strong>50.4%</strong>，验证了数据与计算效率的显著提升。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用<strong>反向 KL 散度</strong>进行 token 级对齐，学生从当前策略生成轨迹，冻结教师模型提供下一 token 分布监督，目标是在学生生成轨迹上最小化学生与教师的分布差异。</li><li><strong>Anchor–Frontier (AF) 课程设计</strong>：候选空间包含两类样本——锚点样本（初始学生得分较高、具备可信教师监督）与前沿样本（初始学生得分低、学习空间大），仅保留教师监督可信（tIoU≥阈值）的样本。</li><li><strong>学生依赖实现</strong>：在训练中评估学生对候选样本的当前 tIoU，若低于能力阈值则视为“需要监督”，否则“暂停监督”；当学生能力下降时可重新激活锚点样本的监督，实现监督的动态调度。</li><li><strong>闭环优化</strong>：学生状态更新后反馈到下一批次的监督中，形成“候选空间→学生评估→选择性监督→学生更新”的闭环，并使用重要性权重采样 token 的代理目标以保证梯度一致性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用三个 TVG 基准数据集：<strong>Charades-TimeLens</strong>、<strong>ActivityNet-TimeLens</strong>、<strong>QVHighlights-TimeLens</strong></li><li>使用学生 VLM 与教师 VLM（固定）进行蒸馏，模型规模为 VLM 参数级别（具体参数量未在摘要中给出，原文为大模型）</li><li>训练采用 OPD 后训练设置，未详细列出 GPU 数量，但强调显著的训练时间节省（缩短 50.4%）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估指标：<strong>平均召回率（mean recall）</strong>，分别在 IoU 阈值 <strong>0.3、0.5、0.7</strong> 下计算</li><li>主结果：SCC 在三个基准上相较于 Video-OPD 的 TVDF 课程实现 <strong>5.1% 相对提升</strong>，使用 <strong>60.0% 更少样本</strong>，减少 <strong>50.4% 训练时间</strong></li><li>消融实验验证了 AF 课程设计与学生依赖监督机制各自发挥互补作用，训练动态分析进一步展示监督随学生能力演化的激活/暂停/重新激活过程</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2609.40079/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">LongEmo: Towards Emotion Understanding and Reasoning in Long Videos</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.40048/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

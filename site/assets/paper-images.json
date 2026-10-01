@@ -16001,5 +16001,655 @@
     "inside_figure": true,
     "width": 476,
     "height": 157
+  },
+  "2609.40347": {
+    "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
+    "abs_url": "https://arxiv.org/abs/2609.40347",
+    "html_url": "https://arxiv.org/html/2609.40347v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40347v1/random_view.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 220,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40347v1/focal_view.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 278,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40347v1/main_model.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 211,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.40347.webp",
+    "image_url": "https://arxiv.org/html/2609.40347v1/random_view.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 220
+  },
+  "2609.40079": {
+    "title": "LongEmo: Towards Emotion Understanding and Reasoning in Long Videos",
+    "abs_url": "https://arxiv.org/abs/2609.40079",
+    "html_url": "https://arxiv.org/html/2609.40079v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40079v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 466,
+        "height": 322,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40079v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 275,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2609.40079.webp",
+    "image_url": "https://arxiv.org/html/2609.40079v1/overview.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 466,
+    "height": 322
+  },
+  "2609.40195": {
+    "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+    "abs_url": "https://arxiv.org/abs/2609.40195",
+    "html_url": "https://arxiv.org/html/2609.40195v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40195v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 195,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40195v1/figs/case_1/f0_t0420.00s.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 153,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40195v1/figs/case_1/f3_t0432.83s.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 153,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40195v1/figs/case_1/f6_t0445.70s.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 153,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40195v1/figs/case_2/f0_t0600.00s.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 153,
+        "height": 153,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2609.40195.webp",
+    "image_url": "https://arxiv.org/html/2609.40195v1/overview.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 195
+  },
+  "2609.40333": {
+    "title": "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video",
+    "abs_url": "https://arxiv.org/abs/2609.40333",
+    "html_url": "https://arxiv.org/html/2609.40333v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40333v1/figure_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 163,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40333v1/figure_dinov2_sims.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 130,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40333v1/figures_gradients_vs_performance.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 390,
+        "height": 143,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40333v1/figure_streaming_setup.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 333,
+        "height": 76,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40333v1/figure_motion_cropping.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 88,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.40333.webp",
+    "image_url": "https://arxiv.org/html/2609.40333v1/figure_overview.png",
+    "source": "img",
+    "score": 85,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 163
+  },
+  "2609.40129": {
+    "title": "VR-JEPA: Learning Contrastive-State Latent Guidance for Generation-based Video Reasoning",
+    "abs_url": "https://arxiv.org/abs/2609.40129",
+    "html_url": "https://arxiv.org/html/2609.40129v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40129v1/qualitative_open_source.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 420,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40129v1/qualitative_closed_source.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 414,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40129v1/drop_top1_expert.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 495,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40129v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 524,
+        "height": 305,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40129v1/method_overview_v4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 202,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.40129.webp",
+    "image_url": "https://arxiv.org/html/2609.40129v1/qualitative_open_source.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 420
+  },
+  "2609.40358": {
+    "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+    "abs_url": "https://arxiv.org/abs/2609.40358",
+    "html_url": "https://arxiv.org/html/2609.40358v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40358v1/combined_comparisons.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 634,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40358v1/paibench_driving_robotics.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 355,
+        "height": 668,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40358v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 469,
+        "height": 592,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40358v1/x2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 619,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40358v1/PhyLang_Intro_V3.7.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 245,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2609.40358.webp",
+    "image_url": "https://arxiv.org/html/2609.40358v1/combined_comparisons.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 634
+  },
+  "2609.40356": {
+    "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
+    "abs_url": "https://arxiv.org/abs/2609.40356",
+    "html_url": "https://arxiv.org/html/2609.40356v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40356v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 350,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40356v1/qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 198,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40356v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 154,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40356v1/arch.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 238,
+        "height": 206,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40356v1/figs/vx_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 57,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2609.40356.webp",
+    "image_url": "https://arxiv.org/html/2609.40356v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 457,
+    "height": 350
+  },
+  "2609.40153": {
+    "title": "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling",
+    "abs_url": "https://arxiv.org/abs/2609.40153",
+    "html_url": "https://arxiv.org/html/2609.40153v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40153v1/Tasks.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 701,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40153v1/Teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 258,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40153v1/Overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40153v1/Setup.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 253,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40153v1/Adapter.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 191,
+        "height": 217,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2609.40153.webp",
+    "image_url": "https://arxiv.org/html/2609.40153v1/Tasks.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 701
+  },
+  "2609.40055": {
+    "title": "Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding",
+    "abs_url": "https://arxiv.org/abs/2609.40055",
+    "html_url": "https://arxiv.org/html/2609.40055v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40055v1/motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 255,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40055v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 255,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40055v1/efficiency.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 141,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40055v1/extended.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 145,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40055v1/rollout.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 141,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.40055.webp",
+    "image_url": "https://arxiv.org/html/2609.40055v1/motivation.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 255
+  },
+  "2609.40048": {
+    "title": "CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding",
+    "abs_url": "https://arxiv.org/abs/2609.40048",
+    "html_url": "https://arxiv.org/html/2609.40048v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2609.40048v1/fig1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 421,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40048v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 787,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40048v1/x2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 787,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40048v1/fig2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 206,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2609.40048v1/skill_evolution_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 332,
+        "height": 171,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2609.40048.webp",
+    "image_url": "https://arxiv.org/html/2609.40048v1/fig1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 421
   }
 }

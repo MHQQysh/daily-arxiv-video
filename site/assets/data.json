@@ -1,5 +1,295 @@
 [
   {
+    "date": "2026-09-30",
+    "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+    "link": "https://arxiv.org/abs/2609.40358",
+    "arxiv_id": "2609.40358",
+    "detail_path": "papers/2609.40358/",
+    "cover_path": "covers/2609.40358/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40358.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40358.webp",
+    "preview_text": "论文提出 Physis-Lang，一个将物理语言作为共享、可优化表示的自进化框架，贯穿视频世界模型的数据整理、模型训练和视频生成全流程。 核心动机是挑战\"语言不足以表征物理知识\"的普遍假设，证明语言若被显式结构化并系统优化，可以统一承载物理知识、提升视频生成的物理合理性。 论文解决了视频生成模型\"视觉上合理但违背物理规律\"（物体变形、碰撞异常、流体不自然等）的核心问题。",
+    "research_unit": "NVIDIA（第一主要研究机构，多位作者隶属）",
+    "hook_text": "论文提出 Physis-Lang，一个将物理语言作为共享、可优化表示的自进化框架，贯穿视频世界模型的数据整理、模型训练和视频生成全流程。",
+    "key_points": [
+      "论文提出 Physis-Lang，一个将物理语言作为共享、可优化表示的自进化框架，贯穿视频世界模型的数据整理、模型训练和视频生成全流程。",
+      "核心动机是挑战\"语言不足以表征物理知识\"的普遍假设，证明语言若被显式结构化并系统优化，可以统一承载物理知识、提升视频生成的物理合理性。",
+      "论文解决了视频生成模型\"视觉上合理但违背物理规律\"（物体变形、碰撞异常、流体不自然等）的核心问题。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
+    "link": "https://arxiv.org/abs/2609.40356",
+    "arxiv_id": "2609.40356",
+    "detail_path": "papers/2609.40356/",
+    "cover_path": "covers/2609.40356/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40356.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40356.webp",
+    "preview_text": "论文提出 ViTeX-Bench，一个用于高保真视频场景文本编辑的基准套件，包含ViTeX-Dataset数据集和三轴评估协议。 该任务旨在替换视频场景中的表面文本（如店面招牌、白板、产品标签等），同时保持原始场景动态、光照和相机运动不变；现有方法难以兼顾文本正确性、时间一致性和编辑局部性。 此前缺乏真实视频的配对编辑数据和直接衡量视频中文本是否长期正确的指标，ViTeX-Bench 填补了这一空白。",
+    "research_unit": "Texas A&M University（德克萨斯A&M大学）",
+    "hook_text": "论文提出 ViTeX-Bench，一个用于高保真视频场景文本编辑的基准套件，包含ViTeX-Dataset数据集和三轴评估协议。",
+    "key_points": [
+      "论文提出 ViTeX-Bench，一个用于高保真视频场景文本编辑的基准套件，包含ViTeX-Dataset数据集和三轴评估协议。",
+      "该任务旨在替换视频场景中的表面文本（如店面招牌、白板、产品标签等），同时保持原始场景动态、光照和相机运动不变；现有方法难以兼顾文本正确性、时间一致性和编辑局部性。",
+      "此前缺乏真实视频的配对编辑数据和直接衡量视频中文本是否长期正确的指标，ViTeX-Bench 填补了这一空白。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
+    "link": "https://arxiv.org/abs/2609.40347",
+    "arxiv_id": "2609.40347",
+    "detail_path": "papers/2609.40347/",
+    "cover_path": "covers/2609.40347/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40347.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40347.webp",
+    "preview_text": "论文提出 VideoMSN（Masked Siamese Network），一种高效的自监督视频表示学习方法，将图像领域的 Masked Siamese Network 扩展到视频领域。 核心思路是将视频帧采样并排列成 2D “超级图像”（super image），利用标准的图像 Vision Transformer（ViT）作为共享编码器，通过掩码 Siamese 损失对齐掩码视图与未掩码视图的嵌入，从而同时捕获运动与外观线索，且无需解码器。 旨在解决现有视频自监督方法（如基于 3D 架构或重建式自编码器）计算开销大、预训练轮次多的痛点，实现参数高效、GPU 内存友好和标签高效的视频表示学习。",
+    "research_unit": "Indian Institute of Technology (IIT) Kharagpur，印度",
+    "hook_text": "论文提出 VideoMSN（Masked Siamese Network），一种高效的自监督视频表示学习方法，将图像领域的 Masked Siamese Network 扩展到视频领域。",
+    "key_points": [
+      "论文提出 VideoMSN（Masked Siamese Network），一种高效的自监督视频表示学习方法，将图像领域的 Masked Siamese Network 扩展到视频领域。",
+      "核心思路是将视频帧采样并排列成 2D “超级图像”（super image），利用标准的图像 Vision Transformer（ViT）作为共享编码器，通过掩码 Siamese 损失对齐掩码视图与未掩码视图的嵌入，从而同时捕获运动与外观线索，且无需解码器。",
+      "旨在解决现有视频自监督方法（如基于 3D 架构或重建式自编码器）计算开销大、预训练轮次多的痛点，实现参数高效、GPU 内存友好和标签高效的视频表示学习。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video",
+    "link": "https://arxiv.org/abs/2609.40333",
+    "arxiv_id": "2609.40333",
+    "detail_path": "papers/2609.40333/",
+    "cover_path": "covers/2609.40333/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40333.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40333.webp",
+    "preview_text": "论文研究自监督学习（SSL）在连续视频流上的表现：视频帧按时间顺序消费，使用严格滑动窗口批次，不进行全局重排、多轮训练或长期重放缓冲。 构建了WT++ 数据集（95 小时城市步行视频），系统评估对比学习（MoCo v3）、自蒸馏（DINO）和掩码重建（MAE）在流式预训练下的性能，发现 MAE 最鲁棒但仍有差距。 通过控制实验分离批间相似性与批内相似性的影响，发现主要挑战是批内帧近乎重复的相似性，并据此提出 StreamMAE。",
+    "research_unit": "Faculty of Electrical Engineering and Computing, Un…",
+    "hook_text": "论文研究自监督学习（SSL）在连续视频流上的表现：视频帧按时间顺序消费，使用严格滑动窗口批次，不进行全局重排、多轮训练或长期重放缓冲。",
+    "key_points": [
+      "论文研究自监督学习（SSL）在连续视频流上的表现：视频帧按时间顺序消费，使用严格滑动窗口批次，不进行全局重排、多轮训练或长期重放缓冲。",
+      "构建了WT++ 数据集（95 小时城市步行视频），系统评估对比学习（MoCo v3）、自蒸馏（DINO）和掩码重建（MAE）在流式预训练下的性能，发现 MAE 最鲁棒但仍有差距。",
+      "通过控制实验分离批间相似性与批内相似性的影响，发现主要挑战是批内帧近乎重复的相似性，并据此提出 StreamMAE。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+    "link": "https://arxiv.org/abs/2609.40195",
+    "arxiv_id": "2609.40195",
+    "detail_path": "papers/2609.40195/",
+    "cover_path": "covers/2609.40195/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40195.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40195.webp",
+    "preview_text": "论文提出了一种多模态记忆系统 MemLife，旨在将长期的自我中心视频压缩为基于实体接地的第一人称文本片段，并通过时间索引的代理阅读器进行检索 旨在解决数百小时视频历史带来的计算 prohibitive 问题，以及现有记忆系统在保留关键证据和精准检索方面的失败问题 进一步提出了强化学习框架 MemOpt，通过优化记忆写作器来生成忠实、信息丰富且易于检索的记忆",
+    "research_unit": "Meta Reality Labs",
+    "hook_text": "论文提出了一种多模态记忆系统 MemLife，旨在将长期的自我中心视频压缩为基于实体接地的第一人称文本片段，并通过时间索引的代理阅读器进行检索",
+    "key_points": [
+      "论文提出了一种多模态记忆系统 MemLife，旨在将长期的自我中心视频压缩为基于实体接地的第一人称文本片段，并通过时间索引的代理阅读器进行检索",
+      "旨在解决数百小时视频历史带来的计算 prohibitive 问题，以及现有记忆系统在保留关键证据和精准检索方面的失败问题",
+      "进一步提出了强化学习框架 MemOpt，通过优化记忆写作器来生成忠实、信息丰富且易于检索的记忆"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling",
+    "link": "https://arxiv.org/abs/2609.40153",
+    "arxiv_id": "2609.40153",
+    "detail_path": "papers/2609.40153/",
+    "cover_path": "covers/2609.40153/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40153.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40153.webp",
+    "preview_text": "论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。 核心问题：关节空间动作向量缺乏显式图像空间结构，且在不同具身间维度与语义不一致，难以直接利用视频生成模型（VGM）的时空先验；末端执行器可视化又无法表达完整关节配置。 关键思路：将目标关节配置渲染为动作视图（action views），使异构关节空间共享统一的视觉建模接口，同时保留具身特定的关节几何信息。",
+    "research_unit": "Beijing Humanoid Robot Innovation Center（北京人形机器人创新中…",
+    "hook_text": "论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。",
+    "key_points": [
+      "论文提出 Dream4ACT，一种面向多具身（multi-embodiment）视频-动作建模的共享视觉动作世界模型。",
+      "核心问题：关节空间动作向量缺乏显式图像空间结构，且在不同具身间维度与语义不一致，难以直接利用视频生成模型（VGM）的时空先验；末端执行器可视化又无法表达完整关节配置。",
+      "关键思路：将目标关节配置渲染为动作视图（action views），使异构关节空间共享统一的视觉建模接口，同时保留具身特定的关节几何信息。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "VR-JEPA: Learning Contrastive-State Latent Guidance for Generation-based Video Reasoning",
+    "link": "https://arxiv.org/abs/2609.40129",
+    "arxiv_id": "2609.40129",
+    "detail_path": "papers/2609.40129/",
+    "cover_path": "covers/2609.40129/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40129.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40129.webp",
+    "preview_text": "提出 VR-JEPA 框架，通过将 V-JEPA 预测器与任务特定的推理逻辑对齐，并利用其预测的潜在轨迹引导视频生成，实现基于生成的视频视觉推理。 核心问题：现有视频生成模型缺乏对状态应如何演化的显式指导，生成的轨迹容易出现物理和结构不一致，影响推理可靠性；V-JEPA 的通用时空先验不能自然适配复杂视觉任务的逻辑推理需求。 在大规模 VBVR-Pro-Bench 数据集上，VR-JEPA 相比当前最先进的生成式推理基线 VBVR-Wan2.2 取得 11.33% 的相对提升，显著减轻物理伪影并增强逻辑一致性。",
+    "research_unit": "中山大学深圳校区（Shenzhen Campus of Sun Yat-sen University）",
+    "hook_text": "提出 VR-JEPA 框架，通过将 V-JEPA 预测器与任务特定的推理逻辑对齐，并利用其预测的潜在轨迹引导视频生成，实现基于生成的视频视觉推理。",
+    "key_points": [
+      "提出 VR-JEPA 框架，通过将 V-JEPA 预测器与任务特定的推理逻辑对齐，并利用其预测的潜在轨迹引导视频生成，实现基于生成的视频视觉推理。",
+      "核心问题：现有视频生成模型缺乏对状态应如何演化的显式指导，生成的轨迹容易出现物理和结构不一致，影响推理可靠性；V-JEPA 的通用时空先验不能自然适配复杂视觉任务的逻辑推理需求。",
+      "在大规模 VBVR-Pro-Bench 数据集上，VR-JEPA 相比当前最先进的生成式推理基线 VBVR-Wan2.2 取得 11.33% 的相对提升，显著减轻物理伪影并增强逻辑一致性。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "LongEmo: Towards Emotion Understanding and Reasoning in Long Videos",
+    "link": "https://arxiv.org/abs/2609.40079",
+    "arxiv_id": "2609.40079",
+    "detail_path": "papers/2609.40079/",
+    "cover_path": "covers/2609.40079/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40079.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40079.webp",
+    "preview_text": "论文提出 LongEmoBench 基准，专门用于长视频中的情绪理解与推理，视频时长从短场景到近小时级连续叙事，远超现有情感基准的时空范围。 论文提出 LongEmo 框架，一种新颖的记忆增强智能体（agentic）框架，通过构建事件记忆图（Event Memory Graph）显式建模长距离依赖，捕获跨离散事件的情绪动态。 现有 MLLMs 和长视频方法主要局限于短视频片段或一般物理事实推理，难以处理真实世界中的动态、累积性情绪过程，论文旨在填补长时情感推理的空缺。",
+    "research_unit": "BUPT（北京邮电大学）",
+    "hook_text": "论文提出 LongEmoBench 基准，专门用于长视频中的情绪理解与推理，视频时长从短场景到近小时级连续叙事，远超现有情感基准的时空范围。",
+    "key_points": [
+      "论文提出 LongEmoBench 基准，专门用于长视频中的情绪理解与推理，视频时长从短场景到近小时级连续叙事，远超现有情感基准的时空范围。",
+      "论文提出 LongEmo 框架，一种新颖的记忆增强智能体（agentic）框架，通过构建事件记忆图（Event Memory Graph）显式建模长距离依赖，捕获跨离散事件的情绪动态。",
+      "现有 MLLMs 和长视频方法主要局限于短视频片段或一般物理事实推理，难以处理真实世界中的动态、累积性情绪过程，论文旨在填补长时情感推理的空缺。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding",
+    "link": "https://arxiv.org/abs/2609.40055",
+    "arxiv_id": "2609.40055",
+    "detail_path": "papers/2609.40055/",
+    "cover_path": "covers/2609.40055/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40055.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40055.webp",
+    "preview_text": "论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。 论文指出现有 OPD 管线存在隐式的“监督价值持久性假设”：即课程选择基于固定教师和初始学生状态，假定被选样本在整个优化过程中始终保持正向监督价值，但这一假设并不成立。 论文提出 Student–Curriculum Coupling (SCC) 框架，将监督可信度（教师目标是否可靠）与监督必要性（当前学生是否仍存在任务缺陷）耦合起来，实现由学生能力动态驱动的自适应监督分配，从而解决监督价值随时间非平稳变化的问题。",
+    "research_unit": "State University of New York at Stony Brook（纽约州立大学石…",
+    "hook_text": "论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。",
+    "key_points": [
+      "论文研究视觉语言模型（VLM）在时间视频定位（TVG）任务中的在线策略蒸馏（On-Policy Distillation, OPD）后训练方法，旨在通过更少的数据和更短的训练时间提升定位精度。",
+      "论文指出现有 OPD 管线存在隐式的“监督价值持久性假设”：即课程选择基于固定教师和初始学生状态，假定被选样本在整个优化过程中始终保持正向监督价值，但这一假设并不成立。",
+      "论文提出 Student–Curriculum Coupling (SCC) 框架，将监督可信度（教师目标是否可靠）与监督必要性（当前学生是否仍存在任务缺陷）耦合起来，实现由学生能力动态驱动的自适应监督分配，从而解决监督价值随时间非平稳变化的问题。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding",
+    "link": "https://arxiv.org/abs/2609.40048",
+    "arxiv_id": "2609.40048",
+    "detail_path": "papers/2609.40048/",
+    "cover_path": "covers/2609.40048/",
+    "paper_image_path": "assets/paper-images/thumbs/2609.40048.webp",
+    "paper_image_full_path": "assets/paper-images/2609.40048.webp",
+    "preview_text": "提出 CoEvoWhen 框架，解决超长视频时间定位（Ultra-Long Video Temporal Grounding）中\"长程证据搜索\"与\"细粒度事件理解\"难以平衡的核心挑战，同时受限于有限的视觉预算。 核心思路是让策略（Policy）与工具（Tool）协同进化：从冻结 VLM 的智能体推理轨迹中联合提炼高层次的搜索/编排策略与可执行的媒体工具代码，形成可复用的外部技能（Skill），无需更新模型参数。 现有智能体方法大多依赖预定义策略和固定的媒体处理能力，难以适应视频与查询间差异巨大的证据需求；本文方法使 VLM 在推断时能自主编排工具，不依赖更强的外部规划模型。",
+    "research_unit": "浙江大学（Zhejiang University），State Key Lab of CAD & CG",
+    "hook_text": "提出 CoEvoWhen 框架，解决超长视频时间定位（Ultra-Long Video Temporal Grounding）中\"长程证据搜索\"与\"细粒度事件理解\"难以平衡的核心挑战，同时受限于有限的视觉预算。",
+    "key_points": [
+      "提出 CoEvoWhen 框架，解决超长视频时间定位（Ultra-Long Video Temporal Grounding）中\"长程证据搜索\"与\"细粒度事件理解\"难以平衡的核心挑战，同时受限于有限的视觉预算。",
+      "核心思路是让策略（Policy）与工具（Tool）协同进化：从冻结 VLM 的智能体推理轨迹中联合提炼高层次的搜索/编排策略与可执行的媒体工具代码，形成可复用的外部技能（Skill），无需更新模型参数。",
+      "现有智能体方法大多依赖预定义策略和固定的媒体处理能力，难以适应视频与查询间差异巨大的证据需求；本文方法使 VLM 在推断时能自主编排工具，不依赖更强的外部规划模型。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-29",
     "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
     "link": "https://arxiv.org/abs/2609.38172",
