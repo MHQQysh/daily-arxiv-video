@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ROWBench: Do Video Models Render What the Program Specifies? - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。 该基准包含 170 个程序化构建的动态场景片段 和 600 个同步代理视频，涵盖多种场景、交互类型、视角（第一/第三人称）与视觉表示。 现有基准通常只评估视觉质量、可控性或物理合理性，很少测试模型对细粒度、带时间戳的程序化世界事件的忠实度；PROWBench 通过可回放的世界记录（实体状态+事件日志）填补这一空白。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.02205">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.02205.webp" alt="ROWBench: Do Video Models Render What the Program Specifies?" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">ROWBench: Do Video Models Render What the Program Specifies?</h1>
+            <div class="detail-meta">2026-10-01 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.02205" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.02205" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.02205</span></div>
+            <p class="detail-summary">论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。 该基准包含 170 个程序化构建的动态场景片段 和 600 个同步代理视频，涵盖多种场景、交互类型、视角（第一/第三人称）与视觉表示。 现有基准通常只评估视觉质量、可控性或物理合理性，很少测试模型对细粒度、带时间戳的程序化世界事件的忠实度；PROWBench 通过可回放的世界记录（实体状态+事件日志）填补这一空白。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Alaya Lab（阿莱雅实验室）主导该研究</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.02205/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。</p>
+  <ul class="reading-intro-points"><li>论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。</li><li>该基准包含 170 个程序化构建的动态场景片段 和 600 个同步代理视频，涵盖多种场景、交互类型、视角（第一/第三人称）与视觉表示。</li><li>现有基准通常只评估视觉质量、可控性或物理合理性，很少测试模型对细粒度、带时间戳的程序化世界事件的忠实度；PROWBench 通过可回放的世界记录（实体状态+事件日志）填补这一空白。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Alaya Lab</strong>（阿莱雅实验室）主导该研究</li><li>作者来自该实验室及相关高校机构，项目负责人为 <strong>Zhixiang Wang（汪志翔）</strong> 和 <strong>Kaipeng Zhang（张开鹏）</strong></li><li>发表时间为 <strong>2026 年 10 月 1 日</strong>，属于计算机视觉（cs.CV）领域</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>PROWBench</strong> 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。</li><li>该基准包含 <strong>170 个程序化构建的动态场景片段</strong> 和 <strong>600 个同步代理视频</strong>，涵盖多种场景、交互类型、视角（第一/第三人称）与视觉表示。</li><li>现有基准通常只评估视觉质量、可控性或物理合理性，很少测试模型对<strong>细粒度、带时间戳的程序化世界事件</strong>的忠实度；PROWBench 通过可回放的世界记录（实体状态+事件日志）填补这一空白。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li><strong>基准数据集（Benchmark）</strong>：构建 170 个片段和 600 个同步代理视频，涵盖多视角（第一/第三人称）、多种表示（粗 3D、语义代理、彩色 OBB）和多样化交互，并共享世界状态与动作记录。</li><li><strong>评估指标（Metrics）</strong>：提出 <strong>Logic-Render Alignment（逻辑-渲染对齐）</strong> 和 <strong>Interaction Success Rate（交互成功率）</strong> 两个基于 VLM 的度量，分别评估时间线遵循程度和引擎记录事件的可视化实现，并配套实体控制与长时记忆指标。</li><li><strong>可扩展框架（Extensible Framework）</strong>：提供可复用的程序化世界生成流水线，支持场景布局、动作、视觉表示的扩展，并能从共享状态记录生成对齐的多视角、多表示数据。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>世界生成流水线包含三大能力：<strong>世界合成</strong>（程序化生成地形、建筑、道路、实体与控制器）、<strong>控制编译</strong>（将记录的世界状态与相机轨迹编译为三种同步的视觉条件输入）、<strong>最终处理</strong>（导出场景/运动记录、渲染观测和文本/交互标签）。</li><li>三种代理渲染表示：<strong>Coarse 3D</strong>（中性材质保留形状与轮廓）、<strong>CWM proxy</strong>（语义着色环境+简化实体代理）、<strong>Colored-OBB</strong>（彩色有向包围盒+半透明前面标识）。</li><li>创新点：渲染结果与引擎记录的真实状态可逐帧比对，从而隔离表示、视角和场景内容的影响；可直接从世界记录派生出多视角、多表示的对齐数据。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>数据集规模</strong>：170 个动态场景片段、600 个代理视频，包含 40 个 Verified-FF（已验证首帧）与 90 个 Unverified-FF（未验证首帧）的五秒片段设置，以及 10 个 30 秒长时程片段和 10 个四视角多视图场景（挑战赛道）。</li><li><strong>场景类型</strong>：包含驾车、枪战、携带物品、动物行为、飞行/游泳等多类游戏相关交互。</li><li><strong>模型评估规模</strong>：共评估 <strong>11 个模型</strong>，包括 EchoWM、SANA-WM、LingBot-World 2.0、AlayaWorld v1.1（相机条件世界模型），Cosmos-Transfer2.5、C2R、CWM、LynnReal-Omni、PWM（代理视频转 RGB 模型），以及 MiniMax-H3、Seedance 2.5（视频基础模型）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：所有样本来自游戏世界记录状态，以引擎状态为真值参考，通过 SAM 3 进行实体检测、Qwen3.6-27B 作为 VLM 评判器。</li><li>主要指标：<strong>BBox IoU</strong>（实体空间对齐）、<strong>Center Error</strong>（中心偏移）、<strong>ISR/gISR</strong>（交互成功率/IoU 加权）、<strong>LRA/gLRA</strong>（逻辑渲染对齐/IoU 加权）、<strong>Reappearance IoU</strong> 与 <strong>State Persistence</strong>（长时程记忆）、相机旋转/平移误差、视觉质量与时间一致性。</li><li>关键结果：现有通用视频生成模型（如 <strong>MiniMax-H3</strong>）在适当提示下无需任务特定训练，即可较好遵循实体轨迹和事件逻辑，在相机跟随上甚至与相机条件世界模型持平；但实体放置、特定领域事件实现仍不足，代理表示的设计（低多边形继承、OBB 外观归属模糊）仍是开放问题；长视频生成在相机跟随和实体持久性上仍有困难，多视角直接生成效果不理想。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-next" href="../../papers/2610.02197/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

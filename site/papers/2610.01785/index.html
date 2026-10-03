@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VETO: Video Efficient Token Optimization for Vision Language Models - Video 每日论文卡</title>
+    <meta name="description" content="提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。 核心思路是通过双轴压缩——帧内（intra-frame）语义 token 合并 + 帧间（inter-frame）时间冗余帧合并——在保持语义信息的同时大幅降低送入 LLM 的 token 数量。 关键设计是层次化顺序：先做空间压缩，再做时间匹配，从而突破单轴压缩方法（仅空间或仅时间）难以规避的效率和延迟瓶颈。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.01785">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.01785.webp" alt="VETO: Video Efficient Token Optimization for Vision Language Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">VETO: Video Efficient Token Optimization for Vision Language Models</h1>
+            <div class="detail-meta">2026-10-01 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.01785" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.01785" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.01785</span></div>
+            <p class="detail-summary">提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。 核心思路是通过双轴压缩——帧内（intra-frame）语义 token 合并 + 帧间（inter-frame）时间冗余帧合并——在保持语义信息的同时大幅降低送入 LLM 的 token 数量。 关键设计是层次化顺序：先做空间压缩，再做时间匹配，从而突破单轴压缩方法（仅空间或仅时间）难以规避的效率和延迟瓶颈。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">7 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">National Taiwan University（台湾大学）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.01785/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。</p>
+  <ul class="reading-intro-points"><li>提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。</li><li>核心思路是通过双轴压缩——帧内（intra-frame）语义 token 合并 + 帧间（inter-frame）时间冗余帧合并——在保持语义信息的同时大幅降低送入 LLM 的 token 数量。</li><li>关键设计是层次化顺序：先做空间压缩，再做时间匹配，从而突破单轴压缩方法（仅空间或仅时间）难以规避的效率和延迟瓶颈。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>National Taiwan University</strong>（台湾大学）</li><li><strong>NVIDIA</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>VETO</strong>（Video Efficient Token Optimization），一种<strong>训练可选</strong>（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的<strong>二次方注意力计算瓶颈</strong>。</li><li>核心思路是通过<strong>双轴压缩</strong>——帧内（intra-frame）语义 token 合并 + 帧间（inter-frame）时间冗余帧合并——在保持语义信息的同时大幅降低送入 LLM 的 token 数量。</li><li>关键设计是<strong>层次化顺序</strong>：先做空间压缩，再做时间匹配，从而突破单轴压缩方法（仅空间或仅时间）难以规避的效率和延迟瓶颈。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li><strong>硬件无关的双轴压缩方法</strong>：提出“先帧内、后帧间”的层次化压缩顺序，将有效注意力复杂度从 O((TN)²) 降至 O(TN²/k + T²C)（C ≪ N），打破单轴压缩的效率下限，且在<strong>现代融合注意力基础设施</strong>上优势更加明显。</li><li><strong>通用且训练可选的即插即用插件</strong>：无需修改模型架构、无需自定义 CUDA kernel、无需重训练，即可直接集成到 <strong>LLaVA-OneVision</strong>、<strong>InternVL-2.5</strong>、<strong>LongVA</strong> 等多种冻结 VLM 中。</li><li><strong>极端 token 预算下的鲁棒性</strong>：在仅保留 <strong>10% token</strong> 的极端条件下，VETO 达到 <strong>55.7%</strong> 准确率，超过 <strong>VFlowOpt</strong>（54.9%）、<strong>VisionZip</strong>（52.6%）和 <strong>FastV</strong>（47.9%），且零样本精度在各类模型上保持或提升。</li><li><strong>系统级贡献</strong>：作为纯张量变换模块，完全兼容标准注意力实现（如 <strong>FlashAttention</strong>），提供真实的端到端延迟评测（视觉编码器 + token 压缩 + LLM 推理）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>帧内压缩器（Intra-Frame Compressor）</strong>：对每个帧内的 token 采用最优传输启发的 k-way 划分，将 token 分为“源”和“锚点”，通过余弦相似度匹配，将语义相近的源 token 合并到最近锚点，使用大小加权平均形成新 token，将空间 token 数从 N 减至约 N/k。</li><li><strong>帧间压缩器（Inter-Frame Compressor）</strong>：在帧内压缩后的空间维度上，通过空间均值池化得到帧表示，计算帧间余弦相似度矩阵，用贪心算法选择最相似的非重叠帧对进行合并，直到达到目标帧数 T′。</li><li><strong>创新点</strong>：先空间后时间的层次化顺序大幅降低了全局时间相似度匹配的计算成本，解决了单轴方法必须对“完全未压缩”token 做相似度计算而导致延迟过高的问题。</li><li><strong>位置信息处理</strong>：利用 ViT 编码器已注入的绝对位置信息，合并后由 LLM 按顺序索引，位置漂移有界且经消融验证无显著影响。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>实验在 <strong>LLaVA-OneVision</strong>（0.5B、7B）、<strong>InternVL-2.5</strong>（1B）、<strong>LongVA</strong>（7B）等多个 VLM 家族上进行。</li><li>评测基准涵盖<strong>视频理解基准</strong>、<strong>长时推理与图像基准</strong>、<strong>长叙事理解</strong>（long-form narrative）和<strong>程序性动作识别</strong>（procedural action recognition），涉及 <strong>VideoMME</strong>、<strong>EgoSchema</strong>、<strong>UCF-101</strong> 等数据集。</li><li>模型规模：<strong>0.5B 至 7B</strong> 参数不等。</li><li>训练资源：由于是 training-optional 方法，主要依赖推理阶段的计算；论文未指定具体 GPU 型号，但强调端到端延迟测量基于真实部署环境。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>推理加速</strong>：在 <strong>LLaVA-OneVision-7B</strong> 上实现最高 <strong>45%</strong> 的推理加速，同时保持或提升准确率。</li><li><strong>极端 token 预算</strong>：在 10% token 保留条件下，VETO 的准确率为 <strong>55.7%</strong>，优于 VFlowOpt（54.9%）、VisionZip（52.6%）和 FastV（47.9%）。</li><li><strong>全监督设置</strong>：在长叙事理解基准上取得<strong>最先进结果</strong>，在程序性动作识别上也具有竞争力。</li><li><strong>通用性验证</strong>：在 LLaVA-OneVision、InternVL-2.5 和 LongVA 上均保持或提升零样本准确率，证明方法的跨模型通用性。</li><li><strong>消融研究</strong>：验证了 token 合并策略、帧内压缩比、帧间压缩比以及极端 token 饥饿下的鲁棒性；实验表明准确率在 k∈{2,3,4,5} 范围内保持稳定，未出现明显的空间信息坍缩。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.01884/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Memory-Guided B-Roll Generation from User Video Collections</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2609.40358/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

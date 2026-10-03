@@ -1,5 +1,295 @@
 [
   {
+    "date": "2026-10-01",
+    "title": "ROWBench: Do Video Models Render What the Program Specifies?",
+    "link": "https://arxiv.org/abs/2610.02205",
+    "arxiv_id": "2610.02205",
+    "detail_path": "papers/2610.02205/",
+    "cover_path": "covers/2610.02205/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.02205.webp",
+    "paper_image_full_path": "assets/paper-images/2610.02205.webp",
+    "preview_text": "论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。 该基准包含 170 个程序化构建的动态场景片段 和 600 个同步代理视频，涵盖多种场景、交互类型、视角（第一/第三人称）与视觉表示。 现有基准通常只评估视觉质量、可控性或物理合理性，很少测试模型对细粒度、带时间戳的程序化世界事件的忠实度；PROWBench 通过可回放的世界记录（实体状态+事件日志）填补这一空白。",
+    "research_unit": "Alaya Lab（阿莱雅实验室）主导该研究",
+    "hook_text": "论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。",
+    "key_points": [
+      "论文提出 PROWBench 基准，用于评估视频模型是否忠实渲染可编程世界模型（Programmable World Model）中由程序指定的场景结构、规则与交互事件。",
+      "该基准包含 170 个程序化构建的动态场景片段 和 600 个同步代理视频，涵盖多种场景、交互类型、视角（第一/第三人称）与视觉表示。",
+      "现有基准通常只评估视觉质量、可控性或物理合理性，很少测试模型对细粒度、带时间戳的程序化世界事件的忠实度；PROWBench 通过可回放的世界记录（实体状态+事件日志）填补这一空白。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation",
+    "link": "https://arxiv.org/abs/2610.02197",
+    "arxiv_id": "2610.02197",
+    "detail_path": "papers/2610.02197/",
+    "cover_path": "covers/2610.02197/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.02197.webp",
+    "paper_image_full_path": "assets/paper-images/2610.02197.webp",
+    "preview_text": "针对现有视频生成模型在处理多并发物理原则时出现的原则遗漏（Principle Omission）和时间捷径（Temporal Shortcutting）问题，提出 HiPhy（Hierarchical Physical Alignment）强化学习框架 将复合物理事件建模为层次化对齐问题，通过局部优化每个物理原则的时间动态，全局确保场景的物理与语义连贯性 构建 MultiPhyBench 基准和配套训练集，支持最多 3 个并发物理事件的生成与评估，填补多原则物理视频生成研究的空白",
+    "research_unit": "Virginia Tech",
+    "hook_text": "针对现有视频生成模型在处理多并发物理原则时出现的原则遗漏（Principle Omission）和时间捷径（Temporal Shortcutting）问题，提出 HiPhy（Hierarchical Physical Alignment）强化学习框架",
+    "key_points": [
+      "针对现有视频生成模型在处理多并发物理原则时出现的原则遗漏（Principle Omission）和时间捷径（Temporal Shortcutting）问题，提出 HiPhy（Hierarchical Physical Alignment）强化学习框架",
+      "将复合物理事件建模为层次化对齐问题，通过局部优化每个物理原则的时间动态，全局确保场景的物理与语义连贯性",
+      "构建 MultiPhyBench 基准和配套训练集，支持最多 3 个并发物理事件的生成与评估，填补多原则物理视频生成研究的空白"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
+    "link": "https://arxiv.org/abs/2610.02160",
+    "arxiv_id": "2610.02160",
+    "detail_path": "papers/2610.02160/",
+    "cover_path": "covers/2610.02160/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.02160.webp",
+    "paper_image_full_path": "assets/paper-images/2610.02160.webp",
+    "preview_text": "论文提出 4Director，一个基于显式 4D 场景表示的视频世界模型，用于精确控制视频生成中的相机运动和物体运动。 现有方法存在两类缺陷：图像平面控制信号（如 2D 框、路径、点轨迹）在深度和旋转上具有歧义；3D 控制信号（如 3D 框、高斯 blob、点轨迹）缺乏完整的物体几何信息，无法处理视角变化或物体旋转时暴露的新表面。 4Director 将每个物体重建为完整的规范网格（canonical mesh），通过每帧一个刚体变换（SE(3)）驱动运动，并利用可训练的 Motion Adapter 将刚性几何渲染注入到预训练视频生成器中。",
+    "research_unit": "Stability AI",
+    "hook_text": "论文提出 4Director，一个基于显式 4D 场景表示的视频世界模型，用于精确控制视频生成中的相机运动和物体运动。",
+    "key_points": [
+      "论文提出 4Director，一个基于显式 4D 场景表示的视频世界模型，用于精确控制视频生成中的相机运动和物体运动。",
+      "现有方法存在两类缺陷：图像平面控制信号（如 2D 框、路径、点轨迹）在深度和旋转上具有歧义；3D 控制信号（如 3D 框、高斯 blob、点轨迹）缺乏完整的物体几何信息，无法处理视角变化或物体旋转时暴露的新表面。",
+      "4Director 将每个物体重建为完整的规范网格（canonical mesh），通过每帧一个刚体变换（SE(3)）驱动运动，并利用可训练的 Motion Adapter 将刚性几何渲染注入到预训练视频生成器中。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2610.02153",
+    "arxiv_id": "2610.02153",
+    "detail_path": "papers/2610.02153/",
+    "cover_path": "covers/2610.02153/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.02153.webp",
+    "paper_image_full_path": "assets/paper-images/2610.02153.webp",
+    "preview_text": "论文提出 MosaiChunk，一种用于自回归视频生成的时空记忆机制，通过组合历史键值（KV）条目中的非连续片段，在固定活跃记忆预算下保留长程生成中的细粒度视觉细节。 针对长视频生成中滑窗推理导致的历史内容遗忘问题（如对象离开视线后重新出现时无法保持外观一致），MosaiChunk 在不改动冻结视频生成模型的前提下，训练轻量路由器自动检索并组合相关历史 KV 节。 同时引入 RememBench 基准，包含 prompt 驱动的文本生成视频（T2V）和相机驱动的图像生成视频（I2V）两种长程“回访”场景，用于评估生成模型在对象或场景重新出现时的一致性和记忆能力。",
+    "research_unit": "Cornell University",
+    "hook_text": "论文提出 MosaiChunk，一种用于自回归视频生成的时空记忆机制，通过组合历史键值（KV）条目中的非连续片段，在固定活跃记忆预算下保留长程生成中的细粒度视觉细节。",
+    "key_points": [
+      "论文提出 MosaiChunk，一种用于自回归视频生成的时空记忆机制，通过组合历史键值（KV）条目中的非连续片段，在固定活跃记忆预算下保留长程生成中的细粒度视觉细节。",
+      "针对长视频生成中滑窗推理导致的历史内容遗忘问题（如对象离开视线后重新出现时无法保持外观一致），MosaiChunk 在不改动冻结视频生成模型的前提下，训练轻量路由器自动检索并组合相关历史 KV 节。",
+      "同时引入 RememBench 基准，包含 prompt 驱动的文本生成视频（T2V）和相机驱动的图像生成视频（I2V）两种长程“回访”场景，用于评估生成模型在对象或场景重新出现时的一致性和记忆能力。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization",
+    "link": "https://arxiv.org/abs/2610.02019",
+    "arxiv_id": "2610.02019",
+    "detail_path": "papers/2610.02019/",
+    "cover_path": "covers/2610.02019/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.02019.webp",
+    "paper_image_full_path": "assets/paper-images/2610.02019.webp",
+    "preview_text": "提出Adaptive Tversky Policy Optimization (ATPO)，一个基于强化学习的多标签视频安全检测（Multi-VSD）框架 解决现有视频安全检测的两大局限：将安全问题简化为二分类、忽略不安全视频的多标签本质；静态训练目标不支持可控的精确率-召回率权衡 通过Adaptive Tversky Reward (ATR)动态调整训练中的假阳性/假阴性惩罚权重，实现可控且类别感知的安全检测行为",
+    "research_unit": "University of Cambridge（剑桥大学）",
+    "hook_text": "提出Adaptive Tversky Policy Optimization (ATPO)，一个基于强化学习的多标签视频安全检测（Multi-VSD）框架",
+    "key_points": [
+      "提出Adaptive Tversky Policy Optimization (ATPO)，一个基于强化学习的多标签视频安全检测（Multi-VSD）框架",
+      "解决现有视频安全检测的两大局限：将安全问题简化为二分类、忽略不安全视频的多标签本质；静态训练目标不支持可控的精确率-召回率权衡",
+      "通过Adaptive Tversky Reward (ATR)动态调整训练中的假阳性/假阴性惩罚权重，实现可控且类别感知的安全检测行为"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "From Reasoning Failures to Composable Video Spatial Intelligence",
+    "link": "https://arxiv.org/abs/2610.01999",
+    "arxiv_id": "2610.01999",
+    "detail_path": "papers/2610.01999/",
+    "cover_path": "covers/2610.01999/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.01999.webp",
+    "paper_image_full_path": "assets/paper-images/2610.01999.webp",
+    "preview_text": "论文针对视频空间推理基准中视觉语言模型（VLM）的系统性推理失败问题，指出任务级分数无法揭示具体是哪一环节（感知、表示、计算）造成失败。 通过比较预测与真实的结构化空间上下文（共享 schema 与坐标契约），解耦并诊断出四类反复出现的错误源：不准确感知、上下文信息缺失、选错测量量、参考系或时空状态错误。 基于诊断提出 CROSS——一个无需训练的可组合推理算子与空间技能库，为不支持编码的 VLM 提供验证过的空间上下文，或为 SpatialClaw 代码代理提供可调用技能，显著提升推理可靠性。",
+    "research_unit": "National University of Singapore（新加坡国立大学）",
+    "hook_text": "论文针对视频空间推理基准中视觉语言模型（VLM）的系统性推理失败问题，指出任务级分数无法揭示具体是哪一环节（感知、表示、计算）造成失败。",
+    "key_points": [
+      "论文针对视频空间推理基准中视觉语言模型（VLM）的系统性推理失败问题，指出任务级分数无法揭示具体是哪一环节（感知、表示、计算）造成失败。",
+      "通过比较预测与真实的结构化空间上下文（共享 schema 与坐标契约），解耦并诊断出四类反复出现的错误源：不准确感知、上下文信息缺失、选错测量量、参考系或时空状态错误。",
+      "基于诊断提出 CROSS——一个无需训练的可组合推理算子与空间技能库，为不支持编码的 VLM 提供验证过的空间上下文，或为 SpatialClaw 代码代理提供可调用技能，显著提升推理可靠性。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Token-Level Video Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2610.01973",
+    "arxiv_id": "2610.01973",
+    "detail_path": "papers/2610.01973/",
+    "cover_path": "covers/2610.01973/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.01973.webp",
+    "paper_image_full_path": "assets/paper-images/2610.01973.webp",
+    "preview_text": "论文提出 Token-Level Video Reinforcement Learning (TVRL)，一种针对视频生成强化学习（RL）的 token 级信用分配框架，解决传统方法仅使用视频级标量奖励、无法定位生成视频中具体错误区域的问题。 核心思想：利用冻结的视觉语言模型（VLM）同时提供两类信号——输出端提供视频级奖励（问题回答似然），其视频输入梯度的幅值揭示哪些视频 token 对该奖励影响最大，从而将奖励转化为 token 级信用。 论文将 TVRL 实例化为基于 GRPO 的扩散/流匹配视频生成训练框架，在 VBench-2.0 上显著提升整体评分，并兼容多种 SDE 采样器和奖励模型。",
+    "research_unit": "Northeastern University（美国东北大学）",
+    "hook_text": "论文提出 Token-Level Video Reinforcement Learning (TVRL)，一种针对视频生成强化学习（RL）的 token 级信用分配框架，解决传统方法仅使用视频级标量奖励、无法定位生成视频中具体错误区域的问题。",
+    "key_points": [
+      "论文提出 Token-Level Video Reinforcement Learning (TVRL)，一种针对视频生成强化学习（RL）的 token 级信用分配框架，解决传统方法仅使用视频级标量奖励、无法定位生成视频中具体错误区域的问题。",
+      "核心思想：利用冻结的视觉语言模型（VLM）同时提供两类信号——输出端提供视频级奖励（问题回答似然），其视频输入梯度的幅值揭示哪些视频 token 对该奖励影响最大，从而将奖励转化为 token 级信用。",
+      "论文将 TVRL 实例化为基于 GRPO 的扩散/流匹配视频生成训练框架，在 VBench-2.0 上显著提升整体评分，并兼容多种 SDE 采样器和奖励模型。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "EndoLive: Real-Time Style Transfer for Endoscopic Endonasal Skull Base Surgical Video",
+    "link": "https://arxiv.org/abs/2610.01956",
+    "arxiv_id": "2610.01956",
+    "detail_path": "papers/2610.01956/",
+    "cover_path": "covers/2610.01956/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.01956.webp",
+    "paper_image_full_path": "assets/paper-images/2610.01956.webp",
+    "preview_text": "论文提出 EndoLive 框架，用于在内镜经鼻颅底手术中实现 尸体内镜视频与活体内镜视频之间的实时风格转换 该手术训练通常在尸体标本上进行，但尸体组织与活体组织的颜色和出血表现存在明显差异，导致医生在真实手术中识别关键解剖结构面临困难 EndoLive 的目标是将尸体视频实时转换为接近活体组织的视觉风格，帮助外科医生在训练中更好地适应真实手术场景",
+    "research_unit": "论文作者为 Griffin Hurt 和 Calvin Brinkman，原文页面未明确标注所属研究机构",
+    "hook_text": "论文提出 EndoLive 框架，用于在内镜经鼻颅底手术中实现 尸体内镜视频与活体内镜视频之间的实时风格转换",
+    "key_points": [
+      "论文提出 EndoLive 框架，用于在内镜经鼻颅底手术中实现 尸体内镜视频与活体内镜视频之间的实时风格转换",
+      "该手术训练通常在尸体标本上进行，但尸体组织与活体组织的颜色和出血表现存在明显差异，导致医生在真实手术中识别关键解剖结构面临困难",
+      "EndoLive 的目标是将尸体视频实时转换为接近活体组织的视觉风格，帮助外科医生在训练中更好地适应真实手术场景"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Memory-Guided B-Roll Generation from User Video Collections",
+    "link": "https://arxiv.org/abs/2610.01884",
+    "arxiv_id": "2610.01884",
+    "detail_path": "papers/2610.01884/",
+    "cover_path": "covers/2610.01884/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.01884.webp",
+    "paper_image_full_path": "assets/paper-images/2610.01884.webp",
+    "preview_text": "论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。 核心问题是：面对长达数小时的原始视频，如何选择有效的视觉证据来指导每个生成镜头，并确保跨镜头的身份与场景一致性。 系统通过离线构建结构化实体记忆、规划检索参考帧、迭代生成与评判，实现了在已有素材基础上补齐缺失镜头的目标。",
+    "research_unit": "Adobe Research（美国剑桥、圣何塞、旧金山）",
+    "hook_text": "论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。",
+    "key_points": [
+      "论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。",
+      "核心问题是：面对长达数小时的原始视频，如何选择有效的视觉证据来指导每个生成镜头，并确保跨镜头的身份与场景一致性。",
+      "系统通过离线构建结构化实体记忆、规划检索参考帧、迭代生成与评判，实现了在已有素材基础上补齐缺失镜头的目标。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "VETO: Video Efficient Token Optimization for Vision Language Models",
+    "link": "https://arxiv.org/abs/2610.01785",
+    "arxiv_id": "2610.01785",
+    "detail_path": "papers/2610.01785/",
+    "cover_path": "covers/2610.01785/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.01785.webp",
+    "paper_image_full_path": "assets/paper-images/2610.01785.webp",
+    "preview_text": "提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。 核心思路是通过双轴压缩——帧内（intra-frame）语义 token 合并 + 帧间（inter-frame）时间冗余帧合并——在保持语义信息的同时大幅降低送入 LLM 的 token 数量。 关键设计是层次化顺序：先做空间压缩，再做时间匹配，从而突破单轴压缩方法（仅空间或仅时间）难以规避的效率和延迟瓶颈。",
+    "research_unit": "National Taiwan University（台湾大学）",
+    "hook_text": "提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。",
+    "key_points": [
+      "提出 VETO（Video Efficient Token Optimization），一种训练可选（training-optional）的即插即用模块，用于解决 Vision-Language Models（VLMs）处理长视频时因视觉 token 数量庞大导致的二次方注意力计算瓶颈。",
+      "核心思路是通过双轴压缩——帧内（intra-frame）语义 token 合并 + 帧间（inter-frame）时间冗余帧合并——在保持语义信息的同时大幅降低送入 LLM 的 token 数量。",
+      "关键设计是层次化顺序：先做空间压缩，再做时间匹配，从而突破单轴压缩方法（仅空间或仅时间）难以规避的效率和延迟瓶颈。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-09-30",
     "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
     "link": "https://arxiv.org/abs/2609.40358",
@@ -1313,14 +1603,16 @@
     "cover_path": "covers/2609.24487/",
     "paper_image_path": "assets/paper-images/thumbs/2609.24487.webp",
     "paper_image_full_path": "assets/paper-images/2609.24487.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 AgentSTAR，一种从单目视频中进行形状跟踪与重建的智能体化（agentic）分析方法。 与传统“先估计像素对应关系，再恢复物体运动”的自底向上范式不同，该方法采用分析-合成（analysis-by-synthesis）策略，直接推断具有结构化几何与运动学信息的 3D 物体模型，并据此优化随时间变化的物体状态。 该论文要解决的问题是：如何在严重遮挡、大范围运动、透明物体等挑战性场景下，同时精确重建物体几何形状并稳定跟踪其运动状态。",
+    "research_unit": "Amazon FAR（Frontier AI and Robotics）（亚马逊前沿人工智能与机器人部…",
+    "hook_text": "论文提出 AgentSTAR，一种从单目视频中进行形状跟踪与重建的智能体化（agentic）分析方法。",
     "key_points": [
-      "待生成"
+      "论文提出 AgentSTAR，一种从单目视频中进行形状跟踪与重建的智能体化（agentic）分析方法。",
+      "与传统“先估计像素对应关系，再恢复物体运动”的自底向上范式不同，该方法采用分析-合成（analysis-by-synthesis）策略，直接推断具有结构化几何与运动学信息的 3D 物体模型，并据此优化随时间变化的物体状态。",
+      "该论文要解决的问题是：如何在严重遮挡、大范围运动、透明物体等挑战性场景下，同时精确重建物体几何形状并稳定跟踪其运动状态。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -1398,14 +1690,16 @@
     "cover_path": "covers/2609.24208/",
     "paper_image_path": "assets/paper-images/thumbs/2609.24208.webp",
     "paper_image_full_path": "assets/paper-images/2609.24208.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出一种极简的 3D 布局控制信号——地面网格 + 每个人一个圆柱体，用于控制视频生成中人物的位置、运动以及相机路径。 用户只需画出地面网格、放置代表人物的圆柱体、拖动圆柱体和相机即可生成逼真视频；人物外观由文本提示和背景参考图决定，布局与运动由几何信号决定。 由于不存在这类“几何控制信号-视频”配对数据，论文构建了一个全自动数据引擎，用文本生成视频再从视频反推几何，训练一个 LoRA 适配器实现该控制。",
+    "research_unit": "University of Washington（作者 Mengyi Shan 的所属机构）",
+    "hook_text": "论文提出一种极简的 3D 布局控制信号——地面网格 + 每个人一个圆柱体，用于控制视频生成中人物的位置、运动以及相机路径。",
     "key_points": [
-      "待生成"
+      "论文提出一种极简的 3D 布局控制信号——地面网格 + 每个人一个圆柱体，用于控制视频生成中人物的位置、运动以及相机路径。",
+      "用户只需画出地面网格、放置代表人物的圆柱体、拖动圆柱体和相机即可生成逼真视频；人物外观由文本提示和背景参考图决定，布局与运动由几何信号决定。",
+      "由于不存在这类“几何控制信号-视频”配对数据，论文构建了一个全自动数据引擎，用文本生成视频再从视频反推几何，训练一个 LoRA 适配器实现该控制。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -1425,14 +1719,16 @@
     "cover_path": "covers/2609.24083/",
     "paper_image_path": "assets/paper-images/thumbs/2609.24083.webp",
     "paper_image_full_path": "assets/paper-images/2609.24083.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对当前生成式 AI 教育视频系统只关注视觉内容生成、缺乏明确教学结构、质量控制和学习者评估反馈的问题，提出教学法引导的三阶段生成式视频辅导框架 PIVOT（Pedagogy-guided Instructional VideO Tutoring）。 框架模仿真实教师工作流程，将教学法融入生成全流程：先依据教学设计原则生成故事板，再通过代码生成与教学验证生成多模态视频，最后结合测验与误区感知的补救视频形成闭环学习支持。 实验和专家评估表明，PIVOT 能生成教学一致、清晰生动、流程连贯且对 STEM 学习有效的教育视频，推动生成式视频从“内容生成”走向“学习支持”。",
+    "research_unit": "华东师范大学（East China Normal University）数据科学与工程学院",
+    "hook_text": "针对当前生成式 AI 教育视频系统只关注视觉内容生成、缺乏明确教学结构、质量控制和学习者评估反馈的问题，提出教学法引导的三阶段生成式视频辅导框架 PIVOT（Pedagogy-guided Instructional VideO Tutoring）。",
     "key_points": [
-      "待生成"
+      "针对当前生成式 AI 教育视频系统只关注视觉内容生成、缺乏明确教学结构、质量控制和学习者评估反馈的问题，提出教学法引导的三阶段生成式视频辅导框架 PIVOT（Pedagogy-guided Instructional VideO Tutoring）。",
+      "框架模仿真实教师工作流程，将教学法融入生成全流程：先依据教学设计原则生成故事板，再通过代码生成与教学验证生成多模态视频，最后结合测验与误区感知的补救视频形成闭环学习支持。",
+      "实验和专家评估表明，PIVOT 能生成教学一致、清晰生动、流程连贯且对 STEM 学习有效的教育视频，推动生成式视频从“内容生成”走向“学习支持”。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1452,14 +1748,16 @@
     "cover_path": "covers/2609.22069/",
     "paper_image_path": "assets/paper-images/thumbs/2609.22069.webp",
     "paper_image_full_path": "assets/paper-images/2609.22069.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 OmniVBench 基准和 Omni-R2V Dataset 大规模数据集，用于支持“全模态参考到视频生成”（omni reference-to-video generation, R2V）的评估与训练。 现有 R2V 基准只覆盖少量参考类型，且评估多停留在整体参考一致性层面，缺乏对参考因子（factor）是否被正确保留、解耦和路由的细粒度检查。 高质量 omni R2V 训练数据构建成本高，现有数据集碎片化且未直接提供处理后的参考-视频对，限制了研究发展。",
+    "research_unit": "腾讯（Online Video BU, Tencent）",
+    "hook_text": "论文提出 OmniVBench 基准和 Omni-R2V Dataset 大规模数据集，用于支持“全模态参考到视频生成”（omni reference-to-video generation, R2V）的评估与训练。",
     "key_points": [
-      "待生成"
+      "论文提出 OmniVBench 基准和 Omni-R2V Dataset 大规模数据集，用于支持“全模态参考到视频生成”（omni reference-to-video generation, R2V）的评估与训练。",
+      "现有 R2V 基准只覆盖少量参考类型，且评估多停留在整体参考一致性层面，缺乏对参考因子（factor）是否被正确保留、解耦和路由的细粒度检查。",
+      "高质量 omni R2V 训练数据构建成本高，现有数据集碎片化且未直接提供处理后的参考-视频对，限制了研究发展。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",

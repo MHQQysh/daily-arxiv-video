@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Memory-Guided B-Roll Generation from User Video Collections - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。 核心问题是：面对长达数小时的原始视频，如何选择有效的视觉证据来指导每个生成镜头，并确保跨镜头的身份与场景一致性。 系统通过离线构建结构化实体记忆、规划检索参考帧、迭代生成与评判，实现了在已有素材基础上补齐缺失镜头的目标。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.01884">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.01884.webp" alt="Memory-Guided B-Roll Generation from User Video Collections" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Memory-Guided B-Roll Generation from User Video Collections</h1>
+            <div class="detail-meta">2026-10-01 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.01884" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.01884" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.01884</span></div>
+            <p class="detail-summary">论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。 核心问题是：面对长达数小时的原始视频，如何选择有效的视觉证据来指导每个生成镜头，并确保跨镜头的身份与场景一致性。 系统通过离线构建结构化实体记忆、规划检索参考帧、迭代生成与评判，实现了在已有素材基础上补齐缺失镜头的目标。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Adobe Research（美国剑桥、圣何塞、旧金山）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.01884/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。</p>
+  <ul class="reading-intro-points"><li>论文提出 MemComposer 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。</li><li>核心问题是：面对长达数小时的原始视频，如何选择有效的视觉证据来指导每个生成镜头，并确保跨镜头的身份与场景一致性。</li><li>系统通过离线构建结构化实体记忆、规划检索参考帧、迭代生成与评判，实现了在已有素材基础上补齐缺失镜头的目标。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Adobe Research</strong>（美国剑桥、圣何塞、旧金山）</li><li><strong>捷克理工大学</strong>（Czech Technical University, Czech Institute of Informatics, Robotics and Cybernetics）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>MemComposer</strong> 系统，用于从用户的视频集合中生成与 A-roll 互补、且保持角色、场景、物体和风格一致的 B-roll 多镜头序列。</li><li>核心问题是：面对长达数小时的原始视频，如何选择有效的视觉证据来指导每个生成镜头，并确保跨镜头的身份与场景一致性。</li><li>系统通过离线构建结构化实体记忆、规划检索参考帧、迭代生成与评判，实现了在已有素材基础上补齐缺失镜头的目标。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出<strong>实体为中心的结构化视觉记忆</strong>，将视频集合按角色、场景、动作和道具索引，跨片段整合身份，并保留生成模型所需的细节外观信息。</li><li>提出<strong>生成感知的参考检索机制</strong>，通过角色门控检索和视角多样性约束，选择最适合条件视频生成的身份保真参考帧，而非单纯语义相似帧。</li><li>设计<strong>多尺度迭代优化循环</strong>：单镜头双重评判器验证身份与场景保真度，序列级批评器检测仅聚合时可见的失败（如镜头重复、角色漂移），并驱动定向再生成。</li><li>将记忆、检索与生成整合为一个闭环系统，支持自然语言指令和指定目标时长的多镜头 B-roll 序列生成。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>记忆构建</strong>：使用视觉语言模型（VLM）提取剪辑摘要、角色永久/瞬时特征、场景和道具信息；通过质量评分、非极大值抑制和视角多样化筛选关键帧；利用人脸识别模型嵌入和凝聚聚类构建全局角色表（character sheets）。</li><li><strong>规划与检索</strong>：使用 LLM 分两阶段规划——先进行叙事规划（决定角色、场景、时长），再进行剪辑规划（分配景别、运镜、视频提示）；检索时采用字符门控（仅搜索对应角色验证帧池）和视角多样性约束，避免文本描述引起的身份歧义。</li><li><strong>B-roll 生成</strong>：为每个镜头生成上下文感知的关键帧，并驱动视频模型生成；通过局部镜头验证和全局序列级批评器迭代修正，直至序列满足一致性和叙事要求。</li><li><strong>创新点</strong>：将永久特征与瞬时特征分离用于检索与生成，支持在不牺牲身份一致性的情况下改变服装、光照等状态。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>评估使用 <strong>EditStock</strong> 提供的视频素材集合（文中注明集合缩略图版权归 EditStock）。</li><li>模型规模与参数量未在摘要中明确说明；涉及 VLM、LLM、多模态编码器（如 CLIP 类）、人脸识别模型和视频生成模型。</li><li>训练资源（如 GPU/TPU 数量）未在提供的文本中披露。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估方式：<strong>用户偏好研究</strong>，沿两个维度比较——提示遵循（prompt adherence）和视觉对齐（visual alignment）。</li><li>与<strong>无条件的文本到视频规划基线（T2V + Planner）</strong>相比：<strong>MemComposer</strong> 在提示遵循上赢得 <strong>60.0%</strong>，在视觉对齐上赢得 <strong>92.8%</strong> 的比较，显示集合记忆和参考检索带来的grounding收益。</li><li>与<strong>仅检索真实素材组成的序列</strong>相比：MemComposer 在提示遵循上赢得 <strong>94.5%</strong>，说明生成缺失镜头的价值；而仅检索方法在视觉对齐上被用户偏好占 <strong>58.2%</strong>。</li><li>消融研究表明：记忆构建需要质量过滤而非仅时间采样、检索必须实体门控而非纯语义匹配、迭代反馈对序列级连贯性至关重要。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.01956/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">EndoLive: Real-Time Style Transfer for Endoscopic Endonasal Skull Base Surgical Video</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.01785/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">VETO: Video Efficient Token Optimization for Vision Language Models</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
