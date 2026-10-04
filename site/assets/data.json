@@ -1806,14 +1806,16 @@
     "cover_path": "covers/2609.21770/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21770.webp",
     "paper_image_full_path": "assets/paper-images/2609.21770.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 XCalib，一种无监督的稠密热红外–可见光（thermal–visible）视频配准框架，用于解决 ADAS 中 RGB 与 IR 相机因光轴不重合和视场差异导致的深度相关视差与鬼影问题。 核心思想是将虚拟针孔相机内外参作为几何约束空间，而不是作为绝对标定工具；通过优化相对位姿、内参与单目度量深度，将稠密位移场限制在物理有效的投影几何范围内。 解决现有方法的两难困境：关键点方法仅能估计全局单应，无法处理动态深度；无约束稠密光流缺乏结构正则化，易产生局部形变和时间抖动。",
+    "research_unit": "Univ. Grenoble Alpes, CNRS, Grenoble INP–UGA, GIPSA…",
+    "hook_text": "提出 XCalib，一种无监督的稠密热红外–可见光（thermal–visible）视频配准框架，用于解决 ADAS 中 RGB 与 IR 相机因光轴不重合和视场差异导致的深度相关视差与鬼影问题。",
     "key_points": [
-      "待生成"
+      "提出 XCalib，一种无监督的稠密热红外–可见光（thermal–visible）视频配准框架，用于解决 ADAS 中 RGB 与 IR 相机因光轴不重合和视场差异导致的深度相关视差与鬼影问题。",
+      "核心思想是将虚拟针孔相机内外参作为几何约束空间，而不是作为绝对标定工具；通过优化相对位姿、内参与单目度量深度，将稠密位移场限制在物理有效的投影几何范围内。",
+      "解决现有方法的两难困境：关键点方法仅能估计全局单应，无法处理动态深度；无约束稠密光流缺乏结构正则化，易产生局部形变和时间抖动。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1833,14 +1835,16 @@
     "cover_path": "covers/2609.21624/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21624.webp",
     "paper_image_full_path": "assets/paper-images/2609.21624.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对问题性网络使用（PIU），提出通过调整社交媒体视觉内容的情感强度（降低唤醒度 arousal）来减少用户在线时间，替代传统的强制性干预手段（如时间限制、内容屏蔽） 之前的方法依赖昂贵的逐图像迭代优化（约80秒/张），无法实时部署 提出一种轻量级的参数化预测模型，可在单次前向传播中预测图像情感编辑参数，并集成到Android应用中实现实时视频过滤",
+    "research_unit": "Eastern Switzerland University of Applied Sciences…",
+    "hook_text": "针对问题性网络使用（PIU），提出通过调整社交媒体视觉内容的情感强度（降低唤醒度 arousal）来减少用户在线时间，替代传统的强制性干预手段（如时间限制、内容屏蔽）",
     "key_points": [
-      "待生成"
+      "针对问题性网络使用（PIU），提出通过调整社交媒体视觉内容的情感强度（降低唤醒度 arousal）来减少用户在线时间，替代传统的强制性干预手段（如时间限制、内容屏蔽）",
+      "之前的方法依赖昂贵的逐图像迭代优化（约80秒/张），无法实时部署",
+      "提出一种轻量级的参数化预测模型，可在单次前向传播中预测图像情感编辑参数，并集成到Android应用中实现实时视频过滤"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 4,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -1860,14 +1864,16 @@
     "cover_path": "covers/2609.21597/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21597.webp",
     "paper_image_full_path": "assets/paper-images/2609.21597.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对非合作航天器在在轨服务与主动碎片移除中的单目 6-DoF 位姿估计问题，指出单图像估计器易混淆近对称结构，而传统跟踪可能锁定错误姿态。 提出 HAT（Hypothesis-Anchored Tracking） 这一因果（causal）框架，通过保留竞争的姿态假设历史，并利用单目 SLAM 的帧间运动信息，在融合前选择正确的绝对位姿锚点，且不修改已输出的历史结果。 实现了两个版本 Mega-HAT（基于 MegaPose）和 Pico-HAT（基于 PicoPose），在 SPARK-2024、SwissCube、SHIRT 及 YCB-Video 上验证，相比独立帧估计器分别降低平均位姿误差 9.4% / 23.9%，并将吞吐量提升 3.76× / 2.42×。",
+    "research_unit": "ISR, Instituto Superior Técnico, Universidade de Li…",
+    "hook_text": "针对非合作航天器在在轨服务与主动碎片移除中的单目 6-DoF 位姿估计问题，指出单图像估计器易混淆近对称结构，而传统跟踪可能锁定错误姿态。",
     "key_points": [
-      "待生成"
+      "针对非合作航天器在在轨服务与主动碎片移除中的单目 6-DoF 位姿估计问题，指出单图像估计器易混淆近对称结构，而传统跟踪可能锁定错误姿态。",
+      "提出 HAT（Hypothesis-Anchored Tracking） 这一因果（causal）框架，通过保留竞争的姿态假设历史，并利用单目 SLAM 的帧间运动信息，在融合前选择正确的绝对位姿锚点，且不修改已输出的历史结果。",
+      "实现了两个版本 Mega-HAT（基于 MegaPose）和 Pico-HAT（基于 PicoPose），在 SPARK-2024、SwissCube、SHIRT 及 YCB-Video 上验证，相比独立帧估计器分别降低平均位姿误差 9.4% / 23.9%，并将吞吐量提升 3.76× / 2.42×。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 5,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -1887,14 +1893,16 @@
     "cover_path": "covers/2609.21521/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21521.webp",
     "paper_image_full_path": "assets/paper-images/2609.21521.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 VidOmni-Bench，一个用于细粒度视频理解评估的基准，核心任务是句子级事件验证（sentence-wise event verification）：模型需判断密集视频描述中的每个句子是否被视频内容所支持。 基准包含 500 个视频，覆盖 5 种时空复杂度类型（Static World、Body Motion、Hand-Object Interaction、Crowd Action、Multi-Scene Dynamics）和 4 秒到 90 分钟的多种时长，用于解耦复杂度和时长对模型性能的影响。 针对现有基准依赖 MCQA 或稀疏 GT 字幕匹配、容易被表面线索或语言先验欺骗的缺陷，VidOmni-Bench 要求模型验证密集、细粒度的事件描述，从而更严格地评估视频时序与事件理解能力。",
+    "research_unit": "Korea University（高丽大学）",
+    "hook_text": "提出 VidOmni-Bench，一个用于细粒度视频理解评估的基准，核心任务是句子级事件验证（sentence-wise event verification）：模型需判断密集视频描述中的每个句子是否被视频内容所支持。",
     "key_points": [
-      "待生成"
+      "提出 VidOmni-Bench，一个用于细粒度视频理解评估的基准，核心任务是句子级事件验证（sentence-wise event verification）：模型需判断密集视频描述中的每个句子是否被视频内容所支持。",
+      "基准包含 500 个视频，覆盖 5 种时空复杂度类型（Static World、Body Motion、Hand-Object Interaction、Crowd Action、Multi-Scene Dynamics）和 4 秒到 90 分钟的多种时长，用于解耦复杂度和时长对模型性能的影响。",
+      "针对现有基准依赖 MCQA 或稀疏 GT 字幕匹配、容易被表面线索或语言先验欺骗的缺陷，VidOmni-Bench 要求模型验证密集、细粒度的事件描述，从而更严格地评估视频时序与事件理解能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 9,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1914,14 +1922,16 @@
     "cover_path": "covers/2609.21480/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21480.webp",
     "paper_image_full_path": "assets/paper-images/2609.21480.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 OpenSAL360，据作者所述是首个开源众包平台，用于大规模、低成本的 360° 全景视频显著性数据采集。 与依赖 VR 头显和眼动仪的传统方案不同，该平台只需普通屏幕、鼠标和网络连接，即可通过众包方式采集显著图。 论文针对全景视频显著性数据采集成本高、扩展难的问题，验证了基于鼠标视口控制的采集协议，并发布目前规模最大的全景视频显著性数据集。",
+    "research_unit": "AI Center, Lomonosov Moscow State University（莫斯科国立大…",
+    "hook_text": "论文提出 OpenSAL360，据作者所述是首个开源众包平台，用于大规模、低成本的 360° 全景视频显著性数据采集。",
     "key_points": [
-      "待生成"
+      "论文提出 OpenSAL360，据作者所述是首个开源众包平台，用于大规模、低成本的 360° 全景视频显著性数据采集。",
+      "与依赖 VR 头显和眼动仪的传统方案不同，该平台只需普通屏幕、鼠标和网络连接，即可通过众包方式采集显著图。",
+      "论文针对全景视频显著性数据采集成本高、扩展难的问题，验证了基于鼠标视口控制的采集协议，并发布目前规模最大的全景视频显著性数据集。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
@@ -1941,14 +1951,16 @@
     "cover_path": "covers/2609.21455/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21455.webp",
     "paper_image_full_path": "assets/paper-images/2609.21455.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文提出 CompAdapt，一个物理一致的文本到视频（T2V）生成框架，用于复杂现实场景下的自适应物理运动生成。 现有 T2V 模型生成的视频在视觉上逼真，但常违反基本物理规律（如重力、碰撞响应、加速度等）；而现有物理约束方法仅支持单一类型运动、依赖人工设定参数，且难以泛化到未知物理环境。 CompAdapt 将自然语言提示词解析为结构化物理语义，支持复合运动建模（耦合运动、多阶段转换、多物体碰撞），并实现单样本（one-shot）适应新物理规律。",
+    "research_unit": "哈尔滨工业大学（Harbin Institute of Technology, China）：Haor…",
+    "hook_text": "本文提出 CompAdapt，一个物理一致的文本到视频（T2V）生成框架，用于复杂现实场景下的自适应物理运动生成。",
     "key_points": [
-      "待生成"
+      "本文提出 CompAdapt，一个物理一致的文本到视频（T2V）生成框架，用于复杂现实场景下的自适应物理运动生成。",
+      "现有 T2V 模型生成的视频在视觉上逼真，但常违反基本物理规律（如重力、碰撞响应、加速度等）；而现有物理约束方法仅支持单一类型运动、依赖人工设定参数，且难以泛化到未知物理环境。",
+      "CompAdapt 将自然语言提示词解析为结构化物理语义，支持复合运动建模（耦合运动、多阶段转换、多物体碰撞），并实现单样本（one-shot）适应新物理规律。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#177e89",
       "to": "#5ec2a8",
@@ -1968,14 +1980,16 @@
     "cover_path": "covers/2609.21386/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21386.webp",
     "paper_image_full_path": "assets/paper-images/2609.21386.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 AgentVidBench，一个多跳视频问答基准，用于评估 MLLM 智能体在空间、时间和因果推理方面的能力。 基准包含 100 个复杂多选题、71 个视频，并附带逐步解决方案轨迹，支持对智能体推理过程进行轨迹级评估。 旨在弥补现有视频基准仅支持单步推理或简单全局理解、缺乏面向多步智能体流程评估的空白。",
+    "research_unit": "KRAFTON（作者所属机构）",
+    "hook_text": "提出 AgentVidBench，一个多跳视频问答基准，用于评估 MLLM 智能体在空间、时间和因果推理方面的能力。",
     "key_points": [
-      "待生成"
+      "提出 AgentVidBench，一个多跳视频问答基准，用于评估 MLLM 智能体在空间、时间和因果推理方面的能力。",
+      "基准包含 100 个复杂多选题、71 个视频，并附带逐步解决方案轨迹，支持对智能体推理过程进行轨迹级评估。",
+      "旨在弥补现有视频基准仅支持单步推理或简单全局理解、缺乏面向多步智能体流程评估的空白。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -1995,14 +2009,16 @@
     "cover_path": "covers/2609.21371/",
     "paper_image_path": "assets/paper-images/thumbs/2609.21371.webp",
     "paper_image_full_path": "assets/paper-images/2609.21371.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 RobotEQ-Video，一个面向 社会主动智能（Social Proactive Intelligence, SPI） 的视频中心基准，将 SPI 研究从静态图像扩展到动态视频。 现有 SPI 研究依赖静态图像，且数据收集流程随意，无法保证场景覆盖的全面性；本文通过构建 世界状态分类法（World-State Taxonomy） 确保视频场景的系统性与多样性。 基准包含 2K+ 视频、100K+ 人类标注和 16K+ 行为标签，并系统评估了 48 个代表性模型，发现当前系统在视频中心 SPI 上仍远未达到人类水平。",
+    "research_unit": "同济大学（State Key Laboratory of Autonomous Intelligent…",
+    "hook_text": "论文提出 RobotEQ-Video，一个面向 社会主动智能（Social Proactive Intelligence, SPI） 的视频中心基准，将 SPI 研究从静态图像扩展到动态视频。",
     "key_points": [
-      "待生成"
+      "论文提出 RobotEQ-Video，一个面向 社会主动智能（Social Proactive Intelligence, SPI） 的视频中心基准，将 SPI 研究从静态图像扩展到动态视频。",
+      "现有 SPI 研究依赖静态图像，且数据收集流程随意，无法保证场景覆盖的全面性；本文通过构建 世界状态分类法（World-State Taxonomy） 确保视频场景的系统性与多样性。",
+      "基准包含 2K+ 视频、100K+ 人类标注和 16K+ 行为标签，并系统评估了 48 个代表性模型，发现当前系统在视频中心 SPI 上仍远未达到人类水平。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -2776,14 +2792,16 @@
     "cover_path": "covers/2609.16946/",
     "paper_image_path": "assets/paper-images/thumbs/2609.16946.webp",
     "paper_image_full_path": "assets/paper-images/2609.16946.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文针对 无参考视频质量评估（NR VQA） 中视频数据量大、深度学习模型计算成本高的问题展开研究 现有高效预处理策略（如 fragmenting）虽然降低计算量，但会改变输入数据分布，限制了预训练 视频基础模型（ViFMs） 的有效复用 提出 HFVQA（High-Fidelity Video Quality Assessment）框架，基于高保真时空补丁与 VQA 专用显著性 学习，实现高效且准确的 NR VQA",
+    "research_unit": "作者为 Hakan Emre Gedik、Shashank Gupta 和 Alan Bovik",
+    "hook_text": "论文针对 无参考视频质量评估（NR VQA） 中视频数据量大、深度学习模型计算成本高的问题展开研究",
     "key_points": [
-      "待生成"
+      "论文针对 无参考视频质量评估（NR VQA） 中视频数据量大、深度学习模型计算成本高的问题展开研究",
+      "现有高效预处理策略（如 fragmenting）虽然降低计算量，但会改变输入数据分布，限制了预训练 视频基础模型（ViFMs） 的有效复用",
+      "提出 HFVQA（High-Fidelity Video Quality Assessment）框架，基于高保真时空补丁与 VQA 专用显著性 学习，实现高效且准确的 NR VQA"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#316b57",
       "to": "#8bb174",
@@ -2803,14 +2821,16 @@
     "cover_path": "covers/2609.16878/",
     "paper_image_path": "assets/paper-images/thumbs/2609.16878.webp",
     "paper_image_full_path": "assets/paper-images/2609.16878.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "针对视频物体移除（VOR）评估中的两大关键缺陷——参考视频不可靠、传统像素级指标（PSNR/SSIM/LPIPS）与人类感知严重不一致，提出 VOR-Bench 基准。 VOR-Bench 包含三个集成组件：提供配对编辑视频与涂鸦掩码的 VORD 数据集、生成真实运动配对视频的 rMPAF 框架，以及基于视觉大模型的 VOR-MDSM 多维评分模型。 实验表明，VOR-Bench 的评估结果与人类主观评价高度一致，相关性达到 ρ > 0.9，显著优于传统指标。",
+    "research_unit": "北京邮电大学（Beijing University of Posts and Telecommunic…",
+    "hook_text": "针对视频物体移除（VOR）评估中的两大关键缺陷——参考视频不可靠、传统像素级指标（PSNR/SSIM/LPIPS）与人类感知严重不一致，提出 VOR-Bench 基准。",
     "key_points": [
-      "待生成"
+      "针对视频物体移除（VOR）评估中的两大关键缺陷——参考视频不可靠、传统像素级指标（PSNR/SSIM/LPIPS）与人类感知严重不一致，提出 VOR-Bench 基准。",
+      "VOR-Bench 包含三个集成组件：提供配对编辑视频与涂鸦掩码的 VORD 数据集、生成真实运动配对视频的 rMPAF 框架，以及基于视觉大模型的 VOR-MDSM 多维评分模型。",
+      "实验表明，VOR-Bench 的评估结果与人类主观评价高度一致，相关性达到 ρ > 0.9，显著优于传统指标。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
