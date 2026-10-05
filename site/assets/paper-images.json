@@ -17249,5 +17249,655 @@
     "inside_figure": true,
     "width": 647,
     "height": 609
+  },
+  "2610.03664": {
+    "title": "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+    "abs_url": "https://arxiv.org/abs/2610.03664",
+    "html_url": "https://arxiv.org/html/2610.03664v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03664v1/main1_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 537,
+        "height": 373,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03664v1/vbvr1_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 466,
+        "height": 755,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03664v1/vbvr2_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 466,
+        "height": 770,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03664v1/ProAR-Model_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 537,
+        "height": 216,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03664v1/analysis1_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 521,
+        "height": 377,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.03664.webp",
+    "image_url": "https://arxiv.org/html/2610.03664v1/main1_cropped.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 537,
+    "height": 373
+  },
+  "2610.03618": {
+    "title": "Low-Cost Video--Time Priors as a Strong Baseline for EEG--fNIRS Emotion Regression on Familiar Videos",
+    "abs_url": "https://arxiv.org/abs/2610.03618",
+    "html_url": "https://arxiv.org/html/2610.03618v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03618v1/method_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "A three-panel overview shows a new viewer watching a familiar\nvideo, the leakage-controlled video--time prior and participant-specific\nEEG--fNIRS branches, and their fixed fusion into a predicted valence--arousal\ntrajectory.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03618v1/external_prediction_quality.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 220,
+        "alt": "Two hexbin plots compare fixed-fusion predictions with observed\nvalence and arousal. Dashed diagonals mark exact prediction, dotted lines mark\nthe neutral score of 128, and predicted arousal is concentrated mid-range.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03618v1/external_video_time_mae.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 230,
+        "alt": "Two side-by-side heatmaps compare video--time prior and fixed\nfusion MAE across 15 videos and ten normalized playback-time bins. Deep blue\ndenotes lower error and orange--red denotes higher error; the strongest\nhotspot occurs in the latter half of video V1.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.03618.webp",
+    "image_url": "https://arxiv.org/html/2610.03618v1/method_overview.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 268
+  },
+  "2610.03691": {
+    "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+    "abs_url": "https://arxiv.org/abs/2610.03691",
+    "html_url": "https://arxiv.org/html/2610.03691v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03691v1/main_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 367,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03691v1/qualitative_comparison_pdf.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 395,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03691v1/data_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 199,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03691v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 306,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03691v1/sonic_qualitative_pdf.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.03691.webp",
+    "image_url": "https://arxiv.org/html/2610.03691v1/main_qualitative.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 367
+  },
+  "2610.03636": {
+    "title": "LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.03636",
+    "html_url": "https://arxiv.org/html/2610.03636v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03636v1/qualitative_figure.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 603,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_figure_panel ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03636v1/method_motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 210,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03636v1/reward_visualize.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 329,
+        "height": 165,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03636v1/reward_localize_method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 291,
+        "height": 126,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03636v1/trajbench.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 220,
+        "height": 134,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2610.03636.webp",
+    "image_url": "https://arxiv.org/html/2610.03636v1/qualitative_figure.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 603
+  },
+  "2610.03391": {
+    "title": "Native Action-Prior Learning from Videos for World Action Models",
+    "abs_url": "https://arxiv.org/abs/2610.03391",
+    "html_url": "https://arxiv.org/html/2610.03391v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03391v1/figure/fig_motion_transfer_additional.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 485,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03391v1/robotwin_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 433,
+        "height": 620,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03391v1/figure/fig_motion_transfer.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 250,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03391v1/pretrain_recon.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 391,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03391v1/fig1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 165,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.03391.webp",
+    "image_url": "https://arxiv.org/html/2610.03391v1/figure/fig_motion_transfer_additional.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 485
+  },
+  "2610.03543": {
+    "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.03543",
+    "html_url": "https://arxiv.org/html/2610.03543v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03543v1/figures/qualitative_result.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 520,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03543v1/more_qualitative_result.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 530,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03543v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03543v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 147,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03543v1/LatentBridge.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 157,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.03543.png",
+    "image_url": "https://arxiv.org/html/2610.03543v1/figures/qualitative_result.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 520
+  },
+  "2610.03400": {
+    "title": "Beyond Entropy: Self-Diagnostic Multi-Role Token Optimization for Video Reasoning",
+    "abs_url": "https://arxiv.org/abs/2610.03400",
+    "html_url": "https://arxiv.org/html/2610.03400v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03400v1/figures/video_holmes_composite.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 259,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03400v1/figures/mmvu_entropy_random50_seed1234_visual_perturbation_entropy_delta_jsd.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 121,
+        "height": 121,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03400v1/figures/mmvu_entropy_random50_seed1234_answer_perturbation_entropy_delta_jsd.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 121,
+        "height": 121,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03400v1/figures/mmvu_longest_cot_mask_analysis_visual_to_answer_coverage.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 139,
+        "height": 122,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03400v1/figures/mmvu_entropy_random50_seed1234_entropy_coverage_visual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 139,
+        "height": 122,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2610.03400.webp",
+    "image_url": "https://arxiv.org/html/2610.03400v1/figures/video_holmes_composite.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 259
+  },
+  "2610.03510": {
+    "title": "Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.03510",
+    "html_url": "https://arxiv.org/html/2610.03510v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03510v1/x3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 541,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03510v1/x5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 584,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03510v1/fig_main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03510v1/x2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 194,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03510v1/x6.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 326,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.03510.webp",
+    "image_url": "https://arxiv.org/html/2610.03510v1/x3.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 541
+  },
+  "2610.03380": {
+    "title": "Interpretable Deepfake Detection in Videos via Explicit Forensic Features and Temporal Modeling",
+    "abs_url": "https://arxiv.org/abs/2610.03380",
+    "html_url": "https://arxiv.org/html/2610.03380v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03380v1/7.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 572,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03380v1/29796_paper.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 150,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.03380.webp",
+    "image_url": "https://arxiv.org/html/2610.03380v1/7.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 572
+  },
+  "2610.03388": {
+    "title": "KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery",
+    "abs_url": "https://arxiv.org/abs/2610.03388",
+    "html_url": "https://arxiv.org/html/2610.03388v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.03388v1/intro_v7.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 338,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03388v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 219,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03388v1/recover_sim_real.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03388v1/images/78_sim_small.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 281,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.03388v1/images/213_small.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.03388.webp",
+    "image_url": "https://arxiv.org/html/2610.03388v1/intro_v7.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 338
   }
 }

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Low-Cost Video--Time Priors as a Strong Baseline for EEG--fNIRS Emotion Regression on Familiar Videos - Video 每日论文卡</title>
+    <meta name="description" content="研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。 核心目标：面向新观众（新被试）在相同时间对齐的熟悉视频上的情绪预测，以平均绝对误差（MAE）为主要指标，比较视频–时间先验、EEG–fNIRS 分支和固定融合的性能。 主要发现：视频–时间先验本身已是强预测器，先验主导的固定融合在内部和外部评估中均达到最低 MAE；EEG–fNIRS 的额外贡献很小且因被试和视频而异，应定位为可选残差信号而非核心解码器。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.03618">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.03618.webp" alt="Low-Cost Video--Time Priors as a Strong Baseline for EEG--fNIRS Emotion Regression on Familiar Videos" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Low-Cost Video--Time Priors as a Strong Baseline for EEG--fNIRS Emotion Regression on Familiar Videos</h1>
+            <div class="detail-meta">2026-10-02 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.03618" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.03618" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.03618</span></div>
+            <p class="detail-summary">研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。 核心目标：面向新观众（新被试）在相同时间对齐的熟悉视频上的情绪预测，以平均绝对误差（MAE）为主要指标，比较视频–时间先验、EEG–fNIRS 分支和固定融合的性能。 主要发现：视频–时间先验本身已是强预测器，先验主导的固定融合在内部和外部评估中均达到最低 MAE；EEG–fNIRS 的额外贡献很小且因被试和视频而异，应定位为可选残差信号而非核心解码器。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">8 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">中山大学（Sun Yat-sen University）电子与通信工程学院（深圳校区）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.03618/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。</p>
+  <ul class="reading-intro-points"><li>研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。</li><li>核心目标：面向新观众（新被试）在相同时间对齐的熟悉视频上的情绪预测，以平均绝对误差（MAE）为主要指标，比较视频–时间先验、EEG–fNIRS 分支和固定融合的性能。</li><li>主要发现：视频–时间先验本身已是强预测器，先验主导的固定融合在内部和外部评估中均达到最低 MAE；EEG–fNIRS 的额外贡献很小且因被试和视频而异，应定位为可选残差信号而非核心解码器。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>中山大学（Sun Yat-sen University）</strong>电子与通信工程学院（深圳校区）</li><li><strong>鹏城实验室（Pengcheng Laboratory）</strong>网络智能部（Department of Network Intelligence）</li><li>通讯作者：<strong>Rongjie Wang</strong>（邮箱：wangrj@pcl.ac.cn）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>研究问题：在<strong>熟悉视频</strong>（familiar-video）场景下，利用 <strong>EEG–fNIRS</strong> 进行连续情绪回归（valence/arousal）时，构建一个<strong>低成本、防泄漏的视频–时间先验</strong>作为强基线，并评估其与生理信号的融合增益。</li><li>核心目标：面向新观众（新被试）在相同时间对齐的熟悉视频上的情绪预测，以<strong>平均绝对误差（MAE）</strong>为主要指标，比较视频–时间先验、EEG–fNIRS 分支和固定融合的性能。</li><li>主要发现：视频–时间先验本身已是强预测器，<strong>先验主导的固定融合</strong>在内部和外部评估中均达到最低 MAE；EEG–fNIRS 的额外贡献很小且因被试和视频而异，应定位为<strong>可选残差信号</strong>而非核心解码器。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出了面向熟悉视频新观众的情绪回归设定，并构建了<strong>折内重建（fold-wise）的视频–时间先验</strong>——仅依赖视频身份和播放时间即可在推理时查询，且严格排除被评估被试的标签，杜绝数据泄漏。</li><li>通过内部 <strong>subject-held-out 五折交叉验证</strong>和外部 <strong>subject-disjoint 评估</strong>，实证证明视频–时间先验是一个低成本强基线，而<strong>先验主导固定融合</strong>在两种评估中均取得最低 MAE。</li><li>设计了 <strong>source-explicit 消融</strong>：将全局水平、视频身份、视频内时间、EEG–fNIRS 四类信息源分离，量化各自对 MAE 降低的贡献，揭示生理信息的增益<strong>小且异质</strong>。</li><li>明确了评估边界：由于 EEG–fNIRS 分支使用 \(t+1\) 上下文，其贡献属于<strong>离线估计</strong>，不构成实时解码能力。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>视频–时间先验</strong>：在每折训练数据中，用跨被试中位数聚合每个 \((v,t)\) 点的 valence/arousal，再做半径 3 的滑动平均平滑；平滑不跨视频边界，且仅使用训练折内标签。</li><li><strong>EEG–fNIRS 分支</strong>：EEG 提取相对对数功率、微分熵、Hjorth 参数（六个频带 1–45 Hz）；fNIRS 提取均值、标准差、斜率、偏度、峰度（六种信号类型）。使用 \(t-1, t, t+1\) 三个一秒段，生成 \(64\times45\) 的 EEG 张量和 \(51\times90\) 的 fNIRS 张量。</li><li><strong>模态编码</strong>：每个模态使用学习邻接的多阶图网络（identity、一阶、二阶传播）编码为 32 维通道嵌入，再通过<strong>四头双向交叉模态注意力</strong>（EEG→fNIRS 和 fNIRS→EEG）交换信息。</li><li><strong>融合策略</strong>：固定凸组合 \(\hat{y}_{s,v,t} = w \odot \bar{p}_{v,t} + (1-w) \odot m_{s,v,t}\)，其中权重 \(w=[0.99, 0.92]\)（valence, arousal），保持先验主导；权重固定且不重新学习，增强可解释性。</li><li><strong>训练细节</strong>：目标缩放到 \([0,1]\)，MSE 损失 + 0.01 对比对齐损失；使用 AdamW、dropout 0.7、早停；所有得分在预测映射回 \([1,255]\) 后计算。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>数据集</strong>：<strong>MER-PS 2026</strong> 训练/验证集——24 名被试、15 个熟悉视频（所有被试观看）、360 个 trial、36,864 个 1 Hz 连续 valence–arousal 标签；每个 trial 含 5 秒静息基线。</li><li><strong>外部测试集</strong>：4 名独立被试、60 个 trial、6,143 个 1 Hz 标签，观看相同 15 个熟悉视频，时间对齐。</li><li><strong>生理数据规模</strong>：EEG 为 <strong>64 通道</strong>，fNIRS 为 <strong>51 通道 × 6 种信号类型</strong>。</li><li><strong>模型规模与资源</strong>：论文未明确披露参数量和 GPU 型号；分支为轻量图网络 + 注意力结构，采用 AdamW 优化，在参与者分组折上训练。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>评估协议</strong>：内部评估采用 5 折 subject-held-out，先验按折重建、模型按折训练；外部评估采用 subject-disjoint（24 人训练，4 人测试），EEG–fNIRS 使用 6 个 checkpoint 集成，先验基于全部 24 名开发被试构建。</li><li><strong>主要指标</strong>：样本池化 <strong>MAE</strong>（overall、valence、arousal），以及作为次级诊断的整体 MSE；所有指标均在 \([1,255]\) 原始标签尺度上计算。</li><li><strong>关键结果</strong>：</li></ul>
+<p> - 内部评估：<strong>固定融合 MAE = 29.01</strong>，视频–时间先验为 29.06（仅差 <strong>0.05</strong>）；二者均为最低。</p>
+<p> - 外部评估：<strong>固定融合 MAE = 27.72</strong>，视频–时间先验为 28.04（差 <strong>0.32</strong>）；先验优于单独 EEG–fNIRS 分支。</p>
+<p> - 单独 EEG–fNIRS 分支的 MAE 显著高于先验。</p>
+<p> - <strong>消融分析</strong>：视频身份和视频内时间贡献了大部分 MAE 降低；EEG–fNIRS 的增益小且在不同被试、视频和时间点之间高度异质。</p>
+<p> - 权重敏感性分析显示，固定权重 \(w=[0.99,0.92]\) 在内部网格上接近最低 MAE，但在外部评估中并非最优（后验诊断），表明权重具有描述性而非普适最优性。</p></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.03636/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.03543/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

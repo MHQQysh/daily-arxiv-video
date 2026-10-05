@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ProAR: Learning Prospective Reasoning with Autoregressive Video Models - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。 核心问题在于：AR 模型在推理时逐步生成视频，早期错误会累积放大，导致局部合理的轨迹偏离最终目标，无法保证任务完成。 ProAR 通过结合显式稀疏的结果监督（outcome guidance） 与隐式密集的过渡监督（transition guidance），将自回归视频生成转化为目标导向的推理过程。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.03664">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.03664.webp" alt="ProAR: Learning Prospective Reasoning with Autoregressive Video Models" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">ProAR: Learning Prospective Reasoning with Autoregressive Video Models</h1>
+            <div class="detail-meta">2026-10-02 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.03664" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.03664" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.03664</span></div>
+            <p class="detail-summary">论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。 核心问题在于：AR 模型在推理时逐步生成视频，早期错误会累积放大，导致局部合理的轨迹偏离最终目标，无法保证任务完成。 ProAR 通过结合显式稀疏的结果监督（outcome guidance） 与隐式密集的过渡监督（transition guidance），将自回归视频生成转化为目标导向的推理过程。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">The Hong Kong Polytechnic University（香港理工大学）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.03664/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。</p>
+  <ul class="reading-intro-points"><li>论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。</li><li>核心问题在于：AR 模型在推理时逐步生成视频，早期错误会累积放大，导致局部合理的轨迹偏离最终目标，无法保证任务完成。</li><li>ProAR 通过结合显式稀疏的结果监督（outcome guidance） 与隐式密集的过渡监督（transition guidance），将自回归视频生成转化为目标导向的推理过程。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>The Hong Kong Polytechnic University</strong>（香港理工大学）</li><li><strong>University of California, Davis</strong>（加州大学戴维斯分校）</li><li><strong>Microsoft</strong>（微软）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>ProAR（Prospective Reasoning with Autoregressive Video Models）</strong> 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。</li><li>核心问题在于：AR 模型在推理时逐步生成视频，早期错误会累积放大，导致局部合理的轨迹偏离最终目标，无法保证任务完成。</li><li>ProAR 通过结合<strong>显式稀疏的结果监督（outcome guidance）</strong> 与<strong>隐式密集的过渡监督（transition guidance）</strong>，将自回归视频生成转化为目标导向的推理过程。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>从推理视角重新审视自回归视频生成，指出缺乏前瞻性引导是 next-chunk 预测的关键缺陷，为视频原生推理提出“结果+过渡”双维度需求。</li><li>提出 <strong>Outcome guidance</strong>：通过非对称注意力掩码将目标帧（goal frame）预测集成到自回归循环中，使动态更新的目标信念引导中间状态生成，且不受当前噪声影响。</li><li>提出 <strong>Transition guidance</strong>：利用 teacher-forcing 单次前向传播中天然可得的干净未来表示，通过轻量级仅训练期使用的预测器实现未来表示自对齐，鼓励当前表示前瞻性地预测下一阶段动态。</li><li>该框架在<strong>13 个视觉推理任务</strong>（VBVR 10 任务子集 + VideoRLVR 3 个抽象推理任务）上取得一致性提升，并展现出较高的训练效率和对具身推理任务的泛化能力。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于<strong>自回归视频扩散模型（Autoregressive Video Diffusion）</strong>，采用 flow matching 和 teacher-forcing 训练，因果注意力掩码保证每个噪声块仅依赖干净的先前块。</li><li><strong>Outcome 机制</strong>：在每个 AR 步骤中，模型用共享骨干网络联合去噪当前块和目标帧；非对称注意力掩码使目标 tokens 只关注干净历史与自身（不受噪声当前块干扰），而当前 tokens 额外关注目标 tokens，从而引导生成方向。</li><li><strong>Transition 机制</strong>：从骨干网络中提取中间层（middle layer）特征，将干净下一块表示（teacher）与噪声当前块表示（student）进行 token-wise 余弦距离对齐；使用默认 3 个 transformer 块的轻量级预测器，训练后完全移除，推理零开销。</li><li><strong>总体目标</strong>：联合优化当前块 AR 损失、目标帧预测损失与表示对齐损失，推理时仅通过动态更新的目标信念与学到的预期表示进行自回归生成。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>VBVR</strong>（10 任务子集，涵盖感知与空间推理）</li><li><strong>VideoRLVR</strong>（3 个抽象推理任务）</li><li><strong>WorldArena</strong> 具身推理仿真基准</li><li>模型基于<strong>因果 DiT（Diffusion Transformer）</strong>架构，具体参数量与 GPU 数量详见论文附录实现细节（本文未截断到具体数值）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>VBVR（10 任务子集）</strong>：ProAR 将平均分从标准 AR 的 <strong>0.663 提升至 0.801</strong>。</li><li><strong>VideoRLVR</strong>：平均成功率从 <strong>50.97 提升至 52.97</strong>。</li><li><strong>训练效率</strong>：ProAR 仅用 <strong>25% 的训练步数</strong>即超越完全训练的标准 AR 基线。</li><li><strong>消融实验</strong>：Outcome 与 Transition 两个模块在不同任务上提供互补性增益，结果一致优于单独使用任一模块。</li><li><strong>泛化性</strong>：在 WorldArena 具身推理基准上取得一致性改进，验证了框架的适用性。</li><li>定性结果表明标准 AR 容易因局部视觉合理性导致轨迹漂移和任务失败，而 ProAR 能够保持目标导向的连贯推理过程。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.03691/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">FlowHMR: Physically Plausible Motion Capture from Video</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.03636/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

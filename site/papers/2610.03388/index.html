@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。 针对三大缺陷，论文分别提出三段式解决方案：物理引导的抛物线轨迹修正（C1）、伪低动能采样（C2）、统一鲁棒策略（C3），并构建了一个由国家级武术运动员视频构成的 KungfuAthlete 数据集。 核心主张是：这三大缺陷不是工程细节，而是从视频学习高动态动作的实际障碍，必须联合解决；修复和补偿视频数据（而非仅收集更多数据）才是解锁高动态人形技能的关键。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.03388">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.03388.webp" alt="KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery</h1>
+            <div class="detail-meta">2026-10-02 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.03388" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.03388" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.03388</span></div>
+            <p class="detail-summary">论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。 针对三大缺陷，论文分别提出三段式解决方案：物理引导的抛物线轨迹修正（C1）、伪低动能采样（C2）、统一鲁棒策略（C3），并构建了一个由国家级武术运动员视频构成的 KungfuAthlete 数据集。 核心主张是：这三大缺陷不是工程细节，而是从视频学习高动态动作的实际障碍，必须联合解决；修复和补偿视频数据（而非仅收集更多数据）才是解锁高动态人形技能的关键。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">8 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">北京理工大学（Beijing Institute of Technology）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.03388/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。</p>
+  <ul class="reading-intro-points"><li>论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。</li><li>针对三大缺陷，论文分别提出三段式解决方案：物理引导的抛物线轨迹修正（C1）、伪低动能采样（C2）、统一鲁棒策略（C3），并构建了一个由国家级武术运动员视频构成的 KungfuAthlete 数据集。</li><li>核心主张是：这三大缺陷不是工程细节，而是从视频学习高动态动作的实际障碍，必须联合解决；修复和补偿视频数据（而非仅收集更多数据）才是解锁高动态人形技能的关键。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>北京理工大学</strong>（Beijing Institute of Technology）</li><li><strong>QIYUAN Lab</strong>（奇源实验室，通讯作者所在单位）</li><li>作者包括 Zhongxiang Lei、Lulu Cao、Xuyang Wang、Tianyi Qian、Jinyan Liu、Xuesong Li，其中 Cao 和 Wang 为同等贡献</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>KungfuAthleteBot (KAB)</strong> 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。</li><li>针对三大缺陷，论文分别提出三段式解决方案：<strong>物理引导的抛物线轨迹修正</strong>（C1）、<strong>伪低动能采样</strong>（C2）、<strong>统一鲁棒策略</strong>（C3），并构建了一个由国家级武术运动员视频构成的 <strong>KungfuAthlete 数据集</strong>。</li><li>核心主张是：这三大缺陷不是工程细节，而是从视频学习高动态动作的实际障碍，必须联合解决；修复和补偿视频数据（而非仅收集更多数据）才是解锁高动态人形技能的关键。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li><strong>构建 KungfuAthlete 数据集（解决 C1）</strong>：与国家级武术运动员合作，采集 197 个训练视频，自动分割为 1,726 个子片段，经重建和重定向后用于 Unitree G1 人形机器人，覆盖地面动作（822 实例）和腾空动作（170 实例）。</li><li><strong>物理感知的视频伪影修复（解决 C1）</strong>：提出地面对齐、事件感知传播、接触检测、弹道（恒加速）插值、穿透消除和 Savitzky–Golay 平滑的完整修复流程，恢复而非丢弃跳跃片段中最高价值的动态数据。</li><li><strong>伪低动能采样 LKE（解决 C2）</strong>：提出物理驱动的初始状态分布采样机制，基于参考轨迹的动能代理计算 softmin 概率，偏置初始化到动态可行状态，避免策略在不可行的腾空位姿上浪费学习容量。</li><li><strong>统一鲁棒恢复策略（解决 C3）</strong>：提出单一策略同时完成视频运动跟踪、外部扰动抑制和任意跌倒恢复，无需恢复参考数据和手动模式切换，在真实机器人上实现约 <strong>0.7 秒</strong> 的恢复时间。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>视频到机器人轨迹管线</strong>：视频 → GVHMR 运动重建 → GMR 运动重定向 → 机器人参考轨迹，随后通过修复和补偿两个阶段解决管线中的断裂点。</li><li><strong>物理引导的轨迹修复</strong>：以最低身体点高度为准对齐地面，通过有限差分检测局部极值确定接触点，对飞行段使用恒定加速度模型 <code>P(t) = P(t_M) - ½g(t-t_M)²</code> 进行弹道插值，再消除残余穿透和用 Savitzky–Golay 滤除高频抖动。</li><li><strong>LKE 采样</strong>：定义伪动能 <code>E_t = Σ(v_joint)² + Σ‖v_lin‖² + Σ‖ω_ang‖²</code>，经 <code>E'_t = max(E_t, E_0)</code> 下限约束后，用 softmin 分布 <code>p_t = exp(-E'_t) / Σ exp(-E'_j)</code> 采样初始帧；与 BeyondMimic 的错误驱动自适应采样形成对比。</li><li><strong>统一策略训练</strong>：初始状态从参考帧和重力扰动随机跌倒状态（GRSI）的伯努利混合分布中采样，参考条件跟踪奖励与恢复惩罚（脚高、膝部抖动、脚滑、根部旋转）联合优化，全程使用 FastSAC 分布演员-评论家算法。</li><li><strong>课程学习</strong>：渐进式容差课程与 LKE 采样互补，使策略逐步从容易的跟踪到高动态动作过渡。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>KungfuAthlete 数据集</strong>：197 个训练视频，1,726 个子片段，992 个标注实例（Ground 822 / Jump 170），其中 848 个筛选样本公开；以 30 fps 机器人 qpos 格式存储（3 位置 + 4 四元数 + 29 DoF）。</li><li><strong>数据集对比统计</strong>：KungfuAthlete (Jump) 的身体线速度均值 0.948±0.473 m/s、角速度均值 2.832±1.431 rad/s，高于 AMASS、PHUMA、LAFAN1 等对比数据集；Ground 子集介于 LAFAN1 与 AMASS 之间。</li><li><strong>机器人平台</strong>：<strong>Unitree G1</strong> 人形机器人；运动重建使用 <strong>GVHMR</strong>，重定向使用 <strong>GMR</strong>。</li><li><strong>开源内容</strong>：重定向参考轨迹、SMPL-H 重建运动、分割索引、高度校正代码、训练脚本和训练好的跌倒恢复 checkpoint；完整数据集将在论文接收后以 MIT 许可证公开。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>评估设置</strong>：在模拟环境中训练和测试，并在真实 Unitree G1 硬件上验证；对比方法包括 BeyondMimic 等单阶段直接跟踪基线。</li><li><strong>主要评估指标</strong>：运动跟踪质量（关节位置/速度误差）、恢复时间、鲁棒性（外部扰动下的成功率和恢复速度）。</li><li><strong>关键实验结果</strong>：单阶段严格跟踪基线在不可行参考上完全失败（Fig.4a）；LKE 采样显著优于错误驱动的自适应采样；统一策略实现约 <strong>0.7 秒</strong> 的最快恢复时间（已知文献中统一策略最快）。</li><li><strong>消融实验</strong>：四项消融分别验证了（i）恢复奖励不损害跟踪性能，（ii）仅恢复组件不充分，（iii）联合设计有效，（iv）每个奖励项都必不可少，证明三个组件缺一不可。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.03391/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Native Action-Prior Learning from Videos for World Action Models</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.03380/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Interpretable Deepfake Detection in Videos via Explicit Forensic Features and Temporal Modeling</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

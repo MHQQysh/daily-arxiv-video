@@ -1,5 +1,295 @@
 [
   {
+    "date": "2026-10-02",
+    "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+    "link": "https://arxiv.org/abs/2610.03691",
+    "arxiv_id": "2610.03691",
+    "detail_path": "papers/2610.03691/",
+    "cover_path": "covers/2610.03691/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03691.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03691.webp",
+    "preview_text": "提出 FlowHMR 框架，用于从单目视频中恢复物理上合理的全局 3D 人体运动。 将视频运动捕获建模为视频条件下的运动生成问题，先用流匹配（Flow Matching）预训练生成模型，再用 GRPO（分组相对策略优化）进行基于物理反馈的后训练。 旨在解决直接回归方法在深度模糊下单帧预测趋于平均化、且恢复运动缺乏物理合理性导致仿真追踪失败的问题。",
+    "research_unit": "北京大学（Peking University）",
+    "hook_text": "提出 FlowHMR 框架，用于从单目视频中恢复物理上合理的全局 3D 人体运动。",
+    "key_points": [
+      "提出 FlowHMR 框架，用于从单目视频中恢复物理上合理的全局 3D 人体运动。",
+      "将视频运动捕获建模为视频条件下的运动生成问题，先用流匹配（Flow Matching）预训练生成模型，再用 GRPO（分组相对策略优化）进行基于物理反馈的后训练。",
+      "旨在解决直接回归方法在深度模糊下单帧预测趋于平均化、且恢复运动缺乏物理合理性导致仿真追踪失败的问题。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+    "link": "https://arxiv.org/abs/2610.03664",
+    "arxiv_id": "2610.03664",
+    "detail_path": "papers/2610.03664/",
+    "cover_path": "covers/2610.03664/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03664.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03664.webp",
+    "preview_text": "论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。 核心问题在于：AR 模型在推理时逐步生成视频，早期错误会累积放大，导致局部合理的轨迹偏离最终目标，无法保证任务完成。 ProAR 通过结合显式稀疏的结果监督（outcome guidance） 与隐式密集的过渡监督（transition guidance），将自回归视频生成转化为目标导向的推理过程。",
+    "research_unit": "The Hong Kong Polytechnic University（香港理工大学）",
+    "hook_text": "论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。",
+    "key_points": [
+      "论文提出 ProAR（Prospective Reasoning with Autoregressive Video Models） 框架，旨在解决自回归（AR）视频模型在推理导向生成任务中的根本性局限——标准 next-chunk 预测只优化局部视觉合理性，缺乏对目标结果和任务进度的前瞻性引导。",
+      "核心问题在于：AR 模型在推理时逐步生成视频，早期错误会累积放大，导致局部合理的轨迹偏离最终目标，无法保证任务完成。",
+      "ProAR 通过结合显式稀疏的结果监督（outcome guidance） 与隐式密集的过渡监督（transition guidance），将自回归视频生成转化为目标导向的推理过程。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation",
+    "link": "https://arxiv.org/abs/2610.03636",
+    "arxiv_id": "2610.03636",
+    "detail_path": "papers/2610.03636/",
+    "cover_path": "covers/2610.03636/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03636.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03636.webp",
+    "preview_text": "论文聚焦于相机控制的视频生成模型在长时程生成中出现的 3D 不一致性问题：物体失去持久性、场景结构偏移、局部伪影等 指出现有 post-training 方法（如 DPO、Flow-GRPO）对整个视频仅分配单一标量奖励，缺乏细粒度 credit assignment，难以纠正长时程生成中高度局部化的 3D 不一致错误 提出 LoGo，一种融合全局奖励与空间局部化奖励的后训练方法：局部奖励负责精准定位不一致区域并显著提升 3D 一致性，全局奖励保持相机跟随精度与视频质量",
+    "research_unit": "California Institute of Technology（加州理工学院）",
+    "hook_text": "论文聚焦于相机控制的视频生成模型在长时程生成中出现的 3D 不一致性问题：物体失去持久性、场景结构偏移、局部伪影等",
+    "key_points": [
+      "论文聚焦于相机控制的视频生成模型在长时程生成中出现的 3D 不一致性问题：物体失去持久性、场景结构偏移、局部伪影等",
+      "指出现有 post-training 方法（如 DPO、Flow-GRPO）对整个视频仅分配单一标量奖励，缺乏细粒度 credit assignment，难以纠正长时程生成中高度局部化的 3D 不一致错误",
+      "提出 LoGo，一种融合全局奖励与空间局部化奖励的后训练方法：局部奖励负责精准定位不一致区域并显著提升 3D 一致性，全局奖励保持相机跟随精度与视频质量"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Low-Cost Video--Time Priors as a Strong Baseline for EEG--fNIRS Emotion Regression on Familiar Videos",
+    "link": "https://arxiv.org/abs/2610.03618",
+    "arxiv_id": "2610.03618",
+    "detail_path": "papers/2610.03618/",
+    "cover_path": "covers/2610.03618/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03618.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03618.webp",
+    "preview_text": "研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。 核心目标：面向新观众（新被试）在相同时间对齐的熟悉视频上的情绪预测，以平均绝对误差（MAE）为主要指标，比较视频–时间先验、EEG–fNIRS 分支和固定融合的性能。 主要发现：视频–时间先验本身已是强预测器，先验主导的固定融合在内部和外部评估中均达到最低 MAE；EEG–fNIRS 的额外贡献很小且因被试和视频而异，应定位为可选残差信号而非核心解码器。",
+    "research_unit": "中山大学（Sun Yat-sen University）电子与通信工程学院（深圳校区）",
+    "hook_text": "研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。",
+    "key_points": [
+      "研究问题：在熟悉视频（familiar-video）场景下，利用 EEG–fNIRS 进行连续情绪回归（valence/arousal）时，构建一个低成本、防泄漏的视频–时间先验作为强基线，并评估其与生理信号的融合增益。",
+      "核心目标：面向新观众（新被试）在相同时间对齐的熟悉视频上的情绪预测，以平均绝对误差（MAE）为主要指标，比较视频–时间先验、EEG–fNIRS 分支和固定融合的性能。",
+      "主要发现：视频–时间先验本身已是强预测器，先验主导的固定融合在内部和外部评估中均达到最低 MAE；EEG–fNIRS 的额外贡献很小且因被试和视频而异，应定位为可选残差信号而非核心解码器。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
+    "link": "https://arxiv.org/abs/2610.03543",
+    "arxiv_id": "2610.03543",
+    "detail_path": "papers/2610.03543/",
+    "cover_path": "covers/2610.03543/",
+    "paper_image_path": "assets/paper-images/2610.03543.png",
+    "paper_image_full_path": "assets/paper-images/2610.03543.png",
+    "preview_text": "提出 DuoMatching，一个面向少步视频生成的联合-边缘分布匹配框架，旨在解决现有分布匹配蒸馏（DMD）方法在视频生成中存在的视觉质量和语义对齐不足问题。 现有联合 DMD 仅通过视频教师模型匹配帧间联合分布，缺乏对单帧边缘分布的显式约束，导致生成视频的帧级细节（如羽毛、毛皮）和语义一致性仍有缺陷。 DuoMatching 通过联合 DMD 和边缘 DMD 的组合，同时利用视频教师和图像教师的互补先验，在保持时间一致性的同时提升帧级视觉质量和语义对齐。",
+    "research_unit": "MMLab, CUHK（香港中文大学多媒体实验室）",
+    "hook_text": "提出 DuoMatching，一个面向少步视频生成的联合-边缘分布匹配框架，旨在解决现有分布匹配蒸馏（DMD）方法在视频生成中存在的视觉质量和语义对齐不足问题。",
+    "key_points": [
+      "提出 DuoMatching，一个面向少步视频生成的联合-边缘分布匹配框架，旨在解决现有分布匹配蒸馏（DMD）方法在视频生成中存在的视觉质量和语义对齐不足问题。",
+      "现有联合 DMD 仅通过视频教师模型匹配帧间联合分布，缺乏对单帧边缘分布的显式约束，导致生成视频的帧级细节（如羽毛、毛皮）和语义一致性仍有缺陷。",
+      "DuoMatching 通过联合 DMD 和边缘 DMD 的组合，同时利用视频教师和图像教师的互补先验，在保持时间一致性的同时提升帧级视觉质量和语义对齐。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Weave Forcing: Compositional Memory Routing for Interactive Long Video Generation",
+    "link": "https://arxiv.org/abs/2610.03510",
+    "arxiv_id": "2610.03510",
+    "detail_path": "papers/2610.03510/",
+    "cover_path": "covers/2610.03510/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03510.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03510.webp",
+    "preview_text": "论文提出 Weave Forcing，一个训练免费（training-free） 的框架，用于交互式长视频生成中的组合式记忆复用（compositional memory reuse）。 解决的问题：当新镜头需要组合来自不同历史镜头中的角色和背景时，现有方法要么引入过多无关内容，要么因全局提示检索而遗漏必要参考，难以实现精细的跨镜头一致性。 核心思路：通过语义槽路由、掩码记忆编织和自适应位置编码，实现“恰到好处”的历史内容选择性复用。",
+    "research_unit": "电子科技大学（University of Electronic Science and Technol…",
+    "hook_text": "论文提出 Weave Forcing，一个训练免费（training-free） 的框架，用于交互式长视频生成中的组合式记忆复用（compositional memory reuse）。",
+    "key_points": [
+      "论文提出 Weave Forcing，一个训练免费（training-free） 的框架，用于交互式长视频生成中的组合式记忆复用（compositional memory reuse）。",
+      "解决的问题：当新镜头需要组合来自不同历史镜头中的角色和背景时，现有方法要么引入过多无关内容，要么因全局提示检索而遗漏必要参考，难以实现精细的跨镜头一致性。",
+      "核心思路：通过语义槽路由、掩码记忆编织和自适应位置编码，实现“恰到好处”的历史内容选择性复用。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Beyond Entropy: Self-Diagnostic Multi-Role Token Optimization for Video Reasoning",
+    "link": "https://arxiv.org/abs/2610.03400",
+    "arxiv_id": "2610.03400",
+    "detail_path": "papers/2610.03400/",
+    "cover_path": "covers/2610.03400/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03400.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03400.webp",
+    "preview_text": "针对视频推理中强化学习（RL）的token级信用分配难题，现有方法存在三类核心缺陷：朴素熵启发式易导致模型过度依赖高熵视觉激活产生冗长推理、反事实视觉定位方法过度优先视觉探索而忽略答案推导的关键推理线索、静态反事实策略无法与训练策略协同进化 论文提出DyCPO共进化框架，通过构建多角色依赖度量平衡视觉探索与答案相关性挖掘，同时引入自适应反事实干预机制，解决上述现有方法的局限性 目标是建立可靠、可解释且鲁棒的多模态RL token级信用分配范式，提升复杂视频推理任务的性能",
+    "research_unit": "City University of Hong Kong",
+    "hook_text": "针对视频推理中强化学习（RL）的token级信用分配难题，现有方法存在三类核心缺陷：朴素熵启发式易导致模型过度依赖高熵视觉激活产生冗长推理、反事实视觉定位方法过度优先视觉探索而忽略答案推导的关键推理线索、静态反事实策略无法与训练策略协同进化",
+    "key_points": [
+      "针对视频推理中强化学习（RL）的token级信用分配难题，现有方法存在三类核心缺陷：朴素熵启发式易导致模型过度依赖高熵视觉激活产生冗长推理、反事实视觉定位方法过度优先视觉探索而忽略答案推导的关键推理线索、静态反事实策略无法与训练策略协同进化",
+      "论文提出DyCPO共进化框架，通过构建多角色依赖度量平衡视觉探索与答案相关性挖掘，同时引入自适应反事实干预机制，解决上述现有方法的局限性",
+      "目标是建立可靠、可解释且鲁棒的多模态RL token级信用分配范式，提升复杂视频推理任务的性能"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Native Action-Prior Learning from Videos for World Action Models",
+    "link": "https://arxiv.org/abs/2610.03391",
+    "arxiv_id": "2610.03391",
+    "detail_path": "papers/2610.03391/",
+    "cover_path": "covers/2610.03391/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03391.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03391.webp",
+    "preview_text": "论文提出 NAVA-WAM，一种新型世界动作模型（WAM），通过原生动作先验学习（native action-prior learning） 直接从仅观测视频（observation-only videos） 中预训练动作策略，无需动作标注。 核心挑战在于：现有的两类利用观测视频的方法均存在局限——视觉表征学习 存在间接表征到控制的迁移问题，潜动作学习 需要额外的中间建模阶段并可能引入表征瓶颈。 NAVA-WAM 通过统一的 Mixture-of-Transformers（MoT）架构，让未来视频预测目标直接优化动作策略（Action-DiT），并实现高效的动作专用推理（action-only inference）。",
+    "research_unit": "Meta AI",
+    "hook_text": "论文提出 NAVA-WAM，一种新型世界动作模型（WAM），通过原生动作先验学习（native action-prior learning） 直接从仅观测视频（observation-only videos） 中预训练动作策略，无需动作标注。",
+    "key_points": [
+      "论文提出 NAVA-WAM，一种新型世界动作模型（WAM），通过原生动作先验学习（native action-prior learning） 直接从仅观测视频（observation-only videos） 中预训练动作策略，无需动作标注。",
+      "核心挑战在于：现有的两类利用观测视频的方法均存在局限——视觉表征学习 存在间接表征到控制的迁移问题，潜动作学习 需要额外的中间建模阶段并可能引入表征瓶颈。",
+      "NAVA-WAM 通过统一的 Mixture-of-Transformers（MoT）架构，让未来视频预测目标直接优化动作策略（Action-DiT），并实现高效的动作专用推理（action-only inference）。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery",
+    "link": "https://arxiv.org/abs/2610.03388",
+    "arxiv_id": "2610.03388",
+    "detail_path": "papers/2610.03388/",
+    "cover_path": "covers/2610.03388/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03388.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03388.webp",
+    "preview_text": "论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。 针对三大缺陷，论文分别提出三段式解决方案：物理引导的抛物线轨迹修正（C1）、伪低动能采样（C2）、统一鲁棒策略（C3），并构建了一个由国家级武术运动员视频构成的 KungfuAthlete 数据集。 核心主张是：这三大缺陷不是工程细节，而是从视频学习高动态动作的实际障碍，必须联合解决；修复和补偿视频数据（而非仅收集更多数据）才是解锁高动态人形技能的关键。",
+    "research_unit": "北京理工大学（Beijing Institute of Technology）",
+    "hook_text": "论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。",
+    "key_points": [
+      "论文提出 KungfuAthleteBot (KAB) 框架，旨在从视频中学习高动态人形机器人运动（如武术空翻、腾空击打等），核心问题是修复视频重建运动数据中的三大缺陷：物理不一致性、缺乏驱动信息、缺少失败恢复模型。",
+      "针对三大缺陷，论文分别提出三段式解决方案：物理引导的抛物线轨迹修正（C1）、伪低动能采样（C2）、统一鲁棒策略（C3），并构建了一个由国家级武术运动员视频构成的 KungfuAthlete 数据集。",
+      "核心主张是：这三大缺陷不是工程细节，而是从视频学习高动态动作的实际障碍，必须联合解决；修复和补偿视频数据（而非仅收集更多数据）才是解锁高动态人形技能的关键。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Interpretable Deepfake Detection in Videos via Explicit Forensic Features and Temporal Modeling",
+    "link": "https://arxiv.org/abs/2610.03380",
+    "arxiv_id": "2610.03380",
+    "detail_path": "papers/2610.03380/",
+    "cover_path": "covers/2610.03380/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.03380.webp",
+    "paper_image_full_path": "assets/paper-images/2610.03380.webp",
+    "preview_text": "本文提出一种可解释的深度伪造视频检测框架，通过显式编码物理驱动的取证线索，建模视频序列中空间与时间上连贯的面部特征。 与依赖隐式表示的端到端深度模型不同，该方法将视频转换为身份一致的面部轨迹，分割为固定长度时间窗口，并用68个结构化描述符（涵盖光度、纹理、几何和压缩四类）表示每帧，再通过LSTM捕捉时间依赖和细微异常。 论文要解决的问题是：深度伪造视频在单帧上可能视觉一致，但存在微妙的时间不一致性；现有端到端方法缺乏可解释性且易过拟合于数据集特定伪影。",
+    "research_unit": "LARIVIA实验室（加拿大魁北克大学乌塔韦校区，计算机科学与工程系）",
+    "hook_text": "本文提出一种可解释的深度伪造视频检测框架，通过显式编码物理驱动的取证线索，建模视频序列中空间与时间上连贯的面部特征。",
+    "key_points": [
+      "本文提出一种可解释的深度伪造视频检测框架，通过显式编码物理驱动的取证线索，建模视频序列中空间与时间上连贯的面部特征。",
+      "与依赖隐式表示的端到端深度模型不同，该方法将视频转换为身份一致的面部轨迹，分割为固定长度时间窗口，并用68个结构化描述符（涵盖光度、纹理、几何和压缩四类）表示每帧，再通过LSTM捕捉时间依赖和细微异常。",
+      "论文要解决的问题是：深度伪造视频在单帧上可能视觉一致，但存在微妙的时间不一致性；现有端到端方法缺乏可解释性且易过拟合于数据集特定伪影。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-01",
     "title": "ROWBench: Do Video Models Render What the Program Specifies?",
     "link": "https://arxiv.org/abs/2610.02205",
@@ -2850,14 +3140,16 @@
     "cover_path": "covers/2609.16870/",
     "paper_image_path": "assets/paper-images/thumbs/2609.16870.webp",
     "paper_image_full_path": "assets/paper-images/2609.16870.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "提出 TCNeRV，一种用于隐式神经视频压缩（INR）的框架，解决现有视频INR中帧独立解码、内容嵌入缺乏显式时间预测的问题。 核心思路是在特征域和嵌入域同时利用先前的重建帧建立因果时间上下文：通过 MTCF 在解码特征域进行多尺度门控融合，通过 TERC 在内容嵌入域进行预测残差编码。 在UVG数据集上以约3M参数实现平均PSNR 36.08 dB，显著优于 HNeRV-Boost（+2.20 dB），并降低BD-rate。",
+    "research_unit": "哈尔滨工程大学信息与通信工程学科",
+    "hook_text": "提出 TCNeRV，一种用于隐式神经视频压缩（INR）的框架，解决现有视频INR中帧独立解码、内容嵌入缺乏显式时间预测的问题。",
     "key_points": [
-      "待生成"
+      "提出 TCNeRV，一种用于隐式神经视频压缩（INR）的框架，解决现有视频INR中帧独立解码、内容嵌入缺乏显式时间预测的问题。",
+      "核心思路是在特征域和嵌入域同时利用先前的重建帧建立因果时间上下文：通过 MTCF 在解码特征域进行多尺度门控融合，通过 TERC 在内容嵌入域进行预测残差编码。",
+      "在UVG数据集上以约3M参数实现平均PSNR 36.08 dB，显著优于 HNeRV-Boost（+2.20 dB），并降低BD-rate。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
@@ -2877,14 +3169,16 @@
     "cover_path": "covers/2609.16737/",
     "paper_image_path": "assets/paper-images/thumbs/2609.16737.webp",
     "paper_image_full_path": "assets/paper-images/2609.16737.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 CueNav，一种基于生成式视频模型的机器人导航框架，通过视觉提示引导视频规划，并结合实施例特定的逆动力学模型（IDM）实现视频到动作的翻译。 针对现有视频规划方法依赖局部方向指令、未考虑机器人物理特性、以及需要额外几何重建和下游控制器的问题，CueNav 通过 BEV 地图提供全局任务上下文、保留部分机器人身体作为实施例提示，并用光流场直接推断连续动作。 实验表明 CueNav 在迷宫导航中成功率较无提示规划提升近 2倍，在狭窄通道中达到 70% 成功率，支持零样本语义条件导航和跨机器人平台部署。",
+    "research_unit": "慕尼黑工业大学（Technical University of Munich） Munich Inst…",
+    "hook_text": "论文提出 CueNav，一种基于生成式视频模型的机器人导航框架，通过视觉提示引导视频规划，并结合实施例特定的逆动力学模型（IDM）实现视频到动作的翻译。",
     "key_points": [
-      "待生成"
+      "论文提出 CueNav，一种基于生成式视频模型的机器人导航框架，通过视觉提示引导视频规划，并结合实施例特定的逆动力学模型（IDM）实现视频到动作的翻译。",
+      "针对现有视频规划方法依赖局部方向指令、未考虑机器人物理特性、以及需要额外几何重建和下游控制器的问题，CueNav 通过 BEV 地图提供全局任务上下文、保留部分机器人身体作为实施例提示，并用光流场直接推断连续动作。",
+      "实验表明 CueNav 在迷宫导航中成功率较无提示规划提升近 2倍，在狭窄通道中达到 70% 成功率，支持零样本语义条件导航和跨机器人平台部署。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -3223,14 +3517,16 @@
     "cover_path": "covers/2609.10008/",
     "paper_image_path": "assets/paper-images/thumbs/2609.10008.webp",
     "paper_image_full_path": "assets/paper-images/2609.10008.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文解决 Composed Video Retrieval (CoVR) 任务：根据源视频和自然语言修改描述，从视频库中检索目标视频 核心矛盾：紧致嵌入向量支持高效可复用的检索，但难以捕捉瞬态动作、状态变化等细粒度视频推理需求；而大模型统一推理又牺牲可扩展性 提出 CoVRAGE 框架，一个 完全无需训练 (training-free) 的级联系统，通过置信度门控的深度自适应扩展（Adaptive Gated Escalation），将冻结基础模型分配到互补角色，按查询难度调整推理深度",
+    "research_unit": "Mohamed bin Zayed University of Artificial Intellig…",
+    "hook_text": "论文解决 Composed Video Retrieval (CoVR) 任务：根据源视频和自然语言修改描述，从视频库中检索目标视频",
     "key_points": [
-      "待生成"
+      "论文解决 Composed Video Retrieval (CoVR) 任务：根据源视频和自然语言修改描述，从视频库中检索目标视频",
+      "核心矛盾：紧致嵌入向量支持高效可复用的检索，但难以捕捉瞬态动作、状态变化等细粒度视频推理需求；而大模型统一推理又牺牲可扩展性",
+      "提出 CoVRAGE 框架，一个 完全无需训练 (training-free) 的级联系统，通过置信度门控的深度自适应扩展（Adaptive Gated Escalation），将冻结基础模型分配到互补角色，按查询难度调整推理深度"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 5,
+    "section_count": 6,
     "cover_theme": {
       "from": "#ef6c3f",
       "to": "#f6b13d",
