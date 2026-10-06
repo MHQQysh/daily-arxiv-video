@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。 论文基于&quot;串行缩放假说&quot;提出：双向扩散模型在早期去噪阶段会为不同时空区域分配局部合理但互不兼容的事件，导致后续生成出现突变或无效转换。因此，S2PD 在高噪声阶段采用自回归（串行）扩散以协调因果依赖事件，在低噪声阶段切换为并行扩散以联合精炼整个视频。 论文在自研游戏/模拟数据集及真实视频上验证了 S2PD 在规则遵循、物理一致性、时域稳定性和采样效率方面均优于匹配的双向基线及其他串行方法。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.06847">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.06847.webp" alt="S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation</h1>
+            <div class="detail-meta">2026-10-05 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.06847" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.06847" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.06847</span></div>
+            <p class="detail-summary">论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。 论文基于&quot;串行缩放假说&quot;提出：双向扩散模型在早期去噪阶段会为不同时空区域分配局部合理但互不兼容的事件，导致后续生成出现突变或无效转换。因此，S2PD 在高噪声阶段采用自回归（串行）扩散以协调因果依赖事件，在低噪声阶段切换为并行扩散以联合精炼整个视频。 论文在自研游戏/模拟数据集及真实视频上验证了 S2PD 在规则遵循、物理一致性、时域稳定性和采样效率方面均优于匹配的双向基线及其他串行方法。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">8 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">University of Cambridge（作者：Jeffrey Hu、Ayush Tewari）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.06847/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。</p>
+  <ul class="reading-intro-points"><li>论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。</li><li>论文基于&quot;串行缩放假说&quot;提出：双向扩散模型在早期去噪阶段会为不同时空区域分配局部合理但互不兼容的事件，导致后续生成出现突变或无效转换。因此，S2PD 在高噪声阶段采用自回归（串行）扩散以协调因果依赖事件，在低噪声阶段切换为并行扩散以联合精炼整个视频。</li><li>论文在自研游戏/模拟数据集及真实视频上验证了 S2PD 在规则遵循、物理一致性、时域稳定性和采样效率方面均优于匹配的双向基线及其他串行方法。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>University of Cambridge</strong>（作者：Jeffrey Hu、Ayush Tewari）</li><li><strong>Toyota Motor Europe</strong>（作者：Daniel Olmeda Reino）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>S2PD（Serial-to-Parallel Diffusion）</strong> 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。</li><li>论文基于"串行缩放假说"提出：双向扩散模型在早期去噪阶段会为不同时空区域分配局部合理但互不兼容的事件，导致后续生成出现突变或无效转换。因此，S2PD 在高噪声阶段采用自回归（串行）扩散以协调因果依赖事件，在低噪声阶段切换为并行扩散以联合精炼整个视频。</li><li>论文在自研游戏/模拟数据集及真实视频上验证了 S2PD 在规则遵循、物理一致性、时域稳定性和采样效率方面均优于匹配的双向基线及其他串行方法。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>S2PD</strong> 采样框架：分两阶段——第一阶段在高噪声区间（默认 τ=0.6）执行块级自回归去噪，第二阶段将全视频作为单一块进行并行去噪，兼顾串行逻辑一致性与并行采样效率。</li><li>证明<strong>双向扩散模型即使拥有无限分布内程序化数据，仍系统性违反物理与符号规则</strong>；而自回归扩散方法（cDF、BC、S2PD）能大幅降低此类错误。</li><li>使用两种架构实现并验证方法：<strong>DiT-B</strong>（132.7M 参数，像素空间，从零训练）与 <strong>Wan-5B-LoRA</strong>（预训练潜空间视频模型 + rank-32 LoRA，80.6M 可训练参数）。</li><li>发布覆盖游戏、物理模拟与真实视频的<strong>数据集</strong>（Conway、Chess、2048、15 Puzzle、Tetris、Snake、Rubik's Cube 3D、双摆、三体轨道、碰撞球、Pong、Kubric MOVi-A/C、MPMWorlds、Rubik's Cube Real），并提供自动化规则违反与物理误差评估指标，已开源代码、数据集和模型权重。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>采用 <strong>flow-matching 扩散框架</strong>，使用 x-prediction 与 v-loss，将视频划分为 tubelet 作为 transformer token，并用 3D RoPE 保持时空位置信息。</li><li>实现并对比三种注意模式：<strong>Bidirectional</strong>（全并行）、<strong>cDF</strong>（causal Diffusion Forcing，块因果注意力+独立噪声水平）、<strong>BC</strong>（Block-causal Diffusion，双 token 序列：上下文副本+目标副本）；S2PD 在训练时使用<strong>多块大小混合</strong>（b∈{4,8,...,N_f,N_v}），将块大小与转换噪声水平的选择延迟到推理阶段。</li><li>串行去噪阶段使用 KV cache 缓存已生成块（噪声水平 τ）作为上下文；并行精炼阶段将完整视频作为一个块从 τ 去噪到 0，显著降低模型权重读取次数、加速采样。</li><li>训练时上下文噪声水平 t_c~U(0,1) 以支持不同转换噪声水平，目标块噪声水平采样自 <strong>plateau logit-normal 分布</strong>；BC 和 S2PD 使用双倍 batch size 以匹配 token 预算。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li><strong>离散数据集</strong>（程序化生成，容量~∞）：Conway's Game of Life、Chess（下载自 Lichess 的 100 万局人类对局）、2048、15 Puzzle、Tetris、Snake、Rubik's Cube 3D。</li><li><strong>连续数据集</strong>（程序化生成，容量~∞）：Double Pendulum、三体轨道动力学、2D/3D 碰撞球、Pong。</li><li><strong>视频数据集</strong>：<strong>Kubric MOVi-A</strong>（训练 9,703/验证 250）、<strong>Kubric MOVi-C</strong>（9,737/250）、<strong>MPMWorlds</strong>（9,439/1,017）、<strong>Rubik's Cube Real</strong>（5,000/512，30 分钟真实魔方视频）。</li><li>所有视频为 <strong>10 秒、24 fps、256×256 分辨率</strong>；训练时简单数据集实时渲染。</li><li>模型规模：<strong>DiT-B</strong> 132.7M 参数；<strong>Wan-5B-LoRA</strong> 80.6M 可训练参数（rank-32 LoRA）。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>简单数据集</strong>：通过视频解析为符号状态，检查状态转移是否符合游戏规则/物理动态，以<strong>每轮无效转移数</strong>（离散）和<strong>每轮动力学误差</strong>（连续）为主要指标；复杂数据集采用 <strong>CD-FVD</strong>（主指标）和 FVD（附录）。</li><li>在全部离散数据集上，<strong>S2PD 均优于双向基线</strong>（如 Conway 9.4→0.0、Chess 51.0→12.3、2048 47.9→0.9、Tetris 57.2→3.2），且优于或持平其他串行方法。</li><li>在连续数据集上 S2PD 同样优于双向基线（双向基线均为最差，S2PD 为最优）；训练曲线显示双向基线在 Conway 上始终学不会有效转移，而 S2PD 快速收敛到几乎零错误。</li><li>消融实验覆盖<strong>转换噪声水平 τ、块大小 b、token 顺序</strong>；S2PD 在采样效率上优于完全串行方法，在时域稳定性上优于纯自回归生成（缓解自回归漂移与闪烁）。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-next" href="../../papers/2610.06843/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Recursive Video In-Context Learning for Agentic Robot</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

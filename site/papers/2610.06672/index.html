@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。 核心目标是将预构建的查询无关分层视频记忆，通过粗到细的查询驱动精炼，转换为复合查询自适应记忆，在保留全局上下文的同时获取问题相关的细节证据。 解决现有两大范式的缺陷：查询驱动探索对定位误差敏感；查询无关记忆构建可能遗漏特定问题所需的细节。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.06672">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.06672.webp" alt="VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding</h1>
+            <div class="detail-meta">2026-10-05 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.06672" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.06672" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.06672</span></div>
+            <p class="detail-summary">论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。 核心目标是将预构建的查询无关分层视频记忆，通过粗到细的查询驱动精炼，转换为复合查询自适应记忆，在保留全局上下文的同时获取问题相关的细节证据。 解决现有两大范式的缺陷：查询驱动探索对定位误差敏感；查询无关记忆构建可能遗漏特定问题所需的细节。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">University of Science and Technology of China (USTC)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.06672/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。</p>
+  <ul class="reading-intro-points"><li>论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。</li><li>核心目标是将预构建的查询无关分层视频记忆，通过粗到细的查询驱动精炼，转换为复合查询自适应记忆，在保留全局上下文的同时获取问题相关的细节证据。</li><li>解决现有两大范式的缺陷：查询驱动探索对定位误差敏感；查询无关记忆构建可能遗漏特定问题所需的细节。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>University of Science and Technology of China (USTC)</strong></li><li><strong>Jilin University</strong></li><li><strong>Hangzhou Dianzi University</strong></li><li><strong>Institute of Artificial Intelligence, Hefei Comprehensive National Science Center</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>VideoTapestry</strong>，一个<strong>无需训练</strong>的多智能体框架，用于<strong>长视频理解</strong>。</li><li>核心目标是将预构建的<strong>查询无关分层视频记忆</strong>，通过<strong>粗到细的查询驱动精炼</strong>，转换为<strong>复合查询自适应记忆</strong>，在保留全局上下文的同时获取问题相关的细节证据。</li><li>解决现有两大范式的缺陷：查询驱动探索对定位误差敏感；查询无关记忆构建可能遗漏特定问题所需的细节。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出<strong>查询自适应记忆策略</strong>：将新观察到的证据整合到记忆的选定分支中，同时保留全局上下文和原始层次结构。</li><li>设计 <strong>VideoTapestry</strong> 框架：尺度对齐的多智能体（Overview、Skim、Focus）分别对应记忆的三个语义层级，通过分支选择和检查目标传递协同精炼。</li><li>采用<strong>层式工具增强的记忆精炼</strong>：每个智能体遵循 Plan→Observe→Update→Decide 协议，使用视觉观察工具和 ASR/转录工具获取针对性多模态证据。</li><li>实现<strong>复合记忆组装</strong>：将精炼后的层级记忆按原始父子关系组装，并附带简洁的交接轨迹，供独立答案智能体生成最终预测。</li><li>在 <strong>LVBench、LongVideoBench (Long)、Video-MME (Long)、EgoSchema</strong> 四个基准上取得一致提升，达到最先进结果。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>预构建记忆包含三个层级：<strong>SuperEvents</strong>（全局叙事阶段）、<strong>MacroEvents</strong>（局部事件结构）、<strong>Subgraphs</strong>（细粒度实体/事件/OCR关系证据）。</li><li><strong>Overview Agent</strong> 精炼 Super 级脚手架，保护与证据相关的节点及其邻居，压缩其余节点以保持全局覆盖，并选择相关阶段。</li><li><strong>Skim Agent</strong> 在选定 SuperEvents 的子节点（MacroEvents）上进行观察和重写，缩小候选区域。</li><li><strong>Focus Agent</strong> 检查选定 MacroEvents 对应的 Subgraphs，进行细粒度验证和描述重写。</li><li>所有精炼操作仅修改临时文本表示，不改变静态层次图；最后通过 <strong>Assemble</strong> 合并为复合查询自适应记忆，由独立 Answer Agent 给出答案。</li><li>创新点：将查询无关的广泛覆盖与查询驱动的定向证据获取相结合，通过尺度对齐的多智能体协作实现分层精炼，无需任何训练。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>评估数据集：<strong>LVBench</strong>、<strong>LongVideoBench (Long)</strong>、<strong>Video-MME (Long)</strong>、<strong>EgoSchema</strong>。</li><li>基础模型：使用 <strong>GPT-5.5</strong> 作为视觉语言骨干，另进行<strong>跨骨干泛化</strong>评估（结果见论文实验部分）。</li><li>模型规模与参数量：未额外引入可训练参数，依赖现成 VLM 和预构建记忆。</li><li>训练资源：<strong>无需训练</strong>，仅在推理阶段进行多智能体工具调用和文本精炼。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境：四个主流长视频理解基准，对比直接 VLM 推理和多种 agentic 方法。</li><li>主要指标：<strong>准确率（Accuracy）</strong>。</li><li>关键结果：相比直接 GPT-5.5 推理，VideoTapestry 在 <strong>LVBench</strong> 上提升 <strong>17.2%</strong>，在 <strong>LongVideoBench (Long)</strong> 上提升 <strong>14.9%</strong>，在 <strong>Video-MME (Long)</strong> 上提升 <strong>9.8%</strong>，在 <strong>EgoSchema</strong> 上提升 <strong>7.0%</strong>，均达到对比方法中的最好成绩。</li><li>消融实验验证了<strong>查询时记忆精炼</strong>和<strong>复合记忆组装</strong>的有效性，以及尺度对齐多智能体协作的贡献。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.06843/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Recursive Video In-Context Learning for Agentic Robot</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.06616/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Video Encoders Built on Image Representations</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

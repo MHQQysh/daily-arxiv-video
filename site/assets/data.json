@@ -1,5 +1,295 @@
 [
   {
+    "date": "2026-10-05",
+    "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+    "link": "https://arxiv.org/abs/2610.06847",
+    "arxiv_id": "2610.06847",
+    "detail_path": "papers/2610.06847/",
+    "cover_path": "covers/2610.06847/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06847.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06847.webp",
+    "preview_text": "论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。 论文基于\"串行缩放假说\"提出：双向扩散模型在早期去噪阶段会为不同时空区域分配局部合理但互不兼容的事件，导致后续生成出现突变或无效转换。因此，S2PD 在高噪声阶段采用自回归（串行）扩散以协调因果依赖事件，在低噪声阶段切换为并行扩散以联合精炼整个视频。 论文在自研游戏/模拟数据集及真实视频上验证了 S2PD 在规则遵循、物理一致性、时域稳定性和采样效率方面均优于匹配的双向基线及其他串行方法。",
+    "research_unit": "University of Cambridge（作者：Jeffrey Hu、Ayush Tewari）",
+    "hook_text": "论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。",
+    "key_points": [
+      "论文提出 S2PD（Serial-to-Parallel Diffusion） 方法，解决视频扩散模型在物理规律和逻辑规则遵循方面的缺陷。研究发现，即使使用近乎无限的程序化生成数据进行训练，双向扩散变换器仍会违反物理定律和简单符号规则。",
+      "论文基于\"串行缩放假说\"提出：双向扩散模型在早期去噪阶段会为不同时空区域分配局部合理但互不兼容的事件，导致后续生成出现突变或无效转换。因此，S2PD 在高噪声阶段采用自回归（串行）扩散以协调因果依赖事件，在低噪声阶段切换为并行扩散以联合精炼整个视频。",
+      "论文在自研游戏/模拟数据集及真实视频上验证了 S2PD 在规则遵循、物理一致性、时域稳定性和采样效率方面均优于匹配的双向基线及其他串行方法。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Recursive Video In-Context Learning for Agentic Robot",
+    "link": "https://arxiv.org/abs/2610.06843",
+    "arxiv_id": "2610.06843",
+    "detail_path": "papers/2610.06843/",
+    "cover_path": "covers/2610.06843/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06843.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06843.webp",
+    "preview_text": "论文提出 Recursive Video In-Context Learning（RV-ICL），一种无需训练的机器人智能体方法，将示范视频转化为一个可递归导航的层级结构，而不是直接作为提示词灌入上下文。 核心问题是：智能体的文本记忆只能记录“做了什么”，而无法记录“任务是如何成功完成的”（如抓取方向、抬升高度、开合时机等空间与时序知识）；完整视频过长、固定关键帧丢失接触细节、且不同阶段所需信息不同。 该方法让智能体在规划前读取粗粒度层级，在执行过程中按需“重入”层级，只加载当前子目标对应的短视频片段，从而以极小上下文代价获得示范视频的细节信息。",
+    "research_unit": "中佛罗里达大学（University of Central Florida）：Wenrui Bao、X…",
+    "hook_text": "论文提出 Recursive Video In-Context Learning（RV-ICL），一种无需训练的机器人智能体方法，将示范视频转化为一个可递归导航的层级结构，而不是直接作为提示词灌入上下文。",
+    "key_points": [
+      "论文提出 Recursive Video In-Context Learning（RV-ICL），一种无需训练的机器人智能体方法，将示范视频转化为一个可递归导航的层级结构，而不是直接作为提示词灌入上下文。",
+      "核心问题是：智能体的文本记忆只能记录“做了什么”，而无法记录“任务是如何成功完成的”（如抓取方向、抬升高度、开合时机等空间与时序知识）；完整视频过长、固定关键帧丢失接触细节、且不同阶段所需信息不同。",
+      "该方法让智能体在规划前读取粗粒度层级，在执行过程中按需“重入”层级，只加载当前子目标对应的短视频片段，从而以极小上下文代价获得示范视频的细节信息。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "VideoTapestry: Query-Adaptive Memory Refinement for Multi-Agent Long-Video Understanding",
+    "link": "https://arxiv.org/abs/2610.06672",
+    "arxiv_id": "2610.06672",
+    "detail_path": "papers/2610.06672/",
+    "cover_path": "covers/2610.06672/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06672.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06672.webp",
+    "preview_text": "论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。 核心目标是将预构建的查询无关分层视频记忆，通过粗到细的查询驱动精炼，转换为复合查询自适应记忆，在保留全局上下文的同时获取问题相关的细节证据。 解决现有两大范式的缺陷：查询驱动探索对定位误差敏感；查询无关记忆构建可能遗漏特定问题所需的细节。",
+    "research_unit": "University of Science and Technology of China (USTC)",
+    "hook_text": "论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。",
+    "key_points": [
+      "论文提出 VideoTapestry，一个无需训练的多智能体框架，用于长视频理解。",
+      "核心目标是将预构建的查询无关分层视频记忆，通过粗到细的查询驱动精炼，转换为复合查询自适应记忆，在保留全局上下文的同时获取问题相关的细节证据。",
+      "解决现有两大范式的缺陷：查询驱动探索对定位误差敏感；查询无关记忆构建可能遗漏特定问题所需的细节。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Video Encoders Built on Image Representations",
+    "link": "https://arxiv.org/abs/2610.06616",
+    "arxiv_id": "2610.06616",
+    "detail_path": "papers/2610.06616/",
+    "cover_path": "covers/2610.06616/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06616.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06616.webp",
+    "preview_text": "论文探讨的核心问题是 是否可以利用图像表示构建紧凑的视频编码器，即在保持视觉证据可访问的同时大幅压缩视觉 token 数 论文批评了两种现有路径的缺陷：原生视频路径（如 Conv3D）提前混合邻近帧导致帧特定证据无法独立选择；全图像路径 保留全部帧 token 但冗余度过高，视觉 token 成本过大 论文提出将三个常被耦合的操作分离：逐帧表示（representation）、跨帧 token 分配（allocation）、时间交互（interaction），并由此设计 image-first 视频编码路径",
+    "research_unit": "论文作者来自 Stanford University（斯坦福大学）",
+    "hook_text": "论文探讨的核心问题是 是否可以利用图像表示构建紧凑的视频编码器，即在保持视觉证据可访问的同时大幅压缩视觉 token 数",
+    "key_points": [
+      "论文探讨的核心问题是 是否可以利用图像表示构建紧凑的视频编码器，即在保持视觉证据可访问的同时大幅压缩视觉 token 数",
+      "论文批评了两种现有路径的缺陷：原生视频路径（如 Conv3D）提前混合邻近帧导致帧特定证据无法独立选择；全图像路径 保留全部帧 token 但冗余度过高，视觉 token 成本过大",
+      "论文提出将三个常被耦合的操作分离：逐帧表示（representation）、跨帧 token 分配（allocation）、时间交互（interaction），并由此设计 image-first 视频编码路径"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Keepsake: Selective Spatial Memory for Long-Horizon Video Generation",
+    "link": "https://arxiv.org/abs/2610.06588",
+    "arxiv_id": "2610.06588",
+    "detail_path": "papers/2610.06588/",
+    "cover_path": "covers/2610.06588/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06588.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06588.webp",
+    "preview_text": "论文提出 Keepsake，一种面向长时程相机可控视频生成的选择性空间记忆控制器，用于解决长期生成中场景一致性和记忆无限增长之间的矛盾。 现有方法要么保留全部历史（存储和检索开销无限增长、低质量记忆持续留存），要么仅在写入时做一次性保留决策（无法适应记忆库演进后观测价值的动态变化）。 核心观点：观测的保留价值是关系性的而非固定不变的，取决于当前记忆库中可替代视图的数量和质量；拥有多个相似替代的视图可以被淘汰，而缺乏替代的视图应被保留。",
+    "research_unit": "University of Central Florida（中佛罗里达大学），Institute of…",
+    "hook_text": "论文提出 Keepsake，一种面向长时程相机可控视频生成的选择性空间记忆控制器，用于解决长期生成中场景一致性和记忆无限增长之间的矛盾。",
+    "key_points": [
+      "论文提出 Keepsake，一种面向长时程相机可控视频生成的选择性空间记忆控制器，用于解决长期生成中场景一致性和记忆无限增长之间的矛盾。",
+      "现有方法要么保留全部历史（存储和检索开销无限增长、低质量记忆持续留存），要么仅在写入时做一次性保留决策（无法适应记忆库演进后观测价值的动态变化）。",
+      "核心观点：观测的保留价值是关系性的而非固定不变的，取决于当前记忆库中可替代视图的数量和质量；拥有多个相似替代的视图可以被淘汰，而缺乏替代的视图应被保留。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "MTOR: Generalizable AI-Generated Video Detection with Multimodal Semantics and Temporal Over-Regularity",
+    "link": "https://arxiv.org/abs/2610.06378",
+    "arxiv_id": "2610.06378",
+    "detail_path": "papers/2610.06378/",
+    "cover_path": "covers/2610.06378/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06378.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06378.webp",
+    "preview_text": "论文提出 MTOR，一个面向可泛化 AI 生成视频检测的多模态框架，核心思路是联合建模视频级多模态语义与时间过度规律性（Temporal Over-Regularity, TOR） 现有检测器大多仅依赖视觉表示，忽视了字幕导出的文本语义信息，同时对细粒度视觉表示中的时间规律性关注不足，导致跨生成器泛化能力受限 论文通过实证发现：字幕导出的文本表示与全局视觉表示具有互补性；AI 生成视频在粗粒度帧间连续性、细粒度令牌对应和帧到视频稳定性三个层级均表现出更强的时间持久性和更低的时间变异性",
+    "research_unit": "西安交通大学（Xi'an Jiaotong University）：作者 Hang Wang、Chao…",
+    "hook_text": "论文提出 MTOR，一个面向可泛化 AI 生成视频检测的多模态框架，核心思路是联合建模视频级多模态语义与时间过度规律性（Temporal Over-Regularity, TOR）",
+    "key_points": [
+      "论文提出 MTOR，一个面向可泛化 AI 生成视频检测的多模态框架，核心思路是联合建模视频级多模态语义与时间过度规律性（Temporal Over-Regularity, TOR）",
+      "现有检测器大多仅依赖视觉表示，忽视了字幕导出的文本语义信息，同时对细粒度视觉表示中的时间规律性关注不足，导致跨生成器泛化能力受限",
+      "论文通过实证发现：字幕导出的文本表示与全局视觉表示具有互补性；AI 生成视频在粗粒度帧间连续性、细粒度令牌对应和帧到视频稳定性三个层级均表现出更强的时间持久性和更低的时间变异性"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
+    "link": "https://arxiv.org/abs/2610.06293",
+    "arxiv_id": "2610.06293",
+    "detail_path": "papers/2610.06293/",
+    "cover_path": "covers/2610.06293/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06293.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06293.webp",
+    "preview_text": "提出 VepAgent，一种面向视频事件预测（Video Event Prediction, VEP）的智能体框架，将因果转换推理与工具增强的强化学习（RL）相结合。 针对现有 MLLM 在 VEP 中的三大局限：因果逻辑鸿沟（依赖回顾性摘要而非未来外推）、语言先验捷径（根据文本相似性而非视觉证据答题）、视觉证据遗漏（关键时空线索缺失或模糊）。 核心目标是将 VEP 从被动猜测重构为主动的因果分析、视觉验证和时序定位过程，在 FutureBench 和 NEPBench 上取得 SOTA 性能。",
+    "research_unit": "Nankai University（南开大学）",
+    "hook_text": "提出 VepAgent，一种面向视频事件预测（Video Event Prediction, VEP）的智能体框架，将因果转换推理与工具增强的强化学习（RL）相结合。",
+    "key_points": [
+      "提出 VepAgent，一种面向视频事件预测（Video Event Prediction, VEP）的智能体框架，将因果转换推理与工具增强的强化学习（RL）相结合。",
+      "针对现有 MLLM 在 VEP 中的三大局限：因果逻辑鸿沟（依赖回顾性摘要而非未来外推）、语言先验捷径（根据文本相似性而非视觉证据答题）、视觉证据遗漏（关键时空线索缺失或模糊）。",
+      "核心目标是将 VEP 从被动猜测重构为主动的因果分析、视觉验证和时序定位过程，在 FutureBench 和 NEPBench 上取得 SOTA 性能。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Joint Class-Time Learning for Video Classification with Multi-Instance Partial-Label Learning",
+    "link": "https://arxiv.org/abs/2610.06234",
+    "arxiv_id": "2610.06234",
+    "detail_path": "papers/2610.06234/",
+    "cover_path": "covers/2610.06234/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06234.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06234.webp",
+    "preview_text": "提出 PivotMipl 方法，用于解决视频分类中的多实例部分标签学习（MIPL）问题，该问题同时存在实例空间和标签空间的不精确监督。 现有方法仅细化包级类别概率，无法确定每个候选类别对应的时序证据；本文通过联合类别-时间分配，将标签消歧与时序证据分配耦合起来。 构建了基于 Breakfast、DoTA 和 FineAction 的 VCMIPL 基准，并采用四种特征表示进行系统评估。",
+    "research_unit": "东南大学计算机科学与工程学院（南京，中国）",
+    "hook_text": "提出 PivotMipl 方法，用于解决视频分类中的多实例部分标签学习（MIPL）问题，该问题同时存在实例空间和标签空间的不精确监督。",
+    "key_points": [
+      "提出 PivotMipl 方法，用于解决视频分类中的多实例部分标签学习（MIPL）问题，该问题同时存在实例空间和标签空间的不精确监督。",
+      "现有方法仅细化包级类别概率，无法确定每个候选类别对应的时序证据；本文通过联合类别-时间分配，将标签消歧与时序证据分配耦合起来。",
+      "构建了基于 Breakfast、DoTA 和 FineAction 的 VCMIPL 基准，并采用四种特征表示进行系统评估。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Robotizing Human Videos with Physically Consistent Interactions",
+    "link": "https://arxiv.org/abs/2610.06137",
+    "arxiv_id": "2610.06137",
+    "detail_path": "papers/2610.06137/",
+    "cover_path": "covers/2610.06137/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06137.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06137.webp",
+    "preview_text": "本文提出一种交互感知、深度一致的人到机器人视频编辑流水线，用于将人类操作视频转化为与机器人形态兼容的训练数据，从而缓解机器人演示数据稀缺的问题。 现有方法（如 Masquerade）在将人手替换为机器人时，存在抓取几何不一致（夹爪未对准人类接触点）和机器人-物体遮挡不真实（渲染的夹爪错误覆盖物体）等物理不协调问题。 核心思路是从交互几何和场景可见性两个互补的物理层面保证转换后视频的物理一致性，使编辑后的视频能够作为有效的策略监督信号参与机器人策略共训练。",
+    "research_unit": "新加坡管理大学（Singapore Management University）",
+    "hook_text": "本文提出一种交互感知、深度一致的人到机器人视频编辑流水线，用于将人类操作视频转化为与机器人形态兼容的训练数据，从而缓解机器人演示数据稀缺的问题。",
+    "key_points": [
+      "本文提出一种交互感知、深度一致的人到机器人视频编辑流水线，用于将人类操作视频转化为与机器人形态兼容的训练数据，从而缓解机器人演示数据稀缺的问题。",
+      "现有方法（如 Masquerade）在将人手替换为机器人时，存在抓取几何不一致（夹爪未对准人类接触点）和机器人-物体遮挡不真实（渲染的夹爪错误覆盖物体）等物理不协调问题。",
+      "核心思路是从交互几何和场景可见性两个互补的物理层面保证转换后视频的物理一致性，使编辑后的视频能够作为有效的策略监督信号参与机器人策略共训练。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Investigating Query-Insensitive Behavior in Spatio-Temporal Video Grounding",
+    "link": "https://arxiv.org/abs/2610.06018",
+    "arxiv_id": "2610.06018",
+    "detail_path": "papers/2610.06018/",
+    "cover_path": "covers/2610.06018/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.06018.webp",
+    "paper_image_full_path": "assets/paper-images/2610.06018.webp",
+    "preview_text": "论文研究时空视频定位（STVG）模型在无关查询（negative queries）和缺失文本输入条件下的行为，挑战了“每个查询都与视频相关”的传统假设。 实验发现，TubeDETR 和 TA-STVG 等现有 SOTA 模型在查询与视频完全无关甚至移除文本时，仍能生成看似合理的时空预测，暴露出严重的查询不敏感（query-insensitive）问题。 通过对 HCSTVG-v2 和 VidSTG 数据集的统计分析，揭示数据集中的时间、空间和查询分布偏差（如中心偏好）可能促使模型依赖数据先验而非真正的查询-视频语义匹配。",
+    "research_unit": "Samsung AI Center, Warsaw, Poland（三星AI中心，华沙）",
+    "hook_text": "论文研究时空视频定位（STVG）模型在无关查询（negative queries）和缺失文本输入条件下的行为，挑战了“每个查询都与视频相关”的传统假设。",
+    "key_points": [
+      "论文研究时空视频定位（STVG）模型在无关查询（negative queries）和缺失文本输入条件下的行为，挑战了“每个查询都与视频相关”的传统假设。",
+      "实验发现，TubeDETR 和 TA-STVG 等现有 SOTA 模型在查询与视频完全无关甚至移除文本时，仍能生成看似合理的时空预测，暴露出严重的查询不敏感（query-insensitive）问题。",
+      "通过对 HCSTVG-v2 和 VidSTG 数据集的统计分析，揭示数据集中的时间、空间和查询分布偏差（如中心偏好）可能促使模型依赖数据先验而非真正的查询-视频语义匹配。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-02",
     "title": "FlowHMR: Physically Plausible Motion Capture from Video",
     "link": "https://arxiv.org/abs/2610.03691",
@@ -3633,14 +3923,16 @@
     "cover_path": "covers/2609.09736/",
     "paper_image_path": "assets/paper-images/thumbs/2609.09736.webp",
     "paper_image_full_path": "assets/paper-images/2609.09736.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "本文针对视频时序定位（Video Temporal Grounding, VTG）任务中现有方法的缺陷展开研究：现有方法通常将查询整体编码或使用通用视频-文本交互，未显式验证查询中的动作和实体是否共同发生，容易定位到包含两个独立概念但未构成查询描述事件的时间段。 核心目标是提出交互感知的IAE-VTG框架，从表示学习和训练分配两个层面显式约束候选片段中动作与实体的联合出现，提升时序定位的语义准确性。 论文重点解决“概念相关但交互不一致”的错误定位问题：当实体长时间可见或相似动作在不同时刻重复出现时，仅依赖单一概念相关性的方法会产生错误的宽泛定位。",
+    "research_unit": "悉尼大学计算机学院（Shiwen Zhao）",
+    "hook_text": "本文针对视频时序定位（Video Temporal Grounding, VTG）任务中现有方法的缺陷展开研究：现有方法通常将查询整体编码或使用通用视频-文本交互，未显式验证查询中的动作和实体是否共同发生，容易定位到包含两个独立概念但未构成查询描述事件的时间段。",
     "key_points": [
-      "待生成"
+      "本文针对视频时序定位（Video Temporal Grounding, VTG）任务中现有方法的缺陷展开研究：现有方法通常将查询整体编码或使用通用视频-文本交互，未显式验证查询中的动作和实体是否共同发生，容易定位到包含两个独立概念但未构成查询描述事件的时间段。",
+      "核心目标是提出交互感知的IAE-VTG框架，从表示学习和训练分配两个层面显式约束候选片段中动作与实体的联合出现，提升时序定位的语义准确性。",
+      "论文重点解决“概念相关但交互不一致”的错误定位问题：当实体长时间可见或相似动作在不同时刻重复出现时，仅依赖单一概念相关性的方法会产生错误的宽泛定位。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#6f4cc9",
       "to": "#c57be8",
@@ -3660,14 +3952,16 @@
     "cover_path": "covers/2609.10317/",
     "paper_image_path": "assets/paper-images/thumbs/2609.10317.webp",
     "paper_image_full_path": "assets/paper-images/2609.10317.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出 Motar，一种面向流式数字人视频生成（Streaming Talking Head Generation）的两阶段方法，解决\"保真度\"与\"实时性\"难以兼得的矛盾。 核心观点：端到端方法将音频对齐到视频隐空间成本高昂，因为视频隐空间中身份、纹理、光照等与音频无关的信息占主导，导致细节模糊；两阶段方法虽然在运动空间融合条件更高效，但运动生成器的保真度受限于运动空间训练，无法充分利用更强的渲染器。 论文将条件融合从像素空间转移到低维、身份解耦的运动流形上，实现\"音频控制运动、运动控制视频\"的传递式控制，从而以大模型的强大渲染能力提升两阶段方法的保真度上限，同时保持流式实时生成能力。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "论文提出 Motar，一种面向流式数字人视频生成（Streaming Talking Head Generation）的两阶段方法，解决\"保真度\"与\"实时性\"难以兼得的矛盾。",
     "key_points": [
-      "待生成"
+      "论文提出 Motar，一种面向流式数字人视频生成（Streaming Talking Head Generation）的两阶段方法，解决\"保真度\"与\"实时性\"难以兼得的矛盾。",
+      "核心观点：端到端方法将音频对齐到视频隐空间成本高昂，因为视频隐空间中身份、纹理、光照等与音频无关的信息占主导，导致细节模糊；两阶段方法虽然在运动空间融合条件更高效，但运动生成器的保真度受限于运动空间训练，无法充分利用更强的渲染器。",
+      "论文将条件融合从像素空间转移到低维、身份解耦的运动流形上，实现\"音频控制运动、运动控制视频\"的传递式控制，从而以大模型的强大渲染能力提升两阶段方法的保真度上限，同时保持流式实时生成能力。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 7,
+    "section_count": 6,
     "cover_theme": {
       "from": "#3f6ee8",
       "to": "#6fa7ff",
@@ -3687,14 +3981,16 @@
     "cover_path": "covers/2609.10540/",
     "paper_image_path": "assets/paper-images/thumbs/2609.10540.webp",
     "paper_image_full_path": "assets/paper-images/2609.10540.webp",
-    "preview_text": "待生成",
-    "research_unit": "",
-    "hook_text": "待生成",
+    "preview_text": "论文提出可编程世界模型（Programmable World Model, PWM），将世界状态演化与视觉观测生成相解耦，实现可编程、可交互的生成式世界。 现有视频世界模型缺乏持久化的全局状态维护、实体级直接操控能力和用户可定义的规则机制；论文通过显式状态表示与生成式渲染分离来应对这一挑战。 核心思路：利用编码代理将自然语言指令转化为可执行程序，由轻量引擎维护显式世界状态，并通过状态编译器将状态投影为像素级控制信号，驱动预训练视频模型生成视觉观测。",
+    "research_unit": "Alaya Lab（阿莱亚实验室）",
+    "hook_text": "论文提出可编程世界模型（Programmable World Model, PWM），将世界状态演化与视觉观测生成相解耦，实现可编程、可交互的生成式世界。",
     "key_points": [
-      "待生成"
+      "论文提出可编程世界模型（Programmable World Model, PWM），将世界状态演化与视觉观测生成相解耦，实现可编程、可交互的生成式世界。",
+      "现有视频世界模型缺乏持久化的全局状态维护、实体级直接操控能力和用户可定义的规则机制；论文通过显式状态表示与生成式渲染分离来应对这一挑战。",
+      "核心思路：利用编码代理将自然语言指令转化为可执行程序，由轻量引擎维护显式世界状态，并通过状态编译器将状态投影为像素级控制信号，驱动预训练视频模型生成视觉观测。"
     ],
-    "reading_minutes": 1,
-    "section_count": 1,
+    "reading_minutes": 6,
+    "section_count": 6,
     "cover_theme": {
       "from": "#d84f61",
       "to": "#f29c6b",
