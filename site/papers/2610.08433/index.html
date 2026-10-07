@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HuC-VideoMAE: Human-Centric Video Masked Autoencoding from synthetic data - Video 每日论文卡</title>
+    <meta name="description" content="本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。 论文发现将标准 VideoMAE 随机 tube masking 策略直接应用于合成数据会导致下游任务性能显著下降，原因在于均匀掩码使重建预算被背景和纹理主导，模型未能充分学习人体运动结构。 针对该问题，论文提出 HuC-VideoMAE，一种利用合成数据中免费提供的 2D 关键点与人体边界框标注来引导掩码分配的人体中心掩码策略，在无需任何真实帧的情况下显著缩小了与 Kinetics 预训练的性能差距。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.08433">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.08433.webp" alt="HuC-VideoMAE: Human-Centric Video Masked Autoencoding from synthetic data" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">HuC-VideoMAE: Human-Centric Video Masked Autoencoding from synthetic data</h1>
+            <div class="detail-meta">2026-10-06 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.08433" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.08433" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.08433</span></div>
+            <p class="detail-summary">本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。 论文发现将标准 VideoMAE 随机 tube masking 策略直接应用于合成数据会导致下游任务性能显著下降，原因在于均匀掩码使重建预算被背景和纹理主导，模型未能充分学习人体运动结构。 针对该问题，论文提出 HuC-VideoMAE，一种利用合成数据中免费提供的 2D 关键点与人体边界框标注来引导掩码分配的人体中心掩码策略，在无需任何真实帧的情况下显著缩小了与 Kinetics 预训练的性能差距。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">8 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Universidad de Alcalá（阿尔卡拉大学），Alcalá de Henares, Sp…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.08433/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。</p>
+  <ul class="reading-intro-points"><li>本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。</li><li>论文发现将标准 VideoMAE 随机 tube masking 策略直接应用于合成数据会导致下游任务性能显著下降，原因在于均匀掩码使重建预算被背景和纹理主导，模型未能充分学习人体运动结构。</li><li>针对该问题，论文提出 HuC-VideoMAE，一种利用合成数据中免费提供的 2D 关键点与人体边界框标注来引导掩码分配的人体中心掩码策略，在无需任何真实帧的情况下显著缩小了与 Kinetics 预训练的性能差距。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Universidad de Alcalá</strong>（阿尔卡拉大学），Alcalá de Henares, Spain</li><li><strong>Universidad Politécnica de Madrid</strong>（马德里理工大学），Madrid, Spain</li><li><strong>Universidad Rey Juan Carlos</strong>（胡安卡洛斯国王大学），Móstoles, Spain</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>本文研究在<strong>合成人体运动数据集</strong>（BEDLAM2.0）上进行<strong>视频 Transformer 的自监督预训练</strong>，作为网络爬取真实视频（如 Kinetics）的<strong>隐私友好替代方案</strong>，避免未授权使用真实人物影像所带来的伦理与法律风险。</li><li>论文发现将标准 <strong>VideoMAE 随机 tube masking</strong> 策略直接应用于合成数据会导致下游任务性能显著下降，原因在于均匀掩码使重建预算被背景和纹理主导，模型未能充分学习人体运动结构。</li><li>针对该问题，论文提出 <strong>HuC-VideoMAE</strong>，一种利用合成数据中<strong>免费提供的 2D 关键点与人体边界框标注</strong>来引导掩码分配的人体中心掩码策略，在无需任何真实帧的情况下显著缩小了与 Kinetics 预训练的性能差距。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>系统研究了<strong>以合成动作捕捉人体视频作为自监督预训练数据</strong>的可行性，并揭示标准 VideoMAE 掩码目标在该设定下迁移效果不佳，凸显了定制掩码策略的必要性。</li><li>提出 <strong>HuC-VideoMAE 人体中心掩码策略</strong>，综合利用合成数据中的 ground-truth 关键点、人体掩码和背景信息，将补丁分为背景、身体、关键点三个区域并分配不同掩码分数（背景最激进、身体次之、关键点保留为结构锚点）。</li><li>引入<strong>关键点身份级别的时序一致掩码</strong>（同一关节在整个片段中保持隐藏），防止解码器从相邻帧直接复制关节，迫使模型学习人体运动的时空结构。</li><li>在 <strong>ViT-B 和 MViTv2-S</strong> 两种骨干网络上验证了方法的有效性，并在 NTU RGB+D 与 Toyota-Smarthome 上展现跨视角泛化优势。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>VideoMAEv2</strong> 框架，使用单掩码重建目标（解码器重建所有掩码位置），采用 ViT 与 MViTv2 骨干网络。</li><li>核心创新是<strong>基于语义区域的掩码评分机制</strong>：背景补丁获得最高掩码分数（ρ_bg=0.95），人体框内补丁次之（ρ_body=0.90），关键点补丁分数最低（=0，保持可见）；另选取 20%（ρ_kp=0.2）的关键点身份强制全程掩码（分数=1）。</li><li>掩码过程包含<strong>小随机扰动（jitter）</strong>以在区域内随机化选择，并保持每帧掩码数量固定（90% 掩码率），确保批次内可见 token 数量恒定。</li><li>对于 <strong>MViTv2-S</strong>，掩码先在 token 网格上计算，再扩展到对应的 2×32×32 时空宏补丁，以保留 MViTv2 层级池化注意力所需的规则网格结构。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>预训练数据集：<strong>BEDLAM2.0</strong> 合成人体运动数据集，包含 27K+ 图像序列、8M+ 帧、4K+ 不同体型，提供 3D 姿态、投影 2D 关键点和人体边界框标注。</li><li>对比数据集：<strong>AMARV</strong>（SynthAct 管道生成，0.8M 单人多视角合成视频片段）作为合成语料对比，以及 <strong>Kinetics</strong> 预训练权重作为真实数据上界参考。</li><li>下游评估数据集：<strong>NTU RGB+D 60</strong>（约 57K 视频、60 类动作、40 位受试者）和 <strong>Toyota-Smarthome</strong>（约 16K RGB 片段、31 类日常活动、7 个视角）。</li><li>模型规模与训练配置：ViT-B 和 MViTv2-S 骨干网络，4 层重建解码器；16 帧输入，224×224 分辨率，16×16 补丁，tubelet 大小为 2。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：NTU RGB+D 60 采用 <strong>cross-view-subject 协议</strong>（仅用 0° 视角训练，分别测试 0°/45°/90° 视角）；Toyota-Smarthome 采用 <strong>CV1 和 CV2 跨视角协议</strong>（19 类子集）。</li><li>主要指标：NTU RGB+D 使用总体分类准确率（Acc.），Toyota-Smarthome 使用平均类准确率（mCA）。</li><li>在 <strong>NTU RGB+D cross-view-subject</strong> 上，HuC-VideoMAE 将平均准确率从标准 VideoMAE（BEDLAM2.0）的 <strong>80.1% 提升至 85.8%</strong>，缩小了与 Kinetics 预训练（91.7%）之间 <strong>49% 的差距</strong>；从 0° 到 90° 视角仅下降 1.8 个百分点，展现良好的跨视角稳定性。</li><li>在 <strong>Toyota-Smarthome</strong> 上，HuC-VideoMAE 在 <strong>CV1 上超过 Kinetics 预训练的 VideoMAEv2 基线</strong>，在 CV2 上与其差距在 4 个百分点以内。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.08560/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Have I Seen Enough? Frozen Video-Language Models Encode Evidence Readiness</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.08286/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">Event Detection in Table Tennis Videos using 2D Keypoints</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

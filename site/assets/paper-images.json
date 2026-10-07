@@ -18549,5 +18549,655 @@
     "inside_figure": true,
     "width": 476,
     "height": 441
+  },
+  "2610.08649": {
+    "title": "Stable Scores, Unstable Answers: Frame Phase and Option Order in Video Multiple-Choice Evaluation",
+    "abs_url": "https://arxiv.org/abs/2610.08649",
+    "html_url": "https://arxiv.org/html/2610.08649v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08649v1/fig_frame_phase_ppt.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 153,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "",
+        "classes": "ds-announcement-glyph",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2610.08649.webp",
+    "image_url": "https://arxiv.org/html/2610.08649v1/fig_frame_phase_ppt.png",
+    "source": "img",
+    "score": 85,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 153
+  },
+  "2610.08674": {
+    "title": "EC-RAG: Event Chain Retrieval-Augmented Generation for Long Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2610.08674",
+    "html_url": "https://arxiv.org/html/2610.08674v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08674v1/1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 305,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08674v1/framework7.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 292,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08674v1/Qualitativeresult.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 332,
+        "alt": "A qualitative case study showing how EC-RAG correctly answers a temporal reasoning question by localizing the relevant event and aggregating multimodal evidence.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08674v1/frame_bar_chart.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 289,
+        "alt": "Bar chart comparing baseline and EC-RAG accuracy across 8, 16, and 32 frames on short, medium, and long videos.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08674v1/qualiative2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 387,
+        "alt": "Qualitative comparison between baseline and EC-RAG on a history documentary temporal reasoning question.",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.08674.webp",
+    "image_url": "https://arxiv.org/html/2610.08674v1/1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 305
+  },
+  "2610.08663": {
+    "title": "Knowing When to Trust a Prior: Reliability-Gated Cue Fusion for Video Gaze Prediction",
+    "abs_url": "https://arxiv.org/abs/2610.08663",
+    "html_url": "https://arxiv.org/html/2610.08663v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08663v1/fig_pipe.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08663v1/fig_abstention.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 286,
+        "height": 127,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 20
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.08663.webp",
+    "image_url": "https://arxiv.org/html/2610.08663v1/fig_pipe.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 200
+  },
+  "2610.08593": {
+    "title": "Multi-Label Perceptual Bug Detection in Video Games using Deep Learning on Gameplay Footage",
+    "abs_url": "https://arxiv.org/abs/2610.08593",
+    "html_url": "https://arxiv.org/html/2610.08593v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08593v1/beforezclip.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08593v1/zclipping.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08593v1/before-texture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08593v1/corrupted-texture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08593v1/beforegeocorruption.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.08593.webp",
+    "image_url": "https://arxiv.org/html/2610.08593v1/beforezclip.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 268
+  },
+  "2610.08684": {
+    "title": "RenderBench: Benchmarking Render-to-Real Video Transfer with Reconstructed Digital Twins",
+    "abs_url": "https://arxiv.org/abs/2610.08684",
+    "html_url": "https://arxiv.org/html/2610.08684v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08684v1/figures/fig4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 404,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08684v1/figures/figure2_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 255,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08684v1/figures/figure3_dataset_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 221,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.08684.webp",
+    "image_url": "https://arxiv.org/html/2610.08684v1/figures/fig4.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 404
+  },
+  "2610.08777": {
+    "title": "CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching",
+    "abs_url": "https://arxiv.org/abs/2610.08777",
+    "html_url": "https://arxiv.org/html/2610.08777v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08777v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 603,
+        "height": 809,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08777v1/x2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 603,
+        "height": 819,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08777v1/x3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 603,
+        "height": 809,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08777v1/pipeline_new_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 537,
+        "height": 246,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08777v1/mg2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 231,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.08777.webp",
+    "image_url": "https://arxiv.org/html/2610.08777v1/x1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 603,
+    "height": 809
+  },
+  "2610.08560": {
+    "title": "Have I Seen Enough? Frozen Video-Language Models Encode Evidence Readiness",
+    "abs_url": "https://arxiv.org/abs/2610.08560",
+    "html_url": "https://arxiv.org/html/2610.08560v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08560v1/figures/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 532,
+        "height": 300,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "",
+        "classes": "ds-announcement-glyph",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2610.08560.webp",
+    "image_url": "https://arxiv.org/html/2610.08560v1/figures/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 532,
+    "height": 300
+  },
+  "2610.08779": {
+    "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
+    "abs_url": "https://arxiv.org/abs/2610.08779",
+    "html_url": "https://arxiv.org/html/2610.08779v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08779v1/alive_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 385,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08779v1/alive_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 350,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08779v1/alive_data_overview_two_prompt_examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 302,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08779v1/alive_method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 222,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08779v1/alive_vlm_guidance.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 197,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.08779.webp",
+    "image_url": "https://arxiv.org/html/2610.08779v1/alive_qualitative.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 385
+  },
+  "2610.08433": {
+    "title": "HuC-VideoMAE: Human-Centric Video Masked Autoencoding from synthetic data",
+    "abs_url": "https://arxiv.org/abs/2610.08433",
+    "html_url": "https://arxiv.org/html/2610.08433v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08433v1/kp_temporal.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 174,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08433v1/masking_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 112,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 60
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.08433.webp",
+    "image_url": "https://arxiv.org/html/2610.08433v1/kp_temporal.png",
+    "source": "img",
+    "score": 85,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 174
+  },
+  "2610.08286": {
+    "title": "Event Detection in Table Tennis Videos using 2D Keypoints",
+    "abs_url": "https://arxiv.org/abs/2610.08286",
+    "html_url": "https://arxiv.org/html/2610.08286v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.08286v1/images/1_match1000_21_player2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 138,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08286v1/images/2_0_relLin.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 138,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08286v1/images/2_0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 142,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08286v1/keypoints-sequence_small.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 229,
+        "height": 71,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2610.08286v1/images/cross_product.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 219,
+        "height": 55,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2610.08286.webp",
+    "image_url": "https://arxiv.org/html/2610.08286v1/images/1_match1000_21_player2.png",
+    "source": "img",
+    "score": 85,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 138
   }
 }

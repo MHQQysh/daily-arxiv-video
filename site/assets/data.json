@@ -1,5 +1,291 @@
 [
   {
+    "date": "2026-10-06",
+    "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
+    "link": "https://arxiv.org/abs/2610.08779",
+    "arxiv_id": "2610.08779",
+    "detail_path": "papers/2610.08779/",
+    "cover_path": "covers/2610.08779/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08779.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08779.webp",
+    "preview_text": "论文提出 ALIVE 框架，解决视频编辑中“插入物体”无法与源视频内容发生连贯交互的问题，使物体能被拿起、佩戴、打开或切割等。 任务设定为第一帧引导的视频编辑：给定源视频、编辑后的第一帧和仅包含物体身份的指令，模型需推断物体后续交互并生成完整视频。 论文同时构建了大规模交互编辑数据集和交互基准，并采用 VLM（视觉语言模型）自动预测交互引导，减少用户额外输入。",
+    "research_unit": "University of Rochester（作者 Zhenghong Zhou 在此完成实验）",
+    "hook_text": "论文提出 ALIVE 框架，解决视频编辑中“插入物体”无法与源视频内容发生连贯交互的问题，使物体能被拿起、佩戴、打开或切割等。",
+    "key_points": [
+      "论文提出 ALIVE 框架，解决视频编辑中“插入物体”无法与源视频内容发生连贯交互的问题，使物体能被拿起、佩戴、打开或切割等。",
+      "任务设定为第一帧引导的视频编辑：给定源视频、编辑后的第一帧和仅包含物体身份的指令，模型需推断物体后续交互并生成完整视频。",
+      "论文同时构建了大规模交互编辑数据集和交互基准，并采用 VLM（视觉语言模型）自动预测交互引导，减少用户额外输入。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching",
+    "link": "https://arxiv.org/abs/2610.08777",
+    "arxiv_id": "2610.08777",
+    "detail_path": "papers/2610.08777/",
+    "cover_path": "covers/2610.08777/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08777.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08777.webp",
+    "preview_text": "论文提出 CtrlCache，一种面向交互式视频世界模型的训练无关（training-free）加速缓存框架，旨在减少多步扩散去噪中的昂贵 DiT 推理开销。 现有缓存策略主要依据模型内部去噪动态决定复用，而忽略了用户控制信号（action/control）的变化；论文利用“控制信号在去噪前即可获得”这一显式信号，设计控制感知的计算调度与历史缓存复用策略。 通过分析相邻 chunk 在不同控制条件下的潜在表示相似性，发现动作变化导致相似度显著下降，而低频结构比高频细节更持久，据此设计了控制感知的缓存复用与频域混合历史先验引导。",
+    "research_unit": "University of Auckland（奥克兰大学，作者 Shangye Song、Hong J…",
+    "hook_text": "论文提出 CtrlCache，一种面向交互式视频世界模型的训练无关（training-free）加速缓存框架，旨在减少多步扩散去噪中的昂贵 DiT 推理开销。",
+    "key_points": [
+      "论文提出 CtrlCache，一种面向交互式视频世界模型的训练无关（training-free）加速缓存框架，旨在减少多步扩散去噪中的昂贵 DiT 推理开销。",
+      "现有缓存策略主要依据模型内部去噪动态决定复用，而忽略了用户控制信号（action/control）的变化；论文利用“控制信号在去噪前即可获得”这一显式信号，设计控制感知的计算调度与历史缓存复用策略。",
+      "通过分析相邻 chunk 在不同控制条件下的潜在表示相似性，发现动作变化导致相似度显著下降，而低频结构比高频细节更持久，据此设计了控制感知的缓存复用与频域混合历史先验引导。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "RenderBench: Benchmarking Render-to-Real Video Transfer with Reconstructed Digital Twins",
+    "link": "https://arxiv.org/abs/2610.08684",
+    "arxiv_id": "2610.08684",
+    "detail_path": "papers/2610.08684/",
+    "cover_path": "covers/2610.08684/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08684.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08684.webp",
+    "preview_text": "论文提出 RenderBench，一个用于评估\"渲染到真实\"（render-to-real）视频迁移能力的基准测试，其核心是构建与真实视频配对的可编辑三维数字孪生。 现有评估资源（如 CO3D、ADT、AptSim2Real）要么缺乏独立可编辑的代理渲染，要么仅在少数场景中提供配对的真实-合成数据，无法支撑参考条件下的渲染到真实评估。 RenderBench 提供 12 个重建的真实世界场景，每个单元包含外观参考图像、真实目标视频、可编辑数字孪生、匹配的代理渲染以及渲染器原生场景注释，用于区分成功迁移与复制、幻觉等常见失败模式。",
+    "research_unit": "香港科技大学（广州）（The Hong Kong University of Science and…",
+    "hook_text": "论文提出 RenderBench，一个用于评估\"渲染到真实\"（render-to-real）视频迁移能力的基准测试，其核心是构建与真实视频配对的可编辑三维数字孪生。",
+    "key_points": [
+      "论文提出 RenderBench，一个用于评估\"渲染到真实\"（render-to-real）视频迁移能力的基准测试，其核心是构建与真实视频配对的可编辑三维数字孪生。",
+      "现有评估资源（如 CO3D、ADT、AptSim2Real）要么缺乏独立可编辑的代理渲染，要么仅在少数场景中提供配对的真实-合成数据，无法支撑参考条件下的渲染到真实评估。",
+      "RenderBench 提供 12 个重建的真实世界场景，每个单元包含外观参考图像、真实目标视频、可编辑数字孪生、匹配的代理渲染以及渲染器原生场景注释，用于区分成功迁移与复制、幻觉等常见失败模式。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "EC-RAG: Event Chain Retrieval-Augmented Generation for Long Video Understanding",
+    "link": "https://arxiv.org/abs/2610.08674",
+    "arxiv_id": "2610.08674",
+    "detail_path": "papers/2610.08674/",
+    "cover_path": "covers/2610.08674/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08674.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08674.webp",
+    "preview_text": "提出 EC-RAG，一种无需训练的检索增强生成框架，用于解决长视频理解中的时序依赖建模问题 针对现有大视频语言模型（LVLMs）因独立处理帧而难以捕捉事件间时序关系的挑战，将视频内容组织为显式事件链 在 Video-MME、MLVU 和 LongVideoBench 基准上验证，平均性能提升约 4%，优于帧级检索方法",
+    "research_unit": "西北工业大学（Northwestern Polytechnical University），中国西安",
+    "hook_text": "提出 EC-RAG，一种无需训练的检索增强生成框架，用于解决长视频理解中的时序依赖建模问题",
+    "key_points": [
+      "提出 EC-RAG，一种无需训练的检索增强生成框架，用于解决长视频理解中的时序依赖建模问题",
+      "针对现有大视频语言模型（LVLMs）因独立处理帧而难以捕捉事件间时序关系的挑战，将视频内容组织为显式事件链",
+      "在 Video-MME、MLVU 和 LongVideoBench 基准上验证，平均性能提升约 4%，优于帧级检索方法"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Knowing When to Trust a Prior: Reliability-Gated Cue Fusion for Video Gaze Prediction",
+    "link": "https://arxiv.org/abs/2610.08663",
+    "arxiv_id": "2610.08663",
+    "detail_path": "papers/2610.08663/",
+    "cover_path": "covers/2610.08663/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08663.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08663.webp",
+    "preview_text": "针对视频注视预测（video gaze prediction）任务，提出 FocusGate——一个由\"无注视先验\"（gaze-free priors）组成的门控集成系统，其成员可选择弃权（abstain），核心思想是\"知道何时信任先验\"。 论文发现，散焦图（defocus map）作为区域线索（region cue），其可靠性逐帧变化：浅景深镜头中标记主体，而深焦镜头中只剩纹理噪声；无条件融合散焦线索会损害模型性能，因此需要逐帧的可靠性门控（per-frame reliability gate）。 门控机制通过读取散焦图的三个形状统计量（shape statistics）来决定哪些帧上估计器平均优于随机水平，被拒绝的帧精确退化为基础模型，实现选择性预测（selective prediction）与线索融合的结合。",
+    "research_unit": "Duke University（杜克大学，美国北卡罗来纳州达勒姆）",
+    "hook_text": "针对视频注视预测（video gaze prediction）任务，提出 FocusGate——一个由\"无注视先验\"（gaze-free priors）组成的门控集成系统，其成员可选择弃权（abstain），核心思想是\"知道何时信任先验\"。",
+    "key_points": [
+      "针对视频注视预测（video gaze prediction）任务，提出 FocusGate——一个由\"无注视先验\"（gaze-free priors）组成的门控集成系统，其成员可选择弃权（abstain），核心思想是\"知道何时信任先验\"。",
+      "论文发现，散焦图（defocus map）作为区域线索（region cue），其可靠性逐帧变化：浅景深镜头中标记主体，而深焦镜头中只剩纹理噪声；无条件融合散焦线索会损害模型性能，因此需要逐帧的可靠性门控（per-frame reliability gate）。",
+      "门控机制通过读取散焦图的三个形状统计量（shape statistics）来决定哪些帧上估计器平均优于随机水平，被拒绝的帧精确退化为基础模型，实现选择性预测（selective prediction）与线索融合的结合。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Stable Scores, Unstable Answers: Frame Phase and Option Order in Video Multiple-Choice Evaluation",
+    "link": "https://arxiv.org/abs/2610.08649",
+    "arxiv_id": "2610.08649",
+    "detail_path": "papers/2610.08649/",
+    "cover_path": "covers/2610.08649/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08649.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08649.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Multi-Label Perceptual Bug Detection in Video Games using Deep Learning on Gameplay Footage",
+    "link": "https://arxiv.org/abs/2610.08593",
+    "arxiv_id": "2610.08593",
+    "detail_path": "papers/2610.08593/",
+    "cover_path": "covers/2610.08593/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08593.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08593.webp",
+    "preview_text": "传统的视频游戏自动化 Bug 检测方法（如手动测试）成本高且耗时，且现有工具难以检测同一视频帧中同时出现的多个感知性 Bug。 论文提出一种基于深度学习的多标签感知性 Bug 检测模型 ResNet-BiLSTM，旨在解决游戏视频中多个 Bug 同时出现的检测难题。 引入了一个包含多种游戏类型、总计约 120 万帧的新基准数据集，以推动该领域的研究并节省人工测试资源。",
+    "research_unit": "Ontario Tech University (Oshawa, Ontario, Canada)",
+    "hook_text": "传统的视频游戏自动化 Bug 检测方法（如手动测试）成本高且耗时，且现有工具难以检测同一视频帧中同时出现的多个感知性 Bug。",
+    "key_points": [
+      "传统的视频游戏自动化 Bug 检测方法（如手动测试）成本高且耗时，且现有工具难以检测同一视频帧中同时出现的多个感知性 Bug。",
+      "论文提出一种基于深度学习的多标签感知性 Bug 检测模型 ResNet-BiLSTM，旨在解决游戏视频中多个 Bug 同时出现的检测难题。",
+      "引入了一个包含多种游戏类型、总计约 120 万帧的新基准数据集，以推动该领域的研究并节省人工测试资源。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Have I Seen Enough? Frozen Video-Language Models Encode Evidence Readiness",
+    "link": "https://arxiv.org/abs/2610.08560",
+    "arxiv_id": "2610.08560",
+    "detail_path": "papers/2610.08560/",
+    "cover_path": "covers/2610.08560/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08560.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08560.webp",
+    "preview_text": "本文聚焦流式视频语言模型（VideoLLM）场景，探索冻结的预训练VideoLLM是否无需额外训练即可自发编码证据就绪信号，用于判断当前问题所需的视频证据是否已到达 针对现有流式视频系统需额外学习回答时机触发机制的问题，本文通过线性探针从冻结模型的残差流中读取该信号，并验证其可用性与泛化性 最终基于该信号提出Readiness Gating策略，在不增加额外计算开销的前提下提升流式视频问答的准确率",
+    "research_unit": "INSIGHT Lab, Ben-Gurion University of the Negev, Is…",
+    "hook_text": "本文聚焦流式视频语言模型（VideoLLM）场景，探索冻结的预训练VideoLLM是否无需额外训练即可自发编码证据就绪信号，用于判断当前问题所需的视频证据是否已到达",
+    "key_points": [
+      "本文聚焦流式视频语言模型（VideoLLM）场景，探索冻结的预训练VideoLLM是否无需额外训练即可自发编码证据就绪信号，用于判断当前问题所需的视频证据是否已到达",
+      "针对现有流式视频系统需额外学习回答时机触发机制的问题，本文通过线性探针从冻结模型的残差流中读取该信号，并验证其可用性与泛化性",
+      "最终基于该信号提出Readiness Gating策略，在不增加额外计算开销的前提下提升流式视频问答的准确率"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "HuC-VideoMAE: Human-Centric Video Masked Autoencoding from synthetic data",
+    "link": "https://arxiv.org/abs/2610.08433",
+    "arxiv_id": "2610.08433",
+    "detail_path": "papers/2610.08433/",
+    "cover_path": "covers/2610.08433/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08433.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08433.webp",
+    "preview_text": "本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。 论文发现将标准 VideoMAE 随机 tube masking 策略直接应用于合成数据会导致下游任务性能显著下降，原因在于均匀掩码使重建预算被背景和纹理主导，模型未能充分学习人体运动结构。 针对该问题，论文提出 HuC-VideoMAE，一种利用合成数据中免费提供的 2D 关键点与人体边界框标注来引导掩码分配的人体中心掩码策略，在无需任何真实帧的情况下显著缩小了与 Kinetics 预训练的性能差距。",
+    "research_unit": "Universidad de Alcalá（阿尔卡拉大学），Alcalá de Henares, Sp…",
+    "hook_text": "本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。",
+    "key_points": [
+      "本文研究在合成人体运动数据集（BEDLAM2.0）上进行视频 Transformer 的自监督预训练，作为网络爬取真实视频（如 Kinetics）的隐私友好替代方案，避免未授权使用真实人物影像所带来的伦理与法律风险。",
+      "论文发现将标准 VideoMAE 随机 tube masking 策略直接应用于合成数据会导致下游任务性能显著下降，原因在于均匀掩码使重建预算被背景和纹理主导，模型未能充分学习人体运动结构。",
+      "针对该问题，论文提出 HuC-VideoMAE，一种利用合成数据中免费提供的 2D 关键点与人体边界框标注来引导掩码分配的人体中心掩码策略，在无需任何真实帧的情况下显著缩小了与 Kinetics 预训练的性能差距。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Event Detection in Table Tennis Videos using 2D Keypoints",
+    "link": "https://arxiv.org/abs/2610.08286",
+    "arxiv_id": "2610.08286",
+    "detail_path": "papers/2610.08286/",
+    "cover_path": "covers/2610.08286/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.08286.webp",
+    "paper_image_full_path": "assets/paper-images/2610.08286.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-05",
     "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
     "link": "https://arxiv.org/abs/2610.06847",
