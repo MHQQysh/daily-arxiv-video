@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration - Video 每日论文卡</title>
+    <meta name="description" content="论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。 核心问题是现有动态缓存方法依赖逐步误差（step error）进行缓存决策，但逐步误差与最终生成视频的质量损失（terminal error）并不直接对应；同时基于阈值的方法无法精确满足用户指定的加速比要求。 论文通过引入潜变量感知（latent-aware）的调度器，将目标加速比转化为复用预算约束，并在无需重新训练生成模型的前提下实现在线自适应缓存调度。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.10457">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.10457.webp" alt="MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration</h1>
+            <div class="detail-meta">2026-10-07 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.10457" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.10457" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.10457</span></div>
+            <p class="detail-summary">论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。 核心问题是现有动态缓存方法依赖逐步误差（step error）进行缓存决策，但逐步误差与最终生成视频的质量损失（terminal error）并不直接对应；同时基于阈值的方法无法精确满足用户指定的加速比要求。 论文通过引入潜变量感知（latent-aware）的调度器，将目标加速比转化为复用预算约束，并在无需重新训练生成模型的前提下实现在线自适应缓存调度。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">上海交通大学（Shanghai Jiao Tong University）</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.10457/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。</p>
+  <ul class="reading-intro-points"><li>论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。</li><li>核心问题是现有动态缓存方法依赖逐步误差（step error）进行缓存决策，但逐步误差与最终生成视频的质量损失（terminal error）并不直接对应；同时基于阈值的方法无法精确满足用户指定的加速比要求。</li><li>论文通过引入潜变量感知（latent-aware）的调度器，将目标加速比转化为复用预算约束，并在无需重新训练生成模型的前提下实现在线自适应缓存调度。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>上海交通大学</strong>（Shanghai Jiao Tong University）</li><li><strong>阿里巴巴云</strong>（Alibaba Cloud Computing）</li><li><strong>阿里巴巴集团</strong>（Alibaba Group）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文提出 <strong>MORCA</strong>，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。</li><li>核心问题是现有动态缓存方法依赖逐步误差（step error）进行缓存决策，但逐步误差与最终生成视频的质量损失（terminal error）并不直接对应；同时基于阈值的方法无法精确满足用户指定的加速比要求。</li><li>论文通过引入潜变量感知（latent-aware）的调度器，将目标加速比转化为复用预算约束，并在无需重新训练生成模型的前提下实现在线自适应缓存调度。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>MORCA</strong> 框架，首个将离线到在线强化学习引入缓存调度，实现用户指定加速比下的自适应缓存复用决策。</li><li>设计 <strong>预算约束（budget-constrained）且潜变量感知（latent-aware）</strong> 的调度器，能够基于终端误差指导缓存决策，并精确控制加速比。</li><li>将缓存调度问题转化为 <strong>约束 MDP</strong>，并巧妙约简为等价的标准增强 MDP，兼容现有 RL 优化算法。</li><li>引入 <strong>IQL（Implicit Q-Learning）</strong> 的离线到在线优化范式：离线阶段提供稳定初始化，在线微调进一步提升策略性能。</li><li>在多个视频生成模型和多种目标加速比下，<strong>MORCA 在相同计算预算下取得优于现有 SOTA 缓存方法的生成保真度</strong>。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>SeaCache</strong> 的缓存粒度和残差重用策略，将其阈值决策规则替换为学习得到的调度器。</li><li>调度器输入包含 SeaCache 的步骤误差代理信号、步骤统计数据、<strong>潜变量特征</strong>（当前与上一步的紧凑特征）以及当前复用计数，以建模步骤误差到终端误差的映射关系。</li><li>通过曲线拟合将用户目标加速比映射为总复用步数预算 $K=\mathcal{C}(\rho^\star)$，建立约束 MDP 并约简为增强 MDP 进行标准 RL 优化。</li><li>采用 <strong>离线到在线 IQL 训练</strong>：离线训练基于预收集轨迹数据提供有效初始化，在线微调在当前策略下探索并进一步提升性能。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>Wan2.1</strong> 等视频生成模型（DiT + Flow Matching 架构）进行实验。</li><li>训练数据通过实际推理生成，包含不同提示词、缓存调度轨迹及对应的 PSNR 终端误差标签。</li><li>模型规模（调度器网络）轻量，具体架构详见论文附录 B.1；训练超参数见附录 B.2。</li><li>硬件资源未在摘要中明确，但实验涉及多模型多加速比的推理与训练。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准包括 <strong>Wan2.1</strong> 等视频生成模型，对比 SOTA 缓存方法（如 <strong>SeaCache</strong>、<strong>TeaCache</strong>、<strong>AdaCache</strong> 等）。</li><li>主要指标：<strong>PSNR</strong>（终端视频质量）、<strong>RMSE</strong>（终端误差预测准确性）、<strong>Spearman 相关系数</strong>（排序一致性）、推理延迟 / 加速比。</li><li>实验表明：仅用逐步误差预测终端误差的 RMSE=6.971，Spearman=0.5288；加入潜变量特征后 RMSE 降至 2.849，Spearman 达 0.9357，证明了潜变量特征对终端误差预测的有效性。</li><li>在多个目标加速比下，<strong>MORCA 相比 SOTA 方法在相同计算预算下取得更优的生成质量</strong>，且能精确满足用户指定的加速比要求。</li><li>消融实验验证了预算约束机制、潜变量感知状态表示和离线到在线训练范式的各自贡献。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.10512/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.10429/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">SGF+: Decoupling Gradient Flows for Autoregressive Video Generation</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

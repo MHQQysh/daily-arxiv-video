@@ -1,5 +1,293 @@
 [
   {
+    "date": "2026-10-07",
+    "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+    "link": "https://arxiv.org/abs/2610.10538",
+    "arxiv_id": "2610.10538",
+    "detail_path": "papers/2610.10538/",
+    "cover_path": "covers/2610.10538/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10538.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10538.webp",
+    "preview_text": "论文提出 Ledger（Long-horizon Egocentric Descriptions, Geometry, and Event Records），一种从第一视角（egocentric）视频中构建的持久 3D 对象记忆系统，用于辅助具身智能体回答事后空间问题。 核心目标：让智能体在无法预知未来问题时，仅凭离线构建的对象记忆（而非查询时重新访问原始视频或图像），回答“物品放在哪里”“容器里有什么”等空间问题。 论文系统研究了记忆设计中四个关键问题：记录哪些对象、如何记录位置变化、除 3D 位置外还应保留什么信息、以及跨场景扩展时如何检索早期观测。",
+    "research_unit": "论文作者为 Shravan S Chaudhari、William Paul、Suchi Saria、…",
+    "hook_text": "论文提出 Ledger（Long-horizon Egocentric Descriptions, Geometry, and Event Records），一种从第一视角（egocentric）视频中构建的持久 3D 对象记忆系统，用于辅助具身智能体回答事后空间问题。",
+    "key_points": [
+      "论文提出 Ledger（Long-horizon Egocentric Descriptions, Geometry, and Event Records），一种从第一视角（egocentric）视频中构建的持久 3D 对象记忆系统，用于辅助具身智能体回答事后空间问题。",
+      "核心目标：让智能体在无法预知未来问题时，仅凭离线构建的对象记忆（而非查询时重新访问原始视频或图像），回答“物品放在哪里”“容器里有什么”等空间问题。",
+      "论文系统研究了记忆设计中四个关键问题：记录哪些对象、如何记录位置变化、除 3D 位置外还应保留什么信息、以及跨场景扩展时如何检索早期观测。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "GRACE: Generation-aware latent compression for efficient video generation",
+    "link": "https://arxiv.org/abs/2610.10524",
+    "arxiv_id": "2610.10524",
+    "detail_path": "papers/2610.10524/",
+    "cover_path": "covers/2610.10524/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10524.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10524.webp",
+    "preview_text": "提出 GRACE（Generation-Aware Latent Compression for Efficient Video Generation），一个两阶段训练框架，用于在不破坏预训练视频生成管线的前提下，对预训练视频自编码器进行高效压缩 核心问题：高压缩率视频自编码器会降低重建质量，且压缩后的潜在空间与预训练 Diffusion Transformer (DiT) 所学习的分布不一致，导致需从头重训或付出高昂的适配成本 该方法将 Wan2.1-I2V-14B 的 token 数量缩减近 8×，在 480×832 分辨率、81 帧条件下延迟降低 11.1×，同时保持压缩前 VBench 生成质量",
+    "research_unit": "KAIST AI（韩国科学技术院人工智能系）：Jiyoung Kim、Paul Hyunbin Cho…",
+    "hook_text": "提出 GRACE（Generation-Aware Latent Compression for Efficient Video Generation），一个两阶段训练框架，用于在不破坏预训练视频生成管线的前提下，对预训练视频自编码器进行高效压缩",
+    "key_points": [
+      "提出 GRACE（Generation-Aware Latent Compression for Efficient Video Generation），一个两阶段训练框架，用于在不破坏预训练视频生成管线的前提下，对预训练视频自编码器进行高效压缩",
+      "核心问题：高压缩率视频自编码器会降低重建质量，且压缩后的潜在空间与预训练 Diffusion Transformer (DiT) 所学习的分布不一致，导致需从头重训或付出高昂的适配成本",
+      "该方法将 Wan2.1-I2V-14B 的 token 数量缩减近 8×，在 480×832 分辨率、81 帧条件下延迟降低 11.1×，同时保持压缩前 VBench 生成质量"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+    "link": "https://arxiv.org/abs/2610.10512",
+    "arxiv_id": "2610.10512",
+    "detail_path": "papers/2610.10512/",
+    "cover_path": "covers/2610.10512/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10512.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10512.webp",
+    "preview_text": "论文提出 JoHan，一个统一的生成式框架，直接从视频序列恢复手部运动，无需依赖中间逐帧姿态估计。 针对视频中手部频繁遮挡、视觉观测不完整导致的逐帧姿态估计不可靠和时间不一致问题，JoHan 联合生成对齐的 2D 和 3D 局部手部姿态序列。 通过生成 2D 轨迹提供直接的图像空间约束，引导 3D 运动生成，并利用 2D–3D 对应关系恢复手部相对于相机的全局位置和朝向，在静态与移动相机场景下均提升精度和运动平滑度。",
+    "research_unit": "The University of Hong Kong（香港大学）",
+    "hook_text": "论文提出 JoHan，一个统一的生成式框架，直接从视频序列恢复手部运动，无需依赖中间逐帧姿态估计。",
+    "key_points": [
+      "论文提出 JoHan，一个统一的生成式框架，直接从视频序列恢复手部运动，无需依赖中间逐帧姿态估计。",
+      "针对视频中手部频繁遮挡、视觉观测不完整导致的逐帧姿态估计不可靠和时间不一致问题，JoHan 联合生成对齐的 2D 和 3D 局部手部姿态序列。",
+      "通过生成 2D 轨迹提供直接的图像空间约束，引导 3D 运动生成，并利用 2D–3D 对应关系恢复手部相对于相机的全局位置和朝向，在静态与移动相机场景下均提升精度和运动平滑度。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration",
+    "link": "https://arxiv.org/abs/2610.10457",
+    "arxiv_id": "2610.10457",
+    "detail_path": "papers/2610.10457/",
+    "cover_path": "covers/2610.10457/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10457.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10457.webp",
+    "preview_text": "论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。 核心问题是现有动态缓存方法依赖逐步误差（step error）进行缓存决策，但逐步误差与最终生成视频的质量损失（terminal error）并不直接对应；同时基于阈值的方法无法精确满足用户指定的加速比要求。 论文通过引入潜变量感知（latent-aware）的调度器，将目标加速比转化为复用预算约束，并在无需重新训练生成模型的前提下实现在线自适应缓存调度。",
+    "research_unit": "上海交通大学（Shanghai Jiao Tong University）",
+    "hook_text": "论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。",
+    "key_points": [
+      "论文提出 MORCA，一个基于离线到在线强化学习（offline-to-online RL）的缓存调度框架，用于加速视频扩散模型的推理过程。",
+      "核心问题是现有动态缓存方法依赖逐步误差（step error）进行缓存决策，但逐步误差与最终生成视频的质量损失（terminal error）并不直接对应；同时基于阈值的方法无法精确满足用户指定的加速比要求。",
+      "论文通过引入潜变量感知（latent-aware）的调度器，将目标加速比转化为复用预算约束，并在无需重新训练生成模型的前提下实现在线自适应缓存调度。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2610.10429",
+    "arxiv_id": "2610.10429",
+    "detail_path": "papers/2610.10429/",
+    "cover_path": "covers/2610.10429/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10429.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10429.webp",
+    "preview_text": "论文研究自回归视频生成中两个核心计算角色——上下文写入（context writing）与去噪（denoising）——共享参数时的优化冲突问题。 通过梯度分析发现两者梯度方向呈系统性的负对齐（所有 512 对余弦相似度均为负），导致视觉质量和长期一致性难以同时优化。 提出 Self Gradient Forcing Plus（SGF+），采用角色分离参数化，为上下文写入和去噪分配独立参数，在保持因果注意交互的前提下，用原始生成目标联合训练两个角色，实现原生长时外推。",
+    "research_unit": "清华大学（Tsinghua University）",
+    "hook_text": "论文研究自回归视频生成中两个核心计算角色——上下文写入（context writing）与去噪（denoising）——共享参数时的优化冲突问题。",
+    "key_points": [
+      "论文研究自回归视频生成中两个核心计算角色——上下文写入（context writing）与去噪（denoising）——共享参数时的优化冲突问题。",
+      "通过梯度分析发现两者梯度方向呈系统性的负对齐（所有 512 对余弦相似度均为负），导致视觉质量和长期一致性难以同时优化。",
+      "提出 Self Gradient Forcing Plus（SGF+），采用角色分离参数化，为上下文写入和去噪分配独立参数，在保持因果注意交互的前提下，用原始生成目标联合训练两个角色，实现原生长时外推。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Real-Time Joint Audio-Video Generation by Parallel Adapter Composition",
+    "link": "https://arxiv.org/abs/2610.10343",
+    "arxiv_id": "2610.10343",
+    "detail_path": "papers/2610.10343/",
+    "cover_path": "covers/2610.10343/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10343.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10343.webp",
+    "preview_text": "论文提出并行适配器组合（Parallel Adapter Composition）方法，用于实现实时联合音频–视频生成，替代传统的链式（chained）训练流程。 传统流程需要依次执行\"因果化（causalization）\"和\"少步蒸馏（few-step distillation）\"，两个阶段相互干扰、误差累积；本文证明两种能力可在同一冻结骨干上并行训练，并在推理时通过权重相加直接组合。 生成的流式系统可在480×832 分辨率下以约 26 fps 实时生成同步音视频，并可持续生成 30 秒且图像质量稳定。",
+    "research_unit": "LIGHTSPEED（作者：Jingyu Li、Xiaoxiao Xiang）",
+    "hook_text": "论文提出并行适配器组合（Parallel Adapter Composition）方法，用于实现实时联合音频–视频生成，替代传统的链式（chained）训练流程。",
+    "key_points": [
+      "论文提出并行适配器组合（Parallel Adapter Composition）方法，用于实现实时联合音频–视频生成，替代传统的链式（chained）训练流程。",
+      "传统流程需要依次执行\"因果化（causalization）\"和\"少步蒸馏（few-step distillation）\"，两个阶段相互干扰、误差累积；本文证明两种能力可在同一冻结骨干上并行训练，并在推理时通过权重相加直接组合。",
+      "生成的流式系统可在480×832 分辨率下以约 26 fps 实时生成同步音视频，并可持续生成 30 秒且图像质量稳定。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Video Prediction Policy 2: Predict Better, Act Better",
+    "link": "https://arxiv.org/abs/2610.10270",
+    "arxiv_id": "2610.10270",
+    "detail_path": "papers/2610.10270/",
+    "cover_path": "covers/2610.10270/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10270.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10270.webp",
+    "preview_text": "论文提出 Video Prediction Policy 2 (VPP2)，一种世界动作模型（WAM），旨在同时提升视频预测与动作生成的零样本泛化能力。 现有 WAM 在开放环境中常产生错误的运动预测，主要原因是基础视频模型未针对操作任务优化，以及简单地将动作组件融入视频模型会损害其泛化能力。 VPP2 通过大规模操作视频预训练、事件级视频建模、单步一致性蒸馏以及 Mixture-of-Transformers (MoT) 动作专家，实现高质量、实时的机器人操作策略。",
+    "research_unit": "Robotera",
+    "hook_text": "论文提出 Video Prediction Policy 2 (VPP2)，一种世界动作模型（WAM），旨在同时提升视频预测与动作生成的零样本泛化能力。",
+    "key_points": [
+      "论文提出 Video Prediction Policy 2 (VPP2)，一种世界动作模型（WAM），旨在同时提升视频预测与动作生成的零样本泛化能力。",
+      "现有 WAM 在开放环境中常产生错误的运动预测，主要原因是基础视频模型未针对操作任务优化，以及简单地将动作组件融入视频模型会损害其泛化能力。",
+      "VPP2 通过大规模操作视频预训练、事件级视频建模、单步一致性蒸馏以及 Mixture-of-Transformers (MoT) 动作专家，实现高质量、实时的机器人操作策略。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "VideoEvolve: Co-Evolving Memory and Retrieval for Long Video Understanding",
+    "link": "https://arxiv.org/abs/2610.10183",
+    "arxiv_id": "2610.10183",
+    "detail_path": "papers/2610.10183/",
+    "cover_path": "covers/2610.10183/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10183.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10183.webp",
+    "preview_text": "论文提出 VideoEvolve，一个面向长视频理解的自进化框架，用于联合进化\"记忆构建\"与\"检索策略\"两大模块。 现有基于记忆的长视频方法存在两大局限：一是记忆构建策略固定、无法从下游推理反馈中学习；二是记忆构建与检索通常分离优化，导致二者失配（memory–retrieval misalignment）。 核心研究问题：能否让记忆构建与检索策略相互促进，实现\"记住什么\"与\"如何检索\"的协同进化（co-evolution）。",
+    "research_unit": "Alibaba Group（阿里巴巴集团，杭州）",
+    "hook_text": "论文提出 VideoEvolve，一个面向长视频理解的自进化框架，用于联合进化\"记忆构建\"与\"检索策略\"两大模块。",
+    "key_points": [
+      "论文提出 VideoEvolve，一个面向长视频理解的自进化框架，用于联合进化\"记忆构建\"与\"检索策略\"两大模块。",
+      "现有基于记忆的长视频方法存在两大局限：一是记忆构建策略固定、无法从下游推理反馈中学习；二是记忆构建与检索通常分离优化，导致二者失配（memory–retrieval misalignment）。",
+      "核心研究问题：能否让记忆构建与检索策略相互促进，实现\"记住什么\"与\"如何检索\"的协同进化（co-evolution）。"
+    ],
+    "reading_minutes": 7,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering",
+    "link": "https://arxiv.org/abs/2610.10163",
+    "arxiv_id": "2610.10163",
+    "detail_path": "papers/2610.10163/",
+    "cover_path": "covers/2610.10163/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10163.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10163.webp",
+    "preview_text": "论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。 核心研究问题：如何将已知角色身份以何种空间表示方式提供给通用视频多模态大模型（Video-MLLM），使其能够跨帧跟踪并推理“谁在哪里、谁在做什么、与谁互动”。 论文提出了身份感知视频字幕与人物中心问答两个任务，并构建了人工验证的基准数据集，系统比较多种身份 grounding 策略，最终通过 LoRA 微调得到 BAC 模型。",
+    "research_unit": "Télécom SudParis, Institut Polytechnique de Paris…",
+    "hook_text": "论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。",
+    "key_points": [
+      "论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。",
+      "核心研究问题：如何将已知角色身份以何种空间表示方式提供给通用视频多模态大模型（Video-MLLM），使其能够跨帧跟踪并推理“谁在哪里、谁在做什么、与谁互动”。",
+      "论文提出了身份感知视频字幕与人物中心问答两个任务，并构建了人工验证的基准数据集，系统比较多种身份 grounding 策略，最终通过 LoRA 微调得到 BAC 模型。"
+    ],
+    "reading_minutes": 8,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "HeiCo-FOCUS: A Clinically Grounded Dataset for Long-Context Video Understanding",
+    "link": "https://arxiv.org/abs/2610.10156",
+    "arxiv_id": "2610.10156",
+    "detail_path": "papers/2610.10156/",
+    "cover_path": "covers/2610.10156/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.10156.webp",
+    "paper_image_full_path": "assets/paper-images/2610.10156.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-06",
     "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
     "link": "https://arxiv.org/abs/2610.08779",

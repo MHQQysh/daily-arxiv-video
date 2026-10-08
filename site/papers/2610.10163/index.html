@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering - Video 每日论文卡</title>
+    <meta name="description" content="论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。 核心研究问题：如何将已知角色身份以何种空间表示方式提供给通用视频多模态大模型（Video-MLLM），使其能够跨帧跟踪并推理“谁在哪里、谁在做什么、与谁互动”。 论文提出了身份感知视频字幕与人物中心问答两个任务，并构建了人工验证的基准数据集，系统比较多种身份 grounding 策略，最终通过 LoRA 微调得到 BAC 模型。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.10163">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.10163.webp" alt="Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering</h1>
+            <div class="detail-meta">2026-10-07 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.10163" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.10163" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.10163</span></div>
+            <p class="detail-summary">论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。 核心研究问题：如何将已知角色身份以何种空间表示方式提供给通用视频多模态大模型（Video-MLLM），使其能够跨帧跟踪并推理“谁在哪里、谁在做什么、与谁互动”。 论文提出了身份感知视频字幕与人物中心问答两个任务，并构建了人工验证的基准数据集，系统比较多种身份 grounding 策略，最终通过 LoRA 微调得到 BAC 模型。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">8 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">Télécom SudParis, Institut Polytechnique de Paris…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.10163/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。</p>
+  <ul class="reading-intro-points"><li>论文围绕身份感知视频理解展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将人物身份与空间位置显式关联的框架。</li><li>核心研究问题：如何将已知角色身份以何种空间表示方式提供给通用视频多模态大模型（Video-MLLM），使其能够跨帧跟踪并推理“谁在哪里、谁在做什么、与谁互动”。</li><li>论文提出了身份感知视频字幕与人物中心问答两个任务，并构建了人工验证的基准数据集，系统比较多种身份 grounding 策略，最终通过 LoRA 微调得到 BAC 模型。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>Télécom SudParis, Institut Polytechnique de Paris, France</strong></li><li><strong>Moments Lab Research, France</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文围绕<strong>身份感知视频理解</strong>展开，针对现有视频字幕模型通常仅描述“谁在做什么”却无法将动作、互动正确归属到具体角色的缺陷，提出一套将<strong>人物身份与空间位置显式关联</strong>的框架。</li><li>核心研究问题：如何将已知角色身份以何种空间表示方式提供给通用视频多模态大模型（Video-MLLM），使其能够跨帧跟踪并推理“谁在哪里、谁在做什么、与谁互动”。</li><li>论文提出了身份感知视频字幕与人物中心问答两个任务，并构建了人工验证的基准数据集，系统比较多种身份 grounding 策略，最终通过 LoRA 微调得到 <strong>BAC</strong> 模型。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>构建了从 <strong>LSMDC v2</strong> 电影片段出发的自动角色识别与空间定位流程，生成约 <strong>32K</strong> 条身份感知训练字幕，并人工筛选出 <strong>750</strong> 个片段、<strong>3,000</strong> 个以人物为中心的问答对作为评测基准。</li><li>系统研究了 <strong>5 种身份 grounding 表示</strong>：纯文本坐标（FTC）、人脸视觉框（FVB）、人物视觉框（PVB）、人脸视觉框+文本坐标（FVB+FTC）、人物视觉框+文本坐标（PVB+PTC），覆盖文本/视觉/组合形式。</li><li>实验发现：<strong>视觉框加上文本坐标（FVB+FTC）</strong> 在不同模型规模下整体表现最稳定，显著优于纯文本坐标；较大模型更能正确识别 <strong>UNIDENTIFIED（未识别）</strong> 情况，而较小模型倾向于强行分配已知身份。</li><li>提出 <strong>BAC（Beyond Anonymous Captions）</strong> 模型，通过对 Qwen 系列（2B/4B/8B）进行 LoRA 微调，在所有同等规模模型中达到最佳性能，<strong>BAC-8B</strong> 的 QA 总体准确率达 <strong>93.20%</strong>，仅次于前沿模型 GPT-5.6 Sol。</li><li>开源了基准数据、训练数据、代码与模型权重，推动身份感知视频理解研究。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li><strong>角色识别流程</strong>：从 IMDb 获取演员与角色名，收集演员参考图，经 InsightFace 提取嵌入并聚类建立参考库；对视频帧进行人脸检测与 DeepSORT 在线跟踪，将人脸轨迹与演员参考库匹配，匹配置信度超过阈值后传播身份标签。</li><li><strong>场景切分与采样</strong>：用 PySceneDetect 将原始片段切分为镜头（平均时长 2.50s），每镜头均匀采样 8 帧，仅保留至少含一个身份框的镜头。</li><li><strong>身份 grounding 表示</strong>：对每个已识别角色分配唯一标识符（如 P1、P2），在采样帧上绘制带颜色编码的边界框，并可选地在 prompt 中提供文本框坐标，以显式告诉模型“谁在哪里”。</li><li><strong>BAC 训练</strong>：使用 Gemini 2.5 Flash 生成身份感知字幕作为监督信号，对 Qwen3-VL 2B/4B/8B 进行 LoRA 参数高效微调，不改变底层架构。</li><li><strong>评测协议</strong>：统一 prompting 与解码配置；字幕用 VLM-as-a-judge（Qwen3-8 27B-FP8）评估身份正确性、幻觉、视觉忠实度与自然度。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>数据集：<strong>LSMDC v2</strong>（92 部电影，46,756 个片段），切分后得到 <strong>54,133 个镜头</strong>；按电影级划分，训练集 72 部电影，测试集 12 部电影。</li><li>训练数据：约 <strong>32K</strong> 条 Gemini 生成的身份感知字幕（28,742 训练 + 3,193 验证）。</li><li>评测基准：<strong>750</strong> 个人工验证片段、<strong>3,000</strong> 个人物中心问题（2,074 个已知角色 + 926 个未识别）。</li><li>模型规模：Qwen3-VL 约 <strong>2B / 4B / 8B</strong>；对比模型包括 InternVL3.5、MiniCPM-V、Ovis2、Eagle2.5、Molmo2 等，以及多个前沿大模型。</li><li>训练资源：LoRA 微调，基于 Qwen 系列预训练模型，具体 GPU 配置未在摘要中说明。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li><strong>人物中心问答</strong>：报告 Overall / Named / UNIDENTIFIED / Clip-Level 准确率。</li><li><strong>身份感知字幕</strong>：使用 VLM-as-a-judge 报告 Caption Overall（0-10 分）、Caption Identity（%）、Caption Hallucination（%）。</li><li><strong>关键结果</strong>：</li></ul>
+<p> - 显式视觉 grounding 显著优于纯文本坐标：QA Overall 从 FTC 到最佳视觉方法，2B 从 53.87% 提升到 68.90%，4B 从 62.57% 到 79.73%，8B 从 59.77% 到 88.53%。</p>
+<p> - <strong>FVB+FTC</strong> 在 2B 规模下最优，在 4B/8B 下与 FVB、PVB+PTC 同属统计最优组，PVB 较弱。</p>
+<p> - 小脸（<4,000 px²）时 PVB+PTC 更优（91.8% vs 80.0%），中/大脸时 FVB+FTC 更优。</p>
+<p> - <strong>BAC 模型</strong>在所有规模（2B/4B/8B）上均超过同规模其他模型家族，<strong>BAC-8B</strong> 达到 <strong>93.20%</strong> 总体 QA 准确率，仅次于 GPT-5.6 Sol。</p>
+<p> - 小模型在 UNIDENTIFIED 问题上更易误报已知身份，8B 模型能将 Named 与 UNID 准确率平衡在约 88% 和 87%。</p></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.10183/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">VideoEvolve: Co-Evolving Memory and Retrieval for Long Video Understanding</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.10156/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">HeiCo-FOCUS: A Clinically Grounded Dataset for Long-Context Video Understanding</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
