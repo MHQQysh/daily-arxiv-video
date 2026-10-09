@@ -1,5 +1,291 @@
 [
   {
+    "date": "2026-10-08",
+    "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
+    "link": "https://arxiv.org/abs/2610.12464",
+    "arxiv_id": "2610.12464",
+    "detail_path": "papers/2610.12464/",
+    "cover_path": "covers/2610.12464/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.12464.webp",
+    "paper_image_full_path": "assets/paper-images/2610.12464.webp",
+    "preview_text": "论文系统研究了\"从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）\"这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。 论文直接度量智能体（agent）运动保真度与对象交互（object-interaction）保真度，而不是依赖模糊的下游任务指标，从而分离\"智能体自身动作\"与\"动作对世界产生的影响\"两类能力。 核心发现：训练数据扩大 100 倍后，智能体建模效果良好且趋于饱和，但对象交互保真度始终远远落后且提升缓慢，说明仅靠缩放数据无法弥合这一差距。",
+    "research_unit": "University of Illinois Urbana-Champaign（伊利诺伊大学厄巴纳-香…",
+    "hook_text": "论文系统研究了\"从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）\"这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。",
+    "key_points": [
+      "论文系统研究了\"从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）\"这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。",
+      "论文直接度量智能体（agent）运动保真度与对象交互（object-interaction）保真度，而不是依赖模糊的下游任务指标，从而分离\"智能体自身动作\"与\"动作对世界产生的影响\"两类能力。",
+      "核心发现：训练数据扩大 100 倍后，智能体建模效果良好且趋于饱和，但对象交互保真度始终远远落后且提升缓慢，说明仅靠缩放数据无法弥合这一差距。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
+    "link": "https://arxiv.org/abs/2610.12459",
+    "arxiv_id": "2610.12459",
+    "detail_path": "papers/2610.12459/",
+    "cover_path": "covers/2610.12459/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.12459.webp",
+    "paper_image_full_path": "assets/paper-images/2610.12459.webp",
+    "preview_text": "论文聚焦于长时程程序性任务的视频生成问题，指出现有视频生成模型虽能合成视觉上合理的轨迹，但无法根据已生成的结果自适应地决定下一步动作，也无法判断任务是否完成。 论文提出将程序性视频生成建模为视觉世界空间中的闭环任务执行，并引入 WorldGuide 模型：仅给定初始图像和任务目标，模型循环执行\"预测原子动作 → 生成对应视频片段 → 依据生成结果选择下一步或终止\"的过程。 现有闭环系统（如 ORCA、CollabVR、NovaPlan 等）通常依赖预训练执行器或间接验证，存在\"规划与执行脱节\"的问题——规划正确但执行器无法可靠实现动作；WorldGuide 通过让规划器（ContextPlanner）与执行器（Executor）在同一演示数据上联合训练来解决该问题。",
+    "research_unit": "Mohamed bin Zayed University of Artificial Intellig…",
+    "hook_text": "论文聚焦于长时程程序性任务的视频生成问题，指出现有视频生成模型虽能合成视觉上合理的轨迹，但无法根据已生成的结果自适应地决定下一步动作，也无法判断任务是否完成。",
+    "key_points": [
+      "论文聚焦于长时程程序性任务的视频生成问题，指出现有视频生成模型虽能合成视觉上合理的轨迹，但无法根据已生成的结果自适应地决定下一步动作，也无法判断任务是否完成。",
+      "论文提出将程序性视频生成建模为视觉世界空间中的闭环任务执行，并引入 WorldGuide 模型：仅给定初始图像和任务目标，模型循环执行\"预测原子动作 → 生成对应视频片段 → 依据生成结果选择下一步或终止\"的过程。",
+      "现有闭环系统（如 ORCA、CollabVR、NovaPlan 等）通常依赖预训练执行器或间接验证，存在\"规划与执行脱节\"的问题——规划正确但执行器无法可靠实现动作；WorldGuide 通过让规划器（ContextPlanner）与执行器（Executor）在同一演示数据上联合训练来解决该问题。"
+    ],
+    "reading_minutes": 9,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+    "link": "https://arxiv.org/abs/2610.12442",
+    "arxiv_id": "2610.12442",
+    "detail_path": "papers/2610.12442/",
+    "cover_path": "covers/2610.12442/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.12442.webp",
+    "paper_image_full_path": "assets/paper-images/2610.12442.webp",
+    "preview_text": "LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。 现有 SOTA 方法（如 EgoX）依赖单目深度估计、点云重建和重投影来生成条件，深度误差会导致内容错位；LEGO 改用学习式视图合成器直接渲染第一人称视图，不估计深度、不构建点云、不进行重投影。 核心问题是“视频扩散模型应该接受什么样的条件”，作者主张“结构对齐优先于清晰度”，因为扩散模型擅长从模糊中恢复细节，而对错位内容难以修正。",
+    "research_unit": "GenGenAI（作者 Suhwan Cho、Yonwoo Choi、Soongjin Kim、Jic…",
+    "hook_text": "LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。",
+    "key_points": [
+      "LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。",
+      "现有 SOTA 方法（如 EgoX）依赖单目深度估计、点云重建和重投影来生成条件，深度误差会导致内容错位；LEGO 改用学习式视图合成器直接渲染第一人称视图，不估计深度、不构建点云、不进行重投影。",
+      "核心问题是“视频扩散模型应该接受什么样的条件”，作者主张“结构对齐优先于清晰度”，因为扩散模型擅长从模糊中恢复细节，而对错位内容难以修正。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
+    "link": "https://arxiv.org/abs/2610.12419",
+    "arxiv_id": "2610.12419",
+    "detail_path": "papers/2610.12419/",
+    "cover_path": "covers/2610.12419/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.12419.webp",
+    "paper_image_full_path": "assets/paper-images/2610.12419.webp",
+    "preview_text": "论文提出 OneSearch-VL，一个统一的端到端多模态深度研究（DeepResearch）智能体，覆盖单图像、多图像和视频三种视觉输入类型。 核心问题是现有方法无法联合保留\"局部视觉锚点 → 实体关系 → 来源支持的事实 → 答案生成操作\"之间的依赖关系，导致多模态深度研究缺乏统一的任务级参考结构。 论文引入 Visually Grounded Evidence Graph（VGEG） 作为共享任务级参考，用于数据构建、过程监督和操作级评估，并基于此构建了统一的数据引擎、训练数据集和细粒度评测基准。",
+    "research_unit": "BUAA（北京航空航天大学）",
+    "hook_text": "论文提出 OneSearch-VL，一个统一的端到端多模态深度研究（DeepResearch）智能体，覆盖单图像、多图像和视频三种视觉输入类型。",
+    "key_points": [
+      "论文提出 OneSearch-VL，一个统一的端到端多模态深度研究（DeepResearch）智能体，覆盖单图像、多图像和视频三种视觉输入类型。",
+      "核心问题是现有方法无法联合保留\"局部视觉锚点 → 实体关系 → 来源支持的事实 → 答案生成操作\"之间的依赖关系，导致多模态深度研究缺乏统一的任务级参考结构。",
+      "论文引入 Visually Grounded Evidence Graph（VGEG） 作为共享任务级参考，用于数据构建、过程监督和操作级评估，并基于此构建了统一的数据引擎、训练数据集和细粒度评测基准。"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation",
+    "link": "https://arxiv.org/abs/2610.12382",
+    "arxiv_id": "2610.12382",
+    "detail_path": "papers/2610.12382/",
+    "cover_path": "covers/2610.12382/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.12382.webp",
+    "paper_image_full_path": "assets/paper-images/2610.12382.webp",
+    "preview_text": "提出 WorldAlign，一个解耦的 4D 奖励框架，用于提升视频生成中的世界一致性（4D world consistency） 4D 世界一致性包含两个子目标：静态一致性（静态环境跨视角保持连贯的 3D 结构）与动态一致性（主体运动合理、外观随时间保持一致） 针对现有几何感知后训练方法依赖静态场景假设、难以提供可靠的静态一致性反馈、且忽视动态一致性评估的局限性",
+    "research_unit": "论文作者包括 Jing He、Kaixin Ding、Xingye Tian、Guibao Shen、…",
+    "hook_text": "提出 WorldAlign，一个解耦的 4D 奖励框架，用于提升视频生成中的世界一致性（4D world consistency）",
+    "key_points": [
+      "提出 WorldAlign，一个解耦的 4D 奖励框架，用于提升视频生成中的世界一致性（4D world consistency）",
+      "4D 世界一致性包含两个子目标：静态一致性（静态环境跨视角保持连贯的 3D 结构）与动态一致性（主体运动合理、外观随时间保持一致）",
+      "针对现有几何感知后训练方法依赖静态场景假设、难以提供可靠的静态一致性反馈、且忽视动态一致性评估的局限性"
+    ],
+    "reading_minutes": 4,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Connected Self Forcing: Beyond Local Learning in Video Autoregression",
+    "link": "https://arxiv.org/abs/2610.12156",
+    "arxiv_id": "2610.12156",
+    "detail_path": "papers/2610.12156/",
+    "cover_path": "covers/2610.12156/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.12156.webp",
+    "paper_image_full_path": "assets/paper-images/2610.12156.webp",
+    "preview_text": "针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。 研究目标是重连跨自回归块的反向梯度路径，在不改变推理流程、不增加额外显存开销的前提下，提升长视频生成的质量与时序稳定性。",
+    "research_unit": "论文作者所属机构包括：XPeng、香港中文大学（The Chinese University of H…",
+    "hook_text": "针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。",
+    "key_points": [
+      "针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。",
+      "研究目标是重连跨自回归块的反向梯度路径，在不改变推理流程、不增加额外显存开销的前提下，提升长视频生成的质量与时序稳定性。",
+      "揭示了Self Forcing的前向-反向依赖鸿沟：生成的视频块在自回归前向rollout中作为后续预测的因果上下文，但detach操作仅能让每个块获得直接的分布匹配蒸馏（DMD）输出梯度，阻断了后续梯度向更早生成块的回传。"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "VINCIE-NExT: Unlocking Video Editing from Images via In-Context Modeling",
+    "link": "https://arxiv.org/abs/2610.12104",
+    "arxiv_id": "2610.12104",
+    "detail_path": "papers/2610.12104/",
+    "cover_path": "covers/2610.12104/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.12104.webp",
+    "paper_image_full_path": "assets/paper-images/2610.12104.webp",
+    "preview_text": "提出 VINCIE-NExT 框架，旨在解决视频编辑任务中大规模成对视频编辑数据极度稀缺的核心瓶颈 通过上下文视觉演示（in-context visual demonstration）将成熟的图像编辑能力迁移到视频域，从而无需昂贵的视频编辑三元组标注 将视频编辑分解为 Video→Image→Image→Video 的结构化子任务链，使模型能从异构的图像和视频数据中联合学习",
+    "research_unit": "National University of Singapore",
+    "hook_text": "提出 VINCIE-NExT 框架，旨在解决视频编辑任务中大规模成对视频编辑数据极度稀缺的核心瓶颈",
+    "key_points": [
+      "提出 VINCIE-NExT 框架，旨在解决视频编辑任务中大规模成对视频编辑数据极度稀缺的核心瓶颈",
+      "通过上下文视觉演示（in-context visual demonstration）将成熟的图像编辑能力迁移到视频域，从而无需昂贵的视频编辑三元组标注",
+      "将视频编辑分解为 Video→Image→Image→Video 的结构化子任务链，使模型能从异构的图像和视频数据中联合学习"
+    ],
+    "reading_minutes": 6,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "DataVista: Diagnosing Multimodal LLMs on Data Video Understanding",
+    "link": "https://arxiv.org/abs/2610.11993",
+    "arxiv_id": "2610.11993",
+    "detail_path": "papers/2610.11993/",
+    "cover_path": "covers/2610.11993/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.11993.webp",
+    "paper_image_full_path": "assets/paper-images/2610.11993.webp",
+    "preview_text": "提出首个专门针对数据视频理解的多模态大语言模型（MLLM）评测基准 DataVista，解决现有基准仅覆盖通用视频或静态图表、缺乏对数据视频场景系统性能力评估的空白 数据视频是融合数据可视化与视频叙事的媒介，理解该类内容需要动态视觉感知、跨时序推理和叙事理解能力，现有研究未对该场景下的模型能力进行系统诊断 研究目标是通过构建标准化、分层次的评测基准，识别主流MLLM在数据视频理解任务上的能力瓶颈，为后续模型优化提供方向",
+    "research_unit": "香港科技大学（广州）（Yupeng Xie、Zhenyang Wang、Jiayi Zhu、Zhoua…",
+    "hook_text": "提出首个专门针对数据视频理解的多模态大语言模型（MLLM）评测基准 DataVista，解决现有基准仅覆盖通用视频或静态图表、缺乏对数据视频场景系统性能力评估的空白",
+    "key_points": [
+      "提出首个专门针对数据视频理解的多模态大语言模型（MLLM）评测基准 DataVista，解决现有基准仅覆盖通用视频或静态图表、缺乏对数据视频场景系统性能力评估的空白",
+      "数据视频是融合数据可视化与视频叙事的媒介，理解该类内容需要动态视觉感知、跨时序推理和叙事理解能力，现有研究未对该场景下的模型能力进行系统诊断",
+      "研究目标是通过构建标准化、分层次的评测基准，识别主流MLLM在数据视频理解任务上的能力瓶颈，为后续模型优化提供方向"
+    ],
+    "reading_minutes": 5,
+    "section_count": 6,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "VEDJE: Video-Efficient Discriminative Joint Encoder for Scalable Video-Text Retrieval",
+    "link": "https://arxiv.org/abs/2610.11850",
+    "arxiv_id": "2610.11850",
+    "detail_path": "papers/2610.11850/",
+    "cover_path": "covers/2610.11850/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.11850.webp",
+    "paper_image_full_path": "assets/paper-images/2610.11850.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Phase-aware video generation for physics-grounded dynamics and interactions",
+    "link": "https://arxiv.org/abs/2610.11791",
+    "arxiv_id": "2610.11791",
+    "detail_path": "papers/2610.11791/",
+    "cover_path": "covers/2610.11791/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.11791.webp",
+    "paper_image_full_path": "assets/paper-images/2610.11791.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-07",
     "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
     "link": "https://arxiv.org/abs/2610.10538",

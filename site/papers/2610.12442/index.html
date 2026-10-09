@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation - Video 每日论文卡</title>
+    <meta name="description" content="LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。 现有 SOTA 方法（如 EgoX）依赖单目深度估计、点云重建和重投影来生成条件，深度误差会导致内容错位；LEGO 改用学习式视图合成器直接渲染第一人称视图，不估计深度、不构建点云、不进行重投影。 核心问题是“视频扩散模型应该接受什么样的条件”，作者主张“结构对齐优先于清晰度”，因为扩散模型擅长从模糊中恢复细节，而对错位内容难以修正。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.12442">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.12442.webp" alt="LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation</h1>
+            <div class="detail-meta">2026-10-08 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.12442" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.12442" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.12442</span></div>
+            <p class="detail-summary">LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。 现有 SOTA 方法（如 EgoX）依赖单目深度估计、点云重建和重投影来生成条件，深度误差会导致内容错位；LEGO 改用学习式视图合成器直接渲染第一人称视图，不估计深度、不构建点云、不进行重投影。 核心问题是“视频扩散模型应该接受什么样的条件”，作者主张“结构对齐优先于清晰度”，因为扩散模型擅长从模糊中恢复细节，而对错位内容难以修正。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">6 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">GenGenAI（作者 Suhwan Cho、Yonwoo Choi、Soongjin Kim、Jic…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.12442/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。</p>
+  <ul class="reading-intro-points"><li>LEGO 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。</li><li>现有 SOTA 方法（如 EgoX）依赖单目深度估计、点云重建和重投影来生成条件，深度误差会导致内容错位；LEGO 改用学习式视图合成器直接渲染第一人称视图，不估计深度、不构建点云、不进行重投影。</li><li>核心问题是“视频扩散模型应该接受什么样的条件”，作者主张“结构对齐优先于清晰度”，因为扩散模型擅长从模糊中恢复细节，而对错位内容难以修正。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>GenGenAI</strong>（作者 Suhwan Cho、Yonwoo Choi、Soongjin Kim、Jicheol Park、Taegyu Lim 均隶属该机构）</li><li>开源代码和模型权重分别发布在 GitHub（suhwan-cho/lego）和 Hugging Face（suhwan-cho/lego）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li><strong>LEGO</strong> 提出一种“免提升”（lifting-free）的离心视角到第一人称视角（exocentric-to-egocentric）视频生成框架，输入单个第三人称视频和目标第一人称相机轨迹，直接生成目标视角视频。</li><li>现有 SOTA 方法（如 EgoX）依赖单目深度估计、点云重建和重投影来生成条件，深度误差会导致内容错位；<strong>LEGO</strong> 改用学习式视图合成器直接渲染第一人称视图，不估计深度、不构建点云、不进行重投影。</li><li>核心问题是“视频扩散模型应该接受什么样的条件”，作者主张“结构对齐优先于清晰度”，因为扩散模型擅长从模糊中恢复细节，而对错位内容难以修正。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>提出 <strong>LEGO</strong> 框架，用冻结的 LVSM 风格 transformer 作为学习式视图合成器，直接渲染目标第一人称视图，替换点云重渲染作为扩散模型的条件。</li><li>论证“结构对齐但柔和的条件”优于“清晰但错位的条件”，并通过实验验证该设计选择。</li><li>提出 <strong>Adaptive Rendering Consistency (ARC)</strong>，一种无需训练的推理时引导方法，利用合成器的置信度图在早期去噪步骤中引导生成器靠近高置信度渲染区域。</li><li>提出置信度门控条件化（Confidence-Gated Conditioning），根据对应分布集中度将低置信度区域掩码为中性灰，避免不可靠条件误导生成。</li><li>在 <strong>Ego-Exo4D</strong> 上取得 SOTA 结果，并零样本泛化到 <strong>EgoHumans</strong> 和 <strong>Nymeria</strong> 数据集。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用 LVSM 风格 transformer 作为视图合成器 F，输入外心帧、外心射线图和目标射线图（Plücker 嵌入），输出第一人称帧，仅用 ℓ2 和感知损失监督，不依赖深度或对应标签。</li><li>通过分析合成器注意力权重的对应分布，计算每个目标位置的置信度（Top-k 概率质量之和），并用阈值 τ 门控得到条件渲染图。</li><li>采用 flow-matching 视频扩散模型作为生成器，条件输入为“外心图+门控渲染图”拼接的 latent，生成器本身不做修改。</li><li>ARC 在采样早期步骤中，用置信度加权的渲染图混合当前干净估计，重新计算速度场，从而在布局形成阶段引导生成，其余步骤不约束。</li><li>针对 fisheye 相机，将已校准的鱼眼投影逐像素求逆得到目标射线，并在真实 exo-ego 对上微调合成器，使其适应外推视角和鱼眼视野。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>训练数据集：<strong>Ego-Exo4D</strong>（exo-ego 视频对，包含 fisheye 头戴相机和第三人称相机）</li><li>零样本泛化数据集：<strong>EgoHumans</strong>、<strong>Nymeria</strong></li><li>视图合成器微调：10,000 步，约 3.5 小时，使用 <strong>4× NVIDIA H200 GPU</strong></li><li>生成器采用与 EgoX 相同的图像到视频扩散骨干（基于 Wan 等 2025 的模型），未做架构修改</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估基准：Ego-Exo4D 上的已见和未见场景，以及跨数据集 EgoHumans、Nymeria 的零样本评估。</li><li>主要指标：图像指标（如 PSNR/SSIM/LPIPS 等）、视频指标、清晰度与色度指标，以及对象级指标和条件质量指标（详见附录 B）。</li><li>关键结果：合成器渲染作为条件优于点云渲染；仅使用 ARC 的推理引导即可超越先前方法训练的深度注意偏置；完整系统优于 SOTA 显式重构管线；在未见场景和外部数据集上无需重训练即可泛化。</li><li>消融研究验证了置信度门控、ARC 的早期步数比例、置信度阈值等设计，以及对齐与清晰度之间的权衡。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.12459/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">WorldGuide: Goal-Directed Video World Model for Procedural Task Execution</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.12419/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Connected Self Forcing: Beyond Local Learning in Video Autoregression - Video 每日论文卡</title>
+    <meta name="description" content="针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。 研究目标是重连跨自回归块的反向梯度路径，在不改变推理流程、不增加额外显存开销的前提下，提升长视频生成的质量与时序稳定性。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.12156">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.12156.webp" alt="Connected Self Forcing: Beyond Local Learning in Video Autoregression" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">Connected Self Forcing: Beyond Local Learning in Video Autoregression</h1>
+            <div class="detail-meta">2026-10-08 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.12156" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.12156" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.12156</span></div>
+            <p class="detail-summary">针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。 研究目标是重连跨自回归块的反向梯度路径，在不改变推理流程、不增加额外显存开销的前提下，提升长视频生成的质量与时序稳定性。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">5 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">论文作者所属机构包括：XPeng、香港中文大学（The Chinese University of H…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.12156/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。</p>
+  <ul class="reading-intro-points"><li>针对自回归视频生成中现有Self Forcing方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。</li><li>研究目标是重连跨自回归块的反向梯度路径，在不改变推理流程、不增加额外显存开销的前提下，提升长视频生成的质量与时序稳定性。</li><li>揭示了Self Forcing的前向-反向依赖鸿沟：生成的视频块在自回归前向rollout中作为后续预测的因果上下文，但detach操作仅能让每个块获得直接的分布匹配蒸馏（DMD）输出梯度，阻断了后续梯度向更早生成块的回传。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li>论文作者所属机构包括：<strong>XPeng</strong>、<strong>香港中文大学（The Chinese University of Hong Kong）</strong>、<strong>清华大学（Tsinghua University）</strong></li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>针对自回归视频生成中现有<strong>Self Forcing</strong>方法为控制内存对历史KV缓存做detach操作，切断后续预测到更早生成块的反向梯度路径，导致长程生成视觉质量差、时序一致性不足的问题，本文提出对应解决方案。</li><li>研究目标是重连跨自回归块的反向梯度路径，在不改变推理流程、不增加额外显存开销的前提下，提升长视频生成的质量与时序稳定性。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>揭示了<strong>Self Forcing</strong>的前向-反向依赖鸿沟：生成的视频块在自回归前向rollout中作为后续预测的因果上下文，但detach操作仅能让每个块获得直接的分布匹配蒸馏（DMD）输出梯度，阻断了后续梯度向更早生成块的回传。</li><li>提出<strong>Connected Self Forcing (CSF)</strong> 框架及<strong>Shortcut Gradient Replay</strong>机制：通过重放后续块时将历史KV缓存作为可微叶子，让下游梯度通过KV写入过程回传至更早的生成块，无需保留完整自回归计算图，不增加模型参数且不改变推理流程。</li><li>在60秒和240秒的长视频生成评估中验证了方法有效性，显著提升了长程视觉质量和时序一致性，减少了长rollout中的主体与场景漂移。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>基础逻辑沿用<strong>Self Forcing</strong>的自回归训练范式：每个视频块基于之前生成的历史块生成，训练时对自生成的完整rollout应用<strong>分布匹配蒸馏（DMD）</strong>损失，为每个生成块提供直接输出梯度，但历史KV缓存被detach以控制内存，仅保留当前块的计算图。</li><li>核心创新为<strong>Shortcut Gradient Replay</strong>：前向rollout阶段仅保存后续重放所需的状态，丢弃完整序列的计算图；反向阶段从后续块开始倒序重放，将选定的历史KV缓存设为可微叶子，让DMD梯度通过历史KV的回传路径直接作用于更早块的生成参数与KV写入参数，避免递归重放整个生成轨迹，以重计算换取显存效率。</li><li>该方法不引入额外模型参数，完全不改变推理阶段的流程。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>提供的论文HTML原文截断，未明确提及使用的公开数据集名称、模型具体参数量、训练硬件（GPU/TPU等）配置。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估场景覆盖60秒和240秒的长视频生成任务，核心评估指标包括长程视觉质量、时序一致性、主体/场景漂移程度，同时通过简化1D高斯时间序列toy实验验证梯度重连的有效性。</li><li>关键实验结果：① 在1D高斯toy实验中，CSF的验证MSE和rollout MSE均显著优于<strong>Self Forcing</strong>，接近全序列反向传播（Full BPTT）的性能；② 实际视频生成任务中，CSF生成的长视频具有更好的视觉质量、更强的背景和主体一致性，长rollout中的主体和场景漂移显著减少。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-prev" href="../../papers/2610.12382/"><span class="paper-nav-label">← 上一篇</span><span class="paper-nav-title">WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation</span></a>
+      <a class="paper-nav-link paper-nav-next" href="../../papers/2610.12104/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">VINCIE-NExT: Unlocking Video Editing from Images via In-Context Modeling</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>

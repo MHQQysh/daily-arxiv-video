@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>What 30,000 Hours of Ego-centric Video Does Not Teach - Video 每日论文卡</title>
+    <meta name="description" content="论文系统研究了&quot;从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）&quot;这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。 论文直接度量智能体（agent）运动保真度与对象交互（object-interaction）保真度，而不是依赖模糊的下游任务指标，从而分离&quot;智能体自身动作&quot;与&quot;动作对世界产生的影响&quot;两类能力。 核心发现：训练数据扩大 100 倍后，智能体建模效果良好且趋于饱和，但对象交互保真度始终远远落后且提升缓慢，说明仅靠缩放数据无法弥合这一差距。" />
+    
+    <script>
+      (function() {
+        try {
+          var themePreference = window.localStorage.getItem('color-theme') || 'system';
+          var systemUsesDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolvedTheme = themePreference === 'system'
+            ? (systemUsesDarkTheme ? 'dark' : 'light')
+            : themePreference;
+          document.documentElement.dataset.theme = resolvedTheme;
+          document.documentElement.dataset.themePreference = themePreference;
+          document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.themePreference = 'system';
+        }
+      })();
+    </script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111827'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-size='30' font-family='Arial, sans-serif' fill='white'%3EV%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/style.css" />
+  </head>
+  <body class="detail-page" data-paper-id="2610.12464">
+    <div class="page-noise"></div>
+    <div class="page-blur page-blur-a"></div>
+    <div class="page-blur page-blur-b"></div>
+
+    <header class="header detail-page-header">
+      <div class="container">
+        <div class="detail-page-topbar">
+          <a class="back-link" href="../../index.html">返回列表</a>
+          <div class="detail-topbar-actions">
+            <span class="detail-site-name">Video 每日论文卡</span>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="当前主题：设备，点击切换主题" title="当前主题：设备">
+  <span class="theme-toggle-icons" aria-hidden="true">
+    <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-dark" viewBox="0 0 24 24" fill="none">
+      <path d="M20 15.2A8.1 8.1 0 0 1 8.8 4a8.2 8.2 0 1 0 11.2 11.2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>
+    <svg class="theme-toggle-icon theme-toggle-icon-system" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="4" width="18" height="13" rx="2.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </span>
+  <span class="theme-toggle-label" data-theme-toggle-label>设备</span>
+</button>
+          </div>
+        </div>
+
+        <div class="detail-hero-grid">
+          <div class="detail-hero-cover"><figure class="paper-figure-card paper-figure-card-detail">
+  <img class="paper-figure-image" src="../../assets/paper-images/2610.12464.webp" alt="What 30,000 Hours of Ego-centric Video Does Not Teach" loading="lazy" onclick="window.openPaperFigureImage && window.openPaperFigureImage(this)" />
+  <figcaption class="paper-figure-caption">论文系统研究了&quot;从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）&quot;这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。</figcaption>
+</figure></div>
+          <div class="detail-hero-copy">
+            <p class="eyebrow">论文详情</p>
+            <h1 class="detail-page-title">What 30,000 Hours of Ego-centric Video Does Not Teach</h1>
+            <div class="detail-meta">2026-10-08 · <a data-analytics-event="paper_source_click" href="https://arxiv.org/abs/2610.12464" target="_blank" rel="noopener noreferrer">原文</a> · <a data-analytics-event="paper_translation_click" href="https://hjfy.top/arxiv/2610.12464" target="_blank" rel="noopener noreferrer">翻译</a> · <span class="meta-pill">2610.12464</span></div>
+            <p class="detail-summary">论文系统研究了&quot;从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）&quot;这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。 论文直接度量智能体（agent）运动保真度与对象交互（object-interaction）保真度，而不是依赖模糊的下游任务指标，从而分离&quot;智能体自身动作&quot;与&quot;动作对世界产生的影响&quot;两类能力。 核心发现：训练数据扩大 100 倍后，智能体建模效果良好且趋于饱和，但对象交互保真度始终远远落后且提升缓慢，说明仅靠缩放数据无法弥合这一差距。</p>
+            <div class="detail-micro-meta">
+              <span class="meta-pill">9 分钟读完</span>
+              <span class="meta-pill">6 张阅读卡</span>
+              <span class="meta-pill">University of Illinois Urbana-Champaign（伊利诺伊大学厄巴纳-香…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-shell">
+        <article id="detail-body" class="reading-flow"><section class="reading-card reading-card-intro">
+  <div class="reading-card-topline">
+    <span class="reading-badge">一眼看懂</span>
+    <a class="cover-preview-link" data-analytics-event="paper_cover_open" href="../../covers/2610.12464/">封面预览</a>
+  </div>
+  <p class="reading-intro-hook">论文系统研究了&quot;从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）&quot;这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。</p>
+  <ul class="reading-intro-points"><li>论文系统研究了&quot;从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）&quot;这一范式的实际能力边界，数据集规模达 30,000 小时，覆盖 1,000 多种场景类型和 14,000 名采集者。</li><li>论文直接度量智能体（agent）运动保真度与对象交互（object-interaction）保真度，而不是依赖模糊的下游任务指标，从而分离&quot;智能体自身动作&quot;与&quot;动作对世界产生的影响&quot;两类能力。</li><li>核心发现：训练数据扩大 100 倍后，智能体建模效果良好且趋于饱和，但对象交互保真度始终远远落后且提升缓慢，说明仅靠缩放数据无法弥合这一差距。</li></ul>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 01</span>
+    <span class="reading-step-note">研究单位</span>
+  </div>
+  <h2>研究单位</h2>
+  <div class="reading-card-content"><ul><li><strong>University of Illinois Urbana-Champaign</strong>（伊利诺伊大学厄巴纳-香槟分校）</li><li><strong>Carnegie Mellon University</strong>（卡内基梅隆大学）</li><li><strong>Johns Hopkins University</strong>（约翰斯·霍普金斯大学）</li><li><strong>Toyota Research Institute</strong>（丰田研究所，部分工作在该机构实习期间完成）</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 02</span>
+    <span class="reading-step-note">论文概述</span>
+  </div>
+  <h2>论文概述</h2>
+  <div class="reading-card-content"><ul><li>论文系统研究了"从大规模第一人称（ego-centric）人类视频中扩展训练世界模型（world models）"这一范式的实际能力边界，数据集规模达 <strong>30,000 小时</strong>，覆盖 1,000 多种场景类型和 14,000 名采集者。</li><li>论文直接度量<strong>智能体（agent）运动保真度</strong>与<strong>对象交互（object-interaction）保真度</strong>，而不是依赖模糊的下游任务指标，从而分离"智能体自身动作"与"动作对世界产生的影响"两类能力。</li><li>核心发现：训练数据扩大 100 倍后，智能体建模效果良好且趋于饱和，但对象交互保真度始终远远落后且提升缓慢，说明仅靠缩放数据无法弥合这一差距。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 03</span>
+    <span class="reading-step-note">核心贡献</span>
+  </div>
+  <h2>核心贡献</h2>
+  <div class="reading-card-content"><ul><li>基于 <strong>Cosmos 3</strong> 视频扩散模型，在 300 到 30,000 小时的数据阶梯上开展受控缩放实验，首次直接度量智能体保真度与对象交互保真度在数据规模下的不同行为模式。</li><li>提出<strong>骨架条件化（skeleton conditioning）</strong>设计：将投影后的骨骼序列用同一冻结 VAE 编码并加到视频 token 上，仅需 1k 小时数据即可超过标准条件化在 30k 小时下达到的智能体保真度，从而把智能体能力从数据需求中解耦出来。</li><li>提出<strong>对象中心自适应噪声调度（object-centric adaptive noise scheduling）</strong>，将训练信号从场景外观转向被操作对象的动态，是唯一能提升对象保真度收敛水平的干预手段。</li><li>证明上述增益可迁移到下游<strong>人形机器人（humanoid）</strong>建模场景，但人形智能体与世界交互的建模仍是瓶颈。</li><li>发布完全独立采集的<strong>分布外（OOD）评测基准</strong>，包含不同拍摄硬件、地点与参与者的 150 段人工精选交互片段。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 04</span>
+    <span class="reading-step-note">方法描述</span>
+  </div>
+  <h2>方法描述</h2>
+  <div class="reading-card-content"><ul><li>使用 <strong>Cosmos 3</strong> 视频扩散模型作为基础架构，以初始 RGB 帧、文本描述和 159 维动作序列（相机位姿、手腕位姿、左右手各 20 个手部关节、肩肘位置）为条件预测未来帧。</li><li>动作条件化以整流流匹配（rectified flow matching）训练，条件 token 在去噪过程中保持干净；支持两种动作条件化设计——标准动作 token 与空间对齐的骨架条件化。</li><li>骨架条件化将 21 关节手部与肩-肘-腕链投影到图像平面，并用 HSV 颜色编码深度信息（色相标识手指/肢体、明度随距离衰减），以保留 3D 姿态信息。</li><li>对象中心自适应噪声调度通过局部化动态区域（基于点轨迹与手部邻近先验）并重加权损失，引导模型容量从大面积场景外观转向被操作对象的动力学。</li><li>论文同时测试了现有交互聚焦目标（<strong>PhysisForcing</strong>）作为对照，发现在大规模第一人称场景下无显著提升。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 05</span>
+    <span class="reading-step-note">数据集与资源</span>
+  </div>
+  <h2>数据集与资源</h2>
+  <div class="reading-card-content"><ul><li>训练集为 <strong>Mecka</strong> 数据集：115 万段第一人称视频片段，共 <strong>30,000 小时</strong>、32.4 亿帧（30 fps，平均片段时长 94 秒），每帧含标定内参、6-DoF 相机位姿、每手 21 个 3D 手部关键点、腕部位姿、上半身关键点及自由文本活动描述。</li><li>数据多样性极高：<strong>116 种环境类别</strong>（家庭、面包房、花店、农场、修理店等）、<strong>1,106 种场景类别</strong>、<strong>32,051 个任务</strong>、来自 <strong>14,019 名参与者</strong>，单一环境类型占比不超过 8.3%。</li><li>模型三个变体：<strong>Edge（4B 参数，2B 去噪 Transformer，从头训练）</strong>、<strong>Nano（16B 参数，8B Transformer）</strong>与 <strong>Super（64B 参数，32B Transformer）</strong>，后两者初始化自相同规模的预训练 <strong>Qwen3-VL</strong>。</li><li>训练采用平衡嵌套数据阶梯，预算为 300 / 1k / 3k / 10k / 30k 小时，更大预算共享同一数据前缀并延长训练计算量。</li><li>评测集来自独立采集活动，<strong>37% 的环境类别</strong>（占四分之一片段）在训练中从未出现；150 段人工精选片段均满足非平凡交互、对象可分割、身体关节标注准确三个条件。</li></ul></div>
+</section>
+<section class="reading-card reading-card-section">
+  <div class="reading-card-topline">
+    <span class="reading-step">Card 06</span>
+    <span class="reading-step-note">评估与结果</span>
+  </div>
+  <h2>评估与结果</h2>
+  <div class="reading-card-content"><ul><li>评估环境为<strong>分布外（OOD）基准</strong>：不同拍摄平台、操作者和地点，与训练集无地点或参与者重叠。</li><li>主要指标为基于分割掩码的结构一致性度量，分别报告<strong>智能体（手部区域）保真度</strong>与<strong>被操作对象保真度</strong>；以帧级 SSIM、PSNR、LPIPS、DreamSim 和 FVD 等感知指标作为对照。</li><li>关键结果一：数据扩展（300→30k 小时，100×）同时改善智能体与对象保真度，但极不均衡——智能体持续攀升至可用水平，而对象保真度起点更低、提升更慢、收敛上限远低于智能体。</li><li>关键结果二：<strong>骨架条件化</strong>能在 1k 小时数据下超越标准条件化在 30k 小时下的智能体保真度，两者最终收敛到几乎相同的上限；智能体饱和后，对象保真度的独立测量揭示出显著的"智能体-对象差距"。</li><li>关键结果三：现有交互聚焦目标（PhysisForcing）在规模上无改善；<strong>对象中心自适应噪声调度</strong>虽能提升对象保真度的收敛水平，但差距仍然巨大。</li><li>关键结果四：在<strong>人形机器人微调</strong>下游任务中，所提设计与骨架条件化带来的增益超过仅靠 30k 小时第一人称预训练的贡献，但人形智能体与世界互动的建模仍为瓶颈，且存在与人类场景一致的智能体/对象保真度不对称现象。</li></ul></div>
+</section></article>
+        <aside id="detail-toc" class="detail-toc hidden" aria-label="内容目录">
+          <p class="detail-toc-title">阅读目录</p>
+          <nav id="detail-toc-nav" class="detail-toc-nav"></nav>
+        </aside>
+      </div>
+      <nav class="paper-nav"><a class="paper-nav-link paper-nav-next" href="../../papers/2610.12459/"><span class="paper-nav-label">下一篇 →</span><span class="paper-nav-title">WorldGuide: Goal-Directed Video World Model for Procedural Task Execution</span></a></nav>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>内容来自 <a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv.org</a>，阅读卡片由静态站点生成器构建。</p>
+      </div>
+    </footer>
+
+    <script src="../../assets/theme.js"></script>
+    <script src="../../assets/media.js"></script>
+    <script src="../../assets/analytics.js"></script>
+    <script src="../../assets/paper.js"></script>
+  </body>
+</html>
