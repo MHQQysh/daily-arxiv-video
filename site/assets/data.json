@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-09",
+    "title": "HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation",
+    "link": "https://arxiv.org/abs/2610.13849",
+    "arxiv_id": "2610.13849",
+    "detail_path": "papers/2610.13849/",
+    "cover_path": "covers/2610.13849/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13849.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13849.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+    "link": "https://arxiv.org/abs/2610.13781",
+    "arxiv_id": "2610.13781",
+    "detail_path": "papers/2610.13781/",
+    "cover_path": "covers/2610.13781/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13781.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13781.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "READ: Reading the Selective Scan for Faithful Video Attribution",
+    "link": "https://arxiv.org/abs/2610.13776",
+    "arxiv_id": "2610.13776",
+    "detail_path": "papers/2610.13776/",
+    "cover_path": "covers/2610.13776/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13776.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13776.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Neurons++: A Unified Visual-Stream Framework for Image and Video Reconstruction from fMRI with Neural-to-Visual Interpretability",
+    "link": "https://arxiv.org/abs/2610.13763",
+    "arxiv_id": "2610.13763",
+    "detail_path": "papers/2610.13763/",
+    "cover_path": "covers/2610.13763/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13763.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13763.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "KVeil: First-Place Solution to ECCV 2026 LifeGenIP Challenge on Unlearnable Videos",
+    "link": "https://arxiv.org/abs/2610.13733",
+    "arxiv_id": "2610.13733",
+    "detail_path": "papers/2610.13733/",
+    "cover_path": "covers/2610.13733/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13733.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13733.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+    "link": "https://arxiv.org/abs/2610.13732",
+    "arxiv_id": "2610.13732",
+    "detail_path": "papers/2610.13732/",
+    "cover_path": "covers/2610.13732/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13732.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13732.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "GLIMPSE: Global-Local Indexing with Multi-Precision Spectral Encoding for Explorable Video World Models",
+    "link": "https://arxiv.org/abs/2610.13706",
+    "arxiv_id": "2610.13706",
+    "detail_path": "papers/2610.13706/",
+    "cover_path": "covers/2610.13706/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13706.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13706.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "GraftOOD: Grafting Out-of-Distribution Exemplars into Advantage-Weighted Rectification for Video Reward Optimization",
+    "link": "https://arxiv.org/abs/2610.13470",
+    "arxiv_id": "2610.13470",
+    "detail_path": "papers/2610.13470/",
+    "cover_path": "covers/2610.13470/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13470.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13470.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "TextVBench: Evaluating Text Rendering and Preservation in Video Generation",
+    "link": "https://arxiv.org/abs/2610.13412",
+    "arxiv_id": "2610.13412",
+    "detail_path": "papers/2610.13412/",
+    "cover_path": "covers/2610.13412/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13412.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13412.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "VideoAWR: Reinforcing Video Flow Models with Decoupled-Timestep Advantage-Weighted Rectification",
+    "link": "https://arxiv.org/abs/2610.13338",
+    "arxiv_id": "2610.13338",
+    "detail_path": "papers/2610.13338/",
+    "cover_path": "covers/2610.13338/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.13338.webp",
+    "paper_image_full_path": "assets/paper-images/2610.13338.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-08",
     "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
     "link": "https://arxiv.org/abs/2610.12464",
