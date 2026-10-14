@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-13 | RepProbe: Can Video Language Models Count Repeated Actions? A Diagnostic Benchmark | https://arxiv.org/abs/2610.18844 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding | https://arxiv.org/abs/2610.18829 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos | https://arxiv.org/abs/2610.18822 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | GAD: Geometry Attention Distillation for Consistent Video Generation | https://arxiv.org/abs/2610.18779 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | Steertuning Policies from a Few Human Videos | https://arxiv.org/abs/2610.18711 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | ST-GRU PredRNN-V2: A GRU-Based Reformulation of PredRNN-V2 for Video Prediction | https://arxiv.org/abs/2610.18645 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | VideoJev: System One Model for Video Understanding and Interaction | https://arxiv.org/abs/2610.18615 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | Meta-Video: Efficient Standardized Evaluation for Video Understanding | https://arxiv.org/abs/2610.18535 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | MFVSR: A Multi-Style and Fine-Grained Benchmark for Video Subtitle Removal | https://arxiv.org/abs/2610.18461 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-13 | DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations | https://arxiv.org/abs/2610.18373 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-09 | HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation | https://arxiv.org/abs/2610.13849 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-09 | SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models | https://arxiv.org/abs/2610.13781 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-09 | READ: Reading the Selective Scan for Faithful Video Attribution | https://arxiv.org/abs/2610.13776 | <details><summary>展开</summary>待生成</details> |

@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-13",
+    "title": "RepProbe: Can Video Language Models Count Repeated Actions? A Diagnostic Benchmark",
+    "link": "https://arxiv.org/abs/2610.18844",
+    "arxiv_id": "2610.18844",
+    "detail_path": "papers/2610.18844/",
+    "cover_path": "covers/2610.18844/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18844.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18844.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+    "link": "https://arxiv.org/abs/2610.18829",
+    "arxiv_id": "2610.18829",
+    "detail_path": "papers/2610.18829/",
+    "cover_path": "covers/2610.18829/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18829.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18829.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos",
+    "link": "https://arxiv.org/abs/2610.18822",
+    "arxiv_id": "2610.18822",
+    "detail_path": "papers/2610.18822/",
+    "cover_path": "covers/2610.18822/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18822.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18822.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "GAD: Geometry Attention Distillation for Consistent Video Generation",
+    "link": "https://arxiv.org/abs/2610.18779",
+    "arxiv_id": "2610.18779",
+    "detail_path": "papers/2610.18779/",
+    "cover_path": "covers/2610.18779/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18779.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18779.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Steertuning Policies from a Few Human Videos",
+    "link": "https://arxiv.org/abs/2610.18711",
+    "arxiv_id": "2610.18711",
+    "detail_path": "papers/2610.18711/",
+    "cover_path": "covers/2610.18711/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18711.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18711.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "ST-GRU PredRNN-V2: A GRU-Based Reformulation of PredRNN-V2 for Video Prediction",
+    "link": "https://arxiv.org/abs/2610.18645",
+    "arxiv_id": "2610.18645",
+    "detail_path": "papers/2610.18645/",
+    "cover_path": "covers/2610.18645/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18645.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18645.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "VideoJev: System One Model for Video Understanding and Interaction",
+    "link": "https://arxiv.org/abs/2610.18615",
+    "arxiv_id": "2610.18615",
+    "detail_path": "papers/2610.18615/",
+    "cover_path": "covers/2610.18615/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18615.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18615.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Meta-Video: Efficient Standardized Evaluation for Video Understanding",
+    "link": "https://arxiv.org/abs/2610.18535",
+    "arxiv_id": "2610.18535",
+    "detail_path": "papers/2610.18535/",
+    "cover_path": "covers/2610.18535/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18535.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18535.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "MFVSR: A Multi-Style and Fine-Grained Benchmark for Video Subtitle Removal",
+    "link": "https://arxiv.org/abs/2610.18461",
+    "arxiv_id": "2610.18461",
+    "detail_path": "papers/2610.18461/",
+    "cover_path": "covers/2610.18461/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18461.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18461.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations",
+    "link": "https://arxiv.org/abs/2610.18373",
+    "arxiv_id": "2610.18373",
+    "detail_path": "papers/2610.18373/",
+    "cover_path": "covers/2610.18373/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.18373.webp",
+    "paper_image_full_path": "assets/paper-images/2610.18373.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-09",
     "title": "HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation",
     "link": "https://arxiv.org/abs/2610.13849",
