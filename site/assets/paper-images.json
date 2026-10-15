@@ -21695,5 +21695,603 @@
     "inside_figure": true,
     "width": 467,
     "height": 256
+  },
+  "2610.20137": {
+    "title": "StreamErase: Towards Ultra-Fast Streaming Video Erasing",
+    "abs_url": "https://arxiv.org/abs/2610.20137",
+    "html_url": "https://arxiv.org/html/2610.20137v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20137v1/method1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 220,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20137v1/method2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 269,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20137v1/visual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 281,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20137v1/appen_visual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 281,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20137v1/appen_stage.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 195,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.20137.webp",
+    "image_url": "https://arxiv.org/html/2610.20137v1/method1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 220
+  },
+  "2610.20552": {
+    "title": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.20552",
+    "html_url": "https://arxiv.org/html/2610.20552v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20552v1/teaser_vert2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 470,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20552v1/MetricConstraint-4-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 244,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20552v1/method9.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 127,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20552v1/flat-sim-data-5-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 133,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20552v1/real-data-flat4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 298,
+        "height": 169,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.20552.webp",
+    "image_url": "https://arxiv.org/html/2610.20552v1/teaser_vert2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 470
+  },
+  "2610.20571": {
+    "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.20571",
+    "html_url": "https://arxiv.org/html/2610.20571v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20571v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 322,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20571v1/fig3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 231,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20571v1/figB.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20571v1/user_study_interface.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 258,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20571v1/figF.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 199,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.20571.webp",
+    "image_url": "https://arxiv.org/html/2610.20571v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 322
+  },
+  "2610.20124": {
+    "title": "DreamHMR: From Video Generation to Human Motion Modeling via Structural Focusing",
+    "abs_url": "https://arxiv.org/abs/2610.20124",
+    "html_url": "https://arxiv.org/html/2610.20124v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20124v1/method-architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 381,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20124v1/rendering-process.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20124v1/figures/observations/full-300.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 165,
+        "height": 165,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20124v1/figures/observations/static-300.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 165,
+        "height": 165,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20124v1/figures/observations/dynamic-300.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 165,
+        "height": 165,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2610.20124.webp",
+    "image_url": "https://arxiv.org/html/2610.20124v1/method-architecture.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 381
+  },
+  "2610.20501": {
+    "title": "OLiVES: An Outdoor Low-Light Video Benchmark for Enhancement and Segmentation",
+    "abs_url": "https://arxiv.org/abs/2610.20501",
+    "html_url": "https://arxiv.org/html/2610.20501v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20501v1/examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 312,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20501v1/RoMa_finetune.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 204,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20501v1/olives_statistics.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 256,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20501v1/qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 368,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20501v1/assets/VOS/annotation_tool.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 326,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.20501.webp",
+    "image_url": "https://arxiv.org/html/2610.20501v1/examples.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 312
+  },
+  "2610.20556": {
+    "title": "Speculative Sampling in Interactive Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.20556",
+    "html_url": "https://arxiv.org/html/2610.20556v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20556v1/figures/fig02_serving_system_model/final.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 180,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20556v1/figures/fig03_serving_system_and_control/final.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 340,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.20556.webp",
+    "image_url": "https://arxiv.org/html/2610.20556v1/figures/fig02_serving_system_model/final.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 494,
+    "height": 180
+  },
+  "2610.20111": {
+    "title": "RepForcing: Representation-Space Initialization for Autoregressive Video Distillation",
+    "abs_url": "https://arxiv.org/abs/2610.20111",
+    "html_url": "https://arxiv.org/html/2610.20111v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20111v1/baseline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 481,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20111v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 532,
+        "height": 214,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20111v1/few_step.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20111v1/framewise.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 291,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20111v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 177,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.20111.webp",
+    "image_url": "https://arxiv.org/html/2610.20111v1/baseline.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 481
+  },
+  "2610.20091": {
+    "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
+    "abs_url": "https://arxiv.org/abs/2610.20091",
+    "html_url": "https://arxiv.org/html/2610.20091v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20091v1/fig2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 285,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20091v1/qualitative_result.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 239,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20091v1/query_consistency.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 357,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20091v1/fig1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 153,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20091v1/ssia_valid_masking.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 215,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2610.20091.webp",
+    "image_url": "https://arxiv.org/html/2610.20091v1/fig2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 285
+  },
+  "2610.20089": {
+    "title": "When Pairwise Preferences Cycle: A Reliability-Anchored Preference Walk for Video GRPO",
+    "abs_url": "https://arxiv.org/abs/2610.20089",
+    "html_url": "https://arxiv.org/html/2610.20089v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.20089v1/framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 389,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.20089v1/qualitative_comparison_options.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 656,
+        "height": 565,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Schmidt Sciences",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.20089.webp",
+    "image_url": "https://arxiv.org/html/2610.20089v1/framework.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 389
+  },
+  "2610.20549": {
+    "title": "Frame Rate, Not the Grid: A Confound in Single-Clip Optical ENF Video Forensics",
+    "abs_url": "https://arxiv.org/abs/2610.20549",
+    "html_url": "",
+    "path": "assets/paper-images/2610.20549.webp",
+    "image_url": "https://arxiv.org/pdf/2610.20549",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 689,
+    "height": 669
   }
 }

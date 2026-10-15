@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-14",
+    "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+    "link": "https://arxiv.org/abs/2610.20571",
+    "arxiv_id": "2610.20571",
+    "detail_path": "papers/2610.20571/",
+    "cover_path": "covers/2610.20571/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20571.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20571.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Speculative Sampling in Interactive Video Generation",
+    "link": "https://arxiv.org/abs/2610.20556",
+    "arxiv_id": "2610.20556",
+    "detail_path": "papers/2610.20556/",
+    "cover_path": "covers/2610.20556/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20556.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20556.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
+    "link": "https://arxiv.org/abs/2610.20552",
+    "arxiv_id": "2610.20552",
+    "detail_path": "papers/2610.20552/",
+    "cover_path": "covers/2610.20552/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20552.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20552.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Frame Rate, Not the Grid: A Confound in Single-Clip Optical ENF Video Forensics",
+    "link": "https://arxiv.org/abs/2610.20549",
+    "arxiv_id": "2610.20549",
+    "detail_path": "papers/2610.20549/",
+    "cover_path": "covers/2610.20549/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20549.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20549.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "OLiVES: An Outdoor Low-Light Video Benchmark for Enhancement and Segmentation",
+    "link": "https://arxiv.org/abs/2610.20501",
+    "arxiv_id": "2610.20501",
+    "detail_path": "papers/2610.20501/",
+    "cover_path": "covers/2610.20501/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20501.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20501.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "StreamErase: Towards Ultra-Fast Streaming Video Erasing",
+    "link": "https://arxiv.org/abs/2610.20137",
+    "arxiv_id": "2610.20137",
+    "detail_path": "papers/2610.20137/",
+    "cover_path": "covers/2610.20137/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20137.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20137.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "DreamHMR: From Video Generation to Human Motion Modeling via Structural Focusing",
+    "link": "https://arxiv.org/abs/2610.20124",
+    "arxiv_id": "2610.20124",
+    "detail_path": "papers/2610.20124/",
+    "cover_path": "covers/2610.20124/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20124.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20124.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "RepForcing: Representation-Space Initialization for Autoregressive Video Distillation",
+    "link": "https://arxiv.org/abs/2610.20111",
+    "arxiv_id": "2610.20111",
+    "detail_path": "papers/2610.20111/",
+    "cover_path": "covers/2610.20111/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20111.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20111.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
+    "link": "https://arxiv.org/abs/2610.20091",
+    "arxiv_id": "2610.20091",
+    "detail_path": "papers/2610.20091/",
+    "cover_path": "covers/2610.20091/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20091.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20091.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "When Pairwise Preferences Cycle: A Reliability-Anchored Preference Walk for Video GRPO",
+    "link": "https://arxiv.org/abs/2610.20089",
+    "arxiv_id": "2610.20089",
+    "detail_path": "papers/2610.20089/",
+    "cover_path": "covers/2610.20089/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.20089.webp",
+    "paper_image_full_path": "assets/paper-images/2610.20089.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-13",
     "title": "RepProbe: Can Video Language Models Count Repeated Actions? A Diagnostic Benchmark",
     "link": "https://arxiv.org/abs/2610.18844",

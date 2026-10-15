@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-14 | Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation | https://arxiv.org/abs/2610.20571 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | Speculative Sampling in Interactive Video Generation | https://arxiv.org/abs/2610.20556 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation | https://arxiv.org/abs/2610.20552 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | Frame Rate, Not the Grid: A Confound in Single-Clip Optical ENF Video Forensics | https://arxiv.org/abs/2610.20549 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | OLiVES: An Outdoor Low-Light Video Benchmark for Enhancement and Segmentation | https://arxiv.org/abs/2610.20501 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | StreamErase: Towards Ultra-Fast Streaming Video Erasing | https://arxiv.org/abs/2610.20137 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | DreamHMR: From Video Generation to Human Motion Modeling via Structural Focusing | https://arxiv.org/abs/2610.20124 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | RepForcing: Representation-Space Initialization for Autoregressive Video Distillation | https://arxiv.org/abs/2610.20111 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation | https://arxiv.org/abs/2610.20091 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-14 | When Pairwise Preferences Cycle: A Reliability-Anchored Preference Walk for Video GRPO | https://arxiv.org/abs/2610.20089 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-13 | RepProbe: Can Video Language Models Count Repeated Actions? A Diagnostic Benchmark | https://arxiv.org/abs/2610.18844 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-13 | OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding | https://arxiv.org/abs/2610.18829 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-13 | EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos | https://arxiv.org/abs/2610.18822 | <details><summary>展开</summary>待生成</details> |
