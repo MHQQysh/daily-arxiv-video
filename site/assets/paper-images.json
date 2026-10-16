@@ -22293,5 +22293,603 @@
     "inside_figure": true,
     "width": 689,
     "height": 669
+  },
+  "2610.21895": {
+    "title": "SurgStreamer: proactive, request-driven monitoring of surgical video streams with structured state and a reusable reasoning layer",
+    "abs_url": "https://arxiv.org/abs/2610.21895",
+    "html_url": "https://arxiv.org/html/2610.21895v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.21895v1/q1_walkthrough_onset_during.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21895v1/q0_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 264,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21895v1/q3_memory_count.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 243,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21895v1/q2_offset.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21895v1/q4_pitvis_transfer.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 234,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.21895.webp",
+    "image_url": "https://arxiv.org/html/2610.21895v1/q1_walkthrough_onset_during.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 263
+  },
+  "2610.22186": {
+    "title": "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment",
+    "abs_url": "https://arxiv.org/abs/2610.22186",
+    "html_url": "https://arxiv.org/html/2610.22186v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.22186v1/data_pipeline_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 240,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22186v1/reward_final.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 231,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22186v1/vis_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 258,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22186v1/vis_fail.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 254,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22186v1/event2cap_submit.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 164,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.22186.webp",
+    "image_url": "https://arxiv.org/html/2610.22186v1/data_pipeline_new.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 240
+  },
+  "2610.22347": {
+    "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.22347",
+    "html_url": "https://arxiv.org/html/2610.22347v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.22347v1/teaser_pipe_final_v1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 507,
+        "height": 404,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22347v1/main_qual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 521,
+        "height": 410,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22347v1/qual_abl.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 521,
+        "height": 269,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22347v1/motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 521,
+        "height": 163,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.22347.webp",
+    "image_url": "https://arxiv.org/html/2610.22347v1/teaser_pipe_final_v1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 507,
+    "height": 404
+  },
+  "2610.22321": {
+    "title": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
+    "abs_url": "https://arxiv.org/abs/2610.22321",
+    "html_url": "https://arxiv.org/html/2610.22321v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.22321v1/fig-prompt.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 728,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22321v1/main-fig-cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 521,
+        "height": 236,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22321v1/fig-3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22321v1/fig4-1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 183,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22321v1/fig-3-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.22321.webp",
+    "image_url": "https://arxiv.org/html/2610.22321v1/fig-prompt.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 728
+  },
+  "2610.22070": {
+    "title": "Memory as Weights: Internalizing Long-Term History for Streaming Videos",
+    "abs_url": "https://arxiv.org/abs/2610.22070",
+    "html_url": "https://arxiv.org/html/2610.22070v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.22070v1/Exp_Visual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22070v1/Data_stat.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 234,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22070v1/APP_Exp_Visual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 241,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22070v1/Method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 136,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22070v1/LoRA_analysis.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 405,
+        "height": 154,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.22070.webp",
+    "image_url": "https://arxiv.org/html/2610.22070v1/Exp_Visual.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 452,
+    "height": 207
+  },
+  "2610.22295": {
+    "title": "Grounded Human-Attributed Description and Activity Recognition in Videos",
+    "abs_url": "https://arxiv.org/abs/2610.22295",
+    "html_url": "https://arxiv.org/html/2610.22295v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.22295v1/resources/post_iclr_resources/AVA_Captions_more_egs_200.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 521,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22295v1/resources/post_iclr_resources/qual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 214,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22295v1/resources/post_iclr_resources/bad_sbert_egs.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 234,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22295v1/resources/post_iclr_resources/more_bad_sbert.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 310,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22295v1/resources/post_iclr_resources/rgs_data.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 132,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.22295.webp",
+    "image_url": "https://arxiv.org/html/2610.22295v1/resources/post_iclr_resources/AVA_Captions_more_egs_200.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 521
+  },
+  "2610.22371": {
+    "title": "Gen4P: Video Generators are 4D Perceivers",
+    "abs_url": "https://arxiv.org/abs/2610.22371",
+    "html_url": "https://arxiv.org/html/2610.22371v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.22371v1/results/appendix_qualitative/tennis/raw-09_17-21_31_02-tennis-frame023.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 372,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22371v1/results/appendix_qualitative/tennis/conf15-09_17-21_31_02-tennis-frame023.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 372,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22371v1/teaser_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 199,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22371v1/qualitative_track_v0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 324,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.22371v1/results/qualitative_dispmap/input/bear/00000.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 309,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.22371.webp",
+    "image_url": "https://arxiv.org/html/2610.22371v1/results/appendix_qualitative/tennis/raw-09_17-21_31_02-tennis-frame023.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 372
+  },
+  "2610.21792": {
+    "title": "Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulation",
+    "abs_url": "https://arxiv.org/abs/2610.21792",
+    "html_url": "https://arxiv.org/html/2610.21792v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.21792v1/img/CORL2025-new.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21792v1/img/video.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 141,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21792v1/img/view.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 170,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.21792.webp",
+    "image_url": "https://arxiv.org/html/2610.21792v1/img/CORL2025-new.jpg",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/jpeg",
+    "inside_figure": true,
+    "width": 452,
+    "height": 207
+  },
+  "2610.21798": {
+    "title": "Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation",
+    "abs_url": "https://arxiv.org/abs/2610.21798",
+    "html_url": "https://arxiv.org/html/2610.21798v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.21798v1/headfigure_examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 182,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21798v1/Framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 209,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21798v1/simulation_appendix.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 269,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21798v1/figure1_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 168,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.21798v1/realworld_appendix.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 173,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.21798.webp",
+    "image_url": "https://arxiv.org/html/2610.21798v1/headfigure_examples.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 182
+  },
+  "2610.21910": {
+    "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
+    "abs_url": "https://arxiv.org/abs/2610.21910",
+    "html_url": "",
+    "path": "assets/paper-images/2610.21910.webp",
+    "image_url": "https://arxiv.org/pdf/2610.21910",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 1000,
+    "height": 654
   }
 }

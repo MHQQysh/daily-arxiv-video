@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-15",
+    "title": "Gen4P: Video Generators are 4D Perceivers",
+    "link": "https://arxiv.org/abs/2610.22371",
+    "arxiv_id": "2610.22371",
+    "detail_path": "papers/2610.22371/",
+    "cover_path": "covers/2610.22371/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.22371.webp",
+    "paper_image_full_path": "assets/paper-images/2610.22371.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2610.22347",
+    "arxiv_id": "2610.22347",
+    "detail_path": "papers/2610.22347/",
+    "cover_path": "covers/2610.22347/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.22347.webp",
+    "paper_image_full_path": "assets/paper-images/2610.22347.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
+    "link": "https://arxiv.org/abs/2610.22321",
+    "arxiv_id": "2610.22321",
+    "detail_path": "papers/2610.22321/",
+    "cover_path": "covers/2610.22321/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.22321.webp",
+    "paper_image_full_path": "assets/paper-images/2610.22321.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Grounded Human-Attributed Description and Activity Recognition in Videos",
+    "link": "https://arxiv.org/abs/2610.22295",
+    "arxiv_id": "2610.22295",
+    "detail_path": "papers/2610.22295/",
+    "cover_path": "covers/2610.22295/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.22295.webp",
+    "paper_image_full_path": "assets/paper-images/2610.22295.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment",
+    "link": "https://arxiv.org/abs/2610.22186",
+    "arxiv_id": "2610.22186",
+    "detail_path": "papers/2610.22186/",
+    "cover_path": "covers/2610.22186/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.22186.webp",
+    "paper_image_full_path": "assets/paper-images/2610.22186.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Memory as Weights: Internalizing Long-Term History for Streaming Videos",
+    "link": "https://arxiv.org/abs/2610.22070",
+    "arxiv_id": "2610.22070",
+    "detail_path": "papers/2610.22070/",
+    "cover_path": "covers/2610.22070/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.22070.webp",
+    "paper_image_full_path": "assets/paper-images/2610.22070.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
+    "link": "https://arxiv.org/abs/2610.21910",
+    "arxiv_id": "2610.21910",
+    "detail_path": "papers/2610.21910/",
+    "cover_path": "covers/2610.21910/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.21910.webp",
+    "paper_image_full_path": "assets/paper-images/2610.21910.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "SurgStreamer: proactive, request-driven monitoring of surgical video streams with structured state and a reusable reasoning layer",
+    "link": "https://arxiv.org/abs/2610.21895",
+    "arxiv_id": "2610.21895",
+    "detail_path": "papers/2610.21895/",
+    "cover_path": "covers/2610.21895/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.21895.webp",
+    "paper_image_full_path": "assets/paper-images/2610.21895.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation",
+    "link": "https://arxiv.org/abs/2610.21798",
+    "arxiv_id": "2610.21798",
+    "detail_path": "papers/2610.21798/",
+    "cover_path": "covers/2610.21798/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.21798.webp",
+    "paper_image_full_path": "assets/paper-images/2610.21798.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulation",
+    "link": "https://arxiv.org/abs/2610.21792",
+    "arxiv_id": "2610.21792",
+    "detail_path": "papers/2610.21792/",
+    "cover_path": "covers/2610.21792/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.21792.webp",
+    "paper_image_full_path": "assets/paper-images/2610.21792.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-14",
     "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
     "link": "https://arxiv.org/abs/2610.20571",

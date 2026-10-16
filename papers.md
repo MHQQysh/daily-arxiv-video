@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-15 | Gen4P: Video Generators are 4D Perceivers | https://arxiv.org/abs/2610.22371 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | Speculative Forcing for Efficient Autoregressive Video Generation | https://arxiv.org/abs/2610.22347 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | AVC-Reward: Event-Centric Audio-Video Consistency Evaluation | https://arxiv.org/abs/2610.22321 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | Grounded Human-Attributed Description and Activity Recognition in Videos | https://arxiv.org/abs/2610.22295 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment | https://arxiv.org/abs/2610.22186 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | Memory as Weights: Internalizing Long-Term History for Streaming Videos | https://arxiv.org/abs/2610.22070 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness | https://arxiv.org/abs/2610.21910 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | SurgStreamer: proactive, request-driven monitoring of surgical video streams with structured state and a reusable reasoning layer | https://arxiv.org/abs/2610.21895 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation | https://arxiv.org/abs/2610.21798 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-15 | Trajectory-based Diffusion from One-shot Human Video for Generalizable Manipulation | https://arxiv.org/abs/2610.21792 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-14 | Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation | https://arxiv.org/abs/2610.20571 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-14 | Speculative Sampling in Interactive Video Generation | https://arxiv.org/abs/2610.20556 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-14 | KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation | https://arxiv.org/abs/2610.20552 | <details><summary>展开</summary>待生成</details> |
