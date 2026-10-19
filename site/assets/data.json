@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-16",
+    "title": "Learning to Correct Geometry in Generated Videos",
+    "link": "https://arxiv.org/abs/2610.23856",
+    "arxiv_id": "2610.23856",
+    "detail_path": "papers/2610.23856/",
+    "cover_path": "covers/2610.23856/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23856.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23856.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Persistent Planar Memory for Video World Models",
+    "link": "https://arxiv.org/abs/2610.23795",
+    "arxiv_id": "2610.23795",
+    "detail_path": "papers/2610.23795/",
+    "cover_path": "covers/2610.23795/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23795.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23795.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+    "link": "https://arxiv.org/abs/2610.23772",
+    "arxiv_id": "2610.23772",
+    "detail_path": "papers/2610.23772/",
+    "cover_path": "covers/2610.23772/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23772.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23772.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning",
+    "link": "https://arxiv.org/abs/2610.23677",
+    "arxiv_id": "2610.23677",
+    "detail_path": "papers/2610.23677/",
+    "cover_path": "covers/2610.23677/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23677.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23677.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Execution Before Memory: Diagnosing Memory Failures in Video World Models",
+    "link": "https://arxiv.org/abs/2610.23542",
+    "arxiv_id": "2610.23542",
+    "detail_path": "papers/2610.23542/",
+    "cover_path": "covers/2610.23542/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23542.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23542.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Momentum: Persistent Dynamics for Video World Models",
+    "link": "https://arxiv.org/abs/2610.23423",
+    "arxiv_id": "2610.23423",
+    "detail_path": "papers/2610.23423/",
+    "cover_path": "covers/2610.23423/",
+    "paper_image_path": "assets/paper-images/2610.23423.png",
+    "paper_image_full_path": "assets/paper-images/2610.23423.png",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "I2V-DETACH: Source Grounding Detachment for Unauthorized Image-to-Video Generation",
+    "link": "https://arxiv.org/abs/2610.23287",
+    "arxiv_id": "2610.23287",
+    "detail_path": "papers/2610.23287/",
+    "cover_path": "covers/2610.23287/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23287.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23287.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "MLLM Frame Subset Ensembling for Audio-Visual Video QA and MLLM-based Reranking for Ad-hoc Video Search in TRECVID 2025",
+    "link": "https://arxiv.org/abs/2610.23214",
+    "arxiv_id": "2610.23214",
+    "detail_path": "papers/2610.23214/",
+    "cover_path": "covers/2610.23214/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23214.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23214.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Semantic-Critical Regions for Video-to-Audio Generation",
+    "link": "https://arxiv.org/abs/2610.23021",
+    "arxiv_id": "2610.23021",
+    "detail_path": "papers/2610.23021/",
+    "cover_path": "covers/2610.23021/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.23021.webp",
+    "paper_image_full_path": "assets/paper-images/2610.23021.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation",
+    "link": "https://arxiv.org/abs/2610.22932",
+    "arxiv_id": "2610.22932",
+    "detail_path": "papers/2610.22932/",
+    "cover_path": "covers/2610.22932/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.22932.webp",
+    "paper_image_full_path": "assets/paper-images/2610.22932.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-15",
     "title": "Gen4P: Video Generators are 4D Perceivers",
     "link": "https://arxiv.org/abs/2610.22371",

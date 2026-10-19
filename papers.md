@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-16 | Learning to Correct Geometry in Generated Videos | https://arxiv.org/abs/2610.23856 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | Persistent Planar Memory for Video World Models | https://arxiv.org/abs/2610.23795 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars | https://arxiv.org/abs/2610.23772 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | Agentic Physics-Grounded Video Generation via Memory-Augmented In-Context Reasoning | https://arxiv.org/abs/2610.23677 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | Execution Before Memory: Diagnosing Memory Failures in Video World Models | https://arxiv.org/abs/2610.23542 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | Momentum: Persistent Dynamics for Video World Models | https://arxiv.org/abs/2610.23423 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | I2V-DETACH: Source Grounding Detachment for Unauthorized Image-to-Video Generation | https://arxiv.org/abs/2610.23287 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | MLLM Frame Subset Ensembling for Audio-Visual Video QA and MLLM-based Reranking for Ad-hoc Video Search in TRECVID 2025 | https://arxiv.org/abs/2610.23214 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | Semantic-Critical Regions for Video-to-Audio Generation | https://arxiv.org/abs/2610.23021 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-16 | Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation | https://arxiv.org/abs/2610.22932 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-15 | Gen4P: Video Generators are 4D Perceivers | https://arxiv.org/abs/2610.22371 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-15 | Speculative Forcing for Efficient Autoregressive Video Generation | https://arxiv.org/abs/2610.22347 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-15 | AVC-Reward: Event-Centric Audio-Video Consistency Evaluation | https://arxiv.org/abs/2610.22321 | <details><summary>展开</summary>待生成</details> |
