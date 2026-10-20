@@ -23541,5 +23541,655 @@
     "inside_figure": true,
     "width": 476,
     "height": 214
+  },
+  "2610.26468": {
+    "title": "YUTELA: A Scalable Edge Cloud AIoT System for Multi-Site Video Anomaly Detection with Scene Specific Adaptation",
+    "abs_url": "https://arxiv.org/abs/2610.26468",
+    "html_url": "https://arxiv.org/html/2610.26468v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26468v1/overall_detail.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 191,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26468v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 230,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26468v1/camview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 138,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation",
+        "classes": "ds-funder-logo",
+        "score": -120
+      },
+      {
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "Simons Foundation International",
+        "classes": "ds-funder-logo",
+        "score": -120
+      }
+    ],
+    "path": "assets/paper-images/2610.26468.webp",
+    "image_url": "https://arxiv.org/html/2610.26468v1/overall_detail.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 429,
+    "height": 191
+  },
+  "2610.26711": {
+    "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
+    "abs_url": "https://arxiv.org/abs/2610.26711",
+    "html_url": "https://arxiv.org/html/2610.26711v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26711v1/figure1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26711v1/figure2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 198,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26711v1/figure3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 230,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26711v1/figure5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26711v1/figure4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 163,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.26711.webp",
+    "image_url": "https://arxiv.org/html/2610.26711v1/figure1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 196
+  },
+  "2610.26431": {
+    "title": "Long-form Video-to-Text Summarization using Recursive Language Models",
+    "abs_url": "https://arxiv.org/abs/2610.26431",
+    "html_url": "https://arxiv.org/html/2610.26431v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26431v1/images/benchmark_VL_sb.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 454,
+        "height": 402,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26431v1/images/subset_VL_sb.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 663,
+        "height": 296,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26431v1/images/frameworkRLM.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 210,
+        "height": 288,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26431v1/images/diffRoot.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 349,
+        "height": 147,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26431v1/images/TVSumSummary.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 279,
+        "height": 126,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2610.26431.webp",
+    "image_url": "https://arxiv.org/html/2610.26431v1/images/benchmark_VL_sb.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 454,
+    "height": 402
+  },
+  "2610.26801": {
+    "title": "Mise-en-Video: Fine-Grained 3D Control for Multi-Shot Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.26801",
+    "html_url": "https://arxiv.org/html/2610.26801v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26801v1/datapipeline_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 372,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26801v1/compare_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 514,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26801v1/edit_cropped.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 426,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26801v1/Figure/pipeline_with_caption.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 651,
+        "height": 203,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26801v1/Figure/attention_mask_with_legend.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 651,
+        "height": 282,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.26801.webp",
+    "image_url": "https://arxiv.org/html/2610.26801v1/datapipeline_cropped.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 372
+  },
+  "2610.26585": {
+    "title": "Drive2Gauss: FeedForward 4D Gaussian Reconstruction from Multimodal Generative Driving Videos",
+    "abs_url": "https://arxiv.org/abs/2610.26585",
+    "html_url": "https://arxiv.org/html/2610.26585v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26585v1/method_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 197,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26585v1/method_main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 217,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26585v1/aggregation_detail.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 343,
+        "height": 327,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26585v1/multimodal_generation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 387,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26585v1/infer_render_compare.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 204,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.26585.webp",
+    "image_url": "https://arxiv.org/html/2610.26585v1/method_comparison.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 197
+  },
+  "2610.26681": {
+    "title": "From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping",
+    "abs_url": "https://arxiv.org/abs/2610.26681",
+    "html_url": "https://arxiv.org/html/2610.26681v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26681v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 473,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26681v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 851,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26681v1/x2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 629,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26681v1/x3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 743,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26681v1/bench_compare_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 431,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.26681.webp",
+    "image_url": "https://arxiv.org/html/2610.26681v1/teaser.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 473
+  },
+  "2610.26857": {
+    "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+    "abs_url": "https://arxiv.org/abs/2610.26857",
+    "html_url": "https://arxiv.org/html/2610.26857v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26857v1/Teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 213,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26857v1/main_arch.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 285,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26857v1/main_qual_long.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 288,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26857v1/AM-2K.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 187,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26857v1/YoutubeMatte_remask.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 217,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.26857.webp",
+    "image_url": "https://arxiv.org/html/2610.26857v1/Teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 429,
+    "height": 213
+  },
+  "2610.26780": {
+    "title": "V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos",
+    "abs_url": "https://arxiv.org/abs/2610.26780",
+    "html_url": "https://arxiv.org/html/2610.26780v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26780v1/challengecase.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 498,
+        "height": 655,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26780v1/featurevisualization.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 505,
+        "height": 540,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26780v1/architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26780v1/teaservjepa.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 548,
+        "height": 465,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26780v1/casesvjepa.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 468,
+        "height": 772,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2610.26780.webp",
+    "image_url": "https://arxiv.org/html/2610.26780v1/challengecase.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 498,
+    "height": 655
+  },
+  "2610.26391": {
+    "title": "From Legacy to Contemporary: Scalable Color Modernization for Long Video",
+    "abs_url": "https://arxiv.org/abs/2610.26391",
+    "html_url": "https://arxiv.org/html/2610.26391v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26391v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 301,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26391v1/score_matrix.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 448,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26391v1/keyframe_selection.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 497,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26391v1/qual_supp_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 622,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26391v1/qual_supp_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 622,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.26391.webp",
+    "image_url": "https://arxiv.org/html/2610.26391v1/pipeline.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 301
+  },
+  "2610.26275": {
+    "title": "From Cause to Effect: Generating Intermediate Event Chains in Videos",
+    "abs_url": "https://arxiv.org/abs/2610.26275",
+    "html_url": "https://arxiv.org/html/2610.26275v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.26275v1/images/qualitative_examples/horspiste2_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26275v1/images/qualitative_examples/horspiste2_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26275v1/images/qualitative_examples/horspiste2_3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26275v1/images/qualitative_examples/horspiste1_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.26275v1/images/qualitative_examples/horspiste1_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.26275.webp",
+    "image_url": "https://arxiv.org/html/2610.26275v1/images/qualitative_examples/horspiste2_1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 200
   }
 }

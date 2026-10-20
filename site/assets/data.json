@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-19",
+    "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+    "link": "https://arxiv.org/abs/2610.26857",
+    "arxiv_id": "2610.26857",
+    "detail_path": "papers/2610.26857/",
+    "cover_path": "covers/2610.26857/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26857.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26857.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Mise-en-Video: Fine-Grained 3D Control for Multi-Shot Video Generation",
+    "link": "https://arxiv.org/abs/2610.26801",
+    "arxiv_id": "2610.26801",
+    "detail_path": "papers/2610.26801/",
+    "cover_path": "covers/2610.26801/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26801.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26801.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos",
+    "link": "https://arxiv.org/abs/2610.26780",
+    "arxiv_id": "2610.26780",
+    "detail_path": "papers/2610.26780/",
+    "cover_path": "covers/2610.26780/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26780.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26780.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
+    "link": "https://arxiv.org/abs/2610.26711",
+    "arxiv_id": "2610.26711",
+    "detail_path": "papers/2610.26711/",
+    "cover_path": "covers/2610.26711/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26711.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26711.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping",
+    "link": "https://arxiv.org/abs/2610.26681",
+    "arxiv_id": "2610.26681",
+    "detail_path": "papers/2610.26681/",
+    "cover_path": "covers/2610.26681/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26681.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26681.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Drive2Gauss: FeedForward 4D Gaussian Reconstruction from Multimodal Generative Driving Videos",
+    "link": "https://arxiv.org/abs/2610.26585",
+    "arxiv_id": "2610.26585",
+    "detail_path": "papers/2610.26585/",
+    "cover_path": "covers/2610.26585/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26585.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26585.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "YUTELA: A Scalable Edge Cloud AIoT System for Multi-Site Video Anomaly Detection with Scene Specific Adaptation",
+    "link": "https://arxiv.org/abs/2610.26468",
+    "arxiv_id": "2610.26468",
+    "detail_path": "papers/2610.26468/",
+    "cover_path": "covers/2610.26468/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26468.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26468.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Long-form Video-to-Text Summarization using Recursive Language Models",
+    "link": "https://arxiv.org/abs/2610.26431",
+    "arxiv_id": "2610.26431",
+    "detail_path": "papers/2610.26431/",
+    "cover_path": "covers/2610.26431/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26431.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26431.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "From Legacy to Contemporary: Scalable Color Modernization for Long Video",
+    "link": "https://arxiv.org/abs/2610.26391",
+    "arxiv_id": "2610.26391",
+    "detail_path": "papers/2610.26391/",
+    "cover_path": "covers/2610.26391/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26391.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26391.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "From Cause to Effect: Generating Intermediate Event Chains in Videos",
+    "link": "https://arxiv.org/abs/2610.26275",
+    "arxiv_id": "2610.26275",
+    "detail_path": "papers/2610.26275/",
+    "cover_path": "covers/2610.26275/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.26275.webp",
+    "paper_image_full_path": "assets/paper-images/2610.26275.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-16",
     "title": "Learning to Correct Geometry in Generated Videos",
     "link": "https://arxiv.org/abs/2610.23856",

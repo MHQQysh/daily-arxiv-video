@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-19 | VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token | https://arxiv.org/abs/2610.26857 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | Mise-en-Video: Fine-Grained 3D Control for Multi-Shot Video Generation | https://arxiv.org/abs/2610.26801 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos | https://arxiv.org/abs/2610.26780 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements | https://arxiv.org/abs/2610.26711 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping | https://arxiv.org/abs/2610.26681 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | Drive2Gauss: FeedForward 4D Gaussian Reconstruction from Multimodal Generative Driving Videos | https://arxiv.org/abs/2610.26585 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | YUTELA: A Scalable Edge Cloud AIoT System for Multi-Site Video Anomaly Detection with Scene Specific Adaptation | https://arxiv.org/abs/2610.26468 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | Long-form Video-to-Text Summarization using Recursive Language Models | https://arxiv.org/abs/2610.26431 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | From Legacy to Contemporary: Scalable Color Modernization for Long Video | https://arxiv.org/abs/2610.26391 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-19 | From Cause to Effect: Generating Intermediate Event Chains in Videos | https://arxiv.org/abs/2610.26275 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-16 | Learning to Correct Geometry in Generated Videos | https://arxiv.org/abs/2610.23856 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-16 | Persistent Planar Memory for Video World Models | https://arxiv.org/abs/2610.23795 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-16 | Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars | https://arxiv.org/abs/2610.23772 | <details><summary>展开</summary>待生成</details> |
