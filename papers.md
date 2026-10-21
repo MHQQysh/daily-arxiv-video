@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-20 | Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs | https://arxiv.org/abs/2610.28632 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | AEON: Unifying Video and 3D World Models | https://arxiv.org/abs/2610.28631 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | PsycheMME: A Psychology-Informed Benchmark for Social Understanding and Interaction in Videos | https://arxiv.org/abs/2610.28625 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | Copyright Leakage Detection in AI Generated Videos | https://arxiv.org/abs/2610.28524 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | Latent Bridge: From Video Latents to 3D Geometry via Feature Alignment | https://arxiv.org/abs/2610.28521 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | Touch-JEPA: Tactile Representation Learning from Hand-Object Video with Limited Tactile Supervision | https://arxiv.org/abs/2610.28519 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | Deep Learning-Based Road Lane Quality Assessment from Egocentric Dashcam Video | https://arxiv.org/abs/2610.28508 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction | https://arxiv.org/abs/2610.28502 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V | https://arxiv.org/abs/2610.28416 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-20 | StreamEval: Evaluating Interactive Streaming Video Generation Models | https://arxiv.org/abs/2610.28402 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-19 | VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token | https://arxiv.org/abs/2610.26857 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-19 | Mise-en-Video: Fine-Grained 3D Control for Multi-Shot Video Generation | https://arxiv.org/abs/2610.26801 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-19 | V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos | https://arxiv.org/abs/2610.26780 | <details><summary>展开</summary>待生成</details> |
