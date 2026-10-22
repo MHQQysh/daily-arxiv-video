@@ -24841,5 +24841,635 @@
     "inside_figure": true,
     "width": 438,
     "height": 222
+  },
+  "2610.29913": {
+    "title": "Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home",
+    "abs_url": "https://arxiv.org/abs/2610.29913",
+    "html_url": "https://arxiv.org/html/2610.29913v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.29913v1/fig_examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 209,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2610.29913.webp",
+    "image_url": "https://arxiv.org/html/2610.29913v1/fig_examples.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 209
+  },
+  "2610.29989": {
+    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.29989",
+    "html_url": "https://arxiv.org/html/2610.29989v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.29989v1/chain.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 538,
+        "height": 225,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29989v1/parallel.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 536,
+        "height": 225,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29989v1/figs/detail_temporal1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 218,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29989v1/figs/detail_temporal2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 218,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29989v1/figs/optimized/general2.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 144,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.29989.webp",
+    "image_url": "https://arxiv.org/html/2610.29989v1/chain.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 538,
+    "height": 225
+  },
+  "2610.29915": {
+    "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+    "abs_url": "https://arxiv.org/abs/2610.29915",
+    "html_url": "https://arxiv.org/html/2610.29915v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.29915v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 279,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29915v1/main_vis.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 213,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29915v1/loop_jittering.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 206,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29915v1/Figure/wam_mobile_rollouts_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 59,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2610.29915.webp",
+    "image_url": "https://arxiv.org/html/2610.29915v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 279
+  },
+  "2610.29936": {
+    "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos",
+    "abs_url": "https://arxiv.org/abs/2610.29936",
+    "html_url": "https://arxiv.org/html/2610.29936v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.29936v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 408,
+        "height": 243,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29936v1/architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 230,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29936v1/qualitative_hot3d_main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 297,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29936v1/qualitative_hot3d_supp_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 341,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29936v1/qualitative_hot3d_supp_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 341,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.29936.webp",
+    "image_url": "https://arxiv.org/html/2610.29936v1/overview.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 408,
+    "height": 243
+  },
+  "2610.30023": {
+    "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
+    "abs_url": "https://arxiv.org/abs/2610.30023",
+    "html_url": "https://arxiv.org/html/2610.30023v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.30023v1/nvs_realvv.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 535,
+        "alt": "Qualitative comparison for novel view synthesis on RealVV.",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30023v1/comparison_sr.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 579,
+        "alt": "Qualitative comparison for detail enhancement on RealVV.",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30023v1/nvs_realvv_supp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 455,
+        "alt": "Additional qualitative comparisons for novel view synthesis on RealVV.",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30023v1/nvs_dna_supp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 450,
+        "alt": "Additional qualitative comparisons for novel view synthesis on DNA-Rendering.",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30023v1/siga_realme_longfocus_sup.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 444,
+        "alt": "Additional qualitative comparisons on long-focus views.",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.30023.webp",
+    "image_url": "https://arxiv.org/html/2610.30023v1/nvs_realvv.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 535
+  },
+  "2610.30036": {
+    "title": "Attn-Forcing: Learning Full-Context Attention Proxies for Streaming Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.30036",
+    "html_url": "https://arxiv.org/html/2610.30036v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.30036v1/additional_result.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 409,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30036v1/framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 330,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30036v1/main_result.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 214,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30036v1/ablation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 179,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30036v1/approximation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 329,
+        "height": 173,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.30036.webp",
+    "image_url": "https://arxiv.org/html/2610.30036v1/additional_result.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 409
+  },
+  "2610.30089": {
+    "title": "ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video",
+    "abs_url": "https://arxiv.org/abs/2610.30089",
+    "html_url": "https://arxiv.org/html/2610.30089v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.30089v1/figure_main4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 537,
+        "height": 202,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30089v1/figures/boxplot_start_combined_points_clean.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 277,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30089v1/object_wordcloud_dual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 170,
+        "height": 222,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_portrait",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30089v1/figures/failure_cases/fig10/a1_13s.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 57,
+        "height": 43,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30089v1/figures/failure_cases/fig10/a2_34s.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 57,
+        "height": 43,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2610.30089.webp",
+    "image_url": "https://arxiv.org/html/2610.30089v1/figure_main4.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 537,
+    "height": 202
+  },
+  "2610.30129": {
+    "title": "Rethinking Video Autoencoders for Interactive World Models",
+    "abs_url": "https://arxiv.org/abs/2610.30129",
+    "html_url": "https://arxiv.org/html/2610.30129v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.30129v1/qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 373,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30129v1/figures/drift_rollouts.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 546,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30129v1/figures/uncurated_abc.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 868,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30129v1/figures/uncurated_egodex.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 802,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.30129v1/figures/uncurated_driving.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 802,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.30129.webp",
+    "image_url": "https://arxiv.org/html/2610.30129v1/qualitative.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 373
+  },
+  "2610.29780": {
+    "title": "JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling",
+    "abs_url": "https://arxiv.org/abs/2610.29780",
+    "html_url": "https://arxiv.org/html/2610.29780v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.29780v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 203,
+        "alt": "This is the teaser figure for the article.",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29780v1/dataset.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 338,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29780v1/comparison_vertical.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 307,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29780v1/comparison_horizontal.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 354,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29780v1/rotary_light.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 341,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.29780.webp",
+    "image_url": "https://arxiv.org/html/2610.29780v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 203
+  },
+  "2610.29716": {
+    "title": "Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos",
+    "abs_url": "https://arxiv.org/abs/2610.29716",
+    "html_url": "https://arxiv.org/html/2610.29716v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.29716v1/teaser_v27.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 536,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29716v1/real_qualitative_results_v4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 175,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29716v1/figure_3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 116,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 60
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29716v1/simulation_tasks_v4_truncated.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 117,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 60
+      },
+      {
+        "url": "https://arxiv.org/html/2610.29716v1/data_pipeline_v37.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 103,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2610.29716.webp",
+    "image_url": "https://arxiv.org/html/2610.29716v1/teaser_v27.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 536
   }
 }

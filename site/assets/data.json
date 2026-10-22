@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-21",
+    "title": "Rethinking Video Autoencoders for Interactive World Models",
+    "link": "https://arxiv.org/abs/2610.30129",
+    "arxiv_id": "2610.30129",
+    "detail_path": "papers/2610.30129/",
+    "cover_path": "covers/2610.30129/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.30129.webp",
+    "paper_image_full_path": "assets/paper-images/2610.30129.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video",
+    "link": "https://arxiv.org/abs/2610.30089",
+    "arxiv_id": "2610.30089",
+    "detail_path": "papers/2610.30089/",
+    "cover_path": "covers/2610.30089/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.30089.webp",
+    "paper_image_full_path": "assets/paper-images/2610.30089.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Attn-Forcing: Learning Full-Context Attention Proxies for Streaming Video Generation",
+    "link": "https://arxiv.org/abs/2610.30036",
+    "arxiv_id": "2610.30036",
+    "detail_path": "papers/2610.30036/",
+    "cover_path": "covers/2610.30036/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.30036.webp",
+    "paper_image_full_path": "assets/paper-images/2610.30036.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
+    "link": "https://arxiv.org/abs/2610.30023",
+    "arxiv_id": "2610.30023",
+    "detail_path": "papers/2610.30023/",
+    "cover_path": "covers/2610.30023/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.30023.webp",
+    "paper_image_full_path": "assets/paper-images/2610.30023.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2610.29989",
+    "arxiv_id": "2610.29989",
+    "detail_path": "papers/2610.29989/",
+    "cover_path": "covers/2610.29989/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.29989.webp",
+    "paper_image_full_path": "assets/paper-images/2610.29989.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos",
+    "link": "https://arxiv.org/abs/2610.29936",
+    "arxiv_id": "2610.29936",
+    "detail_path": "papers/2610.29936/",
+    "cover_path": "covers/2610.29936/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.29936.webp",
+    "paper_image_full_path": "assets/paper-images/2610.29936.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+    "link": "https://arxiv.org/abs/2610.29915",
+    "arxiv_id": "2610.29915",
+    "detail_path": "papers/2610.29915/",
+    "cover_path": "covers/2610.29915/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.29915.webp",
+    "paper_image_full_path": "assets/paper-images/2610.29915.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home",
+    "link": "https://arxiv.org/abs/2610.29913",
+    "arxiv_id": "2610.29913",
+    "detail_path": "papers/2610.29913/",
+    "cover_path": "covers/2610.29913/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.29913.webp",
+    "paper_image_full_path": "assets/paper-images/2610.29913.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling",
+    "link": "https://arxiv.org/abs/2610.29780",
+    "arxiv_id": "2610.29780",
+    "detail_path": "papers/2610.29780/",
+    "cover_path": "covers/2610.29780/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.29780.webp",
+    "paper_image_full_path": "assets/paper-images/2610.29780.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos",
+    "link": "https://arxiv.org/abs/2610.29716",
+    "arxiv_id": "2610.29716",
+    "detail_path": "papers/2610.29716/",
+    "cover_path": "covers/2610.29716/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.29716.webp",
+    "paper_image_full_path": "assets/paper-images/2610.29716.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-20",
     "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
     "link": "https://arxiv.org/abs/2610.28632",

@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-21 | Rethinking Video Autoencoders for Interactive World Models | https://arxiv.org/abs/2610.30129 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video | https://arxiv.org/abs/2610.30089 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | Attn-Forcing: Learning Full-Context Attention Proxies for Streaming Video Generation | https://arxiv.org/abs/2610.30036 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | RealMe: Immersive Volumetric Video from Minimal Captures | https://arxiv.org/abs/2610.30023 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation | https://arxiv.org/abs/2610.29989 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos | https://arxiv.org/abs/2610.29936 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion | https://arxiv.org/abs/2610.29915 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home | https://arxiv.org/abs/2610.29913 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling | https://arxiv.org/abs/2610.29780 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-21 | Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos | https://arxiv.org/abs/2610.29716 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-20 | Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs | https://arxiv.org/abs/2610.28632 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-20 | AEON: Unifying Video and 3D World Models | https://arxiv.org/abs/2610.28631 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-20 | PsycheMME: A Psychology-Informed Benchmark for Social Understanding and Interaction in Videos | https://arxiv.org/abs/2610.28625 | <details><summary>展开</summary>待生成</details> |
