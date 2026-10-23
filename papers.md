@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-22 | Reading, Writing, Sharing, and Interacting with the World through Video | https://arxiv.org/abs/2610.31668 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | UniVOE: A Removal-Driven Framework for Interaction-Aware Universal Video Object Editing | https://arxiv.org/abs/2610.31641 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models | https://arxiv.org/abs/2610.31640 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | MoG-VLM: Efficient Video Anomaly Detection through Motion-Guided Vision-Language Models | https://arxiv.org/abs/2610.31478 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | Ask About the Right Moment: Training-Free Object Identity Reasoning for Video-Language Models | https://arxiv.org/abs/2610.31471 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models | https://arxiv.org/abs/2610.31429 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering | https://arxiv.org/abs/2610.31284 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports | https://arxiv.org/abs/2610.31158 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | RGraph-Eval: Task-Grounded Scene Graphs for Evaluating Robot Video Generation | https://arxiv.org/abs/2610.31121 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-22 | Through a PRISM, Clearly: Step-Sequence Reasoning for Mistake Recognition in Procedural Videos | https://arxiv.org/abs/2610.31117 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-21 | Rethinking Video Autoencoders for Interactive World Models | https://arxiv.org/abs/2610.30129 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-21 | ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video | https://arxiv.org/abs/2610.30089 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-21 | Attn-Forcing: Learning Full-Context Attention Proxies for Streaming Video Generation | https://arxiv.org/abs/2610.30036 | <details><summary>展开</summary>待生成</details> |

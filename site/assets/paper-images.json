@@ -25471,5 +25471,593 @@
     "inside_figure": true,
     "width": 476,
     "height": 536
+  },
+  "2610.31478": {
+    "title": "MoG-VLM: Efficient Video Anomaly Detection through Motion-Guided Vision-Language Models",
+    "abs_url": "https://arxiv.org/abs/2610.31478",
+    "html_url": "https://arxiv.org/html/2610.31478v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31478v1/Fig_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 240,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31478v1/Fig_6_Supp_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 428,
+        "height": 228,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31478v1/Fig_6_Supp_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 414,
+        "height": 228,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31478v1/Fig_3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 141,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31478v1/Fig_4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 169,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.31478.webp",
+    "image_url": "https://arxiv.org/html/2610.31478v1/Fig_2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 240
+  },
+  "2610.31471": {
+    "title": "Ask About the Right Moment: Training-Free Object Identity Reasoning for Video-Language Models",
+    "abs_url": "https://arxiv.org/abs/2610.31471",
+    "html_url": "",
+    "path": "assets/paper-images/2610.31471.webp",
+    "image_url": "https://arxiv.org/pdf/2610.31471",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 640,
+    "height": 432
+  },
+  "2610.31284": {
+    "title": "Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering",
+    "abs_url": "https://arxiv.org/abs/2610.31284",
+    "html_url": "https://arxiv.org/html/2610.31284v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31284v1/Imgs/Teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 231,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31284v1/img_rag_success.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31284v1/img_rag_failure.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31284v1/retrieval.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 90,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2610.31284.webp",
+    "image_url": "https://arxiv.org/html/2610.31284v1/Imgs/Teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 231
+  },
+  "2610.31429": {
+    "title": "PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models",
+    "abs_url": "https://arxiv.org/abs/2610.31429",
+    "html_url": "https://arxiv.org/html/2610.31429v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31429v1/fig4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 460,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31429v1/fig7.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 651,
+        "height": 829,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31429v1/continuity.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 379,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31429v1/immutability.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 372,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31429v1/permanence.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 379,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.31429.webp",
+    "image_url": "https://arxiv.org/html/2610.31429v1/fig4.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 460
+  },
+  "2610.31158": {
+    "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+    "abs_url": "https://arxiv.org/abs/2610.31158",
+    "html_url": "https://arxiv.org/html/2610.31158v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31158v1/fig_benchmark_overview_1009.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 537,
+        "height": 284,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31158v1/fig_bench_construction_09252300.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 532,
+        "height": 307,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31158v1/fig_qualitative_report_0739.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 543,
+        "height": 319,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31158v1/fig_teaser_09252300.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 543,
+        "height": 178,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31158v1/fig_agent_workflow_1012.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 127,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.31158.webp",
+    "image_url": "https://arxiv.org/html/2610.31158v1/fig_benchmark_overview_1009.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 537,
+    "height": 284
+  },
+  "2610.31640": {
+    "title": "WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models",
+    "abs_url": "https://arxiv.org/abs/2610.31640",
+    "html_url": "https://arxiv.org/html/2610.31640v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31640v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 194,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31640v1/training_free_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31640v1/noise_gap.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 282,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31640v1/overall_methods.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 280,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31640v1/trajectory_lora_transfer.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 250,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.31640.webp",
+    "image_url": "https://arxiv.org/html/2610.31640v1/pipeline.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 452,
+    "height": 194
+  },
+  "2610.31668": {
+    "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+    "abs_url": "https://arxiv.org/abs/2610.31668",
+    "html_url": "https://arxiv.org/html/2610.31668v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31668v1/cover_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 440,
+        "height": 197,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31668v1/fig03_representation_learning.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 281,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31668v1/fig04_latent_representations.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 305,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31668v1/fig05_generation_paradigms.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 274,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31668v1/fig07_control_injection.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 315,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.31668.webp",
+    "image_url": "https://arxiv.org/html/2610.31668v1/cover_teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 440,
+    "height": 197
+  },
+  "2610.31641": {
+    "title": "UniVOE: A Removal-Driven Framework for Interaction-Aware Universal Video Object Editing",
+    "abs_url": "https://arxiv.org/abs/2610.31641",
+    "html_url": "https://arxiv.org/html/2610.31641v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31641v1/illustration.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 343,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31641v1/reward_curve.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 663,
+        "height": 368,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31641v1/abla_inj.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 445,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31641v1/VOE_demo.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 349,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31641v1/workflow.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 656,
+        "height": 280,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.31641.webp",
+    "image_url": "https://arxiv.org/html/2610.31641v1/illustration.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 343
+  },
+  "2610.31121": {
+    "title": "RGraph-Eval: Task-Grounded Scene Graphs for Evaluating Robot Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.31121",
+    "html_url": "https://arxiv.org/html/2610.31121v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31121v1/icra_schemes_compressed-graphical_abstract.drawio-2-compressed.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 587,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31121v1/icra_schemes_compressed-scene_generation_scheme.drawio-3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 292,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31121v1/figures/utokyo_three_methods_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 249,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31121v1/figures/bridge_bowl_three_models_masks.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 216,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2610.31121.webp",
+    "image_url": "https://arxiv.org/html/2610.31121v1/icra_schemes_compressed-graphical_abstract.drawio-2-compressed.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 587
+  },
+  "2610.31117": {
+    "title": "Through a PRISM, Clearly: Step-Sequence Reasoning for Mistake Recognition in Procedural Videos",
+    "abs_url": "https://arxiv.org/abs/2610.31117",
+    "html_url": "https://arxiv.org/html/2610.31117v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.31117v1/images/Zoodles.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 399,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.31117v1/images/HMM.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 161,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2610.31117.webp",
+    "image_url": "https://arxiv.org/html/2610.31117v1/images/Zoodles.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 399
   }
 }

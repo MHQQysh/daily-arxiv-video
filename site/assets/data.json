@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-22",
+    "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+    "link": "https://arxiv.org/abs/2610.31668",
+    "arxiv_id": "2610.31668",
+    "detail_path": "papers/2610.31668/",
+    "cover_path": "covers/2610.31668/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31668.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31668.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "UniVOE: A Removal-Driven Framework for Interaction-Aware Universal Video Object Editing",
+    "link": "https://arxiv.org/abs/2610.31641",
+    "arxiv_id": "2610.31641",
+    "detail_path": "papers/2610.31641/",
+    "cover_path": "covers/2610.31641/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31641.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31641.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models",
+    "link": "https://arxiv.org/abs/2610.31640",
+    "arxiv_id": "2610.31640",
+    "detail_path": "papers/2610.31640/",
+    "cover_path": "covers/2610.31640/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31640.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31640.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "MoG-VLM: Efficient Video Anomaly Detection through Motion-Guided Vision-Language Models",
+    "link": "https://arxiv.org/abs/2610.31478",
+    "arxiv_id": "2610.31478",
+    "detail_path": "papers/2610.31478/",
+    "cover_path": "covers/2610.31478/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31478.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31478.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Ask About the Right Moment: Training-Free Object Identity Reasoning for Video-Language Models",
+    "link": "https://arxiv.org/abs/2610.31471",
+    "arxiv_id": "2610.31471",
+    "detail_path": "papers/2610.31471/",
+    "cover_path": "covers/2610.31471/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31471.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31471.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models",
+    "link": "https://arxiv.org/abs/2610.31429",
+    "arxiv_id": "2610.31429",
+    "detail_path": "papers/2610.31429/",
+    "cover_path": "covers/2610.31429/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31429.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31429.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering",
+    "link": "https://arxiv.org/abs/2610.31284",
+    "arxiv_id": "2610.31284",
+    "detail_path": "papers/2610.31284/",
+    "cover_path": "covers/2610.31284/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31284.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31284.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+    "link": "https://arxiv.org/abs/2610.31158",
+    "arxiv_id": "2610.31158",
+    "detail_path": "papers/2610.31158/",
+    "cover_path": "covers/2610.31158/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31158.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31158.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "RGraph-Eval: Task-Grounded Scene Graphs for Evaluating Robot Video Generation",
+    "link": "https://arxiv.org/abs/2610.31121",
+    "arxiv_id": "2610.31121",
+    "detail_path": "papers/2610.31121/",
+    "cover_path": "covers/2610.31121/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31121.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31121.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Through a PRISM, Clearly: Step-Sequence Reasoning for Mistake Recognition in Procedural Videos",
+    "link": "https://arxiv.org/abs/2610.31117",
+    "arxiv_id": "2610.31117",
+    "detail_path": "papers/2610.31117/",
+    "cover_path": "covers/2610.31117/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.31117.webp",
+    "paper_image_full_path": "assets/paper-images/2610.31117.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-21",
     "title": "Rethinking Video Autoencoders for Interactive World Models",
     "link": "https://arxiv.org/abs/2610.30129",
