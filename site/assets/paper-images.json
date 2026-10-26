@@ -26059,5 +26059,551 @@
     "inside_figure": true,
     "width": 476,
     "height": 399
+  },
+  "2610.32433": {
+    "title": "Tempo-Zero: Recursive Self-Play in Executable Worlds for Video Reasoning",
+    "abs_url": "https://arxiv.org/abs/2610.32433",
+    "html_url": "",
+    "path": "assets/paper-images/2610.32433.webp",
+    "image_url": "https://arxiv.org/pdf/2610.32433",
+    "source": "pdf:first-page",
+    "score": 55,
+    "content_type": "image/png",
+    "inside_figure": false,
+    "width": 1224,
+    "height": 1584
+  },
+  "2610.32317": {
+    "title": "Organizing Temporal Evidence in Hyperbolic Space for Video Moment Retrieval",
+    "abs_url": "https://arxiv.org/abs/2610.32317",
+    "html_url": "https://arxiv.org/html/2610.32317v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32317v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 289,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32317v1/Qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32317v1/fig-illustration.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 150,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32317v1/images/author/Mengnan-Liu.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 100,
+        "height": 107,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32317v1/Sanping-Zhou.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 100,
+        "height": 117,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2610.32317.webp",
+    "image_url": "https://arxiv.org/html/2610.32317v1/method.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 289
+  },
+  "2610.32132": {
+    "title": "SyncPro: Synchronous Reasoning and Responding for Proactive Streaming Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2610.32132",
+    "html_url": "https://arxiv.org/html/2610.32132v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32132v1/data_tight.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 697,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32132v1/pipeline_tight.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 301,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32132v1/case_pvqa_tight.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 274,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32132v1/intro_tight.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 140,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32132v1/model_tight.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 142,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.32132.webp",
+    "image_url": "https://arxiv.org/html/2610.32132v1/data_tight.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 697
+  },
+  "2610.32966": {
+    "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
+    "abs_url": "https://arxiv.org/abs/2610.32966",
+    "html_url": "https://arxiv.org/html/2610.32966v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32966v1/fig_method_v33.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 205,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32966v1/fig_teleoperation_v4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 264,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32966v1/fig_teaser_v9.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 548,
+        "height": 447,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 70
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2610.32966.webp",
+    "image_url": "https://arxiv.org/html/2610.32966v1/fig_method_v33.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 205
+  },
+  "2610.32500": {
+    "title": "Distortion-Aware Spatiotemporal Learning for Real-Time Wide-Angle Video Rectification",
+    "abs_url": "https://arxiv.org/abs/2610.32500",
+    "html_url": "https://arxiv.org/html/2610.32500v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32500v1/sparse_supervision.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 434,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32500v1/pipeline_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 213,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32500v1/comparsion_3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 649,
+        "height": 204,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32500v1/generalization.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 263,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32500v1/dataset_new_5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 158,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2610.32500.webp",
+    "image_url": "https://arxiv.org/html/2610.32500v1/sparse_supervision.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 434
+  },
+  "2610.32486": {
+    "title": "Efficient Zero-Shot Video Anomaly Detection via Signal-Aware Adaptive Fusion (SAAF)",
+    "abs_url": "https://arxiv.org/abs/2610.32486",
+    "html_url": "https://arxiv.org/html/2610.32486v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32486v1/Fig_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 336,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32486v1/Figures/Fig3_a.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 293,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32486v1/Figures/Fig3b.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 302,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32486v1/Figures/Fig_6.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 330,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32486v1/Figures/Slide5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 363,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.32486.webp",
+    "image_url": "https://arxiv.org/html/2610.32486v1/Fig_2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 336
+  },
+  "2610.32784": {
+    "title": "Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2610.32784",
+    "html_url": "https://arxiv.org/html/2610.32784v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32784v1/motivation_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32784v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 245,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32784v1/ablation_contour.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 262,
+        "height": 219,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32784v1/sim_threshold_heatmap.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 262,
+        "height": 226,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2610.32784.webp",
+    "image_url": "https://arxiv.org/html/2610.32784v1/motivation_v3.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 331
+  },
+  "2610.32073": {
+    "title": "Guided Zero-Shot Anomaly Explanation for Anonymized Crowd Video Monitoring: Context, Categorization, and Spatial Localization",
+    "abs_url": "https://arxiv.org/abs/2610.32073",
+    "html_url": "https://arxiv.org/html/2610.32073v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32073v1/images/simuletic_data/xai_map_grad_emap_no_score_thr_Scene5_7_924x1358_0_0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 701,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32073v1/images/simuletic_data/xai_map_grad_emap_no_score_thr_yolov8m-seg__sahi__0.25__Scene5_7_924x1358_0_0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 701,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32073v1/images/simuletic_data/xai_map_grad_emap_with_score_thr_Scene5_7_924x1358_0_0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 701,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32073v1/images/simuletic_data/xai_map_grad_emap_with_score_thr_yolov8m-seg__sahi__0.25__Scene5_7_924x1358_0_0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 701,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32073v1/images/simuletic_data/xai_map_grad_emap_with_score_thr_autofocus_Scene5_7_924x1358_0_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 701,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.32073.webp",
+    "image_url": "https://arxiv.org/html/2610.32073v1/images/simuletic_data/xai_map_grad_emap_no_score_thr_Scene5_7_924x1358_0_0.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 701
+  },
+  "2610.32776": {
+    "title": "Predictive Long-Horizon Progress Modeling with Action-Aware Quantification",
+    "abs_url": "https://arxiv.org/abs/2610.32776",
+    "html_url": "https://arxiv.org/html/2610.32776v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.32776v1/fig2_revision4_20261023.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 184,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32776v1/fig3_revision4_20261023.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 190,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32776v1/fig4_revision4_20261023.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 177,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.32776v1/fig5_revision4_20261023.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 168,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2610.32776.webp",
+    "image_url": "https://arxiv.org/html/2610.32776v1/fig2_revision4_20261023.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 184
+  },
+  "2610.32517": {
+    "title": "VERA-Hand: A Verified Multidimensional Benchmark for 2D Hand Pose Estimation in Third-Person Dynamic Gesture Videos",
+    "abs_url": "https://arxiv.org/abs/2610.32517",
+    "html_url": "",
+    "path": "assets/paper-images/2610.32517.webp",
+    "image_url": "https://arxiv.org/pdf/2610.32517",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 1151,
+    "height": 716
   }
 }

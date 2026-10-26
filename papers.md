@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-23 | ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback | https://arxiv.org/abs/2610.32966 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding | https://arxiv.org/abs/2610.32784 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | VERA-Hand: A Verified Multidimensional Benchmark for 2D Hand Pose Estimation in Third-Person Dynamic Gesture Videos | https://arxiv.org/abs/2610.32517 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Distortion-Aware Spatiotemporal Learning for Real-Time Wide-Angle Video Rectification | https://arxiv.org/abs/2610.32500 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Efficient Zero-Shot Video Anomaly Detection via Signal-Aware Adaptive Fusion (SAAF) | https://arxiv.org/abs/2610.32486 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Tempo-Zero: Recursive Self-Play in Executable Worlds for Video Reasoning | https://arxiv.org/abs/2610.32433 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Organizing Temporal Evidence in Hyperbolic Space for Video Moment Retrieval | https://arxiv.org/abs/2610.32317 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | SyncPro: Synchronous Reasoning and Responding for Proactive Streaming Video Understanding | https://arxiv.org/abs/2610.32132 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Guided Zero-Shot Anomaly Explanation for Anonymized Crowd Video Monitoring: Context, Categorization, and Spatial Localization | https://arxiv.org/abs/2610.32073 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-23 | Predictive Long-Horizon Progress Modeling with Action-Aware Quantification | https://arxiv.org/abs/2610.32776 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-22 | Reading, Writing, Sharing, and Interacting with the World through Video | https://arxiv.org/abs/2610.31668 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-22 | UniVOE: A Removal-Driven Framework for Interaction-Aware Universal Video Object Editing | https://arxiv.org/abs/2610.31641 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-22 | WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models | https://arxiv.org/abs/2610.31640 | <details><summary>展开</summary>待生成</details> |
