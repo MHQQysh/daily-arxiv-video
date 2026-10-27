@@ -26605,5 +26605,499 @@
     "inside_figure": true,
     "width": 1151,
     "height": 716
+  },
+  "2610.35706": {
+    "title": "Triage: Skip, Skim, or Refine Attention Tiles in Video Diffusion Transformers",
+    "abs_url": "https://arxiv.org/abs/2610.35706",
+    "html_url": "https://arxiv.org/html/2610.35706v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.35706v1/system_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 673,
+        "height": 352,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35706v1/intro_qual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 673,
+        "height": 172,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35706v1/figures/qual_ltx/ltx25_fhd_30s/01_perfume_ad/dense_f072.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 92,
+        "height": 52,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35706v1/figures/qual_ltx/ltx25_fhd_30s/01_perfume_ad/dense_f187.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 92,
+        "height": 52,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35706v1/figures/qual_ltx/ltx25_fhd_30s/01_perfume_ad/dense_f302.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 92,
+        "height": 52,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2610.35706.webp",
+    "image_url": "https://arxiv.org/html/2610.35706v1/system_overview.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 673,
+    "height": 352
+  },
+  "2610.35864": {
+    "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.35864",
+    "html_url": "https://arxiv.org/html/2610.35864v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.35864v1/overview_art.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 407,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35864v1/taxonomy_ring.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 274,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35864v1/fig/teaser/CG02.jpg",
+        "source": "img",
+        "inside_figure": false,
+        "width": 167,
+        "height": 94,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": -5
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35864v1/fig/teaser/R0002.jpg",
+        "source": "img",
+        "inside_figure": false,
+        "width": 167,
+        "height": 94,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": -5
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35864v1/fig/teaser/D0193.jpg",
+        "source": "img",
+        "inside_figure": false,
+        "width": 167,
+        "height": 94,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": -5
+      }
+    ],
+    "path": "assets/paper-images/2610.35864.webp",
+    "image_url": "https://arxiv.org/html/2610.35864v1/overview_art.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 407
+  },
+  "2610.35594": {
+    "title": "Beyond Distribution Matching: Self-Supervised Representation Forcing for Few-Step Video Generation",
+    "abs_url": "https://arxiv.org/abs/2610.35594",
+    "html_url": "https://arxiv.org/html/2610.35594v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.35594v1/compare_causal.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 450,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35594v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 138,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35594v1/worldplay.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 158,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35594v1/worldplay_vis.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 145,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35594v1/mask.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 117,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 60
+      }
+    ],
+    "path": "assets/paper-images/2610.35594.webp",
+    "image_url": "https://arxiv.org/html/2610.35594v1/compare_causal.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 450
+  },
+  "2610.35536": {
+    "title": "EARS: Evidence-Aware Retrieval via Sound and Motion for Budgeted Video Reasoning",
+    "abs_url": "https://arxiv.org/abs/2610.35536",
+    "html_url": "https://arxiv.org/html/2610.35536v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.35536v1/fig_ic.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 310,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35536v1/fig_framelevel_curves.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 305,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35536v1/figures/fig_qualitative_a.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 128,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35536v1/figures/fig_qualitative_b.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 128,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35536v1/figures/fig_qual_Test_4_Shooting.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 336,
+        "height": 123,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2610.35536.webp",
+    "image_url": "https://arxiv.org/html/2610.35536v1/fig_ic.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 310
+  },
+  "2610.35756": {
+    "title": "VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion",
+    "abs_url": "https://arxiv.org/abs/2610.35756",
+    "html_url": "https://arxiv.org/html/2610.35756v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.35756v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 390,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35756v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 415,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35756v1/more-results-gallery-3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 335,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35756v1/more-results-gallery-2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 292,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35756v1/more-results-gallery-4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 710,
+        "height": 385,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2610.35756.webp",
+    "image_url": "https://arxiv.org/html/2610.35756v1/teaser.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 710,
+    "height": 390
+  },
+  "2610.35684": {
+    "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+    "abs_url": "https://arxiv.org/abs/2610.35684",
+    "html_url": "https://arxiv.org/html/2610.35684v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.35684v1/morequali.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 548,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35684v1/trajectories.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 505,
+        "height": 505,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35684v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 296,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35684v1/datapipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 190,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35684v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 194,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2610.35684.webp",
+    "image_url": "https://arxiv.org/html/2610.35684v1/morequali.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 548
+  },
+  "2610.35497": {
+    "title": "When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing",
+    "abs_url": "https://arxiv.org/abs/2610.35497",
+    "html_url": "https://arxiv.org/html/2610.35497v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2610.35497v1/data-generation-pipeline-readable.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 446,
+        "height": 607,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35497v1/teaser-editable-v6.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 386,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2610.35497v1/huggingface-logo.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 16,
+        "height": 16,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": -65
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2610.35497.webp",
+    "image_url": "https://arxiv.org/html/2610.35497v1/data-generation-pipeline-readable.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 446,
+    "height": 607
+  },
+  "2610.35816": {
+    "title": "Multimodal Concert Video Editing: System Design and Exploratory Evaluation",
+    "abs_url": "https://arxiv.org/abs/2610.35816",
+    "html_url": "https://arxiv.org/html/2610.35816v1",
+    "path": "assets/paper-images/2610.35816.webp",
+    "image_url": "https://arxiv.org/html/2610.35816v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 454
+  },
+  "2610.35229": {
+    "title": "Joint Latent Reasoning and Observation for Agentic Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2610.35229",
+    "html_url": "https://arxiv.org/html/2610.35229v1",
+    "path": "assets/paper-images/2610.35229.webp",
+    "image_url": "https://arxiv.org/html/2610.35229v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 353
+  },
+  "2610.35724": {
+    "title": "MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting",
+    "abs_url": "https://arxiv.org/abs/2610.35724",
+    "html_url": "",
+    "path": "assets/paper-images/2610.35724.webp",
+    "image_url": "https://arxiv.org/pdf/2610.35724",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 3840,
+    "height": 2160
   }
 }

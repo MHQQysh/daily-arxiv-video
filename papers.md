@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-26 | VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation | https://arxiv.org/abs/2610.35864 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Multimodal Concert Video Editing: System Design and Exploratory Evaluation | https://arxiv.org/abs/2610.35816 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion | https://arxiv.org/abs/2610.35756 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting | https://arxiv.org/abs/2610.35724 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Triage: Skip, Skim, or Refine Attention Tiles in Video Diffusion Transformers | https://arxiv.org/abs/2610.35706 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images | https://arxiv.org/abs/2610.35684 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Beyond Distribution Matching: Self-Supervised Representation Forcing for Few-Step Video Generation | https://arxiv.org/abs/2610.35594 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | EARS: Evidence-Aware Retrieval via Sound and Motion for Budgeted Video Reasoning | https://arxiv.org/abs/2610.35536 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing | https://arxiv.org/abs/2610.35497 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-26 | Joint Latent Reasoning and Observation for Agentic Video Understanding | https://arxiv.org/abs/2610.35229 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-23 | ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback | https://arxiv.org/abs/2610.32966 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-23 | Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding | https://arxiv.org/abs/2610.32784 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-23 | VERA-Hand: A Verified Multidimensional Benchmark for 2D Hand Pose Estimation in Third-Person Dynamic Gesture Videos | https://arxiv.org/abs/2610.32517 | <details><summary>展开</summary>待生成</details> |

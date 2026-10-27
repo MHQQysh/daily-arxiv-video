@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-26",
+    "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+    "link": "https://arxiv.org/abs/2610.35864",
+    "arxiv_id": "2610.35864",
+    "detail_path": "papers/2610.35864/",
+    "cover_path": "covers/2610.35864/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35864.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35864.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Multimodal Concert Video Editing: System Design and Exploratory Evaluation",
+    "link": "https://arxiv.org/abs/2610.35816",
+    "arxiv_id": "2610.35816",
+    "detail_path": "papers/2610.35816/",
+    "cover_path": "covers/2610.35816/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35816.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35816.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion",
+    "link": "https://arxiv.org/abs/2610.35756",
+    "arxiv_id": "2610.35756",
+    "detail_path": "papers/2610.35756/",
+    "cover_path": "covers/2610.35756/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35756.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35756.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "MatAnyone-E: Sparse Memory Propagation for Efficient High-Resolution Video Matting",
+    "link": "https://arxiv.org/abs/2610.35724",
+    "arxiv_id": "2610.35724",
+    "detail_path": "papers/2610.35724/",
+    "cover_path": "covers/2610.35724/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35724.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35724.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Triage: Skip, Skim, or Refine Attention Tiles in Video Diffusion Transformers",
+    "link": "https://arxiv.org/abs/2610.35706",
+    "arxiv_id": "2610.35706",
+    "detail_path": "papers/2610.35706/",
+    "cover_path": "covers/2610.35706/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35706.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35706.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+    "link": "https://arxiv.org/abs/2610.35684",
+    "arxiv_id": "2610.35684",
+    "detail_path": "papers/2610.35684/",
+    "cover_path": "covers/2610.35684/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35684.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35684.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Beyond Distribution Matching: Self-Supervised Representation Forcing for Few-Step Video Generation",
+    "link": "https://arxiv.org/abs/2610.35594",
+    "arxiv_id": "2610.35594",
+    "detail_path": "papers/2610.35594/",
+    "cover_path": "covers/2610.35594/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35594.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35594.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "EARS: Evidence-Aware Retrieval via Sound and Motion for Budgeted Video Reasoning",
+    "link": "https://arxiv.org/abs/2610.35536",
+    "arxiv_id": "2610.35536",
+    "detail_path": "papers/2610.35536/",
+    "cover_path": "covers/2610.35536/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35536.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35536.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing",
+    "link": "https://arxiv.org/abs/2610.35497",
+    "arxiv_id": "2610.35497",
+    "detail_path": "papers/2610.35497/",
+    "cover_path": "covers/2610.35497/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35497.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35497.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Joint Latent Reasoning and Observation for Agentic Video Understanding",
+    "link": "https://arxiv.org/abs/2610.35229",
+    "arxiv_id": "2610.35229",
+    "detail_path": "papers/2610.35229/",
+    "cover_path": "covers/2610.35229/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.35229.webp",
+    "paper_image_full_path": "assets/paper-images/2610.35229.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-23",
     "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
     "link": "https://arxiv.org/abs/2610.32966",
