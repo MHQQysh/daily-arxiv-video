@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-27 | Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence | https://arxiv.org/abs/2610.37633 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video | https://arxiv.org/abs/2610.37619 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | VideoLVR: Latent Visual Reasoning over Grounded Video Evidence | https://arxiv.org/abs/2610.37613 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | ReferStream: Interactive Subject Injection for Streaming Video Generation | https://arxiv.org/abs/2610.37566 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos | https://arxiv.org/abs/2610.37509 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | CodeCap-Bench: Can Code Serve as a Good Video Caption? | https://arxiv.org/abs/2610.37341 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Taming Noise Initialization for Zero-shot Video Restoration with Image Diffusion Priors | https://arxiv.org/abs/2610.37290 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse | https://arxiv.org/abs/2610.37211 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Explicit Regional Representations For Video Quality Assessment | https://arxiv.org/abs/2610.36978 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-27 | Live-OPSD: On-Policy Self-Distillation for Proactive Streaming Large Video Models | https://arxiv.org/abs/2610.36959 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-26 | VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation | https://arxiv.org/abs/2610.35864 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-26 | Multimodal Concert Video Editing: System Design and Exploratory Evaluation | https://arxiv.org/abs/2610.35816 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-26 | VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion | https://arxiv.org/abs/2610.35756 | <details><summary>展开</summary>待生成</details> |

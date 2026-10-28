@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-27",
+    "title": "Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence",
+    "link": "https://arxiv.org/abs/2610.37633",
+    "arxiv_id": "2610.37633",
+    "detail_path": "papers/2610.37633/",
+    "cover_path": "covers/2610.37633/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37633.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37633.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video",
+    "link": "https://arxiv.org/abs/2610.37619",
+    "arxiv_id": "2610.37619",
+    "detail_path": "papers/2610.37619/",
+    "cover_path": "covers/2610.37619/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37619.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37619.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
+    "link": "https://arxiv.org/abs/2610.37613",
+    "arxiv_id": "2610.37613",
+    "detail_path": "papers/2610.37613/",
+    "cover_path": "covers/2610.37613/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37613.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37613.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "ReferStream: Interactive Subject Injection for Streaming Video Generation",
+    "link": "https://arxiv.org/abs/2610.37566",
+    "arxiv_id": "2610.37566",
+    "detail_path": "papers/2610.37566/",
+    "cover_path": "covers/2610.37566/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37566.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37566.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos",
+    "link": "https://arxiv.org/abs/2610.37509",
+    "arxiv_id": "2610.37509",
+    "detail_path": "papers/2610.37509/",
+    "cover_path": "covers/2610.37509/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37509.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37509.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
+    "link": "https://arxiv.org/abs/2610.37341",
+    "arxiv_id": "2610.37341",
+    "detail_path": "papers/2610.37341/",
+    "cover_path": "covers/2610.37341/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37341.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37341.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Taming Noise Initialization for Zero-shot Video Restoration with Image Diffusion Priors",
+    "link": "https://arxiv.org/abs/2610.37290",
+    "arxiv_id": "2610.37290",
+    "detail_path": "papers/2610.37290/",
+    "cover_path": "covers/2610.37290/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37290.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37290.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse",
+    "link": "https://arxiv.org/abs/2610.37211",
+    "arxiv_id": "2610.37211",
+    "detail_path": "papers/2610.37211/",
+    "cover_path": "covers/2610.37211/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.37211.webp",
+    "paper_image_full_path": "assets/paper-images/2610.37211.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Explicit Regional Representations For Video Quality Assessment",
+    "link": "https://arxiv.org/abs/2610.36978",
+    "arxiv_id": "2610.36978",
+    "detail_path": "papers/2610.36978/",
+    "cover_path": "covers/2610.36978/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.36978.webp",
+    "paper_image_full_path": "assets/paper-images/2610.36978.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Live-OPSD: On-Policy Self-Distillation for Proactive Streaming Large Video Models",
+    "link": "https://arxiv.org/abs/2610.36959",
+    "arxiv_id": "2610.36959",
+    "detail_path": "papers/2610.36959/",
+    "cover_path": "covers/2610.36959/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.36959.webp",
+    "paper_image_full_path": "assets/paper-images/2610.36959.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-26",
     "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
     "link": "https://arxiv.org/abs/2610.35864",
