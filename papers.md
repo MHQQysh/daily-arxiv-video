@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-29 | SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization | https://arxiv.org/abs/2610.40640 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement | https://arxiv.org/abs/2610.40191 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Hierarchical Step Decomposition for Training-free Online Video Step Grounding | https://arxiv.org/abs/2610.40153 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | VideoMemBench: How Well Do MLLMs Remember in Video Conversations? | https://arxiv.org/abs/2610.40131 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | GROME: GROunding Factorized MEmory into Video World Models | https://arxiv.org/abs/2610.39812 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration | https://arxiv.org/abs/2610.39721 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Confidence Filtering in Video-Based Gait Assessment: Measurement Error versus Selection Shift | https://arxiv.org/abs/2610.39704 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | DEQ-Stereo: Deep Euilibrium Video Stereo Matching via Adaptive Convergence | https://arxiv.org/abs/2610.39701 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | Event-SAMA: Language-Grounded Video Object Segmentation on Neuromorphic Event Streams | https://arxiv.org/abs/2610.39676 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-29 | AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers | https://arxiv.org/abs/2610.39663 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-27 | Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence | https://arxiv.org/abs/2610.37633 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-27 | Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video | https://arxiv.org/abs/2610.37619 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-27 | VideoLVR: Latent Visual Reasoning over Grounded Video Evidence | https://arxiv.org/abs/2610.37613 | <details><summary>展开</summary>待生成</details> |

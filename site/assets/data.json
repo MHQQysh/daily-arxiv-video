@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-29",
+    "title": "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization",
+    "link": "https://arxiv.org/abs/2610.40640",
+    "arxiv_id": "2610.40640",
+    "detail_path": "papers/2610.40640/",
+    "cover_path": "covers/2610.40640/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.40640.webp",
+    "paper_image_full_path": "assets/paper-images/2610.40640.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "link": "https://arxiv.org/abs/2610.40191",
+    "arxiv_id": "2610.40191",
+    "detail_path": "papers/2610.40191/",
+    "cover_path": "covers/2610.40191/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.40191.webp",
+    "paper_image_full_path": "assets/paper-images/2610.40191.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Hierarchical Step Decomposition for Training-free Online Video Step Grounding",
+    "link": "https://arxiv.org/abs/2610.40153",
+    "arxiv_id": "2610.40153",
+    "detail_path": "papers/2610.40153/",
+    "cover_path": "covers/2610.40153/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.40153.webp",
+    "paper_image_full_path": "assets/paper-images/2610.40153.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "VideoMemBench: How Well Do MLLMs Remember in Video Conversations?",
+    "link": "https://arxiv.org/abs/2610.40131",
+    "arxiv_id": "2610.40131",
+    "detail_path": "papers/2610.40131/",
+    "cover_path": "covers/2610.40131/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.40131.webp",
+    "paper_image_full_path": "assets/paper-images/2610.40131.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "GROME: GROunding Factorized MEmory into Video World Models",
+    "link": "https://arxiv.org/abs/2610.39812",
+    "arxiv_id": "2610.39812",
+    "detail_path": "papers/2610.39812/",
+    "cover_path": "covers/2610.39812/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.39812.webp",
+    "paper_image_full_path": "assets/paper-images/2610.39812.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "WorldProbe: When Video World Models Fall Apart under Long-Horizon Spatial Exploration",
+    "link": "https://arxiv.org/abs/2610.39721",
+    "arxiv_id": "2610.39721",
+    "detail_path": "papers/2610.39721/",
+    "cover_path": "covers/2610.39721/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.39721.webp",
+    "paper_image_full_path": "assets/paper-images/2610.39721.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Confidence Filtering in Video-Based Gait Assessment: Measurement Error versus Selection Shift",
+    "link": "https://arxiv.org/abs/2610.39704",
+    "arxiv_id": "2610.39704",
+    "detail_path": "papers/2610.39704/",
+    "cover_path": "covers/2610.39704/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.39704.webp",
+    "paper_image_full_path": "assets/paper-images/2610.39704.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "DEQ-Stereo: Deep Euilibrium Video Stereo Matching via Adaptive Convergence",
+    "link": "https://arxiv.org/abs/2610.39701",
+    "arxiv_id": "2610.39701",
+    "detail_path": "papers/2610.39701/",
+    "cover_path": "covers/2610.39701/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.39701.webp",
+    "paper_image_full_path": "assets/paper-images/2610.39701.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Event-SAMA: Language-Grounded Video Object Segmentation on Neuromorphic Event Streams",
+    "link": "https://arxiv.org/abs/2610.39676",
+    "arxiv_id": "2610.39676",
+    "detail_path": "papers/2610.39676/",
+    "cover_path": "covers/2610.39676/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.39676.webp",
+    "paper_image_full_path": "assets/paper-images/2610.39676.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+    "link": "https://arxiv.org/abs/2610.39663",
+    "arxiv_id": "2610.39663",
+    "detail_path": "papers/2610.39663/",
+    "cover_path": "covers/2610.39663/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.39663.webp",
+    "paper_image_full_path": "assets/paper-images/2610.39663.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-27",
     "title": "Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence",
     "link": "https://arxiv.org/abs/2610.37633",
