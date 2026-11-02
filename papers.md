@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-10-30 | Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning | https://arxiv.org/abs/2610.42082 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation | https://arxiv.org/abs/2610.42031 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | GeoFlip: Benchmarking Geometry-Sensitive Physics in Video Generation | https://arxiv.org/abs/2610.42002 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs | https://arxiv.org/abs/2610.41983 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos | https://arxiv.org/abs/2610.41877 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | Learning to Interact and Direct: Co-Evolving Video Director Agents | https://arxiv.org/abs/2610.41865 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization | https://arxiv.org/abs/2610.41642 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos | https://arxiv.org/abs/2610.41402 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos | https://arxiv.org/abs/2610.41336 | <details><summary>展开</summary>待生成</details> |
+| 2026-10-30 | GenDSR: Transferring Representations from Video Generation Models for Dynamic Spatial Reasoning | https://arxiv.org/abs/2610.41314 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-29 | SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization | https://arxiv.org/abs/2610.40640 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-29 | Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement | https://arxiv.org/abs/2610.40191 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-29 | Hierarchical Step Decomposition for Training-free Online Video Step Grounding | https://arxiv.org/abs/2610.40153 | <details><summary>展开</summary>待生成</details> |

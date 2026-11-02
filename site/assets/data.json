@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-10-30",
+    "title": "Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning",
+    "link": "https://arxiv.org/abs/2610.42082",
+    "arxiv_id": "2610.42082",
+    "detail_path": "papers/2610.42082/",
+    "cover_path": "covers/2610.42082/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.42082.webp",
+    "paper_image_full_path": "assets/paper-images/2610.42082.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2610.42031",
+    "arxiv_id": "2610.42031",
+    "detail_path": "papers/2610.42031/",
+    "cover_path": "covers/2610.42031/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.42031.webp",
+    "paper_image_full_path": "assets/paper-images/2610.42031.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "GeoFlip: Benchmarking Geometry-Sensitive Physics in Video Generation",
+    "link": "https://arxiv.org/abs/2610.42002",
+    "arxiv_id": "2610.42002",
+    "detail_path": "papers/2610.42002/",
+    "cover_path": "covers/2610.42002/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.42002.webp",
+    "paper_image_full_path": "assets/paper-images/2610.42002.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs",
+    "link": "https://arxiv.org/abs/2610.41983",
+    "arxiv_id": "2610.41983",
+    "detail_path": "papers/2610.41983/",
+    "cover_path": "covers/2610.41983/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.41983.webp",
+    "paper_image_full_path": "assets/paper-images/2610.41983.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos",
+    "link": "https://arxiv.org/abs/2610.41877",
+    "arxiv_id": "2610.41877",
+    "detail_path": "papers/2610.41877/",
+    "cover_path": "covers/2610.41877/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.41877.webp",
+    "paper_image_full_path": "assets/paper-images/2610.41877.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Learning to Interact and Direct: Co-Evolving Video Director Agents",
+    "link": "https://arxiv.org/abs/2610.41865",
+    "arxiv_id": "2610.41865",
+    "detail_path": "papers/2610.41865/",
+    "cover_path": "covers/2610.41865/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.41865.webp",
+    "paper_image_full_path": "assets/paper-images/2610.41865.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+    "link": "https://arxiv.org/abs/2610.41642",
+    "arxiv_id": "2610.41642",
+    "detail_path": "papers/2610.41642/",
+    "cover_path": "covers/2610.41642/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.41642.webp",
+    "paper_image_full_path": "assets/paper-images/2610.41642.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "DUGO: Dual-Scale Gaussian Memory for Online Temporal Action Localization in Egocentric Procedural Videos",
+    "link": "https://arxiv.org/abs/2610.41402",
+    "arxiv_id": "2610.41402",
+    "detail_path": "papers/2610.41402/",
+    "cover_path": "covers/2610.41402/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.41402.webp",
+    "paper_image_full_path": "assets/paper-images/2610.41402.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos",
+    "link": "https://arxiv.org/abs/2610.41336",
+    "arxiv_id": "2610.41336",
+    "detail_path": "papers/2610.41336/",
+    "cover_path": "covers/2610.41336/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.41336.webp",
+    "paper_image_full_path": "assets/paper-images/2610.41336.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "GenDSR: Transferring Representations from Video Generation Models for Dynamic Spatial Reasoning",
+    "link": "https://arxiv.org/abs/2610.41314",
+    "arxiv_id": "2610.41314",
+    "detail_path": "papers/2610.41314/",
+    "cover_path": "covers/2610.41314/",
+    "paper_image_path": "assets/paper-images/thumbs/2610.41314.webp",
+    "paper_image_full_path": "assets/paper-images/2610.41314.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-29",
     "title": "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization",
     "link": "https://arxiv.org/abs/2610.40640",
