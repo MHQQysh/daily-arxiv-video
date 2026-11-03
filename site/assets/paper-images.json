@@ -28875,5 +28875,655 @@
     "inside_figure": true,
     "width": 476,
     "height": 268
+  },
+  "2611.02964": {
+    "title": "One Image Is Enough: Self-Generated Supervision for Personalizing Human Video Diffusion at Test Time",
+    "abs_url": "https://arxiv.org/abs/2611.02964",
+    "html_url": "https://arxiv.org/html/2611.02964v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.02964v1/temporal_stability.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 611,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02964v1/method-diagram.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 385,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02964v1/supp_visual_comparison1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 436,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02964v1/supp_visual_comparison2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 366,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02964v1/supp_visual_comparison3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 436,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.02964.webp",
+    "image_url": "https://arxiv.org/html/2611.02964v1/temporal_stability.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 611
+  },
+  "2611.03646": {
+    "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
+    "abs_url": "https://arxiv.org/abs/2611.03646",
+    "html_url": "https://arxiv.org/html/2611.03646v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.03646v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03646v1/EgoActionBench_Combined.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 255,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03646v1/evaluation_suite.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 229,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03646v1/F1_score.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03646v1/example.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 357,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.03646.webp",
+    "image_url": "https://arxiv.org/html/2611.03646v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 238
+  },
+  "2611.03043": {
+    "title": "VideoEditor-MoE: Scaling Complex Video Editing with Mixture of Experts",
+    "abs_url": "https://arxiv.org/abs/2611.03043",
+    "html_url": "https://arxiv.org/html/2611.03043v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.03043v1/visual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 473,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03043v1/adam_all.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 440,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03043v1/baseline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 295,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03043v1/framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 185,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03043v1/expert_analysis.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 238,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.03043.webp",
+    "image_url": "https://arxiv.org/html/2611.03043v1/visual.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 473
+  },
+  "2611.02968": {
+    "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
+    "abs_url": "https://arxiv.org/abs/2611.02968",
+    "html_url": "https://arxiv.org/html/2611.02968v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.02968v1/t4_sampling_generalization.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 462,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02968v1/framework_spine.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 284,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02968v1/egocentric_path.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 186,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02968v1/shared_evidence_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 357,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02968v1/t2_payload.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 156,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.02968.webp",
+    "image_url": "https://arxiv.org/html/2611.02968v1/t4_sampling_generalization.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 462
+  },
+  "2611.03404": {
+    "title": "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
+    "abs_url": "https://arxiv.org/abs/2611.03404",
+    "html_url": "https://arxiv.org/html/2611.03404v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.03404v1/causaldub_architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 301,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03404v1/figures/showcase_diversity.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 594,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03404v1/figures/qualitative_hdtf_1_same.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 675,
+        "height": 427,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03404v1/figures/qualitative_hdtf_1_cross.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 675,
+        "height": 469,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03404v1/figures/qualitative_hdtf_2_same.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 675,
+        "height": 427,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.03404.webp",
+    "image_url": "https://arxiv.org/html/2611.03404v1/causaldub_architecture.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 301
+  },
+  "2611.03394": {
+    "title": "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.03394",
+    "html_url": "https://arxiv.org/html/2611.03394v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.03394v1/multi_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 183,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03394v1/spatial_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 197,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03394v1/speech_excerpts.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 252,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03394v1/hour_generation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 106,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 60
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03394v1/figures/assets/method_illustration/progressive-spatial-landscape-v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 110,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2611.03394.webp",
+    "image_url": "https://arxiv.org/html/2611.03394v1/multi_comparison.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 183
+  },
+  "2611.03602": {
+    "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+    "abs_url": "https://arxiv.org/abs/2611.03602",
+    "html_url": "https://arxiv.org/html/2611.03602v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.03602v1/teaser1102_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 471,
+        "height": 210,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03602v1/1106arc.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 243,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03602v1/ref1_class.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 251,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03602v1/pipeline1030.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 239,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03602v1/casev3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 228,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.03602.webp",
+    "image_url": "https://arxiv.org/html/2611.03602v1/teaser1102_v2.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 471,
+    "height": 210
+  },
+  "2611.03393": {
+    "title": "TaoMate-FVSR:Audio-Guided Facial Video Restoration",
+    "abs_url": "https://arxiv.org/abs/2611.03393",
+    "html_url": "https://arxiv.org/html/2611.03393v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.03393v1/figures/teaser_integrated.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 194,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03393v1/qualitative_h3_scene_crop_selected_20261029.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 256,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03393v1/ablation_two_cases_ten_per_row.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 110,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 60
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03393v1/method_refined_state_icons.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 236,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2611.03393v1/logo/alibaba_logo.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 191,
+        "height": 36,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": -65
+      }
+    ],
+    "path": "assets/paper-images/2611.03393.webp",
+    "image_url": "https://arxiv.org/html/2611.03393v1/figures/teaser_integrated.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 194
+  },
+  "2611.02928": {
+    "title": "Lab2Sim: Turning Real-World Experiment Videos into Interactive Virtual Experiments",
+    "abs_url": "https://arxiv.org/abs/2611.02928",
+    "html_url": "https://arxiv.org/html/2611.02928v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.02928v1/appendix_cases_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 599,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02928v1/appendix_cases_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 599,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02928v1/intro_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 206,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02928v1/bench.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 319,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02928v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 212,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.02928.webp",
+    "image_url": "https://arxiv.org/html/2611.02928v1/appendix_cases_1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 599
+  },
+  "2611.02853": {
+    "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
+    "abs_url": "https://arxiv.org/abs/2611.02853",
+    "html_url": "https://arxiv.org/html/2611.02853v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.02853v1/supp_planning.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 589,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02853v1/intro.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 199,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02853v1/quality_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 341,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02853v1/supp_rep_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 462,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.02853v1/scaling_command.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 120,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.02853.webp",
+    "image_url": "https://arxiv.org/html/2611.02853v1/supp_planning.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 589
   }
 }

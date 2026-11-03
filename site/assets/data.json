@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-02",
+    "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
+    "link": "https://arxiv.org/abs/2611.03646",
+    "arxiv_id": "2611.03646",
+    "detail_path": "papers/2611.03646/",
+    "cover_path": "covers/2611.03646/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03646.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03646.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+    "link": "https://arxiv.org/abs/2611.03602",
+    "arxiv_id": "2611.03602",
+    "detail_path": "papers/2611.03602/",
+    "cover_path": "covers/2611.03602/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03602.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03602.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
+    "link": "https://arxiv.org/abs/2611.03404",
+    "arxiv_id": "2611.03404",
+    "detail_path": "papers/2611.03404/",
+    "cover_path": "covers/2611.03404/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03404.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03404.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
+    "link": "https://arxiv.org/abs/2611.03394",
+    "arxiv_id": "2611.03394",
+    "detail_path": "papers/2611.03394/",
+    "cover_path": "covers/2611.03394/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03394.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03394.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "TaoMate-FVSR:Audio-Guided Facial Video Restoration",
+    "link": "https://arxiv.org/abs/2611.03393",
+    "arxiv_id": "2611.03393",
+    "detail_path": "papers/2611.03393/",
+    "cover_path": "covers/2611.03393/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03393.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03393.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "VideoEditor-MoE: Scaling Complex Video Editing with Mixture of Experts",
+    "link": "https://arxiv.org/abs/2611.03043",
+    "arxiv_id": "2611.03043",
+    "detail_path": "papers/2611.03043/",
+    "cover_path": "covers/2611.03043/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.03043.webp",
+    "paper_image_full_path": "assets/paper-images/2611.03043.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation",
+    "link": "https://arxiv.org/abs/2611.02968",
+    "arxiv_id": "2611.02968",
+    "detail_path": "papers/2611.02968/",
+    "cover_path": "covers/2611.02968/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02968.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02968.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "One Image Is Enough: Self-Generated Supervision for Personalizing Human Video Diffusion at Test Time",
+    "link": "https://arxiv.org/abs/2611.02964",
+    "arxiv_id": "2611.02964",
+    "detail_path": "papers/2611.02964/",
+    "cover_path": "covers/2611.02964/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02964.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02964.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Lab2Sim: Turning Real-World Experiment Videos into Interactive Virtual Experiments",
+    "link": "https://arxiv.org/abs/2611.02928",
+    "arxiv_id": "2611.02928",
+    "detail_path": "papers/2611.02928/",
+    "cover_path": "covers/2611.02928/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02928.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02928.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving",
+    "link": "https://arxiv.org/abs/2611.02853",
+    "arxiv_id": "2611.02853",
+    "detail_path": "papers/2611.02853/",
+    "cover_path": "covers/2611.02853/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.02853.webp",
+    "paper_image_full_path": "assets/paper-images/2611.02853.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-10-30",
     "title": "Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning",
     "link": "https://arxiv.org/abs/2610.42082",

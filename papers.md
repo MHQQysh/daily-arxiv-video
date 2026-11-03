@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-02 | EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos | https://arxiv.org/abs/2611.03646 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning | https://arxiv.org/abs/2611.03602 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing | https://arxiv.org/abs/2611.03404 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation | https://arxiv.org/abs/2611.03394 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | TaoMate-FVSR:Audio-Guided Facial Video Restoration | https://arxiv.org/abs/2611.03393 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | VideoEditor-MoE: Scaling Complex Video Editing with Mixture of Experts | https://arxiv.org/abs/2611.03043 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation | https://arxiv.org/abs/2611.02968 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | One Image Is Enough: Self-Generated Supervision for Personalizing Human Video Diffusion at Test Time | https://arxiv.org/abs/2611.02964 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Lab2Sim: Turning Real-World Experiment Videos into Interactive Virtual Experiments | https://arxiv.org/abs/2611.02928 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-02 | Scaling Action-Free Video Latent Prediction for Transferable Representations in End-to-End Autonomous Driving | https://arxiv.org/abs/2611.02853 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-30 | Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning | https://arxiv.org/abs/2610.42082 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-30 | Any Forcing: Any-Step Generality and One-Step Stability for Autoregressive Video Generation | https://arxiv.org/abs/2610.42031 | <details><summary>展开</summary>待生成</details> |
 | 2026-10-30 | GeoFlip: Benchmarking Geometry-Sensitive Physics in Video Generation | https://arxiv.org/abs/2610.42002 | <details><summary>展开</summary>待生成</details> |
