@@ -29525,5 +29525,521 @@
     "inside_figure": true,
     "width": 476,
     "height": 589
+  },
+  "2611.05062": {
+    "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+    "abs_url": "https://arxiv.org/abs/2611.05062",
+    "html_url": "https://arxiv.org/html/2611.05062v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.05062v1/figures/figure_arch.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 214,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05062v1/figures/figure_attention_share.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 457,
+        "height": 261,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.05062.webp",
+    "image_url": "https://arxiv.org/html/2611.05062v1/figures/figure_arch.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 214
+  },
+  "2611.05206": {
+    "title": "Diffusion Plug-in Priors for Self-Supervised Ultrasound Video Restoration",
+    "abs_url": "https://arxiv.org/abs/2611.05206",
+    "html_url": "https://arxiv.org/html/2611.05206v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.05206v1/figure1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 333,
+        "height": 237,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05206v1/ultradiff.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 202,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05206v1/noise-map.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 245,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05206v1/visualize.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 170,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05206v1/best_ultradiff_ed_es_roi_callout_contour_viz_v9_ultradiff_inner_wedgemask.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 152,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.05206.webp",
+    "image_url": "https://arxiv.org/html/2611.05206v1/figure1.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 333,
+    "height": 237
+  },
+  "2611.04932": {
+    "title": "VISTA: Vision-Language Integrated Semantic Triage Architecture for Online Face Clustering in Long Videos",
+    "abs_url": "https://arxiv.org/abs/2611.04932",
+    "html_url": "https://arxiv.org/html/2611.04932v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.04932v1/Mechanisms.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 320,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04932v1/bias_gender.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 295,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04932v1/bias_age.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 295,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04932v1/gmm_similarity_distribution.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 337,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04932v1/ACMMMCluster4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 323,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.04932.webp",
+    "image_url": "https://arxiv.org/html/2611.04932v1/Mechanisms.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 320
+  },
+  "2611.05163": {
+    "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+    "abs_url": "https://arxiv.org/abs/2611.05163",
+    "html_url": "https://arxiv.org/html/2611.05163v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.05163v1/assets/method.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 494,
+        "height": 417,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05163v1/out_of_domain.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 212,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05163v1/sim-tasks.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05163v1/fig_ablation_fail.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 261,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05163v1/rollouts-ood.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.05163.webp",
+    "image_url": "https://arxiv.org/html/2611.05163v1/assets/method.jpg",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/jpeg",
+    "inside_figure": true,
+    "width": 494,
+    "height": 417
+  },
+  "2611.05181": {
+    "title": "What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis",
+    "abs_url": "https://arxiv.org/abs/2611.05181",
+    "html_url": "https://arxiv.org/html/2611.05181v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.05181v1/Fig2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 465,
+        "height": 599,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.05181.webp",
+    "image_url": "https://arxiv.org/html/2611.05181v1/Fig2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 465,
+    "height": 599
+  },
+  "2611.05377": {
+    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+    "abs_url": "https://arxiv.org/abs/2611.05377",
+    "html_url": "https://arxiv.org/html/2611.05377v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.05377v1/fig4_traj.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 498,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05377v1/attention_wide.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 431,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05377v1/fig6_appendix.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 772,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05377v1/fig4_appendix_group1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 635,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.05377v1/fig4_appendix_group2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 651,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.05377.webp",
+    "image_url": "https://arxiv.org/html/2611.05377v1/fig4_traj.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 498
+  },
+  "2611.04916": {
+    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+    "abs_url": "https://arxiv.org/abs/2611.04916",
+    "html_url": "https://arxiv.org/html/2611.04916v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.04916v1/omni_architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 280,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04916v1/ch3_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 211,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04916v1/ch4_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04916v1/rm.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 167,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04916v1/overview.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 804,
+        "height": 275,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 70
+      }
+    ],
+    "path": "assets/paper-images/2611.04916.webp",
+    "image_url": "https://arxiv.org/html/2611.04916v1/omni_architecture.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 280
+  },
+  "2611.04764": {
+    "title": "Pixel-space video generation with U-JiT",
+    "abs_url": "https://arxiv.org/abs/2611.04764",
+    "html_url": "",
+    "path": "assets/paper-images/2611.04764.webp",
+    "image_url": "https://arxiv.org/pdf/2611.04764",
+    "source": "pdf:first-page",
+    "score": 55,
+    "content_type": "image/png",
+    "inside_figure": false,
+    "width": 1191,
+    "height": 1684
+  },
+  "2611.04913": {
+    "title": "EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering",
+    "abs_url": "https://arxiv.org/abs/2611.04913",
+    "html_url": "https://arxiv.org/html/2611.04913v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.04913v1/figures/figure4_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 407,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04913v1/figures/figure1_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 663,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.04913v1/figures/figure2_architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 698,
+        "height": 273,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.04913.webp",
+    "image_url": "https://arxiv.org/html/2611.04913v1/figures/figure4_qualitative.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 698,
+    "height": 407
+  },
+  "2611.05359": {
+    "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs",
+    "abs_url": "https://arxiv.org/abs/2611.05359",
+    "html_url": "",
+    "path": "assets/paper-images/2611.05359.webp",
+    "image_url": "https://arxiv.org/pdf/2611.05359",
+    "source": "pdf:first-page",
+    "score": 55,
+    "content_type": "image/png",
+    "inside_figure": false,
+    "width": 1224,
+    "height": 1584
   }
 }

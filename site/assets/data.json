@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-03",
+    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+    "link": "https://arxiv.org/abs/2611.05377",
+    "arxiv_id": "2611.05377",
+    "detail_path": "papers/2611.05377/",
+    "cover_path": "covers/2611.05377/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05377.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05377.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs",
+    "link": "https://arxiv.org/abs/2611.05359",
+    "arxiv_id": "2611.05359",
+    "detail_path": "papers/2611.05359/",
+    "cover_path": "covers/2611.05359/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05359.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05359.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Diffusion Plug-in Priors for Self-Supervised Ultrasound Video Restoration",
+    "link": "https://arxiv.org/abs/2611.05206",
+    "arxiv_id": "2611.05206",
+    "detail_path": "papers/2611.05206/",
+    "cover_path": "covers/2611.05206/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05206.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05206.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis",
+    "link": "https://arxiv.org/abs/2611.05181",
+    "arxiv_id": "2611.05181",
+    "detail_path": "papers/2611.05181/",
+    "cover_path": "covers/2611.05181/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05181.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05181.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+    "link": "https://arxiv.org/abs/2611.05163",
+    "arxiv_id": "2611.05163",
+    "detail_path": "papers/2611.05163/",
+    "cover_path": "covers/2611.05163/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05163.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05163.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+    "link": "https://arxiv.org/abs/2611.05062",
+    "arxiv_id": "2611.05062",
+    "detail_path": "papers/2611.05062/",
+    "cover_path": "covers/2611.05062/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.05062.webp",
+    "paper_image_full_path": "assets/paper-images/2611.05062.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "VISTA: Vision-Language Integrated Semantic Triage Architecture for Online Face Clustering in Long Videos",
+    "link": "https://arxiv.org/abs/2611.04932",
+    "arxiv_id": "2611.04932",
+    "detail_path": "papers/2611.04932/",
+    "cover_path": "covers/2611.04932/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04932.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04932.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+    "link": "https://arxiv.org/abs/2611.04916",
+    "arxiv_id": "2611.04916",
+    "detail_path": "papers/2611.04916/",
+    "cover_path": "covers/2611.04916/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04916.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04916.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering",
+    "link": "https://arxiv.org/abs/2611.04913",
+    "arxiv_id": "2611.04913",
+    "detail_path": "papers/2611.04913/",
+    "cover_path": "covers/2611.04913/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04913.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04913.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Pixel-space video generation with U-JiT",
+    "link": "https://arxiv.org/abs/2611.04764",
+    "arxiv_id": "2611.04764",
+    "detail_path": "papers/2611.04764/",
+    "cover_path": "covers/2611.04764/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.04764.webp",
+    "paper_image_full_path": "assets/paper-images/2611.04764.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-02",
     "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
     "link": "https://arxiv.org/abs/2611.03646",

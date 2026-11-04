@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-03 | DreamX: Video Diffusion Model is a Universal Latent Action Learner | https://arxiv.org/abs/2611.05377 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs | https://arxiv.org/abs/2611.05359 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Diffusion Plug-in Priors for Self-Supervised Ultrasound Video Restoration | https://arxiv.org/abs/2611.05206 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis | https://arxiv.org/abs/2611.05181 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On | https://arxiv.org/abs/2611.05163 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video | https://arxiv.org/abs/2611.05062 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | VISTA: Vision-Language Integrated Semantic Triage Architecture for Online Face Clustering in Long Videos | https://arxiv.org/abs/2611.04932 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling | https://arxiv.org/abs/2611.04916 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | EP-LVMQA: Evidence-Preserving Coarse-to-Fine Localization for Low-Quality Long Video Moment Question Answering | https://arxiv.org/abs/2611.04913 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-03 | Pixel-space video generation with U-JiT | https://arxiv.org/abs/2611.04764 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-02 | EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos | https://arxiv.org/abs/2611.03646 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-02 | Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning | https://arxiv.org/abs/2611.03602 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-02 | VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing | https://arxiv.org/abs/2611.03404 | <details><summary>展开</summary>待生成</details> |
