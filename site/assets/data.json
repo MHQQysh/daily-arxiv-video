@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-04",
+    "title": "PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories",
+    "link": "https://arxiv.org/abs/2611.06870",
+    "arxiv_id": "2611.06870",
+    "detail_path": "papers/2611.06870/",
+    "cover_path": "covers/2611.06870/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06870.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06870.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+    "link": "https://arxiv.org/abs/2611.06748",
+    "arxiv_id": "2611.06748",
+    "detail_path": "papers/2611.06748/",
+    "cover_path": "covers/2611.06748/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06748.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06748.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+    "link": "https://arxiv.org/abs/2611.06728",
+    "arxiv_id": "2611.06728",
+    "detail_path": "papers/2611.06728/",
+    "cover_path": "covers/2611.06728/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06728.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06728.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Sekai: Incremental Event Memory for Generalized Reasoning Video Segmentation",
+    "link": "https://arxiv.org/abs/2611.06685",
+    "arxiv_id": "2611.06685",
+    "detail_path": "papers/2611.06685/",
+    "cover_path": "covers/2611.06685/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06685.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06685.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "SpikePose: Lightweight Video Human Pose Estimation",
+    "link": "https://arxiv.org/abs/2611.06594",
+    "arxiv_id": "2611.06594",
+    "detail_path": "papers/2611.06594/",
+    "cover_path": "covers/2611.06594/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06594.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06594.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+    "link": "https://arxiv.org/abs/2611.06518",
+    "arxiv_id": "2611.06518",
+    "detail_path": "papers/2611.06518/",
+    "cover_path": "covers/2611.06518/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06518.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06518.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "CoDecide: Content-Adaptive Video Decoding for High-Throughput Video Analytics",
+    "link": "https://arxiv.org/abs/2611.06455",
+    "arxiv_id": "2611.06455",
+    "detail_path": "papers/2611.06455/",
+    "cover_path": "covers/2611.06455/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06455.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06455.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation",
+    "link": "https://arxiv.org/abs/2611.06377",
+    "arxiv_id": "2611.06377",
+    "detail_path": "papers/2611.06377/",
+    "cover_path": "covers/2611.06377/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06377.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06377.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "FlashRelight: Portrait Video Relighting with Dynamic Lighting",
+    "link": "https://arxiv.org/abs/2611.06355",
+    "arxiv_id": "2611.06355",
+    "detail_path": "papers/2611.06355/",
+    "cover_path": "covers/2611.06355/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06355.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06355.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Beyond Scene Shortcuts: Action-Centric Video-Text Alignment for Fine-Grained Action Understanding",
+    "link": "https://arxiv.org/abs/2611.06302",
+    "arxiv_id": "2611.06302",
+    "detail_path": "papers/2611.06302/",
+    "cover_path": "covers/2611.06302/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.06302.webp",
+    "paper_image_full_path": "assets/paper-images/2611.06302.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-03",
     "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
     "link": "https://arxiv.org/abs/2611.05377",

@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-04 | PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories | https://arxiv.org/abs/2611.06870 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models | https://arxiv.org/abs/2611.06748 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | Turns Matter: Advancing Streaming Video RL via Turn-Level Credit | https://arxiv.org/abs/2611.06728 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | Sekai: Incremental Event Memory for Generalized Reasoning Video Segmentation | https://arxiv.org/abs/2611.06685 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | SpikePose: Lightweight Video Human Pose Estimation | https://arxiv.org/abs/2611.06594 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL | https://arxiv.org/abs/2611.06518 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | CoDecide: Content-Adaptive Video Decoding for High-Throughput Video Analytics | https://arxiv.org/abs/2611.06455 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | NanoKV: High-Ratio KV Cache Compression for Autoregressive Video Generation | https://arxiv.org/abs/2611.06377 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | FlashRelight: Portrait Video Relighting with Dynamic Lighting | https://arxiv.org/abs/2611.06355 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-04 | Beyond Scene Shortcuts: Action-Centric Video-Text Alignment for Fine-Grained Action Understanding | https://arxiv.org/abs/2611.06302 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-03 | DreamX: Video Diffusion Model is a Universal Latent Action Learner | https://arxiv.org/abs/2611.05377 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-03 | GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs | https://arxiv.org/abs/2611.05359 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-03 | Diffusion Plug-in Priors for Self-Supervised Ultrasound Video Restoration | https://arxiv.org/abs/2611.05206 | <details><summary>展开</summary>待生成</details> |
