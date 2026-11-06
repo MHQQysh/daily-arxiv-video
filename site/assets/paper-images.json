@@ -30619,5 +30619,531 @@
     "inside_figure": false,
     "width": 1224,
     "height": 1584
+  },
+  "2611.07411": {
+    "title": "Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks",
+    "abs_url": "https://arxiv.org/abs/2611.07411",
+    "html_url": "https://arxiv.org/html/2611.07411v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.07411v1/qual_closedloop.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07411v1/qual_coding.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 153,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.07411.webp",
+    "image_url": "https://arxiv.org/html/2611.07411v1/qual_closedloop.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 200
+  },
+  "2611.08099": {
+    "title": "Towards Practical 20 kbps Generative Video Compression via Adaptive Tokenization and Entropy Modeling",
+    "abs_url": "https://arxiv.org/abs/2611.08099",
+    "html_url": "https://arxiv.org/html/2611.08099v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.08099v1/teaser_combined.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 585,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08099v1/codebook_results.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 812,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08099v1/prefix_results.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 298,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08099v1/h3vc_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 146,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08099v1/qualitative_src14.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 171,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.08099.webp",
+    "image_url": "https://arxiv.org/html/2611.08099v1/teaser_combined.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 585
+  },
+  "2611.07836": {
+    "title": "THG-Omni: Traceable Human-Centric Graph Supervision for Video Reasoning",
+    "abs_url": "https://arxiv.org/abs/2611.07836",
+    "html_url": "https://arxiv.org/html/2611.07836v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.07836v1/figures/motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 255,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07836v1/figures/fig1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 291,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07836v1/figures/appendix2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07836v1/figures/nextqa_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07836v1/figures/new_fig3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 146,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.07836.webp",
+    "image_url": "https://arxiv.org/html/2611.07836v1/figures/motivation.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 255
+  },
+  "2611.07566": {
+    "title": "Guidance Is a Field, Not a Scalar: Interval-Integrated Classifier-Free Guidance for One-Step Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.07566",
+    "html_url": "https://arxiv.org/html/2611.07566v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.07566v1/qua.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 355,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07566v1/pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.07566.webp",
+    "image_url": "https://arxiv.org/html/2611.07566v1/qua.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 355
+  },
+  "2611.07873": {
+    "title": "PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation",
+    "abs_url": "https://arxiv.org/abs/2611.07873",
+    "html_url": "https://arxiv.org/html/2611.07873v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.07873v1/Fig_panocarla.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 598,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07873v1/Fig_temporal_nonlinear.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 285,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07873v1/Fig_data_record_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 419,
+        "height": 233,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07873v1/Fig_framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 438,
+        "height": 232,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07873v1/Fig_temporal_slice_vis.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 211,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.07873.webp",
+    "image_url": "https://arxiv.org/html/2611.07873v1/Fig_panocarla.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 598
+  },
+  "2611.08477": {
+    "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+    "abs_url": "https://arxiv.org/abs/2611.08477",
+    "html_url": "https://arxiv.org/html/2611.08477v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.08477v1/text_action_video.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 603,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08477v1/wam_action_comparison_single_column.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 578,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08477v1/wm_video_comparison_supp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 469,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08477v1/wm_showcase_supp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 805,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.08477v1/text_action_video_supp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 787,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.08477.webp",
+    "image_url": "https://arxiv.org/html/2611.08477v1/text_action_video.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 603
+  },
+  "2611.07301": {
+    "title": "ArtiVidRM: Verifiable Artifact-as-Rubric Reward Modeling for Explicit Quality Articulation in Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.07301",
+    "html_url": "https://arxiv.org/html/2611.07301v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.07301v1/human-wan.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 416,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07301v1/veo-human.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 461,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07301v1/wan-cases.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 601,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07301v1/veo-cases.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 524,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07301v1/artividrm-intro.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 261,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.07301.webp",
+    "image_url": "https://arxiv.org/html/2611.07301v1/human-wan.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 416
+  },
+  "2611.07329": {
+    "title": "Where Do Reported Long-Video QA Gains Come From? A Controlled Audit of Frame Selection, Evidence Injection, and Expert Routing",
+    "abs_url": "https://arxiv.org/abs/2611.07329",
+    "html_url": "https://arxiv.org/html/2611.07329v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.07329v1/fig1_mainidea.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 557,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07329v1/fig_p2_qualitative_main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 824,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07329v1/fig_p2_qualitative_supp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 824,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07329v1/fig_f2_heatmap.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 359,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.07329v1/figure2_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 194,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.07329.webp",
+    "image_url": "https://arxiv.org/html/2611.07329v1/fig1_mainidea.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 557
+  },
+  "2611.07755": {
+    "title": "Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models",
+    "abs_url": "https://arxiv.org/abs/2611.07755",
+    "html_url": "",
+    "path": "assets/paper-images/2611.07755.webp",
+    "image_url": "https://arxiv.org/pdf/2611.07755",
+    "source": "pdf:first-page",
+    "score": 55,
+    "content_type": "image/png",
+    "inside_figure": false,
+    "width": 1224,
+    "height": 1584
+  },
+  "2611.07551": {
+    "title": "Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion",
+    "abs_url": "https://arxiv.org/abs/2611.07551",
+    "html_url": "",
+    "path": "assets/paper-images/2611.07551.webp",
+    "image_url": "https://arxiv.org/pdf/2611.07551",
+    "source": "pdf:first-page",
+    "score": 55,
+    "content_type": "image/png",
+    "inside_figure": false,
+    "width": 1224,
+    "height": 1584
   }
 }

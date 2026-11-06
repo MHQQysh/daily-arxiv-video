@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-05",
+    "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+    "link": "https://arxiv.org/abs/2611.08477",
+    "arxiv_id": "2611.08477",
+    "detail_path": "papers/2611.08477/",
+    "cover_path": "covers/2611.08477/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.08477.webp",
+    "paper_image_full_path": "assets/paper-images/2611.08477.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Towards Practical 20 kbps Generative Video Compression via Adaptive Tokenization and Entropy Modeling",
+    "link": "https://arxiv.org/abs/2611.08099",
+    "arxiv_id": "2611.08099",
+    "detail_path": "papers/2611.08099/",
+    "cover_path": "covers/2611.08099/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.08099.webp",
+    "paper_image_full_path": "assets/paper-images/2611.08099.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation",
+    "link": "https://arxiv.org/abs/2611.07873",
+    "arxiv_id": "2611.07873",
+    "detail_path": "papers/2611.07873/",
+    "cover_path": "covers/2611.07873/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07873.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07873.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "THG-Omni: Traceable Human-Centric Graph Supervision for Video Reasoning",
+    "link": "https://arxiv.org/abs/2611.07836",
+    "arxiv_id": "2611.07836",
+    "detail_path": "papers/2611.07836/",
+    "cover_path": "covers/2611.07836/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07836.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07836.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models",
+    "link": "https://arxiv.org/abs/2611.07755",
+    "arxiv_id": "2611.07755",
+    "detail_path": "papers/2611.07755/",
+    "cover_path": "covers/2611.07755/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07755.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07755.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Guidance Is a Field, Not a Scalar: Interval-Integrated Classifier-Free Guidance for One-Step Video Generation",
+    "link": "https://arxiv.org/abs/2611.07566",
+    "arxiv_id": "2611.07566",
+    "detail_path": "papers/2611.07566/",
+    "cover_path": "covers/2611.07566/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07566.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07566.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion",
+    "link": "https://arxiv.org/abs/2611.07551",
+    "arxiv_id": "2611.07551",
+    "detail_path": "papers/2611.07551/",
+    "cover_path": "covers/2611.07551/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07551.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07551.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks",
+    "link": "https://arxiv.org/abs/2611.07411",
+    "arxiv_id": "2611.07411",
+    "detail_path": "papers/2611.07411/",
+    "cover_path": "covers/2611.07411/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07411.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07411.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Where Do Reported Long-Video QA Gains Come From? A Controlled Audit of Frame Selection, Evidence Injection, and Expert Routing",
+    "link": "https://arxiv.org/abs/2611.07329",
+    "arxiv_id": "2611.07329",
+    "detail_path": "papers/2611.07329/",
+    "cover_path": "covers/2611.07329/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07329.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07329.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "ArtiVidRM: Verifiable Artifact-as-Rubric Reward Modeling for Explicit Quality Articulation in Video Generation",
+    "link": "https://arxiv.org/abs/2611.07301",
+    "arxiv_id": "2611.07301",
+    "detail_path": "papers/2611.07301/",
+    "cover_path": "covers/2611.07301/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.07301.webp",
+    "paper_image_full_path": "assets/paper-images/2611.07301.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-04",
     "title": "PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories",
     "link": "https://arxiv.org/abs/2611.06870",

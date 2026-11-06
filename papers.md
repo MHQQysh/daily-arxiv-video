@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-05 | EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling | https://arxiv.org/abs/2611.08477 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | Towards Practical 20 kbps Generative Video Compression via Adaptive Tokenization and Entropy Modeling | https://arxiv.org/abs/2611.08099 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation | https://arxiv.org/abs/2611.07873 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | THG-Omni: Traceable Human-Centric Graph Supervision for Video Reasoning | https://arxiv.org/abs/2611.07836 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models | https://arxiv.org/abs/2611.07755 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | Guidance Is a Field, Not a Scalar: Interval-Integrated Classifier-Free Guidance for One-Step Video Generation | https://arxiv.org/abs/2611.07566 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion | https://arxiv.org/abs/2611.07551 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks | https://arxiv.org/abs/2611.07411 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | Where Do Reported Long-Video QA Gains Come From? A Controlled Audit of Frame Selection, Evidence Injection, and Expert Routing | https://arxiv.org/abs/2611.07329 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-05 | ArtiVidRM: Verifiable Artifact-as-Rubric Reward Modeling for Explicit Quality Articulation in Video Generation | https://arxiv.org/abs/2611.07301 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-04 | PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories | https://arxiv.org/abs/2611.06870 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-04 | EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models | https://arxiv.org/abs/2611.06748 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-04 | Turns Matter: Advancing Streaming Video RL via Turn-Level Credit | https://arxiv.org/abs/2611.06728 | <details><summary>展开</summary>待生成</details> |
