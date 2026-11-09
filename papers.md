@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-06 | Video-Coder: Reinforcing Agentic Coding for Video Generation | https://arxiv.org/abs/2611.09894 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video | https://arxiv.org/abs/2611.09816 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | AR-Edit: Training-Free Autoregressive Video Editing without Inversion | https://arxiv.org/abs/2611.09795 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | CRTrack-Cap: A New Benchmark for Cross-View Dense Video Object Captioning | https://arxiv.org/abs/2611.09617 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | Video Stitching from Multiple Moving Cameras | https://arxiv.org/abs/2611.09570 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | Multimodal Training with Knowledge Traction for Video Anomaly Detection | https://arxiv.org/abs/2611.09536 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | V-STORM: A Structure-Aware Grounded Chain of Thought Dataset for Faithful and Fine-Grained Spatio-Temporal Video Reasoning | https://arxiv.org/abs/2611.09511 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | BayesCrop: Real-Time Probabilistic Multi-Crop Video Reframing | https://arxiv.org/abs/2611.09100 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | Trajectory Forcing: Exploiting Diffusion Trajectories for Autoregressive Long Video Generation | https://arxiv.org/abs/2611.09096 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-06 | AdaAlloc: Adaptive Visual Token Allocation for Long-Video Question Answering | https://arxiv.org/abs/2611.09092 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-05 | EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling | https://arxiv.org/abs/2611.08477 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-05 | Towards Practical 20 kbps Generative Video Compression via Adaptive Tokenization and Entropy Modeling | https://arxiv.org/abs/2611.08099 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-05 | PVDepth: Panoramic Video Depth Estimation via Geometry-Aware Spatiotemporal Adaptation | https://arxiv.org/abs/2611.07873 | <details><summary>展开</summary>待生成</details> |

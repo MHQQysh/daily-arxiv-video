@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-06",
+    "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+    "link": "https://arxiv.org/abs/2611.09894",
+    "arxiv_id": "2611.09894",
+    "detail_path": "papers/2611.09894/",
+    "cover_path": "covers/2611.09894/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09894.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09894.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video",
+    "link": "https://arxiv.org/abs/2611.09816",
+    "arxiv_id": "2611.09816",
+    "detail_path": "papers/2611.09816/",
+    "cover_path": "covers/2611.09816/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09816.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09816.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "AR-Edit: Training-Free Autoregressive Video Editing without Inversion",
+    "link": "https://arxiv.org/abs/2611.09795",
+    "arxiv_id": "2611.09795",
+    "detail_path": "papers/2611.09795/",
+    "cover_path": "covers/2611.09795/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09795.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09795.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "CRTrack-Cap: A New Benchmark for Cross-View Dense Video Object Captioning",
+    "link": "https://arxiv.org/abs/2611.09617",
+    "arxiv_id": "2611.09617",
+    "detail_path": "papers/2611.09617/",
+    "cover_path": "covers/2611.09617/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09617.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09617.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Video Stitching from Multiple Moving Cameras",
+    "link": "https://arxiv.org/abs/2611.09570",
+    "arxiv_id": "2611.09570",
+    "detail_path": "papers/2611.09570/",
+    "cover_path": "covers/2611.09570/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09570.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09570.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Multimodal Training with Knowledge Traction for Video Anomaly Detection",
+    "link": "https://arxiv.org/abs/2611.09536",
+    "arxiv_id": "2611.09536",
+    "detail_path": "papers/2611.09536/",
+    "cover_path": "covers/2611.09536/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09536.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09536.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "V-STORM: A Structure-Aware Grounded Chain of Thought Dataset for Faithful and Fine-Grained Spatio-Temporal Video Reasoning",
+    "link": "https://arxiv.org/abs/2611.09511",
+    "arxiv_id": "2611.09511",
+    "detail_path": "papers/2611.09511/",
+    "cover_path": "covers/2611.09511/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09511.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09511.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "BayesCrop: Real-Time Probabilistic Multi-Crop Video Reframing",
+    "link": "https://arxiv.org/abs/2611.09100",
+    "arxiv_id": "2611.09100",
+    "detail_path": "papers/2611.09100/",
+    "cover_path": "covers/2611.09100/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09100.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09100.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Trajectory Forcing: Exploiting Diffusion Trajectories for Autoregressive Long Video Generation",
+    "link": "https://arxiv.org/abs/2611.09096",
+    "arxiv_id": "2611.09096",
+    "detail_path": "papers/2611.09096/",
+    "cover_path": "covers/2611.09096/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09096.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09096.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "AdaAlloc: Adaptive Visual Token Allocation for Long-Video Question Answering",
+    "link": "https://arxiv.org/abs/2611.09092",
+    "arxiv_id": "2611.09092",
+    "detail_path": "papers/2611.09092/",
+    "cover_path": "covers/2611.09092/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.09092.webp",
+    "paper_image_full_path": "assets/paper-images/2611.09092.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-05",
     "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
     "link": "https://arxiv.org/abs/2611.08477",
