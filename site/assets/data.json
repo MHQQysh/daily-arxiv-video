@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-09",
+    "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+    "link": "https://arxiv.org/abs/2611.12879",
+    "arxiv_id": "2611.12879",
+    "detail_path": "papers/2611.12879/",
+    "cover_path": "covers/2611.12879/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12879.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12879.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting",
+    "link": "https://arxiv.org/abs/2611.12739",
+    "arxiv_id": "2611.12739",
+    "detail_path": "papers/2611.12739/",
+    "cover_path": "covers/2611.12739/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12739.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12739.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Towards Reconstructing and Recognizing Objects behind Fragmented Occlusion using Video",
+    "link": "https://arxiv.org/abs/2611.12624",
+    "arxiv_id": "2611.12624",
+    "detail_path": "papers/2611.12624/",
+    "cover_path": "covers/2611.12624/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12624.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12624.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+    "link": "https://arxiv.org/abs/2611.12557",
+    "arxiv_id": "2611.12557",
+    "detail_path": "papers/2611.12557/",
+    "cover_path": "covers/2611.12557/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12557.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12557.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "MARS: Multiscale Appearance-Residual Streams for Video Forgery Detection",
+    "link": "https://arxiv.org/abs/2611.12508",
+    "arxiv_id": "2611.12508",
+    "detail_path": "papers/2611.12508/",
+    "cover_path": "covers/2611.12508/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12508.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12508.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "LongSCOP: Semantically Consistent Long Video Outpainting",
+    "link": "https://arxiv.org/abs/2611.12445",
+    "arxiv_id": "2611.12445",
+    "detail_path": "papers/2611.12445/",
+    "cover_path": "covers/2611.12445/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12445.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12445.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos",
+    "link": "https://arxiv.org/abs/2611.12443",
+    "arxiv_id": "2611.12443",
+    "detail_path": "papers/2611.12443/",
+    "cover_path": "covers/2611.12443/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12443.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12443.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
+    "link": "https://arxiv.org/abs/2611.12411",
+    "arxiv_id": "2611.12411",
+    "detail_path": "papers/2611.12411/",
+    "cover_path": "covers/2611.12411/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12411.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12411.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "PTC-IoU: CPU-Friendly Detection Quality Estimation for Edge Video Analytics",
+    "link": "https://arxiv.org/abs/2611.12405",
+    "arxiv_id": "2611.12405",
+    "detail_path": "papers/2611.12405/",
+    "cover_path": "covers/2611.12405/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12405.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12405.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "SAM-VTP: Video Memory and Measured Geometry for Continuous Traversability Segmentation",
+    "link": "https://arxiv.org/abs/2611.12099",
+    "arxiv_id": "2611.12099",
+    "detail_path": "papers/2611.12099/",
+    "cover_path": "covers/2611.12099/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.12099.webp",
+    "paper_image_full_path": "assets/paper-images/2611.12099.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-06",
     "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
     "link": "https://arxiv.org/abs/2611.09894",

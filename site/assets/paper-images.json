@@ -31795,5 +31795,603 @@
     "inside_figure": true,
     "width": 656,
     "height": 337
+  },
+  "2611.12624": {
+    "title": "Towards Reconstructing and Recognizing Objects behind Fragmented Occlusion using Video",
+    "abs_url": "https://arxiv.org/abs/2611.12624",
+    "html_url": "https://arxiv.org/html/2611.12624v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12624v1/fig/experiments/synex-avg-trans.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 685,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12624v1/fig/experiments/synex-avg-trans-seqlen.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 685,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12624v1/fig/experiments/057-synex-s_3_0_-n_07_-0000000007.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 685,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_figure_panel ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12624v1/fig/experiments/016-057-synex-s_3_0_-n_07_-msi-u_-06_00_-v_-06_00_.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 685,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_figure_panel ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12624v1/fig/experiments/149-synex-s_5_0_-n_49_-0000000010.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 685,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_figure_panel ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.12624.webp",
+    "image_url": "https://arxiv.org/html/2611.12624v1/fig/experiments/synex-avg-trans.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 685
+  },
+  "2611.12739": {
+    "title": "Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting",
+    "abs_url": "https://arxiv.org/abs/2611.12739",
+    "html_url": "https://arxiv.org/html/2611.12739v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12739v1/t23d_phase1_samples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 422,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12739v1/fig2_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 315,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12739v1/t23d_counting_samples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 212,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12739v1/Plant_Orbiter_Fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 164,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      }
+    ],
+    "path": "assets/paper-images/2611.12739.webp",
+    "image_url": "https://arxiv.org/html/2611.12739v1/t23d_phase1_samples.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 422
+  },
+  "2611.12443": {
+    "title": "MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos",
+    "abs_url": "https://arxiv.org/abs/2611.12443",
+    "html_url": "https://arxiv.org/html/2611.12443v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12443v1/Main_Figure_STadapt_new.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 338,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12443v1/spatial_distribution.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12443v1/temporal_distribution.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12443v1/layer_01.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 199,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12443v1/layer_14.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 168,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.12443.webp",
+    "image_url": "https://arxiv.org/html/2611.12443v1/Main_Figure_STadapt_new.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 617,
+    "height": 338
+  },
+  "2611.12879": {
+    "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+    "abs_url": "https://arxiv.org/abs/2611.12879",
+    "html_url": "https://arxiv.org/html/2611.12879v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12879v1/manipflow_model.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 317,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12879v1/extraction_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 260,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12879v1/qual_tasks.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 314,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12879v1/teaser_tasks.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 135,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12879v1/spider_retarget.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 362,
+        "height": 141,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.12879.webp",
+    "image_url": "https://arxiv.org/html/2611.12879v1/manipflow_model.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 317
+  },
+  "2611.12411": {
+    "title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.12411",
+    "html_url": "https://arxiv.org/html/2611.12411v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12411v1/Figure_background.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 570,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12411v1/fig_case_study.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 531,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12411v1/fig_qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 479,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12411v1/fig_analysis_privilege.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12411v1/app_fig_harness.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 948,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.12411.webp",
+    "image_url": "https://arxiv.org/html/2611.12411v1/Figure_background.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 570
+  },
+  "2611.12445": {
+    "title": "LongSCOP: Semantically Consistent Long Video Outpainting",
+    "abs_url": "https://arxiv.org/abs/2611.12445",
+    "html_url": "https://arxiv.org/html/2611.12445v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12445v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 195,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12445v1/refer_retrieval.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 216,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12445v1/compare2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 168,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12445v1/self-forcing.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 286,
+        "height": 166,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12445v1/secs/Figs/fig_hist1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 96,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2611.12445.webp",
+    "image_url": "https://arxiv.org/html/2611.12445v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 467,
+    "height": 195
+  },
+  "2611.12508": {
+    "title": "MARS: Multiscale Appearance-Residual Streams for Video Forgery Detection",
+    "abs_url": "https://arxiv.org/abs/2611.12508",
+    "html_url": "https://arxiv.org/html/2611.12508v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12508v1/mars_teaser_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 639,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12508v1/celebdf-qual-evidence.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 517,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12508v1/df26-qual-evidence.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 517,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12508v1/ff-qual-evidence.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 350,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12508v1/genvideo-qual-evidence.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 350,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.12508.webp",
+    "image_url": "https://arxiv.org/html/2611.12508v1/mars_teaser_v2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 639
+  },
+  "2611.12557": {
+    "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+    "abs_url": "https://arxiv.org/abs/2611.12557",
+    "html_url": "https://arxiv.org/html/2611.12557v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12557v1/example.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 669,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12557v1/WonderBench.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12557v1/wanderland_examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 143,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.12557.webp",
+    "image_url": "https://arxiv.org/html/2611.12557v1/example.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 669
+  },
+  "2611.12099": {
+    "title": "SAM-VTP: Video Memory and Measured Geometry for Continuous Traversability Segmentation",
+    "abs_url": "https://arxiv.org/abs/2611.12099",
+    "html_url": "https://arxiv.org/html/2611.12099v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.12099v1/headline_constructionsite.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 254,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12099v1/qual_field.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 242,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.12099v1/height_viz_Rome_P1000_001244.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 148,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.12099.webp",
+    "image_url": "https://arxiv.org/html/2611.12099v1/headline_constructionsite.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 254
+  },
+  "2611.12405": {
+    "title": "PTC-IoU: CPU-Friendly Detection Quality Estimation for Edge Video Analytics",
+    "abs_url": "https://arxiv.org/abs/2611.12405",
+    "html_url": "https://arxiv.org/html/2611.12405v1",
+    "path": "assets/paper-images/2611.12405.webp",
+    "image_url": "https://arxiv.org/html/2611.12405v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 294
   }
 }

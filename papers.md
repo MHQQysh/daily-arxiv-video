@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-09 | Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos | https://arxiv.org/abs/2611.12879 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting | https://arxiv.org/abs/2611.12739 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | Towards Reconstructing and Recognizing Objects behind Fragmented Occlusion using Video | https://arxiv.org/abs/2611.12624 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | WanderBench: Can World Models Explore Dynamic Worlds from Video? | https://arxiv.org/abs/2611.12557 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | MARS: Multiscale Appearance-Residual Streams for Video Forgery Detection | https://arxiv.org/abs/2611.12508 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | LongSCOP: Semantically Consistent Long Video Outpainting | https://arxiv.org/abs/2611.12445 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos | https://arxiv.org/abs/2611.12443 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | PhysOPSD: Code as Privilege for Physically Plausible Video Generation | https://arxiv.org/abs/2611.12411 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | PTC-IoU: CPU-Friendly Detection Quality Estimation for Edge Video Analytics | https://arxiv.org/abs/2611.12405 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-09 | SAM-VTP: Video Memory and Measured Geometry for Continuous Traversability Segmentation | https://arxiv.org/abs/2611.12099 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-06 | Video-Coder: Reinforcing Agentic Coding for Video Generation | https://arxiv.org/abs/2611.09894 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-06 | BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video | https://arxiv.org/abs/2611.09816 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-06 | AR-Edit: Training-Free Autoregressive Video Editing without Inversion | https://arxiv.org/abs/2611.09795 | <details><summary>展开</summary>待生成</details> |
