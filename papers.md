@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-10 | From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models | https://arxiv.org/abs/2611.14365 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | TaoMate-R1: Temporal Role Specialization for Streaming Multi-Reference Video Generation | https://arxiv.org/abs/2611.14307 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos | https://arxiv.org/abs/2611.14113 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Few-Step Streaming Video Generation via Condition Shifting | https://arxiv.org/abs/2611.14033 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding | https://arxiv.org/abs/2611.13907 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | The Target Is a Predicate: Predicate-State Grounding for Semantic-Level Video Reasoning Segmentation | https://arxiv.org/abs/2611.13785 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Hint, Not Hole: Localization-Robust Video Overlay Removal | https://arxiv.org/abs/2611.13711 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos | https://arxiv.org/abs/2611.13685 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | When to Start Denoising? Adaptive Denoising Entry for Generative Video Compression | https://arxiv.org/abs/2611.13620 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-10 | From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence | https://arxiv.org/abs/2611.13610 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-09 | Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos | https://arxiv.org/abs/2611.12879 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-09 | Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting | https://arxiv.org/abs/2611.12739 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-09 | Towards Reconstructing and Recognizing Objects behind Fragmented Occlusion using Video | https://arxiv.org/abs/2611.12624 | <details><summary>展开</summary>待生成</details> |

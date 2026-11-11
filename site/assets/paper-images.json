@@ -32393,5 +32393,645 @@
     "inside_figure": true,
     "width": 800,
     "height": 294
+  },
+  "2611.13711": {
+    "title": "Hint, Not Hole: Localization-Robust Video Overlay Removal",
+    "abs_url": "https://arxiv.org/abs/2611.13711",
+    "html_url": "https://arxiv.org/html/2611.13711v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.13711v1/figures/img/uhd-sr-a__input.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 461,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13711v1/figures/img/uhd-sr-a__hinterase-sr.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 461,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13711v1/figures/img/uhd-sr-b__input.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 461,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13711v1/figures/img/uhd-sr-b__hinterase-sr.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 461,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13711v1/figures/img/uhd-sr-c__input.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 461,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.13711.webp",
+    "image_url": "https://arxiv.org/html/2611.13711v1/figures/img/uhd-sr-a__input.jpg",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/jpeg",
+    "inside_figure": true,
+    "width": 476,
+    "height": 461
+  },
+  "2611.13785": {
+    "title": "The Target Is a Predicate: Predicate-State Grounding for Semantic-Level Video Reasoning Segmentation",
+    "abs_url": "https://arxiv.org/abs/2611.13785",
+    "html_url": "https://arxiv.org/html/2611.13785v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.13785v1/cross-platform-comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 509,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13785v1/framework-v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 245,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13785v1/visualization.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 235,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13785v1/figures/iou_distribution.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 314,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13785v1/PS-VRS-teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 165,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.13785.webp",
+    "image_url": "https://arxiv.org/html/2611.13785v1/cross-platform-comparison.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 509
+  },
+  "2611.14365": {
+    "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+    "abs_url": "https://arxiv.org/abs/2611.14365",
+    "html_url": "https://arxiv.org/html/2611.14365v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.14365v1/corl_suppl_robocasa.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 677,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14365v1/corl_teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 193,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14365v1/corl_motivation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 211,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14365v1/corl_rollout.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 405,
+        "height": 281,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14365v1/corl_suppl_setup.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 357,
+        "height": 262,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.14365.webp",
+    "image_url": "https://arxiv.org/html/2611.14365v1/corl_suppl_robocasa.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 677
+  },
+  "2611.13685": {
+    "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "abs_url": "https://arxiv.org/abs/2611.13685",
+    "html_url": "https://arxiv.org/html/2611.13685v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.13685v1/setup.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 661,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13685v1/figs/ego4d_funnel_and_performance_academic.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 196,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13685v1/real_task.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 259,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13685v1/ego_guidance_main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 159,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13685v1/real_purturb.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 168,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.13685.webp",
+    "image_url": "https://arxiv.org/html/2611.13685v1/setup.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 661
+  },
+  "2611.13907": {
+    "title": "EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2611.13907",
+    "html_url": "https://arxiv.org/html/2611.13907v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.13907v1/moti.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 308,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13907v1/case_study_app_1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 738,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13907v1/case_study_app_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 713,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13907v1/case_study_app_3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 629,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13907v1/case_study_app_4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 440,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.13907.webp",
+    "image_url": "https://arxiv.org/html/2611.13907v1/moti.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 308
+  },
+  "2611.14113": {
+    "title": "Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos",
+    "abs_url": "https://arxiv.org/abs/2611.14113",
+    "html_url": "https://arxiv.org/html/2611.14113v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.14113v1/figures/case_study.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 672,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14113v1/figures/approach.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 276,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.14113.webp",
+    "image_url": "https://arxiv.org/html/2611.14113v1/figures/case_study.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 672
+  },
+  "2611.14033": {
+    "title": "Few-Step Streaming Video Generation via Condition Shifting",
+    "abs_url": "https://arxiv.org/abs/2611.14033",
+    "html_url": "https://arxiv.org/html/2611.14033v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.14033v1/3_case_gallery.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 576,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14033v1/5_qualitative_main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14033v1/9_qualitative_nfe2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.14033.webp",
+    "image_url": "https://arxiv.org/html/2611.14033v1/3_case_gallery.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 576
+  },
+  "2611.13620": {
+    "title": "When to Start Denoising? Adaptive Denoising Entry for Generative Video Compression",
+    "abs_url": "https://arxiv.org/abs/2611.13620",
+    "html_url": "https://arxiv.org/html/2611.13620v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.13620v1/fig1-introduction-v6.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 370,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13620v1/question_define_V4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 301,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13620v1/correlation_bar_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 374,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13620v1/analysis_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 658,
+        "height": 474,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13620v1/RD_Curves.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 658,
+        "height": 418,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.13620.webp",
+    "image_url": "https://arxiv.org/html/2611.13620v1/fig1-introduction-v6.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 370
+  },
+  "2611.13610": {
+    "title": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+    "abs_url": "https://arxiv.org/abs/2611.13610",
+    "html_url": "https://arxiv.org/html/2611.13610v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.13610v1/20261010-1637-MilestoneDiagram.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 514,
+        "height": 466,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13610v1/20261009-1151-HumanVideoEditing.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 212,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13610v1/20261009-1141-AffordanceLearning.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 198,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13610v1/20261009-1155-TaskProgressNReward.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 191,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.13610v1/20261010-1842-EgocentricVideoRepresentationPretraining.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 206,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.13610.webp",
+    "image_url": "https://arxiv.org/html/2611.13610v1/20261010-1637-MilestoneDiagram.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 514,
+    "height": 466
+  },
+  "2611.14307": {
+    "title": "TaoMate-R1: Temporal Role Specialization for Streaming Multi-Reference Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.14307",
+    "html_url": "https://arxiv.org/html/2611.14307v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.14307v1/figures/assets/pipeline_imagegen_v9.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 648,
+        "height": 243,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14307v1/figures/assets/timeslice_v13/long_case_006_timeslice_singlecolumn_v14.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 493,
+        "height": 390,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14307v1/figures/assets/teaser_concept_imagegen_v1.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 1,
+        "height": 1,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14307v1/figures/assets/results_v9/long006_reference_1.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 60,
+        "height": 78,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_portrait",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2611.14307v1/figures/assets/results_v7/reference_bag.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 35,
+        "height": 17,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2611.14307.webp",
+    "image_url": "https://arxiv.org/html/2611.14307v1/figures/assets/pipeline_imagegen_v9.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 648,
+    "height": 243
   }
 }

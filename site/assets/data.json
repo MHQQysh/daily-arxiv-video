@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-10",
+    "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+    "link": "https://arxiv.org/abs/2611.14365",
+    "arxiv_id": "2611.14365",
+    "detail_path": "papers/2611.14365/",
+    "cover_path": "covers/2611.14365/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14365.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14365.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "TaoMate-R1: Temporal Role Specialization for Streaming Multi-Reference Video Generation",
+    "link": "https://arxiv.org/abs/2611.14307",
+    "arxiv_id": "2611.14307",
+    "detail_path": "papers/2611.14307/",
+    "cover_path": "covers/2611.14307/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14307.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14307.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos",
+    "link": "https://arxiv.org/abs/2611.14113",
+    "arxiv_id": "2611.14113",
+    "detail_path": "papers/2611.14113/",
+    "cover_path": "covers/2611.14113/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14113.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14113.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Few-Step Streaming Video Generation via Condition Shifting",
+    "link": "https://arxiv.org/abs/2611.14033",
+    "arxiv_id": "2611.14033",
+    "detail_path": "papers/2611.14033/",
+    "cover_path": "covers/2611.14033/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.14033.webp",
+    "paper_image_full_path": "assets/paper-images/2611.14033.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding",
+    "link": "https://arxiv.org/abs/2611.13907",
+    "arxiv_id": "2611.13907",
+    "detail_path": "papers/2611.13907/",
+    "cover_path": "covers/2611.13907/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13907.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13907.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "The Target Is a Predicate: Predicate-State Grounding for Semantic-Level Video Reasoning Segmentation",
+    "link": "https://arxiv.org/abs/2611.13785",
+    "arxiv_id": "2611.13785",
+    "detail_path": "papers/2611.13785/",
+    "cover_path": "covers/2611.13785/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13785.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13785.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Hint, Not Hole: Localization-Robust Video Overlay Removal",
+    "link": "https://arxiv.org/abs/2611.13711",
+    "arxiv_id": "2611.13711",
+    "detail_path": "papers/2611.13711/",
+    "cover_path": "covers/2611.13711/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13711.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13711.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "link": "https://arxiv.org/abs/2611.13685",
+    "arxiv_id": "2611.13685",
+    "detail_path": "papers/2611.13685/",
+    "cover_path": "covers/2611.13685/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13685.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13685.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "When to Start Denoising? Adaptive Denoising Entry for Generative Video Compression",
+    "link": "https://arxiv.org/abs/2611.13620",
+    "arxiv_id": "2611.13620",
+    "detail_path": "papers/2611.13620/",
+    "cover_path": "covers/2611.13620/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13620.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13620.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+    "link": "https://arxiv.org/abs/2611.13610",
+    "arxiv_id": "2611.13610",
+    "detail_path": "papers/2611.13610/",
+    "cover_path": "covers/2611.13610/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.13610.webp",
+    "paper_image_full_path": "assets/paper-images/2611.13610.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-09",
     "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
     "link": "https://arxiv.org/abs/2611.12879",
