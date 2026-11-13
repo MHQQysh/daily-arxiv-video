@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-12",
+    "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+    "link": "https://arxiv.org/abs/2611.17336",
+    "arxiv_id": "2611.17336",
+    "detail_path": "papers/2611.17336/",
+    "cover_path": "covers/2611.17336/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17336.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17336.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
+    "link": "https://arxiv.org/abs/2611.17324",
+    "arxiv_id": "2611.17324",
+    "detail_path": "papers/2611.17324/",
+    "cover_path": "covers/2611.17324/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17324.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17324.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+    "link": "https://arxiv.org/abs/2611.17298",
+    "arxiv_id": "2611.17298",
+    "detail_path": "papers/2611.17298/",
+    "cover_path": "covers/2611.17298/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17298.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17298.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+    "link": "https://arxiv.org/abs/2611.17190",
+    "arxiv_id": "2611.17190",
+    "detail_path": "papers/2611.17190/",
+    "cover_path": "covers/2611.17190/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17190.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17190.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "HiVE-VQA: Hierarchical Interaction via Volumetric Embedding for Video Quality Assessment",
+    "link": "https://arxiv.org/abs/2611.17146",
+    "arxiv_id": "2611.17146",
+    "detail_path": "papers/2611.17146/",
+    "cover_path": "covers/2611.17146/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17146.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17146.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "AURA 2.0: From User-Driven Responses to Model-Initiated Conversations in Streaming Video",
+    "link": "https://arxiv.org/abs/2611.17048",
+    "arxiv_id": "2611.17048",
+    "detail_path": "papers/2611.17048/",
+    "cover_path": "covers/2611.17048/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17048.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17048.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention",
+    "link": "https://arxiv.org/abs/2611.16897",
+    "arxiv_id": "2611.16897",
+    "detail_path": "papers/2611.16897/",
+    "cover_path": "covers/2611.16897/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.16897.webp",
+    "paper_image_full_path": "assets/paper-images/2611.16897.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+    "link": "https://arxiv.org/abs/2611.16767",
+    "arxiv_id": "2611.16767",
+    "detail_path": "papers/2611.16767/",
+    "cover_path": "covers/2611.16767/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.16767.webp",
+    "paper_image_full_path": "assets/paper-images/2611.16767.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+    "link": "https://arxiv.org/abs/2611.16748",
+    "arxiv_id": "2611.16748",
+    "detail_path": "papers/2611.16748/",
+    "cover_path": "covers/2611.16748/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.16748.webp",
+    "paper_image_full_path": "assets/paper-images/2611.16748.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "PiLLVD: A Real-World Low-Light Video Dataset for Dynamic Scenes Captured with Off-the-Shelf Cameras",
+    "link": "https://arxiv.org/abs/2611.16515",
+    "arxiv_id": "2611.16515",
+    "detail_path": "papers/2611.16515/",
+    "cover_path": "covers/2611.16515/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.16515.webp",
+    "paper_image_full_path": "assets/paper-images/2611.16515.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-10",
     "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
     "link": "https://arxiv.org/abs/2611.14365",

@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-12 | Back to Pixels: Lifting Latent Video Diffusion into Pixel Space | https://arxiv.org/abs/2611.17336 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | K2V: Generative Keyframing For Physically Plausible Video Generation | https://arxiv.org/abs/2611.17324 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Consistent Video-to-Video Translation via Explicit Correspondences | https://arxiv.org/abs/2611.17298 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes | https://arxiv.org/abs/2611.17190 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | HiVE-VQA: Hierarchical Interaction via Volumetric Embedding for Video Quality Assessment | https://arxiv.org/abs/2611.17146 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | AURA 2.0: From User-Driven Responses to Model-Initiated Conversations in Streaming Video | https://arxiv.org/abs/2611.17048 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention | https://arxiv.org/abs/2611.16897 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving | https://arxiv.org/abs/2611.16767 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models | https://arxiv.org/abs/2611.16748 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-12 | PiLLVD: A Real-World Low-Light Video Dataset for Dynamic Scenes Captured with Off-the-Shelf Cameras | https://arxiv.org/abs/2611.16515 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-10 | From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models | https://arxiv.org/abs/2611.14365 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-10 | TaoMate-R1: Temporal Role Specialization for Streaming Multi-Reference Video Generation | https://arxiv.org/abs/2611.14307 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-10 | Looking One Step Ahead: An Anticipation-guided Agent for Object State Readout in Videos | https://arxiv.org/abs/2611.14113 | <details><summary>展开</summary>待生成</details> |

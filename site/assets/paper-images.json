@@ -33033,5 +33033,603 @@
     "inside_figure": true,
     "width": 648,
     "height": 243
+  },
+  "2611.17048": {
+    "title": "AURA 2.0: From User-Driven Responses to Model-Initiated Conversations in Streaming Video",
+    "abs_url": "https://arxiv.org/abs/2611.17048",
+    "html_url": "https://arxiv.org/html/2611.17048v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17048v1/aura-v2-overall.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 227,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17048v1/data_pineline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 307,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17048v1/mic_dialogue_case.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 281,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17048v1/satc_youtube_trace.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 290,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17048v1/ivg_compact.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 281,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.17048.webp",
+    "image_url": "https://arxiv.org/html/2611.17048v1/aura-v2-overall.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 227
+  },
+  "2611.17324": {
+    "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.17324",
+    "html_url": "https://arxiv.org/html/2611.17324v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17324v1/appendix_results.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 450,
+        "height": 668,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17324v1/appendix_compare_physicsiq.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 324,
+        "height": 335,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17324v1/compare_phygenbench_newton.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 324,
+        "height": 199,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17324v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 371,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17324v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 142,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.17324.webp",
+    "image_url": "https://arxiv.org/html/2611.17324v1/appendix_results.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 450,
+    "height": 668
+  },
+  "2611.17146": {
+    "title": "HiVE-VQA: Hierarchical Interaction via Volumetric Embedding for Video Quality Assessment",
+    "abs_url": "https://arxiv.org/abs/2611.17146",
+    "html_url": "https://arxiv.org/html/2611.17146v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17146v1/srocc_plcc_lollipop.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 444,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17146v1/hive_vqa.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 360,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17146v1/pca.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 173,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.17146.webp",
+    "image_url": "https://arxiv.org/html/2611.17146v1/srocc_plcc_lollipop.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 444
+  },
+  "2611.16767": {
+    "title": "Evaluating Video LLMs' Understanding of Corner Cases in Autonomous Driving",
+    "abs_url": "https://arxiv.org/abs/2611.16767",
+    "html_url": "https://arxiv.org/html/2611.16767v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.16767v1/main_figure.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 414,
+        "height": 228,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16767v1/dataset_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 246,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16767v1/camera_ready_hallucination_mitigation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 319,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16767v1/gt_revise_ex.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 381,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16767v1/gt_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 238,
+        "height": 335,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.16767.webp",
+    "image_url": "https://arxiv.org/html/2611.16767v1/main_figure.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 414,
+    "height": 228
+  },
+  "2611.17298": {
+    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+    "abs_url": "https://arxiv.org/abs/2611.17298",
+    "html_url": "https://arxiv.org/html/2611.17298v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17298v1/main_comparisons_v5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 392,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17298v1/alt_mem_cmp_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 357,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17298v1/abl_correspondence_v2_cmp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 315,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17298v1/teaser_v5.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 140,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17298v1/method_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 144,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.17298.webp",
+    "image_url": "https://arxiv.org/html/2611.17298v1/main_comparisons_v5.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 392
+  },
+  "2611.17336": {
+    "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+    "abs_url": "https://arxiv.org/abs/2611.17336",
+    "html_url": "https://arxiv.org/html/2611.17336v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17336v1/wm.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 319,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17336v1/x1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 535,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17336v1/t2v_qual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 714,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17336v1/high_res_gen.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 805,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17336v1/depth_gen_supp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 682,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.17336.webp",
+    "image_url": "https://arxiv.org/html/2611.17336v1/wm.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 319
+  },
+  "2611.16897": {
+    "title": "TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention",
+    "abs_url": "https://arxiv.org/abs/2611.16897",
+    "html_url": "https://arxiv.org/html/2611.16897v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.16897v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 823,
+        "height": 345,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16897v1/framework.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 823,
+        "height": 378,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16897v1/dataset.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 536,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16897v1/qualitative.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 823,
+        "height": 499,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16897v1/success_2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 285,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.16897.webp",
+    "image_url": "https://arxiv.org/html/2611.16897v1/teaser.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 823,
+    "height": 345
+  },
+  "2611.16748": {
+    "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+    "abs_url": "https://arxiv.org/abs/2611.16748",
+    "html_url": "https://arxiv.org/html/2611.16748v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.16748v1/fig1_teaser_image.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 247,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16748v1/fig2_framework_image.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 268,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16748v1/fig4_evaluation_comparison_image.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 228,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16748v1/appendix_paddle_wheel_example.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 307,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16748v1/figures/appendix_cost_runtime.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 203,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.16748.webp",
+    "image_url": "https://arxiv.org/html/2611.16748v1/fig1_teaser_image.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 247
+  },
+  "2611.16515": {
+    "title": "PiLLVD: A Real-World Low-Light Video Dataset for Dynamic Scenes Captured with Off-the-Shelf Cameras",
+    "abs_url": "https://arxiv.org/abs/2611.16515",
+    "html_url": "https://arxiv.org/html/2611.16515v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.16515v1/fig/system_diagram.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 224,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16515v1/fig/alignment_sample_01.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 191,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16515v1/fig/indoor_lingraph.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 330,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16515v1/fig/outdoor_lingraph.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.16515v1/qual_figs/input/indoor/frame0050.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 331,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.16515.webp",
+    "image_url": "https://arxiv.org/html/2611.16515v1/fig/system_diagram.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 224
+  },
+  "2611.17190": {
+    "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+    "abs_url": "https://arxiv.org/abs/2611.17190",
+    "html_url": "https://arxiv.org/html/2611.17190v1",
+    "path": "assets/paper-images/2611.17190.webp",
+    "image_url": "https://arxiv.org/html/2611.17190v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 282
   }
 }
