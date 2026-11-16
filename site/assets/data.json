@@ -1,5 +1,248 @@
 [
   {
+    "date": "2026-11-13",
+    "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+    "link": "https://arxiv.org/abs/2611.18550",
+    "arxiv_id": "2611.18550",
+    "detail_path": "papers/2611.18550/",
+    "cover_path": "covers/2611.18550/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.18550.webp",
+    "paper_image_full_path": "assets/paper-images/2611.18550.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#3f6ee8",
+      "to": "#6fa7ff",
+      "spot": "#d5e6ff",
+      "ink": "#f7fbff",
+      "muted": "rgba(247, 251, 255, 0.82)",
+      "chip": "rgba(247, 251, 255, 0.16)",
+      "stroke": "rgba(247, 251, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+    "link": "https://arxiv.org/abs/2611.18549",
+    "arxiv_id": "2611.18549",
+    "detail_path": "papers/2611.18549/",
+    "cover_path": "covers/2611.18549/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.18549.webp",
+    "paper_image_full_path": "assets/paper-images/2611.18549.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Unlocking Cross-Attention in Label-Scarce Regimes: A Weakly Supervised Approach for Video Semantic Segmentation",
+    "link": "https://arxiv.org/abs/2611.18324",
+    "arxiv_id": "2611.18324",
+    "detail_path": "papers/2611.18324/",
+    "cover_path": "covers/2611.18324/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.18324.webp",
+    "paper_image_full_path": "assets/paper-images/2611.18324.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "EcoVGGT: Pinned-Key Inference for Efficient and Streamable Feed-Forward 3D Reconstruction from Long Videos",
+    "link": "https://arxiv.org/abs/2611.18099",
+    "arxiv_id": "2611.18099",
+    "detail_path": "papers/2611.18099/",
+    "cover_path": "covers/2611.18099/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.18099.webp",
+    "paper_image_full_path": "assets/paper-images/2611.18099.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Measured from the feed: the unsustainable growth of AI video generation",
+    "link": "https://arxiv.org/abs/2611.17938",
+    "arxiv_id": "2611.17938",
+    "detail_path": "papers/2611.17938/",
+    "cover_path": "covers/2611.17938/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17938.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17938.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs",
+    "link": "https://arxiv.org/abs/2611.17930",
+    "arxiv_id": "2611.17930",
+    "detail_path": "papers/2611.17930/",
+    "cover_path": "covers/2611.17930/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17930.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17930.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+    "link": "https://arxiv.org/abs/2611.17831",
+    "arxiv_id": "2611.17831",
+    "detail_path": "papers/2611.17831/",
+    "cover_path": "covers/2611.17831/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17831.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17831.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Towards Seconds-level Video Representation: Quadratically Gated Feature Grid with Adaptive, Prediction-free Sampling",
+    "link": "https://arxiv.org/abs/2611.17786",
+    "arxiv_id": "2611.17786",
+    "detail_path": "papers/2611.17786/",
+    "cover_path": "covers/2611.17786/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.17786.webp",
+    "paper_image_full_path": "assets/paper-images/2611.17786.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes",
+    "link": "https://arxiv.org/abs/2611.18078",
+    "arxiv_id": "2611.18078",
+    "detail_path": "papers/2611.18078/",
+    "cover_path": "covers/2611.18078/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.18078.webp",
+    "paper_image_full_path": "assets/paper-images/2611.18078.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-12",
     "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
     "link": "https://arxiv.org/abs/2611.17336",

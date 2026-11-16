@@ -33631,5 +33631,538 @@
     "inside_figure": true,
     "width": 800,
     "height": 282
+  },
+  "2611.17786": {
+    "title": "Towards Seconds-level Video Representation: Quadratically Gated Feature Grid with Adaptive, Prediction-free Sampling",
+    "abs_url": "https://arxiv.org/abs/2611.17786",
+    "html_url": "https://arxiv.org/html/2611.17786v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17786v1/Sampler_to_Batch_v3_fixed.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 503,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17786v1/Fig_all_v10.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 200,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17786v1/FeatureGrid_vs_Hash_v9.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 259,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17786v1/jockey_error_aware_sampling.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 264,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17786v1/comparison_with_crops.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 149,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      }
+    ],
+    "path": "assets/paper-images/2611.17786.webp",
+    "image_url": "https://arxiv.org/html/2611.17786v1/Sampler_to_Batch_v3_fixed.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 429,
+    "height": 503
+  },
+  "2611.17831": {
+    "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+    "abs_url": "https://arxiv.org/abs/2611.17831",
+    "html_url": "https://arxiv.org/html/2611.17831v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17831v1/overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 320,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17831v1/example.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 531,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17831v1/app_examples.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 613,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.17831.webp",
+    "image_url": "https://arxiv.org/html/2611.17831v1/overview.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 320
+  },
+  "2611.18324": {
+    "title": "Unlocking Cross-Attention in Label-Scarce Regimes: A Weakly Supervised Approach for Video Semantic Segmentation",
+    "abs_url": "https://arxiv.org/abs/2611.18324",
+    "html_url": "https://arxiv.org/html/2611.18324v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.18324v1/images/corloc1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 514,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18324v1/images/corloc0.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 514,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18324v1/images/abaltion_frozen.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 394,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18324v1/images/memcamfinal-3.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 240,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18324v1/images/propagationalg_final.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 617,
+        "height": 232,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.18324.webp",
+    "image_url": "https://arxiv.org/html/2611.18324v1/images/corloc1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 514
+  },
+  "2611.18550": {
+    "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+    "abs_url": "https://arxiv.org/abs/2611.18550",
+    "html_url": "https://arxiv.org/html/2611.18550v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.18550v1/fig_teaser_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 516,
+        "height": 543,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18550v1/fig_qual_image.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 484,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18550v1/fig_qual_video_h3_more.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 559,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18550v1/fig_qual_video_h3_more_b.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 559,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18550v1/fig_qual_video_wan.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 559,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.18550.webp",
+    "image_url": "https://arxiv.org/html/2611.18550v1/fig_teaser_v2.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 516,
+    "height": 543
+  },
+  "2611.18099": {
+    "title": "EcoVGGT: Pinned-Key Inference for Efficient and Streamable Feed-Forward 3D Reconstruction from Long Videos",
+    "abs_url": "https://arxiv.org/abs/2611.18099",
+    "html_url": "https://arxiv.org/html/2611.18099v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.18099v1/fig_bedroom.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 329,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18099v1/fig_qual_scene0000.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 631,
+        "height": 401,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18099v1/fig_qual.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 226,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18099v1/fig_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 168,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18099v1/fig_qual_ours0648.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 631,
+        "height": 112,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_figure_panel ltx_img_landscape",
+        "score": 60
+      }
+    ],
+    "path": "assets/paper-images/2611.18099.webp",
+    "image_url": "https://arxiv.org/html/2611.18099v1/fig_bedroom.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 329
+  },
+  "2611.18549": {
+    "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+    "abs_url": "https://arxiv.org/abs/2611.18549",
+    "html_url": "https://arxiv.org/html/2611.18549v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.18549v1/teaser.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 329,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18549v1/transformer-and-register.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 215,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18549v1/joint-pcd.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 264,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18549v1/3dpatchify.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 548,
+        "height": 153,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18549v1/figures/register_attention/assets/row_00_real.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 48,
+        "height": 48,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2611.18549.webp",
+    "image_url": "https://arxiv.org/html/2611.18549v1/teaser.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 548,
+    "height": 329
+  },
+  "2611.17930": {
+    "title": "Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs",
+    "abs_url": "https://arxiv.org/abs/2611.17930",
+    "html_url": "https://arxiv.org/html/2611.17930v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.17930v1/teaser_compact.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 288,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17930v1/method_overview.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 225,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17930v1/figures/qual/p883_s49436_dense_0.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 101,
+        "height": 58,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17930v1/figures/qual/p883_s49436_dense_1.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 101,
+        "height": 58,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      },
+      {
+        "url": "https://arxiv.org/html/2611.17930v1/figures/qual/p883_s49436_dense_2.jpg",
+        "source": "img",
+        "inside_figure": true,
+        "width": 101,
+        "height": 58,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 45
+      }
+    ],
+    "path": "assets/paper-images/2611.17930.webp",
+    "image_url": "https://arxiv.org/html/2611.17930v1/teaser_compact.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 288
+  },
+  "2611.18078": {
+    "title": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes",
+    "abs_url": "https://arxiv.org/abs/2611.18078",
+    "html_url": "https://arxiv.org/html/2611.18078v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.18078v1/figures/fig4_mechanics_ablation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 440,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18078v1/figures/fig2_closed_loop.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 296,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18078v1/figures/fig3_tabletop_gallery.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 239,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18078v1/figures/fig5_video_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 384,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.18078v1/figures/fig1_teaser.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 381,
+        "height": 212,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 55
+      }
+    ],
+    "path": "assets/paper-images/2611.18078.webp",
+    "image_url": "https://arxiv.org/html/2611.18078v1/figures/fig4_mechanics_ablation.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 440
+  },
+  "2611.17938": {
+    "title": "Measured from the feed: the unsustainable growth of AI video generation",
+    "abs_url": "https://arxiv.org/abs/2611.17938",
+    "html_url": "https://arxiv.org/html/2611.17938v1",
+    "path": "assets/paper-images/2611.17938.webp",
+    "image_url": "https://arxiv.org/html/2611.17938v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 558
   }
 }

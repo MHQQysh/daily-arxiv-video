@@ -1,5 +1,14 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-13 | Restoring Diversity in Distilled Image and Video Generators by Probing Activations | https://arxiv.org/abs/2611.18550 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | JVT: Just Video Transformer makes pixel-space video diffusion simple | https://arxiv.org/abs/2611.18549 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Unlocking Cross-Attention in Label-Scarce Regimes: A Weakly Supervised Approach for Video Semantic Segmentation | https://arxiv.org/abs/2611.18324 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | EcoVGGT: Pinned-Key Inference for Efficient and Streamable Feed-Forward 3D Reconstruction from Long Videos | https://arxiv.org/abs/2611.18099 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Measured from the feed: the unsustainable growth of AI video generation | https://arxiv.org/abs/2611.17938 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs | https://arxiv.org/abs/2611.17930 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations | https://arxiv.org/abs/2611.17831 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | Towards Seconds-level Video Representation: Quadratically Gated Feature Grid with Adaptive, Prediction-free Sampling | https://arxiv.org/abs/2611.17786 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-13 | TelePhysica: Agentic Reconstruction of Physically Interactive Scenes | https://arxiv.org/abs/2611.18078 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-12 | Back to Pixels: Lifting Latent Video Diffusion into Pixel Space | https://arxiv.org/abs/2611.17336 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-12 | K2V: Generative Keyframing For Physically Plausible Video Generation | https://arxiv.org/abs/2611.17324 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-12 | Consistent Video-to-Video Translation via Explicit Correspondences | https://arxiv.org/abs/2611.17298 | <details><summary>展开</summary>待生成</details> |
