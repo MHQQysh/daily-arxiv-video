@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-16 | Reference Forcing: Long Video Generation with Region-Guided Drift Correction | https://arxiv.org/abs/2611.21559 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents | https://arxiv.org/abs/2611.21553 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | Quality and Similarity Indicators for Video-Based Heart Rate and Respiratory Rate Fusion: A Controlled Evaluation | https://arxiv.org/abs/2611.21419 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | VideoNexus: Video Perception Beyond the Reasoning Context | https://arxiv.org/abs/2611.21392 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection | https://arxiv.org/abs/2611.21373 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | ALIVE: Making Streaming Video Models Interactive | https://arxiv.org/abs/2611.21366 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos | https://arxiv.org/abs/2611.21339 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | Region-VAD: Video Anomaly Localization and Detection via Region Selection | https://arxiv.org/abs/2611.21132 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | How to Explain your Unexplainable Video Anomaly Detector | https://arxiv.org/abs/2611.21131 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-16 | VAE Rhythm: Temporal Decoding Traces for AI-Generated Video Detection | https://arxiv.org/abs/2611.21114 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | Restoring Diversity in Distilled Image and Video Generators by Probing Activations | https://arxiv.org/abs/2611.18550 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | JVT: Just Video Transformer makes pixel-space video diffusion simple | https://arxiv.org/abs/2611.18549 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-13 | Unlocking Cross-Attention in Label-Scarce Regimes: A Weakly Supervised Approach for Video Semantic Segmentation | https://arxiv.org/abs/2611.18324 | <details><summary>展开</summary>待生成</details> |

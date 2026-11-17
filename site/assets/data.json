@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-16",
+    "title": "Reference Forcing: Long Video Generation with Region-Guided Drift Correction",
+    "link": "https://arxiv.org/abs/2611.21559",
+    "arxiv_id": "2611.21559",
+    "detail_path": "papers/2611.21559/",
+    "cover_path": "covers/2611.21559/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21559.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21559.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
+    "link": "https://arxiv.org/abs/2611.21553",
+    "arxiv_id": "2611.21553",
+    "detail_path": "papers/2611.21553/",
+    "cover_path": "covers/2611.21553/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21553.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21553.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Quality and Similarity Indicators for Video-Based Heart Rate and Respiratory Rate Fusion: A Controlled Evaluation",
+    "link": "https://arxiv.org/abs/2611.21419",
+    "arxiv_id": "2611.21419",
+    "detail_path": "papers/2611.21419/",
+    "cover_path": "covers/2611.21419/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21419.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21419.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+    "link": "https://arxiv.org/abs/2611.21392",
+    "arxiv_id": "2611.21392",
+    "detail_path": "papers/2611.21392/",
+    "cover_path": "covers/2611.21392/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21392.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21392.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+    "link": "https://arxiv.org/abs/2611.21373",
+    "arxiv_id": "2611.21373",
+    "detail_path": "papers/2611.21373/",
+    "cover_path": "covers/2611.21373/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21373.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21373.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "ALIVE: Making Streaming Video Models Interactive",
+    "link": "https://arxiv.org/abs/2611.21366",
+    "arxiv_id": "2611.21366",
+    "detail_path": "papers/2611.21366/",
+    "cover_path": "covers/2611.21366/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21366.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21366.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
+    "link": "https://arxiv.org/abs/2611.21339",
+    "arxiv_id": "2611.21339",
+    "detail_path": "papers/2611.21339/",
+    "cover_path": "covers/2611.21339/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21339.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21339.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Region-VAD: Video Anomaly Localization and Detection via Region Selection",
+    "link": "https://arxiv.org/abs/2611.21132",
+    "arxiv_id": "2611.21132",
+    "detail_path": "papers/2611.21132/",
+    "cover_path": "covers/2611.21132/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21132.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21132.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "How to Explain your Unexplainable Video Anomaly Detector",
+    "link": "https://arxiv.org/abs/2611.21131",
+    "arxiv_id": "2611.21131",
+    "detail_path": "papers/2611.21131/",
+    "cover_path": "covers/2611.21131/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21131.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21131.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "VAE Rhythm: Temporal Decoding Traces for AI-Generated Video Detection",
+    "link": "https://arxiv.org/abs/2611.21114",
+    "arxiv_id": "2611.21114",
+    "detail_path": "papers/2611.21114/",
+    "cover_path": "covers/2611.21114/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.21114.webp",
+    "paper_image_full_path": "assets/paper-images/2611.21114.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-13",
     "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
     "link": "https://arxiv.org/abs/2611.18550",
