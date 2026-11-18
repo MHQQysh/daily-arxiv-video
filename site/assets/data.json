@@ -1,5 +1,275 @@
 [
   {
+    "date": "2026-11-17",
+    "title": "FastFrames: Video Generation at Interactive Latency",
+    "link": "https://arxiv.org/abs/2611.23226",
+    "arxiv_id": "2611.23226",
+    "detail_path": "papers/2611.23226/",
+    "cover_path": "covers/2611.23226/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.23226.webp",
+    "paper_image_full_path": "assets/paper-images/2611.23226.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "VIVID: Beyond Static Multi-Image Reasoning with Localized Visual Differences and Textual Entity Dynamics in Video MLLMs",
+    "link": "https://arxiv.org/abs/2611.23153",
+    "arxiv_id": "2611.23153",
+    "detail_path": "papers/2611.23153/",
+    "cover_path": "covers/2611.23153/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.23153.webp",
+    "paper_image_full_path": "assets/paper-images/2611.23153.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "FrameRouter: Frame Budget Routing for Long-Video Understanding on Video-MME-v2 and Beyond",
+    "link": "https://arxiv.org/abs/2611.23055",
+    "arxiv_id": "2611.23055",
+    "detail_path": "papers/2611.23055/",
+    "cover_path": "covers/2611.23055/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.23055.webp",
+    "paper_image_full_path": "assets/paper-images/2611.23055.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#316b57",
+      "to": "#8bb174",
+      "spot": "#d9e7c7",
+      "ink": "#fbfff6",
+      "muted": "rgba(251, 255, 246, 0.82)",
+      "chip": "rgba(251, 255, 246, 0.16)",
+      "stroke": "rgba(251, 255, 246, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "When a Larger Guidance Scale Repairs Text-to-Video Failures and When It Does Not",
+    "link": "https://arxiv.org/abs/2611.23025",
+    "arxiv_id": "2611.23025",
+    "detail_path": "papers/2611.23025/",
+    "cover_path": "covers/2611.23025/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.23025.webp",
+    "paper_image_full_path": "assets/paper-images/2611.23025.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "The Rhythm of Generated Video: Latent Chunking Leaves Periodic Traces in Compressed Bitstreams",
+    "link": "https://arxiv.org/abs/2611.22996",
+    "arxiv_id": "2611.22996",
+    "detail_path": "papers/2611.22996/",
+    "cover_path": "covers/2611.22996/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22996.webp",
+    "paper_image_full_path": "assets/paper-images/2611.22996.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#ef6c3f",
+      "to": "#f6b13d",
+      "spot": "#ffd59c",
+      "ink": "#fff8ef",
+      "muted": "rgba(255, 248, 239, 0.82)",
+      "chip": "rgba(255, 248, 239, 0.16)",
+      "stroke": "rgba(255, 248, 239, 0.26)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling",
+    "link": "https://arxiv.org/abs/2611.22967",
+    "arxiv_id": "2611.22967",
+    "detail_path": "papers/2611.22967/",
+    "cover_path": "covers/2611.22967/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22967.webp",
+    "paper_image_full_path": "assets/paper-images/2611.22967.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+    "link": "https://arxiv.org/abs/2611.22925",
+    "arxiv_id": "2611.22925",
+    "detail_path": "papers/2611.22925/",
+    "cover_path": "covers/2611.22925/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22925.webp",
+    "paper_image_full_path": "assets/paper-images/2611.22925.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Harnessing Image Diffusion Prior for Photo-Realistic Video Restoration",
+    "link": "https://arxiv.org/abs/2611.22874",
+    "arxiv_id": "2611.22874",
+    "detail_path": "papers/2611.22874/",
+    "cover_path": "covers/2611.22874/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22874.webp",
+    "paper_image_full_path": "assets/paper-images/2611.22874.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#d84f61",
+      "to": "#f29c6b",
+      "spot": "#ffd6c4",
+      "ink": "#fff7f4",
+      "muted": "rgba(255, 247, 244, 0.82)",
+      "chip": "rgba(255, 247, 244, 0.16)",
+      "stroke": "rgba(255, 247, 244, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Beyond Co-Generation: Rethinking Jointness in Joint Audio-Video Generation",
+    "link": "https://arxiv.org/abs/2611.22857",
+    "arxiv_id": "2611.22857",
+    "detail_path": "papers/2611.22857/",
+    "cover_path": "covers/2611.22857/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22857.webp",
+    "paper_image_full_path": "assets/paper-images/2611.22857.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#177e89",
+      "to": "#5ec2a8",
+      "spot": "#c5f0de",
+      "ink": "#f5fffb",
+      "muted": "rgba(245, 255, 251, 0.82)",
+      "chip": "rgba(245, 255, 251, 0.16)",
+      "stroke": "rgba(245, 255, 251, 0.24)"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding",
+    "link": "https://arxiv.org/abs/2611.22790",
+    "arxiv_id": "2611.22790",
+    "detail_path": "papers/2611.22790/",
+    "cover_path": "covers/2611.22790/",
+    "paper_image_path": "assets/paper-images/thumbs/2611.22790.webp",
+    "paper_image_full_path": "assets/paper-images/2611.22790.webp",
+    "preview_text": "待生成",
+    "research_unit": "",
+    "hook_text": "待生成",
+    "key_points": [
+      "待生成"
+    ],
+    "reading_minutes": 1,
+    "section_count": 1,
+    "cover_theme": {
+      "from": "#6f4cc9",
+      "to": "#c57be8",
+      "spot": "#efd9ff",
+      "ink": "#fdf7ff",
+      "muted": "rgba(253, 247, 255, 0.82)",
+      "chip": "rgba(253, 247, 255, 0.16)",
+      "stroke": "rgba(253, 247, 255, 0.24)"
+    }
+  },
+  {
     "date": "2026-11-16",
     "title": "Reference Forcing: Long Video Generation with Region-Guided Drift Correction",
     "link": "https://arxiv.org/abs/2611.21559",

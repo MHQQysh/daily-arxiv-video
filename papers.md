@@ -1,5 +1,15 @@
 | 日期 | 标题 | 链接 | 简要总结 |
 | --- | --- | --- | --- |
+| 2026-11-17 | FastFrames: Video Generation at Interactive Latency | https://arxiv.org/abs/2611.23226 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | VIVID: Beyond Static Multi-Image Reasoning with Localized Visual Differences and Textual Entity Dynamics in Video MLLMs | https://arxiv.org/abs/2611.23153 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | FrameRouter: Frame Budget Routing for Long-Video Understanding on Video-MME-v2 and Beyond | https://arxiv.org/abs/2611.23055 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | When a Larger Guidance Scale Repairs Text-to-Video Failures and When It Does Not | https://arxiv.org/abs/2611.23025 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | The Rhythm of Generated Video: Latent Chunking Leaves Periodic Traces in Compressed Bitstreams | https://arxiv.org/abs/2611.22996 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling | https://arxiv.org/abs/2611.22967 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Code World Model 2.0: Towards Infinite Controllable Video Generation | https://arxiv.org/abs/2611.22925 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Harnessing Image Diffusion Prior for Photo-Realistic Video Restoration | https://arxiv.org/abs/2611.22874 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | Beyond Co-Generation: Rethinking Jointness in Joint Audio-Video Generation | https://arxiv.org/abs/2611.22857 | <details><summary>展开</summary>待生成</details> |
+| 2026-11-17 | NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding | https://arxiv.org/abs/2611.22790 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-16 | Reference Forcing: Long Video Generation with Region-Guided Drift Correction | https://arxiv.org/abs/2611.21559 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-16 | BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents | https://arxiv.org/abs/2611.21553 | <details><summary>展开</summary>待生成</details> |
 | 2026-11-16 | Quality and Similarity Indicators for Video-Based Heart Rate and Respiratory Rate Fusion: A Controlled Evaluation | https://arxiv.org/abs/2611.21419 | <details><summary>展开</summary>待生成</details> |

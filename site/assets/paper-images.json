@@ -34762,5 +34762,541 @@
     "inside_figure": true,
     "width": 1475,
     "height": 1067
+  },
+  "2611.22925": {
+    "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.22925",
+    "html_url": "https://arxiv.org/html/2611.22925v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.22925v1/data_sources.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 336,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22925v1/data_pipeline.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 205,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22925v1/causal_comparison.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 220,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22925v1/long_horizon.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 410,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22925v1/teaser.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 476,
+        "height": 243,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 55
+      }
+    ],
+    "path": "assets/paper-images/2611.22925.webp",
+    "image_url": "https://arxiv.org/html/2611.22925v1/data_sources.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 476,
+    "height": 336
+  },
+  "2611.23055": {
+    "title": "FrameRouter: Frame Budget Routing for Long-Video Understanding on Video-MME-v2 and Beyond",
+    "abs_url": "https://arxiv.org/abs/2611.23055",
+    "html_url": "https://arxiv.org/html/2611.23055v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.23055v1/group_level_pairwise_matrices_instruct.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 452,
+        "height": 257,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23055v1/intro.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 467,
+        "height": 174,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 85
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23055v1/group_level_pairwise_matrices_think.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 286,
+        "height": 163,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 70
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.23055.webp",
+    "image_url": "https://arxiv.org/html/2611.23055v1/group_level_pairwise_matrices_instruct.png",
+    "source": "img",
+    "score": 105,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 452,
+    "height": 257
+  },
+  "2611.23153": {
+    "title": "VIVID: Beyond Static Multi-Image Reasoning with Localized Visual Differences and Textual Entity Dynamics in Video MLLMs",
+    "abs_url": "https://arxiv.org/abs/2611.23153",
+    "html_url": "https://arxiv.org/html/2611.23153v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.23153v1/fig2_architecture.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 672,
+        "height": 364,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23153v1/fig1_teaser.png",
+        "source": "img",
+        "inside_figure": false,
+        "width": 480,
+        "height": 286,
+        "alt": "[Uncaptioned image]",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 55
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.23153.webp",
+    "image_url": "https://arxiv.org/html/2611.23153v1/fig2_architecture.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 672,
+    "height": 364
+  },
+  "2611.22967": {
+    "title": "CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling",
+    "abs_url": "https://arxiv.org/abs/2611.22967",
+    "html_url": "",
+    "path": "assets/paper-images/2611.22967.webp",
+    "image_url": "https://arxiv.org/pdf/2611.22967",
+    "source": "pdf:image",
+    "score": 70,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 480,
+    "height": 270
+  },
+  "2611.23025": {
+    "title": "When a Larger Guidance Scale Repairs Text-to-Video Failures and When It Does Not",
+    "abs_url": "https://arxiv.org/abs/2611.23025",
+    "html_url": "https://arxiv.org/html/2611.23025v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.23025v1/fig_prescription_rarecomp.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 365,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23025v1/fig_prescription_negation.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 365,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23025v1/fig_prescription_temporal.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 380,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23025v1/fig_default_completion.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 288,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23025v1/figure/fig_boundary_v2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 207,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.23025.webp",
+    "image_url": "https://arxiv.org/html/2611.23025v1/fig_prescription_rarecomp.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 365
+  },
+  "2611.22874": {
+    "title": "Harnessing Image Diffusion Prior for Photo-Realistic Video Restoration",
+    "abs_url": "https://arxiv.org/abs/2611.22874",
+    "html_url": "https://arxiv.org/html/2611.22874v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.22874v1/supp_visual_syn_pond1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 524,
+        "height": 613,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22874v1/supp_visual_syn_pond2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 524,
+        "height": 613,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22874v1/main_visual_syn_pond.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 524,
+        "height": 613,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22874v1/main_visual_real_videolq.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 524,
+        "height": 613,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22874v1/main_visual_real_film1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 524,
+        "height": 613,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_square",
+        "score": 120
+      }
+    ],
+    "path": "assets/paper-images/2611.22874.webp",
+    "image_url": "https://arxiv.org/html/2611.22874v1/supp_visual_syn_pond1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 524,
+    "height": 613
+  },
+  "2611.23226": {
+    "title": "FastFrames: Video Generation at Interactive Latency",
+    "abs_url": "https://arxiv.org/abs/2611.23226",
+    "html_url": "https://arxiv.org/html/2611.23226v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.23226v1/comparisons_fig_4.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 448,
+        "height": 522,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23226v1/fig_fastframes_pipeline_v400.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 429,
+        "height": 320,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23226v1/vae_ablation_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 211,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23226v1/figures/lingbot-demo.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 310,
+        "height": 210,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://arxiv.org/html/2611.23226v1/kv_ablation_fig.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 476,
+        "height": 294,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.23226.webp",
+    "image_url": "https://arxiv.org/html/2611.23226v1/comparisons_fig_4.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 448,
+    "height": 522
+  },
+  "2611.22857": {
+    "title": "Beyond Co-Generation: Rethinking Jointness in Joint Audio-Video Generation",
+    "abs_url": "https://arxiv.org/abs/2611.22857",
+    "html_url": "https://arxiv.org/html/2611.22857v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.22857v1/main.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 373,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22857v1/method.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 602,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_square",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22857v1/fig_qual_uvisbench_2x2_v3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 192,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 105
+      },
+      {
+        "url": "https://static.arxiv.org/static/design-system/latest/logos/arxiv-logo.svg",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "archive",
+        "classes": "",
+        "score": -130
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==",
+        "source": "img",
+        "inside_figure": false,
+        "width": null,
+        "height": null,
+        "alt": "[LOGO]",
+        "classes": "",
+        "score": -140
+      }
+    ],
+    "path": "assets/paper-images/2611.22857.webp",
+    "image_url": "https://arxiv.org/html/2611.22857v1/main.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 373
+  },
+  "2611.22790": {
+    "title": "NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding",
+    "abs_url": "https://arxiv.org/abs/2611.22790",
+    "html_url": "https://arxiv.org/html/2611.22790v1",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/html/2611.22790v1/figures/capabilities_author_20261115/domain1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 342,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22790v1/figures/pipeline_author_20261115/pipeline1.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 951,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_portrait",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22790v1/figures/appendix_author_20261115/A2.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 386,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22790v1/figures/appendix_author_20261115/A3.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 374,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_centering ltx_img_landscape",
+        "score": 120
+      },
+      {
+        "url": "https://arxiv.org/html/2611.22790v1/figures/overview_author_20261115/overview_core310.png",
+        "source": "img",
+        "inside_figure": true,
+        "width": 685,
+        "height": 259,
+        "alt": "Refer to caption",
+        "classes": "ltx_graphics ltx_img_landscape",
+        "score": 105
+      }
+    ],
+    "path": "assets/paper-images/2611.22790.webp",
+    "image_url": "https://arxiv.org/html/2611.22790v1/figures/capabilities_author_20261115/domain1.png",
+    "source": "img",
+    "score": 120,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 685,
+    "height": 342
+  },
+  "2611.22996": {
+    "title": "The Rhythm of Generated Video: Latent Chunking Leaves Periodic Traces in Compressed Bitstreams",
+    "abs_url": "https://arxiv.org/abs/2611.22996",
+    "html_url": "https://arxiv.org/html/2611.22996v1",
+    "path": "assets/paper-images/2611.22996.webp",
+    "image_url": "https://arxiv.org/html/2611.22996v1",
+    "source": "playwright:figure",
+    "score": 60,
+    "content_type": "image/png",
+    "inside_figure": true,
+    "width": 800,
+    "height": 198
   }
 }
